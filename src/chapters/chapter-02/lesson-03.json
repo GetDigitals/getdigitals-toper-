@@ -1,0 +1,227 @@
+{
+  "id": "chapter-02-lesson-03",
+  "chapterId": "chapter-02",
+  "order": 3,
+  "title": "Relationship between Zeros & Coefficients",
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🔗",
+    "headline": "Zeros & Coefficients",
+    "subtext": "The hidden connection revealed!"
+  },
+  "story": {
+    "text": "There is a beautiful and direct relationship between the zeros of a polynomial and its coefficients. This relationship helps us find zeros without factorizing and even form polynomials from given zeros!"
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": "If α and β are the zeros of quadratic polynomial ax² + bx + c (where a ≠ 0), then:"
+    },
+    {
+      "type": "text",
+      "content": "Sum of zeros: α + β = -b/a"
+    },
+    {
+      "type": "text",
+      "content": "Product of zeros: αβ = c/a"
+    },
+    {
+      "type": "text",
+      "content": "These formulas directly connect zeros to coefficients!"
+    },
+    {
+      "type": "text",
+      "content": "💡 Yaad rakho: Sum = -b/a, Product = c/a"
+    },
+    {
+      "type": "text",
+      "content": "Quadratic: Sum and Product of Zeros:"
+    },
+    {
+      "type": "formula",
+      "content": "α + β = -b/a    and    αβ = c/a"
+    },
+    {
+      "type": "text",
+      "content": "Where α and β are zeros of ax² + bx + c = 0"
+    },
+    {
+      "type": "text",
+      "content": "Example: For x² - 5x + 6 = 0\na = 1, b = -5, c = 6\nα + β = -(-5)/1 = 5\nαβ = 6/1 = 6\nZeros: 2 and 3 (since 2+3=5 and 2×3=6)"
+    },
+    {
+      "type": "text",
+      "content": "If α and β are given zeros, the quadratic polynomial can be written as:"
+    },
+    {
+      "type": "text",
+      "content": "p(x) = x² - (α + β)x + αβ"
+    },
+    {
+      "type": "text",
+      "content": "Yaani: x² - (Sum of zeros)x + (Product of zeros)"
+    },
+    {
+      "type": "text",
+      "content": "Ya phir: p(x) = k[x² - (α + β)x + αβ] jahan k ≠ 0"
+    },
+    {
+      "type": "text",
+      "content": "💡 Shortcut: x² - (Sum)x + (Product) = 0"
+    },
+    {
+      "type": "text",
+      "content": "If α, β, and γ are the zeros of cubic polynomial ax³ + bx² + cx + d (where a ≠ 0), then:"
+    },
+    {
+      "type": "text",
+      "content": "α + β + γ = -b/a"
+    },
+    {
+      "type": "text",
+      "content": "αβ + βγ + γα = c/a"
+    },
+    {
+      "type": "text",
+      "content": "αβγ = -d/a"
+    },
+    {
+      "type": "text",
+      "content": "💡 Pattern: Alternating signs! Sum = -b/a, Pair sum = c/a, Product = -d/a"
+    },
+    {
+      "type": "text",
+      "content": "Cubic: All Relationships:"
+    },
+    {
+      "type": "formula",
+      "content": "α + β + γ = -b/a\nαβ + βγ + γα = c/a\nαβγ = -d/a"
+    },
+    {
+      "type": "text",
+      "content": "Where α, β, γ are zeros of ax³ + bx² + cx + d = 0"
+    },
+    {
+      "type": "text",
+      "content": "Example: For x³ - 6x² + 11x - 6 = 0\na=1, b=-6, c=11, d=-6\nα+β+γ = 6, αβ+βγ+γα = 11, αβγ = 6\nZeros: 1, 2, 3 ✓"
+    }
+  ],
+  "examples": [
+    {
+      "problem": "Find the sum and product of zeros of 2x² - 8x + 6.",
+      "steps": [
+        "Comparing with ax² + bx + c:",
+        "a = 2, b = -8, c = 6",
+        "Sum of zeros = -b/a = -(-8)/2 = 8/2 = 4",
+        "Product of zeros = c/a = 6/2 = 3",
+        "Verify: 2x² - 8x + 6 = 2(x² - 4x + 3) = 2(x - 1)(x - 3)",
+        "Zeros: 1 and 3",
+        "Sum = 1 + 3 = 4 ✓",
+        "Product = 1 × 3 = 3 ✓"
+      ]
+    },
+    {
+      "problem": "Find a quadratic polynomial whose zeros are 3 and -2.",
+      "steps": [
+        "Given: α = 3, β = -2",
+        "Sum = α + β = 3 + (-2) = 1",
+        "Product = αβ = 3 × (-2) = -6",
+        "Polynomial:",
+        "p(x) = x² - (Sum)x + Product",
+        "p(x) = x² - (1)x + (-6)",
+        "p(x) = x² - x - 6",
+        "Verify: x² - x - 6 = (x - 3)(x + 2)",
+        "Zeros: 3 and -2 ✓"
+      ]
+    },
+    {
+      "problem": "Find a cubic polynomial whose zeros are 1, 2, and 3.",
+      "steps": [
+        "Given: α = 1, β = 2, γ = 3",
+        "α + β + γ = 1 + 2 + 3 = 6",
+        "αβ + βγ + γα = (1×2) + (2×3) + (3×1) = 2 + 6 + 3 = 11",
+        "αβγ = 1 × 2 × 3 = 6",
+        "Polynomial:",
+        "p(x) = x³ - (Sum)x² + (Pair Sum)x - Product",
+        "p(x) = x³ - 6x² + 11x - 6"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "If α, β are zeros of 2x² - 8x + 6, then α + β = ?",
+        "correct": 1,
+        "explanation": "α + β = -b/a = -(-8)/2 = 8/2 = 4",
+        "options": [
+          "8",
+          "4",
+          "3",
+          "6"
+        ]
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "A quadratic with zeros 3 and -2 is:",
+        "correct": 0,
+        "explanation": "Sum = 3 + (-2) = 1, Product = 3 × (-2) = -6\nPolynomial = x² - (1)x + (-6) = x² - x - 6",
+        "options": [
+          "x² - x - 6",
+          "x² + x - 6",
+          "x² - x + 6",
+          "x² + x + 6"
+        ]
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "If α, β, γ are zeros of x³ - 6x² + 11x - 6, then αβγ = ?",
+        "correct": 0,
+        "explanation": "For cubic ax³ + bx² + cx + d: αβγ = -d/a = -(-6)/1 = 6",
+        "options": [
+          "6",
+          "-6",
+          "11",
+          "-11"
+        ]
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": "For quadratic ax² + bx + c, the product of zeros is -c/a.",
+        "correct": false,
+        "explanation": "Product of zeros = c/a (NOT -c/a). Sirf sum mein negative sign hota hai: α + β = -b/a"
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "If sum of zeros = 5 and product = 6, the polynomial is:",
+        "correct": 1,
+        "explanation": "p(x) = x² - (Sum)x + Product = x² - 5x + 6\nVerify: x² - 5x + 6 = (x - 2)(x - 3), zeros: 2 and 3 ✓",
+        "options": [
+          "x² + 5x + 6",
+          "x² - 5x + 6",
+          "x² - 5x - 6",
+          "x² + 5x - 6"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Quadratic ax² + bx + c: Sum = -b/a, Product = c/a",
+    "Quadratic from zeros: x² - (Sum)x + Product",
+    "Cubic ax³ + bx² + cx + d:\n  Sum = -b/a, Pair Sum = c/a, Product = -d/a",
+    "Cubic from zeros: x³ - (Sum)x² + (Pair Sum)x - Product",
+    "Signs alternate: -, +, - for cubic",
+    "These relationships save time in exams!"
+  ],
+  "summary": "Key Points to Remember. Quadratic ax² + bx + c: Sum = -b/a, Product = c/a Quadratic from zeros: x² - (Sum)x + Product",
+  "reward": {
+    "badge": null
+  }
+}

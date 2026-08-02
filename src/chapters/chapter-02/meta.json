@@ -7,7 +7,7 @@
   "title": "Polynomials",
   "icon": "📊",
   "color": "#4FA8FF",
-  "description": "Polynomials — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "description": "Polynomial ka introduction, zeros ka geometric matlab, zeros-coefficients ka relationship, aur division algorithm — algebra ki agli badi seedhi.",
   "xpReward": 300,
   "coinReward": 60,
   "badge": {

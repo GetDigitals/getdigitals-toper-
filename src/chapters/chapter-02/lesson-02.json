@@ -1,0 +1,233 @@
+{
+  "id": "chapter-02-lesson-02",
+  "chapterId": "chapter-02",
+  "order": 2,
+  "title": "Geometric Meaning of Zeros",
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📐",
+    "headline": "Zeros & Graphs",
+    "subtext": "Where the graph meets the x-axis"
+  },
+  "story": {
+    "text": "The zeros of a polynomial are the x-coordinates where its graph intersects the x-axis. Let's explore the beautiful connection between algebra and geometry!"
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": "For a polynomial y = p(x), the zeros are the points where y = 0, i.e., where the graph crosses or touches the x-axis."
+    },
+    {
+      "type": "text",
+      "content": "Zero = x-intercept of the graph"
+    },
+    {
+      "type": "text",
+      "content": "Linear polynomial (degree 1): Graph is a straight line → 1 zero"
+    },
+    {
+      "type": "text",
+      "content": "Quadratic polynomial (degree 2): Graph is a parabola → up to 2 zeros"
+    },
+    {
+      "type": "text",
+      "content": "Cubic polynomial (degree 3): Graph has up to 3 zeros"
+    },
+    {
+      "type": "text",
+      "content": "💡 Number of real zeros ≤ Degree of polynomial"
+    },
+    {
+      "type": "text",
+      "content": "A linear polynomial p(x) = ax + b (where a ≠ 0) has exactly one zero."
+    },
+    {
+      "type": "text",
+      "content": "Graph: A straight line"
+    },
+    {
+      "type": "text",
+      "content": "Zero: x = -b/a (where line crosses x-axis)"
+    },
+    {
+      "type": "text",
+      "content": "Example: p(x) = 2x - 4 → Zero at x = 2"
+    },
+    {
+      "type": "text",
+      "content": "The line always crosses the x-axis at exactly one point"
+    },
+    {
+      "type": "text",
+      "content": "A quadratic polynomial p(x) = ax² + bx + c (where a ≠ 0) has a parabola as its graph. The number of zeros depends on where the parabola meets the x-axis."
+    },
+    {
+      "type": "text",
+      "content": "Case 1: Parabola cuts x-axis at 2 points → 2 distinct real zeros"
+    },
+    {
+      "type": "text",
+      "content": "Case 2: Parabola touches x-axis at 1 point → 1 repeated real zero"
+    },
+    {
+      "type": "text",
+      "content": "Case 3: Parabola doesn't meet x-axis → No real zeros (complex zeros)"
+    },
+    {
+      "type": "text",
+      "content": "Discriminant (D) decides the number of zeros:"
+    },
+    {
+      "type": "formula",
+      "content": "D = b² - 4ac"
+    },
+    {
+      "type": "text",
+      "content": "For quadratic ax² + bx + c = 0:"
+    },
+    {
+      "type": "text",
+      "content": "D > 0 → 2 distinct real zeros\nD = 0 → 1 repeated real zero\nD < 0 → No real zeros (complex)"
+    },
+    {
+      "type": "text",
+      "content": "A cubic polynomial p(x) = ax³ + bx² + cx + d can have 1, 2, or 3 real zeros."
+    },
+    {
+      "type": "text",
+      "content": "3 real zeros: Graph crosses x-axis at 3 points"
+    },
+    {
+      "type": "text",
+      "content": "1 real + 2 complex zeros: Graph crosses x-axis at 1 point only"
+    },
+    {
+      "type": "text",
+      "content": "2 real zeros (one repeated): Graph crosses and touches x-axis"
+    },
+    {
+      "type": "text",
+      "content": "Shape: Like a 'wave' or 'S' curve"
+    }
+  ],
+  "examples": [
+    {
+      "problem": "For p(x) = x² - 5x + 6, find the zeros and describe the graph.",
+      "steps": [
+        "p(x) = x² - 5x + 6",
+        "Factorizing:",
+        "p(x) = (x - 2)(x - 3)",
+        "Zeros: x = 2 and x = 3",
+        "Graph:",
+        "• Parabola opens upwards (a = 1 > 0)",
+        "• Cuts x-axis at (2, 0) and (3, 0)",
+        "• Vertex at x = 2.5",
+        "• Discriminant D = 25 - 24 = 1 > 0 → 2 real zeros"
+      ]
+    },
+    {
+      "problem": "For p(x) = x² - 4x + 4, find the zeros and describe the graph.",
+      "steps": [
+        "p(x) = x² - 4x + 4",
+        "Factorizing:",
+        "p(x) = (x - 2)²",
+        "Zero: x = 2 (repeated zero)",
+        "Graph:",
+        "• Parabola opens upwards",
+        "• Touches x-axis at exactly one point (2, 0)",
+        "• Discriminant D = 16 - 16 = 0 → 1 repeated zero"
+      ]
+    },
+    {
+      "problem": "For p(x) = x² + x + 1, check if it has real zeros.",
+      "steps": [
+        "p(x) = x² + x + 1",
+        "Discriminant:",
+        "D = b² - 4ac",
+        "D = (1)² - 4(1)(1)",
+        "D = 1 - 4 = -3",
+        "Since D < 0:",
+        "• No real zeros",
+        "• Graph doesn't intersect x-axis",
+        "• Parabola is completely above x-axis (a > 0)"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "A quadratic polynomial can have at most how many real zeros?",
+        "correct": 1,
+        "explanation": "Quadratic polynomial ki degree 2 hoti hai. Maximum real zeros = degree = 2.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "If the graph of p(x) does not intersect the x-axis, then:",
+        "correct": 3,
+        "explanation": "Graph x-axis ko na chhune ka matlab: no real zeros. Lekin complex zeros hamesha exist karte hain (Fundamental Theorem of Algebra).",
+        "options": [
+          "p(x) has no zeros",
+          "p(x) has real zeros",
+          "p(x) has complex zeros",
+          "Both A and C"
+        ]
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "For x² - 6x + 9 = 0, the discriminant D is:",
+        "correct": 1,
+        "explanation": "D = b² - 4ac = (-6)² - 4(1)(9) = 36 - 36 = 0. Isliye 1 repeated real zero hoga.",
+        "options": [
+          "36",
+          "0",
+          "-36",
+          "9"
+        ]
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": "A linear polynomial always has exactly one real zero.",
+        "correct": true,
+        "explanation": "True! Linear polynomial ax + b = 0 ka hamesha ek hi solution hota hai: x = -b/a."
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "If D < 0 for a quadratic, the graph:",
+        "correct": 2,
+        "explanation": "D < 0 means no real roots, isliye graph x-axis ko kabhi nahi milega.",
+        "options": [
+          "Cuts x-axis at 2 points",
+          "Touches x-axis",
+          "Does not meet x-axis",
+          "Passes through origin"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Zero = x-coordinate where graph meets x-axis",
+    "Linear (degree 1): Always 1 real zero",
+    "Quadratic (degree 2): 0, 1, or 2 real zeros (depends on D = b² - 4ac)",
+    "Cubic (degree 3): 1, 2, or 3 real zeros",
+    "Number of real zeros can never exceed the degree",
+    "If D > 0: 2 zeros, D = 0: 1 zero, D < 0: No real zeros"
+  ],
+  "summary": "Key Points to Remember. Zero = x-coordinate where graph meets x-axis Linear (degree 1): Always 1 real zero",
+  "reward": {
+    "badge": null
+  }
+}
