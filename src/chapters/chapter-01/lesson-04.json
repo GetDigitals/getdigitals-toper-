@@ -1,0 +1,71 @@
+{
+  "id": "chapter-01-lesson-04",
+  "chapterId": "chapter-01",
+  "order": 4,
+  "title": "Irrational Numbers & Proof by Contradiction",
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "√",
+    "headline": "Numbers That Never End Neatly",
+    "subtext": "√2, √3, √5 jaise numbers ko fraction (p/q) mein kabhi exactly nahi likha ja sakta — aur ye hum prove kar sakte hain!"
+  },
+  "story": {
+    "text": "Irrational numbers ka decimal expansion kabhi khatam nahi hota aur na hi repeat karta hai — jaise √2 = 1.41421356... hamesha chalta rehta hai. FTA ka use karke hum prove kar sakte hain ki √2 ko p/q (fraction) form mein likhna impossible hai."
+  },
+  "explanation": [
+    { "type": "text", "content": "Proof by contradiction ka tareeka: pehle assume karo ki √2 rational hai (yani p/q form mein likha ja sakta hai, jahan p,q co-prime integers hain aur q≠0)." },
+    { "type": "text", "content": "Phir dikhao ki ye assumption ek contradiction (galti) ki taraf le jaata hai — matlab p aur q dono even nikalte hain, jo co-prime hone ke against hai." },
+    { "type": "text", "content": "Isliye hamara original assumption galat tha — √2 irrational hai." },
+    { "type": "formula", "content": "√2 ≠ p/q for any integers p, q (q≠0)" }
+  ],
+  "examples": [
+    {
+      "problem": "Prove karo ki √2 irrational hai.",
+      "steps": [
+        "Assume √2 = p/q, jahan p,q co-prime hain",
+        "Squaring: 2 = p²/q², so p² = 2q²",
+        "Isse p² even hai, isliye p bhi even hai (p = 2m)",
+        "Substitute: (2m)² = 2q² → 4m² = 2q² → q² = 2m²",
+        "Isse q² bhi even hai, isliye q bhi even hai",
+        "Par p aur q dono even hain — ye co-prime hone ke contradiction hai!",
+        "Isliye humara assumption galat tha → √2 irrational hai ✓"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "√2 irrational hai — ye prove karne ke liye kaunsa method use hota hai?",
+        "options": ["Direct substitution", "Proof by contradiction", "Trial and error", "Graphical method"],
+        "correct": 1,
+        "explanation": "Hum √2 ko rational assume karke ek contradiction tak pahunchte hain, jisse prove hota hai ki wo irrational hai."
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": "Har irrational number ka decimal expansion terminate ya repeat karta hai.",
+        "correct": false,
+        "explanation": "Galat — irrational numbers ka decimal expansion na terminate karta hai na repeat karta hai."
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": "Agar p² even hai, to hum kya keh sakte hain p ke baare mein?",
+        "options": ["p odd hai", "p even hai", "p prime hai", "kuch nahi keh sakte"],
+        "correct": 1,
+        "explanation": "Agar p odd hota, to p² bhi odd hota. Isliye p² even hone ka matlab hai p bhi even hai."
+      }
+    ]
+  },
+  "notes": [
+    "Irrational numbers ka decimal kabhi terminate/repeat nahi karta",
+    "Proof by contradiction: rational assume karo → contradiction dikhao → isliye irrational",
+    "√2, √3, √5, π sab classic irrational numbers hain"
+  ],
+  "summary": "Contradiction proof ek powerful tool hai jisse hum kisi bhi √p (p prime) ko irrational prove kar sakte hain.",
+  "reward": { "badge": null }
+}

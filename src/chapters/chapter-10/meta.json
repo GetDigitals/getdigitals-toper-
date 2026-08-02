@@ -1,0 +1,21 @@
+{
+  "id": "chapter-10",
+  "order": 10,
+  "class": 10,
+  "subject": "Maths",
+  "board": "CBSE",
+  "title": "Circles",
+  "icon": "⭕",
+  "color": "#FFC93C",
+  "description": "Circles — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 300,
+  "coinReward": 60,
+  "badge": {
+    "id": "chapter-10-master",
+    "name": "Circles Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

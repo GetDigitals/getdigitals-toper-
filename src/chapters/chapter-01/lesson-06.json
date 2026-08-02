@@ -1,0 +1,67 @@
+{
+  "id": "chapter-01-lesson-06",
+  "chapterId": "chapter-01",
+  "order": 6,
+  "title": "Chapter Wrap-up & Mixed Problems",
+  "estimatedMinutes": 10,
+  "xpReward": 60,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🎯",
+    "headline": "Real Numbers — Full Recap",
+    "subtext": "Sab concepts ek saath practice karo — Division Lemma se leke Decimal Expansion tak."
+  },
+  "story": {
+    "text": "Ye lesson chapter ka mixed-review hai — board exam mein Real Numbers se aksar HCF/LCM word problems aur irrational proof pooche jaate hain."
+  },
+  "explanation": [
+    { "type": "text", "content": "Poore chapter ka quick recap:" },
+    { "type": "text", "content": "1. Euclid's Division Lemma: a = bq + r, 0 ≤ r < b" },
+    { "type": "text", "content": "2. Euclid's Algorithm: HCF = last non-zero remainder" },
+    { "type": "text", "content": "3. Fundamental Theorem of Arithmetic: unique prime factorization" },
+    { "type": "text", "content": "4. Irrational proof: contradiction method" },
+    { "type": "text", "content": "5. Decimal expansion: q = 2^m × 5^n → terminating" }
+  ],
+  "examples": [
+    {
+      "problem": "Do buses 60 min aur 90 min mein ek round trip karti hain. Agar dono 8 AM ko saath start hui, to wo dobara saath kab milengi?",
+      "steps": [
+        "Ye LCM ka question hai: LCM(60, 90)",
+        "60 = 2²×3×5, 90 = 2×3²×5",
+        "LCM = 2²×3²×5 = 180 minutes",
+        "180 minutes = 3 hours",
+        "Answer: 11 AM ko dobara saath milengi"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": "Teen ghante ke intervals mein baj rahi teen bells ek saath 6, 8, aur 12 minute ke gaps par bajti hain. Wo dobara ek saath kitne minute baad bajengi?",
+        "options": ["24 minutes", "48 minutes", "12 minutes", "36 minutes"],
+        "correct": 0,
+        "explanation": "LCM(6,8,12) = 24. Ye classic LCM word problem hai."
+      },
+      {
+        "type": "match",
+        "difficulty": "medium",
+        "question": "Concept ko uski definition se match karo",
+        "pairs": [
+          { "left": "Euclid's Lemma", "right": "a = bq + r" },
+          { "left": "FTA", "right": "Unique prime factorization" },
+          { "left": "Irrational proof", "right": "Contradiction method" },
+          { "left": "Terminating decimal", "right": "q = 2^m × 5^n" }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "HCF/LCM word problems mein 'together again' → LCM, 'max equal groups' → HCF",
+    "Irrational proof ka structure yaad rakho: assume rational → contradiction → conclude irrational",
+    "Denominator factorize karke decimal type turant pata chal jaata hai"
+  ],
+  "summary": "Real Numbers chapter complete! Ab tum HCF, LCM, irrational proofs, aur decimal expansion — sab confidently solve kar sakte ho.",
+  "reward": { "badge": { "id": "real-numbers-master", "name": "Real Numbers Master", "icon": "🏅" } }
+}

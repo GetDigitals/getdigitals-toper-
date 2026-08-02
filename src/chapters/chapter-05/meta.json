@@ -1,0 +1,21 @@
+{
+  "id": "chapter-05",
+  "order": 5,
+  "class": 10,
+  "subject": "Maths",
+  "board": "CBSE",
+  "title": "Arithmetic Progressions",
+  "icon": "🔢",
+  "color": "#FFC93C",
+  "description": "Arithmetic Progressions — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 300,
+  "coinReward": 60,
+  "badge": {
+    "id": "chapter-05-master",
+    "name": "Arithmetic Progressions Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

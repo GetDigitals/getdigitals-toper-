@@ -1,0 +1,21 @@
+{
+  "id": "chapter-13",
+  "order": 13,
+  "class": 10,
+  "subject": "Maths",
+  "board": "CBSE",
+  "title": "Surface Areas and Volumes",
+  "icon": "📦",
+  "color": "#35C97F",
+  "description": "Surface Areas and Volumes — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 300,
+  "coinReward": 60,
+  "badge": {
+    "id": "chapter-13-master",
+    "name": "Surface Areas and Volumes Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

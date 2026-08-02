@@ -1,0 +1,31 @@
+{
+  "chapterId": "chapter-01",
+  "flashcards": [
+    { "front": "Euclid's Division Lemma", "back": "a = bq + r, jahan 0 ≤ r < b" },
+    { "front": "HCF nikalne ka formula", "back": "Euclid's Algorithm: last non-zero remainder = HCF" },
+    { "front": "HCF × LCM = ?", "back": "Product of the two numbers (a × b)" },
+    { "front": "Terminating decimal ka condition", "back": "q = 2^m × 5^n (denominator lowest form mein)" },
+    { "front": "Irrational number prove karne ka method", "back": "Proof by Contradiction" }
+  ],
+  "formulaSheet": [
+    { "label": "Division Lemma", "formula": "a = bq + r, 0 ≤ r < b" },
+    { "label": "HCF-LCM Relation", "formula": "HCF(a,b) × LCM(a,b) = a × b" },
+    { "label": "Terminating Decimal", "formula": "q = 2^m × 5^n" }
+  ],
+  "mindMap": {
+    "root": "Real Numbers",
+    "branches": [
+      { "label": "Euclid's Lemma", "children": ["a = bq + r", "0 ≤ r < b"] },
+      { "label": "HCF Algorithm", "children": ["Repeated division", "Last non-zero remainder"] },
+      { "label": "FTA", "children": ["Unique prime factorization", "HCF/LCM shortcut"] },
+      { "label": "Irrational Numbers", "children": ["√2, √3, √5", "Contradiction proof"] },
+      { "label": "Decimal Expansion", "children": ["Terminating: 2^m×5^n", "Non-terminating repeating: other primes"] }
+    ]
+  },
+  "rapidFire": [
+    { "question": "HCF(18,24)?", "explanation": "6" },
+    { "question": "Is √7 rational?", "explanation": "No, irrational" },
+    { "question": "1/8 terminates?", "explanation": "Yes, 8=2³" },
+    { "question": "LCM(4,6)?", "explanation": "12" }
+  ]
+}

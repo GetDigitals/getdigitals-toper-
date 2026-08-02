@@ -1,0 +1,21 @@
+{
+  "id": "chapter-03",
+  "order": 3,
+  "class": 10,
+  "subject": "Maths",
+  "board": "CBSE",
+  "title": "Pair of Linear Equations in Two Variables",
+  "icon": "📈",
+  "color": "#35C97F",
+  "description": "Pair of Linear Equations in Two Variables — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 300,
+  "coinReward": 60,
+  "badge": {
+    "id": "chapter-03-master",
+    "name": "Pair of Linear Equations in Two Variables Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

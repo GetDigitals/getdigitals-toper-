@@ -1,0 +1,14 @@
+{
+  "name": "GetDigitals Topper — CBSE Class 10 Maths",
+  "short_name": "GD Topper",
+  "description": "Learn • Practice • Score 95%+",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0E14",
+  "theme_color": "#0B0E14",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

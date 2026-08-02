@@ -1,0 +1,79 @@
+{
+  "id": "chapter-01-lesson-01",
+  "chapterId": "chapter-01",
+  "order": 1,
+  "title": "Euclid's Division Lemma",
+  "estimatedMinutes": 10,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📐",
+    "headline": "Euclid's Division Lemma",
+    "subtext": "Har division ka ek pakka rule — jisse hum kisi bhi do numbers ka HCF nikaal sakte hain."
+  },
+  "story": {
+    "text": "Socho tumhare paas 455 toffees hain aur unhe 42 dosto mein baantna hai, jitna ho sake barabar. Har dost ko 10 toffees milengi aur 35 bach jayengi. Yahi idea Euclid ne 2300 saal pehle likha tha — division mein hamesha ek quotient aur ek remainder hota hai, aur remainder hamesha divisor se chhota hota hai."
+  },
+  "explanation": [
+    { "type": "text", "content": "Euclid's Division Lemma kehta hai: agar a aur b do positive integers hain, to unique integers q aur r exist karte hain jo is equation ko satisfy karte hain:" },
+    { "type": "formula", "content": "a = bq + r,  where 0 ≤ r < b" },
+    { "type": "text", "content": "Yahan 'a' dividend hai, 'b' divisor hai, 'q' quotient hai, aur 'r' remainder hai. Remainder hamesha 0 se lekar (b−1) tak hi ho sakta hai — kabhi bhi divisor se bada nahi." },
+    { "type": "text", "content": "Ye lemma sirf ek observation nahi, balki ek proven theorem hai jo Euclid's Division Algorithm ki base banata hai — jisse hum do numbers ka HCF nikaalte hain." }
+  ],
+  "examples": [
+    {
+      "problem": "455 ko 42 se divide karne par a = bq + r form likho.",
+      "steps": [
+        "455 ÷ 42 = 10 quotient, remainder nikaalte hain",
+        "42 × 10 = 420",
+        "455 − 420 = 35 (remainder)",
+        "Check: 0 ≤ 35 < 42 ✓",
+        "Answer: 455 = 42 × 10 + 35"
+      ]
+    },
+    {
+      "problem": "17 ko 5 se divide karke a = bq + r form likho.",
+      "steps": [
+        "17 ÷ 5 = 3 quotient",
+        "5 × 3 = 15",
+        "17 − 15 = 2 (remainder)",
+        "Check: 0 ≤ 2 < 5 ✓",
+        "Answer: 17 = 5 × 3 + 2"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": "Euclid's Division Lemma ke according, a = bq + r mein remainder r ki range kya hai?",
+        "options": ["0 ≤ r < b", "0 < r ≤ b", "0 ≤ r ≤ b", "r > b"],
+        "correct": 0,
+        "explanation": "Remainder hamesha 0 se le kar divisor se ek kam tak hota hai — kabhi divisor ke barabar ya usse bada nahi."
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": "Euclid's Division Lemma sirf positive integers ke liye kaam karta hai.",
+        "correct": true,
+        "explanation": "Sahi — ye lemma positive integers a aur b ke liye define hota hai."
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "225 ko 135 se divide karne par quotient aur remainder kya honge?",
+        "options": ["q=1, r=90", "q=2, r=−45", "q=1, r=45", "q=0, r=225"],
+        "correct": 0,
+        "explanation": "135 × 1 = 135, 225 − 135 = 90. Check: 0 ≤ 90 < 135 ✓"
+      }
+    ]
+  },
+  "notes": [
+    "Formula yaad rakho: a = bq + r, jahan 0 ≤ r < b",
+    "'a' hamesha dividend, 'b' divisor",
+    "Remainder kabhi negative ya divisor se bada nahi ho sakta"
+  ],
+  "summary": "Euclid's Division Lemma har division ko ek unique quotient-remainder pair deta hai — yahi agla lesson (HCF Algorithm) ki foundation hai.",
+  "reward": { "badge": null }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-14",
+  "order": 14,
+  "class": 10,
+  "subject": "Maths",
+  "board": "CBSE",
+  "title": "Statistics",
+  "icon": "📉",
+  "color": "#E8761A",
+  "description": "Statistics — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 300,
+  "coinReward": 60,
+  "badge": {
+    "id": "chapter-14-master",
+    "name": "Statistics Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

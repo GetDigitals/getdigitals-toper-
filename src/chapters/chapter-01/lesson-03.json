@@ -1,0 +1,73 @@
+{
+  "id": "chapter-01-lesson-03",
+  "chapterId": "chapter-01",
+  "order": 3,
+  "title": "Fundamental Theorem of Arithmetic",
+  "estimatedMinutes": 11,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🧩",
+    "headline": "Every Number's Unique Fingerprint",
+    "subtext": "Har composite number ko prime factors ke ek hi unique combination mein likha ja sakta hai."
+  },
+  "story": {
+    "text": "Jaise har insaan ka fingerprint unique hota hai, waise hi har number ka prime factorization unique hota hai — order chahe kuch bhi ho. 12 hamesha 2×2×3 hi rahega, chahe tum likho 2×3×2 ya 3×2×2."
+  },
+  "explanation": [
+    { "type": "text", "content": "Fundamental Theorem of Arithmetic (FTA) kehta hai: har composite number ko prime numbers ke product ke roop mein likha ja sakta hai, aur ye factorization unique hoti hai (factors ke order ko chhod kar)." },
+    { "type": "formula", "content": "N = p1^a1 × p2^a2 × p3^a3 × ..." },
+    { "type": "text", "content": "Iska sabse bada use hai HCF aur LCM nikaalna jab prime factorization pata ho:" },
+    { "type": "formula", "content": "HCF = product of smallest powers of common primes" },
+    { "type": "formula", "content": "LCM = product of greatest powers of all primes involved" }
+  ],
+  "examples": [
+    {
+      "problem": "96 aur 404 ka HCF aur LCM prime factorization se nikaalo.",
+      "steps": [
+        "96 = 2^5 × 3",
+        "404 = 2^2 × 101",
+        "HCF = 2^2 = 4 (common prime ka smallest power)",
+        "LCM = 2^5 × 3 × 101 = 9696",
+        "Check: HCF × LCM = 4 × 9696 = 38784 = 96 × 404 ✓"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": "Fundamental Theorem of Arithmetic kis cheez ki uniqueness batata hai?",
+        "options": ["Addition ki", "Prime factorization ki", "Division ki", "Subtraction ki"],
+        "correct": 1,
+        "explanation": "FTA kehta hai har composite number ka prime factorization unique hota hai (order chhod kar)."
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "Agar HCF(a,b) = 4 aur a×b = 240, to LCM(a,b) kya hoga?",
+        "options": ["40", "60", "20", "80"],
+        "correct": 1,
+        "explanation": "HCF × LCM = a × b, isliye LCM = 240/4 = 60."
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "medium",
+        "question": "Blanks fill karo: 72 = 2^3 × ___^2",
+        "sentenceParts": ["72 = 2^3 × ", "^2"],
+        "blanks": ["3"],
+        "tokens": ["2", "3", "5", "7"],
+        "explanation": "72 = 8 × 9 = 2^3 × 3^2"
+      }
+    ]
+  },
+  "notes": [
+    "Har composite number = unique prime factors ka product",
+    "HCF = common primes ki smallest powers",
+    "LCM = saare primes ki greatest powers",
+    "HCF × LCM = Product of the two numbers"
+  ],
+  "summary": "FTA se hume pata chalta hai ki prime factorization unique hai — isi se HCF aur LCM turant nikal sakte hain, bina long division ke.",
+  "reward": { "badge": { "id": "prime-detective", "name": "Prime Detective", "icon": "🔍" } }
+}

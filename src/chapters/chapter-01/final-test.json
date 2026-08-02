@@ -1,0 +1,17 @@
+{
+  "chapterId": "chapter-01",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    { "type": "mcq", "question": "Euclid's Division Lemma: a = bq + r mein r ki range?", "options": ["0 ≤ r < b", "0 < r ≤ b", "r > b", "r = b"], "correct": 0, "explanation": "Remainder hamesha 0 se divisor-1 tak hota hai." },
+    { "type": "mcq", "question": "HCF(96, 404) kya hai?", "options": ["2", "4", "8", "12"], "correct": 1, "explanation": "Euclid's algorithm se HCF = 4." },
+    { "type": "truefalse", "question": "√5 ek rational number hai.", "correct": false, "explanation": "√5 irrational hai — proof by contradiction se sabit hota hai." },
+    { "type": "mcq", "question": "72 ka prime factorization kya hai?", "options": ["2³×3²", "2²×3³", "2×3⁴", "2⁴×3"], "correct": 0, "explanation": "72 = 8×9 = 2³×3²" },
+    { "type": "mcq", "question": "Kaunsa fraction terminating decimal dega?", "options": ["1/6", "1/7", "1/8", "1/12"], "correct": 2, "explanation": "8 = 2³, sirf 2 hai isliye terminating." },
+    { "type": "mcq", "question": "Agar HCF(a,b)=6 aur a×b=108, to LCM kya hoga?", "options": ["12", "18", "24", "36"], "correct": 1, "explanation": "LCM = (a×b)/HCF = 108/6 = 18." },
+    { "type": "truefalse", "question": "Fundamental Theorem of Arithmetic sirf prime numbers par apply hota hai.", "correct": false, "explanation": "Ye composite numbers ke prime factorization par apply hota hai." },
+    { "type": "mcq", "question": "455 = 42 × 10 + r mein r kya hoga?", "options": ["25", "35", "45", "15"], "correct": 1, "explanation": "42×10=420, 455−420=35." },
+    { "type": "mcq", "question": "Do numbers ka HCF × LCM kis ke barabar hota hai?", "options": ["Unka sum", "Unka product", "Unka difference", "Unka average"], "correct": 1, "explanation": "HCF × LCM = product of the two numbers." },
+    { "type": "mcq", "question": "π (pi) kaisa number hai?", "options": ["Rational", "Irrational", "Integer", "Whole number"], "correct": 1, "explanation": "π ka decimal na terminate karta hai na repeat — ye irrational hai." }
+  ]
+}

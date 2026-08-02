@@ -1,0 +1,80 @@
+{
+  "id": "chapter-01-lesson-02",
+  "chapterId": "chapter-01",
+  "order": 2,
+  "title": "Euclid's Division Algorithm (HCF)",
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🔁",
+    "headline": "Finding HCF the Euclid Way",
+    "subtext": "Division Lemma ko baar-baar apply karke kisi bhi do numbers ka HCF turant nikaalo."
+  },
+  "story": {
+    "text": "Bade numbers ka HCF factor-tree se nikalna slow hai. Euclid ka trick: bade number ko chhote se divide karo, phir divisor ko remainder se divide karo — ye process repeat karo jab tak remainder 0 na aa jaye. Jo aakhri non-zero divisor bacha, wahi HCF hai."
+  },
+  "explanation": [
+    { "type": "text", "content": "Do positive integers a aur b (jahan a > b) ka HCF nikaalne ke steps:" },
+    { "type": "text", "content": "Step 1: Euclid's Lemma apply karo: a = bq + r" },
+    { "type": "text", "content": "Step 2: Agar r = 0, to HCF = b. Agar r ≠ 0, to Lemma dobara apply karo b aur r par." },
+    { "type": "text", "content": "Step 3: Ye process repeat karte raho jab tak remainder 0 na ho jaye." },
+    { "type": "formula", "content": "HCF(a, b) = last non-zero remainder" }
+  ],
+  "diagram": { "emoji": "🔢➗", "caption": "Har step mein divisor aage badhta hai, remainder chhota hota jaata hai — jab tak 0 na aaye." },
+  "examples": [
+    {
+      "problem": "HCF(455, 42) nikaalo.",
+      "steps": [
+        "455 = 42 × 10 + 35",
+        "42 = 35 × 1 + 7",
+        "35 = 7 × 5 + 0",
+        "Remainder 0 aa gaya, so HCF = 7"
+      ]
+    },
+    {
+      "problem": "HCF(96, 404) nikaalo.",
+      "steps": [
+        "404 = 96 × 4 + 20",
+        "96 = 20 × 4 + 16",
+        "20 = 16 × 1 + 4",
+        "16 = 4 × 4 + 0",
+        "HCF = 4"
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": "Euclid's Division Algorithm mein HCF kab mil jaata hai?",
+        "options": ["Jab quotient 0 ho jaaye", "Jab remainder 0 ho jaaye", "Jab dono numbers barabar ho jaayein", "Kabhi nahi"],
+        "correct": 1,
+        "explanation": "Jab remainder 0 aata hai, us step ka divisor hi HCF hota hai."
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": "HCF(18, 24) Euclid's Algorithm se kya hoga?",
+        "options": ["3", "6", "9", "12"],
+        "correct": 1,
+        "explanation": "24 = 18×1+6, 18 = 6×3+0. Last non-zero remainder = 6."
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": "Euclid's Division Algorithm sirf tab kaam karta hai jab dono numbers even hon.",
+        "correct": false,
+        "explanation": "Galat — ye algorithm kisi bhi do positive integers ke liye kaam karta hai, even ho ya odd."
+      }
+    ]
+  },
+  "notes": [
+    "HCF = last non-zero remainder",
+    "Bada number ko chhote se divide karke shuru karo",
+    "Har step mein divisor naya dividend, remainder naya divisor ban jaata hai"
+  ],
+  "summary": "Euclid's Division Algorithm HCF nikaalne ka sabse fast tareeka hai — sirf repeated division, no factorization needed.",
+  "reward": { "badge": null }
+}
