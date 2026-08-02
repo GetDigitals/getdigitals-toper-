@@ -1,9 +1,12 @@
 import { useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import TopStatsBar from '../components/TopStatsBar';
+import { ACHIEVEMENTS } from '../services/achievements';
 
 export default function Dashboard() {
+  const navigate = useNavigate();
   const { progress } = useProgress();
   const chapters = useMemo(() => getAllChapters(), []);
 
@@ -22,13 +25,21 @@ export default function Dashboard() {
     <div className="pb-24">
       <TopStatsBar xp={progress.xp} coins={progress.coins} streak={progress.streak} />
       <div className="px-4 pt-5">
-        <h1 className="font-display font-bold text-2xl mb-4">Your Progress</h1>
+        <div className="flex items-center justify-between mb-4">
+          <h1 className="font-display font-bold text-2xl">Your Progress</h1>
+          <button
+            onClick={() => navigate('/leaderboard')}
+            className="text-[12px] font-medium text-[var(--color-saffron)] flex items-center gap-1"
+          >
+            🏆 Leaderboard
+          </button>
+        </div>
 
         <div className="grid grid-cols-2 gap-3 mb-4">
           <StatCard label="Lessons Completed" value={`${completedCount}/${totalLessons}`} icon="📘" />
           <StatCard label="Accuracy" value={`${accuracy}%`} icon="🎯" />
           <StatCard label="Study Time" value={`${studyHours}h ${studyMins}m`} icon="⏱️" />
-          <StatCard label="Badges Earned" value={progress.badges?.length ?? 0} icon="🏅" />
+          <StatCard label="Achievements" value={`${progress.achievements?.length ?? 0}/${10}`} icon="🏅" />
         </div>
 
         <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-4 mb-4">
@@ -53,18 +64,26 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {progress.badges?.length > 0 && (
-          <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-4">
-            <p className="text-[13px] font-semibold mb-3">Badges</p>
-            <div className="flex flex-wrap gap-2">
-              {progress.badges.map((b) => (
-                <span key={b} className="px-3 py-1.5 rounded-full bg-[var(--color-surface-raised)] text-[12px] border border-[var(--color-border)]">
-                  🏅 {b}
-                </span>
-              ))}
-            </div>
+        <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-4">
+          <p className="text-[13px] font-semibold mb-3">Achievements</p>
+          <div className="grid grid-cols-2 gap-2.5">
+            {ACHIEVEMENTS.map((a) => {
+              const earned = progress.achievements?.includes(a.id);
+              return (
+                <div
+                  key={a.id}
+                  className={`rounded-xl p-3 border text-left ${
+                    earned ? 'border-[var(--color-gold)]/40 bg-[var(--color-surface-raised)]' : 'border-[var(--color-border)]/50 bg-[var(--color-surface)]/40 opacity-45'
+                  }`}
+                >
+                  <div className="text-lg mb-1">{earned ? a.icon : '🔒'}</div>
+                  <p className="text-[11px] font-semibold leading-tight">{a.title}</p>
+                  <p className="text-[10px] text-[var(--color-muted)] mt-0.5 leading-tight">{a.desc}</p>
+                </div>
+              );
+            })}
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

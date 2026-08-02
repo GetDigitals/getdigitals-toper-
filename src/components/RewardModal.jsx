@@ -1,6 +1,13 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect } from 'react';
+import { useSound } from '../hooks/useSound';
 
 export default function RewardModal({ open, xp, coins, badge, onClose }) {
+  const { play } = useSound();
+  useEffect(() => {
+    if (open) play('success');
+  }, [open, play]);
+
   return (
     <AnimatePresence>
       {open && (

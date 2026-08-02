@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getChapterById } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { BrandBadge } from '../components/GetDigitalsBrand';
 
 export default function Certificate() {
   const { chapterId } = useParams();
@@ -49,7 +50,9 @@ export default function Certificate() {
           <p className="text-[11px] text-[var(--color-muted-2)] font-mono">
             {new Date(result.completedAt).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })}
           </p>
-          <p className="text-[10px] text-[var(--color-muted-2)] mt-3">GetDigitals Topper · CBSE Class 10 Maths</p>
+          <div className="flex justify-center mt-3">
+            <BrandBadge />
+          </div>
         </div>
       </motion.div>
       <p className="text-[11px] text-[var(--color-muted)] mt-4 text-center">Screenshot lekar apne parents ko dikhao! 📸</p>

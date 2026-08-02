@@ -1,18 +1,19 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { loadUser } from '../services/db';
+import { useAuth } from '../store/AuthContext';
 
 export default function Splash() {
   const navigate = useNavigate();
+  const { user, authLoading } = useAuth();
 
   useEffect(() => {
-    const t = setTimeout(async () => {
-      const user = await loadUser();
+    if (authLoading) return; // wait for Firebase to report auth state
+    const t = setTimeout(() => {
       navigate(user ? '/home' : '/login', { replace: true });
-    }, 1600);
+    }, 1200);
     return () => clearTimeout(t);
-  }, [navigate]);
+  }, [authLoading, user, navigate]);
 
   return (
     <div className="h-full flex flex-col items-center justify-center bg-[var(--color-ink)]">

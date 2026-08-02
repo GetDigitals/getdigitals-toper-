@@ -6,10 +6,16 @@
   "board": "CBSE",
   "title": "Real Numbers",
   "icon": "🔢",
-  "color": "#E8761A",
+  "color": "#E8650A",
   "description": "Euclid's Division Lemma, HCF/LCM via Fundamental Theorem of Arithmetic, aur irrational/rational numbers ki decimal expansion — ye chapter number theory ki neev hai.",
   "xpReward": 300,
   "coinReward": 60,
-  "badge": { "id": "real-numbers-master", "name": "Real Numbers Master", "icon": "🏅" },
-  "unlockRule": { "type": "sequential" }
+  "badge": {
+    "id": "real-numbers-master",
+    "name": "Real Numbers Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
 }

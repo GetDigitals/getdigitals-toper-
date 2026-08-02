@@ -6,6 +6,7 @@
  */
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useSound } from '../hooks/useSound';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -271,6 +272,7 @@ export default function QuizEngine({ questions, onComplete, timerSeconds }) {
   const [correctCount, setCorrectCount] = useState(0);
   const [answeredThis, setAnsweredThis] = useState(false);
   const [timeLeft, setTimeLeft] = useState(timerSeconds ?? null);
+  const { play } = useSound();
 
   useEffect(() => {
     if (timeLeft === null) return;
@@ -288,6 +290,7 @@ export default function QuizEngine({ questions, onComplete, timerSeconds }) {
   function handleAnswer(correct) {
     if (answeredThis) return;
     setAnsweredThis(true);
+    play(correct ? 'correct' : 'wrong');
     if (correct) setCorrectCount((c) => c + 1);
   }
 

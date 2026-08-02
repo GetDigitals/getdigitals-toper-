@@ -5,6 +5,7 @@ import { getAllChapters, getLessonsForChapter } from '../services/contentLoader'
 import { useProgress } from '../store/ProgressContext';
 import TopStatsBar from '../components/TopStatsBar';
 import ChapterCard from '../components/ChapterCard';
+import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -25,6 +26,9 @@ export default function Home() {
     <div className="pb-24">
       <TopStatsBar xp={progress.xp} coins={progress.coins} streak={progress.streak} />
       <div className="px-4 pt-5">
+        <div className="flex justify-end mb-1">
+          <BrandBadge />
+        </div>
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
           <h1 className="font-display font-bold text-2xl">
             Namaste, <span className="text-[var(--color-saffron)]">Topper 👋</span>
@@ -95,6 +99,7 @@ export default function Home() {
             />
           ))}
         </div>
+        <BrandFooter />
       </div>
     </div>
   );

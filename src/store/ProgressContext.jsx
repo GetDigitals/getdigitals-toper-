@@ -6,11 +6,24 @@
 import { createContext, useContext, useEffect, useReducer, useCallback } from 'react';
 import { loadProgress, saveProgress, loadSettings, saveSettings, resetAllProgress } from '../services/db';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
+import { evaluateAchievements, getAchievement } from '../services/achievements';
 
 const ProgressCtx = createContext(null);
 
 function todayStr() {
   return new Date().toISOString().slice(0, 10);
+}
+
+function applyNewAchievements(next, newAchIds) {
+  if (!newAchIds.length) return next;
+  const uniqueNew = [...new Set(newAchIds)];
+  const xpBonus = uniqueNew.reduce((sum, id) => sum + (getAchievement(id)?.xp ?? 0), 0);
+  return {
+    ...next,
+    xp: next.xp + xpBonus,
+    achievements: [...(next.achievements || []), ...uniqueNew],
+    pendingAchievement: next.pendingAchievement || uniqueNew[0],
+  };
 }
 
 function reducer(state, action) {
@@ -24,7 +37,7 @@ function reducer(state, action) {
       const xpGain = already ? 0 : lesson.xpReward ?? 0;
       const coinGain = already ? 0 : lesson.coinReward ?? 0;
 
-      const next = {
+      let next = {
         ...state,
         xp: state.xp + xpGain,
         coins: state.coins + coinGain,
@@ -57,7 +70,15 @@ function reducer(state, action) {
         }
       }
 
-      return next;
+      // Evaluate achievements: lesson completion, perfect-quiz streaks, chapter completion
+      let newAch = evaluateAchievements(next, { type: 'lesson_complete' });
+      if (quizResult) {
+        newAch = newAch.concat(evaluateAchievements(next, { type: 'quiz_complete', percent: quizResult.percent }));
+      }
+      if (allDone) {
+        newAch = newAch.concat(evaluateAchievements(next, { type: 'chapter_complete' }));
+      }
+      return applyNewAchievements(next, newAch);
     }
 
     case 'RECORD_STREAK': {
@@ -66,12 +87,15 @@ function reducer(state, action) {
 
       const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
       const continued = state.lastActiveDate === yesterday;
-      return {
+      const newStreak = continued ? state.streak + 1 : 1;
+      const next = {
         ...state,
-        streak: continued ? state.streak + 1 : 1,
+        streak: newStreak,
         lastActiveDate: today,
         dailyProgressMinutes: 0,
       };
+      const newAch = evaluateAchievements(next, { type: 'streak_update', streak: newStreak });
+      return applyNewAchievements(next, newAch);
     }
 
     case 'ADD_STUDY_TIME':
@@ -85,11 +109,17 @@ function reducer(state, action) {
       if (state.badges.includes(action.payload)) return state;
       return { ...state, badges: [...state.badges, action.payload] };
 
-    case 'RECORD_FINAL_TEST':
-      return {
+    case 'RECORD_FINAL_TEST': {
+      const next = {
         ...state,
         finalTestResults: { ...state.finalTestResults, [action.payload.chapterId]: action.payload.result },
       };
+      const newAch = evaluateAchievements(next, { type: 'final_test_complete', percent: action.payload.result.score });
+      return applyNewAchievements(next, newAch);
+    }
+
+    case 'CLEAR_PENDING_ACHIEVEMENT':
+      return { ...state, pendingAchievement: null };
 
     case 'RECORD_PRACTICE': {
       const { chapterId, correct, attempted } = action.payload;
@@ -174,6 +204,8 @@ export function ProgressProvider({ children }) {
     dispatch({ type: 'RESET', payload: fresh });
   }, []);
 
+  const clearPendingAchievement = useCallback(() => dispatch({ type: 'CLEAR_PENDING_ACHIEVEMENT' }), []);
+
   const updateSetting = useCallback((key, value) => setSettingsState({ [key]: value }), []);
 
   const value = {
@@ -191,6 +223,7 @@ export function ProgressProvider({ children }) {
     isLessonComplete,
     resetProgress,
     updateSetting,
+    clearPendingAchievement,
   };
 
   return <ProgressCtx.Provider value={value}>{children}</ProgressCtx.Provider>;

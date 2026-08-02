@@ -1,5 +1,8 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useProgress } from '../store/ProgressContext';
+import { useAuth } from '../store/AuthContext';
+import { BrandFooter } from '../components/GetDigitalsBrand';
 
 function Toggle({ checked, onChange }) {
   return (
@@ -16,8 +19,15 @@ function Toggle({ checked, onChange }) {
 }
 
 export default function Settings() {
+  const navigate = useNavigate();
+  const { user, logout } = useAuth();
   const { settings, updateSetting, resetProgress } = useProgress();
   const [confirmReset, setConfirmReset] = useState(false);
+
+  async function handleLogout() {
+    await logout();
+    navigate('/login', { replace: true });
+  }
 
   return (
     <div className="pb-24 px-4 pt-6">
@@ -27,6 +37,15 @@ export default function Settings() {
         <Row label="Dark Mode">
           <Toggle checked={settings.theme === 'dark'} onChange={(v) => updateSetting('theme', v ? 'dark' : 'light')} />
         </Row>
+      </Section>
+
+      <Section title="Account">
+        <Row label="Logged in as">
+          <span className="text-[12px] text-[var(--color-muted)] font-mono truncate max-w-[160px]">{user?.email}</span>
+        </Row>
+        <button onClick={handleLogout} className="w-full py-2.5 rounded-xl border border-[var(--color-border)] text-[13px] font-medium">
+          Logout
+        </button>
       </Section>
 
       <Section title="Language">
@@ -75,7 +94,8 @@ export default function Settings() {
         )}
       </Section>
 
-      <p className="text-center text-[11px] text-[var(--color-muted-2)] mt-6">GetDigitals Topper v1.0 · 100% Offline</p>
+      <BrandFooter />
+      <p className="text-center text-[10px] text-[var(--color-muted-2)] -mt-2">GetDigitals Topper v1.0 · 100% Offline</p>
     </div>
   );
 }

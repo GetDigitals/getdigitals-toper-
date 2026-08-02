@@ -21,6 +21,8 @@ export const DEFAULT_PROGRESS = {
   practiceStats: {}, // { [chapterId]: { attempted, correct } }
   finalTestResults: {}, // { [chapterId]: { score, total, grade, completedAt } }
   bookmarks: [], // lessonIds or flashcard ids
+  achievements: [], // named achievement ids earned (see services/achievements.js)
+  pendingAchievement: null, // achievement id waiting to be shown as a popup, cleared after display
   unlockedChapters: ['chapter-01'], // sequential unlock; first chapter always open
   dailyGoalMinutes: 15,
   dailyProgressMinutes: 0,
