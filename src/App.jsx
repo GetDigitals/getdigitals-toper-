@@ -7,6 +7,7 @@ import AchievementToast from './components/AchievementToast';
 
 import Splash from './pages/Splash';
 import Login from './pages/Login';
+import PaymentPending from './pages/PaymentPending';
 import Home from './pages/Home';
 import SelectClass from './pages/SelectClass';
 import ChapterList from './pages/ChapterList';
@@ -17,18 +18,28 @@ import Revision from './pages/Revision';
 import FinalTest from './pages/FinalTest';
 import Certificate from './pages/Certificate';
 import ImportantQuestions from './pages/ImportantQuestions';
+import PreviousPapers from './pages/PreviousPapers';
 import Dashboard from './pages/Dashboard';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
 
 // Screens that own their own full-bleed layout (no bottom tab bar)
-const FULLSCREEN_PREFIXES = ['/', '/login', '/lesson', '/practice', '/final-test', '/certificate'];
+const FULLSCREEN_PREFIXES = ['/', '/login', '/lesson', '/practice', '/final-test', '/certificate', '/payment-pending'];
 const PUBLIC_PATHS = ['/', '/login'];
 
-/** Wrap any route that requires a signed-in, device-bound user. */
+/** Wrap any route that requires a signed-in, device-bound, PAID user. */
 function RequireAuth({ children }) {
+  const { user, authLoading, isApproved, profileLoading } = useAuth();
+  if (authLoading || profileLoading) return null; // AppShell already shows a spinner during this window
+  if (!user) return <Navigate to="/login" replace />;
+  if (!isApproved) return <Navigate to="/payment-pending" replace />;
+  return children;
+}
+
+/** Lighter guard: just needs to be logged in (used only by /payment-pending, which must NOT itself check isApproved). */
+function RequireLogin({ children }) {
   const { user, authLoading } = useAuth();
-  if (authLoading) return null; // AppShell already shows a spinner during this window
+  if (authLoading) return null;
   if (!user) return <Navigate to="/login" replace />;
   return children;
 }
@@ -55,6 +66,7 @@ function AppShell() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Splash />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/payment-pending" element={<RequireLogin><PaymentPending /></RequireLogin>} />
           <Route path="/home" element={<RequireAuth><Home /></RequireAuth>} />
           <Route path="/select-class" element={<RequireAuth><SelectClass /></RequireAuth>} />
           <Route path="/chapters" element={<RequireAuth><ChapterList /></RequireAuth>} />
@@ -64,6 +76,7 @@ function AppShell() {
           <Route path="/revision/:chapterId" element={<RequireAuth><Revision /></RequireAuth>} />
           <Route path="/final-test/:chapterId" element={<RequireAuth><FinalTest /></RequireAuth>} />
           <Route path="/important-questions/:chapterId" element={<RequireAuth><ImportantQuestions /></RequireAuth>} />
+          <Route path="/previous-papers" element={<RequireAuth><PreviousPapers /></RequireAuth>} />
           <Route path="/certificate/:chapterId" element={<RequireAuth><Certificate /></RequireAuth>} />
           <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
           <Route path="/leaderboard" element={<RequireAuth><Leaderboard /></RequireAuth>} />

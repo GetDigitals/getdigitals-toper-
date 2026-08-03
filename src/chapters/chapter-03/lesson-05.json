@@ -3,8 +3,8 @@
   "chapterId": "chapter-03",
   "order": 5,
   "title": {
-    "hi": "Algebraic Conditions & Word Problems",
-    "en": "Algebraic Conditions & Word Problems"
+    "hi": "Word Problems",
+    "en": "Word Problems"
   },
   "estimatedMinutes": 14,
   "xpReward": 50,
@@ -22,23 +22,23 @@
   },
   "story": {
     "text": {
-      "hi": "Board exams mein sabse zyada marks word problems mein hote hain — jahan tumhe khud equations banani padti hain. Trick hai: unknowns ko x, y bolo, phir problem ke har sentence ko ek equation mein convert karo.",
-      "en": "Word problems carry the most marks in board exams — you have to form the equations yourself. The trick: call the unknowns x, y, then convert each sentence of the problem into an equation."
+      "hi": "Board exams mein sabse zyada marks word problems mein hote hain. Trick hai: unknowns ko x, y bolo, phir problem ke har sentence ko ek equation mein convert karo.",
+      "en": "Word problems carry the most marks in board exams. The trick: call the unknowns x, y, then convert each sentence of the problem into an equation."
     }
   },
   "explanation": [
     {
       "type": "text",
       "content": {
-        "hi": "Recap: a₁/a₂ ≠ b₁/b₂ → unique; a₁/a₂=b₁/b₂=c₁/c₂ → infinite; a₁/a₂=b₁/b₂≠c₁/c₂ → no solution.",
-        "en": "Recap: a₁/a₂ ≠ b₁/b₂ → unique; a₁/a₂=b₁/b₂=c₁/c₂ → infinite; a₁/a₂=b₁/b₂≠c₁/c₂ → no solution."
+        "hi": "Word problems mein: 'do numbers ka sum/difference', 'age', 'speed-distance', 'cost' — sabme do unknowns hote hain jinke liye do equations banti hain.",
+        "en": "In word problems: 'sum/difference of two numbers', 'age', 'speed-distance', 'cost' — all involve two unknowns for which two equations can be formed."
       }
     },
     {
       "type": "text",
       "content": {
-        "hi": "Word problems mein: 'do numbers ka sum/difference', 'age', 'speed-distance', 'cost' — sabme do unknowns hote hain jinke liye do equations banti hain.",
-        "en": "In word problems: 'sum/difference of two numbers', 'age', 'speed-distance', 'cost' — all involve two unknowns for which two equations can be formed."
+        "hi": "Steps: (1) Unknowns ko x, y naam do (2) Har condition ko equation mein likho (3) Substitution/elimination se solve karo (4) Answer ko original problem ke context mein verify karo.",
+        "en": "Steps: (1) Name the unknowns x, y (2) Translate each condition into an equation (3) Solve using substitution/elimination (4) Verify the answer against the original problem's context."
       }
     }
   ],
@@ -50,16 +50,12 @@
       },
       "steps": [
         {
-          "hi": "Numbers x aur y maano: x + y = 8, x − y = 2",
-          "en": "Let the numbers be x and y: x + y = 8, x − y = 2"
+          "hi": "Numbers x aur y maano: x+y=8, x−y=2",
+          "en": "Let the numbers be x and y: x+y=8, x−y=2"
         },
         {
-          "hi": "Add karo: 2x = 10 → x = 5",
-          "en": "Add: 2x = 10 → x = 5"
-        },
-        {
-          "hi": "y = 8 − 5 = 3",
-          "en": "y = 8 − 5 = 3"
+          "hi": "Add karo: 2x=10 → x=5, y=3",
+          "en": "Add: 2x=10 → x=5, y=3"
         },
         {
           "hi": "Numbers: 5 aur 3",
@@ -74,28 +70,64 @@
       },
       "steps": [
         {
-          "hi": "Ram = x, Shyam = y maano",
-          "en": "Let Ram = x, Shyam = y"
+          "hi": "Ram=x, Shyam=y maano",
+          "en": "Let Ram=x, Shyam=y"
         },
         {
-          "hi": "(x−5) = 3(y−5) → x − 3y = −10",
-          "en": "(x−5) = 3(y−5) → x − 3y = −10"
+          "hi": "(x−5)=3(y−5) → x−3y=−10",
+          "en": "(x−5)=3(y−5) → x−3y=−10"
         },
         {
-          "hi": "(x+10) = 2(y+10) → x − 2y = 10",
-          "en": "(x+10) = 2(y+10) → x − 2y = 10"
+          "hi": "(x+10)=2(y+10) → x−2y=10",
+          "en": "(x+10)=2(y+10) → x−2y=10"
         },
         {
-          "hi": "Subtract karo: −y = −20 → y = 20",
-          "en": "Subtract: −y = −20 → y = 20"
+          "hi": "Subtract: −y=−20 → y=20, x=50",
+          "en": "Subtract: −y=−20 → y=20, x=50"
         },
         {
-          "hi": "x = 10 + 2(20) = 50",
-          "en": "x = 10 + 2(20) = 50"
+          "hi": "Ram=50, Shyam=20",
+          "en": "Ram=50, Shyam=20"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek boat 20km upstream 4 ghante mein aur downstream 2 ghante mein jaati hai. Boat ki still-water speed nikaalo (current 5km/h).",
+        "en": "A boat covers 20km upstream in 4 hours and downstream in 2 hours. Find its speed in still water (current is 5 km/h)."
+      },
+      "steps": [
+        {
+          "hi": "Upstream speed=20/4=5km/h, Downstream speed=20/2=10km/h",
+          "en": "Upstream speed=20/4=5km/h, Downstream speed=20/2=10km/h"
         },
         {
-          "hi": "Ram ki age = 50, Shyam ki age = 20",
-          "en": "Ram's age = 50, Shyam's age = 20"
+          "hi": "Still water speed = average = (5+10)/2 = 7.5km/h",
+          "en": "Still water speed = average = (5+10)/2 = 7.5km/h"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek fraction ka numerator denominator se 3 kam hai. Dono mein 2 add karein to fraction 1/2 ban jaata hai. Fraction nikaalo.",
+        "en": "A fraction's numerator is 3 less than its denominator. Adding 2 to both makes the fraction 1/2. Find the fraction."
+      },
+      "steps": [
+        {
+          "hi": "Numerator=x, Denominator=y: x=y−3",
+          "en": "Numerator=x, Denominator=y: x=y−3"
+        },
+        {
+          "hi": "(x+2)/(y+2)=1/2 → 2x−y=−2",
+          "en": "(x+2)/(y+2)=1/2 → 2x−y=−2"
+        },
+        {
+          "hi": "Substitute: 2(y−3)−y=−2 → y=4, x=1",
+          "en": "Substitute: 2(y−3)−y=−2 → y=4, x=1"
+        },
+        {
+          "hi": "Fraction = 1/4",
+          "en": "Fraction = 1/4"
         }
       ]
     }
@@ -106,74 +138,109 @@
         "type": "mcq",
         "difficulty": "medium",
         "question": {
-          "hi": "Do numbers ka sum 8 aur difference 2 hai. Bada number kya hai?",
-          "en": "Two numbers sum to 8 with a difference of 2. What's the larger number?"
+          "hi": "Do numbers ka sum 10, difference 4. Bada number?",
+          "en": "Two numbers sum to 10, differ by 4. The larger number?"
         },
         "options": [
           {
-            "hi": "3",
-            "en": "3"
+            "hi": "6",
+            "en": "6"
           },
           {
-            "hi": "4",
-            "en": "4"
+            "hi": "7",
+            "en": "7"
+          },
+          {
+            "hi": "8",
+            "en": "8"
           },
           {
             "hi": "5",
             "en": "5"
-          },
-          {
-            "hi": "6",
-            "en": "6"
           }
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": {
-          "hi": "x+y=8, x−y=2 solve karne se x=5.",
-          "en": "Solving x+y=8, x−y=2 gives x=5."
+          "hi": "x+y=10, x−y=4 → 2x=14 → x=7.",
+          "en": "x+y=10, x−y=4 → 2x=14 → x=7."
         }
       },
       {
         "type": "mcq",
         "difficulty": "hard",
         "question": {
-          "hi": "Ek boat 20km upstream 4 ghante mein aur downstream 2 ghante mein jaati hai. Boat ki speed still water mein kya hai (agar current 5 km/h ho)?",
-          "en": "A boat covers 20km upstream in 4 hours and downstream in 2 hours. What is its speed in still water (if current is 5 km/h)?"
+          "hi": "Ek 2-digit number ke digits ka sum 9 hai. Number, digits reverse karne pe milne wale number se 27 zyada hai. Number nikaalo.",
+          "en": "A 2-digit number's digits sum to 9. The number is 27 more than its reverse. Find the number."
         },
         "options": [
           {
-            "hi": "7.5 km/h",
-            "en": "7.5 km/h"
+            "hi": "54",
+            "en": "54"
           },
           {
-            "hi": "10 km/h",
-            "en": "10 km/h"
+            "hi": "63",
+            "en": "63"
           },
           {
-            "hi": "12.5 km/h",
-            "en": "12.5 km/h"
+            "hi": "72",
+            "en": "72"
           },
           {
-            "hi": "15 km/h",
-            "en": "15 km/h"
+            "hi": "45",
+            "en": "45"
           }
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": {
-          "hi": "Upstream speed=5, downstream=10. Still water speed = average = (5+10)/2 = 7.5 km/h.",
-          "en": "Upstream speed=5, downstream=10. Still water speed = average = (5+10)/2 = 7.5 km/h."
+          "hi": "x+y=9, (10x+y)−(10y+x)=27 → x−y=3. Solve: x=6,y=3. Number=63.",
+          "en": "x+y=9, (10x+y)−(10y+x)=27 → x−y=3. Solve: x=6,y=3. Number=63."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "6m aur 11m ke do poles 12m dur khade hain. Tops ke beech distance?",
+          "en": "Two poles of 6m and 11m stand 12m apart. Distance between their tops?"
+        },
+        "options": [
+          {
+            "hi": "12m",
+            "en": "12m"
+          },
+          {
+            "hi": "13m",
+            "en": "13m"
+          },
+          {
+            "hi": "14m",
+            "en": "14m"
+          },
+          {
+            "hi": "15m",
+            "en": "15m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Height diff=5m, horizontal=12m. Distance=√(5²+12²)=√169=13m.",
+          "en": "Height diff=5m, horizontal=12m. Distance=√(5²+12²)=√169=13m."
         }
       }
     ]
   },
   "notes": [
     {
-      "hi": "Unknowns ko x, y naam do, phir har sentence ek equation banao",
-      "en": "Name unknowns x, y, then turn each sentence into an equation"
+      "hi": "Unknowns ko x,y naam do, har sentence ek equation banao",
+      "en": "Name unknowns x,y, turn each sentence into an equation"
     },
     {
-      "hi": "Age/speed/cost problems mein hamesha 2 conditions milti hain = 2 equations",
-      "en": "Age/speed/cost problems always give 2 conditions = 2 equations"
+      "hi": "Age/speed/cost/digit problems mein hamesha 2 conditions = 2 equations",
+      "en": "Age/speed/cost/digit problems always give 2 conditions = 2 equations"
+    },
+    {
+      "hi": "Answer ko hamesha original problem se verify karo",
+      "en": "Always verify the answer against the original problem"
     }
   ],
   "summary": {

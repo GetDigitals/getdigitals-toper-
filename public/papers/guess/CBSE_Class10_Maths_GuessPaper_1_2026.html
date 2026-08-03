@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CBSE Class 10 Maths – Guess Paper 1 (2026) with Solutions</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    line-height: 1.7;
+    padding: 20px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 16px;
+    margin-bottom: 30px;
+    border: 1px solid #2a2a4a;
+  }
+  .header h1 { color: #ffd700; font-size: 28px; margin-bottom: 8px; }
+  .header h2 { color: #aaa; font-size: 16px; font-weight: 400; }
+  .header .badge {
+    display: inline-block;
+    background: #ff4757;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .info-box {
+    background: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  .info-box h3 { color: #ffd700; margin-bottom: 10px; font-size: 16px; }
+  .info-box p { color: #bbb; font-size: 14px; }
+  .section-title {
+    background: linear-gradient(90deg, #2d1b4e, #1a1a2e);
+    color: #ffd700;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+    border-left: 4px solid #ffd700;
+  }
+  .question-box {
+    background: #16162a;
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+  }
+  .question-box:hover { border-color: #ffd700; }
+  .q-num {
+    display: inline-block;
+    background: #ffd700;
+    color: #0f0f1a;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .q-text { font-size: 15px; color: #e8e8e8; }
+  .options { margin: 12px 0 0 42px; }
+  .options li { list-style: none; padding: 6px 0; color: #ccc; font-size: 14px; }
+  .answer-box {
+    background: #0d1f0d;
+    border: 1px solid #2a4a2a;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 15px;
+  }
+  .answer-box .ans-label {
+    color: #4ade80;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .answer-box .solution {
+    color: #c8e6c9;
+    font-size: 14px;
+    white-space: pre-wrap;
+  }
+  .case-study {
+    background: #1a0f2e;
+    border: 1px solid #4a2a6a;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .case-study h4 { color: #c084fc; font-size: 15px; margin-bottom: 10px; }
+  .case-study p { color: #d8b4fe; font-size: 14px; line-height: 1.8; }
+  .marks-tag {
+    float: right;
+    background: #ff4757;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .divider {
+    height: 1px;
+    background: #2a2a4a;
+    margin: 40px 0;
+  }
+  .footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-size: 13px;
+    margin-top: 40px;
+    border-top: 1px solid #2a2a4a;
+  }
+  .highlight { color: #ffd700; font-weight: 600; }
+  .formula { 
+    background: #1a1a3a; 
+    padding: 8px 14px; 
+    border-radius: 6px; 
+    display: inline-block; 
+    margin: 5px 0;
+    font-family: monospace;
+    color: #4ade80;
+  }
+  @media print {
+    body { background: white; color: black; }
+    .question-box { border: 1px solid #ccc; }
+    .answer-box { background: #f5f5f5; border: 1px solid #ddd; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>📘 CBSE Class 10 Mathematics</h1>
+  <h2>Guess Paper 1 – Board Examination 2026</h2>
+  <div class="badge">Based on 2021-2025 Pattern Analysis</div>
+</div>
+
+<div class="info-box">
+  <h3>📝 Exam Instructions</h3>
+  <p>• Time Allowed: <b>3 Hours</b> &nbsp;|&nbsp; Maximum Marks: <b>80</b> (Theory) + 20 (Internal)</p>
+  <p>• This paper has <b>5 Sections</b>: A (MCQ), B (VSA), C (SA), D (LA), E (Case-Based)</p>
+  <p>• All questions are compulsory. Internal choice provided where applicable.</p>
+  <p>• Use of calculator is <b>NOT</b> permitted.</p>
+</div>
+
+<!-- ==================== SECTION A: MCQs (20×1=20) ==================== -->
+<div class="section-title">Section A – Multiple Choice Questions <span style="float:right;font-size:14px;color:#aaa;">20 × 1 = 20 Marks</span></div>
+
+<div class="question-box">
+  <span class="q-num">1</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The HCF of 96 and 404 is:</p>
+  <ul class="options">
+    <li>(a) 4</li>
+    <li>(b) 8</li>
+    <li>(c) 12</li>
+    <li>(d) 16</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 4</span>
+    <div class="solution">Using Euclid's Division Algorithm:
+404 = 96 × 4 + 20
+96 = 20 × 4 + 16
+20 = 16 × 1 + 4
+16 = 4 × 4 + 0
+∴ HCF = 4</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">2</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">If one zero of the polynomial p(x) = x² – 5x + k is 2, then the value of k is:</p>
+  <ul class="options">
+    <li>(a) 6</li>
+    <li>(b) –6</li>
+    <li>(c) 3</li>
+    <li>(d) –3</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 6</span>
+    <div class="solution">Since 2 is a zero, p(2) = 0
+(2)² – 5(2) + k = 0
+4 – 10 + k = 0
+k = 6</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">3</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The pair of equations 2x + 3y = 5 and 4x + 6y = 10 is:</p>
+  <ul class="options">
+    <li>(a) Consistent with unique solution</li>
+    <li>(b) Consistent with infinitely many solutions</li>
+    <li>(c) Inconsistent</li>
+    <li>(d) None of these</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) Consistent with infinitely many solutions</span>
+    <div class="solution">a₁/a₂ = 2/4 = 1/2
+b₁/b₂ = 3/6 = 1/2
+c₁/c₂ = 5/10 = 1/2
+Since a₁/a₂ = b₁/b₂ = c₁/c₂, equations represent coincident lines.
+∴ Infinitely many solutions.</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">4</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The quadratic equation 2x² – 3x + 5 = 0 has:</p>
+  <ul class="options">
+    <li>(a) Two distinct real roots</li>
+    <li>(b) Two equal real roots</li>
+    <li>(c) No real roots</li>
+    <li>(d) More than 2 real roots</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (c) No real roots</span>
+    <div class="solution">Discriminant D = b² – 4ac
+D = (–3)² – 4(2)(5) = 9 – 40 = –31
+Since D < 0, no real roots.</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">5</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The 10th term of the AP: 2, 7, 12, ... is:</p>
+  <ul class="options">
+    <li>(a) 45</li>
+    <li>(b) 47</li>
+    <li>(c) 50</li>
+    <li>(d) 52</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 47</span>
+    <div class="solution">a = 2, d = 7 – 2 = 5
+a₁₀ = a + 9d = 2 + 9(5) = 2 + 45 = 47</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">6</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">In ΔABC, DE || BC. If AD = 2 cm, DB = 3 cm and AE = 3.2 cm, then EC = ?</p>
+  <ul class="options">
+    <li>(a) 4.8 cm</li>
+    <li>(b) 5.2 cm</li>
+    <li>(c) 4.2 cm</li>
+    <li>(d) 3.8 cm</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 4.8 cm</span>
+    <div class="solution">By BPT: AD/DB = AE/EC
+2/3 = 3.2/EC
+EC = (3.2 × 3)/2 = 9.6/2 = 4.8 cm</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">7</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The distance between the points (3, 4) and (–3, –4) is:</p>
+  <ul class="options">
+    <li>(a) 8 units</li>
+    <li>(b) 10 units</li>
+    <li>(c) 12 units</li>
+    <li>(d) 14 units</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 10 units</span>
+    <div class="solution">Distance = √[(x₂–x₁)² + (y₂–y₁)²]
+= √[(–3–3)² + (–4–4)²]
+= √[(–6)² + (–8)²]
+= √[36 + 64] = √100 = 10 units</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">8</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">If sin θ = 3/5, then cos θ = ?</p>
+  <ul class="options">
+    <li>(a) 4/5</li>
+    <li>(b) 3/4</li>
+    <li>(c) 5/4</li>
+    <li>(d) 5/3</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 4/5</span>
+    <div class="solution">sin²θ + cos²θ = 1
+cos²θ = 1 – (3/5)² = 1 – 9/25 = 16/25
+cos θ = 4/5</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">9</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">A tangent PQ at a point P of a circle of radius 5 cm meets a line through the centre O at a point Q so that OQ = 13 cm. Length PQ is:</p>
+  <ul class="options">
+    <li>(a) 12 cm</li>
+    <li>(b) 13 cm</li>
+    <li>(c) 8 cm</li>
+    <li>(d) 10 cm</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 12 cm</span>
+    <div class="solution">Since tangent ⊥ radius, ∠OPQ = 90°
+In right ΔOPQ:
+PQ² = OQ² – OP² = 13² – 5² = 169 – 25 = 144
+PQ = 12 cm</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">10</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The area of a sector of a circle with radius 6 cm and angle 60° is:</p>
+  <ul class="options">
+    <li>(a) 18.84 cm²</li>
+    <li>(b) 37.68 cm²</li>
+    <li>(c) 9.42 cm²</li>
+    <li>(d) 6.28 cm²</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 18.84 cm²</span>
+    <div class="solution">Area of sector = (θ/360°) × πr²
+= (60/360) × 3.14 × 6²
+= (1/6) × 3.14 × 36
+= 3.14 × 6 = 18.84 cm²</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">11</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The surface area of a sphere of radius 7 cm is:</p>
+  <ul class="options">
+    <li>(a) 154 cm²</li>
+    <li>(b) 308 cm²</li>
+    <li>(c) 616 cm²</li>
+    <li>(d) 462 cm²</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (c) 616 cm²</span>
+    <div class="solution">Surface Area = 4πr²
+= 4 × (22/7) × 7 × 7
+= 4 × 22 × 7 = 616 cm²</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">12</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">If the mean of first n natural numbers is 15, then n = ?</p>
+  <ul class="options">
+    <li>(a) 28</li>
+    <li>(b) 29</li>
+    <li>(c) 30</li>
+    <li>(d) 31</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 29</span>
+    <div class="solution">Mean of first n natural numbers = (n+1)/2
+(n+1)/2 = 15
+n + 1 = 30
+n = 29</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">13</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">A card is drawn from a well-shuffled deck of 52 cards. The probability of getting a red king is:</p>
+  <ul class="options">
+    <li>(a) 1/13</li>
+    <li>(b) 1/26</li>
+    <li>(c) 2/13</li>
+    <li>(d) 1/52</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 1/26</span>
+    <div class="solution">Red kings = 2 (King of Hearts, King of Diamonds)
+Total cards = 52
+P(Red King) = 2/52 = 1/26</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">14</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">Assertion (A): The decimal expansion of 17/8 terminates.<br>Reason (R): A rational number p/q has terminating decimal expansion if prime factors of q are of the form 2ⁿ × 5ᵐ.</p>
+  <ul class="options">
+    <li>(a) Both A and R are true and R is correct explanation of A</li>
+    <li>(b) Both A and R are true but R is NOT correct explanation of A</li>
+    <li>(c) A is true but R is false</li>
+    <li>(d) A is false but R is true</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) Both A and R are true and R is correct explanation of A</span>
+    <div class="solution">17/8 = 17/2³ = 2.125 (terminates)
+q = 8 = 2³, which is of form 2ⁿ × 5ᵐ (n=3, m=0)
+∴ Both A and R are true and R explains A.</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">15</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">If the sum of first n terms of an AP is Sₙ = 3n² + 5n, then its common difference is:</p>
+  <ul class="options">
+    <li>(a) 3</li>
+    <li>(b) 5</li>
+    <li>(c) 6</li>
+    <li>(d) 8</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (c) 6</span>
+    <div class="solution">S₁ = a₁ = 3(1)² + 5(1) = 8
+S₂ = 3(4) + 10 = 22
+a₂ = S₂ – S₁ = 22 – 8 = 14
+d = a₂ – a₁ = 14 – 8 = 6</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">16</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">In a right triangle ABC, right-angled at B, if tan A = 1/√3, then sin A cos C + cos A sin C = ?</p>
+  <ul class="options">
+    <li>(a) 0</li>
+    <li>(b) 1</li>
+    <li>(c) 1/2</li>
+    <li>(d) √3/2</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 1</span>
+    <div class="solution">tan A = 1/√3 ⇒ A = 30°
+Since C = 90° – 30° = 60°
+sin A cos C + cos A sin C = sin(A+C) = sin(90°) = 1</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">17</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The ratio of the volumes of two spheres is 8 : 27. The ratio of their surface areas is:</p>
+  <ul class="options">
+    <li>(a) 2 : 3</li>
+    <li>(b) 4 : 9</li>
+    <li>(c) 8 : 27</li>
+    <li>(d) 1 : 3</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 4 : 9</span>
+    <div class="solution">V₁/V₂ = (r₁/r₂)³ = 8/27
+r₁/r₂ = 2/3
+Surface area ratio = (r₁/r₂)² = (2/3)² = 4/9</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">18</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">The median of the data 12, 15, 18, 20, 22, 25, 30 is:</p>
+  <ul class="options">
+    <li>(a) 18</li>
+    <li>(b) 20</li>
+    <li>(c) 22</li>
+    <li>(d) 25</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (b) 20</span>
+    <div class="solution">n = 7 (odd)
+Median = ((n+1)/2)th term = 4th term = 20</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">19</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">If the point P(k, 4) divides the line segment joining A(2, –3) and B(5, 6) in ratio 1:2, then k = ?</p>
+  <ul class="options">
+    <li>(a) 3</li>
+    <li>(b) 4</li>
+    <li>(c) 5</li>
+    <li>(d) 6</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 3</span>
+    <div class="solution">Using section formula:
+k = (1×5 + 2×2)/(1+2) = (5+4)/3 = 9/3 = 3</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">20</span>
+  <span class="marks-tag">1 Mark</span>
+  <p class="q-text">Two dice are thrown simultaneously. The probability of getting a sum of 9 is:</p>
+  <ul class="options">
+    <li>(a) 1/9</li>
+    <li>(b) 1/12</li>
+    <li>(c) 1/6</li>
+    <li>(d) 5/36</li>
+  </ul>
+  <div class="answer-box">
+    <span class="ans-label">✅ Answer: (a) 1/9</span>
+    <div class="solution">Total outcomes = 36
+Favourable: (3,6), (4,5), (5,4), (6,3) = 4
+P(sum=9) = 4/36 = 1/9</div>
+  </div>
+</div>
+
+<!-- ==================== SECTION B: VSA (5×2=10) ==================== -->
+<div class="section-title">Section B – Very Short Answer Questions <span style="float:right;font-size:14px;color:#aaa;">5 × 2 = 10 Marks</span></div>
+
+<div class="question-box">
+  <span class="q-num">21</span>
+  <span class="marks-tag">2 Marks</span>
+  <p class="q-text">Find the LCM of 96 and 404 by prime factorization method.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">96 = 2⁵ × 3
+404 = 2² × 101
+LCM = 2⁵ × 3 × 101 = 32 × 3 × 101 = 9696</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">22</span>
+  <span class="marks-tag">2 Marks</span>
+  <p class="q-text">Find a quadratic polynomial whose zeroes are 3 and –2.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Sum of zeroes = 3 + (–2) = 1
+Product of zeroes = 3 × (–2) = –6
+Polynomial = x² – (Sum)x + (Product)
+= x² – x – 6</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">23</span>
+  <span class="marks-tag">2 Marks</span>
+  <p class="q-text">Solve: 2x + 3y = 11 and 2x – 4y = –24. Hence find 'm' if y = mx + 3.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Eq (1): 2x + 3y = 11
+Eq (2): 2x – 4y = –24
+Subtract (2) from (1):
+7y = 35 ⇒ y = 5
+From (1): 2x + 15 = 11 ⇒ 2x = –4 ⇒ x = –2
+Now y = mx + 3
+5 = m(–2) + 3
+5 – 3 = –2m
+2 = –2m ⇒ m = –1</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">24</span>
+  <span class="marks-tag">2 Marks</span>
+  <p class="q-text">In an AP, if a = 7, aₙ = 84 and Sₙ = 455, find n and d.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Sₙ = n/2 (a + aₙ)
+455 = n/2 (7 + 84)
+455 = n/2 × 91
+n = (455 × 2)/91 = 910/91 = 10
+Now aₙ = a + (n–1)d
+84 = 7 + 9d
+77 = 9d ⇒ d = 77/9</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">25</span>
+  <span class="marks-tag">2 Marks</span>
+  <p class="q-text">Prove that √3 is irrational.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Let us assume √3 is rational.
+Then √3 = p/q where p, q are co-prime integers and q ≠ 0.
+Squaring both sides: 3 = p²/q² ⇒ p² = 3q²
+∴ p² is divisible by 3 ⇒ p is divisible by 3
+Let p = 3k
+(3k)² = 3q² ⇒ 9k² = 3q² ⇒ q² = 3k²
+∴ q² is divisible by 3 ⇒ q is divisible by 3
+This contradicts that p and q are co-prime.
+Hence, √3 is irrational. (Proved)</div>
+  </div>
+</div>
+
+<!-- ==================== SECTION C: SA (6×3=18) ==================== -->
+<div class="section-title">Section C – Short Answer Questions <span style="float:right;font-size:14px;color:#aaa;">6 × 3 = 18 Marks</span></div>
+
+<div class="question-box">
+  <span class="q-num">26</span>
+  <span class="marks-tag">3 Marks</span>
+  <p class="q-text">Find the zeroes of the polynomial 6x² – 7x – 3 and verify the relationship between the zeroes and the coefficients.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">6x² – 7x – 3 = 0
+6x² – 9x + 2x – 3 = 0
+3x(2x – 3) + 1(2x – 3) = 0
+(3x + 1)(2x – 3) = 0
+x = –1/3 or x = 3/2
+
+Verification:
+Sum of zeroes = –1/3 + 3/2 = (–2 + 9)/6 = 7/6 = –(–7)/6 = –b/a ✓
+Product of zeroes = (–1/3)(3/2) = –3/6 = –1/2 = c/a ✓</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">27</span>
+  <span class="marks-tag">3 Marks</span>
+  <p class="q-text">A fraction becomes 1/3 when 1 is subtracted from the numerator and it becomes 1/4 when 8 is added to its denominator. Find the fraction.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Let fraction = x/y
+Condition 1: (x–1)/y = 1/3 ⇒ 3x – 3 = y ⇒ 3x – y = 3 ... (i)
+Condition 2: x/(y+8) = 1/4 ⇒ 4x = y + 8 ⇒ 4x – y = 8 ... (ii)
+Subtract (i) from (ii):
+x = 5
+From (i): 3(5) – y = 3 ⇒ 15 – y = 3 ⇒ y = 12
+∴ Fraction = 5/12</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">28</span>
+  <span class="marks-tag">3 Marks</span>
+  <p class="q-text">Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Given: A circle with centre O and tangent XY at point P.
+To Prove: OP ⊥ XY
+
+Construction: Take any point Q (≠ P) on XY. Join OQ.
+
+Proof:
+Q lies on tangent XY and outside the circle.
+∴ OQ > OP (radius is shortest distance from centre to tangent)
+This is true for every point Q on XY except P.
+∴ OP is the shortest distance from O to XY.
+Hence, OP ⊥ XY. (Proved)</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">29</span>
+  <span class="marks-tag">3 Marks</span>
+  <p class="q-text">If sec 4A = cosec (A – 20°), where 4A is an acute angle, find the value of A.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">sec 4A = cosec (A – 20°)
+cosec (90° – 4A) = cosec (A – 20°)
+90° – 4A = A – 20°
+90° + 20° = A + 4A
+110° = 5A
+A = 22°</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">30</span>
+  <span class="marks-tag">3 Marks</span>
+  <p class="q-text">Find the area of the shaded region in the figure where ABCD is a square of side 14 cm and four circles are inscribed in it touching each other.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Side of square = 14 cm
+Diameter of each circle = 14/2 = 7 cm
+Radius of each circle = 3.5 cm
+
+Area of square = 14 × 14 = 196 cm²
+Area of 4 circles = 4 × πr² = 4 × (22/7) × 3.5 × 3.5
+= 4 × 22 × 0.5 × 3.5 = 4 × 38.5 = 154 cm²
+
+Shaded area = 196 – 154 = 42 cm²</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">31</span>
+  <span class="marks-tag">3 Marks</span>
+  <p class="q-text">The following distribution shows the daily pocket allowance of children of a locality. The mean pocket allowance is ₹18. Find the missing frequency f.</p>
+  <p style="margin-left:42px;color:#ccc;font-size:14px;">
+  Class: 11-13, 13-15, 15-17, 17-19, 19-21, 21-23, 23-25<br>
+  Frequency: 7, 6, 9, 13, f, 5, 4
+  </p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Class marks (x): 12, 14, 16, 18, 20, 22, 24
+Let A = 18 (assumed mean)
+
+dᵢ = xᵢ – 18: –6, –4, –2, 0, 2, 4, 6
+fᵢdᵢ: –42, –24, –18, 0, 2f, 20, 24
+
+Σf = 7+6+9+13+f+5+4 = 44 + f
+Σfd = –42–24–18+0+2f+20+24 = –40 + 2f
+
+Mean = A + Σfd/Σf
+18 = 18 + (–40 + 2f)/(44 + f)
+0 = (–40 + 2f)/(44 + f)
+–40 + 2f = 0
+f = 20</div>
+  </div>
+</div>
+
+<!-- ==================== SECTION D: LA (4×5=20) ==================== -->
+<div class="section-title">Section D – Long Answer Questions <span style="float:right;font-size:14px;color:#aaa;">4 × 5 = 20 Marks</span></div>
+
+<div class="question-box">
+  <span class="q-num">32</span>
+  <span class="marks-tag">5 Marks</span>
+  <p class="q-text">A motor boat whose speed is 18 km/h in still water takes 1 hour more to go 24 km upstream than to return downstream to the same spot. Find the speed of the stream.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Let speed of stream = x km/h
+Speed upstream = (18 – x) km/h
+Speed downstream = (18 + x) km/h
+
+Time upstream = 24/(18 – x)
+Time downstream = 24/(18 + x)
+
+Given: Time upstream – Time downstream = 1
+24/(18 – x) – 24/(18 + x) = 1
+
+24[(18+x) – (18–x)] / [(18–x)(18+x)] = 1
+24(2x) / (324 – x²) = 1
+48x = 324 – x²
+x² + 48x – 324 = 0
+x² + 54x – 6x – 324 = 0
+x(x + 54) – 6(x + 54) = 0
+(x – 6)(x + 54) = 0
+x = 6 or x = –54 (rejected, speed can't be negative)
+
+∴ Speed of stream = 6 km/h</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">33</span>
+  <span class="marks-tag">5 Marks</span>
+  <p class="q-text">In ΔABC, altitudes AD and CE intersect each other at point P. Prove that:<br>
+  (i) ΔAEP ~ ΔCDP<br>
+  (ii) ΔABD ~ ΔCBE<br>
+  (iii) ΔAEP ~ ΔADB</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Given: AD ⊥ BC and CE ⊥ AB. AD and CE intersect at P.
+
+(i) In ΔAEP and ΔCDP:
+∠AEP = ∠CDP = 90° (altitudes)
+∠APE = ∠CPD (vertically opposite angles)
+∴ ΔAEP ~ ΔCDP (by AA similarity criterion)
+
+(ii) In ΔABD and ΔCBE:
+∠ADB = ∠CEB = 90° (altitudes)
+∠ABD = ∠CBE (common angle)
+∴ ΔABD ~ ΔCBE (by AA similarity criterion)
+
+(iii) In ΔAEP and ΔADB:
+∠AEP = ∠ADB = 90° (altitudes)
+∠PAE = ∠DAB (common angle)
+∴ ΔAEP ~ ΔADB (by AA similarity criterion)
+
+Hence Proved.</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">34</span>
+  <span class="marks-tag">5 Marks</span>
+  <p class="q-text">From the top of a 100 m high lighthouse, the angles of depression of two ships on opposite sides of it are 30° and 45° respectively. Find the distance between the two ships. (Use √3 = 1.732)</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Let AB be the lighthouse = 100 m
+Let ships be at C and D on opposite sides.
+Angle of depression to C = 30° ⇒ ∠ACB = 30°
+Angle of depression to D = 45° ⇒ ∠ADB = 45°
+
+In right ΔABC:
+tan 30° = AB/BC
+1/√3 = 100/BC
+BC = 100√3 = 100 × 1.732 = 173.2 m
+
+In right ΔABD:
+tan 45° = AB/BD
+1 = 100/BD
+BD = 100 m
+
+Distance between ships = BC + BD = 173.2 + 100 = 273.2 m</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">35</span>
+  <span class="marks-tag">5 Marks</span>
+  <p class="q-text">A cone of maximum volume is carved out from a solid hemisphere of radius 7 cm. Find the volume and total surface area of the remaining solid.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">For maximum volume cone inside hemisphere:
+Radius of cone = Radius of hemisphere = 7 cm
+Height of cone = Radius of hemisphere = 7 cm
+
+Volume of hemisphere = (2/3)πr³ = (2/3) × (22/7) × 343
+= (2 × 22 × 49)/3 = 2156/3 = 718.67 cm³
+
+Volume of cone = (1/3)πr²h = (1/3) × (22/7) × 49 × 7
+= (22 × 49)/3 = 1078/3 = 359.33 cm³
+
+Volume of remaining solid = 718.67 – 359.33 = 359.33 cm³
+
+Slant height of cone l = √(r² + h²) = √(49 + 49) = √98 = 7√2 cm
+
+CSA of cone = πrl = (22/7) × 7 × 7√2 = 154√2 cm²
+CSA of hemisphere = 2πr² = 2 × (22/7) × 49 = 308 cm²
+
+Total Surface Area = CSA of cone + CSA of hemisphere
+= 154√2 + 308 = 154(√2 + 2) = 154(1.414 + 2)
+= 154 × 3.414 = 525.76 cm²</div>
+  </div>
+</div>
+
+<!-- ==================== SECTION E: Case-Based (3×4=12) ==================== -->
+<div class="section-title">Section E – Case-Based Questions <span style="float:right;font-size:14px;color:#aaa;">3 × 4 = 12 Marks</span></div>
+
+<div class="question-box">
+  <span class="q-num">36</span>
+  <span class="marks-tag">4 Marks</span>
+  <div class="case-study">
+    <h4>🏏 Case Study: Cricket Tournament</h4>
+    <p>A school is organizing an inter-house cricket tournament. The auditorium has seats arranged in rows. The first row has 20 seats, the second row has 24 seats, the third row has 28 seats, and so on. There are 15 rows in total.</p>
+  </div>
+  <p class="q-text">(i) Find the number of seats in the 10th row.<br>
+  (ii) Find the total number of seats in the auditorium.<br>
+  (iii) If each ticket costs ₹50, find the total revenue if all seats are filled.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">Seats form an AP: 20, 24, 28, ...
+a = 20, d = 4, n = 15
+
+(i) Seats in 10th row:
+a₁₀ = a + 9d = 20 + 9(4) = 20 + 36 = 56 seats
+
+(ii) Total seats:
+S₁₅ = n/2 [2a + (n–1)d]
+= 15/2 [40 + 14(4)]
+= 15/2 [40 + 56]
+= 15/2 × 96 = 15 × 48 = 720 seats
+
+(iii) Total revenue = 720 × ₹50 = ₹36,000</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">37</span>
+  <span class="marks-tag">4 Marks</span>
+  <div class="case-study">
+    <h4>🌳 Case Study: Tree Plantation Drive</h4>
+    <p>A group of students decided to plant trees in and around their school to reduce air pollution. It was decided that the number of trees each section of each class will plant is equal to the class in which they are studying. For example, a section of Class I will plant 1 tree, a section of Class II will plant 2 trees, and so on till Class XII. There are three sections of each class.</p>
+  </div>
+  <p class="q-text">(i) How many trees will be planted by the students of Class X?<br>
+  (ii) Find the total number of trees planted by all sections of all classes.<br>
+  (iii) What value is depicted by the students?</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">(i) Trees planted by Class X:
+Each section plants 10 trees.
+3 sections × 10 trees = 30 trees
+
+(ii) Total trees by all classes:
+Class I: 3 × 1 = 3
+Class II: 3 × 2 = 6
+...
+Class XII: 3 × 12 = 36
+
+Total = 3(1 + 2 + 3 + ... + 12)
+= 3 × 12/2 × (1 + 12)
+= 3 × 6 × 13 = 234 trees
+
+(iii) Values depicted:
+• Environmental awareness
+• Social responsibility
+• Team work and cooperation
+• Care for nature and sustainable development</div>
+  </div>
+</div>
+
+<div class="question-box">
+  <span class="q-num">38</span>
+  <span class="marks-tag">4 Marks</span>
+  <div class="case-study">
+    <h4>📊 Case Study: Mobile Phone Usage Survey</h4>
+    <p>A survey was conducted in a school to find the time (in hours) spent by students on mobile phones daily. The data collected from 100 students is as follows:</p>
+    <p>Time (hours): 0-2, 2-4, 4-6, 6-8, 8-10<br>
+    No. of students: 15, 25, 30, 20, 10</p>
+  </div>
+  <p class="q-text">(i) Find the modal class.<br>
+  (ii) Find the median class.<br>
+  (iii) Calculate the mean time spent by students on mobile phones.</p>
+  <div class="answer-box">
+    <span class="ans-label">✅ Solution:</span>
+    <div class="solution">(i) Modal class: Class with maximum frequency = 4-6 hours (frequency = 30)
+
+(ii) For median: n = 100, n/2 = 50
+Cumulative frequencies: 15, 40, 70, 90, 100
+50 lies in cumulative frequency 70.
+∴ Median class = 4-6 hours
+
+(iii) Mean calculation:
+Class marks (x): 1, 3, 5, 7, 9
+fx: 15, 75, 150, 140, 90
+Σf = 100, Σfx = 470
+
+Mean = Σfx/Σf = 470/100 = 4.7 hours</div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="info-box">
+  <h3>📋 Paper Summary</h3>
+  <p><b>Section A (MCQs):</b> 20 × 1 = 20 Marks | <b>Section B (VSA):</b> 5 × 2 = 10 Marks</p>
+  <p><b>Section C (SA):</b> 6 × 3 = 18 Marks | <b>Section D (LA):</b> 4 × 5 = 20 Marks</p>
+  <p><b>Section E (Case-Based):</b> 3 × 4 = 12 Marks | <b>TOTAL:</b> 80 Marks</p>
+  <p style="margin-top:10px;color:#ffd700;">⭐ This paper is based on 2021-2025 CBSE pattern analysis. Most repeated question types included!</p>
+</div>
+
+<div class="footer">
+  <p>Guess Paper 1 | CBSE Class 10 Mathematics | Board Exam 2026</p>
+  <p>Based on 5-Year Deep Research Analysis (2021-2025)</p>
+</div>
+
+</div>
+</body>
+</html>

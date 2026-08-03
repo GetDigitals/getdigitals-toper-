@@ -2,12 +2,14 @@ import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { useAuth } from '../store/AuthContext';
 import TopStatsBar from '../components/TopStatsBar';
 import { ACHIEVEMENTS } from '../services/achievements';
 
 export default function Dashboard() {
   const navigate = useNavigate();
   const { progress } = useProgress();
+  const { profile } = useAuth();
   const chapters = useMemo(() => getAllChapters(), []);
 
   const totalLessons = chapters.reduce((sum, c) => sum + getLessonsForChapter(c.id).length, 0);
@@ -23,7 +25,7 @@ export default function Dashboard() {
 
   return (
     <div className="pb-24">
-      <TopStatsBar xp={progress.xp} coins={progress.coins} streak={progress.streak} />
+      <TopStatsBar xp={progress.xp} coins={progress.coins} streak={progress.streak} userName={profile?.name} />
       <div className="px-4 pt-5">
         <div className="flex items-center justify-between mb-4">
           <h1 className="font-display font-bold text-2xl">Your Progress</h1>

@@ -20,7 +20,7 @@ function Toggle({ checked, onChange }) {
 
 export default function Settings() {
   const navigate = useNavigate();
-  const { user, logout } = useAuth();
+  const { user, profile, logout } = useAuth();
   const { settings, updateSetting, resetProgress } = useProgress();
   const [confirmReset, setConfirmReset] = useState(false);
 
@@ -43,6 +43,11 @@ export default function Settings() {
       </Section>
 
       <Section title="Account">
+        {profile?.name && (
+          <Row label="Name">
+            <span className="text-[12px] text-[var(--color-cream)] font-medium">{profile.name}</span>
+          </Row>
+        )}
         <Row label="Logged in as">
           <span className="text-[12px] text-[var(--color-muted)] font-mono truncate max-w-[160px]">{user?.email}</span>
         </Row>

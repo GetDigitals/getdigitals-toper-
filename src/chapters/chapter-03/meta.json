@@ -7,12 +7,15 @@
   "title": "Pair of Linear Equations in Two Variables",
   "icon": "📈",
   "color": "#35C97F",
-  "description": "Pair of Linear Equations in Two Variables — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 300,
-  "coinReward": 60,
+  "description": "Pair of linear equations — graphical method, substitution, elimination, algebraic conditions for solutions, aur word problems. 2025-26 CBSE syllabus ke hisab se updated (Cross-Multiplication Method aur equations reducible to linear form hata diye gaye hain).",
+  "xpReward": 285,
+  "coinReward": 73,
   "badge": {
     "id": "chapter-03-master",
-    "name": "Pair of Linear Equations in Two Variables Master",
+    "name": {
+      "hi": "Pair of Linear Equations in Two Variables Master",
+      "en": "Pair of Linear Equations in Two Variables Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

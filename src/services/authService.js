@@ -48,12 +48,15 @@ export function watchAuthState(callback) {
   return onAuthStateChanged(auth, callback);
 }
 
-export async function registerUser(email, password) {
+export async function registerUser(email, password, name, mobile) {
   const cred = await createUserWithEmailAndPassword(auth, email, password);
   const deviceId = getDeviceId();
   await setDoc(doc(db, 'users', cred.user.uid), {
     email,
+    name: name?.trim() || '',
+    mobile: mobile?.trim() || '',
     deviceId,
+    paymentStatus: 'pending', // student cannot access lessons until Ashok approves in Firestore console
     createdAt: serverTimestamp(),
     lastLoginAt: serverTimestamp(),
   });
@@ -72,7 +75,7 @@ export async function loginUser(email, password) {
 
   if (!snap.exists()) {
     // First login after account existed without a device record — bind it now.
-    await setDoc(userRef, { email, deviceId, createdAt: serverTimestamp(), lastLoginAt: serverTimestamp() });
+    await setDoc(userRef, { email, deviceId, paymentStatus: 'pending', createdAt: serverTimestamp(), lastLoginAt: serverTimestamp() });
     return cred.user;
   }
 
@@ -80,6 +83,8 @@ export async function loginUser(email, password) {
   if (data.deviceId && data.deviceId !== deviceId) {
     // Rebind silently instead of blocking — see the note at the top of
     // this file for why a hard block here does more harm than good.
+    // (paymentStatus is deliberately left untouched — Firestore rules
+    // require it to stay unchanged on any client-side update.)
     await setDoc(
       userRef,
       { deviceId, lastLoginAt: serverTimestamp(), lastDeviceChangeAt: serverTimestamp() },
@@ -90,6 +95,12 @@ export async function loginUser(email, password) {
 
   await setDoc(userRef, { lastLoginAt: serverTimestamp() }, { merge: true });
   return cred.user;
+}
+
+/** Fetches { email, paymentStatus, ... } for the current user's Firestore profile. */
+export async function getUserProfile(uid) {
+  const snap = await getDoc(doc(db, 'users', uid));
+  return snap.exists() ? snap.data() : null;
 }
 
 export async function logoutUser() {

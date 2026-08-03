@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { useAuth } from '../store/AuthContext';
 import TopStatsBar from '../components/TopStatsBar';
 import ChapterCard from '../components/ChapterCard';
 import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
@@ -10,6 +11,7 @@ import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
 export default function Home() {
   const navigate = useNavigate();
   const { progress, isChapterUnlocked, recordStreak } = useProgress();
+  const { profile } = useAuth();
   const chapters = useMemo(() => getAllChapters(), []);
 
   const continueChapter = chapters.find((ch) => {
@@ -24,14 +26,14 @@ export default function Home() {
 
   return (
     <div className="pb-24">
-      <TopStatsBar xp={progress.xp} coins={progress.coins} streak={progress.streak} />
+      <TopStatsBar xp={progress.xp} coins={progress.coins} streak={progress.streak} userName={profile?.name} />
       <div className="px-4 pt-5">
         <div className="flex justify-end mb-1">
           <BrandBadge />
         </div>
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
           <h1 className="font-display font-bold text-2xl">
-            Namaste, <span className="text-[var(--color-saffron)]">Topper 👋</span>
+            Namaste, <span className="text-[var(--color-saffron)]">{profile?.name?.trim().split(' ')[0] || 'Topper'} 👋</span>
           </h1>
           <p className="text-[13px] text-[var(--color-muted)] mt-1">Aaj ka target complete karo, streak zinda rakho.</p>
         </motion.div>
@@ -99,6 +101,17 @@ export default function Home() {
             />
           ))}
         </div>
+        <button
+          onClick={() => navigate('/previous-papers')}
+          className="w-full mt-4 flex items-center gap-3 rounded-2xl px-4 py-3.5 bg-[var(--color-surface)] border border-[var(--color-gold)]/25"
+        >
+          <div className="w-10 h-10 rounded-xl bg-[var(--color-gold)]/15 flex items-center justify-center text-lg shrink-0">📚</div>
+          <div className="flex-1 text-left">
+            <p className="text-[13px] font-medium">Previous Year Papers</p>
+            <p className="text-[11px] text-[var(--color-muted)]">Guess papers + last 5 years solved</p>
+          </div>
+          <span className="text-[var(--color-muted)] text-lg">›</span>
+        </button>
         <BrandFooter />
       </div>
     </div>

@@ -1,11 +1,22 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Every student can only read/write their OWN user document —
-    // never anyone else's. This is what actually secures the device-lock
-    // data (nobody can edit their own deviceId to spoof a new device).
     match /users/{userId} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
+      // Every student can only read their OWN document — never anyone else's.
+      allow read: if request.auth != null && request.auth.uid == userId;
+
+      // On registration, paymentStatus must start as 'pending' — a student
+      // cannot create their own account already marked 'approved'.
+      allow create: if request.auth != null && request.auth.uid == userId
+                    && request.resource.data.paymentStatus == 'pending';
+
+      // On any update (device rebind, lastLoginAt, etc.), paymentStatus must
+      // stay UNCHANGED. This is what actually blocks free access — a student
+      // cannot self-approve their own payment by editing client-side data.
+      // Only Ashok, editing directly in the Firebase console (which uses
+      // admin privileges and bypasses these rules), can flip it to 'approved'.
+      allow update: if request.auth != null && request.auth.uid == userId
+                    && request.resource.data.paymentStatus == resource.data.paymentStatus;
     }
   }
 }

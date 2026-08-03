@@ -3,78 +3,107 @@
   "chapterId": "chapter-03",
   "order": 4,
   "title": {
-    "hi": "Elimination Method",
-    "en": "Elimination Method"
+    "hi": "Algebraic Conditions for Solutions",
+    "en": "Algebraic Conditions for Solutions"
   },
-  "estimatedMinutes": 13,
+  "estimatedMinutes": 12,
   "xpReward": 45,
   "coinReward": 12,
   "hero": {
-    "emoji": "➖",
+    "emoji": "🧮",
     "headline": {
-      "hi": "Elimination Method",
-      "en": "Elimination Method"
+      "hi": "Bina Solve Kiye, Batao Kitne Solutions Hain",
+      "en": "Tell How Many Solutions — Without Even Solving"
     },
     "subtext": {
-      "hi": "Ek variable ko cancel karo, doosra turant mil jaata hai.",
-      "en": "Cancel out one variable, and the other one falls right out."
+      "hi": "Sirf coefficients ke ratios dekh kar pata karo consistent hai ya inconsistent.",
+      "en": "Just by looking at coefficient ratios, determine consistent or inconsistent."
     }
   },
   "story": {
     "text": {
-      "hi": "Jab dono equations mein ek variable ka coefficient same (ya multiple) ho, to unhe add/subtract karke wo variable eliminate kar sakte hain — substitution se bhi fast tareeka.",
-      "en": "When a variable's coefficient is the same (or a multiple) in both equations, adding or subtracting them eliminates that variable — often faster than substitution."
+      "hi": "Substitution ya elimination se solve karne se pehle, agar tumhe pata ho ki solution hai bhi ya nahi, to time bach jaata hai. Ye lesson exactly wahi sikhata hai.",
+      "en": "Before solving by substitution or elimination, knowing whether a solution even exists saves time. This lesson teaches exactly that."
     }
   },
   "explanation": [
     {
       "type": "text",
       "content": {
-        "hi": "Step 1: Equations ko is tarah multiply karo ki ek variable ka coefficient dono mein same ho jaaye.",
-        "en": "Step 1: Multiply the equations so that one variable's coefficient becomes equal in both."
+        "hi": "Do equations a₁x+b₁y+c₁=0 aur a₂x+b₂y+c₂=0 ke coefficients ka ratio compare karke, hum bina solve kiye bata sakte hain ki pair consistent hai, inconsistent hai, ya dependent hai.",
+        "en": "By comparing the coefficient ratios of two equations a₁x+b₁y+c₁=0 and a₂x+b₂y+c₂=0, we can tell — without solving — whether the pair is consistent, inconsistent, or dependent."
       }
+    },
+    {
+      "type": "formula",
+      "content": "a₁/a₂ ≠ b₁/b₂  →  Unique Solution (Consistent, lines intersect)\na₁/a₂ = b₁/b₂ = c₁/c₂  →  Infinite Solutions (Consistent, Dependent, coincident lines)\na₁/a₂ = b₁/b₂ ≠ c₁/c₂  →  No Solution (Inconsistent, parallel lines)"
     },
     {
       "type": "text",
       "content": {
-        "hi": "Step 2: Dono equations ko add ya subtract karo — wo variable cancel ho jaayega.",
-        "en": "Step 2: Add or subtract the equations — that variable cancels out."
-      }
-    },
-    {
-      "type": "text",
-      "content": {
-        "hi": "Step 3: Bache hue variable ko solve karo, phir kisi bhi original equation mein daal kar doosra nikaalo.",
-        "en": "Step 3: Solve for the remaining variable, then substitute into either original equation to find the other."
+        "hi": "Ye conditions exam mein aksar 'find the value of k' type problems mein use hoti hain — jahan tumhe ek unknown constant ki value nikaalni hoti hai taaki pair ek specific type ka solution de.",
+        "en": "These conditions are often used in 'find the value of k' type exam problems — where you find an unknown constant so the pair gives a specific type of solution."
       }
     }
   ],
   "examples": [
     {
       "problem": {
-        "hi": "Elimination se solve karo: 3x + 2y = 12, x + y = 5",
-        "en": "Solve by elimination: 3x + 2y = 12, x + y = 5"
+        "hi": "k ki value nikaalo taaki 2x+3y=7 aur (k−1)x+(k+2)y=3k ka infinite solutions ho.",
+        "en": "Find k such that 2x+3y=7 and (k−1)x+(k+2)y=3k have infinite solutions."
       },
       "steps": [
         {
-          "hi": "Eq(2) ko 2 se multiply karo: 2x + 2y = 10",
-          "en": "Multiply Eq(2) by 2: 2x + 2y = 10"
+          "hi": "Infinite solutions ke liye: a₁/a₂=b₁/b₂=c₁/c₂",
+          "en": "For infinite solutions: a₁/a₂=b₁/b₂=c₁/c₂"
         },
         {
-          "hi": "Eq(1) − new Eq(2): (3x+2y) − (2x+2y) = 12 − 10",
-          "en": "Eq(1) − new Eq(2): (3x+2y) − (2x+2y) = 12 − 10"
+          "hi": "2/(k−1) = 3/(k+2) = 7/3k",
+          "en": "2/(k−1) = 3/(k+2) = 7/3k"
         },
         {
-          "hi": "x = 2",
-          "en": "x = 2"
+          "hi": "Pehle do se: 2(k+2)=3(k−1) → 2k+4=3k−3 → k=7",
+          "en": "From first two: 2(k+2)=3(k−1) → 2k+4=3k−3 → k=7"
         },
         {
-          "hi": "Eq(2) mein daalo: 2 + y = 5 → y = 3",
-          "en": "Substitute in Eq(2): 2 + y = 5 → y = 3"
+          "hi": "Check karo teesre se bhi ye satisfy hota hai — k=7",
+          "en": "Verify with the third ratio too — k=7 works"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "k ki value nikaalo taaki 3x+y=1 aur (2k−1)x+(k−1)y=2k+1 ka no solution ho.",
+        "en": "Find k such that 3x+y=1 and (2k−1)x+(k−1)y=2k+1 have no solution."
+      },
+      "steps": [
+        {
+          "hi": "No solution ke liye: a₁/a₂=b₁/b₂≠c₁/c₂",
+          "en": "For no solution: a₁/a₂=b₁/b₂≠c₁/c₂"
         },
         {
-          "hi": "Solution: x = 2, y = 3",
-          "en": "Solution: x = 2, y = 3"
+          "hi": "3/(2k−1) = 1/(k−1)",
+          "en": "3/(2k−1) = 1/(k−1)"
+        },
+        {
+          "hi": "3(k−1)=2k−1 → 3k−3=2k−1 → k=2",
+          "en": "3(k−1)=2k−1 → 3k−3=2k−1 → k=2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Bina solve kiye batao: 6x−3y+10=0 aur 2x−y+9=0 consistent hain ya nahi.",
+        "en": "Without solving, determine if 6x−3y+10=0 and 2x−y+9=0 are consistent."
+      },
+      "steps": [
+        {
+          "hi": "a₁/a₂=6/2=3, b₁/b₂=−3/−1=3, c₁/c₂=10/9",
+          "en": "a₁/a₂=6/2=3, b₁/b₂=−3/−1=3, c₁/c₂=10/9"
+        },
+        {
+          "hi": "a₁/a₂=b₁/b₂≠c₁/c₂ → Inconsistent (No Solution)",
+          "en": "a₁/a₂=b₁/b₂≠c₁/c₂ → Inconsistent (No Solution)"
         }
       ]
     }
@@ -85,61 +114,100 @@
         "type": "mcq",
         "difficulty": "medium",
         "question": {
-          "hi": "Elimination method kab sabse aasan hota hai?",
-          "en": "Elimination is easiest when:"
+          "hi": "Pair 4x+6y=7, 2x+3y=5 hai. Kaisa hai?",
+          "en": "The pair 4x+6y=7, 2x+3y=5 is:"
         },
         "options": [
           {
-            "hi": "Jab ek variable ka coefficient same/multiple ho",
-            "en": "One variable's coefficient is equal/a multiple"
+            "hi": "Consistent, unique",
+            "en": "Consistent, unique"
           },
           {
-            "hi": "Jab dono equations mein constant same ho",
-            "en": "Both equations have the same constant"
+            "hi": "Consistent, infinite",
+            "en": "Consistent, infinite"
           },
           {
-            "hi": "Sirf jab numbers chhote ho",
-            "en": "Only when the numbers are small"
+            "hi": "Inconsistent",
+            "en": "Inconsistent"
           },
           {
-            "hi": "Kabhi nahi",
-            "en": "Never"
+            "hi": "Keh nahi sakte",
+            "en": "Cannot say"
           }
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": {
-          "hi": "Coefficients match karne pe add/subtract se ek variable turant cancel ho jaata hai.",
-          "en": "Matching coefficients let addition/subtraction cancel one variable immediately."
+          "hi": "a₁/a₂=2, b₁/b₂=2, c₁/c₂=7/5. a₁/a₂=b₁/b₂≠c₁/c₂ → Inconsistent.",
+          "en": "a₁/a₂=2, b₁/b₂=2, c₁/c₂=7/5. a₁/a₂=b₁/b₂≠c₁/c₂ → Inconsistent."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "k ki value nikaalo: kx+2y=5, 3x+y=1 ka unique solution na ho.",
+          "en": "Find k such that kx+2y=5, 3x+y=1 has NO unique solution."
+        },
+        "options": [
+          {
+            "hi": "k=3",
+            "en": "k=3"
+          },
+          {
+            "hi": "k=6",
+            "en": "k=6"
+          },
+          {
+            "hi": "k=2",
+            "en": "k=2"
+          },
+          {
+            "hi": "k=1",
+            "en": "k=1"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Unique solution na ho iske liye a₁/a₂=b₁/b₂: k/3=2/1 → k=6.",
+          "en": "For no unique solution: a₁/a₂=b₁/b₂: k/3=2/1 → k=6."
         }
       },
       {
         "type": "truefalse",
         "difficulty": "easy",
         "question": {
-          "hi": "Elimination method mein hum equations ko multiply kar sakte hain.",
-          "en": "In elimination, we can multiply the equations."
+          "hi": "Agar a₁/a₂=b₁/b₂=c₁/c₂ ho to lines coincide karti hain.",
+          "en": "If a₁/a₂=b₁/b₂=c₁/c₂, the lines coincide."
         },
         "correct": true,
         "explanation": {
-          "hi": "Sahi — coefficients match karne ke liye multiply karna normal step hai.",
-          "en": "True — multiplying to match coefficients is a normal step."
+          "hi": "Sahi — teeno ratios equal hone ka matlab hai dono equations same line represent karti hain.",
+          "en": "True — all three ratios equal means both equations represent the same line."
         }
       }
     ]
   },
   "notes": [
     {
-      "hi": "Coefficients match karo → add/subtract → ek variable cancel",
-      "en": "Match coefficients → add/subtract → one variable cancels"
+      "hi": "a₁/a₂≠b₁/b₂ → Unique Solution",
+      "en": "a₁/a₂≠b₁/b₂ → Unique Solution"
     },
     {
-      "hi": "Bade/messy numbers ke liye substitution se fast hota hai",
-      "en": "Faster than substitution for larger/messier numbers"
+      "hi": "a₁/a₂=b₁/b₂=c₁/c₂ → Infinite Solutions",
+      "en": "a₁/a₂=b₁/b₂=c₁/c₂ → Infinite Solutions"
+    },
+    {
+      "hi": "a₁/a₂=b₁/b₂≠c₁/c₂ → No Solution",
+      "en": "a₁/a₂=b₁/b₂≠c₁/c₂ → No Solution"
+    },
+    {
+      "hi": "'Find k' problems mein ye conditions directly use hoti hain",
+      "en": "'Find k' problems directly use these conditions"
     }
   ],
   "summary": {
-    "hi": "Elimination method un cases mein fastest hai jahan coefficients easily match ho jaate hain.",
-    "en": "Elimination is the fastest method when coefficients can be easily matched."
+    "hi": "Ab tum sirf coefficients dekh kar bata sakte ho ki pair ka kaisa solution hai — bina ek bhi step solve kiye.",
+    "en": "You can now tell what kind of solution a pair has just by looking at coefficients — without solving a single step."
   },
   "reward": {
     "badge": null

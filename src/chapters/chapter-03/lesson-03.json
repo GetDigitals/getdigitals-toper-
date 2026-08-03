@@ -3,102 +3,78 @@
   "chapterId": "chapter-03",
   "order": 3,
   "title": {
-    "hi": "Substitution Method",
-    "en": "Substitution Method"
+    "hi": "Elimination Method",
+    "en": "Elimination Method"
   },
   "estimatedMinutes": 13,
   "xpReward": 45,
   "coinReward": 12,
   "hero": {
-    "emoji": "🔄",
+    "emoji": "➖",
     "headline": {
-      "hi": "Substitution Method",
-      "en": "Substitution Method"
+      "hi": "Elimination Method",
+      "en": "Elimination Method"
     },
     "subtext": {
-      "hi": "Ek variable ko doosre ke roop mein likho, phir substitute karo.",
-      "en": "Express one variable in terms of the other, then substitute."
+      "hi": "Ek variable ko cancel karo, doosra turant mil jaata hai.",
+      "en": "Cancel out one variable, and the other one falls right out."
     }
   },
   "story": {
     "text": {
-      "hi": "Graph banana slow hai jab numbers bade ho. Substitution method mein hum ek equation se x ya y ko isolate karte hain, phir usse doosri equation mein daal dete hain — bina graph ke exact answer milta hai.",
-      "en": "Drawing a graph is slow with large numbers. In substitution, we isolate x or y from one equation, then plug it into the other — giving an exact answer without any graph."
+      "hi": "Jab dono equations mein ek variable ka coefficient same (ya multiple) ho, to unhe add/subtract karke wo variable eliminate kar sakte hain — substitution se bhi fast tareeka.",
+      "en": "When a variable's coefficient is the same (or a multiple) in both equations, adding or subtracting them eliminates that variable — often faster than substitution."
     }
   },
   "explanation": [
     {
       "type": "text",
       "content": {
-        "hi": "Step 1: Kisi ek equation se ek variable (jaise y) ko doosre variable ke terms mein likho.",
-        "en": "Step 1: From one equation, express one variable (say y) in terms of the other."
+        "hi": "Step 1: Equations ko is tarah multiply karo ki ek variable ka coefficient dono mein same ho jaaye.",
+        "en": "Step 1: Multiply the equations so that one variable's coefficient becomes equal in both."
       }
     },
     {
       "type": "text",
       "content": {
-        "hi": "Step 2: Is expression ko doosri equation mein substitute karo — ab sirf ek variable bachega.",
-        "en": "Step 2: Substitute this expression into the other equation — now only one variable remains."
+        "hi": "Step 2: Dono equations ko add ya subtract karo — wo variable cancel ho jaayega.",
+        "en": "Step 2: Add or subtract the equations — that variable cancels out."
       }
     },
     {
       "type": "text",
       "content": {
-        "hi": "Step 3: Us equation ko solve karo, phir value ko wapas step-1 wali expression mein daal kar doosra variable nikaalo.",
-        "en": "Step 3: Solve that equation, then plug the value back into the step-1 expression to find the other variable."
+        "hi": "Step 3: Bache hue variable ko solve karo, phir kisi bhi original equation mein daal kar doosra nikaalo.",
+        "en": "Step 3: Solve for the remaining variable, then substitute into either original equation to find the other."
       }
     }
   ],
   "examples": [
     {
       "problem": {
-        "hi": "Substitution se solve karo: x + y = 14, x − y = 4",
-        "en": "Solve by substitution: x + y = 14, x − y = 4"
+        "hi": "Elimination se solve karo: 3x + 2y = 12, x + y = 5",
+        "en": "Solve by elimination: 3x + 2y = 12, x + y = 5"
       },
       "steps": [
         {
-          "hi": "Eq(1) se: x = 14 − y",
-          "en": "From Eq(1): x = 14 − y"
+          "hi": "Eq(2) ko 2 se multiply karo: 2x + 2y = 10",
+          "en": "Multiply Eq(2) by 2: 2x + 2y = 10"
         },
         {
-          "hi": "Eq(2) mein daalo: (14 − y) − y = 4",
-          "en": "Substitute in Eq(2): (14 − y) − y = 4"
+          "hi": "Eq(1) − new Eq(2): (3x+2y) − (2x+2y) = 12 − 10",
+          "en": "Eq(1) − new Eq(2): (3x+2y) − (2x+2y) = 12 − 10"
         },
         {
-          "hi": "14 − 2y = 4 → 2y = 10 → y = 5",
-          "en": "14 − 2y = 4 → 2y = 10 → y = 5"
+          "hi": "x = 2",
+          "en": "x = 2"
         },
         {
-          "hi": "x = 14 − 5 = 9",
-          "en": "x = 14 − 5 = 9"
+          "hi": "Eq(2) mein daalo: 2 + y = 5 → y = 3",
+          "en": "Substitute in Eq(2): 2 + y = 5 → y = 3"
         },
         {
-          "hi": "Solution: x = 9, y = 5",
-          "en": "Solution: x = 9, y = 5"
-        }
-      ]
-    },
-    {
-      "problem": {
-        "hi": "Solve karo: 7x − 15y = 2, x + 2y = 3",
-        "en": "Solve: 7x − 15y = 2, x + 2y = 3"
-      },
-      "steps": [
-        {
-          "hi": "Eq(2) se: x = 3 − 2y",
-          "en": "From Eq(2): x = 3 − 2y"
-        },
-        {
-          "hi": "Eq(1) mein daalo: 7(3−2y) − 15y = 2",
-          "en": "Substitute in Eq(1): 7(3−2y) − 15y = 2"
-        },
-        {
-          "hi": "21 − 14y − 15y = 2 → 21 − 29y = 2 → 29y = 19 → y = 19/29",
-          "en": "21 − 14y − 15y = 2 → 21 − 29y = 2 → 29y = 19 → y = 19/29"
-        },
-        {
-          "hi": "Ye thoda messy answer aaya — real exams mein numbers usually simple rakhe jaate hain, ye dikhata hai algebra hamesha exact kaam karta hai chahe numbers kaise bhi ho.",
-          "en": "This gives a slightly messy answer — real exams usually keep numbers simpler, but this shows algebra always works exactly, no matter the numbers."
+          "hi": "Solution: x = 2, y = 3",
+          "en": "Solution: x = 2, y = 3"
         }
       ]
     }
@@ -107,81 +83,63 @@
     "questions": [
       {
         "type": "mcq",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "question": {
-          "hi": "Substitution method mein sabse pehla step kya hai?",
-          "en": "What is the first step in the substitution method?"
+          "hi": "Elimination method kab sabse aasan hota hai?",
+          "en": "Elimination is easiest when:"
         },
         "options": [
           {
-            "hi": "Dono equations add karna",
-            "en": "Adding both equations"
+            "hi": "Jab ek variable ka coefficient same/multiple ho",
+            "en": "One variable's coefficient is equal/a multiple"
           },
           {
-            "hi": "Ek variable ko doosre ke terms mein likhna",
-            "en": "Expressing one variable in terms of the other"
+            "hi": "Jab dono equations mein constant same ho",
+            "en": "Both equations have the same constant"
           },
           {
-            "hi": "Graph banana",
-            "en": "Drawing a graph"
+            "hi": "Sirf jab numbers chhote ho",
+            "en": "Only when the numbers are small"
           },
           {
-            "hi": "Multiply karna",
-            "en": "Multiplying"
+            "hi": "Kabhi nahi",
+            "en": "Never"
           }
         ],
-        "correct": 1,
+        "correct": 0,
         "explanation": {
-          "hi": "Pehle ek equation se ek variable isolate karte hain.",
-          "en": "First, we isolate one variable from one equation."
+          "hi": "Coefficients match karne pe add/subtract se ek variable turant cancel ho jaata hai.",
+          "en": "Matching coefficients let addition/subtraction cancel one variable immediately."
         }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
+        "type": "truefalse",
+        "difficulty": "easy",
         "question": {
-          "hi": "x + y = 14 aur x − y = 4 mein y ki value kya hai?",
-          "en": "In x + y = 14 and x − y = 4, what is the value of y?"
+          "hi": "Elimination method mein hum equations ko multiply kar sakte hain.",
+          "en": "In elimination, we can multiply the equations."
         },
-        "options": [
-          {
-            "hi": "4",
-            "en": "4"
-          },
-          {
-            "hi": "5",
-            "en": "5"
-          },
-          {
-            "hi": "9",
-            "en": "9"
-          },
-          {
-            "hi": "10",
-            "en": "10"
-          }
-        ],
-        "correct": 1,
+        "correct": true,
         "explanation": {
-          "hi": "x = 14−y substitute karke: 14−2y=4 → y=5.",
-          "en": "Substituting x = 14−y: 14−2y=4 → y=5."
+          "hi": "Sahi — coefficients match karne ke liye multiply karna normal step hai.",
+          "en": "True — multiplying to match coefficients is a normal step."
         }
       }
     ]
   },
   "notes": [
     {
-      "hi": "Isolate → Substitute → Solve → Back-substitute",
-      "en": "Isolate → Substitute → Solve → Back-substitute"
+      "hi": "Coefficients match karo → add/subtract → ek variable cancel",
+      "en": "Match coefficients → add/subtract → one variable cancels"
     },
     {
-      "hi": "Simpler coefficient wale variable ko pehle isolate karo",
-      "en": "Isolate the variable with the simpler coefficient first"
+      "hi": "Bade/messy numbers ke liye substitution se fast hota hai",
+      "en": "Faster than substitution for larger/messier numbers"
     }
   ],
   "summary": {
-    "hi": "Substitution method exact answer deta hai, koi graph nahi chahiye — bas isolate karo aur substitute karo.",
-    "en": "The substitution method gives an exact answer with no graph needed — just isolate and substitute."
+    "hi": "Elimination method un cases mein fastest hai jahan coefficients easily match ho jaate hain.",
+    "en": "Elimination is the fastest method when coefficients can be easily matched."
   },
   "reward": {
     "badge": null

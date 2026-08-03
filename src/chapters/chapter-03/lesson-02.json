@@ -3,94 +3,102 @@
   "chapterId": "chapter-03",
   "order": 2,
   "title": {
-    "hi": "Graphical Method",
-    "en": "Graphical Method"
+    "hi": "Substitution Method",
+    "en": "Substitution Method"
   },
-  "estimatedMinutes": 12,
-  "xpReward": 40,
-  "coinReward": 10,
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
   "hero": {
-    "emoji": "📈",
+    "emoji": "🔄",
     "headline": {
-      "hi": "Solve by Drawing Lines!",
-      "en": "Solve by Drawing Lines!"
+      "hi": "Substitution Method",
+      "en": "Substitution Method"
     },
     "subtext": {
-      "hi": "Graph pe do lines plot karo, unka intersection point hi solution hai.",
-      "en": "Plot two lines on a graph — their intersection point is the solution."
+      "hi": "Ek variable ko doosre ke roop mein likho, phir substitute karo.",
+      "en": "Express one variable in terms of the other, then substitute."
     }
   },
   "story": {
     "text": {
-      "hi": "Graphical method mein hum do linear equations ko graph paper pe plot karte hain aur intersection point se solution nikaalte hain. Ye method visual aur intuitive hai.",
-      "en": "In the graphical method, we plot two linear equations on graph paper and find the solution from their point of intersection. This method is visual and intuitive."
+      "hi": "Graph banana slow hai jab numbers bade ho. Substitution method mein hum ek equation se x ya y ko isolate karte hain, phir usse doosri equation mein daal dete hain — bina graph ke exact answer milta hai.",
+      "en": "Drawing a graph is slow with large numbers. In substitution, we isolate x or y from one equation, then plug it into the other — giving an exact answer without any graph."
     }
   },
   "explanation": [
     {
       "type": "text",
       "content": {
-        "hi": "Equation ko y = mx + c form mein likho, x ke 2-3 values choose karo, y nikaalo, points plot karke line draw karo.",
-        "en": "Write the equation as y = mx + c, choose 2-3 x values, compute y, plot the points, and draw the line."
+        "hi": "Step 1: Kisi ek equation se ek variable (jaise y) ko doosre variable ke terms mein likho.",
+        "en": "Step 1: From one equation, express one variable (say y) in terms of the other."
       }
     },
     {
       "type": "text",
       "content": {
-        "hi": "Sirf do points bhi kaafi hain line draw karne ke liye.",
-        "en": "Just two points are enough to draw a line."
+        "hi": "Step 2: Is expression ko doosri equation mein substitute karo — ab sirf ek variable bachega.",
+        "en": "Step 2: Substitute this expression into the other equation — now only one variable remains."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 3: Us equation ko solve karo, phir value ko wapas step-1 wali expression mein daal kar doosra variable nikaalo.",
+        "en": "Step 3: Solve that equation, then plug the value back into the step-1 expression to find the other variable."
       }
     }
   ],
-  "diagram": {
-    "emoji": "📉",
-    "caption": {
-      "hi": "Do lines jahan intersect karti hain, wahi (x,y) solution hai.",
-      "en": "Wherever the two lines intersect is the (x, y) solution."
-    }
-  },
   "examples": [
     {
       "problem": {
-        "hi": "Graphically solve karo: x + y = 5 aur 2x − y = 4",
-        "en": "Solve graphically: x + y = 5 and 2x − y = 4"
+        "hi": "Substitution se solve karo: x + y = 14, x − y = 4",
+        "en": "Solve by substitution: x + y = 14, x − y = 4"
       },
       "steps": [
         {
-          "hi": "Eq 1: y = 5 − x → Points (0,5) aur (5,0)",
-          "en": "Eq 1: y = 5 − x → Points (0,5) and (5,0)"
+          "hi": "Eq(1) se: x = 14 − y",
+          "en": "From Eq(1): x = 14 − y"
         },
         {
-          "hi": "Eq 2: y = 2x − 4 → Points (0,−4) aur (2,0)",
-          "en": "Eq 2: y = 2x − 4 → Points (0,−4) and (2,0)"
+          "hi": "Eq(2) mein daalo: (14 − y) − y = 4",
+          "en": "Substitute in Eq(2): (14 − y) − y = 4"
         },
         {
-          "hi": "Dono lines (3, 2) pe intersect hoti hain",
-          "en": "Both lines intersect at (3, 2)"
+          "hi": "14 − 2y = 4 → 2y = 10 → y = 5",
+          "en": "14 − 2y = 4 → 2y = 10 → y = 5"
         },
         {
-          "hi": "Solution: x = 3, y = 2",
-          "en": "Solution: x = 3, y = 2"
+          "hi": "x = 14 − 5 = 9",
+          "en": "x = 14 − 5 = 9"
+        },
+        {
+          "hi": "Solution: x = 9, y = 5",
+          "en": "Solution: x = 9, y = 5"
         }
       ]
     },
     {
       "problem": {
-        "hi": "Dikhao ki x + 2y = 4 aur x + 2y = 6 ka koi solution nahi hai.",
-        "en": "Show that x + 2y = 4 and x + 2y = 6 have no solution."
+        "hi": "Solve karo: 7x − 15y = 2, x + 2y = 3",
+        "en": "Solve: 7x − 15y = 2, x + 2y = 3"
       },
       "steps": [
         {
-          "hi": "Dono ka slope same hai (−1/2)",
-          "en": "Both have the same slope (−1/2)"
+          "hi": "Eq(2) se: x = 3 − 2y",
+          "en": "From Eq(2): x = 3 − 2y"
         },
         {
-          "hi": "Lines parallel hain — kabhi nahi milengi",
-          "en": "Lines are parallel — they never meet"
+          "hi": "Eq(1) mein daalo: 7(3−2y) − 15y = 2",
+          "en": "Substitute in Eq(1): 7(3−2y) − 15y = 2"
         },
         {
-          "hi": "No Solution → Inconsistent",
-          "en": "No Solution → Inconsistent"
+          "hi": "21 − 14y − 15y = 2 → 21 − 29y = 2 → 29y = 19 → y = 19/29",
+          "en": "21 − 14y − 15y = 2 → 21 − 29y = 2 → 29y = 19 → y = 19/29"
+        },
+        {
+          "hi": "Ye thoda messy answer aaya — real exams mein numbers usually simple rakhe jaate hain, ye dikhata hai algebra hamesha exact kaam karta hai chahe numbers kaise bhi ho.",
+          "en": "This gives a slightly messy answer — real exams usually keep numbers simpler, but this shows algebra always works exactly, no matter the numbers."
         }
       ]
     }
@@ -99,85 +107,81 @@
     "questions": [
       {
         "type": "mcq",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "question": {
-          "hi": "Lines x + y = 3 aur x + y = 5 kaise hain?",
-          "en": "The lines x + y = 3 and x + y = 5 are:"
+          "hi": "Substitution method mein sabse pehla step kya hai?",
+          "en": "What is the first step in the substitution method?"
         },
         "options": [
           {
-            "hi": "Intersecting",
-            "en": "Intersecting"
+            "hi": "Dono equations add karna",
+            "en": "Adding both equations"
           },
           {
-            "hi": "Parallel",
-            "en": "Parallel"
+            "hi": "Ek variable ko doosre ke terms mein likhna",
+            "en": "Expressing one variable in terms of the other"
           },
           {
-            "hi": "Coincident",
-            "en": "Coincident"
+            "hi": "Graph banana",
+            "en": "Drawing a graph"
           },
           {
-            "hi": "Perpendicular",
-            "en": "Perpendicular"
+            "hi": "Multiply karna",
+            "en": "Multiplying"
           }
         ],
         "correct": 1,
         "explanation": {
-          "hi": "Dono ka slope same hai lekin intercept alag — parallel hain.",
-          "en": "Both have the same slope but different intercepts — parallel."
+          "hi": "Pehle ek equation se ek variable isolate karte hain.",
+          "en": "First, we isolate one variable from one equation."
         }
       },
       {
         "type": "mcq",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "question": {
-          "hi": "x + y = 5 aur x − y = 1 ka solution kya hoga?",
-          "en": "The solution of x + y = 5 and x − y = 1 is:"
+          "hi": "x + y = 14 aur x − y = 4 mein y ki value kya hai?",
+          "en": "In x + y = 14 and x − y = 4, what is the value of y?"
         },
         "options": [
           {
-            "hi": "(2,3)",
-            "en": "(2,3)"
+            "hi": "4",
+            "en": "4"
           },
           {
-            "hi": "(3,2)",
-            "en": "(3,2)"
+            "hi": "5",
+            "en": "5"
           },
           {
-            "hi": "(4,1)",
-            "en": "(4,1)"
+            "hi": "9",
+            "en": "9"
           },
           {
-            "hi": "(1,4)",
-            "en": "(1,4)"
+            "hi": "10",
+            "en": "10"
           }
         ],
         "correct": 1,
         "explanation": {
-          "hi": "Add karo: 2x=6 → x=3, phir y=2.",
-          "en": "Add the equations: 2x=6 → x=3, then y=2."
+          "hi": "x = 14−y substitute karke: 14−2y=4 → y=5.",
+          "en": "Substituting x = 14−y: 14−2y=4 → y=5."
         }
       }
     ]
   },
   "notes": [
     {
-      "hi": "Intersecting → Unique solution",
-      "en": "Intersecting → Unique solution"
+      "hi": "Isolate → Substitute → Solve → Back-substitute",
+      "en": "Isolate → Substitute → Solve → Back-substitute"
     },
     {
-      "hi": "Parallel → No solution",
-      "en": "Parallel → No solution"
-    },
-    {
-      "hi": "Coincident → Infinite solutions",
-      "en": "Coincident → Infinite solutions"
+      "hi": "Simpler coefficient wale variable ko pehle isolate karo",
+      "en": "Isolate the variable with the simpler coefficient first"
     }
   ],
   "summary": {
-    "hi": "Graph pe lines dikhne se solution turant samajh aata hai — lekin bade numbers ke liye algebra faster hai.",
-    "en": "Seeing the lines on a graph makes the solution immediately clear — but algebra is faster for larger numbers."
+    "hi": "Substitution method exact answer deta hai, koi graph nahi chahiye — bas isolate karo aur substitute karo.",
+    "en": "The substitution method gives an exact answer with no graph needed — just isolate and substitute."
   },
   "reward": {
     "badge": null

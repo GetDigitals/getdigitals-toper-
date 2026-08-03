@@ -5,15 +5,17 @@ import { useAuth } from '../store/AuthContext';
 
 export default function Splash() {
   const navigate = useNavigate();
-  const { user, authLoading } = useAuth();
+  const { user, authLoading, isApproved, profileLoading } = useAuth();
 
   useEffect(() => {
-    if (authLoading) return; // wait for Firebase to report auth state
+    if (authLoading || (user && profileLoading)) return; // wait for Firebase to report auth + profile state
     const t = setTimeout(() => {
-      navigate(user ? '/home' : '/login', { replace: true });
+      if (!user) navigate('/login', { replace: true });
+      else if (!isApproved) navigate('/payment-pending', { replace: true });
+      else navigate('/home', { replace: true });
     }, 1200);
     return () => clearTimeout(t);
-  }, [authLoading, user, navigate]);
+  }, [authLoading, profileLoading, user, isApproved, navigate]);
 
   return (
     <div className="h-full flex flex-col items-center justify-center bg-[var(--color-ink)]">

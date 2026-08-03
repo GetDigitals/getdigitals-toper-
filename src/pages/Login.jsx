@@ -21,6 +21,8 @@ export default function Login() {
   const navigate = useNavigate();
   const { register, login, forgotPassword } = useAuth();
   const [mode, setMode] = useState('login'); // 'login' | 'register'
+  const [name, setName] = useState('');
+  const [mobile, setMobile] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -33,7 +35,7 @@ export default function Login() {
     setLoading(true);
     try {
       if (mode === 'register') {
-        await register(email.trim(), password);
+        await register(email.trim(), password, name.trim(), mobile.trim());
       } else {
         await login(email.trim(), password);
       }
@@ -60,7 +62,7 @@ export default function Login() {
   }
 
   return (
-    <div className="h-full flex flex-col justify-center px-6 bg-[var(--color-ink)]">
+    <div className="h-full flex flex-col justify-center px-6 bg-[var(--color-ink)] overflow-y-auto py-8">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
         <h1 className="font-display font-bold text-3xl leading-tight mb-2">
           {mode === 'login' ? (
@@ -70,10 +72,31 @@ export default function Login() {
           )}
         </h1>
         <p className="text-[14px] text-[var(--color-muted)] mb-7">
-          Ek email sirf ek device pe chalega — apna account share mat karna.
+          {mode === 'register'
+            ? 'Apna naam daalo — app tumhare naam se personalize ho jaayegi.'
+            : 'Ek email sirf ek device pe chalega — apna account share mat karna.'}
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-3">
+          {mode === 'register' && (
+            <>
+              <input
+                type="text"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Your name"
+                className="w-full bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl px-4 py-3.5 text-[15px] placeholder:text-[var(--color-muted-2)]"
+              />
+              <input
+                type="tel"
+                value={mobile}
+                onChange={(e) => setMobile(e.target.value)}
+                placeholder="Mobile number (optional)"
+                className="w-full bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl px-4 py-3.5 text-[15px] placeholder:text-[var(--color-muted-2)]"
+              />
+            </>
+          )}
           <input
             type="email"
             required

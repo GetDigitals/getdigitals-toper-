@@ -3,8 +3,8 @@
   "chapterId": "chapter-03",
   "order": 6,
   "title": {
-    "hi": "Chapter Wrap-up & Mixed Practice",
-    "en": "Chapter Wrap-up & Mixed Practice"
+    "hi": "Chapter Wrap-up & Quiz",
+    "en": "Chapter Wrap-up & Quiz"
   },
   "estimatedMinutes": 12,
   "xpReward": 60,
@@ -22,16 +22,16 @@
   },
   "story": {
     "text": {
-      "hi": "Board exam mein is chapter se graphical, substitution, elimination, aur word problems — sab type ke questions aate hain. Ye lesson sabko revise karta hai.",
-      "en": "Board exams draw questions from this chapter across graphical, substitution, elimination, and word problems. This lesson revises all of them."
+      "hi": "Board exam mein is chapter se graphical, substitution, elimination, algebraic conditions, aur word problems — sab type ke questions aate hain. Ye lesson sabko revise karta hai.",
+      "en": "Board exams draw questions from this chapter across graphical, substitution, elimination, algebraic conditions, and word problems. This lesson revises all of them."
     }
   },
   "explanation": [
     {
       "type": "text",
       "content": {
-        "hi": "1. Consistency check: ratios compare karo",
-        "en": "1. Consistency check: compare the ratios"
+        "hi": "1. Consistency check: ratios compare karo — a₁/a₂ vs b₁/b₂ vs c₁/c₂",
+        "en": "1. Consistency check: compare ratios — a₁/a₂ vs b₁/b₂ vs c₁/c₂"
       }
     },
     {
@@ -66,25 +66,37 @@
   "examples": [
     {
       "problem": {
-        "hi": "Ek fraction ka numerator denominator se 3 kam hai. Agar dono mein 2 add karein to fraction 1/2 ban jaata hai. Fraction nikaalo.",
-        "en": "A fraction's numerator is 3 less than its denominator. Adding 2 to both makes the fraction 1/2. Find the fraction."
+        "hi": "Do numbers ka sum 8 hai aur difference 2 hai — mixed check: elimination se solve karo.",
+        "en": "Two numbers sum to 8 with difference 2 — mixed check: solve using elimination."
       },
       "steps": [
         {
-          "hi": "Numerator=x, Denominator=y maano: x = y − 3",
-          "en": "Let Numerator=x, Denominator=y: x = y − 3"
+          "hi": "x+y=8, x−y=2",
+          "en": "x+y=8, x−y=2"
         },
         {
-          "hi": "(x+2)/(y+2) = 1/2 → 2(x+2) = y+2 → 2x − y = −2",
-          "en": "(x+2)/(y+2) = 1/2 → 2(x+2) = y+2 → 2x − y = −2"
+          "hi": "Add: 2x=10 → x=5, y=3",
+          "en": "Add: 2x=10 → x=5, y=3"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "2x+3y=11 aur 2x−4y=−24 ka solution kya hai?",
+        "en": "What is the solution of 2x+3y=11 and 2x−4y=−24?"
+      },
+      "steps": [
+        {
+          "hi": "Subtract: 7y=35 → y=5",
+          "en": "Subtract: 7y=35 → y=5"
         },
         {
-          "hi": "x = y−3 substitute karo: 2(y−3) − y = −2 → y = 4",
-          "en": "Substitute x = y−3: 2(y−3) − y = −2 → y = 4"
+          "hi": "2x+15=11 → x=−2",
+          "en": "2x+15=11 → x=−2"
         },
         {
-          "hi": "x = 1, Fraction = 1/4",
-          "en": "x = 1, Fraction = 1/4"
+          "hi": "Solution: x=−2, y=5",
+          "en": "Solution: x=−2, y=5"
         }
       ]
     }
@@ -131,12 +143,12 @@
           },
           {
             "left": {
-              "hi": "Word Problem",
-              "en": "Word Problem"
+              "hi": "Algebraic Conditions",
+              "en": "Algebraic Conditions"
             },
             "right": {
-              "hi": "Form equations from sentences",
-              "en": "Form equations from sentences"
+              "hi": "Compare a₁/a₂, b₁/b₂, c₁/c₂",
+              "en": "Compare a₁/a₂, b₁/b₂, c₁/c₂"
             }
           }
         ]
@@ -171,13 +183,44 @@
           "hi": "Subtract karo: 7y=35 → y=5, phir x=−2.",
           "en": "Subtract: 7y=35 → y=5, then x=−2."
         }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Kaunsa method deleted hai current CBSE syllabus se?",
+          "en": "Which method has been removed from the current CBSE syllabus?"
+        },
+        "options": [
+          {
+            "hi": "Substitution",
+            "en": "Substitution"
+          },
+          {
+            "hi": "Elimination",
+            "en": "Elimination"
+          },
+          {
+            "hi": "Cross-Multiplication",
+            "en": "Cross-Multiplication"
+          },
+          {
+            "hi": "Graphical",
+            "en": "Graphical"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Cross-Multiplication Method aur equations-reducible-to-linear-form dono 2025-26 syllabus se hata diye gaye hain.",
+          "en": "The Cross-Multiplication Method and equations reducible to linear form have both been removed from the 2025-26 syllabus."
+        }
       }
     ]
   },
   "notes": [
     {
-      "hi": "4 methods: Graphical, Substitution, Elimination, aur word-problem setup",
-      "en": "4 methods: Graphical, Substitution, Elimination, and word-problem setup"
+      "hi": "4 methods: Graphical, Substitution, Elimination, aur Algebraic Conditions",
+      "en": "4 methods: Graphical, Substitution, Elimination, and Algebraic Conditions"
     },
     {
       "hi": "Har method same answer deta hai — bas approach alag hai",
@@ -185,8 +228,8 @@
     }
   ],
   "summary": {
-    "hi": "Chapter 3 complete! Ab tum kisi bhi method se pair of linear equations solve kar sakte ho — graph se ya algebra se.",
-    "en": "Chapter 3 complete! You can now solve any pair of linear equations — graphically or algebraically."
+    "hi": "Chapter 3 complete! Ab tum kisi bhi method se pair of linear equations solve kar sakte ho.",
+    "en": "Chapter 3 complete! You can now solve any pair of linear equations using any method."
   },
   "reward": {
     "badge": {
