@@ -1,0 +1,236 @@
+{
+  "chapterId": "chapter-06",
+  "objective": [
+    {
+      "question": {
+        "hi": "Similar triangles ke corresponding sides ka ratio kya kehlata hai?",
+        "en": "The ratio of corresponding sides of similar triangles is called:"
+      },
+      "options": [
+        {
+          "hi": "Congruence ratio",
+          "en": "Congruence ratio"
+        },
+        {
+          "hi": "Scale Factor",
+          "en": "Scale Factor"
+        },
+        {
+          "hi": "Area ratio",
+          "en": "Area ratio"
+        },
+        {
+          "hi": "Perimeter ratio",
+          "en": "Perimeter ratio"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Scale Factor hi corresponding sides ka ratio hota hai.",
+        "en": "Scale Factor is the ratio of corresponding sides."
+      }
+    },
+    {
+      "question": {
+        "hi": "ΔABC~ΔDEF aur ∠A=55°,∠B=75° ho, to ∠F kya hoga?",
+        "en": "ΔABC~ΔDEF and ∠A=55°,∠B=75°. Find ∠F."
+      },
+      "options": [
+        {
+          "hi": "50°",
+          "en": "50°"
+        },
+        {
+          "hi": "55°",
+          "en": "55°"
+        },
+        {
+          "hi": "75°",
+          "en": "75°"
+        },
+        {
+          "hi": "130°",
+          "en": "130°"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "∠C=180−55−75=50°, aur similarity se ∠F=∠C=50°.",
+        "en": "∠C=180−55−75=50°, and by similarity ∠F=∠C=50°."
+      }
+    },
+    {
+      "question": {
+        "hi": "BPT ka doosra naam kya hai?",
+        "en": "What is the other name for BPT?"
+      },
+      "options": [
+        {
+          "hi": "Pythagoras Theorem",
+          "en": "Pythagoras Theorem"
+        },
+        {
+          "hi": "Thales Theorem",
+          "en": "Thales Theorem"
+        },
+        {
+          "hi": "Midpoint Theorem",
+          "en": "Midpoint Theorem"
+        },
+        {
+          "hi": "Angle Sum Theorem",
+          "en": "Angle Sum Theorem"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Basic Proportionality Theorem ko Thales Theorem bhi kehte hain.",
+        "en": "Basic Proportionality Theorem is also called Thales Theorem."
+      }
+    },
+    {
+      "question": {
+        "hi": "Do similar triangles ke sides 5:3 hain. Area ratio?",
+        "en": "Two similar triangles have sides in ratio 5:3. Area ratio is:"
+      },
+      "options": [
+        {
+          "hi": "5:3",
+          "en": "5:3"
+        },
+        {
+          "hi": "25:9",
+          "en": "25:9"
+        },
+        {
+          "hi": "10:6",
+          "en": "10:6"
+        },
+        {
+          "hi": "15:9",
+          "en": "15:9"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Area ratio=(5/3)²=25/9.",
+        "en": "Area ratio=(5/3)²=25/9."
+      }
+    },
+    {
+      "question": {
+        "hi": "Right triangle mein sides 5cm aur 12cm hain (right angle ke around). Hypotenuse?",
+        "en": "A right triangle has legs 5cm and 12cm. The hypotenuse is:"
+      },
+      "options": [
+        {
+          "hi": "13cm",
+          "en": "13cm"
+        },
+        {
+          "hi": "17cm",
+          "en": "17cm"
+        },
+        {
+          "hi": "15cm",
+          "en": "15cm"
+        },
+        {
+          "hi": "14cm",
+          "en": "14cm"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "5-12-13 ek famous Pythagorean triplet hai.",
+        "en": "5-12-13 is a famous Pythagorean triplet."
+      }
+    },
+    {
+      "question": {
+        "hi": "Konsi condition SAS similarity ke liye zaroori hai?",
+        "en": "Which condition is essential for SAS similarity?"
+      },
+      "options": [
+        {
+          "hi": "Sirf 2 sides proportional",
+          "en": "Only 2 sides proportional"
+        },
+        {
+          "hi": "2 sides proportional + included angle equal",
+          "en": "2 sides proportional + included angle equal"
+        },
+        {
+          "hi": "3 angles equal",
+          "en": "3 angles equal"
+        },
+        {
+          "hi": "Sirf 1 angle equal",
+          "en": "Only 1 angle equal"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "SAS mein angle un dono sides ke beech mein hona chahiye.",
+        "en": "In SAS, the angle must be between those two sides."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Prove karo ki agar ek line triangle ki do sides ko proportional divide karti hai, to woh third side ke parallel hai (BPT).",
+        "en": "Prove that if a line divides two sides of a triangle proportionally, it is parallel to the third side (BPT)."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Given: ΔABC mein D on AB, E on AC, aur AD/DB=AE/EC\nTo Prove: DE || BC\n\nProof (by contradiction):\nMaano DE, BC ke parallel nahi hai. To ek doosri line DE' draw karo jo BC ke parallel ho, E' on AC.\nBPT se: AD/DB=AE'/E'C\nDiya gaya hai: AD/DB=AE/EC\nIsliye AE/EC=AE'/E'C, jiska matlab E aur E' same point hain.\nIsliye DE hi BC ke parallel hai. Hence Proved.",
+        "en": "Given: In ΔABC, D on AB, E on AC, and AD/DB=AE/EC\nTo Prove: DE || BC\n\nProof (by contradiction):\nSuppose DE is not parallel to BC. Draw another line DE' parallel to BC, with E' on AC.\nBy BPT: AD/DB=AE'/E'C\nGiven: AD/DB=AE/EC\nSo AE/EC=AE'/E'C, meaning E and E' are the same point.\nHence DE itself is parallel to BC. Hence Proved."
+      }
+    },
+    {
+      "question": {
+        "hi": "ΔABC~ΔPQR, perimeter(ABC)=36cm, perimeter(PQR)=24cm. Agar PQ=10cm, AB nikaalo.",
+        "en": "ΔABC~ΔPQR, perimeter(ABC)=36cm, perimeter(PQR)=24cm. If PQ=10cm, find AB."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "Similar triangles mein perimeter ratio = side ratio\nPerimeter ratio = 36/24 = 3/2\nAB/PQ = 3/2\nAB/10 = 3/2\nAB = 15cm",
+        "en": "In similar triangles, perimeter ratio = side ratio\nPerimeter ratio = 36/24 = 3/2\nAB/PQ = 3/2\nAB/10 = 3/2\nAB = 15cm"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek 6m ka pole zameen pe 4m ki shadow banata hai. Usi waqt ek building ki shadow 24m hai. Building ki height nikaalo (similar triangles use karke).",
+        "en": "A 6m pole casts a 4m shadow. At the same time, a building casts a 24m shadow. Find the building's height using similar triangles."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Pole aur building dono sun ke same angle pe shadow banate hain, isliye similar triangles bante hain.\nPole height/Pole shadow = Building height/Building shadow\n6/4 = h/24\nh = 6×24/4 = 36m",
+        "en": "The pole and building cast shadows at the same sun angle, forming similar triangles.\nPole height/Pole shadow = Building height/Building shadow\n6/4 = h/24\nh = 6×24/4 = 36m"
+      }
+    },
+    {
+      "question": {
+        "hi": "Prove karo Pythagoras Theorem: right triangle mein hypotenuse² = base² + perpendicular².",
+        "en": "Prove the Pythagoras Theorem: in a right triangle, hypotenuse² = base² + perpendicular²."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Given: Right ΔABC, ∠B=90°\nTo Prove: AC²=AB²+BC²\nConstruction: BD⊥AC\n\nProof:\nΔADB~ΔABC (AA: ∠A common, ∠ADB=∠ABC=90°)\n→ AB²=AD×AC ...(1)\n\nΔBDC~ΔABC (AA: ∠C common, ∠BDC=∠ABC=90°)\n→ BC²=DC×AC ...(2)\n\n(1)+(2): AB²+BC²=AC(AD+DC)=AC×AC=AC²\nHence Proved.",
+        "en": "Given: Right ΔABC, ∠B=90°\nTo Prove: AC²=AB²+BC²\nConstruction: BD⊥AC\n\nProof:\nΔADB~ΔABC (AA: ∠A common, ∠ADB=∠ABC=90°)\n→ AB²=AD×AC ...(1)\n\nΔBDC~ΔABC (AA: ∠C common, ∠BDC=∠ABC=90°)\n→ BC²=DC×AC ...(2)\n\nAdd (1)+(2): AB²+BC²=AC(AD+DC)=AC×AC=AC²\nHence Proved."
+      }
+    },
+    {
+      "question": {
+        "hi": "Do khambe (poles) 6m aur 11m lambe hain, unke base ke beech ki distance 12m hai. Poles ke tops ke beech ki distance nikaalo.",
+        "en": "Two poles of height 6m and 11m stand 12m apart. Find the distance between their tops."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Height difference = 11−6 = 5m (vertical leg)\nHorizontal distance = 12m\nDistance between tops² = 5² + 12² = 25+144 = 169\nDistance = √169 = 13m",
+        "en": "Height difference = 11−6 = 5m (vertical leg)\nHorizontal distance = 12m\nDistance between tops² = 5² + 12² = 25+144 = 169\nDistance = √169 = 13m"
+      }
+    }
+  ]
+}

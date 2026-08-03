@@ -1,0 +1,236 @@
+{
+  "chapterId": "chapter-01",
+  "objective": [
+    {
+      "question": {
+        "hi": "360 ka prime factorization kya hai?",
+        "en": "What is the prime factorization of 360?"
+      },
+      "options": [
+        {
+          "hi": "2³×3²×5",
+          "en": "2³×3²×5"
+        },
+        {
+          "hi": "2²×3³×5",
+          "en": "2²×3³×5"
+        },
+        {
+          "hi": "2⁴×3×5",
+          "en": "2⁴×3×5"
+        },
+        {
+          "hi": "2³×3×5²",
+          "en": "2³×3×5²"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "360=8×45=2³×3²×5",
+        "en": "360=8×45=2³×3²×5"
+      }
+    },
+    {
+      "question": {
+        "hi": "Do numbers ka HCF 12 hai aur unka product 288 hai. LCM kya hoga?",
+        "en": "Two numbers have HCF 12 and product 288. Find the LCM."
+      },
+      "options": [
+        {
+          "hi": "18",
+          "en": "18"
+        },
+        {
+          "hi": "20",
+          "en": "20"
+        },
+        {
+          "hi": "24",
+          "en": "24"
+        },
+        {
+          "hi": "26",
+          "en": "26"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "LCM=288/12=24.",
+        "en": "LCM=288/12=24."
+      }
+    },
+    {
+      "question": {
+        "hi": "Konsa number rational hai?",
+        "en": "Which number is rational?"
+      },
+      "options": [
+        {
+          "hi": "√2",
+          "en": "√2"
+        },
+        {
+          "hi": "π",
+          "en": "π"
+        },
+        {
+          "hi": "√16",
+          "en": "√16"
+        },
+        {
+          "hi": "√7",
+          "en": "√7"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "√16=4, ek perfect square hai — rational.",
+        "en": "√16=4, a perfect square — rational."
+      }
+    },
+    {
+      "question": {
+        "hi": "3 numbers 4, 6, aur 8 ka LCM kya hai?",
+        "en": "What is the LCM of 4, 6, and 8?"
+      },
+      "options": [
+        {
+          "hi": "12",
+          "en": "12"
+        },
+        {
+          "hi": "24",
+          "en": "24"
+        },
+        {
+          "hi": "48",
+          "en": "48"
+        },
+        {
+          "hi": "16",
+          "en": "16"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "4=2², 6=2×3, 8=2³. LCM=2³×3=24.",
+        "en": "4=2², 6=2×3, 8=2³. LCM=2³×3=24."
+      }
+    },
+    {
+      "question": {
+        "hi": "Agar n ek natural number hai, to 6^n kabhi kis digit pe end nahi hoga?",
+        "en": "If n is a natural number, 6^n never ends in which digit?"
+      },
+      "options": [
+        {
+          "hi": "6",
+          "en": "6"
+        },
+        {
+          "hi": "0",
+          "en": "0"
+        },
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "4",
+          "en": "4"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "6^n hamesha 2 aur 3 ke factors se bana hota hai, kabhi 5 nahi — isliye kabhi 0 pe end nahi hota.",
+        "en": "6^n's factors are always only 2 and 3, never 5 — so it never ends in 0."
+      }
+    },
+    {
+      "question": {
+        "hi": "√3 + √2 kaisa number hai?",
+        "en": "What kind of number is √3 + √2?"
+      },
+      "options": [
+        {
+          "hi": "Rational",
+          "en": "Rational"
+        },
+        {
+          "hi": "Irrational",
+          "en": "Irrational"
+        },
+        {
+          "hi": "Integer",
+          "en": "Integer"
+        },
+        {
+          "hi": "Whole number",
+          "en": "Whole number"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Do irrational numbers ka sum generally irrational hota hai (yahan proof by contradiction se sabit hota hai).",
+        "en": "Sum of two irrationals is generally irrational (provable here via contradiction)."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Prove karo ki √5 irrational hai.",
+        "en": "Prove that √5 is irrational."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Assume √5=a/b, co-prime a,b hain\n5=a²/b² → a²=5b² → a² 5 se divisible hai → a bhi 5 se divisible (a=5c)\n25c²=5b² → b²=5c² → b bhi 5 se divisible\na aur b dono 5 se divisible — co-prime hone ke contradiction\nIsliye √5 irrational hai",
+        "en": "Assume √5=a/b, with a,b co-prime\n5=a²/b² → a²=5b² → a² is divisible by 5 → a is also divisible by 5 (a=5c)\n25c²=5b² → b²=5c² → b is also divisible by 5\nBoth a and b divisible by 5 — contradicts co-primality\nHence √5 is irrational"
+      }
+    },
+    {
+      "question": {
+        "hi": "6, 72, aur 120 ka HCF aur LCM prime factorization se nikaalo, aur verify karo.",
+        "en": "Find HCF and LCM of 6, 72, and 120 using prime factorization, and verify."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "6=2×3, 72=2³×3², 120=2³×3×5\nHCF=2¹×3¹=6\nLCM=2³×3²×5=360\nVerify: dono answers 6 aur 120 ko divide karte hain, aur 360 unka common multiple hai ✓",
+        "en": "6=2×3, 72=2³×3², 120=2³×3×5\nHCF=2¹×3¹=6\nLCM=2³×3²×5=360\nVerify: both 6 and 120 divide into 360 evenly, confirming it's their common multiple ✓"
+      }
+    },
+    {
+      "question": {
+        "hi": "Prove karo ki 3+2√5 irrational hai (given √5 irrational hai).",
+        "en": "Prove that 3+2√5 is irrational (given √5 is irrational)."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "Maano 3+2√5 rational hai, kisi rational r ke barabar\n2√5 = r−3 → √5 = (r−3)/2\nr aur 3 rational hain, isliye (r−3)/2 bhi rational hoga\nPar √5 irrational hai — contradiction!\nIsliye 3+2√5 irrational hai",
+        "en": "Suppose 3+2√5 is rational, equal to some rational r\n2√5 = r−3 → √5 = (r−3)/2\nr and 3 are rational, so (r−3)/2 would be rational\nBut √5 is irrational — contradiction!\nHence 3+2√5 is irrational"
+      }
+    },
+    {
+      "question": {
+        "hi": "Explain karo ki HCF × LCM formula (HCF×LCM=a×b) sirf 2 numbers ke liye kyun kaam karta hai, 3 ya zyada ke liye nahi.",
+        "en": "Explain why the formula HCF×LCM=a×b works only for 2 numbers, not for 3 or more."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "Ye formula prime factorization ki properties se aata hai jo sirf do numbers ke case mein exactly balance hoti hain (min power + max power = total power sirf jab 2 numbers ho). 3+ numbers ke liye ye relationship simple product mein nahi convert hoti, isliye formula 2 numbers tak hi limited hai.",
+        "en": "This formula comes from prime-factorization properties that balance exactly only in the two-number case (min power + max power = total power holds only for 2 numbers). For 3+ numbers this relationship doesn't reduce to a simple product, so the formula is limited to two numbers."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek school mein 156, 208, aur 260 students hain teen sections mein. Agar sabko barabar size ki buses mein baithana hai (har bus sirf ek section ke students le jaaye), sabse bade bus size ka pata lagao.",
+        "en": "A school has 156, 208, and 260 students in three sections. If all must be seated in equal-sized buses (each bus carrying only one section's students), find the largest possible bus size."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Ye HCF ka question hai: HCF(156,208,260)\n156=2²×3×13, 208=2⁴×13, 260=2²×5×13\nCommon primes: 2 (smallest power 2²), 13\nHCF = 2²×13 = 52\nSabse bada bus size = 52 students",
+        "en": "This is an HCF question: HCF(156,208,260)\n156=2²×3×13, 208=2⁴×13, 260=2²×5×13\nCommon primes: 2 (smallest power 2²), 13\nHCF = 2²×13 = 52\nLargest bus size = 52 students"
+      }
+    }
+  ]
+}

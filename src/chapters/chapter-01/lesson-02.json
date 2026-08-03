@@ -2,44 +2,116 @@
   "id": "chapter-01-lesson-02",
   "chapterId": "chapter-01",
   "order": 2,
-  "title": "Euclid's Division Algorithm (HCF)",
+  "title": {
+    "hi": "HCF & LCM by Prime Factorization",
+    "en": "HCF & LCM by Prime Factorization"
+  },
   "estimatedMinutes": 12,
-  "xpReward": 40,
-  "coinReward": 10,
+  "xpReward": 45,
+  "coinReward": 12,
   "hero": {
-    "emoji": "🔁",
-    "headline": "Finding HCF the Euclid Way",
-    "subtext": "Division Lemma ko baar-baar apply karke kisi bhi do numbers ka HCF turant nikaalo."
+    "emoji": "🔢",
+    "headline": {
+      "hi": "HCF & LCM — Fast Method",
+      "en": "HCF & LCM — Fast Method"
+    },
+    "subtext": {
+      "hi": "Prime factorization se HCF aur LCM turant nikaalo — current CBSE syllabus ka official method!",
+      "en": "Find HCF and LCM instantly using prime factorization — the official method in the current CBSE syllabus!"
+    }
   },
   "story": {
-    "text": "Bade numbers ka HCF factor-tree se nikalna slow hai. Euclid ka trick: bade number ko chhote se divide karo, phir divisor ko remainder se divide karo — ye process repeat karo jab tak remainder 0 na aa jaye. Jo aakhri non-zero divisor bacha, wahi HCF hai."
+    "text": {
+      "hi": "Do ya zyada numbers ka HCF/LCM nikalna ho, to har number ko prime factors mein todo, phir seedha formula lagao — koi long division nahi chahiye.",
+      "en": "To find the HCF/LCM of two or more numbers, break each into prime factors, then apply the formula directly — no long division needed."
+    }
   },
   "explanation": [
-    { "type": "text", "content": "Do positive integers a aur b (jahan a > b) ka HCF nikaalne ke steps:" },
-    { "type": "text", "content": "Step 1: Euclid's Lemma apply karo: a = bq + r" },
-    { "type": "text", "content": "Step 2: Agar r = 0, to HCF = b. Agar r ≠ 0, to Lemma dobara apply karo b aur r par." },
-    { "type": "text", "content": "Step 3: Ye process repeat karte raho jab tak remainder 0 na ho jaye." },
-    { "type": "formula", "content": "HCF(a, b) = last non-zero remainder" }
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 1: Har number ko prime factors mein factorize karo (factor tree ya repeated division se).",
+        "en": "Step 1: Factorize each number into primes (using a factor tree or repeated division)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 2: HCF nikalne ke liye, sirf woh primes lo jo SAAB numbers mein common hain, aur unki SABSE CHHOTI power lo.",
+        "en": "Step 2: To find HCF, take only the primes common to ALL numbers, using their SMALLEST power."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 3: LCM nikalne ke liye, saare primes (common + non-common) lo, aur har ek ki SABSE BADI power lo.",
+        "en": "Step 3: To find LCM, take every prime that appears (common + non-common), using its LARGEST power."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "HCF = product of common primes (smallest power)\nLCM = product of all primes (largest power)\nHCF × LCM = Product of the two numbers (only for 2 numbers)"
+    }
   ],
-  "diagram": { "emoji": "🔢➗", "caption": "Har step mein divisor aage badhta hai, remainder chhota hota jaata hai — jab tak 0 na aaye." },
   "examples": [
     {
-      "problem": "HCF(455, 42) nikaalo.",
+      "problem": {
+        "hi": "HCF aur LCM nikaalo: 12, 18, aur 24 ka.",
+        "en": "Find the HCF and LCM of 12, 18, and 24."
+      },
       "steps": [
-        "455 = 42 × 10 + 35",
-        "42 = 35 × 1 + 7",
-        "35 = 7 × 5 + 0",
-        "Remainder 0 aa gaya, so HCF = 7"
+        {
+          "hi": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3",
+          "en": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3"
+        },
+        {
+          "hi": "HCF: common primes 2,3 — smallest powers: 2¹ × 3¹ = 6",
+          "en": "HCF: common primes 2,3 — smallest powers: 2¹ × 3¹ = 6"
+        },
+        {
+          "hi": "LCM: 2³ × 3² = 8×9 = 72",
+          "en": "LCM: 2³ × 3² = 8×9 = 72"
+        }
       ]
     },
     {
-      "problem": "HCF(96, 404) nikaalo.",
+      "problem": {
+        "hi": "6, 72, aur 120 ka HCF aur LCM prime factorization se nikaalo.",
+        "en": "Find HCF and LCM of 6, 72, and 120 using prime factorization."
+      },
       "steps": [
-        "404 = 96 × 4 + 20",
-        "96 = 20 × 4 + 16",
-        "20 = 16 × 1 + 4",
-        "16 = 4 × 4 + 0",
-        "HCF = 4"
+        {
+          "hi": "6=2×3, 72=2³×3², 120=2³×3×5",
+          "en": "6=2×3, 72=2³×3², 120=2³×3×5"
+        },
+        {
+          "hi": "HCF = 2¹×3¹ = 6",
+          "en": "HCF = 2¹×3¹ = 6"
+        },
+        {
+          "hi": "LCM = 2³×3²×5 = 8×9×5 = 360",
+          "en": "LCM = 2³×3²×5 = 8×9×5 = 360"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Do tankers mein 850L aur 680L petrol hai. Bina bacha chhode donon ko barabar-barabar naapne wala sabse bada container size nikaalo.",
+        "en": "Two tankers contain 850L and 680L of petrol. Find the maximum capacity of a container that can measure both without leaving a remainder."
+      },
+      "steps": [
+        {
+          "hi": "Ye HCF ka question hai — HCF(850,680)",
+          "en": "This is an HCF question — HCF(850,680)"
+        },
+        {
+          "hi": "850 = 2×5²×17, 680 = 2³×5×17",
+          "en": "850 = 2×5²×17, 680 = 2³×5×17"
+        },
+        {
+          "hi": "HCF = 2×5×17 = 170 litres",
+          "en": "HCF = 2×5×17 = 170 litres"
+        }
       ]
     }
   ],
@@ -48,33 +120,130 @@
       {
         "type": "mcq",
         "difficulty": "easy",
-        "question": "Euclid's Division Algorithm mein HCF kab mil jaata hai?",
-        "options": ["Jab quotient 0 ho jaaye", "Jab remainder 0 ho jaaye", "Jab dono numbers barabar ho jaayein", "Kabhi nahi"],
+        "question": {
+          "hi": "HCF nikalne ke liye common primes ki kaunsi power lete hain?",
+          "en": "To find HCF, which power of common primes do we take?"
+        },
+        "options": [
+          {
+            "hi": "Sabse badi",
+            "en": "Largest"
+          },
+          {
+            "hi": "Sabse chhoti",
+            "en": "Smallest"
+          },
+          {
+            "hi": "Average",
+            "en": "Average"
+          },
+          {
+            "hi": "Koi bhi",
+            "en": "Any"
+          }
+        ],
         "correct": 1,
-        "explanation": "Jab remainder 0 aata hai, us step ka divisor hi HCF hota hai."
+        "explanation": {
+          "hi": "HCF mein common primes ki smallest power li jaati hai.",
+          "en": "HCF uses the smallest power of common primes."
+        }
       },
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "HCF(18, 24) Euclid's Algorithm se kya hoga?",
-        "options": ["3", "6", "9", "12"],
+        "question": {
+          "hi": "HCF(18,24) prime factorization se kya hoga?",
+          "en": "HCF(18,24) using prime factorization is:"
+        },
+        "options": [
+          {
+            "hi": "3",
+            "en": "3"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "9",
+            "en": "9"
+          },
+          {
+            "hi": "12",
+            "en": "12"
+          }
+        ],
         "correct": 1,
-        "explanation": "24 = 18×1+6, 18 = 6×3+0. Last non-zero remainder = 6."
+        "explanation": {
+          "hi": "18=2×3², 24=2³×3. Common: 2¹×3¹=6.",
+          "en": "18=2×3², 24=2³×3. Common: 2¹×3¹=6."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Traffic lights 48, 72, aur 108 second baad change hoti hain. Wo dobara saath kab change hongi?",
+          "en": "Traffic lights change every 48, 72, and 108 seconds. When will they change together again?"
+        },
+        "options": [
+          {
+            "hi": "216 sec",
+            "en": "216 sec"
+          },
+          {
+            "hi": "432 sec",
+            "en": "432 sec"
+          },
+          {
+            "hi": "144 sec",
+            "en": "144 sec"
+          },
+          {
+            "hi": "360 sec",
+            "en": "360 sec"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Ye LCM ka question hai. LCM(48,72,108)=432 seconds.",
+          "en": "This is an LCM question. LCM(48,72,108)=432 seconds."
+        }
       },
       {
         "type": "truefalse",
-        "difficulty": "medium",
-        "question": "Euclid's Division Algorithm sirf tab kaam karta hai jab dono numbers even hon.",
-        "correct": false,
-        "explanation": "Galat — ye algorithm kisi bhi do positive integers ke liye kaam karta hai, even ho ya odd."
+        "difficulty": "easy",
+        "question": {
+          "hi": "LCM nikalne ke liye har prime ki sabse badi power leni chahiye.",
+          "en": "To find LCM, we take the largest power of every prime."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — LCM mein saare primes ki greatest power li jaati hai.",
+          "en": "True — LCM uses the greatest power of every prime present."
+        }
       }
     ]
   },
   "notes": [
-    "HCF = last non-zero remainder",
-    "Bada number ko chhote se divide karke shuru karo",
-    "Har step mein divisor naya dividend, remainder naya divisor ban jaata hai"
+    {
+      "hi": "HCF = common primes × smallest power",
+      "en": "HCF = common primes × smallest power"
+    },
+    {
+      "hi": "LCM = all primes × largest power",
+      "en": "LCM = all primes × largest power"
+    },
+    {
+      "hi": "2 numbers ke liye: HCF×LCM = a×b (3+ numbers ke liye ye formula apply nahi hota)",
+      "en": "For 2 numbers: HCF×LCM = a×b (this shortcut doesn't apply for 3+ numbers)"
+    }
   ],
-  "summary": "Euclid's Division Algorithm HCF nikaalne ka sabse fast tareeka hai — sirf repeated division, no factorization needed.",
-  "reward": { "badge": null }
+  "summary": {
+    "hi": "Prime factorization se HCF/LCM nikalna long-division se fast aur reliable hai, khaaskar jab 2 se zyada numbers ho.",
+    "en": "Finding HCF/LCM via prime factorization is faster and more reliable than long division, especially with more than 2 numbers."
+  },
+  "reward": {
+    "badge": null
+  }
 }

@@ -1,0 +1,186 @@
+{
+  "id": "chapter-03-lesson-05",
+  "chapterId": "chapter-03",
+  "order": 5,
+  "title": {
+    "hi": "Algebraic Conditions & Word Problems",
+    "en": "Algebraic Conditions & Word Problems"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 50,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🧩",
+    "headline": {
+      "hi": "From Words to Equations",
+      "en": "From Words to Equations"
+    },
+    "subtext": {
+      "hi": "Real-life problems ko equations mein convert karna seekho.",
+      "en": "Learn to turn real-life problems into equations."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Board exams mein sabse zyada marks word problems mein hote hain — jahan tumhe khud equations banani padti hain. Trick hai: unknowns ko x, y bolo, phir problem ke har sentence ko ek equation mein convert karo.",
+      "en": "Word problems carry the most marks in board exams — you have to form the equations yourself. The trick: call the unknowns x, y, then convert each sentence of the problem into an equation."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Recap: a₁/a₂ ≠ b₁/b₂ → unique; a₁/a₂=b₁/b₂=c₁/c₂ → infinite; a₁/a₂=b₁/b₂≠c₁/c₂ → no solution.",
+        "en": "Recap: a₁/a₂ ≠ b₁/b₂ → unique; a₁/a₂=b₁/b₂=c₁/c₂ → infinite; a₁/a₂=b₁/b₂≠c₁/c₂ → no solution."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Word problems mein: 'do numbers ka sum/difference', 'age', 'speed-distance', 'cost' — sabme do unknowns hote hain jinke liye do equations banti hain.",
+        "en": "In word problems: 'sum/difference of two numbers', 'age', 'speed-distance', 'cost' — all involve two unknowns for which two equations can be formed."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Do numbers ka sum 8 hai aur difference 2 hai. Numbers nikaalo.",
+        "en": "The sum of two numbers is 8 and their difference is 2. Find the numbers."
+      },
+      "steps": [
+        {
+          "hi": "Numbers x aur y maano: x + y = 8, x − y = 2",
+          "en": "Let the numbers be x and y: x + y = 8, x − y = 2"
+        },
+        {
+          "hi": "Add karo: 2x = 10 → x = 5",
+          "en": "Add: 2x = 10 → x = 5"
+        },
+        {
+          "hi": "y = 8 − 5 = 3",
+          "en": "y = 8 − 5 = 3"
+        },
+        {
+          "hi": "Numbers: 5 aur 3",
+          "en": "Numbers: 5 and 3"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "5 saal pehle Ram ki age Shyam se teen guna thi. 10 saal baad Ram ki age Shyam se dugni hogi. Dono ki abhi ki age nikaalo.",
+        "en": "5 years ago, Ram's age was thrice Shyam's. 10 years later, Ram's age will be twice Shyam's. Find their present ages."
+      },
+      "steps": [
+        {
+          "hi": "Ram = x, Shyam = y maano",
+          "en": "Let Ram = x, Shyam = y"
+        },
+        {
+          "hi": "(x−5) = 3(y−5) → x − 3y = −10",
+          "en": "(x−5) = 3(y−5) → x − 3y = −10"
+        },
+        {
+          "hi": "(x+10) = 2(y+10) → x − 2y = 10",
+          "en": "(x+10) = 2(y+10) → x − 2y = 10"
+        },
+        {
+          "hi": "Subtract karo: −y = −20 → y = 20",
+          "en": "Subtract: −y = −20 → y = 20"
+        },
+        {
+          "hi": "x = 10 + 2(20) = 50",
+          "en": "x = 10 + 2(20) = 50"
+        },
+        {
+          "hi": "Ram ki age = 50, Shyam ki age = 20",
+          "en": "Ram's age = 50, Shyam's age = 20"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Do numbers ka sum 8 aur difference 2 hai. Bada number kya hai?",
+          "en": "Two numbers sum to 8 with a difference of 2. What's the larger number?"
+        },
+        "options": [
+          {
+            "hi": "3",
+            "en": "3"
+          },
+          {
+            "hi": "4",
+            "en": "4"
+          },
+          {
+            "hi": "5",
+            "en": "5"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "x+y=8, x−y=2 solve karne se x=5.",
+          "en": "Solving x+y=8, x−y=2 gives x=5."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek boat 20km upstream 4 ghante mein aur downstream 2 ghante mein jaati hai. Boat ki speed still water mein kya hai (agar current 5 km/h ho)?",
+          "en": "A boat covers 20km upstream in 4 hours and downstream in 2 hours. What is its speed in still water (if current is 5 km/h)?"
+        },
+        "options": [
+          {
+            "hi": "7.5 km/h",
+            "en": "7.5 km/h"
+          },
+          {
+            "hi": "10 km/h",
+            "en": "10 km/h"
+          },
+          {
+            "hi": "12.5 km/h",
+            "en": "12.5 km/h"
+          },
+          {
+            "hi": "15 km/h",
+            "en": "15 km/h"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Upstream speed=5, downstream=10. Still water speed = average = (5+10)/2 = 7.5 km/h.",
+          "en": "Upstream speed=5, downstream=10. Still water speed = average = (5+10)/2 = 7.5 km/h."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Unknowns ko x, y naam do, phir har sentence ek equation banao",
+      "en": "Name unknowns x, y, then turn each sentence into an equation"
+    },
+    {
+      "hi": "Age/speed/cost problems mein hamesha 2 conditions milti hain = 2 equations",
+      "en": "Age/speed/cost problems always give 2 conditions = 2 equations"
+    }
+  ],
+  "summary": {
+    "hi": "Word problems mein sabse mushkil part equations banana hai — practice karte raho, pattern samajh aa jaayega.",
+    "en": "The hardest part of word problems is forming the equations — keep practicing and the pattern will click."
+  },
+  "reward": {
+    "badge": null
+  }
+}

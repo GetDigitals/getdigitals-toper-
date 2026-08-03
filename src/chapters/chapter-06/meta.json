@@ -5,14 +5,17 @@
   "subject": "Maths",
   "board": "CBSE",
   "title": "Triangles",
-  "icon": "📐",
+  "icon": "🔺",
   "color": "#F2555B",
-  "description": "Triangles — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 300,
-  "coinReward": 60,
+  "description": "Similar triangles, similarity criteria (AAA/AA/SSS/SAS), Basic Proportionality Theorem (Thales), areas of similar triangles, aur Pythagoras Theorem — geometry ka core foundation.",
+  "xpReward": 275,
+  "coinReward": 69,
   "badge": {
     "id": "chapter-06-master",
-    "name": "Triangles Master",
+    "name": {
+      "hi": "Triangles Master",
+      "en": "Triangles Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

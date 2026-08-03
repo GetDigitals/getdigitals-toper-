@@ -2,43 +2,97 @@
   "id": "chapter-01-lesson-01",
   "chapterId": "chapter-01",
   "order": 1,
-  "title": "Euclid's Division Lemma",
-  "estimatedMinutes": 10,
-  "xpReward": 40,
-  "coinReward": 10,
+  "title": {
+    "hi": "Fundamental Theorem of Arithmetic",
+    "en": "Fundamental Theorem of Arithmetic"
+  },
+  "estimatedMinutes": 11,
+  "xpReward": 45,
+  "coinReward": 12,
   "hero": {
-    "emoji": "📐",
-    "headline": "Euclid's Division Lemma",
-    "subtext": "Har division ka ek pakka rule — jisse hum kisi bhi do numbers ka HCF nikaal sakte hain."
+    "emoji": "🧩",
+    "headline": {
+      "hi": "Every Number's Unique Fingerprint",
+      "en": "Every Number's Unique Fingerprint"
+    },
+    "subtext": {
+      "hi": "Har composite number ko prime factors ke ek hi unique combination mein likha ja sakta hai.",
+      "en": "Every composite number can be written as one unique combination of prime factors."
+    }
   },
   "story": {
-    "text": "Socho tumhare paas 455 toffees hain aur unhe 42 dosto mein baantna hai, jitna ho sake barabar. Har dost ko 10 toffees milengi aur 35 bach jayengi. Yahi idea Euclid ne 2300 saal pehle likha tha — division mein hamesha ek quotient aur ek remainder hota hai, aur remainder hamesha divisor se chhota hota hai."
+    "text": {
+      "hi": "Jaise har insaan ka fingerprint unique hota hai, waise hi har number ka prime factorization unique hota hai — order chahe kuch bhi ho. 12 hamesha 2×2×3 hi rahega, chahe tum likho 2×3×2 ya 3×2×2.",
+      "en": "Just like every person's fingerprint is unique, every number's prime factorization is unique too — regardless of order. 12 is always 2×2×3, whether you write it as 2×3×2 or 3×2×2."
+    }
   },
   "explanation": [
-    { "type": "text", "content": "Euclid's Division Lemma kehta hai: agar a aur b do positive integers hain, to unique integers q aur r exist karte hain jo is equation ko satisfy karte hain:" },
-    { "type": "formula", "content": "a = bq + r,  where 0 ≤ r < b" },
-    { "type": "text", "content": "Yahan 'a' dividend hai, 'b' divisor hai, 'q' quotient hai, aur 'r' remainder hai. Remainder hamesha 0 se lekar (b−1) tak hi ho sakta hai — kabhi bhi divisor se bada nahi." },
-    { "type": "text", "content": "Ye lemma sirf ek observation nahi, balki ek proven theorem hai jo Euclid's Division Algorithm ki base banata hai — jisse hum do numbers ka HCF nikaalte hain." }
+    {
+      "type": "text",
+      "content": {
+        "hi": "Fundamental Theorem of Arithmetic (FTA) kehta hai: har composite number ko prime numbers ke product ke roop mein likha ja sakta hai, aur ye factorization unique hoti hai (factors ke order ko chhod kar).",
+        "en": "The Fundamental Theorem of Arithmetic (FTA) states: every composite number can be expressed as a product of prime numbers, and this factorization is unique (except for the order of the factors)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "N = p1^a1 × p2^a2 × p3^a3 × ..."
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Iska sabse bada use hai HCF aur LCM nikaalna jab prime factorization pata ho.",
+        "en": "Its biggest application is finding HCF and LCM once you know the prime factorization."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "HCF = product of smallest powers of common primes\nLCM = product of greatest powers of all primes involved"
+    }
   ],
   "examples": [
     {
-      "problem": "455 ko 42 se divide karne par a = bq + r form likho.",
+      "problem": {
+        "hi": "96 aur 404 ka HCF aur LCM prime factorization se nikaalo.",
+        "en": "Find the HCF and LCM of 96 and 404 using prime factorization."
+      },
       "steps": [
-        "455 ÷ 42 = 10 quotient, remainder nikaalte hain",
-        "42 × 10 = 420",
-        "455 − 420 = 35 (remainder)",
-        "Check: 0 ≤ 35 < 42 ✓",
-        "Answer: 455 = 42 × 10 + 35"
+        {
+          "hi": "96 = 2^5 × 3",
+          "en": "96 = 2^5 × 3"
+        },
+        {
+          "hi": "404 = 2^2 × 101",
+          "en": "404 = 2^2 × 101"
+        },
+        {
+          "hi": "HCF = 2^2 = 4 (common prime ka smallest power)",
+          "en": "HCF = 2^2 = 4 (smallest power of the common prime)"
+        },
+        {
+          "hi": "LCM = 2^5 × 3 × 101 = 9696",
+          "en": "LCM = 2^5 × 3 × 101 = 9696"
+        },
+        {
+          "hi": "Check: HCF×LCM = 4×9696 = 38784 = 96×404 ✓",
+          "en": "Check: HCF×LCM = 4×9696 = 38784 = 96×404 ✓"
+        }
       ]
     },
     {
-      "problem": "17 ko 5 se divide karke a = bq + r form likho.",
+      "problem": {
+        "hi": "Prime factorization se 156 ko likho.",
+        "en": "Write the prime factorization of 156."
+      },
       "steps": [
-        "17 ÷ 5 = 3 quotient",
-        "5 × 3 = 15",
-        "17 − 15 = 2 (remainder)",
-        "Check: 0 ≤ 2 < 5 ✓",
-        "Answer: 17 = 5 × 3 + 2"
+        {
+          "hi": "156 = 2×78 = 2×2×39 = 2×2×3×13",
+          "en": "156 = 2×78 = 2×2×39 = 2×2×3×13"
+        },
+        {
+          "hi": "156 = 2² × 3 × 13",
+          "en": "156 = 2² × 3 × 13"
+        }
       ]
     }
   ],
@@ -47,33 +101,121 @@
       {
         "type": "mcq",
         "difficulty": "easy",
-        "question": "Euclid's Division Lemma ke according, a = bq + r mein remainder r ki range kya hai?",
-        "options": ["0 ≤ r < b", "0 < r ≤ b", "0 ≤ r ≤ b", "r > b"],
-        "correct": 0,
-        "explanation": "Remainder hamesha 0 se le kar divisor se ek kam tak hota hai — kabhi divisor ke barabar ya usse bada nahi."
-      },
-      {
-        "type": "truefalse",
-        "difficulty": "easy",
-        "question": "Euclid's Division Lemma sirf positive integers ke liye kaam karta hai.",
-        "correct": true,
-        "explanation": "Sahi — ye lemma positive integers a aur b ke liye define hota hai."
+        "question": {
+          "hi": "Fundamental Theorem of Arithmetic kis cheez ki uniqueness batata hai?",
+          "en": "The Fundamental Theorem of Arithmetic states the uniqueness of:"
+        },
+        "options": [
+          {
+            "hi": "Addition ki",
+            "en": "Addition"
+          },
+          {
+            "hi": "Prime factorization ki",
+            "en": "Prime factorization"
+          },
+          {
+            "hi": "Division ki",
+            "en": "Division"
+          },
+          {
+            "hi": "Subtraction ki",
+            "en": "Subtraction"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "FTA kehta hai har composite number ka prime factorization unique hota hai (order chhod kar).",
+          "en": "FTA states every composite number's prime factorization is unique (except order)."
+        }
       },
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "225 ko 135 se divide karne par quotient aur remainder kya honge?",
-        "options": ["q=1, r=90", "q=2, r=−45", "q=1, r=45", "q=0, r=225"],
-        "correct": 0,
-        "explanation": "135 × 1 = 135, 225 − 135 = 90. Check: 0 ≤ 90 < 135 ✓"
+        "question": {
+          "hi": "Agar HCF(a,b)=4 aur a×b=240, to LCM(a,b) kya hoga?",
+          "en": "If HCF(a,b)=4 and a×b=240, find LCM(a,b)."
+        },
+        "options": [
+          {
+            "hi": "40",
+            "en": "40"
+          },
+          {
+            "hi": "60",
+            "en": "60"
+          },
+          {
+            "hi": "20",
+            "en": "20"
+          },
+          {
+            "hi": "80",
+            "en": "80"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "HCF×LCM=a×b, isliye LCM=240/4=60.",
+          "en": "HCF×LCM=a×b, so LCM=240/4=60."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Blanks fill karo: 72 = 2^3 × ___^2",
+          "en": "Fill the blank: 72 = 2^3 × ___^2"
+        },
+        "sentenceParts": [
+          {
+            "hi": "72 = 2^3 × ",
+            "en": "72 = 2^3 × "
+          },
+          {
+            "hi": "^2",
+            "en": "^2"
+          }
+        ],
+        "blanks": [
+          "3"
+        ],
+        "tokens": [
+          "2",
+          "3",
+          "5",
+          "7"
+        ],
+        "explanation": {
+          "hi": "72 = 8×9 = 2^3 × 3^2",
+          "en": "72 = 8×9 = 2^3 × 3^2"
+        }
       }
     ]
   },
   "notes": [
-    "Formula yaad rakho: a = bq + r, jahan 0 ≤ r < b",
-    "'a' hamesha dividend, 'b' divisor",
-    "Remainder kabhi negative ya divisor se bada nahi ho sakta"
+    {
+      "hi": "Har composite number = unique prime factors ka product",
+      "en": "Every composite number = unique product of prime factors"
+    },
+    {
+      "hi": "HCF = common primes ki smallest powers",
+      "en": "HCF = smallest powers of common primes"
+    },
+    {
+      "hi": "LCM = saare primes ki greatest powers",
+      "en": "LCM = greatest powers of all primes"
+    },
+    {
+      "hi": "HCF × LCM = Product of the two numbers",
+      "en": "HCF × LCM = Product of the two numbers"
+    }
   ],
-  "summary": "Euclid's Division Lemma har division ko ek unique quotient-remainder pair deta hai — yahi agla lesson (HCF Algorithm) ki foundation hai.",
-  "reward": { "badge": null }
+  "summary": {
+    "hi": "FTA se hume pata chalta hai ki prime factorization unique hai — isi se HCF aur LCM turant nikal sakte hain.",
+    "en": "FTA tells us prime factorization is unique — this lets us find HCF and LCM directly."
+  },
+  "reward": {
+    "badge": null
+  }
 }

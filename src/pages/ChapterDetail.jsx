@@ -79,7 +79,7 @@ export default function ChapterDetail() {
           })}
         </div>
 
-        <div className="grid grid-cols-3 gap-2.5 mt-5">
+        <div className="grid grid-cols-2 gap-2.5 mt-5">
           <button
             onClick={() => navigate(`/practice/${chapter.id}`)}
             disabled={doneCount === 0}
@@ -93,6 +93,13 @@ export default function ChapterDetail() {
             className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium disabled:opacity-40"
           >
             📝 Revision
+          </button>
+          <button
+            onClick={() => navigate(`/important-questions/${chapter.id}`)}
+            disabled={doneCount === 0}
+            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium disabled:opacity-40"
+          >
+            ⭐ Important Qs
           </button>
           <button
             onClick={() => navigate(`/final-test/${chapter.id}`)}

@@ -1,0 +1,268 @@
+{
+  "id": "chapter-06-lesson-04",
+  "chapterId": "chapter-06",
+  "order": 4,
+  "title": {
+    "hi": "Areas of Similar Triangles",
+    "en": "Areas of Similar Triangles"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Areas of Similar Triangles",
+      "en": "Areas of Similar Triangles"
+    },
+    "subtext": {
+      "hi": "Area ratio = Square of side ratio!",
+      "en": "Area ratio = Square of side ratio!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab do triangles similar hote hain, unke areas ka ratio unke corresponding sides ke ratio ka square hota hai — board exams mein har saal aata hai.",
+      "en": "When two triangles are similar, the ratio of their areas equals the square of the ratio of their corresponding sides — this appears in board exams every year."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Theorem: ΔABC~ΔPQR ho, to Area(ΔABC)/Area(ΔPQR) = (AB/PQ)² = (BC/QR)² = (CA/RP)².",
+        "en": "Theorem: If ΔABC~ΔPQR, then Area(ΔABC)/Area(ΔPQR) = (AB/PQ)² = (BC/QR)² = (CA/RP)²."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Area = ½×base×height. Similar triangles mein base aur height dono same ratio mein change hote hain, isliye area ratio = ratio×ratio = ratio².",
+        "en": "Area = ½×base×height. In similar triangles, both base and height change by the same ratio, so area ratio = ratio×ratio = ratio²."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye sirf area ke liye nahi — altitude, median, aur perimeter bhi sides ke same ratio mein hote hain (sirf area square hota hai).",
+        "en": "This isn't just for area — altitude, median, and perimeter also scale in the same ratio as the sides (only area is squared)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "If ΔABC ~ ΔPQR, then Area(ΔABC)/Area(ΔPQR) = (AB/PQ)² = (BC/QR)² = (CA/RP)²"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "ΔABC~ΔPQR, AB=6cm, PQ=4cm. Area(ΔABC)=81cm². Area(ΔPQR) nikaalo.",
+        "en": "ΔABC~ΔPQR, AB=6cm, PQ=4cm. Area(ΔABC)=81cm². Find Area(ΔPQR)."
+      },
+      "steps": [
+        {
+          "hi": "Side ratio=6/4=3/2, Area ratio=(3/2)²=9/4",
+          "en": "Side ratio=6/4=3/2, Area ratio=(3/2)²=9/4"
+        },
+        {
+          "hi": "81/Area(PQR)=9/4 → Area(PQR)=36cm²",
+          "en": "81/Area(PQR)=9/4 → Area(PQR)=36cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC~ΔDEF. Area(ABC)=64cm², Area(DEF)=121cm². BC=8cm. EF nikaalo.",
+        "en": "ΔABC~ΔDEF. Area(ABC)=64cm², Area(DEF)=121cm². BC=8cm. Find EF."
+      },
+      "steps": [
+        {
+          "hi": "64/121=(8/EF)² → √(64/121)=8/EF → 8/11=8/EF",
+          "en": "64/121=(8/EF)² → √(64/121)=8/EF → 8/11=8/EF"
+        },
+        {
+          "hi": "EF=11cm",
+          "en": "EF=11cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Do similar triangles ke areas 81cm² aur 49cm² hain. Bade ka altitude 13.5cm. Chhote ka altitude nikaalo.",
+        "en": "Two similar triangles have areas 81cm² and 49cm². The bigger's altitude is 13.5cm. Find the smaller's altitude."
+      },
+      "steps": [
+        {
+          "hi": "Side ratio=√(81/49)=9/7",
+          "en": "Side ratio=√(81/49)=9/7"
+        },
+        {
+          "hi": "13.5/h=9/7 → h=13.5×7/9=10.5cm",
+          "en": "13.5/h=9/7 → h=13.5×7/9=10.5cm"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Do similar triangles ke sides 3:4 ratio mein hain. Areas ka ratio?",
+          "en": "Sides of two similar triangles are in ratio 3:4. Their areas are in ratio:"
+        },
+        "options": [
+          {
+            "hi": "3:4",
+            "en": "3:4"
+          },
+          {
+            "hi": "9:16",
+            "en": "9:16"
+          },
+          {
+            "hi": "6:8",
+            "en": "6:8"
+          },
+          {
+            "hi": "27:64",
+            "en": "27:64"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Area ratio=(3/4)²=9/16.",
+          "en": "Area ratio=(3/4)²=9/16."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Areas 25cm² aur 36cm² hain. Pehle ka side 10cm. Doosre ka corresponding side?",
+          "en": "Areas are 25cm² and 36cm². First's side is 10cm. Second's corresponding side?"
+        },
+        "options": [
+          {
+            "hi": "12cm",
+            "en": "12cm"
+          },
+          {
+            "hi": "11cm",
+            "en": "11cm"
+          },
+          {
+            "hi": "13cm",
+            "en": "13cm"
+          },
+          {
+            "hi": "14cm",
+            "en": "14cm"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Side ratio=5/6. 10/x=5/6 → x=12cm.",
+          "en": "Side ratio=5/6. 10/x=5/6 → x=12cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Area ratio 16:25 hai. Perimeter ratio?",
+          "en": "Area ratio is 16:25. Perimeter ratio is:"
+        },
+        "options": [
+          {
+            "hi": "4:5",
+            "en": "4:5"
+          },
+          {
+            "hi": "16:25",
+            "en": "16:25"
+          },
+          {
+            "hi": "256:625",
+            "en": "256:625"
+          },
+          {
+            "hi": "2:3",
+            "en": "2:3"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Side ratio=√(16/25)=4/5, perimeter ratio bhi same.",
+          "en": "Side ratio=√(16/25)=4/5, perimeter ratio is the same."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Do congruent triangles ke areas equal hote hain.",
+          "en": "If two triangles are congruent, their areas are equal."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Congruent = same shape+size, isliye area bhi same.",
+          "en": "Congruent = same shape and size, so area is also the same."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Area(ABC)=100, Area(PQR)=64. Altitude from A=10cm. Altitude from P?",
+          "en": "Area(ABC)=100, Area(PQR)=64. Altitude from A=10cm. Find altitude from P."
+        },
+        "options": [
+          {
+            "hi": "6cm",
+            "en": "6cm"
+          },
+          {
+            "hi": "7cm",
+            "en": "7cm"
+          },
+          {
+            "hi": "8cm",
+            "en": "8cm"
+          },
+          {
+            "hi": "9cm",
+            "en": "9cm"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Side ratio=√(100/64)=5/4. 10/h=5/4 → h=8cm.",
+          "en": "Side ratio=√(100/64)=5/4. 10/h=5/4 → h=8cm."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Area ratio = (Side ratio)²",
+      "en": "Area ratio = (Side ratio)²"
+    },
+    {
+      "hi": "Side ratio = √(Area ratio)",
+      "en": "Side ratio = √(Area ratio)"
+    },
+    {
+      "hi": "Altitude/median bhi side ratio mein hote hain",
+      "en": "Altitude/median also scale in the side ratio"
+    }
+  ],
+  "summary": {
+    "hi": "Area ratio hamesha side ratio ka square hota hai — is theorem se side/altitude/area kisi bhi 2 mein se 1 nikaal sakte ho.",
+    "en": "Area ratio is always the square of side ratio — this theorem lets you find any one of side/altitude/area given the other."
+  },
+  "reward": {
+    "badge": null
+  }
+}

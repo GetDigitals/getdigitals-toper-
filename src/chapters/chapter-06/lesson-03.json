@@ -1,0 +1,268 @@
+{
+  "id": "chapter-06-lesson-03",
+  "chapterId": "chapter-06",
+  "order": 3,
+  "title": {
+    "hi": "Basic Proportionality Theorem (Thales Theorem)",
+    "en": "Basic Proportionality Theorem (Thales Theorem)"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📏",
+    "headline": {
+      "hi": "Basic Proportionality Theorem",
+      "en": "Basic Proportionality Theorem"
+    },
+    "subtext": {
+      "hi": "Famous Thales Theorem — geometry ka sabse important theorem!",
+      "en": "The famous Thales Theorem — one of the most important theorems in geometry!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Agar ek line triangle ki do sides ko proportional parts mein divide karti hai, to woh line third side ke parallel hoti hai — yahi Thales Theorem hai.",
+      "en": "If a line divides two sides of a triangle in proportional parts, that line is parallel to the third side — this is the Thales Theorem."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Theorem: ΔABC mein D, AB pe hai aur E, AC pe hai. Agar DE || BC, to AD/DB = AE/EC.",
+        "en": "Theorem: In ΔABC, D is on AB and E is on AC. If DE || BC, then AD/DB = AE/EC."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Converse bhi true hai: agar AD/DB = AE/EC, to DE || BC.",
+        "en": "The converse is also true: if AD/DB = AE/EC, then DE || BC."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof: ΔADE aur ΔABC mein ∠A common hai, ∠ADE=∠ABC aur ∠AED=∠ACB (corresponding angles, DE||BC). Isliye ΔADE~ΔABC (AA), aur AD/AB=AE/AC=DE/BC — isse AD/DB=AE/EC nikalta hai.",
+        "en": "Proof: In ΔADE and ΔABC, ∠A is common, ∠ADE=∠ABC and ∠AED=∠ACB (corresponding angles, DE||BC). So ΔADE~ΔABC (AA), and AD/AB=AE/AC=DE/BC — from which AD/DB=AE/EC follows."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "If DE || BC, then AD/DB = AE/EC   |   Converse: If AD/DB = AE/EC, then DE || BC"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "ΔABC mein DE||BC, D on AB, E on AC. AD=3cm, DB=5cm, AE=4.5cm. EC nikaalo.",
+        "en": "In ΔABC, DE||BC, D on AB, E on AC. AD=3cm, DB=5cm, AE=4.5cm. Find EC."
+      },
+      "steps": [
+        {
+          "hi": "AD/DB=AE/EC → 3/5=4.5/EC",
+          "en": "AD/DB=AE/EC → 3/5=4.5/EC"
+        },
+        {
+          "hi": "3×EC=5×4.5=22.5 → EC=7.5cm",
+          "en": "3×EC=5×4.5=22.5 → EC=7.5cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC mein AD=4,DB=6,AE=5,EC=7.5. Kya DE||BC?",
+        "en": "In ΔABC, AD=4,DB=6,AE=5,EC=7.5. Is DE||BC?"
+      },
+      "steps": [
+        {
+          "hi": "AD/DB=4/6=2/3, AE/EC=5/7.5=2/3",
+          "en": "AD/DB=4/6=2/3, AE/EC=5/7.5=2/3"
+        },
+        {
+          "hi": "Ratios equal → converse se DE||BC ✓",
+          "en": "Ratios equal → by converse, DE||BC ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "DE||BC. AD=x, DB=x−2, AE=x+2, EC=x−1. x nikaalo.",
+        "en": "DE||BC. AD=x, DB=x−2, AE=x+2, EC=x−1. Find x."
+      },
+      "steps": [
+        {
+          "hi": "x/(x−2)=(x+2)/(x−1)",
+          "en": "x/(x−2)=(x+2)/(x−1)"
+        },
+        {
+          "hi": "Cross multiply: x(x−1)=(x+2)(x−2) → x²−x=x²−4 → x=4",
+          "en": "Cross multiply: x(x−1)=(x+2)(x−2) → x²−x=x²−4 → x=4"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "ΔABC mein DE||BC. AD=2,DB=3,AE=4. EC?",
+          "en": "In ΔABC, DE||BC. AD=2,DB=3,AE=4. Find EC."
+        },
+        "options": [
+          {
+            "hi": "5",
+            "en": "5"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "4.5",
+            "en": "4.5"
+          },
+          {
+            "hi": "8",
+            "en": "8"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "2/3=4/EC → EC=6.",
+          "en": "2/3=4/EC → EC=6."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AD/DB=3/4 aur AE=6cm. EC?",
+          "en": "AD/DB=3/4 and AE=6cm. Find EC."
+        },
+        "options": [
+          {
+            "hi": "4cm",
+            "en": "4cm"
+          },
+          {
+            "hi": "6cm",
+            "en": "6cm"
+          },
+          {
+            "hi": "8cm",
+            "en": "8cm"
+          },
+          {
+            "hi": "10cm",
+            "en": "10cm"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "3/4=6/EC → EC=8cm.",
+          "en": "3/4=6/EC → EC=8cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AD=5,DB=10,AE=3,EC=6. Kya DE||BC?",
+          "en": "AD=5,DB=10,AE=3,EC=6. Is DE||BC?"
+        },
+        "options": [
+          {
+            "hi": "Haan",
+            "en": "Yes"
+          },
+          {
+            "hi": "Nahi",
+            "en": "No"
+          },
+          {
+            "hi": "Keh nahi sakte",
+            "en": "Can't say"
+          },
+          {
+            "hi": "Sirf angle equal ho to",
+            "en": "Only if angle equal"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "AD/DB=1/2, AE/EC=1/2 — equal, converse se DE||BC.",
+          "en": "AD/DB=1/2, AE/EC=1/2 — equal, so by converse DE||BC."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Thales Theorem ko Basic Proportionality Theorem bhi kehte hain.",
+          "en": "Thales Theorem is also called Basic Proportionality Theorem."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — dono naam same theorem ke hain.",
+          "en": "True — both names refer to the same theorem."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "ΔABC mein DE||BC. AB=10,AD=4,AC=15. AE?",
+          "en": "In ΔABC, DE||BC. AB=10,AD=4,AC=15. Find AE."
+        },
+        "options": [
+          {
+            "hi": "4",
+            "en": "4"
+          },
+          {
+            "hi": "5",
+            "en": "5"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "8",
+            "en": "8"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "AD/AB=AE/AC → 4/10=AE/15 → AE=6.",
+          "en": "AD/AB=AE/AC → 4/10=AE/15 → AE=6."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "DE||BC → AD/DB=AE/EC",
+      "en": "DE||BC → AD/DB=AE/EC"
+    },
+    {
+      "hi": "Converse: AD/DB=AE/EC → DE||BC",
+      "en": "Converse: AD/DB=AE/EC → DE||BC"
+    },
+    {
+      "hi": "Proof AA similarity se hota hai",
+      "en": "Proof uses AA similarity"
+    }
+  ],
+  "summary": {
+    "hi": "Thales Theorem se missing length nikaalo, ya ratios check karke parallel prove karo — dono directions mein kaam aata hai.",
+    "en": "Use the Thales Theorem to find a missing length, or check ratios to prove parallelism — it works both ways."
+  },
+  "reward": {
+    "badge": null
+  }
+}

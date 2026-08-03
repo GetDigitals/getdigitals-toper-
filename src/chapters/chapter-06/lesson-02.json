@@ -1,0 +1,272 @@
+{
+  "id": "chapter-06-lesson-02",
+  "chapterId": "chapter-06",
+  "order": 2,
+  "title": {
+    "hi": "Criteria for Similarity of Triangles",
+    "en": "Criteria for Similarity of Triangles"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Criteria for Similarity",
+      "en": "Criteria for Similarity"
+    },
+    "subtext": {
+      "hi": "Triangles similar prove karne ke 4 main criteria — har exam mein aate hain!",
+      "en": "4 main criteria to prove triangles are similar — they appear in every exam!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "In char criteria mein se koi bhi ek satisfy hone par triangles similar maane jaate hain.",
+      "en": "If any one of these four criteria is satisfied, the triangles are considered similar."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "AAA (Angle-Angle-Angle): teen corresponding angles equal. AA: do corresponding angles equal (third automatically equal).",
+        "en": "AAA (Angle-Angle-Angle): three corresponding angles equal. AA: two corresponding angles equal (third is automatically equal)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "SSS (Side-Side-Side): teen corresponding sides same ratio mein. SAS (Side-Angle-Side): do sides same ratio + included angle equal.",
+        "en": "SSS (Side-Side-Side): three corresponding sides in the same ratio. SAS (Side-Angle-Side): two sides in the same ratio + included angle equal."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Triangle ke teeno angles ka sum hamesha 180° hota hai. Agar do angles equal hain, third automatically equal ho jaata hai — isliye AA hi kaafi hai.",
+        "en": "The three angles of a triangle always sum to 180°. If two angles are equal, the third is automatically equal too — so AA alone is enough."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "AAA: ∠A=∠P,∠B=∠Q,∠C=∠R | AA: any 2 angles equal | SSS: AB/PQ=BC/QR=CA/RP | SAS: AB/PQ=BC/QR, ∠B=∠Q (included angle)"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "ΔABC, ΔPQR mein ∠A=50°,∠B=60° aur ∠P=50°,∠Q=60°. Prove karo ΔABC ~ ΔPQR.",
+        "en": "In ΔABC and ΔPQR, ∠A=50°,∠B=60° and ∠P=50°,∠Q=60°. Prove ΔABC ~ ΔPQR."
+      },
+      "steps": [
+        {
+          "hi": "∠C=180−50−60=70°, ∠R=180−50−60=70°",
+          "en": "∠C=180−50−60=70°, ∠R=180−50−60=70°"
+        },
+        {
+          "hi": "∠A=∠P, ∠B=∠Q, ∠C=∠R → ΔABC~ΔPQR (AA)",
+          "en": "∠A=∠P, ∠B=∠Q, ∠C=∠R → ΔABC~ΔPQR (AA)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC ke sides AB=6,BC=8,CA=10cm. ΔPQR ke sides PQ=3,QR=4,RP=5cm. Dikhao ΔABC~ΔPQR.",
+        "en": "ΔABC sides AB=6,BC=8,CA=10cm. ΔPQR sides PQ=3,QR=4,RP=5cm. Show ΔABC~ΔPQR."
+      },
+      "steps": [
+        {
+          "hi": "AB/PQ=2, BC/QR=2, CA/RP=2 — sab equal",
+          "en": "AB/PQ=2, BC/QR=2, CA/RP=2 — all equal"
+        },
+        {
+          "hi": "ΔABC~ΔPQR (SSS similarity)",
+          "en": "ΔABC~ΔPQR (SSS similarity)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC: AB=8,BC=10,∠B=40°. ΔPQR: PQ=4,QR=5,∠Q=40°. Dikhao similar hain.",
+        "en": "ΔABC: AB=8,BC=10,∠B=40°. ΔPQR: PQ=4,QR=5,∠Q=40°. Show they're similar."
+      },
+      "steps": [
+        {
+          "hi": "AB/PQ=2, BC/QR=2, included angle ∠B=∠Q=40°",
+          "en": "AB/PQ=2, BC/QR=2, included angle ∠B=∠Q=40°"
+        },
+        {
+          "hi": "ΔABC~ΔPQR (SAS similarity)",
+          "en": "ΔABC~ΔPQR (SAS similarity)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "∠A=∠P aur ∠B=∠Q ho, to ΔABC~ΔPQR kis se?",
+          "en": "If ∠A=∠P and ∠B=∠Q, then ΔABC~ΔPQR by:"
+        },
+        "options": [
+          {
+            "hi": "AAA",
+            "en": "AAA"
+          },
+          {
+            "hi": "AA",
+            "en": "AA"
+          },
+          {
+            "hi": "SSS",
+            "en": "SSS"
+          },
+          {
+            "hi": "SAS",
+            "en": "SAS"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Do angles equal se AA similarity.",
+          "en": "Two angles equal gives AA similarity."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AB/PQ=BC/QR=CA/RP=3/2 ho, to kis se similar?",
+          "en": "If AB/PQ=BC/QR=CA/RP=3/2, similar by:"
+        },
+        "options": [
+          {
+            "hi": "AAA",
+            "en": "AAA"
+          },
+          {
+            "hi": "AA",
+            "en": "AA"
+          },
+          {
+            "hi": "SSS",
+            "en": "SSS"
+          },
+          {
+            "hi": "SAS",
+            "en": "SAS"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Teeno sides same ratio mein — SSS similarity.",
+          "en": "All three sides in the same ratio — SSS similarity."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "SAS similarity mein angle kaunsa hona chahiye?",
+          "en": "In SAS similarity, the angle must be:"
+        },
+        "options": [
+          {
+            "hi": "Koi bhi angle",
+            "en": "Any angle"
+          },
+          {
+            "hi": "Included angle",
+            "en": "Included angle"
+          },
+          {
+            "hi": "Right angle",
+            "en": "Right angle"
+          },
+          {
+            "hi": "Sabse bada angle",
+            "en": "Largest angle"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Do proportional sides ke beech ka angle equal hona chahiye.",
+          "en": "The angle between the two proportional sides must be equal."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Do triangles ke do angles equal hain to teesra bhi equal hoga.",
+          "en": "If two angles of one triangle equal two angles of another, the third angles are also equal."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Angle sum property se third angle automatically equal ho jaata hai.",
+          "en": "By the angle sum property, the third angle is automatically equal too."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Board exams mein sabse common criterion kaunsa hai?",
+          "en": "Which criterion is most commonly used in board exams?"
+        },
+        "options": [
+          {
+            "hi": "AAA",
+            "en": "AAA"
+          },
+          {
+            "hi": "AA",
+            "en": "AA"
+          },
+          {
+            "hi": "SSS",
+            "en": "SSS"
+          },
+          {
+            "hi": "SAS",
+            "en": "SAS"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "AA sabse simple hai — sirf do angles check karne hain.",
+          "en": "AA is simplest — only two angles need checking."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "AAA: teen angles equal",
+      "en": "AAA: three angles equal"
+    },
+    {
+      "hi": "AA: do angles equal (most common)",
+      "en": "AA: two angles equal (most common)"
+    },
+    {
+      "hi": "SSS: teen sides proportional",
+      "en": "SSS: three sides proportional"
+    },
+    {
+      "hi": "SAS: do sides proportional + included angle equal",
+      "en": "SAS: two sides proportional + included angle equal"
+    }
+  ],
+  "summary": {
+    "hi": "4 criteria yaad rakho — AA sabse zyada exams mein use hota hai kyunki sirf do angles check karne padte hain.",
+    "en": "Remember the 4 criteria — AA is used most in exams since only two angles need checking."
+  },
+  "reward": {
+    "badge": null
+  }
+}

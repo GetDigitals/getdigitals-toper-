@@ -1,0 +1,337 @@
+{
+  "id": "chapter-06-lesson-06",
+  "chapterId": "chapter-06",
+  "order": 6,
+  "title": {
+    "hi": "Chapter Wrap-up & Mixed Problems",
+    "en": "Chapter Wrap-up & Mixed Problems"
+  },
+  "estimatedMinutes": 10,
+  "xpReward": 60,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Triangles — Chapter Wrap-up",
+      "en": "Triangles — Chapter Wrap-up"
+    },
+    "subtext": {
+      "hi": "Sab kuch ek jagah — board exam level problems solve karo!",
+      "en": "Everything in one place — solve board exam level problems!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ab tak humne similar triangles, similarity criteria, Thales Theorem, areas of similar triangles, aur Pythagoras Theorem seekhe hain. Chalo sabko ek saath revise karein.",
+      "en": "So far we've learned similar triangles, similarity criteria, the Thales Theorem, areas of similar triangles, and the Pythagoras Theorem. Let's revise them all together."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Similar Triangles: same shape, different size. Corresponding angles equal, sides proportional.",
+        "en": "Similar Triangles: same shape, different size. Corresponding angles equal, sides proportional."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Similarity Criteria: AAA, AA (most common), SSS, SAS.",
+        "en": "Similarity Criteria: AAA, AA (most common), SSS, SAS."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Thales Theorem (BPT): DE||BC → AD/DB=AE/EC. Converse bhi true hai.",
+        "en": "Thales Theorem (BPT): DE||BC → AD/DB=AE/EC. Converse also holds."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Area Ratio: Area ratio = (Side ratio)². Pythagoras: h²=p²+b² (right triangles ke liye).",
+        "en": "Area Ratio: Area ratio = (Side ratio)². Pythagoras: h²=p²+b² (for right triangles)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "AAA/AA/SSS/SAS Similarity | AD/DB=AE/EC (BPT) | Area ratio=(Side ratio)² | h²=p²+b²"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "ΔABC mein DE||BC, D on AB, E on AC. AD=4,DB=6,AE=5. EC nikaalo, aur dikhao ΔADE~ΔABC.",
+        "en": "In ΔABC, DE||BC, D on AB, E on AC. AD=4,DB=6,AE=5. Find EC, and show ΔADE~ΔABC."
+      },
+      "steps": [
+        {
+          "hi": "BPT: 4/6=5/EC → EC=7.5cm",
+          "en": "BPT: 4/6=5/EC → EC=7.5cm"
+        },
+        {
+          "hi": "ΔADE, ΔABC mein: ∠A common, ∠ADE=∠ABC, ∠AED=∠ACB (corresponding angles)",
+          "en": "In ΔADE, ΔABC: ∠A common, ∠ADE=∠ABC, ∠AED=∠ACB (corresponding angles)"
+        },
+        {
+          "hi": "ΔADE~ΔABC (AA similarity)",
+          "en": "ΔADE~ΔABC (AA similarity)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC~ΔPQR. Area(ABC)=144cm², Area(PQR)=81cm². Altitude from A=8cm. Altitude from P nikaalo.",
+        "en": "ΔABC~ΔPQR. Area(ABC)=144cm², Area(PQR)=81cm². Altitude from A=8cm. Find altitude from P."
+      },
+      "steps": [
+        {
+          "hi": "144/81=(8/h)² → √(144/81)=8/h → 4/3=8/h",
+          "en": "144/81=(8/h)² → √(144/81)=8/h → 4/3=8/h"
+        },
+        {
+          "hi": "h=8×3/4=6cm",
+          "en": "h=8×3/4=6cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Equilateral triangle ABC, side 12cm. Altitude aur area nikaalo.",
+        "en": "An equilateral triangle ABC has side 12cm. Find the altitude and area."
+      },
+      "steps": [
+        {
+          "hi": "AD=altitude, D mid-point of BC, BD=6cm",
+          "en": "AD=altitude, D midpoint of BC, BD=6cm"
+        },
+        {
+          "hi": "AB²=AD²+BD² → 144=AD²+36 → AD²=108 → AD=6√3cm",
+          "en": "AB²=AD²+BD² → 144=AD²+36 → AD²=108 → AD=6√3cm"
+        },
+        {
+          "hi": "Area=½×12×6√3=36√3cm²",
+          "en": "Area=½×12×6√3=36√3cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Prove karo Pythagoras Theorem: right ΔABC, ∠B=90° mein AC²=AB²+BC².",
+        "en": "Prove the Pythagoras Theorem: in right ΔABC, ∠B=90°, AC²=AB²+BC²."
+      },
+      "steps": [
+        {
+          "hi": "Construction: BD⊥AC",
+          "en": "Construction: BD⊥AC"
+        },
+        {
+          "hi": "ΔADB, ΔABC mein: ∠A common, ∠ADB=∠ABC=90° → ΔADB~ΔABC → AB²=AD×AC ...(1)",
+          "en": "In ΔADB, ΔABC: ∠A common, ∠ADB=∠ABC=90° → ΔADB~ΔABC → AB²=AD×AC ...(1)"
+        },
+        {
+          "hi": "ΔBDC, ΔABC mein: ∠C common, ∠BDC=∠ABC=90° → ΔBDC~ΔABC → BC²=DC×AC ...(2)",
+          "en": "In ΔBDC, ΔABC: ∠C common, ∠BDC=∠ABC=90° → ΔBDC~ΔABC → BC²=DC×AC ...(2)"
+        },
+        {
+          "hi": "(1)+(2): AB²+BC²=AC(AD+DC)=AC×AC=AC² — Hence Proved",
+          "en": "(1)+(2): AB²+BC²=AC(AD+DC)=AC×AC=AC² — Hence Proved"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "DE||BC, AD=3,DB=5,AE=4.5. EC?",
+          "en": "DE||BC, AD=3,DB=5,AE=4.5. Find EC."
+        },
+        "options": [
+          {
+            "hi": "6.5",
+            "en": "6.5"
+          },
+          {
+            "hi": "7",
+            "en": "7"
+          },
+          {
+            "hi": "7.5",
+            "en": "7.5"
+          },
+          {
+            "hi": "8",
+            "en": "8"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "3/5=4.5/EC → EC=7.5.",
+          "en": "3/5=4.5/EC → EC=7.5."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Areas 49cm² aur 25cm². Pehle ka side 14cm. Doosre ka side?",
+          "en": "Areas 49cm² and 25cm². First's side is 14cm. Second's side?"
+        },
+        "options": [
+          {
+            "hi": "8cm",
+            "en": "8cm"
+          },
+          {
+            "hi": "9cm",
+            "en": "9cm"
+          },
+          {
+            "hi": "10cm",
+            "en": "10cm"
+          },
+          {
+            "hi": "12cm",
+            "en": "12cm"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Side ratio=7/5. 14/x=7/5 → x=10cm.",
+          "en": "Side ratio=7/5. 14/x=7/5 → x=10cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "15m ladder, 12m window. Wall se ladder ki base distance?",
+          "en": "15m ladder reaches 12m window. Distance of ladder's foot from wall?"
+        },
+        "options": [
+          {
+            "hi": "6m",
+            "en": "6m"
+          },
+          {
+            "hi": "8m",
+            "en": "8m"
+          },
+          {
+            "hi": "9m",
+            "en": "9m"
+          },
+          {
+            "hi": "10m",
+            "en": "10m"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "x²+12²=15² → x²=81 → x=9m.",
+          "en": "x²+12²=15² → x²=81 → x=9m."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Similar triangles 1:2 ratio mein hain to unke perimeters 1:4 mein hote hain.",
+          "en": "If two triangles are similar with ratio 1:2, their perimeters are in ratio 1:4."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Perimeter ratio = side ratio = 1:2, area ratio 1:4 hota hai, perimeter nahi.",
+          "en": "Perimeter ratio equals side ratio (1:2); area ratio is 1:4, not perimeter."
+        }
+      },
+      {
+        "type": "match",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Theorem ko uske formula se match karo",
+          "en": "Match the theorem to its formula"
+        },
+        "pairs": [
+          {
+            "left": {
+              "hi": "BPT",
+              "en": "BPT"
+            },
+            "right": {
+              "hi": "AD/DB=AE/EC",
+              "en": "AD/DB=AE/EC"
+            }
+          },
+          {
+            "left": {
+              "hi": "Area of similar triangles",
+              "en": "Area of similar triangles"
+            },
+            "right": {
+              "hi": "(Side ratio)²",
+              "en": "(Side ratio)²"
+            }
+          },
+          {
+            "left": {
+              "hi": "Pythagoras",
+              "en": "Pythagoras"
+            },
+            "right": {
+              "hi": "h²=p²+b²",
+              "en": "h²=p²+b²"
+            }
+          },
+          {
+            "left": {
+              "hi": "AA Similarity",
+              "en": "AA Similarity"
+            },
+            "right": {
+              "hi": "2 angles equal",
+              "en": "2 angles equal"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Similar triangles: same shape, sides proportional",
+      "en": "Similar triangles: same shape, sides proportional"
+    },
+    {
+      "hi": "BPT: DE||BC ↔ AD/DB=AE/EC",
+      "en": "BPT: DE||BC ↔ AD/DB=AE/EC"
+    },
+    {
+      "hi": "Area ratio=(Side ratio)², Pythagoras: h²=p²+b²",
+      "en": "Area ratio=(Side ratio)², Pythagoras: h²=p²+b²"
+    },
+    {
+      "hi": "Equilateral triangle: altitude=(√3/2)a, area=(√3/4)a²",
+      "en": "Equilateral triangle: altitude=(√3/2)a, area=(√3/4)a²"
+    }
+  ],
+  "summary": {
+    "hi": "Chapter 6 complete! Ab tum similarity, BPT, area ratios, aur Pythagoras — sab confidently solve kar sakte ho, proofs bhi.",
+    "en": "Chapter 6 complete! You can now confidently solve similarity, BPT, area ratios, and Pythagoras problems — including proofs."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-06-master",
+      "name": {
+        "hi": "Triangles Master",
+        "en": "Triangles Master"
+      },
+      "icon": "🏅"
+    }
+  }
+}

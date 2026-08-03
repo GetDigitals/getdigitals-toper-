@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getChapterById, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import QuizEngine from '../components/QuizEngine';
+import { localizeQuestions, langCode } from '../utils/i18n';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -24,15 +25,16 @@ export default function Practice() {
   const navigate = useNavigate();
   const chapter = getChapterById(chapterId);
   const lessons = getLessonsForChapter(chapterId);
-  const { recordPractice } = useProgress();
+  const { recordPractice, settings } = useProgress();
+  const lang = langCode(settings.language);
   const [level, setLevel] = useState('easy');
   const [session, setSession] = useState(null);
 
   // Pool every quiz question across the chapter's lessons, filterable by difficulty tag
   const pool = useMemo(() => {
     const all = lessons.flatMap((l) => (l.quiz?.questions || []).map((q) => ({ ...q, difficulty: q.difficulty || 'easy' })));
-    return all;
-  }, [lessons]);
+    return localizeQuestions(all, lang);
+  }, [lessons, lang]);
 
   function startSession() {
     const filtered = pool.filter((q) => q.difficulty === level);

@@ -1,0 +1,288 @@
+{
+  "id": "chapter-06-lesson-05",
+  "chapterId": "chapter-06",
+  "order": 5,
+  "title": {
+    "hi": "Pythagoras Theorem & Converse",
+    "en": "Pythagoras Theorem & Converse"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Pythagoras Theorem",
+      "en": "Pythagoras Theorem"
+    },
+    "subtext": {
+      "hi": "Right triangles ka king theorem!",
+      "en": "The king of right-triangle theorems!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Pythagoras Theorem se hum right triangle ki missing side nikaal sakte hain — construction, navigation, aur physics mein hota hai. Board exams mein har saal aata hai!",
+      "en": "The Pythagoras Theorem lets us find a right triangle's missing side — used in construction, navigation, and physics. It appears in board exams every year!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Theorem: Right triangle mein hypotenuse ka square baaki do sides ke squares ke sum ke barabar hota hai.",
+        "en": "Theorem: In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Hypotenuse = right angle ke saamne wali sabse badi side. Base aur Perpendicular = right angle banane wali do sides.",
+        "en": "Hypotenuse = the largest side, opposite the right angle. Base and Perpendicular = the two sides forming the right angle."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Pythagorean triplets: 3,4,5 | 5,12,13 | 8,15,17 | 7,24,25 — inke multiples bhi triplets hote hain (6,8,10 ya 9,12,15).",
+        "en": "Pythagorean triplets: 3,4,5 | 5,12,13 | 8,15,17 | 7,24,25 — their multiples are also triplets (like 6,8,10 or 9,12,15)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "In right ΔABC, ∠B=90°: AC² = AB² + BC²   |   Converse: If a²+b²=c², triangle is right-angled"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Right triangle mein legs 8cm aur 15cm hain. Hypotenuse nikaalo.",
+        "en": "In a right triangle, the two legs are 8cm and 15cm. Find the hypotenuse."
+      },
+      "steps": [
+        {
+          "hi": "h²=8²+15²=64+225=289",
+          "en": "h²=8²+15²=64+225=289"
+        },
+        {
+          "hi": "h=√289=17cm",
+          "en": "h=√289=17cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Right triangle mein hypotenuse 25cm, ek side 7cm. Doosri side nikaalo.",
+        "en": "In a right triangle, hypotenuse is 25cm, one side is 7cm. Find the other side."
+      },
+      "steps": [
+        {
+          "hi": "25²=7²+b² → 625=49+b² → b²=576",
+          "en": "25²=7²+b² → 625=49+b² → b²=576"
+        },
+        {
+          "hi": "b=√576=24cm",
+          "en": "b=√576=24cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "10,24,26 cm ke sides wala triangle right triangle hai kya?",
+        "en": "Check whether a triangle with sides 10cm, 24cm, 26cm is a right triangle."
+      },
+      "steps": [
+        {
+          "hi": "Sabse badi side=26 (hypotenuse). 26²=676, 10²+24²=100+576=676",
+          "en": "Largest side=26 (hypotenuse). 26²=676, 10²+24²=100+576=676"
+        },
+        {
+          "hi": "676=676 ✓ — Haan, right triangle hai",
+          "en": "676=676 ✓ — Yes, it's a right triangle"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "13m ki ladder, wall pe 12m height tak pahunchti hai. Ladder ki wall se distance nikaalo.",
+        "en": "A 13m ladder reaches a window 12m above ground. Find the distance of the foot of the ladder from the wall."
+      },
+      "steps": [
+        {
+          "hi": "13²=12²+x² → 169=144+x² → x²=25",
+          "en": "13²=12²+x² → 169=144+x² → x²=25"
+        },
+        {
+          "hi": "x=5m",
+          "en": "x=5m"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Base=6, perpendicular=8. Hypotenuse?",
+          "en": "If base=6 and perpendicular=8, hypotenuse = ?"
+        },
+        "options": [
+          {
+            "hi": "10",
+            "en": "10"
+          },
+          {
+            "hi": "12",
+            "en": "12"
+          },
+          {
+            "hi": "14",
+            "en": "14"
+          },
+          {
+            "hi": "16",
+            "en": "16"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "h²=36+64=100, h=10.",
+          "en": "h²=36+64=100, h=10."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Konsa Pythagorean triplet hai?",
+          "en": "Which of the following is a Pythagorean triplet?"
+        },
+        "options": [
+          {
+            "hi": "4,5,6",
+            "en": "4,5,6"
+          },
+          {
+            "hi": "5,12,13",
+            "en": "5,12,13"
+          },
+          {
+            "hi": "6,8,11",
+            "en": "6,8,11"
+          },
+          {
+            "hi": "7,8,12",
+            "en": "7,8,12"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "5²+12²=169=13².",
+          "en": "5²+12²=169=13²."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek ped toot kar zameen se 6m dur touch karta hai. Toota hua part 10m hai. Original height?",
+          "en": "A tree breaks and touches ground 6m from base. Broken part is 10m. Find original height."
+        },
+        "options": [
+          {
+            "hi": "15m",
+            "en": "15m"
+          },
+          {
+            "hi": "18m",
+            "en": "18m"
+          },
+          {
+            "hi": "20m",
+            "en": "20m"
+          },
+          {
+            "hi": "22m",
+            "en": "22m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Standing part: x²+6²=10² → x=8. Original height=8+10=18m.",
+          "en": "Standing part: x²+6²=10² → x=8. Original height=8+10=18m."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Agar a²+b²=c² ho, to triangle hamesha right-angled hota hai.",
+          "en": "If a²+b²=c², the triangle is always right-angled."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Ye Pythagoras theorem ka converse hai.",
+          "en": "This is the converse of the Pythagoras theorem."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Rectangle ke sides 9cm aur 12cm. Diagonal?",
+          "en": "Diagonal of a rectangle with sides 9cm and 12cm is:"
+        },
+        "options": [
+          {
+            "hi": "15cm",
+            "en": "15cm"
+          },
+          {
+            "hi": "16cm",
+            "en": "16cm"
+          },
+          {
+            "hi": "18cm",
+            "en": "18cm"
+          },
+          {
+            "hi": "21cm",
+            "en": "21cm"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Diagonal²=81+144=225, diagonal=15cm.",
+          "en": "Diagonal²=81+144=225, diagonal=15cm."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "(Hypotenuse)²=(Base)²+(Perpendicular)²",
+      "en": "(Hypotenuse)²=(Base)²+(Perpendicular)²"
+    },
+    {
+      "hi": "Hypotenuse = largest side, opposite 90°",
+      "en": "Hypotenuse = largest side, opposite 90°"
+    },
+    {
+      "hi": "Converse: a²+b²=c² → right triangle",
+      "en": "Converse: a²+b²=c² → right triangle"
+    },
+    {
+      "hi": "Common triplets: 3-4-5, 5-12-13, 8-15-17, 7-24-25",
+      "en": "Common triplets: 3-4-5, 5-12-13, 8-15-17, 7-24-25"
+    }
+  ],
+  "summary": {
+    "hi": "Pythagoras theorem se right triangle ki koi bhi missing side nikaal sakte ho, aur converse se check kar sakte ho ki triangle right-angled hai ya nahi.",
+    "en": "The Pythagoras theorem finds any missing side of a right triangle, and its converse checks whether a triangle is right-angled."
+  },
+  "reward": {
+    "badge": null
+  }
+}

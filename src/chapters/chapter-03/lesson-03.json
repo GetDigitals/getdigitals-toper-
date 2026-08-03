@@ -1,0 +1,189 @@
+{
+  "id": "chapter-03-lesson-03",
+  "chapterId": "chapter-03",
+  "order": 3,
+  "title": {
+    "hi": "Substitution Method",
+    "en": "Substitution Method"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🔄",
+    "headline": {
+      "hi": "Substitution Method",
+      "en": "Substitution Method"
+    },
+    "subtext": {
+      "hi": "Ek variable ko doosre ke roop mein likho, phir substitute karo.",
+      "en": "Express one variable in terms of the other, then substitute."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Graph banana slow hai jab numbers bade ho. Substitution method mein hum ek equation se x ya y ko isolate karte hain, phir usse doosri equation mein daal dete hain — bina graph ke exact answer milta hai.",
+      "en": "Drawing a graph is slow with large numbers. In substitution, we isolate x or y from one equation, then plug it into the other — giving an exact answer without any graph."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 1: Kisi ek equation se ek variable (jaise y) ko doosre variable ke terms mein likho.",
+        "en": "Step 1: From one equation, express one variable (say y) in terms of the other."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 2: Is expression ko doosri equation mein substitute karo — ab sirf ek variable bachega.",
+        "en": "Step 2: Substitute this expression into the other equation — now only one variable remains."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 3: Us equation ko solve karo, phir value ko wapas step-1 wali expression mein daal kar doosra variable nikaalo.",
+        "en": "Step 3: Solve that equation, then plug the value back into the step-1 expression to find the other variable."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Substitution se solve karo: x + y = 14, x − y = 4",
+        "en": "Solve by substitution: x + y = 14, x − y = 4"
+      },
+      "steps": [
+        {
+          "hi": "Eq(1) se: x = 14 − y",
+          "en": "From Eq(1): x = 14 − y"
+        },
+        {
+          "hi": "Eq(2) mein daalo: (14 − y) − y = 4",
+          "en": "Substitute in Eq(2): (14 − y) − y = 4"
+        },
+        {
+          "hi": "14 − 2y = 4 → 2y = 10 → y = 5",
+          "en": "14 − 2y = 4 → 2y = 10 → y = 5"
+        },
+        {
+          "hi": "x = 14 − 5 = 9",
+          "en": "x = 14 − 5 = 9"
+        },
+        {
+          "hi": "Solution: x = 9, y = 5",
+          "en": "Solution: x = 9, y = 5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve karo: 7x − 15y = 2, x + 2y = 3",
+        "en": "Solve: 7x − 15y = 2, x + 2y = 3"
+      },
+      "steps": [
+        {
+          "hi": "Eq(2) se: x = 3 − 2y",
+          "en": "From Eq(2): x = 3 − 2y"
+        },
+        {
+          "hi": "Eq(1) mein daalo: 7(3−2y) − 15y = 2",
+          "en": "Substitute in Eq(1): 7(3−2y) − 15y = 2"
+        },
+        {
+          "hi": "21 − 14y − 15y = 2 → 21 − 29y = 2 → 29y = 19 → y = 19/29",
+          "en": "21 − 14y − 15y = 2 → 21 − 29y = 2 → 29y = 19 → y = 19/29"
+        },
+        {
+          "hi": "Ye thoda messy answer aaya — real exams mein numbers usually simple rakhe jaate hain, ye dikhata hai algebra hamesha exact kaam karta hai chahe numbers kaise bhi ho.",
+          "en": "This gives a slightly messy answer — real exams usually keep numbers simpler, but this shows algebra always works exactly, no matter the numbers."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Substitution method mein sabse pehla step kya hai?",
+          "en": "What is the first step in the substitution method?"
+        },
+        "options": [
+          {
+            "hi": "Dono equations add karna",
+            "en": "Adding both equations"
+          },
+          {
+            "hi": "Ek variable ko doosre ke terms mein likhna",
+            "en": "Expressing one variable in terms of the other"
+          },
+          {
+            "hi": "Graph banana",
+            "en": "Drawing a graph"
+          },
+          {
+            "hi": "Multiply karna",
+            "en": "Multiplying"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Pehle ek equation se ek variable isolate karte hain.",
+          "en": "First, we isolate one variable from one equation."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "x + y = 14 aur x − y = 4 mein y ki value kya hai?",
+          "en": "In x + y = 14 and x − y = 4, what is the value of y?"
+        },
+        "options": [
+          {
+            "hi": "4",
+            "en": "4"
+          },
+          {
+            "hi": "5",
+            "en": "5"
+          },
+          {
+            "hi": "9",
+            "en": "9"
+          },
+          {
+            "hi": "10",
+            "en": "10"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "x = 14−y substitute karke: 14−2y=4 → y=5.",
+          "en": "Substituting x = 14−y: 14−2y=4 → y=5."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Isolate → Substitute → Solve → Back-substitute",
+      "en": "Isolate → Substitute → Solve → Back-substitute"
+    },
+    {
+      "hi": "Simpler coefficient wale variable ko pehle isolate karo",
+      "en": "Isolate the variable with the simpler coefficient first"
+    }
+  ],
+  "summary": {
+    "hi": "Substitution method exact answer deta hai, koi graph nahi chahiye — bas isolate karo aur substitute karo.",
+    "en": "The substitution method gives an exact answer with no graph needed — just isolate and substitute."
+  },
+  "reward": {
+    "badge": null
+  }
+}

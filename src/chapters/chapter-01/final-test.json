@@ -3,15 +3,269 @@
   "totalMarks": 20,
   "timerSecondsPerQuestion": 40,
   "questions": [
-    { "type": "mcq", "question": "Euclid's Division Lemma: a = bq + r mein r ki range?", "options": ["0 ≤ r < b", "0 < r ≤ b", "r > b", "r = b"], "correct": 0, "explanation": "Remainder hamesha 0 se divisor-1 tak hota hai." },
-    { "type": "mcq", "question": "HCF(96, 404) kya hai?", "options": ["2", "4", "8", "12"], "correct": 1, "explanation": "Euclid's algorithm se HCF = 4." },
-    { "type": "truefalse", "question": "√5 ek rational number hai.", "correct": false, "explanation": "√5 irrational hai — proof by contradiction se sabit hota hai." },
-    { "type": "mcq", "question": "72 ka prime factorization kya hai?", "options": ["2³×3²", "2²×3³", "2×3⁴", "2⁴×3"], "correct": 0, "explanation": "72 = 8×9 = 2³×3²" },
-    { "type": "mcq", "question": "Kaunsa fraction terminating decimal dega?", "options": ["1/6", "1/7", "1/8", "1/12"], "correct": 2, "explanation": "8 = 2³, sirf 2 hai isliye terminating." },
-    { "type": "mcq", "question": "Agar HCF(a,b)=6 aur a×b=108, to LCM kya hoga?", "options": ["12", "18", "24", "36"], "correct": 1, "explanation": "LCM = (a×b)/HCF = 108/6 = 18." },
-    { "type": "truefalse", "question": "Fundamental Theorem of Arithmetic sirf prime numbers par apply hota hai.", "correct": false, "explanation": "Ye composite numbers ke prime factorization par apply hota hai." },
-    { "type": "mcq", "question": "455 = 42 × 10 + r mein r kya hoga?", "options": ["25", "35", "45", "15"], "correct": 1, "explanation": "42×10=420, 455−420=35." },
-    { "type": "mcq", "question": "Do numbers ka HCF × LCM kis ke barabar hota hai?", "options": ["Unka sum", "Unka product", "Unka difference", "Unka average"], "correct": 1, "explanation": "HCF × LCM = product of the two numbers." },
-    { "type": "mcq", "question": "π (pi) kaisa number hai?", "options": ["Rational", "Irrational", "Integer", "Whole number"], "correct": 1, "explanation": "π ka decimal na terminate karta hai na repeat — ye irrational hai." }
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "HCF(96, 404) prime factorization se kya hai?",
+        "en": "What is HCF(96, 404) using prime factorization?"
+      },
+      "options": [
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "4",
+          "en": "4"
+        },
+        {
+          "hi": "8",
+          "en": "8"
+        },
+        {
+          "hi": "12",
+          "en": "12"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "96=2⁵×3, 404=2²×101. HCF=2²=4.",
+        "en": "96=2⁵×3, 404=2²×101. HCF=2²=4."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "√5 ek rational number hai.",
+        "en": "√5 is a rational number."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "√5 irrational hai — proof by contradiction se sabit hota hai.",
+        "en": "√5 is irrational — proven by contradiction."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "72 ka prime factorization kya hai?",
+        "en": "What is the prime factorization of 72?"
+      },
+      "options": [
+        {
+          "hi": "2³×3²",
+          "en": "2³×3²"
+        },
+        {
+          "hi": "2²×3³",
+          "en": "2²×3³"
+        },
+        {
+          "hi": "2×3⁴",
+          "en": "2×3⁴"
+        },
+        {
+          "hi": "2⁴×3",
+          "en": "2⁴×3"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "72 = 8×9 = 2³×3²",
+        "en": "72 = 8×9 = 2³×3²"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Agar HCF(a,b)=6 aur a×b=108, to LCM kya hoga?",
+        "en": "If HCF(a,b)=6 and a×b=108, find LCM."
+      },
+      "options": [
+        {
+          "hi": "12",
+          "en": "12"
+        },
+        {
+          "hi": "18",
+          "en": "18"
+        },
+        {
+          "hi": "24",
+          "en": "24"
+        },
+        {
+          "hi": "36",
+          "en": "36"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "LCM = (a×b)/HCF = 108/6 = 18.",
+        "en": "LCM = (a×b)/HCF = 108/6 = 18."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Fundamental Theorem of Arithmetic sirf prime numbers par apply hota hai.",
+        "en": "The Fundamental Theorem of Arithmetic applies only to prime numbers."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Ye composite numbers ke prime factorization par apply hota hai.",
+        "en": "It applies to the prime factorization of composite numbers."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Do numbers ka HCF × LCM kis ke barabar hota hai?",
+        "en": "HCF × LCM of two numbers equals:"
+      },
+      "options": [
+        {
+          "hi": "Unka sum",
+          "en": "Their sum"
+        },
+        {
+          "hi": "Unka product",
+          "en": "Their product"
+        },
+        {
+          "hi": "Unka difference",
+          "en": "Their difference"
+        },
+        {
+          "hi": "Unka average",
+          "en": "Their average"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "HCF × LCM = product of the two numbers.",
+        "en": "HCF × LCM = product of the two numbers."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "π (pi) kaisa number hai?",
+        "en": "What kind of number is π?"
+      },
+      "options": [
+        {
+          "hi": "Rational",
+          "en": "Rational"
+        },
+        {
+          "hi": "Irrational",
+          "en": "Irrational"
+        },
+        {
+          "hi": "Integer",
+          "en": "Integer"
+        },
+        {
+          "hi": "Whole number",
+          "en": "Whole number"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "π ka decimal na terminate karta hai na repeat — irrational hai.",
+        "en": "π's decimal neither terminates nor repeats — it's irrational."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "HCF(18,24,30) kya hai?",
+        "en": "What is HCF(18,24,30)?"
+      },
+      "options": [
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "6",
+          "en": "6"
+        },
+        {
+          "hi": "3",
+          "en": "3"
+        },
+        {
+          "hi": "12",
+          "en": "12"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "18=2×3², 24=2³×3, 30=2×3×5. Common smallest power: 2×3=6.",
+        "en": "18=2×3², 24=2³×3, 30=2×3×5. Common smallest power: 2×3=6."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "5−√2 kaisa number hai (given √2 irrational hai)?",
+        "en": "What kind of number is 5−√2 (given √2 is irrational)?"
+      },
+      "options": [
+        {
+          "hi": "Rational",
+          "en": "Rational"
+        },
+        {
+          "hi": "Irrational",
+          "en": "Irrational"
+        },
+        {
+          "hi": "Integer",
+          "en": "Integer"
+        },
+        {
+          "hi": "Natural number",
+          "en": "Natural number"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Rational − Irrational hamesha irrational hota hai.",
+        "en": "Rational − Irrational is always irrational."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "LCM(15,20) kya hai?",
+        "en": "What is LCM(15,20)?"
+      },
+      "options": [
+        {
+          "hi": "5",
+          "en": "5"
+        },
+        {
+          "hi": "60",
+          "en": "60"
+        },
+        {
+          "hi": "40",
+          "en": "40"
+        },
+        {
+          "hi": "30",
+          "en": "30"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "15=3×5, 20=2²×5. LCM=2²×3×5=60.",
+        "en": "15=3×5, 20=2²×5. LCM=2²×3×5=60."
+      }
+    }
   ]
 }

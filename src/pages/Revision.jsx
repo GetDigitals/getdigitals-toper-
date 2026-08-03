@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getChapterById, getLessonsForChapter, getRevision } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import Flashcard from '../components/Flashcard';
+import { t, tList, localizeQuestions, langCode } from '../utils/i18n';
 
 const TABS = [
   { id: 'flashcards', label: 'Flashcards', icon: '🗂️' },
@@ -17,18 +18,24 @@ export default function Revision() {
   const chapter = getChapterById(chapterId);
   const lessons = getLessonsForChapter(chapterId);
   const revision = getRevision(chapterId);
-  const { progress, toggleBookmark } = useProgress();
+  const { progress, toggleBookmark, settings } = useProgress();
+  const lang = langCode(settings.language);
   const [tab, setTab] = useState('flashcards');
 
   // Flashcards can come from a dedicated revision.json, or auto-derive from
   // each lesson's `notes` array as a sane fallback — still zero hardcoding.
-  const flashcards = revision?.flashcards?.length
+  const flashcardsRaw = revision?.flashcards?.length
     ? revision.flashcards
     : lessons.flatMap((l) => (l.notes || []).map((n) => ({ front: l.title, back: n })));
+  const flashcards = flashcardsRaw.map((fc) => ({ front: t(fc.front, lang), back: t(fc.back, lang) }));
 
-  const formulas = revision?.formulaSheet || [];
-  const mindmap = revision?.mindMap || null;
-  const rapidFire = revision?.rapidFire?.length ? revision.rapidFire : lessons.flatMap((l) => l.quiz?.questions || []).slice(0, 10);
+  const formulas = (revision?.formulaSheet || []).map((f) => ({ label: t(f.label, lang), formula: f.formula }));
+  const mindmapRaw = revision?.mindMap || null;
+  const mindmap = mindmapRaw
+    ? { root: t(mindmapRaw.root, lang), branches: (mindmapRaw.branches || []).map((b) => ({ label: t(b.label, lang), children: tList(b.children, lang) })) }
+    : null;
+  const rapidFireRaw = revision?.rapidFire?.length ? revision.rapidFire : lessons.flatMap((l) => l.quiz?.questions || []).slice(0, 10);
+  const rapidFire = localizeQuestions(rapidFireRaw, lang);
 
   if (!chapter) return <div className="p-6 text-center text-[var(--color-muted)]">Chapter not found.</div>;
 

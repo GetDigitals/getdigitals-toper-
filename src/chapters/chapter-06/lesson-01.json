@@ -1,0 +1,299 @@
+{
+  "id": "chapter-06-lesson-01",
+  "chapterId": "chapter-06",
+  "order": 1,
+  "title": {
+    "hi": "Introduction to Triangles & Similarity",
+    "en": "Introduction to Triangles & Similarity"
+  },
+  "estimatedMinutes": 10,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🔺",
+    "headline": {
+      "hi": "Triangles & Similarity",
+      "en": "Triangles & Similarity"
+    },
+    "subtext": {
+      "hi": "Similar triangles woh triangles hain jo same shape rakhte hain lekin size alag ho sakta hai — photography se architecture tak har jagah use hota hai!",
+      "en": "Similar triangles are triangles with the same shape but possibly different sizes — used everywhere from photography to architecture!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Similar triangles ka concept geometry ka sabse important foundation hai.",
+      "en": "The concept of similar triangles is one of the most important foundations in geometry."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Do triangles similar hain agar unke corresponding angles equal hain aur corresponding sides proportional hain.",
+        "en": "Two triangles are similar if their corresponding angles are equal and corresponding sides are proportional."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Corresponding angles equal: ∠A=∠P, ∠B=∠Q, ∠C=∠R. Corresponding sides proportional: AB/PQ=BC/QR=CA/RP",
+        "en": "Corresponding angles equal: ∠A=∠P, ∠B=∠Q, ∠C=∠R. Corresponding sides proportional: AB/PQ=BC/QR=CA/RP"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Symbol: ΔABC ~ ΔPQR ('~' similarity ko denote karta hai). Scale Factor = ratio of corresponding sides.",
+        "en": "Symbol: ΔABC ~ ΔPQR ('~' denotes similarity). Scale Factor = ratio of corresponding sides."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Congruent (≅): Same shape + same size → sides EQUAL. Similar (~): Same shape + different size → sides PROPORTIONAL. Har congruent triangle similar hota hai (ratio 1:1), lekin har similar triangle congruent nahi hota.",
+        "en": "Congruent (≅): Same shape + same size → sides EQUAL. Similar (~): Same shape + different size → sides PROPORTIONAL. Every congruent triangle is similar (ratio 1:1), but not every similar triangle is congruent."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "ΔABC ~ ΔPQR if: ∠A=∠P, ∠B=∠Q, ∠C=∠R  AND  AB/PQ = BC/QR = CA/RP = k"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "ΔABC and ΔPQR mein, ∠A=60°,∠B=70°,∠C=50° aur ∠P=60°,∠Q=70°,∠R=50°. AB=6cm, PQ=3cm, BC=8cm, QR=4cm. Check karo similar hain ya nahi.",
+        "en": "In ΔABC and ΔPQR, ∠A=60°,∠B=70°,∠C=50° and ∠P=60°,∠Q=70°,∠R=50°. AB=6cm, PQ=3cm, BC=8cm, QR=4cm. Check if the triangles are similar."
+      },
+      "steps": [
+        {
+          "hi": "Angles check: ∠A=∠P, ∠B=∠Q, ∠C=∠R — sab equal ✓",
+          "en": "Check angles: ∠A=∠P, ∠B=∠Q, ∠C=∠R — all equal ✓"
+        },
+        {
+          "hi": "Sides ka ratio: AB/PQ=6/3=2, BC/QR=8/4=2",
+          "en": "Side ratio: AB/PQ=6/3=2, BC/QR=8/4=2"
+        },
+        {
+          "hi": "ΔABC ~ ΔPQR (AAA similarity), Scale Factor = 2",
+          "en": "ΔABC ~ ΔPQR (AAA similarity), Scale Factor = 2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC ~ ΔPQR, AB=5cm, BC=6cm, CA=7cm, PQ=2.5cm. QR aur RP nikaalo.",
+        "en": "ΔABC ~ ΔPQR, AB=5cm, BC=6cm, CA=7cm, PQ=2.5cm. Find QR and RP."
+      },
+      "steps": [
+        {
+          "hi": "Scale Factor = AB/PQ = 5/2.5 = 2",
+          "en": "Scale Factor = AB/PQ = 5/2.5 = 2"
+        },
+        {
+          "hi": "QR = BC/2 = 3cm, RP = CA/2 = 3.5cm",
+          "en": "QR = BC/2 = 3cm, RP = CA/2 = 3.5cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "ΔABC ~ ΔPQR. AB=4cm, BC=5cm, CA=6cm, PQ=2cm. QR aur RP nikaalo.",
+        "en": "ΔABC ~ ΔPQR. AB=4cm, BC=5cm, CA=6cm, PQ=2cm. Find QR and RP."
+      },
+      "steps": [
+        {
+          "hi": "Scale factor = 4/2 = 2",
+          "en": "Scale factor = 4/2 = 2"
+        },
+        {
+          "hi": "QR = 5/2 = 2.5cm, RP = 6/2 = 3cm",
+          "en": "QR = 5/2 = 2.5cm, RP = 6/2 = 3cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek triangle ke sides 3,4,5 cm hain. Similar triangle ratio 2:1 mein hai. Bade triangle ke sides nikaalo.",
+        "en": "A triangle's sides are 3,4,5 cm. A similar triangle is in ratio 2:1. Find the larger triangle's sides."
+      },
+      "steps": [
+        {
+          "hi": "Scale factor = 2",
+          "en": "Scale factor = 2"
+        },
+        {
+          "hi": "Sides = 6, 8, 10 cm",
+          "en": "Sides = 6, 8, 10 cm"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Agar do triangles congruent hain, to woh:",
+          "en": "If two triangles are congruent, they are:"
+        },
+        "options": [
+          {
+            "hi": "Sirf similar",
+            "en": "Only similar"
+          },
+          {
+            "hi": "Sirf congruent",
+            "en": "Only congruent"
+          },
+          {
+            "hi": "Similar aur congruent dono",
+            "en": "Both similar and congruent"
+          },
+          {
+            "hi": "Koi nahi",
+            "en": "Neither"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Congruent triangles same shape+size rakhte hain, isliye similar bhi hote hain (ratio 1:1).",
+          "en": "Congruent triangles have the same shape and size, so they're also similar (ratio 1:1)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Similarity ka symbol kya hai?",
+          "en": "Symbol for similarity is:"
+        },
+        "options": [
+          {
+            "hi": "≅",
+            "en": "≅"
+          },
+          {
+            "hi": "~",
+            "en": "~"
+          },
+          {
+            "hi": "=",
+            "en": "="
+          },
+          {
+            "hi": "≈",
+            "en": "≈"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "'~' similarity ke liye, '≅' congruence ke liye hota hai.",
+          "en": "'~' is for similarity, '≅' is for congruence."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "ΔABC ~ ΔPQR aur AB/PQ=3, to BC/QR=?",
+          "en": "If ΔABC ~ ΔPQR and AB/PQ = 3, then BC/QR = ?"
+        },
+        "options": [
+          {
+            "hi": "1/3",
+            "en": "1/3"
+          },
+          {
+            "hi": "3",
+            "en": "3"
+          },
+          {
+            "hi": "9",
+            "en": "9"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Similar triangles mein saari sides ka ratio same (scale factor) hota hai.",
+          "en": "In similar triangles, all corresponding sides share the same ratio (scale factor)."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Saare similar triangles congruent hote hain.",
+          "en": "All similar triangles are congruent."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Similar triangles same shape rakhte hain but size alag ho sakta hai — congruent hone ke liye size bhi same hona chahiye.",
+          "en": "Similar triangles share the same shape but can differ in size — congruence also requires equal size."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "ΔABC ~ ΔDEF, scale factor 1/2, BC=8cm. EF nikaalo.",
+          "en": "ΔABC ~ ΔDEF, scale factor 1/2, BC=8cm. Find EF."
+        },
+        "options": [
+          {
+            "hi": "4cm",
+            "en": "4cm"
+          },
+          {
+            "hi": "16cm",
+            "en": "16cm"
+          },
+          {
+            "hi": "2cm",
+            "en": "2cm"
+          },
+          {
+            "hi": "12cm",
+            "en": "12cm"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "BC/EF=1/2 → 8/EF=1/2 → EF=16cm.",
+          "en": "BC/EF=1/2 → 8/EF=1/2 → EF=16cm."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Similar: same shape, different size",
+      "en": "Similar: same shape, different size"
+    },
+    {
+      "hi": "Corresponding angles equal, sides proportional",
+      "en": "Corresponding angles equal, sides proportional"
+    },
+    {
+      "hi": "Congruent triangles hamesha similar hote hain",
+      "en": "Congruent triangles are always similar"
+    },
+    {
+      "hi": "Scale Factor = ratio of corresponding sides",
+      "en": "Scale Factor = ratio of corresponding sides"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum similar aur congruent triangles ka farak samajh gaye ho, aur scale factor se missing sides nikaal sakte ho.",
+    "en": "You now understand the difference between similar and congruent triangles, and can find missing sides using the scale factor."
+  },
+  "reward": {
+    "badge": null
+  }
+}

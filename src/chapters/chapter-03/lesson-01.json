@@ -1,0 +1,198 @@
+{
+  "id": "chapter-03-lesson-01",
+  "chapterId": "chapter-03",
+  "order": 1,
+  "title": {
+    "hi": "Introduction & Consistency",
+    "en": "Introduction & Consistency"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📊",
+    "headline": {
+      "hi": "Pair of Linear Equations",
+      "en": "Pair of Linear Equations"
+    },
+    "subtext": {
+      "hi": "Do equations, do unknowns — chalo inhe solve karna seekhते hain!",
+      "en": "Two equations, two unknowns — let's learn to solve them!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab ek saath do linear equations hoti hain do variables (x aur y) ke saath, unhe 'Pair of Linear Equations in Two Variables' kehte hain. Ye chapter real-life problems jaise cost, speed, aur age solve karne mein bahut kaam aata hai.",
+      "en": "When two linear equations exist together in two variables (x and y), they're called a 'Pair of Linear Equations in Two Variables.' This chapter is widely used to solve real-life problems like cost, speed, and age."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek linear equation in two variables ax + by + c = 0 form mein likhi jaati hai, jahan a, b, c real numbers hain aur a, b dono ek saath zero nahi ho sakte.",
+        "en": "A linear equation in two variables is written as ax + by + c = 0, where a, b, c are real numbers and a, b cannot both be zero at the same time."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "a₁x + b₁y + c₁ = 0\na₂x + b₂y + c₂ = 0"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Do straight lines ko plot karne pe 3 cases ban sakte hain — lines intersect (ek unique solution), parallel (koi solution nahi), ya coincide (infinite solutions).",
+        "en": "Plotting two straight lines gives 3 possible cases — the lines intersect (one unique solution), are parallel (no solution), or coincide (infinite solutions)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "a₁/a₂ ≠ b₁/b₂  →  Unique Solution\na₁/a₂ = b₁/b₂ = c₁/c₂  →  Infinite Solutions\na₁/a₂ = b₁/b₂ ≠ c₁/c₂  →  No Solution"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye ratios compare karke, bina graph banaye, pata chal jaata hai ki kitne solutions hain.",
+        "en": "By comparing these ratios — without even drawing a graph — you can tell how many solutions the pair has."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Check karo: x + y = 5 aur 2x + 2y = 10 consistent hain ya nahi.",
+        "en": "Check whether x + y = 5 and 2x + 2y = 10 are consistent."
+      },
+      "steps": [
+        {
+          "hi": "Standard form: x + y − 5 = 0 aur 2x + 2y − 10 = 0",
+          "en": "Standard form: x + y − 5 = 0 and 2x + 2y − 10 = 0"
+        },
+        {
+          "hi": "a₁/a₂ = 1/2, b₁/b₂ = 1/2, c₁/c₂ = 1/2",
+          "en": "a₁/a₂ = 1/2, b₁/b₂ = 1/2, c₁/c₂ = 1/2"
+        },
+        {
+          "hi": "Sab equal hain → Infinite Solutions (Dependent)",
+          "en": "All equal → Infinite Solutions (Dependent)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Check karo: x + y = 3 aur 2x + 2y = 8 ka solution hai ya nahi.",
+        "en": "Check whether x + y = 3 and 2x + 2y = 8 have a solution."
+      },
+      "steps": [
+        {
+          "hi": "a₁/a₂ = 1/2, b₁/b₂ = 1/2, c₁/c₂ = 3/8",
+          "en": "a₁/a₂ = 1/2, b₁/b₂ = 1/2, c₁/c₂ = 3/8"
+        },
+        {
+          "hi": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → No Solution (parallel lines)",
+          "en": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → No Solution (parallel lines)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Linear equation in two variables ka general form kya hai?",
+          "en": "What is the general form of a linear equation in two variables?"
+        },
+        "options": [
+          {
+            "hi": "ax + b = 0",
+            "en": "ax + b = 0"
+          },
+          {
+            "hi": "ax + by + c = 0",
+            "en": "ax + by + c = 0"
+          },
+          {
+            "hi": "ax² + bx + c = 0",
+            "en": "ax² + bx + c = 0"
+          },
+          {
+            "hi": "x + y = 0",
+            "en": "x + y = 0"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "ax + by + c = 0 standard form hai, jahan a aur b dono zero nahi ho sakte.",
+          "en": "ax + by + c = 0 is the standard form, where a and b cannot both be zero."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Agar a₁/a₂ ≠ b₁/b₂ ho, to pair ka kya hoga?",
+          "en": "If a₁/a₂ ≠ b₁/b₂, what does the pair have?"
+        },
+        "options": [
+          {
+            "hi": "No solution",
+            "en": "No solution"
+          },
+          {
+            "hi": "Unique solution",
+            "en": "Unique solution"
+          },
+          {
+            "hi": "Infinite solutions",
+            "en": "Infinite solutions"
+          },
+          {
+            "hi": "Kuch nahi keh sakte",
+            "en": "Cannot say"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Lines ek point pe intersect karti hain — exactly ek unique solution.",
+          "en": "Lines intersect at one point — exactly one unique solution."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Do lines coincide karein to unke infinite solutions hote hain.",
+          "en": "If two lines coincide, they have infinite solutions."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — coincident lines ka har point solution hota hai.",
+          "en": "True — every point on coincident lines is a solution."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Linear equation: ax + by + c = 0",
+      "en": "Linear equation: ax + by + c = 0"
+    },
+    {
+      "hi": "3 types of solutions: Unique, Infinite, No Solution",
+      "en": "3 types of solutions: Unique, Infinite, No Solution"
+    },
+    {
+      "hi": "Ratios se bina graph ke check kar sakte ho",
+      "en": "You can check without a graph using ratios"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum ratios dekh kar bata sakte ho ki do linear equations ka kitna solution hoga — bina graph banaye.",
+    "en": "You can now tell how many solutions a pair of linear equations has just by comparing ratios — without drawing a graph."
+  },
+  "reward": {
+    "badge": null
+  }
+}

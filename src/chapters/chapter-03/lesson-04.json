@@ -1,0 +1,147 @@
+{
+  "id": "chapter-03-lesson-04",
+  "chapterId": "chapter-03",
+  "order": 4,
+  "title": {
+    "hi": "Elimination Method",
+    "en": "Elimination Method"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "➖",
+    "headline": {
+      "hi": "Elimination Method",
+      "en": "Elimination Method"
+    },
+    "subtext": {
+      "hi": "Ek variable ko cancel karo, doosra turant mil jaata hai.",
+      "en": "Cancel out one variable, and the other one falls right out."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab dono equations mein ek variable ka coefficient same (ya multiple) ho, to unhe add/subtract karke wo variable eliminate kar sakte hain — substitution se bhi fast tareeka.",
+      "en": "When a variable's coefficient is the same (or a multiple) in both equations, adding or subtracting them eliminates that variable — often faster than substitution."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 1: Equations ko is tarah multiply karo ki ek variable ka coefficient dono mein same ho jaaye.",
+        "en": "Step 1: Multiply the equations so that one variable's coefficient becomes equal in both."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 2: Dono equations ko add ya subtract karo — wo variable cancel ho jaayega.",
+        "en": "Step 2: Add or subtract the equations — that variable cancels out."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step 3: Bache hue variable ko solve karo, phir kisi bhi original equation mein daal kar doosra nikaalo.",
+        "en": "Step 3: Solve for the remaining variable, then substitute into either original equation to find the other."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Elimination se solve karo: 3x + 2y = 12, x + y = 5",
+        "en": "Solve by elimination: 3x + 2y = 12, x + y = 5"
+      },
+      "steps": [
+        {
+          "hi": "Eq(2) ko 2 se multiply karo: 2x + 2y = 10",
+          "en": "Multiply Eq(2) by 2: 2x + 2y = 10"
+        },
+        {
+          "hi": "Eq(1) − new Eq(2): (3x+2y) − (2x+2y) = 12 − 10",
+          "en": "Eq(1) − new Eq(2): (3x+2y) − (2x+2y) = 12 − 10"
+        },
+        {
+          "hi": "x = 2",
+          "en": "x = 2"
+        },
+        {
+          "hi": "Eq(2) mein daalo: 2 + y = 5 → y = 3",
+          "en": "Substitute in Eq(2): 2 + y = 5 → y = 3"
+        },
+        {
+          "hi": "Solution: x = 2, y = 3",
+          "en": "Solution: x = 2, y = 3"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Elimination method kab sabse aasan hota hai?",
+          "en": "Elimination is easiest when:"
+        },
+        "options": [
+          {
+            "hi": "Jab ek variable ka coefficient same/multiple ho",
+            "en": "One variable's coefficient is equal/a multiple"
+          },
+          {
+            "hi": "Jab dono equations mein constant same ho",
+            "en": "Both equations have the same constant"
+          },
+          {
+            "hi": "Sirf jab numbers chhote ho",
+            "en": "Only when the numbers are small"
+          },
+          {
+            "hi": "Kabhi nahi",
+            "en": "Never"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Coefficients match karne pe add/subtract se ek variable turant cancel ho jaata hai.",
+          "en": "Matching coefficients let addition/subtraction cancel one variable immediately."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Elimination method mein hum equations ko multiply kar sakte hain.",
+          "en": "In elimination, we can multiply the equations."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — coefficients match karne ke liye multiply karna normal step hai.",
+          "en": "True — multiplying to match coefficients is a normal step."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Coefficients match karo → add/subtract → ek variable cancel",
+      "en": "Match coefficients → add/subtract → one variable cancels"
+    },
+    {
+      "hi": "Bade/messy numbers ke liye substitution se fast hota hai",
+      "en": "Faster than substitution for larger/messier numbers"
+    }
+  ],
+  "summary": {
+    "hi": "Elimination method un cases mein fastest hai jahan coefficients easily match ho jaate hain.",
+    "en": "Elimination is the fastest method when coefficients can be easily matched."
+  },
+  "reward": {
+    "badge": null
+  }
+}

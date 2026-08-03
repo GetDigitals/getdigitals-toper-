@@ -5,6 +5,7 @@ import { getLesson, getChapterById, getNextLesson, getNextChapter } from '../ser
 import { useProgress } from '../store/ProgressContext';
 import QuizEngine from '../components/QuizEngine';
 import RewardModal from '../components/RewardModal';
+import { localizeLesson, langCode } from '../utils/i18n';
 
 /**
  * The lesson screen is built entirely from whichever sections exist in
@@ -14,9 +15,10 @@ import RewardModal from '../components/RewardModal';
 export default function Lesson() {
   const { chapterId, lessonId } = useParams();
   const navigate = useNavigate();
-  const { completeLesson, addStudyTime, recordStreak, awardBadge, isLessonComplete } = useProgress();
+  const { completeLesson, addStudyTime, recordStreak, awardBadge, isLessonComplete, settings } = useProgress();
 
-  const lesson = getLesson(chapterId, lessonId);
+  const rawLesson = getLesson(chapterId, lessonId);
+  const lesson = useMemo(() => localizeLesson(rawLesson, langCode(settings.language)), [rawLesson, settings.language]);
   const chapter = getChapterById(chapterId);
   const [step, setStep] = useState(0);
   const [showReward, setShowReward] = useState(false);

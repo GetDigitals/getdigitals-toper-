@@ -2,34 +2,148 @@
   "id": "chapter-01-lesson-03",
   "chapterId": "chapter-01",
   "order": 3,
-  "title": "Fundamental Theorem of Arithmetic",
-  "estimatedMinutes": 11,
-  "xpReward": 40,
-  "coinReward": 10,
+  "title": {
+    "hi": "Irrational Numbers & Proof by Contradiction",
+    "en": "Irrational Numbers & Proof by Contradiction"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
   "hero": {
-    "emoji": "🧩",
-    "headline": "Every Number's Unique Fingerprint",
-    "subtext": "Har composite number ko prime factors ke ek hi unique combination mein likha ja sakta hai."
+    "emoji": "√",
+    "headline": {
+      "hi": "Numbers That Never End Neatly",
+      "en": "Numbers That Never End Neatly"
+    },
+    "subtext": {
+      "hi": "√2, √3, √5 jaise numbers ko fraction (p/q) mein kabhi exactly nahi likha ja sakta — aur ye hum FTA se prove kar sakte hain!",
+      "en": "Numbers like √2, √3, √5 can never be written exactly as a fraction (p/q) — and we can prove this using the Fundamental Theorem of Arithmetic!"
+    }
   },
   "story": {
-    "text": "Jaise har insaan ka fingerprint unique hota hai, waise hi har number ka prime factorization unique hota hai — order chahe kuch bhi ho. 12 hamesha 2×2×3 hi rahega, chahe tum likho 2×3×2 ya 3×2×2."
+    "text": {
+      "hi": "Irrational numbers ka decimal expansion kabhi khatam nahi hota aur na hi repeat karta hai. Fundamental Theorem of Arithmetic ka use karke hum prove kar sakte hain ki √p (p prime ho) hamesha irrational hota hai.",
+      "en": "An irrational number's decimal expansion never ends and never repeats. Using the Fundamental Theorem of Arithmetic, we can prove that √p (where p is prime) is always irrational."
+    }
   },
   "explanation": [
-    { "type": "text", "content": "Fundamental Theorem of Arithmetic (FTA) kehta hai: har composite number ko prime numbers ke product ke roop mein likha ja sakta hai, aur ye factorization unique hoti hai (factors ke order ko chhod kar)." },
-    { "type": "formula", "content": "N = p1^a1 × p2^a2 × p3^a3 × ..." },
-    { "type": "text", "content": "Iska sabse bada use hai HCF aur LCM nikaalna jab prime factorization pata ho:" },
-    { "type": "formula", "content": "HCF = product of smallest powers of common primes" },
-    { "type": "formula", "content": "LCM = product of greatest powers of all primes involved" }
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof by contradiction ka tareeka: pehle assume karo ki √p rational hai (yani p/q form mein likha ja sakta hai, jahan a,b co-prime integers hain aur b≠0).",
+        "en": "Method of proof by contradiction: first assume √p is rational (i.e., can be written as a/b where a, b are co-prime integers and b≠0)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Phir dikhao ki ye assumption ek contradiction ki taraf le jaata hai — matlab a aur b dono p ke multiple nikalte hain, jo co-prime hone ke against hai.",
+        "en": "Then show this assumption leads to a contradiction — that both a and b turn out to be multiples of p, which contradicts them being co-prime."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Isliye hamara original assumption galat tha — √p irrational hai. Ye method √2, √3, √5, ya kisi bhi prime ke square root ke liye kaam karta hai.",
+        "en": "So our original assumption was wrong — √p is irrational. This method works for √2, √3, √5, or the square root of any prime."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "√p ≠ a/b for any co-prime integers a, b (b≠0), when p is prime"
+    }
   ],
   "examples": [
     {
-      "problem": "96 aur 404 ka HCF aur LCM prime factorization se nikaalo.",
+      "problem": {
+        "hi": "Prove karo ki √2 irrational hai.",
+        "en": "Prove that √2 is irrational."
+      },
       "steps": [
-        "96 = 2^5 × 3",
-        "404 = 2^2 × 101",
-        "HCF = 2^2 = 4 (common prime ka smallest power)",
-        "LCM = 2^5 × 3 × 101 = 9696",
-        "Check: HCF × LCM = 4 × 9696 = 38784 = 96 × 404 ✓"
+        {
+          "hi": "Assume √2 = a/b, jahan a,b co-prime hain",
+          "en": "Assume √2 = a/b, where a,b are co-prime"
+        },
+        {
+          "hi": "Squaring: 2 = a²/b², so a² = 2b²",
+          "en": "Squaring: 2 = a²/b², so a² = 2b²"
+        },
+        {
+          "hi": "Isse a² even hai, isliye a bhi even hai (a=2c)",
+          "en": "So a² is even, hence a is also even (a=2c)"
+        },
+        {
+          "hi": "Substitute: 4c² = 2b² → b² = 2c²",
+          "en": "Substitute: 4c² = 2b² → b² = 2c²"
+        },
+        {
+          "hi": "Isse b² bhi even hai, isliye b bhi even hai",
+          "en": "So b² is also even, hence b is also even"
+        },
+        {
+          "hi": "Par a aur b dono even hain — ye co-prime hone ke contradiction hai!",
+          "en": "But a and b are both even — this contradicts them being co-prime!"
+        },
+        {
+          "hi": "Isliye assumption galat tha → √2 irrational hai ✓",
+          "en": "So the assumption was wrong → √2 is irrational ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Prove karo ki √3 irrational hai.",
+        "en": "Prove that √3 is irrational."
+      },
+      "steps": [
+        {
+          "hi": "Assume √3 = a/b, co-prime a,b",
+          "en": "Assume √3 = a/b, co-prime a,b"
+        },
+        {
+          "hi": "3 = a²/b² → a² = 3b² → a² 3 se divisible hai → a bhi 3 se divisible (a=3c)",
+          "en": "3 = a²/b² → a² = 3b² → a² is divisible by 3 → a is also divisible by 3 (a=3c)"
+        },
+        {
+          "hi": "9c² = 3b² → b² = 3c² → b bhi 3 se divisible",
+          "en": "9c² = 3b² → b² = 3c² → b is also divisible by 3"
+        },
+        {
+          "hi": "a aur b dono 3 se divisible — co-prime hone ke contradiction",
+          "en": "a and b both divisible by 3 — contradicts co-primality"
+        },
+        {
+          "hi": "Isliye √3 irrational hai ✓",
+          "en": "So √3 is irrational ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Prove karo ki 5+√3 irrational hai (given √3 irrational hai).",
+        "en": "Prove that 5+√3 is irrational (given √3 is irrational)."
+      },
+      "steps": [
+        {
+          "hi": "Assume 5+√3 rational hai, kisi rational number r ke barabar",
+          "en": "Assume 5+√3 is rational, equal to some rational number r"
+        },
+        {
+          "hi": "√3 = r−5",
+          "en": "√3 = r−5"
+        },
+        {
+          "hi": "r rational hai, 5 rational hai, isliye r−5 bhi rational hoga",
+          "en": "r is rational, 5 is rational, so r−5 is also rational"
+        },
+        {
+          "hi": "Par √3 irrational hai — contradiction!",
+          "en": "But √3 is irrational — contradiction!"
+        },
+        {
+          "hi": "Isliye 5+√3 irrational hai ✓",
+          "en": "So 5+√3 is irrational ✓"
+        }
       ]
     }
   ],
@@ -37,37 +151,135 @@
     "questions": [
       {
         "type": "mcq",
-        "difficulty": "easy",
-        "question": "Fundamental Theorem of Arithmetic kis cheez ki uniqueness batata hai?",
-        "options": ["Addition ki", "Prime factorization ki", "Division ki", "Subtraction ki"],
+        "difficulty": "medium",
+        "question": {
+          "hi": "√2 irrational hai — ye prove karne ke liye kaunsa method use hota hai?",
+          "en": "Which method is used to prove √2 is irrational?"
+        },
+        "options": [
+          {
+            "hi": "Direct substitution",
+            "en": "Direct substitution"
+          },
+          {
+            "hi": "Proof by contradiction",
+            "en": "Proof by contradiction"
+          },
+          {
+            "hi": "Trial and error",
+            "en": "Trial and error"
+          },
+          {
+            "hi": "Graphical method",
+            "en": "Graphical method"
+          }
+        ],
         "correct": 1,
-        "explanation": "FTA kehta hai har composite number ka prime factorization unique hota hai (order chhod kar)."
+        "explanation": {
+          "hi": "Hum √2 ko rational assume karke ek contradiction tak pahunchte hain.",
+          "en": "We assume √2 is rational and reach a contradiction."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Har irrational number ka decimal expansion terminate ya repeat karta hai.",
+          "en": "Every irrational number's decimal expansion terminates or repeats."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — irrational numbers ka decimal kabhi terminate ya repeat nahi karta.",
+          "en": "False — irrational numbers' decimals never terminate or repeat."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Agar p² even hai, to hum p ke baare mein kya keh sakte hain?",
+          "en": "If p² is even, what can we say about p?"
+        },
+        "options": [
+          {
+            "hi": "p odd hai",
+            "en": "p is odd"
+          },
+          {
+            "hi": "p even hai",
+            "en": "p is even"
+          },
+          {
+            "hi": "p prime hai",
+            "en": "p is prime"
+          },
+          {
+            "hi": "Kuch nahi keh sakte",
+            "en": "Cannot say"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Agar p odd hota, to p² bhi odd hota. Isliye p² even hone ka matlab p bhi even hai.",
+          "en": "If p were odd, p² would be odd too. So p² being even means p is also even."
+        }
       },
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "Agar HCF(a,b) = 4 aur a×b = 240, to LCM(a,b) kya hoga?",
-        "options": ["40", "60", "20", "80"],
-        "correct": 1,
-        "explanation": "HCF × LCM = a × b, isliye LCM = 240/4 = 60."
-      },
-      {
-        "type": "dragdrop",
-        "difficulty": "medium",
-        "question": "Blanks fill karo: 72 = 2^3 × ___^2",
-        "sentenceParts": ["72 = 2^3 × ", "^2"],
-        "blanks": ["3"],
-        "tokens": ["2", "3", "5", "7"],
-        "explanation": "72 = 8 × 9 = 2^3 × 3^2"
+        "question": {
+          "hi": "Konsa number irrational hai?",
+          "en": "Which number is irrational?"
+        },
+        "options": [
+          {
+            "hi": "√4",
+            "en": "√4"
+          },
+          {
+            "hi": "√9",
+            "en": "√9"
+          },
+          {
+            "hi": "√5",
+            "en": "√5"
+          },
+          {
+            "hi": "√16",
+            "en": "√16"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "√5 ek non-perfect-square ka root hai, isliye irrational hai. √4=2, √9=3, √16=4 sab rational hain.",
+          "en": "√5 is the root of a non-perfect-square, so it's irrational. √4=2, √9=3, √16=4 are all rational."
+        }
       }
     ]
   },
   "notes": [
-    "Har composite number = unique prime factors ka product",
-    "HCF = common primes ki smallest powers",
-    "LCM = saare primes ki greatest powers",
-    "HCF × LCM = Product of the two numbers"
+    {
+      "hi": "Irrational numbers ka decimal kabhi terminate/repeat nahi karta",
+      "en": "Irrational numbers' decimals never terminate/repeat"
+    },
+    {
+      "hi": "Proof by contradiction: rational assume karo → contradiction dikhao → isliye irrational",
+      "en": "Proof by contradiction: assume rational → show contradiction → hence irrational"
+    },
+    {
+      "hi": "√p (p prime) hamesha irrational hota hai",
+      "en": "√p (p prime) is always irrational"
+    },
+    {
+      "hi": "Rational + Irrational = hamesha Irrational",
+      "en": "Rational + Irrational = always Irrational"
+    }
   ],
-  "summary": "FTA se hume pata chalta hai ki prime factorization unique hai — isi se HCF aur LCM turant nikal sakte hain, bina long division ke.",
-  "reward": { "badge": { "id": "prime-detective", "name": "Prime Detective", "icon": "🔍" } }
+  "summary": {
+    "hi": "Proof by contradiction ek powerful tool hai jisse hum kisi bhi √p (p prime) ko irrational prove kar sakte hain.",
+    "en": "Proof by contradiction is a powerful tool for proving any √p (p prime) is irrational."
+  },
+  "reward": {
+    "badge": null
+  }
 }

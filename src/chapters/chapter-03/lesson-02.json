@@ -1,0 +1,185 @@
+{
+  "id": "chapter-03-lesson-02",
+  "chapterId": "chapter-03",
+  "order": 2,
+  "title": {
+    "hi": "Graphical Method",
+    "en": "Graphical Method"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📈",
+    "headline": {
+      "hi": "Solve by Drawing Lines!",
+      "en": "Solve by Drawing Lines!"
+    },
+    "subtext": {
+      "hi": "Graph pe do lines plot karo, unka intersection point hi solution hai.",
+      "en": "Plot two lines on a graph — their intersection point is the solution."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Graphical method mein hum do linear equations ko graph paper pe plot karte hain aur intersection point se solution nikaalte hain. Ye method visual aur intuitive hai.",
+      "en": "In the graphical method, we plot two linear equations on graph paper and find the solution from their point of intersection. This method is visual and intuitive."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Equation ko y = mx + c form mein likho, x ke 2-3 values choose karo, y nikaalo, points plot karke line draw karo.",
+        "en": "Write the equation as y = mx + c, choose 2-3 x values, compute y, plot the points, and draw the line."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Sirf do points bhi kaafi hain line draw karne ke liye.",
+        "en": "Just two points are enough to draw a line."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📉",
+    "caption": {
+      "hi": "Do lines jahan intersect karti hain, wahi (x,y) solution hai.",
+      "en": "Wherever the two lines intersect is the (x, y) solution."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Graphically solve karo: x + y = 5 aur 2x − y = 4",
+        "en": "Solve graphically: x + y = 5 and 2x − y = 4"
+      },
+      "steps": [
+        {
+          "hi": "Eq 1: y = 5 − x → Points (0,5) aur (5,0)",
+          "en": "Eq 1: y = 5 − x → Points (0,5) and (5,0)"
+        },
+        {
+          "hi": "Eq 2: y = 2x − 4 → Points (0,−4) aur (2,0)",
+          "en": "Eq 2: y = 2x − 4 → Points (0,−4) and (2,0)"
+        },
+        {
+          "hi": "Dono lines (3, 2) pe intersect hoti hain",
+          "en": "Both lines intersect at (3, 2)"
+        },
+        {
+          "hi": "Solution: x = 3, y = 2",
+          "en": "Solution: x = 3, y = 2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Dikhao ki x + 2y = 4 aur x + 2y = 6 ka koi solution nahi hai.",
+        "en": "Show that x + 2y = 4 and x + 2y = 6 have no solution."
+      },
+      "steps": [
+        {
+          "hi": "Dono ka slope same hai (−1/2)",
+          "en": "Both have the same slope (−1/2)"
+        },
+        {
+          "hi": "Lines parallel hain — kabhi nahi milengi",
+          "en": "Lines are parallel — they never meet"
+        },
+        {
+          "hi": "No Solution → Inconsistent",
+          "en": "No Solution → Inconsistent"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Lines x + y = 3 aur x + y = 5 kaise hain?",
+          "en": "The lines x + y = 3 and x + y = 5 are:"
+        },
+        "options": [
+          {
+            "hi": "Intersecting",
+            "en": "Intersecting"
+          },
+          {
+            "hi": "Parallel",
+            "en": "Parallel"
+          },
+          {
+            "hi": "Coincident",
+            "en": "Coincident"
+          },
+          {
+            "hi": "Perpendicular",
+            "en": "Perpendicular"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Dono ka slope same hai lekin intercept alag — parallel hain.",
+          "en": "Both have the same slope but different intercepts — parallel."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "x + y = 5 aur x − y = 1 ka solution kya hoga?",
+          "en": "The solution of x + y = 5 and x − y = 1 is:"
+        },
+        "options": [
+          {
+            "hi": "(2,3)",
+            "en": "(2,3)"
+          },
+          {
+            "hi": "(3,2)",
+            "en": "(3,2)"
+          },
+          {
+            "hi": "(4,1)",
+            "en": "(4,1)"
+          },
+          {
+            "hi": "(1,4)",
+            "en": "(1,4)"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Add karo: 2x=6 → x=3, phir y=2.",
+          "en": "Add the equations: 2x=6 → x=3, then y=2."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Intersecting → Unique solution",
+      "en": "Intersecting → Unique solution"
+    },
+    {
+      "hi": "Parallel → No solution",
+      "en": "Parallel → No solution"
+    },
+    {
+      "hi": "Coincident → Infinite solutions",
+      "en": "Coincident → Infinite solutions"
+    }
+  ],
+  "summary": {
+    "hi": "Graph pe lines dikhne se solution turant samajh aata hai — lekin bade numbers ke liye algebra faster hai.",
+    "en": "Seeing the lines on a graph makes the solution immediately clear — but algebra is faster for larger numbers."
+  },
+  "reward": {
+    "badge": null
+  }
+}

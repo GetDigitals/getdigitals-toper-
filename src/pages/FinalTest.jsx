@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getChapterById, getFinalTest, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import QuizEngine from '../components/QuizEngine';
+import { localizeQuestions, langCode } from '../utils/i18n';
 
 function gradeFor(percent) {
   if (percent >= 90) return 'A1';
@@ -20,15 +21,17 @@ export default function FinalTest() {
   const chapter = getChapterById(chapterId);
   const finalTest = getFinalTest(chapterId);
   const lessons = getLessonsForChapter(chapterId);
-  const { recordFinalTest } = useProgress();
+  const { recordFinalTest, settings } = useProgress();
+  const lang = langCode(settings.language);
   const [started, setStarted] = useState(false);
   const [result, setResult] = useState(null);
 
   // Falls back to a pooled test from all lesson quizzes if no dedicated
   // final-test.json is authored yet for this chapter.
-  const questions = finalTest?.questions?.length
+  const rawQuestions = finalTest?.questions?.length
     ? finalTest.questions
     : lessons.flatMap((l) => l.quiz?.questions || []);
+  const questions = localizeQuestions(rawQuestions, lang);
 
   const totalMarks = finalTest?.totalMarks ?? questions.length * 1;
   const timePerQuestion = finalTest?.timerSecondsPerQuestion ?? 30;

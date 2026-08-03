@@ -16,6 +16,7 @@ import Practice from './pages/Practice';
 import Revision from './pages/Revision';
 import FinalTest from './pages/FinalTest';
 import Certificate from './pages/Certificate';
+import ImportantQuestions from './pages/ImportantQuestions';
 import Dashboard from './pages/Dashboard';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
@@ -62,6 +63,7 @@ function AppShell() {
           <Route path="/practice/:chapterId" element={<RequireAuth><Practice /></RequireAuth>} />
           <Route path="/revision/:chapterId" element={<RequireAuth><Revision /></RequireAuth>} />
           <Route path="/final-test/:chapterId" element={<RequireAuth><FinalTest /></RequireAuth>} />
+          <Route path="/important-questions/:chapterId" element={<RequireAuth><ImportantQuestions /></RequireAuth>} />
           <Route path="/certificate/:chapterId" element={<RequireAuth><Certificate /></RequireAuth>} />
           <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
           <Route path="/leaderboard" element={<RequireAuth><Leaderboard /></RequireAuth>} />

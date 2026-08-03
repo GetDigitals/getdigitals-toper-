@@ -23,6 +23,7 @@ const metaModules = import.meta.glob('/src/chapters/*/meta.json', { eager: true 
 const lessonModules = import.meta.glob('/src/chapters/*/lesson-*.json', { eager: true });
 const finalTestModules = import.meta.glob('/src/chapters/*/final-test.json', { eager: true });
 const revisionModules = import.meta.glob('/src/chapters/*/revision.json', { eager: true });
+const importantQModules = import.meta.glob('/src/chapters/*/important-questions.json', { eager: true });
 
 function unwrap(mod) {
   return mod && mod.default ? mod.default : mod;
@@ -34,7 +35,7 @@ function buildIndex() {
   for (const path in metaModules) {
     const folder = path.split('/')[3];
     const meta = unwrap(metaModules[path]);
-    index[folder] = { folder, meta, lessons: [], finalTest: null, revision: null };
+    index[folder] = { folder, meta, lessons: [], finalTest: null, revision: null, importantQuestions: null };
   }
 
   for (const path in lessonModules) {
@@ -52,6 +53,11 @@ function buildIndex() {
   for (const path in revisionModules) {
     const folder = path.split('/')[3];
     if (index[folder]) index[folder].revision = unwrap(revisionModules[path]);
+  }
+
+  for (const path in importantQModules) {
+    const folder = path.split('/')[3];
+    if (index[folder]) index[folder].importantQuestions = unwrap(importantQModules[path]);
   }
 
   Object.values(index).forEach((ch) => {
@@ -112,6 +118,13 @@ export function getRevision(chapterIdOrFolder) {
     RAW_INDEX[chapterIdOrFolder] ||
     Object.values(RAW_INDEX).find((ch) => ch.meta?.id === chapterIdOrFolder);
   return entry ? entry.revision : null;
+}
+
+export function getImportantQuestions(chapterIdOrFolder) {
+  const entry =
+    RAW_INDEX[chapterIdOrFolder] ||
+    Object.values(RAW_INDEX).find((ch) => ch.meta?.id === chapterIdOrFolder);
+  return entry ? entry.importantQuestions : null;
 }
 
 export function getNextLesson(chapterIdOrFolder, currentLessonId) {
