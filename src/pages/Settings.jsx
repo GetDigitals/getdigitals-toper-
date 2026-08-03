@@ -26,7 +26,10 @@ export default function Settings() {
 
   async function handleLogout() {
     await logout();
-    navigate('/login', { replace: true });
+    // A full page reload (not client-side navigation) guarantees we hit
+    // the network for a fresh index.html — the surest way to land on
+    // whatever is actually live right now, not a stale in-memory bundle.
+    window.location.href = './';
   }
 
   return (

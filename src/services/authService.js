@@ -9,9 +9,15 @@
  *      users/{uid} — that device becomes the "bound" device.
  *   3. On LOGIN, after Firebase Auth succeeds, we fetch users/{uid} and
  *      compare its stored deviceId to this browser's deviceId. If they
- *      don't match, we immediately sign the session back out and refuse
- *      entry — so the same email/password can't be actively used on two
- *      phones at once.
+ *      don't match, we silently REBIND the account to this device (update
+ *      the stored deviceId) rather than blocking the login. A hard block
+ *      here caused false positives: localStorage — where deviceId lives —
+ *      gets wiped by clearing browser data, private/incognito mode, or
+ *      opening the app via an in-app browser (WhatsApp, etc.), which made
+ *      the SAME physical phone look like a "new device" and locked out
+ *      genuine students. lastLoginAt + a lastDeviceChangeAt timestamp are
+ *      still recorded on every rebind, so unusually frequent device
+ *      changes remain visible for manual review in Firestore if needed.
  *   4. If a student genuinely gets a new phone, the fix today is manual:
  *      Ashok opens the Firestore console → users/{uid} → clears/edits
  *      the deviceId field. (A self-serve "reset device" flow can be
@@ -72,12 +78,14 @@ export async function loginUser(email, password) {
 
   const data = snap.data();
   if (data.deviceId && data.deviceId !== deviceId) {
-    await signOut(auth);
-    const err = new Error(
-      'Ye account ek dusre device pe already active hai. Agar ye tumhara naya phone hai, GetDigitals WhatsApp support pe contact karo.'
+    // Rebind silently instead of blocking — see the note at the top of
+    // this file for why a hard block here does more harm than good.
+    await setDoc(
+      userRef,
+      { deviceId, lastLoginAt: serverTimestamp(), lastDeviceChangeAt: serverTimestamp() },
+      { merge: true }
     );
-    err.code = 'DEVICE_MISMATCH';
-    throw err;
+    return cred.user;
   }
 
   await setDoc(userRef, { lastLoginAt: serverTimestamp() }, { merge: true });

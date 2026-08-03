@@ -5,14 +5,14 @@
   "subject": "Maths",
   "board": "CBSE",
   "title": "Polynomials",
-  "icon": "📊",
-  "color": "#4FA8FF",
-  "description": "Polynomial ka introduction, zeros ka geometric matlab, zeros-coefficients ka relationship, aur division algorithm — algebra ki agli badi seedhi.",
-  "xpReward": 300,
-  "coinReward": 60,
+  "icon": "📈",
+  "color": "#2E86AB",
+  "description": "Polynomial ka introduction, zeros ka geometric matlab, zeros-coefficients ka relationship, aur division algorithm — bilingual (Hinglish/English) content ke saath.",
+  "xpReward": 200,
+  "coinReward": 48,
   "badge": {
-    "id": "chapter-02-master",
-    "name": "Polynomials Master",
+    "id": "polynomials-master",
+    "name": { "hi": "Polynomials Master", "en": "Polynomials Master" },
     "icon": "🏅"
   },
   "unlockRule": {

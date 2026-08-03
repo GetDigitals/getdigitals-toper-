@@ -1,0 +1,83 @@
+{
+  "chapterId": "chapter-02",
+  "objective": [
+    {
+      "question": { "hi": "x² - 3x - 10 ke zeros kya hain?", "en": "What are the zeros of x² - 3x - 10?" },
+      "options": [{ "hi": "5, -2", "en": "5, -2" }, { "hi": "-5, 2", "en": "-5, 2" }, { "hi": "5, 2", "en": "5, 2" }, { "hi": "-5, -2", "en": "-5, -2" }],
+      "correct": 0,
+      "explanation": { "hi": "x² - 3x - 10 = (x-5)(x+2), zeros: x=5, x=-2", "en": "x² - 3x - 10 = (x-5)(x+2), zeros: x=5, x=-2" }
+    },
+    {
+      "question": { "hi": "Agar polynomial x² + kx + 6 ke zeros 2 aur 3 hain, toh k = ?", "en": "If the zeros of polynomial x² + kx + 6 are 2 and 3, then k = ?" },
+      "options": [{ "hi": "5", "en": "5" }, { "hi": "-5", "en": "-5" }, { "hi": "6", "en": "6" }, { "hi": "-6", "en": "-6" }],
+      "correct": 1,
+      "explanation": { "hi": "Sum of zeros = -k/1 = 2+3=5, toh k = -5", "en": "Sum of zeros = -k/1 = 2+3=5, so k = -5" }
+    },
+    {
+      "question": { "hi": "Constant polynomial ki degree kya hoti hai?", "en": "What is the degree of a constant polynomial?" },
+      "options": [{ "hi": "0", "en": "0" }, { "hi": "1", "en": "1" }, { "hi": "Undefined", "en": "Undefined" }, { "hi": "Infinite", "en": "Infinite" }],
+      "correct": 0,
+      "explanation": { "hi": "Constant polynomial jaise p(x)=5 ki degree 0 hoti hai (agar non-zero constant hai)", "en": "A constant polynomial like p(x)=5 has degree 0 (if it's a non-zero constant)" }
+    },
+    {
+      "question": { "hi": "Cubic polynomial ax³+bx²+cx+d ke zeros α,β,γ ke liye αβ+βγ+γα = ?", "en": "For zeros α,β,γ of cubic polynomial ax³+bx²+cx+d, αβ+βγ+γα = ?" },
+      "options": [{ "hi": "-b/a", "en": "-b/a" }, { "hi": "c/a", "en": "c/a" }, { "hi": "-d/a", "en": "-d/a" }, { "hi": "b/a", "en": "b/a" }],
+      "correct": 1,
+      "explanation": { "hi": "Pair sum of zeros ka formula hai: αβ+βγ+γα = c/a", "en": "The formula for pair sum of zeros is: αβ+βγ+γα = c/a" }
+    },
+    {
+      "question": { "hi": "Agar p(x) = x³ - 6x² + 11x - 6 ko (x-1) se divide karein, quotient kya hoga?", "en": "If p(x) = x³ - 6x² + 11x - 6 is divided by (x-1), what is the quotient?" },
+      "options": [{ "hi": "x² - 5x + 6", "en": "x² - 5x + 6" }, { "hi": "x² + 5x + 6", "en": "x² + 5x + 6" }, { "hi": "x² - 5x - 6", "en": "x² - 5x - 6" }, { "hi": "x² - 6x + 5", "en": "x² - 6x + 5" }],
+      "correct": 0,
+      "explanation": { "hi": "x³ - 6x² + 11x - 6 = (x-1)(x² - 5x + 6), verify karke check karo", "en": "x³ - 6x² + 11x - 6 = (x-1)(x² - 5x + 6), verify by expanding" }
+    },
+    {
+      "question": { "hi": "Quadratic polynomial p(x) = x² - 4 ke zeros kya hain?", "en": "What are the zeros of quadratic polynomial p(x) = x² - 4?" },
+      "options": [{ "hi": "2, -2", "en": "2, -2" }, { "hi": "4, -4", "en": "4, -4" }, { "hi": "2, 2", "en": "2, 2" }, { "hi": "-2, -2", "en": "-2, -2" }],
+      "correct": 0,
+      "explanation": { "hi": "x² - 4 = (x-2)(x+2), zeros: x=2, x=-2", "en": "x² - 4 = (x-2)(x+2), zeros: x=2, x=-2" }
+    }
+  ],
+  "subjective": [
+    {
+      "question": { "hi": "Ek quadratic polynomial nikalo jiske zeros ka sum 8 aur product 12 ho.", "en": "Find a quadratic polynomial whose sum of zeros is 8 and product is 12." },
+      "marks": 2,
+      "answer": {
+        "hi": "p(x) = x² - (Sum)x + Product\np(x) = x² - 8x + 12\nVerify: x² - 8x + 12 = (x-2)(x-6), zeros: 2 aur 6\nSum = 2+6=8 ✓, Product = 2×6=12 ✓",
+        "en": "p(x) = x² - (Sum)x + Product\np(x) = x² - 8x + 12\nVerify: x² - 8x + 12 = (x-2)(x-6), zeros: 2 and 6\nSum = 2+6=8 ✓, Product = 2×6=12 ✓"
+      }
+    },
+    {
+      "question": { "hi": "Agar α aur β, quadratic polynomial 3x² - 5x - 2 ke zeros hain, toh α² + β² ka value nikalo.", "en": "If α and β are the zeros of quadratic polynomial 3x² - 5x - 2, find the value of α² + β²." },
+      "marks": 3,
+      "answer": {
+        "hi": "a=3, b=-5, c=-2\nα+β = -b/a = 5/3\nαβ = c/a = -2/3\nα² + β² = (α+β)² - 2αβ\n= (5/3)² - 2(-2/3)\n= 25/9 + 4/3\n= 25/9 + 12/9\n= 37/9",
+        "en": "a=3, b=-5, c=-2\nα+β = -b/a = 5/3\nαβ = c/a = -2/3\nα² + β² = (α+β)² - 2αβ\n= (5/3)² - 2(-2/3)\n= 25/9 + 4/3\n= 25/9 + 12/9\n= 37/9"
+      }
+    },
+    {
+      "question": { "hi": "Check karo (x+1), polynomial p(x) = 2x³ + x² - 2x - 1 ka factor hai ya nahi. Agar hai toh poori factorize karo.", "en": "Check whether (x+1) is a factor of p(x) = 2x³ + x² - 2x - 1. If yes, factorize it completely." },
+      "marks": 4,
+      "answer": {
+        "hi": "Factor Theorem: p(-1) = 2(-1)³ + (-1)² - 2(-1) - 1\n= -2 + 1 + 2 - 1 = 0\n✅ (x+1) ek factor hai\n\nDivide karke: 2x³ + x² - 2x - 1 = (x+1)(2x² - x - 1)\n\n2x² - x - 1 ko factorize karo:\n2x² - x - 1 = 2x² - 2x + x - 1 = 2x(x-1) + 1(x-1) = (x-1)(2x+1)\n\nComplete factorization:\np(x) = (x+1)(x-1)(2x+1)\nZeros: x = -1, 1, -1/2",
+        "en": "Factor Theorem: p(-1) = 2(-1)³ + (-1)² - 2(-1) - 1\n= -2 + 1 + 2 - 1 = 0\n✅ (x+1) is a factor\n\nDividing: 2x³ + x² - 2x - 1 = (x+1)(2x² - x - 1)\n\nFactorize 2x² - x - 1:\n2x² - x - 1 = 2x² - 2x + x - 1 = 2x(x-1) + 1(x-1) = (x-1)(2x+1)\n\nComplete factorization:\np(x) = (x+1)(x-1)(2x+1)\nZeros: x = -1, 1, -1/2"
+      }
+    },
+    {
+      "question": { "hi": "Agar quadratic polynomial x² - px + 45 ke zeros ka ratio 4:5 hai, toh p ka value nikalo (p > 0).", "en": "If the zeros of quadratic polynomial x² - px + 45 are in the ratio 4:5, find the value of p (p > 0)." },
+      "marks": 3,
+      "answer": {
+        "hi": "Zeros ko 4k aur 5k maan lo\nProduct = 4k × 5k = 20k² = 45\nk² = 45/20 = 9/4\nk = 3/2\n\nZeros: 4k = 6, 5k = 15/2\nSum = p = 6 + 15/2 = 12/2 + 15/2 = 27/2",
+        "en": "Let the zeros be 4k and 5k\nProduct = 4k × 5k = 20k² = 45\nk² = 45/20 = 9/4\nk = 3/2\n\nZeros: 4k = 6, 5k = 15/2\nSum = p = 6 + 15/2 = 12/2 + 15/2 = 27/2"
+      }
+    },
+    {
+      "question": { "hi": "p(x) = x⁴ - 5x² + 4 ko poori tarah factorize karo aur saare zeros nikalo.", "en": "Factorize p(x) = x⁴ - 5x² + 4 completely and find all its zeros." },
+      "marks": 4,
+      "answer": {
+        "hi": "Let y = x²\np(x) = y² - 5y + 4\n= (y-1)(y-4)\n= (x²-1)(x²-4)\n= (x-1)(x+1)(x-2)(x+2)\n\nZeros: x = 1, -1, 2, -2",
+        "en": "Let y = x²\np(x) = y² - 5y + 4\n= (y-1)(y-4)\n= (x²-1)(x²-4)\n= (x-1)(x+1)(x-2)(x+2)\n\nZeros: x = 1, -1, 2, -2"
+      }
+    }
+  ]
+}

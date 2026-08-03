@@ -2,253 +2,145 @@
   "id": "chapter-02-lesson-04",
   "chapterId": "chapter-02",
   "order": 4,
-  "title": "Division Algorithm for Polynomials",
+  "title": { "hi": "Polynomials ka Division Algorithm", "en": "Division Algorithm for Polynomials" },
   "estimatedMinutes": 12,
   "xpReward": 50,
   "coinReward": 12,
   "hero": {
     "emoji": "➗",
-    "headline": "Division Algorithm",
-    "subtext": "Dividing polynomials like numbers!"
+    "headline": { "hi": "Division Algorithm", "en": "Division Algorithm" },
+    "subtext": { "hi": "Polynomials ko numbers ki tarah divide karna!", "en": "Dividing polynomials like numbers!" }
   },
   "story": {
-    "text": "Just like we divide numbers, we can divide polynomials too! The Division Algorithm for Polynomials helps us find quotients and remainders, and even check if one polynomial is a factor of another."
+    "text": {
+      "hi": "Jaise hum numbers ko divide karte hain, waise hi polynomials ko bhi divide kar sakte hain! Division Algorithm humein quotient aur remainder nikalne mein madad karta hai, aur ye check karne mein bhi ki ek polynomial doosre ka factor hai ya nahi.",
+      "en": "Just like we divide numbers, we can divide polynomials too! The Division Algorithm for Polynomials helps us find quotients and remainders, and even check if one polynomial is a factor of another."
+    }
   },
   "explanation": [
-    {
-      "type": "text",
-      "content": "If p(x) and g(x) are any two polynomials with g(x) ≠ 0, then we can find polynomials q(x) and r(x) such that:"
-    },
-    {
-      "type": "text",
-      "content": "p(x) = g(x) × q(x) + r(x)"
-    },
-    {
-      "type": "text",
-      "content": "Where r(x) = 0 or degree of r(x) < degree of g(x)"
-    },
-    {
-      "type": "text",
-      "content": "p(x) = Dividend (jo divide hota hai)"
-    },
-    {
-      "type": "text",
-      "content": "g(x) = Divisor (jo se divide karte hain)"
-    },
-    {
-      "type": "text",
-      "content": "q(x) = Quotient (result)"
-    },
-    {
-      "type": "text",
-      "content": "r(x) = Remainder (bachat)"
-    },
-    {
-      "type": "text",
-      "content": "💡 Same as numbers: Dividend = Divisor × Quotient + Remainder"
-    },
-    {
-      "type": "text",
-      "content": "The Division Algorithm:"
-    },
-    {
-      "type": "formula",
-      "content": "p(x) = g(x) · q(x) + r(x)"
-    },
-    {
-      "type": "text",
-      "content": "Where either r(x) = 0 or deg(r) < deg(g). If r(x) = 0, then g(x) is a factor of p(x)."
-    },
-    {
-      "type": "text",
-      "content": "Example: x³ - 3x² + 5x - 3 = (x² - 2)(x - 3) + (7x - 9)\nHere: p(x) = x³ - 3x² + 5x - 3\ng(x) = x² - 2\nq(x) = x - 3\nr(x) = 7x - 9"
-    },
-    {
-      "type": "text",
-      "content": "If we divide p(x) by g(x) and the remainder r(x) = 0, then g(x) is a factor of p(x)."
-    },
-    {
-      "type": "text",
-      "content": "r(x) = 0 → g(x) is a factor of p(x)"
-    },
-    {
-      "type": "text",
-      "content": "This means p(x) = g(x) × q(x) exactly"
-    },
-    {
-      "type": "text",
-      "content": "Example: x² - 5x + 6 = (x - 2)(x - 3)\nSo (x - 2) and (x - 3) are factors"
-    },
-    {
-      "type": "text",
-      "content": "Factor Theorem: If p(a) = 0, then (x - a) is a factor of p(x)"
-    },
-    {
-      "type": "text",
-      "content": "💡 Remainder 0 = Perfect division = Factor!"
-    },
-    {
-      "type": "text",
-      "content": "Factor Theorem (Special Case):"
-    },
-    {
-      "type": "formula",
-      "content": "If p(a) = 0, then (x - a) is a factor of p(x)"
-    },
-    {
-      "type": "text",
-      "content": "This is a powerful shortcut! Bina long division kiye, bas p(a) calculate karke check kar sakte hain."
-    },
-    {
-      "type": "text",
-      "content": "Example: Check if (x - 2) is factor of x² - 5x + 6\np(2) = 4 - 10 + 6 = 0\n✅ Yes, (x - 2) is a factor!"
-    },
-    {
-      "type": "text",
-      "content": "Polynomial division ko aasaan banane ke liye:"
-    },
-    {
-      "type": "text",
-      "content": "Hamesha descending order mein arrange karo (highest power pehle)"
-    },
-    {
-      "type": "text",
-      "content": "Missing terms ke liye 0 coefficient likho"
-    },
-    {
-      "type": "text",
-      "content": "Step-by-step divide karo (jaise long division)"
-    },
-    {
-      "type": "text",
-      "content": "Verify: Dividend = Divisor × Quotient + Remainder"
-    },
-    {
-      "type": "text",
-      "content": "Factor Theorem use karo for quick checking"
-    }
+    { "type": "text", "content": { "hi": "Agar p(x) aur g(x) koi bhi do polynomials hain jahan g(x) ≠ 0, toh hum aise polynomials q(x) aur r(x) nikal sakte hain ki:", "en": "If p(x) and g(x) are any two polynomials with g(x) ≠ 0, then we can find polynomials q(x) and r(x) such that:" } },
+    { "type": "formula", "content": { "hi": "p(x) = g(x) × q(x) + r(x)", "en": "p(x) = g(x) × q(x) + r(x)" } },
+    { "type": "text", "content": { "hi": "Jahan r(x) = 0 ho ya r(x) ki degree < g(x) ki degree ho", "en": "Where r(x) = 0 or degree of r(x) < degree of g(x)" } },
+    { "type": "text", "content": { "hi": "p(x) = Dividend (jo divide hota hai)", "en": "p(x) = Dividend (the one being divided)" } },
+    { "type": "text", "content": { "hi": "g(x) = Divisor (jisse divide karte hain)", "en": "g(x) = Divisor (what we're dividing by)" } },
+    { "type": "text", "content": { "hi": "q(x) = Quotient (result)", "en": "q(x) = Quotient (result)" } },
+    { "type": "text", "content": { "hi": "r(x) = Remainder (bachat)", "en": "r(x) = Remainder (what's left over)" } },
+    { "type": "text", "content": { "hi": "💡 Numbers jaisa hi hai: Dividend = Divisor × Quotient + Remainder", "en": "💡 Same as numbers: Dividend = Divisor × Quotient + Remainder" } },
+    { "type": "text", "content": { "hi": "Division Algorithm:", "en": "The Division Algorithm:" } },
+    { "type": "formula", "content": { "hi": "p(x) = g(x) · q(x) + r(x)", "en": "p(x) = g(x) · q(x) + r(x)" } },
+    { "type": "text", "content": { "hi": "Jahan r(x) = 0 ya deg(r) < deg(g). Agar r(x) = 0 hai, toh g(x), p(x) ka factor hai.", "en": "Where either r(x) = 0 or deg(r) < deg(g). If r(x) = 0, then g(x) is a factor of p(x)." } },
+    { "type": "text", "content": { "hi": "Example: x³ - 3x² + 5x - 3 = (x² - 2)(x - 3) + (7x - 9)\nYahan: p(x) = x³ - 3x² + 5x - 3\ng(x) = x² - 2\nq(x) = x - 3\nr(x) = 7x - 9", "en": "Example: x³ - 3x² + 5x - 3 = (x² - 2)(x - 3) + (7x - 9)\nHere: p(x) = x³ - 3x² + 5x - 3\ng(x) = x² - 2\nq(x) = x - 3\nr(x) = 7x - 9" } },
+    { "type": "text", "content": { "hi": "Agar hum p(x) ko g(x) se divide karein aur remainder r(x) = 0 ho jaye, toh g(x), p(x) ka factor hai.", "en": "If we divide p(x) by g(x) and the remainder r(x) = 0, then g(x) is a factor of p(x)." } },
+    { "type": "text", "content": { "hi": "r(x) = 0 → g(x), p(x) ka factor hai", "en": "r(x) = 0 → g(x) is a factor of p(x)" } },
+    { "type": "text", "content": { "hi": "Iska matlab p(x) = g(x) × q(x) exactly hota hai", "en": "This means p(x) = g(x) × q(x) exactly" } },
+    { "type": "text", "content": { "hi": "Example: x² - 5x + 6 = (x - 2)(x - 3)\nToh (x - 2) aur (x - 3) factors hain", "en": "Example: x² - 5x + 6 = (x - 2)(x - 3)\nSo (x - 2) and (x - 3) are factors" } },
+    { "type": "text", "content": { "hi": "Factor Theorem: Agar p(a) = 0 hai, toh (x - a), p(x) ka factor hai", "en": "Factor Theorem: If p(a) = 0, then (x - a) is a factor of p(x)" } },
+    { "type": "text", "content": { "hi": "💡 Remainder 0 = Perfect division = Factor!", "en": "💡 Remainder 0 = Perfect division = Factor!" } },
+    { "type": "text", "content": { "hi": "Factor Theorem (Special Case):", "en": "Factor Theorem (Special Case):" } },
+    { "type": "formula", "content": { "hi": "Agar p(a) = 0, toh (x - a), p(x) ka factor hai", "en": "If p(a) = 0, then (x - a) is a factor of p(x)" } },
+    { "type": "text", "content": { "hi": "Ye ek powerful shortcut hai! Bina long division kiye, bas p(a) calculate karke check kar sakte hain.", "en": "This is a powerful shortcut! Without doing long division, we can check just by calculating p(a)." } },
+    { "type": "text", "content": { "hi": "Example: Check karo ki (x - 2), x² - 5x + 6 ka factor hai ya nahi\np(2) = 4 - 10 + 6 = 0\n✅ Haan, (x - 2) ek factor hai!", "en": "Example: Check if (x - 2) is factor of x² - 5x + 6\np(2) = 4 - 10 + 6 = 0\n✅ Yes, (x - 2) is a factor!" } },
+    { "type": "text", "content": { "hi": "Polynomial division ko aasaan banane ke liye:", "en": "To make polynomial division easier:" } },
+    { "type": "text", "content": { "hi": "Hamesha descending order mein arrange karo (highest power pehle)", "en": "Always arrange in descending order (highest power first)" } },
+    { "type": "text", "content": { "hi": "Missing terms ke liye 0 coefficient likho", "en": "Write 0 coefficient for missing terms" } },
+    { "type": "text", "content": { "hi": "Step-by-step divide karo (jaise long division)", "en": "Divide step-by-step (like long division)" } },
+    { "type": "text", "content": { "hi": "Verify karo: Dividend = Divisor × Quotient + Remainder", "en": "Verify: Dividend = Divisor × Quotient + Remainder" } },
+    { "type": "text", "content": { "hi": "Quick checking ke liye Factor Theorem use karo", "en": "Use Factor Theorem for quick checking" } }
   ],
   "examples": [
     {
-      "problem": "Divide p(x) = x³ - 3x² + 5x - 3 by g(x) = x² - 2. Find quotient and remainder.",
+      "problem": { "hi": "p(x) = x³ - 3x² + 5x - 3 ko g(x) = x² - 2 se divide karo. Quotient aur remainder nikalo.", "en": "Divide p(x) = x³ - 3x² + 5x - 3 by g(x) = x² - 2. Find quotient and remainder." },
       "steps": [
-        "Step 1: x³ ÷ x² = x",
-        "Multiply: x(x² - 2) = x³ - 2x",
-        "Subtract: (x³ - 3x² + 5x - 3) - (x³ - 2x) = -3x² + 7x - 3",
-        "Step 2: -3x² ÷ x² = -3",
-        "Multiply: -3(x² - 2) = -3x² + 6",
-        "Subtract: (-3x² + 7x - 3) - (-3x² + 6) = 7x - 9",
-        "Quotient q(x) = x - 3",
-        "Remainder r(x) = 7x - 9",
-        "Verify:",
-        "(x² - 2)(x - 3) + (7x - 9)",
-        "= x³ - 3x² - 2x + 6 + 7x - 9",
-        "= x³ - 3x² + 5x - 3 = p(x) ✓"
+        { "hi": "Step 1: x³ ÷ x² = x", "en": "Step 1: x³ ÷ x² = x" },
+        { "hi": "Multiply: x(x² - 2) = x³ - 2x", "en": "Multiply: x(x² - 2) = x³ - 2x" },
+        { "hi": "Subtract: (x³ - 3x² + 5x - 3) - (x³ - 2x) = -3x² + 7x - 3", "en": "Subtract: (x³ - 3x² + 5x - 3) - (x³ - 2x) = -3x² + 7x - 3" },
+        { "hi": "Step 2: -3x² ÷ x² = -3", "en": "Step 2: -3x² ÷ x² = -3" },
+        { "hi": "Multiply: -3(x² - 2) = -3x² + 6", "en": "Multiply: -3(x² - 2) = -3x² + 6" },
+        { "hi": "Subtract: (-3x² + 7x - 3) - (-3x² + 6) = 7x - 9", "en": "Subtract: (-3x² + 7x - 3) - (-3x² + 6) = 7x - 9" },
+        { "hi": "Quotient q(x) = x - 3", "en": "Quotient q(x) = x - 3" },
+        { "hi": "Remainder r(x) = 7x - 9", "en": "Remainder r(x) = 7x - 9" },
+        { "hi": "Verify:", "en": "Verify:" },
+        { "hi": "(x² - 2)(x - 3) + (7x - 9)", "en": "(x² - 2)(x - 3) + (7x - 9)" },
+        { "hi": "= x³ - 3x² - 2x + 6 + 7x - 9", "en": "= x³ - 3x² - 2x + 6 + 7x - 9" },
+        { "hi": "= x³ - 3x² + 5x - 3 = p(x) ✓", "en": "= x³ - 3x² + 5x - 3 = p(x) ✓" }
       ]
     },
     {
-      "problem": "Check whether (x - 1) is a factor of p(x) = x³ + 3x² + 3x + 1.",
+      "problem": { "hi": "Check karo ki (x - 1), p(x) = x³ + 3x² + 3x + 1 ka factor hai ya nahi.", "en": "Check whether (x - 1) is a factor of p(x) = x³ + 3x² + 3x + 1." },
       "steps": [
-        "Using Factor Theorem:",
-        "If (x - 1) is a factor, then p(1) = 0",
-        "p(1) = (1)³ + 3(1)² + 3(1) + 1",
-        "p(1) = 1 + 3 + 3 + 1 = 8",
-        "p(1) ≠ 0, so (x - 1) is NOT a factor.",
-        "But wait! Let's check p(-1):",
-        "p(-1) = (-1)³ + 3(-1)² + 3(-1) + 1",
-        "p(-1) = -1 + 3 - 3 + 1 = 0",
-        "✅ So (x + 1) IS a factor!"
+        { "hi": "Factor Theorem use karte hain:", "en": "Using Factor Theorem:" },
+        { "hi": "Agar (x - 1) factor hai, toh p(1) = 0 hona chahiye", "en": "If (x - 1) is a factor, then p(1) = 0" },
+        { "hi": "p(1) = (1)³ + 3(1)² + 3(1) + 1", "en": "p(1) = (1)³ + 3(1)² + 3(1) + 1" },
+        { "hi": "p(1) = 1 + 3 + 3 + 1 = 8", "en": "p(1) = 1 + 3 + 3 + 1 = 8" },
+        { "hi": "p(1) ≠ 0, toh (x - 1) factor NAHI hai.", "en": "p(1) ≠ 0, so (x - 1) is NOT a factor." },
+        { "hi": "Lekin ruko! p(-1) check karte hain:", "en": "But wait! Let's check p(-1):" },
+        { "hi": "p(-1) = (-1)³ + 3(-1)² + 3(-1) + 1", "en": "p(-1) = (-1)³ + 3(-1)² + 3(-1) + 1" },
+        { "hi": "p(-1) = -1 + 3 - 3 + 1 = 0", "en": "p(-1) = -1 + 3 - 3 + 1 = 0" },
+        { "hi": "✅ Toh (x + 1) ek factor HAI!", "en": "✅ So (x + 1) IS a factor!" }
       ]
     },
     {
-      "problem": "Factorize p(x) = x³ - 6x² + 11x - 6 completely.",
+      "problem": { "hi": "p(x) = x³ - 6x² + 11x - 6 ko poori tarah factorize karo.", "en": "Factorize p(x) = x³ - 6x² + 11x - 6 completely." },
       "steps": [
-        "Try x = 1:",
-        "p(1) = 1 - 6 + 11 - 6 = 0",
-        "✅ (x - 1) is a factor!",
-        "Now divide p(x) by (x - 1):",
-        "x³ - 6x² + 11x - 6 = (x - 1)(x² - 5x + 6)",
-        "Factorize further:",
-        "x² - 5x + 6 = (x - 2)(x - 3)",
-        "✅ Complete factorization:",
-        "p(x) = (x - 1)(x - 2)(x - 3)",
-        "Zeros: x = 1, 2, 3"
+        { "hi": "x = 1 try karte hain:", "en": "Try x = 1:" },
+        { "hi": "p(1) = 1 - 6 + 11 - 6 = 0", "en": "p(1) = 1 - 6 + 11 - 6 = 0" },
+        { "hi": "✅ (x - 1) ek factor hai!", "en": "✅ (x - 1) is a factor!" },
+        { "hi": "Ab p(x) ko (x - 1) se divide karo:", "en": "Now divide p(x) by (x - 1):" },
+        { "hi": "x³ - 6x² + 11x - 6 = (x - 1)(x² - 5x + 6)", "en": "x³ - 6x² + 11x - 6 = (x - 1)(x² - 5x + 6)" },
+        { "hi": "Aage factorize karo:", "en": "Factorize further:" },
+        { "hi": "x² - 5x + 6 = (x - 2)(x - 3)", "en": "x² - 5x + 6 = (x - 2)(x - 3)" },
+        { "hi": "✅ Complete factorization:", "en": "✅ Complete factorization:" },
+        { "hi": "p(x) = (x - 1)(x - 2)(x - 3)", "en": "p(x) = (x - 1)(x - 2)(x - 3)" },
+        { "hi": "Zeros: x = 1, 2, 3", "en": "Zeros: x = 1, 2, 3" }
       ]
     }
   ],
   "quiz": {
     "questions": [
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "When x³ + 3x² + 3x + 1 is divided by x + 1, the remainder is:",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Jab x³ + 3x² + 3x + 1 ko x + 1 se divide karte hain, remainder kya hai?", "en": "When x³ + 3x² + 3x + 1 is divided by x + 1, the remainder is:" },
+        "options": [{ "hi": "0", "en": "0" }, { "hi": "1", "en": "1" }, { "hi": "-1", "en": "-1" }, { "hi": "8", "en": "8" }],
         "correct": 0,
-        "explanation": "Using Factor Theorem: p(-1) = (-1)³ + 3(-1)² + 3(-1) + 1 = -1 + 3 - 3 + 1 = 0. So remainder is 0.",
-        "options": [
-          "0",
-          "1",
-          "-1",
-          "8"
-        ]
+        "explanation": { "hi": "Factor Theorem use karke: p(-1) = (-1)³ + 3(-1)² + 3(-1) + 1 = -1 + 3 - 3 + 1 = 0. Toh remainder 0 hai.", "en": "Using Factor Theorem: p(-1) = (-1)³ + 3(-1)² + 3(-1) + 1 = -1 + 3 - 3 + 1 = 0. So remainder is 0." }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "If p(x) = x² - 5x + 6, which of the following is a factor?",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Agar p(x) = x² - 5x + 6 hai, in mein se factor kaunsa hai?", "en": "If p(x) = x² - 5x + 6, which of the following is a factor?" },
+        "options": [{ "hi": "(x - 1)", "en": "(x - 1)" }, { "hi": "(x - 2)", "en": "(x - 2)" }, { "hi": "(x + 2)", "en": "(x + 2)" }, { "hi": "(x + 3)", "en": "(x + 3)" }],
         "correct": 1,
-        "explanation": "p(2) = 4 - 10 + 6 = 0, so (x - 2) is a factor. Verify: x² - 5x + 6 = (x - 2)(x - 3).",
-        "options": [
-          "(x - 1)",
-          "(x - 2)",
-          "(x + 2)",
-          "(x + 3)"
-        ]
+        "explanation": { "hi": "p(2) = 4 - 10 + 6 = 0, toh (x - 2) ek factor hai. Verify: x² - 5x + 6 = (x - 2)(x - 3).", "en": "p(2) = 4 - 10 + 6 = 0, so (x - 2) is a factor. Verify: x² - 5x + 6 = (x - 2)(x - 3)." }
       },
       {
-        "type": "truefalse",
-        "difficulty": "medium",
-        "question": "If remainder is 0 when p(x) is divided by g(x), then g(x) is a factor of p(x).",
+        "type": "truefalse", "difficulty": "medium",
+        "question": { "hi": "Agar p(x) ko g(x) se divide karne pe remainder 0 aaye, toh g(x), p(x) ka factor hai.", "en": "If remainder is 0 when p(x) is divided by g(x), then g(x) is a factor of p(x)." },
         "correct": true,
-        "explanation": "True! By definition, if remainder is 0, the divisor divides the dividend exactly, making it a factor."
+        "explanation": { "hi": "Sahi! By definition, agar remainder 0 hai, divisor dividend ko exactly divide karta hai, isliye woh ek factor ban jata hai.", "en": "True! By definition, if remainder is 0, the divisor divides the dividend exactly, making it a factor." }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "The degree of remainder is always:",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Remainder ki degree hamesha:", "en": "The degree of remainder is always:" },
+        "options": [{ "hi": "Divisor ki degree ke barabar", "en": "Equal to degree of divisor" }, { "hi": "Divisor ki degree se zyada", "en": "Greater than degree of divisor" }, { "hi": "Divisor ki degree se kam", "en": "Less than degree of divisor" }, { "hi": "Zero", "en": "Zero" }],
         "correct": 2,
-        "explanation": "By Division Algorithm, deg(r) < deg(g). If deg(r) ≥ deg(g), we can divide further!",
-        "options": [
-          "Equal to degree of divisor",
-          "Greater than degree of divisor",
-          "Less than degree of divisor",
-          "Zero"
-        ]
+        "explanation": { "hi": "Division Algorithm ke according, deg(r) < deg(g). Agar deg(r) ≥ deg(g), toh hum aur divide kar sakte hain!", "en": "By Division Algorithm, deg(r) < deg(g). If deg(r) ≥ deg(g), we can divide further!" }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "If p(x) = x³ - 3x² + x + 2 is divided by g(x) = x - 2, the remainder is:",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Agar p(x) = x³ - 3x² + x + 2 ko g(x) = x - 2 se divide karein, remainder kya hai?", "en": "If p(x) = x³ - 3x² + x + 2 is divided by g(x) = x - 2, the remainder is:" },
+        "options": [{ "hi": "0", "en": "0" }, { "hi": "2", "en": "2" }, { "hi": "4", "en": "4" }, { "hi": "8", "en": "8" }],
         "correct": 0,
-        "explanation": "By Remainder Theorem: p(2) = 8 - 12 + 2 + 2 = 0. So remainder is 0 and (x - 2) is a factor.",
-        "options": [
-          "0",
-          "2",
-          "4",
-          "8"
-        ]
+        "explanation": { "hi": "Remainder Theorem se: p(2) = 8 - 12 + 2 + 2 = 0. Toh remainder 0 hai aur (x - 2) ek factor hai.", "en": "By Remainder Theorem: p(2) = 8 - 12 + 2 + 2 = 0. So remainder is 0 and (x - 2) is a factor." }
       }
     ]
   },
   "notes": [
-    "Division Algorithm: p(x) = g(x)q(x) + r(x)",
-    "deg(r) < deg(g) or r(x) = 0",
-    "If r(x) = 0, then g(x) is a factor of p(x)",
-    "Factor Theorem: p(a) = 0 → (x - a) is a factor",
-    "Factorization: Ek factor milne ke baad baaki ko factorize karo",
-    "Verify hamesha: Divisor × Quotient + Remainder = Dividend"
+    { "hi": "Division Algorithm: p(x) = g(x)q(x) + r(x)", "en": "Division Algorithm: p(x) = g(x)q(x) + r(x)" },
+    { "hi": "deg(r) < deg(g) ya r(x) = 0", "en": "deg(r) < deg(g) or r(x) = 0" },
+    { "hi": "Agar r(x) = 0, toh g(x), p(x) ka factor hai", "en": "If r(x) = 0, then g(x) is a factor of p(x)" },
+    { "hi": "Factor Theorem: p(a) = 0 → (x - a) ek factor hai", "en": "Factor Theorem: p(a) = 0 → (x - a) is a factor" },
+    { "hi": "Factorization: Ek factor milne ke baad baaki ko factorize karo", "en": "Factorization: Once you find one factor, factorize the rest" },
+    { "hi": "Verify hamesha: Divisor × Quotient + Remainder = Dividend", "en": "Always verify: Divisor × Quotient + Remainder = Dividend" }
   ],
-  "summary": "Key Points to Remember. Division Algorithm: p(x) = g(x)q(x) + r(x) deg(r) < deg(g) or r(x) = 0",
-  "reward": {
-    "badge": null
-  }
+  "summary": { "hi": "Yaad rakhne wali baatein: Division Algorithm: p(x) = g(x)q(x) + r(x), deg(r) < deg(g) ya r(x) = 0.", "en": "Key Points to Remember: Division Algorithm: p(x) = g(x)q(x) + r(x), deg(r) < deg(g) or r(x) = 0." },
+  "reward": { "badge": null }
 }

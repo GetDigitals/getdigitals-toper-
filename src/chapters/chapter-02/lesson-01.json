@@ -2,173 +2,83 @@
   "id": "chapter-02-lesson-01",
   "chapterId": "chapter-02",
   "order": 1,
-  "title": "Introduction to Polynomials",
+  "title": { "hi": "Polynomials ka Introduction", "en": "Introduction to Polynomials" },
   "estimatedMinutes": 10,
   "xpReward": 50,
   "coinReward": 12,
   "hero": {
     "emoji": "📈",
-    "headline": "Welcome to Polynomials!",
-    "subtext": "Expressions with variables and coefficients"
+    "headline": { "hi": "Polynomials mein Swagat hai!", "en": "Welcome to Polynomials!" },
+    "subtext": { "hi": "Variables aur coefficients wali expressions", "en": "Expressions with variables and coefficients" }
   },
   "story": {
-    "text": "A polynomial is an algebraic expression consisting of variables and coefficients, involving only addition, subtraction, multiplication, and non-negative integer exponents. Let's explore the world of polynomials!"
+    "text": {
+      "hi": "Polynomial ek algebraic expression hai jisme variables aur coefficients hote hain, aur sirf addition, subtraction, multiplication, aur non-negative integer exponents use hote hain. Chalo polynomials ki duniya explore karte hain!",
+      "en": "A polynomial is an algebraic expression consisting of variables and coefficients, involving only addition, subtraction, multiplication, and non-negative integer exponents. Let's explore the world of polynomials!"
+    }
   },
   "explanation": [
-    {
-      "type": "text",
-      "content": "A polynomial in one variable x is an expression of the form:"
-    },
-    {
-      "type": "text",
-      "content": "p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀"
-    },
-    {
-      "type": "text",
-      "content": "Where aₙ, aₙ₋₁, ..., a₁, a₀ are real numbers called coefficients"
-    },
-    {
-      "type": "text",
-      "content": "n is a non-negative integer called the degree"
-    },
-    {
-      "type": "text",
-      "content": "aₙ ≠ 0 (leading coefficient)"
-    },
-    {
-      "type": "text",
-      "content": "Examples: 3x² + 2x + 1, 5x³ - x, 7"
-    },
-    {
-      "type": "text",
-      "content": "💡 Remember: Powers of x must be whole numbers (0, 1, 2, 3...)"
-    },
-    {
-      "type": "text",
-      "content": "Polynomials are classified based on the number of terms they have:"
-    },
-    {
-      "type": "text",
-      "content": "Monomial: 1 term → 3x², 5y, 7"
-    },
-    {
-      "type": "text",
-      "content": "Binomial: 2 terms → x + 3, 2x² - 5"
-    },
-    {
-      "type": "text",
-      "content": "Trinomial: 3 terms → x² + 2x + 1, 3x² - x + 4"
-    },
-    {
-      "type": "text",
-      "content": "Polynomial: More than 3 terms → x³ + 2x² - x + 5"
-    },
-    {
-      "type": "text",
-      "content": "The degree of a polynomial is the highest power of the variable:"
-    },
-    {
-      "type": "text",
-      "content": "Constant polynomial: Degree 0 → p(x) = 5"
-    },
-    {
-      "type": "text",
-      "content": "Linear polynomial: Degree 1 → p(x) = 2x + 3"
-    },
-    {
-      "type": "text",
-      "content": "Quadratic polynomial: Degree 2 → p(x) = x² - 5x + 6"
-    },
-    {
-      "type": "text",
-      "content": "Cubic polynomial: Degree 3 → p(x) = x³ + 2x² - x + 1"
-    },
-    {
-      "type": "text",
-      "content": "Quartic polynomial: Degree 4 → p(x) = x⁴ - 3x² + 2"
-    },
-    {
-      "type": "text",
-      "content": "General Form of Quadratic Polynomial:"
-    },
-    {
-      "type": "formula",
-      "content": "ax² + bx + c,    where a ≠ 0"
-    },
-    {
-      "type": "text",
-      "content": "A quadratic polynomial has degree 2. Its graph is a parabola. The coefficient 'a' decides whether the parabola opens upwards (a > 0) or downwards (a < 0)."
-    },
-    {
-      "type": "text",
-      "content": "Examples: x² + 5x + 6, 2x² - 3x + 1, -x² + 4"
-    },
-    {
-      "type": "text",
-      "content": "General Form of Cubic Polynomial:"
-    },
-    {
-      "type": "formula",
-      "content": "ax³ + bx² + cx + d,    where a ≠ 0"
-    },
-    {
-      "type": "text",
-      "content": "A cubic polynomial has degree 3. It can have up to 3 real zeros (x-intercepts)."
-    },
-    {
-      "type": "text",
-      "content": "Examples: x³ - 6x² + 11x - 6, 2x³ + x² - 5x + 2"
-    },
-    {
-      "type": "text",
-      "content": "A real number 'k' is called a zero of polynomial p(x) if p(k) = 0."
-    },
-    {
-      "type": "text",
-      "content": "Zero woh value hai jahan polynomial ki value 0 ho jati hai"
-    },
-    {
-      "type": "text",
-      "content": "Graphically, zero = x-intercept (jahan graph x-axis ko cut kare)"
-    },
-    {
-      "type": "text",
-      "content": "Ek polynomial ke kitne zeros ho sakte hain = uski degree ke barabar"
-    },
-    {
-      "type": "text",
-      "content": "Linear polynomial: 1 zero, Quadratic: up to 2 zeros, Cubic: up to 3 zeros"
-    }
+    { "type": "text", "content": { "hi": "Ek variable x wali polynomial is form ki expression hoti hai:", "en": "A polynomial in one variable x is an expression of the form:" } },
+    { "type": "formula", "content": { "hi": "p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀", "en": "p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀" } },
+    { "type": "text", "content": { "hi": "Yahan aₙ, aₙ₋₁, ..., a₁, a₀ real numbers hain jinhe coefficients kehte hain", "en": "Where aₙ, aₙ₋₁, ..., a₁, a₀ are real numbers called coefficients" } },
+    { "type": "text", "content": { "hi": "n ek non-negative integer hai jise degree kehte hain", "en": "n is a non-negative integer called the degree" } },
+    { "type": "text", "content": { "hi": "aₙ ≠ 0 hona chahiye (leading coefficient)", "en": "aₙ ≠ 0 (leading coefficient)" } },
+    { "type": "text", "content": { "hi": "Examples: 3x² + 2x + 1, 5x³ - x, 7", "en": "Examples: 3x² + 2x + 1, 5x³ - x, 7" } },
+    { "type": "text", "content": { "hi": "💡 Yaad rakho: x ki powers hamesha whole numbers honi chahiye (0, 1, 2, 3...)", "en": "💡 Remember: Powers of x must be whole numbers (0, 1, 2, 3...)" } },
+    { "type": "text", "content": { "hi": "Polynomials ko terms ki ginti ke hisaab se classify kiya jata hai:", "en": "Polynomials are classified based on the number of terms they have:" } },
+    { "type": "text", "content": { "hi": "Monomial: 1 term → 3x², 5y, 7", "en": "Monomial: 1 term → 3x², 5y, 7" } },
+    { "type": "text", "content": { "hi": "Binomial: 2 terms → x + 3, 2x² - 5", "en": "Binomial: 2 terms → x + 3, 2x² - 5" } },
+    { "type": "text", "content": { "hi": "Trinomial: 3 terms → x² + 2x + 1, 3x² - x + 4", "en": "Trinomial: 3 terms → x² + 2x + 1, 3x² - x + 4" } },
+    { "type": "text", "content": { "hi": "Polynomial: 3 se zyada terms → x³ + 2x² - x + 5", "en": "Polynomial: More than 3 terms → x³ + 2x² - x + 5" } },
+    { "type": "text", "content": { "hi": "Polynomial ki degree, variable ki sabse badi power hoti hai:", "en": "The degree of a polynomial is the highest power of the variable:" } },
+    { "type": "text", "content": { "hi": "Constant polynomial: Degree 0 → p(x) = 5", "en": "Constant polynomial: Degree 0 → p(x) = 5" } },
+    { "type": "text", "content": { "hi": "Linear polynomial: Degree 1 → p(x) = 2x + 3", "en": "Linear polynomial: Degree 1 → p(x) = 2x + 3" } },
+    { "type": "text", "content": { "hi": "Quadratic polynomial: Degree 2 → p(x) = x² - 5x + 6", "en": "Quadratic polynomial: Degree 2 → p(x) = x² - 5x + 6" } },
+    { "type": "text", "content": { "hi": "Cubic polynomial: Degree 3 → p(x) = x³ + 2x² - x + 1", "en": "Cubic polynomial: Degree 3 → p(x) = x³ + 2x² - x + 1" } },
+    { "type": "text", "content": { "hi": "Quartic polynomial: Degree 4 → p(x) = x⁴ - 3x² + 2", "en": "Quartic polynomial: Degree 4 → p(x) = x⁴ - 3x² + 2" } },
+    { "type": "text", "content": { "hi": "Quadratic Polynomial ka General Form:", "en": "General Form of Quadratic Polynomial:" } },
+    { "type": "formula", "content": { "hi": "ax² + bx + c,    jahan a ≠ 0", "en": "ax² + bx + c,    where a ≠ 0" } },
+    { "type": "text", "content": { "hi": "Quadratic polynomial ki degree 2 hoti hai. Iska graph ek parabola hota hai. Coefficient 'a' decide karta hai ki parabola upar khulega (a > 0) ya neeche (a < 0).", "en": "A quadratic polynomial has degree 2. Its graph is a parabola. The coefficient 'a' decides whether the parabola opens upwards (a > 0) or downwards (a < 0)." } },
+    { "type": "text", "content": { "hi": "Examples: x² + 5x + 6, 2x² - 3x + 1, -x² + 4", "en": "Examples: x² + 5x + 6, 2x² - 3x + 1, -x² + 4" } },
+    { "type": "text", "content": { "hi": "Cubic Polynomial ka General Form:", "en": "General Form of Cubic Polynomial:" } },
+    { "type": "formula", "content": { "hi": "ax³ + bx² + cx + d,    jahan a ≠ 0", "en": "ax³ + bx² + cx + d,    where a ≠ 0" } },
+    { "type": "text", "content": { "hi": "Cubic polynomial ki degree 3 hoti hai. Isme zyada se zyada 3 real zeros (x-intercepts) ho sakte hain.", "en": "A cubic polynomial has degree 3. It can have up to 3 real zeros (x-intercepts)." } },
+    { "type": "text", "content": { "hi": "Examples: x³ - 6x² + 11x - 6, 2x³ + x² - 5x + 2", "en": "Examples: x³ - 6x² + 11x - 6, 2x³ + x² - 5x + 2" } },
+    { "type": "text", "content": { "hi": "Ek real number 'k' ko polynomial p(x) ka zero kehte hain agar p(k) = 0 ho.", "en": "A real number 'k' is called a zero of polynomial p(x) if p(k) = 0." } },
+    { "type": "text", "content": { "hi": "Zero woh value hai jahan polynomial ki value 0 ho jati hai", "en": "A zero is the value at which the polynomial's value becomes 0" } },
+    { "type": "text", "content": { "hi": "Graphically, zero = x-intercept (jahan graph x-axis ko cut kare)", "en": "Graphically, a zero is the x-intercept — where the graph crosses the x-axis" } },
+    { "type": "text", "content": { "hi": "Ek polynomial ke jitne zeros ho sakte hain, woh uski degree ke barabar hota hai", "en": "The maximum number of zeros a polynomial can have equals its degree" } },
+    { "type": "text", "content": { "hi": "Linear polynomial: 1 zero, Quadratic: max 2 zeros, Cubic: max 3 zeros", "en": "Linear polynomial: 1 zero, Quadratic: up to 2 zeros, Cubic: up to 3 zeros" } }
   ],
   "examples": [
     {
-      "problem": "Identify the type and degree of the following polynomials:\n(i) 4x³ - 2x² + 7x - 1\n(ii) 5x - 3\n(iii) 7\n(iv) x² + x + 1",
+      "problem": { "hi": "In polynomials ka type aur degree batao:\n(i) 4x³ - 2x² + 7x - 1\n(ii) 5x - 3\n(iii) 7\n(iv) x² + x + 1", "en": "Identify the type and degree of the following polynomials:\n(i) 4x³ - 2x² + 7x - 1\n(ii) 5x - 3\n(iii) 7\n(iv) x² + x + 1" },
       "steps": [
-        "(i) 4x³ - 2x² + 7x - 1",
-        "→ Terms: 4 (Quartic/4 terms)",
-        "→ Highest power: 3",
-        "→ Type: Cubic Polynomial",
-        "(ii) 5x - 3",
-        "→ Terms: 2 (Binomial)",
-        "→ Highest power: 1",
-        "→ Type: Linear Polynomial",
-        "(iii) 7",
-        "→ Terms: 1 (Monomial)",
-        "→ Highest power: 0",
-        "→ Type: Constant Polynomial",
-        "(iv) x² + x + 1",
-        "→ Terms: 3 (Trinomial)",
-        "→ Highest power: 2",
-        "→ Type: Quadratic Polynomial"
+        { "hi": "(i) 4x³ - 2x² + 7x - 1", "en": "(i) 4x³ - 2x² + 7x - 1" },
+        { "hi": "→ Terms: 4 (Highest power ke hisaab se)", "en": "→ Terms: 4" },
+        { "hi": "→ Highest power: 3", "en": "→ Highest power: 3" },
+        { "hi": "→ Type: Cubic Polynomial", "en": "→ Type: Cubic Polynomial" },
+        { "hi": "(ii) 5x - 3", "en": "(ii) 5x - 3" },
+        { "hi": "→ Terms: 2 (Binomial)", "en": "→ Terms: 2 (Binomial)" },
+        { "hi": "→ Highest power: 1", "en": "→ Highest power: 1" },
+        { "hi": "→ Type: Linear Polynomial", "en": "→ Type: Linear Polynomial" },
+        { "hi": "(iii) 7", "en": "(iii) 7" },
+        { "hi": "→ Terms: 1 (Monomial)", "en": "→ Terms: 1 (Monomial)" },
+        { "hi": "→ Highest power: 0", "en": "→ Highest power: 0" },
+        { "hi": "→ Type: Constant Polynomial", "en": "→ Type: Constant Polynomial" },
+        { "hi": "(iv) x² + x + 1", "en": "(iv) x² + x + 1" },
+        { "hi": "→ Terms: 3 (Trinomial)", "en": "→ Terms: 3 (Trinomial)" },
+        { "hi": "→ Highest power: 2", "en": "→ Highest power: 2" },
+        { "hi": "→ Type: Quadratic Polynomial", "en": "→ Type: Quadratic Polynomial" }
       ]
     },
     {
-      "problem": "If p(x) = 3x² - 5x + 2, find p(0), p(1), and p(-1).",
+      "problem": { "hi": "Agar p(x) = 3x² - 5x + 2 hai, toh p(0), p(1), aur p(-1) nikalo.", "en": "If p(x) = 3x² - 5x + 2, find p(0), p(1), and p(-1)." },
       "steps": [
-        "p(x) = 3x² - 5x + 2",
-        "p(0) = 3(0)² - 5(0) + 2 = 0 - 0 + 2 = 2",
-        "p(1) = 3(1)² - 5(1) + 2 = 3 - 5 + 2 = 0",
-        "p(-1) = 3(-1)² - 5(-1) + 2 = 3 + 5 + 2 = 10"
+        { "hi": "p(x) = 3x² - 5x + 2", "en": "p(x) = 3x² - 5x + 2" },
+        { "hi": "p(0) = 3(0)² - 5(0) + 2 = 0 - 0 + 2 = 2", "en": "p(0) = 3(0)² - 5(0) + 2 = 0 - 0 + 2 = 2" },
+        { "hi": "p(1) = 3(1)² - 5(1) + 2 = 3 - 5 + 2 = 0", "en": "p(1) = 3(1)² - 5(1) + 2 = 3 - 5 + 2 = 0" },
+        { "hi": "p(-1) = 3(-1)² - 5(-1) + 2 = 3 + 5 + 2 = 10", "en": "p(-1) = 3(-1)² - 5(-1) + 2 = 3 + 5 + 2 = 10" }
       ]
     }
   ],
@@ -177,74 +87,52 @@
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "The degree of the polynomial 5x³ - 3x² + 2x - 7 is:",
+        "question": { "hi": "Polynomial 5x³ - 3x² + 2x - 7 ki degree kya hai?", "en": "The degree of the polynomial 5x³ - 3x² + 2x - 7 is:" },
+        "options": [{ "hi": "5", "en": "5" }, { "hi": "3", "en": "3" }, { "hi": "2", "en": "2" }, { "hi": "7", "en": "7" }],
         "correct": 1,
-        "explanation": "Degree = highest power of x. Yahan highest power 3 hai (x³), so degree = 3.",
-        "options": [
-          "5",
-          "3",
-          "2",
-          "7"
-        ]
+        "explanation": { "hi": "Degree = x ki sabse badi power. Yahan highest power 3 hai (x³), so degree = 3.", "en": "Degree = highest power of x. Here the highest power is 3 (x³), so degree = 3." }
       },
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "Which of the following is a binomial?",
+        "question": { "hi": "In mein se binomial kaunsa hai?", "en": "Which of the following is a binomial?" },
+        "options": [{ "hi": "x² + 2x + 1", "en": "x² + 2x + 1" }, { "hi": "3x", "en": "3x" }, { "hi": "x + 5", "en": "x + 5" }, { "hi": "x³", "en": "x³" }],
         "correct": 2,
-        "explanation": "Binomial = 2 terms. 'x + 5' mein 2 terms hain. 'x² + 2x + 1' = 3 terms (trinomial), '3x' = 1 term (monomial).",
-        "options": [
-          "x² + 2x + 1",
-          "3x",
-          "x + 5",
-          "x³"
-        ]
+        "explanation": { "hi": "Binomial = 2 terms. 'x + 5' mein 2 terms hain. 'x² + 2x + 1' = 3 terms (trinomial), '3x' = 1 term (monomial).", "en": "Binomial = 2 terms. 'x + 5' has 2 terms. 'x² + 2x + 1' has 3 terms (trinomial), '3x' has 1 term (monomial)." }
       },
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "If p(x) = x² - 5x + 6, then p(2) = ?",
+        "question": { "hi": "Agar p(x) = x² - 5x + 6 hai, toh p(2) = ?", "en": "If p(x) = x² - 5x + 6, then p(2) = ?" },
+        "options": [{ "hi": "0", "en": "0" }, { "hi": "6", "en": "6" }, { "hi": "2", "en": "2" }, { "hi": "4", "en": "4" }],
         "correct": 0,
-        "explanation": "p(2) = (2)² - 5(2) + 6 = 4 - 10 + 6 = 0. Isliye x = 2 is a zero of p(x).",
-        "options": [
-          "0",
-          "6",
-          "2",
-          "4"
-        ]
+        "explanation": { "hi": "p(2) = (2)² - 5(2) + 6 = 4 - 10 + 6 = 0. Isliye x = 2, p(x) ka zero hai.", "en": "p(2) = (2)² - 5(2) + 6 = 4 - 10 + 6 = 0. So x = 2 is a zero of p(x)." }
       },
       {
         "type": "truefalse",
         "difficulty": "medium",
-        "question": "A zero of p(x) is a value of x for which p(x) = 0.",
+        "question": { "hi": "p(x) ka zero woh x value hai jispe p(x) = 0 hota hai.", "en": "A zero of p(x) is a value of x for which p(x) = 0." },
         "correct": true,
-        "explanation": "True! By definition, zero woh value hai jahan polynomial ki value 0 ho jati hai."
+        "explanation": { "hi": "Sahi! By definition, zero woh value hai jahan polynomial ki value 0 ho jati hai.", "en": "True! By definition, a zero is the value at which the polynomial's value becomes 0." }
       },
       {
         "type": "mcq",
         "difficulty": "medium",
-        "question": "A quadratic polynomial can have at most how many zeros?",
+        "question": { "hi": "Quadratic polynomial ke zyada se zyada kitne zeros ho sakte hain?", "en": "A quadratic polynomial can have at most how many zeros?" },
+        "options": [{ "hi": "1", "en": "1" }, { "hi": "2", "en": "2" }, { "hi": "3", "en": "3" }, { "hi": "4", "en": "4" }],
         "correct": 1,
-        "explanation": "Quadratic polynomial ki degree 2 hoti hai, aur number of zeros hamesha degree ke barabar ya usse kam hota hai. So maximum 2 zeros.",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ]
+        "explanation": { "hi": "Quadratic polynomial ki degree 2 hoti hai, aur zeros ki number hamesha degree ke barabar ya kam hota hai. So maximum 2 zeros.", "en": "A quadratic polynomial has degree 2, and the number of zeros is always less than or equal to the degree. So maximum 2 zeros." }
       }
     ]
   },
   "notes": [
-    "Polynomial = variables + coefficients + non-negative integer powers",
-    "Degree = highest power of the variable",
-    "Types by terms: Monomial, Binomial, Trinomial, Polynomial",
-    "Types by degree: Constant (0), Linear (1), Quadratic (2), Cubic (3)",
-    "Zero of p(x) = value of x where p(x) = 0",
-    "Number of zeros ≤ Degree of polynomial"
+    { "hi": "Polynomial = variables + coefficients + non-negative integer powers", "en": "Polynomial = variables + coefficients + non-negative integer powers" },
+    { "hi": "Degree = variable ki sabse badi power", "en": "Degree = highest power of the variable" },
+    { "hi": "Terms ke hisaab se types: Monomial, Binomial, Trinomial, Polynomial", "en": "Types by terms: Monomial, Binomial, Trinomial, Polynomial" },
+    { "hi": "Degree ke hisaab se types: Constant (0), Linear (1), Quadratic (2), Cubic (3)", "en": "Types by degree: Constant (0), Linear (1), Quadratic (2), Cubic (3)" },
+    { "hi": "p(x) ka zero = woh x value jahan p(x) = 0", "en": "Zero of p(x) = value of x where p(x) = 0" },
+    { "hi": "Zeros ki sankhya ≤ Polynomial ki degree", "en": "Number of zeros ≤ Degree of polynomial" }
   ],
-  "summary": "Key Points to Remember. Polynomial = variables + coefficients + non-negative integer powers Degree = highest power of the variable",
-  "reward": {
-    "badge": null
-  }
+  "summary": { "hi": "Yaad rakhne wali baatein: Polynomial = variables + coefficients + non-negative powers. Degree = sabse badi power.", "en": "Key Points to Remember: Polynomial = variables + coefficients + non-negative powers. Degree = the highest power." },
+  "reward": { "badge": null }
 }

@@ -2,232 +2,136 @@
   "id": "chapter-02-lesson-02",
   "chapterId": "chapter-02",
   "order": 2,
-  "title": "Geometric Meaning of Zeros",
+  "title": { "hi": "Zeros ka Geometric Matlab", "en": "Geometric Meaning of Zeros" },
   "estimatedMinutes": 12,
   "xpReward": 50,
   "coinReward": 12,
   "hero": {
     "emoji": "📐",
-    "headline": "Zeros & Graphs",
-    "subtext": "Where the graph meets the x-axis"
+    "headline": { "hi": "Zeros aur Graphs", "en": "Zeros & Graphs" },
+    "subtext": { "hi": "Jahan graph x-axis se milta hai", "en": "Where the graph meets the x-axis" }
   },
   "story": {
-    "text": "The zeros of a polynomial are the x-coordinates where its graph intersects the x-axis. Let's explore the beautiful connection between algebra and geometry!"
+    "text": {
+      "hi": "Polynomial ke zeros woh x-coordinates hain jahan uska graph x-axis ko cross karta hai. Chalo algebra aur geometry ke is khoobsurat connection ko explore karte hain!",
+      "en": "The zeros of a polynomial are the x-coordinates where its graph intersects the x-axis. Let's explore the beautiful connection between algebra and geometry!"
+    }
   },
   "explanation": [
-    {
-      "type": "text",
-      "content": "For a polynomial y = p(x), the zeros are the points where y = 0, i.e., where the graph crosses or touches the x-axis."
-    },
-    {
-      "type": "text",
-      "content": "Zero = x-intercept of the graph"
-    },
-    {
-      "type": "text",
-      "content": "Linear polynomial (degree 1): Graph is a straight line → 1 zero"
-    },
-    {
-      "type": "text",
-      "content": "Quadratic polynomial (degree 2): Graph is a parabola → up to 2 zeros"
-    },
-    {
-      "type": "text",
-      "content": "Cubic polynomial (degree 3): Graph has up to 3 zeros"
-    },
-    {
-      "type": "text",
-      "content": "💡 Number of real zeros ≤ Degree of polynomial"
-    },
-    {
-      "type": "text",
-      "content": "A linear polynomial p(x) = ax + b (where a ≠ 0) has exactly one zero."
-    },
-    {
-      "type": "text",
-      "content": "Graph: A straight line"
-    },
-    {
-      "type": "text",
-      "content": "Zero: x = -b/a (where line crosses x-axis)"
-    },
-    {
-      "type": "text",
-      "content": "Example: p(x) = 2x - 4 → Zero at x = 2"
-    },
-    {
-      "type": "text",
-      "content": "The line always crosses the x-axis at exactly one point"
-    },
-    {
-      "type": "text",
-      "content": "A quadratic polynomial p(x) = ax² + bx + c (where a ≠ 0) has a parabola as its graph. The number of zeros depends on where the parabola meets the x-axis."
-    },
-    {
-      "type": "text",
-      "content": "Case 1: Parabola cuts x-axis at 2 points → 2 distinct real zeros"
-    },
-    {
-      "type": "text",
-      "content": "Case 2: Parabola touches x-axis at 1 point → 1 repeated real zero"
-    },
-    {
-      "type": "text",
-      "content": "Case 3: Parabola doesn't meet x-axis → No real zeros (complex zeros)"
-    },
-    {
-      "type": "text",
-      "content": "Discriminant (D) decides the number of zeros:"
-    },
-    {
-      "type": "formula",
-      "content": "D = b² - 4ac"
-    },
-    {
-      "type": "text",
-      "content": "For quadratic ax² + bx + c = 0:"
-    },
-    {
-      "type": "text",
-      "content": "D > 0 → 2 distinct real zeros\nD = 0 → 1 repeated real zero\nD < 0 → No real zeros (complex)"
-    },
-    {
-      "type": "text",
-      "content": "A cubic polynomial p(x) = ax³ + bx² + cx + d can have 1, 2, or 3 real zeros."
-    },
-    {
-      "type": "text",
-      "content": "3 real zeros: Graph crosses x-axis at 3 points"
-    },
-    {
-      "type": "text",
-      "content": "1 real + 2 complex zeros: Graph crosses x-axis at 1 point only"
-    },
-    {
-      "type": "text",
-      "content": "2 real zeros (one repeated): Graph crosses and touches x-axis"
-    },
-    {
-      "type": "text",
-      "content": "Shape: Like a 'wave' or 'S' curve"
-    }
+    { "type": "text", "content": { "hi": "Polynomial y = p(x) ke liye, zeros woh points hain jahan y = 0 hota hai, yaani jahan graph x-axis ko cross ya touch kare.", "en": "For a polynomial y = p(x), the zeros are the points where y = 0, i.e., where the graph crosses or touches the x-axis." } },
+    { "type": "text", "content": { "hi": "Zero = graph ka x-intercept", "en": "Zero = x-intercept of the graph" } },
+    { "type": "text", "content": { "hi": "Linear polynomial (degree 1): Graph ek straight line hai → 1 zero", "en": "Linear polynomial (degree 1): Graph is a straight line → 1 zero" } },
+    { "type": "text", "content": { "hi": "Quadratic polynomial (degree 2): Graph ek parabola hai → max 2 zeros", "en": "Quadratic polynomial (degree 2): Graph is a parabola → up to 2 zeros" } },
+    { "type": "text", "content": { "hi": "Cubic polynomial (degree 3): Graph mein max 3 zeros ho sakte hain", "en": "Cubic polynomial (degree 3): Graph has up to 3 zeros" } },
+    { "type": "text", "content": { "hi": "💡 Real zeros ki sankhya ≤ Polynomial ki degree", "en": "💡 Number of real zeros ≤ Degree of polynomial" } },
+    { "type": "text", "content": { "hi": "Linear polynomial p(x) = ax + b (jahan a ≠ 0) ka exactly ek zero hota hai.", "en": "A linear polynomial p(x) = ax + b (where a ≠ 0) has exactly one zero." } },
+    { "type": "text", "content": { "hi": "Graph: Ek straight line", "en": "Graph: A straight line" } },
+    { "type": "text", "content": { "hi": "Zero: x = -b/a (jahan line x-axis ko cross kare)", "en": "Zero: x = -b/a (where line crosses x-axis)" } },
+    { "type": "text", "content": { "hi": "Example: p(x) = 2x - 4 → Zero x = 2 pe hai", "en": "Example: p(x) = 2x - 4 → Zero at x = 2" } },
+    { "type": "text", "content": { "hi": "Line hamesha x-axis ko exactly ek point pe cross karti hai", "en": "The line always crosses the x-axis at exactly one point" } },
+    { "type": "text", "content": { "hi": "Quadratic polynomial p(x) = ax² + bx + c (jahan a ≠ 0) ka graph ek parabola hota hai. Zeros ki sankhya is baat pe depend karti hai ki parabola x-axis se kaise milta hai.", "en": "A quadratic polynomial p(x) = ax² + bx + c (where a ≠ 0) has a parabola as its graph. The number of zeros depends on where the parabola meets the x-axis." } },
+    { "type": "text", "content": { "hi": "Case 1: Parabola x-axis ko 2 points pe cut kare → 2 distinct real zeros", "en": "Case 1: Parabola cuts x-axis at 2 points → 2 distinct real zeros" } },
+    { "type": "text", "content": { "hi": "Case 2: Parabola x-axis ko 1 point pe touch kare → 1 repeated real zero", "en": "Case 2: Parabola touches x-axis at 1 point → 1 repeated real zero" } },
+    { "type": "text", "content": { "hi": "Case 3: Parabola x-axis se milta hi nahi → No real zeros (complex zeros)", "en": "Case 3: Parabola doesn't meet x-axis → No real zeros (complex zeros)" } },
+    { "type": "text", "content": { "hi": "Discriminant (D) zeros ki sankhya decide karta hai:", "en": "Discriminant (D) decides the number of zeros:" } },
+    { "type": "formula", "content": { "hi": "D = b² - 4ac", "en": "D = b² - 4ac" } },
+    { "type": "text", "content": { "hi": "Quadratic ax² + bx + c = 0 ke liye:", "en": "For quadratic ax² + bx + c = 0:" } },
+    { "type": "text", "content": { "hi": "D > 0 → 2 distinct real zeros\nD = 0 → 1 repeated real zero\nD < 0 → No real zeros (complex)", "en": "D > 0 → 2 distinct real zeros\nD = 0 → 1 repeated real zero\nD < 0 → No real zeros (complex)" } },
+    { "type": "text", "content": { "hi": "Cubic polynomial p(x) = ax³ + bx² + cx + d ke 1, 2, ya 3 real zeros ho sakte hain.", "en": "A cubic polynomial p(x) = ax³ + bx² + cx + d can have 1, 2, or 3 real zeros." } },
+    { "type": "text", "content": { "hi": "3 real zeros: Graph x-axis ko 3 points pe cross kare", "en": "3 real zeros: Graph crosses x-axis at 3 points" } },
+    { "type": "text", "content": { "hi": "1 real + 2 complex zeros: Graph x-axis ko sirf 1 point pe cross kare", "en": "1 real + 2 complex zeros: Graph crosses x-axis at 1 point only" } },
+    { "type": "text", "content": { "hi": "2 real zeros (ek repeated): Graph x-axis ko cross bhi kare aur touch bhi", "en": "2 real zeros (one repeated): Graph crosses and touches x-axis" } },
+    { "type": "text", "content": { "hi": "Shape: Ek 'wave' ya 'S' curve jaisa", "en": "Shape: Like a 'wave' or 'S' curve" } }
   ],
   "examples": [
     {
-      "problem": "For p(x) = x² - 5x + 6, find the zeros and describe the graph.",
+      "problem": { "hi": "p(x) = x² - 5x + 6 ke zeros nikalo aur graph describe karo.", "en": "For p(x) = x² - 5x + 6, find the zeros and describe the graph." },
       "steps": [
-        "p(x) = x² - 5x + 6",
-        "Factorizing:",
-        "p(x) = (x - 2)(x - 3)",
-        "Zeros: x = 2 and x = 3",
-        "Graph:",
-        "• Parabola opens upwards (a = 1 > 0)",
-        "• Cuts x-axis at (2, 0) and (3, 0)",
-        "• Vertex at x = 2.5",
-        "• Discriminant D = 25 - 24 = 1 > 0 → 2 real zeros"
+        { "hi": "p(x) = x² - 5x + 6", "en": "p(x) = x² - 5x + 6" },
+        { "hi": "Factorize karte hain:", "en": "Factorizing:" },
+        { "hi": "p(x) = (x - 2)(x - 3)", "en": "p(x) = (x - 2)(x - 3)" },
+        { "hi": "Zeros: x = 2 aur x = 3", "en": "Zeros: x = 2 and x = 3" },
+        { "hi": "Graph:", "en": "Graph:" },
+        { "hi": "• Parabola upar khulta hai (a = 1 > 0)", "en": "• Parabola opens upwards (a = 1 > 0)" },
+        { "hi": "• x-axis ko (2, 0) aur (3, 0) pe cut karta hai", "en": "• Cuts x-axis at (2, 0) and (3, 0)" },
+        { "hi": "• Vertex x = 2.5 pe hai", "en": "• Vertex at x = 2.5" },
+        { "hi": "• Discriminant D = 25 - 24 = 1 > 0 → 2 real zeros", "en": "• Discriminant D = 25 - 24 = 1 > 0 → 2 real zeros" }
       ]
     },
     {
-      "problem": "For p(x) = x² - 4x + 4, find the zeros and describe the graph.",
+      "problem": { "hi": "p(x) = x² - 4x + 4 ke zeros nikalo aur graph describe karo.", "en": "For p(x) = x² - 4x + 4, find the zeros and describe the graph." },
       "steps": [
-        "p(x) = x² - 4x + 4",
-        "Factorizing:",
-        "p(x) = (x - 2)²",
-        "Zero: x = 2 (repeated zero)",
-        "Graph:",
-        "• Parabola opens upwards",
-        "• Touches x-axis at exactly one point (2, 0)",
-        "• Discriminant D = 16 - 16 = 0 → 1 repeated zero"
+        { "hi": "p(x) = x² - 4x + 4", "en": "p(x) = x² - 4x + 4" },
+        { "hi": "Factorize karte hain:", "en": "Factorizing:" },
+        { "hi": "p(x) = (x - 2)²", "en": "p(x) = (x - 2)²" },
+        { "hi": "Zero: x = 2 (repeated zero)", "en": "Zero: x = 2 (repeated zero)" },
+        { "hi": "Graph:", "en": "Graph:" },
+        { "hi": "• Parabola upar khulta hai", "en": "• Parabola opens upwards" },
+        { "hi": "• Sirf ek point (2, 0) pe touch karta hai", "en": "• Touches x-axis at exactly one point (2, 0)" },
+        { "hi": "• Discriminant D = 16 - 16 = 0 → 1 repeated zero", "en": "• Discriminant D = 16 - 16 = 0 → 1 repeated zero" }
       ]
     },
     {
-      "problem": "For p(x) = x² + x + 1, check if it has real zeros.",
+      "problem": { "hi": "p(x) = x² + x + 1 ke real zeros hain ya nahi, check karo.", "en": "For p(x) = x² + x + 1, check if it has real zeros." },
       "steps": [
-        "p(x) = x² + x + 1",
-        "Discriminant:",
-        "D = b² - 4ac",
-        "D = (1)² - 4(1)(1)",
-        "D = 1 - 4 = -3",
-        "Since D < 0:",
-        "• No real zeros",
-        "• Graph doesn't intersect x-axis",
-        "• Parabola is completely above x-axis (a > 0)"
+        { "hi": "p(x) = x² + x + 1", "en": "p(x) = x² + x + 1" },
+        { "hi": "Discriminant:", "en": "Discriminant:" },
+        { "hi": "D = b² - 4ac", "en": "D = b² - 4ac" },
+        { "hi": "D = (1)² - 4(1)(1)", "en": "D = (1)² - 4(1)(1)" },
+        { "hi": "D = 1 - 4 = -3", "en": "D = 1 - 4 = -3" },
+        { "hi": "Kyunki D < 0:", "en": "Since D < 0:" },
+        { "hi": "• Koi real zeros nahi hain", "en": "• No real zeros" },
+        { "hi": "• Graph x-axis ko intersect nahi karta", "en": "• Graph doesn't intersect x-axis" },
+        { "hi": "• Parabola poori tarah x-axis ke upar hai (a > 0)", "en": "• Parabola is completely above x-axis (a > 0)" }
       ]
     }
   ],
   "quiz": {
     "questions": [
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "A quadratic polynomial can have at most how many real zeros?",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Quadratic polynomial ke zyada se zyada kitne real zeros ho sakte hain?", "en": "A quadratic polynomial can have at most how many real zeros?" },
+        "options": [{ "hi": "1", "en": "1" }, { "hi": "2", "en": "2" }, { "hi": "3", "en": "3" }, { "hi": "4", "en": "4" }],
         "correct": 1,
-        "explanation": "Quadratic polynomial ki degree 2 hoti hai. Maximum real zeros = degree = 2.",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ]
+        "explanation": { "hi": "Quadratic polynomial ki degree 2 hoti hai. Maximum real zeros = degree = 2.", "en": "A quadratic polynomial has degree 2. Maximum real zeros = degree = 2." }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "If the graph of p(x) does not intersect the x-axis, then:",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Agar p(x) ka graph x-axis ko intersect nahi karta, toh:", "en": "If the graph of p(x) does not intersect the x-axis, then:" },
+        "options": [{ "hi": "p(x) ke koi zeros nahi hain", "en": "p(x) has no zeros" }, { "hi": "p(x) ke real zeros hain", "en": "p(x) has real zeros" }, { "hi": "p(x) ke complex zeros hain", "en": "p(x) has complex zeros" }, { "hi": "A aur C dono", "en": "Both A and C" }],
         "correct": 3,
-        "explanation": "Graph x-axis ko na chhune ka matlab: no real zeros. Lekin complex zeros hamesha exist karte hain (Fundamental Theorem of Algebra).",
-        "options": [
-          "p(x) has no zeros",
-          "p(x) has real zeros",
-          "p(x) has complex zeros",
-          "Both A and C"
-        ]
+        "explanation": { "hi": "Graph ka x-axis ko na chhuna matlab: no real zeros. Lekin complex zeros hamesha exist karte hain (Fundamental Theorem of Algebra).", "en": "The graph not touching the x-axis means: no real zeros. But complex zeros always exist (Fundamental Theorem of Algebra)." }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "For x² - 6x + 9 = 0, the discriminant D is:",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "x² - 6x + 9 = 0 ke liye discriminant D kya hai?", "en": "For x² - 6x + 9 = 0, the discriminant D is:" },
+        "options": [{ "hi": "36", "en": "36" }, { "hi": "0", "en": "0" }, { "hi": "-36", "en": "-36" }, { "hi": "9", "en": "9" }],
         "correct": 1,
-        "explanation": "D = b² - 4ac = (-6)² - 4(1)(9) = 36 - 36 = 0. Isliye 1 repeated real zero hoga.",
-        "options": [
-          "36",
-          "0",
-          "-36",
-          "9"
-        ]
+        "explanation": { "hi": "D = b² - 4ac = (-6)² - 4(1)(9) = 36 - 36 = 0. Isliye 1 repeated real zero hoga.", "en": "D = b² - 4ac = (-6)² - 4(1)(9) = 36 - 36 = 0. So there will be 1 repeated real zero." }
       },
       {
-        "type": "truefalse",
-        "difficulty": "medium",
-        "question": "A linear polynomial always has exactly one real zero.",
+        "type": "truefalse", "difficulty": "medium",
+        "question": { "hi": "Linear polynomial ka hamesha exactly ek real zero hota hai.", "en": "A linear polynomial always has exactly one real zero." },
         "correct": true,
-        "explanation": "True! Linear polynomial ax + b = 0 ka hamesha ek hi solution hota hai: x = -b/a."
+        "explanation": { "hi": "Sahi! Linear polynomial ax + b = 0 ka hamesha ek hi solution hota hai: x = -b/a.", "en": "True! A linear polynomial ax + b = 0 always has exactly one solution: x = -b/a." }
       },
       {
-        "type": "mcq",
-        "difficulty": "medium",
-        "question": "If D < 0 for a quadratic, the graph:",
+        "type": "mcq", "difficulty": "medium",
+        "question": { "hi": "Agar quadratic ke liye D < 0 hai, toh graph:", "en": "If D < 0 for a quadratic, the graph:" },
+        "options": [{ "hi": "x-axis ko 2 points pe cut karega", "en": "Cuts x-axis at 2 points" }, { "hi": "x-axis ko touch karega", "en": "Touches x-axis" }, { "hi": "x-axis se kabhi nahi milega", "en": "Does not meet x-axis" }, { "hi": "Origin se guzrega", "en": "Passes through origin" }],
         "correct": 2,
-        "explanation": "D < 0 means no real roots, isliye graph x-axis ko kabhi nahi milega.",
-        "options": [
-          "Cuts x-axis at 2 points",
-          "Touches x-axis",
-          "Does not meet x-axis",
-          "Passes through origin"
-        ]
+        "explanation": { "hi": "D < 0 ka matlab no real roots, isliye graph x-axis ko kabhi nahi milega.", "en": "D < 0 means no real roots, so the graph will never meet the x-axis." }
       }
     ]
   },
   "notes": [
-    "Zero = x-coordinate where graph meets x-axis",
-    "Linear (degree 1): Always 1 real zero",
-    "Quadratic (degree 2): 0, 1, or 2 real zeros (depends on D = b² - 4ac)",
-    "Cubic (degree 3): 1, 2, or 3 real zeros",
-    "Number of real zeros can never exceed the degree",
-    "If D > 0: 2 zeros, D = 0: 1 zero, D < 0: No real zeros"
+    { "hi": "Zero = woh x-coordinate jahan graph x-axis se mile", "en": "Zero = x-coordinate where graph meets x-axis" },
+    { "hi": "Linear (degree 1): Hamesha 1 real zero", "en": "Linear (degree 1): Always 1 real zero" },
+    { "hi": "Quadratic (degree 2): 0, 1, ya 2 real zeros (D = b² - 4ac pe depend)", "en": "Quadratic (degree 2): 0, 1, or 2 real zeros (depends on D = b² - 4ac)" },
+    { "hi": "Cubic (degree 3): 1, 2, ya 3 real zeros", "en": "Cubic (degree 3): 1, 2, or 3 real zeros" },
+    { "hi": "Real zeros ki sankhya kabhi degree se zyada nahi ho sakti", "en": "Number of real zeros can never exceed the degree" },
+    { "hi": "D > 0: 2 zeros, D = 0: 1 zero, D < 0: No real zeros", "en": "If D > 0: 2 zeros, D = 0: 1 zero, D < 0: No real zeros" }
   ],
-  "summary": "Key Points to Remember. Zero = x-coordinate where graph meets x-axis Linear (degree 1): Always 1 real zero",
-  "reward": {
-    "badge": null
-  }
+  "summary": { "hi": "Yaad rakhne wali baatein: Zero = jahan graph x-axis se mile. Linear (degree 1) ka hamesha 1 real zero hota hai.", "en": "Key Points to Remember: Zero = where the graph meets the x-axis. Linear (degree 1) always has 1 real zero." },
+  "reward": { "badge": null }
 }
