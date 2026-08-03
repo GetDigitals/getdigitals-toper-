@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../store/AuthContext';
 
@@ -5,11 +7,20 @@ import { useAuth } from '../store/AuthContext';
  * Shown for any logged-in student whose Firestore paymentStatus isn't
  * 'approved' yet. Nothing behind this screen is reachable — App.jsx's
  * RequireAuth wrapper redirects here for every protected route.
- * Auto-unlocks live the moment Ashok flips paymentStatus in Firestore,
- * thanks to the onSnapshot listener in AuthContext.
+ *
+ * Auto-unlocks live the moment Ashok flips paymentStatus in Firestore:
+ * the onSnapshot listener in AuthContext updates `isApproved`, and the
+ * effect below actively navigates away as soon as that happens — this
+ * page doesn't rely on the student navigating anywhere themselves, since
+ * they're typically just sitting here waiting.
  */
 export default function PaymentPending() {
-  const { user, logout } = useAuth();
+  const { user, logout, isApproved } = useAuth();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isApproved) navigate('/home', { replace: true });
+  }, [isApproved, navigate]);
 
   return (
     <div className="h-full flex flex-col items-center justify-center px-6 text-center bg-[var(--color-ink)]">
