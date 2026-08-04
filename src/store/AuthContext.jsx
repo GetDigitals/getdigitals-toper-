@@ -10,6 +10,7 @@ export function AuthProvider({ children }) {
   const [authLoading, setAuthLoading] = useState(true);
   const [profile, setProfile] = useState(null); // Firestore users/{uid} doc: { email, paymentStatus, ... }
   const [profileLoading, setProfileLoading] = useState(true);
+  const [profileError, setProfileError] = useState(null);
 
   useEffect(() => {
     const unsub = watchAuthState((u) => {
@@ -26,6 +27,7 @@ export function AuthProvider({ children }) {
     if (!user) {
       setProfile(null);
       setProfileLoading(false);
+      setProfileError(null);
       return;
     }
     setProfileLoading(true);
@@ -34,8 +36,16 @@ export function AuthProvider({ children }) {
       (snap) => {
         setProfile(snap.exists() ? snap.data() : null);
         setProfileLoading(false);
+        setProfileError(null);
       },
-      () => setProfileLoading(false)
+      (err) => {
+        // If this ever fires (e.g. a Firestore rules mismatch), we want it
+        // visible on-screen — silently swallowing it is what made a real
+        // rules bug look identical to "the fix doesn't work" from outside.
+        console.error('[AuthContext] Firestore profile listener failed:', err.code, err.message);
+        setProfileError(`${err.code}: ${err.message}`);
+        setProfileLoading(false);
+      }
     );
     return unsub;
   }, [user]);
@@ -66,7 +76,7 @@ export function AuthProvider({ children }) {
 
   return (
     <AuthCtx.Provider
-      value={{ user, authLoading, profile, profileLoading, isApproved, register, login, logout, forgotPassword }}
+      value={{ user, authLoading, profile, profileLoading, profileError, isApproved, register, login, logout, forgotPassword }}
     >
       {children}
     </AuthCtx.Provider>

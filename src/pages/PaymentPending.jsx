@@ -15,7 +15,7 @@ import { useAuth } from '../store/AuthContext';
  * they're typically just sitting here waiting.
  */
 export default function PaymentPending() {
-  const { user, logout, isApproved } = useAuth();
+  const { user, logout, isApproved, profileError, profileLoading } = useAuth();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -34,6 +34,15 @@ export default function PaymentPending() {
           Tumhara account bana hua hai, lekin lessons unlock karne ke liye payment complete karna hoga. Payment ke baad turant access mil jaayega — refresh karne ki bhi zaroorat nahi.
         </p>
 
+        {profileError && (
+          <p className="text-[12px] text-red-400 bg-red-950/40 border border-red-800 rounded-lg px-3 py-2 mb-4 break-all">
+            ⚠️ Status check fail hui: {profileError}
+          </p>
+        )}
+        {profileLoading && (
+          <p className="text-[12px] text-[var(--color-muted)] mb-4">Status check ho raha hai…</p>
+        )}
+
         <a
           href="https://wa.me/916375351903?text=Hi%2C%20maine%20GetDigitals%20Topper%20app%20pe%20register%20kiya%20hai%2C%20payment%20karna%20chahta%20hoon"
           target="_blank"
@@ -43,6 +52,9 @@ export default function PaymentPending() {
           💬 WhatsApp pe Payment Karo
         </a>
 
+        <button onClick={() => window.location.reload()} className="w-full py-2 text-[13px] text-[var(--color-muted)] underline">
+          Status dobara check karo
+        </button>
         <button onClick={logout} className="w-full py-2 text-[13px] text-[var(--color-muted)]">
           Logout
         </button>
