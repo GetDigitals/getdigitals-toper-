@@ -23,6 +23,15 @@ export function AuthProvider({ children }) {
   // Live-listen to the user's Firestore profile so an approval from the
   // Firebase console (Ashok marking paymentStatus: 'approved') unlocks
   // the app immediately, without the student needing to log out/in again.
+  //
+  // IMPORTANT: this depends on `user?.uid` (a stable string), NOT the
+  // whole `user` object. Firebase's onAuthStateChanged can re-emit a new
+  // User object reference for the SAME logical session (token refresh,
+  // etc.) — depending on the object itself caused this effect to tear
+  // down and restart the Firestore listener in a loop every time that
+  // happened, so profileLoading kept resetting to true and never got a
+  // chance to settle. That was the real "stuck on Payment Pending /
+  // flickering" bug, not caching and not a deploy-sync issue.
   useEffect(() => {
     if (!user) {
       setProfile(null);
@@ -48,7 +57,7 @@ export function AuthProvider({ children }) {
       }
     );
     return unsub;
-  }, [user]);
+  }, [user?.uid]);
 
   const register = useCallback(async (email, password, name, mobile) => {
     const u = await registerUser(email, password, name, mobile);
