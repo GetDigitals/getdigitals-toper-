@@ -1,26 +1,28 @@
 import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../store/AuthContext';
 
 /**
- * Shown for any logged-in student whose Firestore paymentStatus isn't
- * 'approved' yet. Nothing behind this screen is reachable — App.jsx's
- * RequireAuth wrapper redirects here for every protected route.
+ * Shown when a logged-in student taps something that needs payment —
+ * Chapter 2 onwards, or Previous Year Papers. Chapter 1 and the rest of
+ * the app (Home, Chapters list, Dashboard, Settings) are free and never
+ * route here.
  *
  * Auto-unlocks live the moment Ashok flips paymentStatus in Firestore:
  * the onSnapshot listener in AuthContext updates `isApproved`, and the
- * effect below actively navigates away as soon as that happens — this
- * page doesn't rely on the student navigating anywhere themselves, since
- * they're typically just sitting here waiting.
+ * effect below actively navigates the student back to whatever they were
+ * trying to open as soon as that happens.
  */
 export default function PaymentPending() {
   const { user, logout, isApproved, profileError, profileLoading } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+  const returnTo = location.state?.from || '/chapters';
 
   useEffect(() => {
-    if (isApproved) navigate('/home', { replace: true });
-  }, [isApproved, navigate]);
+    if (isApproved) navigate(returnTo, { replace: true });
+  }, [isApproved, navigate, returnTo]);
 
   return (
     <div className="h-full flex flex-col items-center justify-center px-6 text-center bg-[var(--color-ink)]">
@@ -31,7 +33,7 @@ export default function PaymentPending() {
           {user?.email}
         </p>
         <p className="text-[14px] text-[var(--color-cream)] leading-relaxed mt-4 mb-6">
-          Tumhara account bana hua hai, lekin lessons unlock karne ke liye payment complete karna hoga. Payment ke baad turant access mil jaayega — refresh karne ki bhi zaroorat nahi.
+          Chapter 1 free hai, lekin usse aage (Chapter 2 se lekar 14 tak) aur Previous Year Papers unlock karne ke liye payment complete karna hoga. Payment ke baad turant access mil jaayega — refresh karne ki bhi zaroorat nahi.
         </p>
 
         {profileError && (
@@ -54,6 +56,9 @@ export default function PaymentPending() {
 
         <button onClick={() => window.location.reload()} className="w-full py-2 text-[13px] text-[var(--color-muted)] underline">
           Status dobara check karo
+        </button>
+        <button onClick={() => navigate('/chapters')} className="w-full py-2 text-[13px] text-[var(--color-muted)] underline">
+          Chapter 1 free hai — wahin se shuru karo
         </button>
         <button onClick={logout} className="w-full py-2 text-[13px] text-[var(--color-muted)]">
           Logout

@@ -30,7 +30,7 @@ import {
   onAuthStateChanged,
   sendPasswordResetEmail,
 } from 'firebase/auth';
-import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { doc, getDoc, setDoc, addDoc, collection, serverTimestamp } from 'firebase/firestore';
 import { auth, db } from './firebase';
 
 const DEVICE_ID_KEY = 'gd-topper-device-id';
@@ -48,19 +48,100 @@ export function watchAuthState(callback) {
   return onAuthStateChanged(auth, callback);
 }
 
-export async function registerUser(email, password, name, mobile) {
+/** Short, shareable code derived from the uid — unique because the uid is. */
+function codeFromUid(uid) {
+  return uid.slice(0, 6).toUpperCase();
+}
+
+/**
+ * Registers a new student and, if they arrived via a friend's referral
+ * link (`?ref=CODE`, resolved by Login.jsx and passed in as
+ * `referredByCode`), links the two accounts.
+ *
+ * How referral linking works (all client-side, no backend):
+ *   1. `referralCodes/{code}` is a tiny lookup collection: code -> uid.
+ *      Every student gets their own entry, written once at registration.
+ *      Anyone signed in can read it (needed to resolve a friend's code),
+ *      but a student can only ever CREATE the entry for their own code.
+ *   2. `referrals/{autoId}` is an append-only log: { referrerUid,
+ *      referredUid, createdAt }. A student can only create a row where
+ *      referredUid is their own uid (i.e. you can only log yourself being
+ *      referred, never fake a referral for someone else), and it can
+ *      never be edited or deleted afterwards. The Refer & Earn screen
+ *      counts these rows to show how many people you've brought in.
+ *   3. We deliberately do NOT let a new student write anything onto the
+ *      referrer's own users/{uid} document — Firestore rules only allow
+ *      you to touch your own doc, which is what actually keeps this safe
+ *      from anyone inflating their own or someone else's stats.
+ */
+export async function registerUser(email, password, name, mobile, referredByCode) {
   const cred = await createUserWithEmailAndPassword(auth, email, password);
   const deviceId = getDeviceId();
+  const ownCode = codeFromUid(cred.user.uid);
+
+  let referredByUid = null;
+  const cleanedRefCode = referredByCode?.trim().toUpperCase() || null;
+  if (cleanedRefCode && cleanedRefCode !== ownCode) {
+    try {
+      const refDoc = await getDoc(doc(db, 'referralCodes', cleanedRefCode));
+      if (refDoc.exists() && refDoc.data().uid !== cred.user.uid) {
+        referredByUid = refDoc.data().uid;
+      }
+    } catch (e) {
+      console.error('[authService] referral code lookup failed:', e);
+    }
+  }
+
   await setDoc(doc(db, 'users', cred.user.uid), {
     email,
     name: name?.trim() || '',
     mobile: mobile?.trim() || '',
     deviceId,
     paymentStatus: 'pending', // student cannot access lessons until Ashok approves in Firestore console
+    referralCode: ownCode,
+    referredByCode: referredByUid ? cleanedRefCode : null,
     createdAt: serverTimestamp(),
     lastLoginAt: serverTimestamp(),
   });
+
+  // Claim our own referral code in the lookup table (best-effort — if this
+  // fails the student can still use the app, they just can't refer others
+  // until it's retried, e.g. on next login via ensureReferralCode below).
+  try {
+    await setDoc(doc(db, 'referralCodes', ownCode), { uid: cred.user.uid, createdAt: serverTimestamp() });
+  } catch (e) {
+    console.error('[authService] claiming own referral code failed:', e);
+  }
+
+  if (referredByUid) {
+    try {
+      await addDoc(collection(db, 'referrals'), {
+        referrerUid: referredByUid,
+        referredUid: cred.user.uid,
+        createdAt: serverTimestamp(),
+      });
+    } catch (e) {
+      console.error('[authService] logging referral failed:', e);
+    }
+  }
+
   return cred.user;
+}
+
+/** Called on login for older accounts that registered before referralCode existed, so everyone eventually has one. */
+export async function ensureReferralCode(uid) {
+  const ownCode = codeFromUid(uid);
+  const userRef = doc(db, 'users', uid);
+  const snap = await getDoc(userRef);
+  if (snap.exists() && !snap.data().referralCode) {
+    await setDoc(userRef, { referralCode: ownCode }, { merge: true });
+    try {
+      await setDoc(doc(db, 'referralCodes', ownCode), { uid, createdAt: serverTimestamp() });
+    } catch (e) {
+      console.error('[authService] backfilling referral code failed:', e);
+    }
+  }
+  return ownCode;
 }
 
 /**

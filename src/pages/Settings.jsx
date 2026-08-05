@@ -51,6 +51,9 @@ export default function Settings() {
         <Row label="Logged in as">
           <span className="text-[12px] text-[var(--color-muted)] font-mono truncate max-w-[160px]">{user?.email}</span>
         </Row>
+        <button onClick={() => navigate('/refer')} className="w-full py-2.5 rounded-xl border border-[var(--color-saffron)]/40 text-[var(--color-saffron-soft)] text-[13px] font-medium">
+          🎁 Refer & Earn
+        </button>
         <button onClick={handleLogout} className="w-full py-2.5 rounded-xl border border-[var(--color-border)] text-[13px] font-medium">
           Logout
         </button>

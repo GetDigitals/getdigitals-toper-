@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState, useCallback } from 'react';
 import { doc, onSnapshot } from 'firebase/firestore';
 import { db } from '../services/firebase';
-import { watchAuthState, registerUser, loginUser, logoutUser, resetPassword } from '../services/authService';
+import { watchAuthState, registerUser, loginUser, logoutUser, resetPassword, ensureReferralCode } from '../services/authService';
 
 const AuthCtx = createContext(null);
 
@@ -59,8 +59,8 @@ export function AuthProvider({ children }) {
     return unsub;
   }, [user?.uid]);
 
-  const register = useCallback(async (email, password, name, mobile) => {
-    const u = await registerUser(email, password, name, mobile);
+  const register = useCallback(async (email, password, name, mobile, referredByCode) => {
+    const u = await registerUser(email, password, name, mobile, referredByCode);
     setUser(u);
     return u;
   }, []);
@@ -68,6 +68,8 @@ export function AuthProvider({ children }) {
   const login = useCallback(async (email, password) => {
     const u = await loginUser(email, password);
     setUser(u);
+    // Backfills a referral code for accounts created before this feature existed. Best-effort, never blocks login.
+    ensureReferralCode(u.uid).catch(() => {});
     return u;
   }, []);
 

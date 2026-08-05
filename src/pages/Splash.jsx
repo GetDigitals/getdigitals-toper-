@@ -5,17 +5,21 @@ import { useAuth } from '../store/AuthContext';
 
 export default function Splash() {
   const navigate = useNavigate();
-  const { user, authLoading, isApproved, profileLoading } = useAuth();
+  const { user, authLoading } = useAuth();
 
   useEffect(() => {
-    if (authLoading || (user && profileLoading)) return; // wait for Firebase to report auth + profile state
+    if (authLoading) return; // wait for Firebase to report auth state
     const t = setTimeout(() => {
+      // Chapter 1 and the rest of the app (Home, Chapters, Dashboard,
+      // Settings) are free for every logged-in student — payment is only
+      // checked per-chapter (Chapter 2+) and for Previous Year Papers, by
+      // the route guards in App.jsx. Splash should never send anyone to
+      // /payment-pending on its own.
       if (!user) navigate('/login', { replace: true });
-      else if (!isApproved) navigate('/payment-pending', { replace: true });
       else navigate('/home', { replace: true });
     }, 1200);
     return () => clearTimeout(t);
-  }, [authLoading, profileLoading, user, isApproved, navigate]);
+  }, [authLoading, user, navigate]);
 
   return (
     <div className="h-full flex flex-col items-center justify-center bg-[var(--color-ink)]">

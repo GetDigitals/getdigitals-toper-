@@ -18,5 +18,37 @@ service cloud.firestore {
       allow update: if request.auth != null && request.auth.uid == userId
                     && request.resource.data.paymentStatus == resource.data.paymentStatus;
     }
+
+    // referralCodes/{code} — a tiny lookup table mapping a short code to
+    // the uid that owns it, so a new signup can resolve a friend's link
+    // (?ref=CODE) into who referred them.
+    match /referralCodes/{code} {
+      // Any signed-in student can look up a code (needed to resolve a
+      // friend's referral link before they've registered anything else).
+      allow read: if request.auth != null;
+
+      // A student may only ever claim the code entry that points to
+      // THEIR OWN uid, and only once — a code, once claimed, is immutable.
+      allow create: if request.auth != null
+                    && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
+    // referrals/{autoId} — an append-only log of who referred whom.
+    match /referrals/{referralId} {
+      // A student can see referrals where they're the referrer (their own
+      // Refer & Earn count) or the one who was referred.
+      allow read: if request.auth != null
+                  && (resource.data.referrerUid == request.auth.uid
+                      || resource.data.referredUid == request.auth.uid);
+
+      // You may only log a referral for YOURSELF being the one referred —
+      // this is what stops anyone from faking referrals for other people
+      // or inflating someone else's count.
+      allow create: if request.auth != null
+                    && request.resource.data.referredUid == request.auth.uid
+                    && request.resource.data.referrerUid != request.auth.uid;
+      allow update, delete: if false;
+    }
   }
 }

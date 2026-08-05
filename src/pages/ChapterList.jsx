@@ -2,12 +2,15 @@ import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { useAuth } from '../store/AuthContext';
+import { requiresPayment } from '../App';
 import ChapterCard from '../components/ChapterCard';
 
 export default function ChapterList() {
   const navigate = useNavigate();
   const chapters = useMemo(() => getAllChapters(), []);
   const { progress, isChapterUnlocked } = useProgress();
+  const { isApproved } = useAuth();
   const [query, setQuery] = useState('');
 
   const filtered = chapters.filter((c) => c.title.toLowerCase().includes(query.toLowerCase()));
@@ -28,7 +31,14 @@ export default function ChapterList() {
           const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;
           const pct = lessons.length ? Math.round((done / lessons.length) * 100) : 0;
           return (
-            <ChapterCard key={ch.id} chapter={ch} index={i} unlocked={isChapterUnlocked(ch.id)} progressPercent={pct} />
+            <ChapterCard
+              key={ch.id}
+              chapter={ch}
+              index={i}
+              unlocked={isChapterUnlocked(ch.id)}
+              paymentLocked={requiresPayment(ch) && !isApproved}
+              progressPercent={pct}
+            />
           );
         })}
         {filtered.length === 0 && (

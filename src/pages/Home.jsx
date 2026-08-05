@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
+import { requiresPayment } from '../App';
 import TopStatsBar from '../components/TopStatsBar';
 import ChapterCard from '../components/ChapterCard';
 import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
@@ -11,7 +12,7 @@ import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
 export default function Home() {
   const navigate = useNavigate();
   const { progress, isChapterUnlocked, recordStreak } = useProgress();
-  const { profile } = useAuth();
+  const { profile, isApproved } = useAuth();
   const chapters = useMemo(() => getAllChapters(), []);
 
   const continueChapter = chapters.find((ch) => {
@@ -93,6 +94,7 @@ export default function Home() {
               chapter={ch}
               index={i}
               unlocked={isChapterUnlocked(ch.id)}
+              paymentLocked={requiresPayment(ch) && !isApproved}
               progressPercent={(() => {
                 const lessons = getLessonsForChapter(ch.id);
                 const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;
@@ -109,6 +111,17 @@ export default function Home() {
           <div className="flex-1 text-left">
             <p className="text-[13px] font-medium">Previous Year Papers</p>
             <p className="text-[11px] text-[var(--color-muted)]">Guess papers + last 5 years solved</p>
+          </div>
+          <span className="text-[var(--color-muted)] text-lg">›</span>
+        </button>
+        <button
+          onClick={() => navigate('/refer')}
+          className="w-full mt-2.5 flex items-center gap-3 rounded-2xl px-4 py-3.5 bg-[var(--color-surface)] border border-[var(--color-saffron)]/25"
+        >
+          <div className="w-10 h-10 rounded-xl bg-[var(--color-saffron)]/15 flex items-center justify-center text-lg shrink-0">🎁</div>
+          <div className="flex-1 text-left">
+            <p className="text-[13px] font-medium">Refer & Earn</p>
+            <p className="text-[11px] text-[var(--color-muted)]">Dost ko bhejo, dono ko fayda</p>
           </div>
           <span className="text-[var(--color-muted)] text-lg">›</span>
         </button>

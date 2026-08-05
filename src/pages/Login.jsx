@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../store/AuthContext';
 
@@ -19,8 +19,10 @@ function friendlyError(err) {
 
 export default function Login() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const referredByCode = searchParams.get('ref');
   const { register, login, forgotPassword } = useAuth();
-  const [mode, setMode] = useState('login'); // 'login' | 'register'
+  const [mode, setMode] = useState(referredByCode ? 'register' : 'login'); // 'login' | 'register'
   const [name, setName] = useState('');
   const [mobile, setMobile] = useState('');
   const [email, setEmail] = useState('');
@@ -35,7 +37,7 @@ export default function Login() {
     setLoading(true);
     try {
       if (mode === 'register') {
-        await register(email.trim(), password, name.trim(), mobile.trim());
+        await register(email.trim(), password, name.trim(), mobile.trim(), referredByCode);
       } else {
         await login(email.trim(), password);
       }
@@ -76,6 +78,12 @@ export default function Login() {
             ? 'Apna naam daalo — app tumhare naam se personalize ho jaayegi.'
             : 'Ek email sirf ek device pe chalega — apna account share mat karna.'}
         </p>
+
+        {mode === 'register' && referredByCode && (
+          <p className="text-[12px] text-[var(--color-saffron-soft)] bg-[var(--color-saffron)]/10 border border-[var(--color-saffron)]/30 rounded-xl px-3 py-2 mb-3">
+            🎉 Dost ke referral se aaye ho — register karte hi unke Refer & Earn count mein add ho jaaoge!
+          </p>
+        )}
 
         <form onSubmit={handleSubmit} className="space-y-3">
           {mode === 'register' && (
