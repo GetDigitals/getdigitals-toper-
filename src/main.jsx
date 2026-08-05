@@ -12,22 +12,30 @@ createRoot(document.getElementById('root')).render(
 // Minimal offline-first service worker registration.
 // Caches the built app shell so it works with zero network after first load.
 //
-// Auto-refresh: our sw.js calls skipWaiting() + clients.claim() on every
-// new deploy, which hands control to the new service worker immediately —
-// but a tab that's ALREADY open (sitting on the old JS in memory, since
-// this is a single-page app with no further page navigations) won't pick
-// up new code on its own. The controllerchange listener below forces a
-// one-time reload the moment that handover happens, so an old tab that
-// was sitting on a stale "Payment Pending" (or any other stale state)
-// gets the new build automatically instead of needing a manual refresh.
+// Auto-refresh for ALREADY-OPEN tabs when a new version deploys: the
+// `controllerchange` event fires whenever the active service worker
+// changes — but that includes the very FIRST time a page is ever
+// controlled (a brand-new registration, or a tab whose site data was
+// cleared), not just genuine version updates. Force-reloading on that
+// first activation interrupted whatever the student was doing at that
+// exact moment (e.g. mid login/register submit), which looked like the
+// screen going blank and never proceeding.
+//
+// The fix: only treat it as a real update — and reload — if this page
+// was ALREADY being served by a service worker when it loaded (i.e.
+// there's something stale to actually replace). If the page loaded
+// uncontrolled (first-ever visit, fresh install), the first activation
+// is normal and must NOT trigger a reload.
 if ('serviceWorker' in navigator) {
+  const hadController = !!navigator.serviceWorker.controller;
+
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
   });
 
   let hasReloaded = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (hasReloaded) return;
+    if (!hadController || hasReloaded) return;
     hasReloaded = true;
     window.location.reload();
   });
