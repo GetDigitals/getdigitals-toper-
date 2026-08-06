@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import ErrorBoundary from './ErrorBoundary.jsx'
+import { id as myBuildId } from './buildId.json'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -77,9 +78,11 @@ if ('serviceWorker' in navigator) {
 // public/sw.js itself changes bytes, which most deploys DON'T touch (only
 // the hashed JS/CSS bundle changes) — so on its own it silently misses
 // almost every real deploy. This compares the build id baked into this
-// running bundle against build-id.txt fetched fresh from the network
-// (never cached), and reloads once if they differ.
-import(/* @vite-ignore */ './buildId.json').then(({ id: myBuildId }) => {
+// running bundle (imported statically above — Vite inlines JSON imports
+// at build time, no runtime fetch needed for our OWN id) against
+// build-id.txt fetched fresh from the network (never cached), and
+// reloads once if they differ.
+(function watchForNewVersion() {
   let reloaded = false;
   async function checkForUpdate() {
     if (reloaded || document.hidden) return;
@@ -101,4 +104,4 @@ import(/* @vite-ignore */ './buildId.json').then(({ id: myBuildId }) => {
   document.addEventListener('visibilitychange', () => {
     if (!document.hidden) checkForUpdate(); // e.g. student switches back after a break
   });
-});
+})();
