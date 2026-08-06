@@ -1,3 +1,9 @@
 node_modules
 dist
 .DS_Store
+
+# No env vars are used yet, but if any get added later they must never
+# be committed — safe to add now even though nothing matches it today.
+.env
+.env.*
+!.env.example
