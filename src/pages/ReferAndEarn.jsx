@@ -38,7 +38,7 @@ export default function ReferAndEarn() {
     setTimeout(() => setCopied(false), 2000);
   }
 
-  const shareText = `GetDigitals Topper app try karo — CBSE Class 10 Maths ke liye best hai! Mera link se register karo: ${link}`;
+  const shareText = `GetDigitals Topper app try karo — CBSE Class 10th ke liye best hai! Is link se join karo, extra benefit milega: ${link}`;
   const whatsappHref = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
 
   return (
