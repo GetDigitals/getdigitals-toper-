@@ -5,14 +5,16 @@ import { getAllChapters, getLessonsForChapter } from '../services/contentLoader'
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
 import { requiresPayment } from '../App';
+import { t, langCode } from '../utils/i18n';
 import TopStatsBar from '../components/TopStatsBar';
 import ChapterCard from '../components/ChapterCard';
 import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
 
 export default function Home() {
   const navigate = useNavigate();
-  const { progress, isChapterUnlocked, recordStreak } = useProgress();
+  const { progress, isChapterUnlocked, recordStreak, settings } = useProgress();
   const { profile, isApproved } = useAuth();
+  const lang = langCode(settings.language);
   const chapters = useMemo(() => getAllChapters(), []);
 
   const continueChapter = chapters.find((ch) => {
@@ -49,8 +51,8 @@ export default function Home() {
             className="w-full mt-5 rounded-2xl p-4 text-left bg-gradient-to-br from-[var(--color-surface-raised)] to-[var(--color-surface)] border border-[var(--color-saffron)]/30 shadow-[var(--shadow-glow-saffron)]"
           >
             <p className="text-[11px] uppercase tracking-wide text-[var(--color-saffron-soft)] font-semibold mb-1">Continue Learning</p>
-            <h3 className="font-display font-semibold text-lg">{continueChapter.title}</h3>
-            <p className="text-[13px] text-[var(--color-muted)] mt-0.5">{nextLesson.title}</p>
+            <h3 className="font-display font-semibold text-lg">{t(continueChapter.title, lang)}</h3>
+            <p className="text-[13px] text-[var(--color-muted)] mt-0.5">{t(nextLesson.title, lang)}</p>
             <div className="mt-3 inline-flex items-center gap-1.5 text-[13px] text-[var(--color-saffron)] font-semibold">
               Resume lesson →
             </div>

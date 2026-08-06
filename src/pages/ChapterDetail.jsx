@@ -2,13 +2,15 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getChapterById, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { t, langCode } from '../utils/i18n';
 
 export default function ChapterDetail() {
   const { chapterId } = useParams();
   const navigate = useNavigate();
   const chapter = getChapterById(chapterId);
   const lessons = getLessonsForChapter(chapterId);
-  const { progress, isLessonComplete, isChapterUnlocked } = useProgress();
+  const { progress, isLessonComplete, isChapterUnlocked, settings } = useProgress();
+  const lang = langCode(settings.language);
 
   if (!chapter) {
     return <div className="p-6 text-center text-[var(--color-muted)]">Chapter not found.</div>;
@@ -71,7 +73,7 @@ export default function ChapterDetail() {
                   {complete ? '✓' : locked ? '🔒' : i + 1}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-[14px] font-medium truncate">{lesson.title}</p>
+                  <p className="text-[14px] font-medium truncate">{t(lesson.title, lang)}</p>
                   <p className="text-[11px] text-[var(--color-muted)]">{lesson.estimatedMinutes} min · {lesson.xpReward} XP</p>
                 </div>
               </motion.button>
