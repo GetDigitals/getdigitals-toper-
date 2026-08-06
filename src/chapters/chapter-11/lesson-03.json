@@ -1,0 +1,199 @@
+{
+  "id": "chapter-11-lesson-03",
+  "chapterId": "chapter-11",
+  "order": 3,
+  "title": {
+    "hi": "Combinations of Plane Figures",
+    "en": "Combinations of Plane Figures"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🧩",
+    "headline": {
+      "hi": "Shapes Inside Shapes",
+      "en": "Shapes Inside Shapes"
+    },
+    "subtext": {
+      "hi": "Square ke andar circle, ya circle ke andar square — combination figures ka area nikaalna seekho.",
+      "en": "A circle inside a square, or a square inside a circle — learn to find areas of combined figures."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Board exam mein aksar do ya zyada shapes ek saath diye jaate hain (jaise square ke corners pe quarter-circles) — inka 'shaded region' ka area poochha jaata hai. Trick hamesha same hai: bade shape ka area, minus/plus chhote shapes ka area.",
+      "en": "Board exams often combine two or more shapes (like quarter-circles at a square's corners) — asking for the 'shaded region' area. The trick is always the same: bigger shape's area, minus/plus the smaller shapes' areas."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Strategy: (1) Har shape ka area alag-alag nikaalo (2) Diagram dekh kar decide karo add karna hai ya subtract (3) Answer verify karo — negative nahi aana chahiye.",
+        "en": "Strategy: (1) Find each shape's area separately (2) Look at the diagram to decide add or subtract (3) Verify the answer — it should never come out negative."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek 14cm side wale square ke chaar corners pe 7cm radius ke quarter-circles hain. Shaded (square minus quarters) area nikaalo (π=22/7).",
+        "en": "A 14cm square has quarter-circles of radius 7cm at its four corners. Find the shaded area (square minus quarters) (π=22/7)."
+      },
+      "steps": [
+        {
+          "hi": "Square Area = 14×14 = 196cm²",
+          "en": "Square Area = 14×14 = 196cm²"
+        },
+        {
+          "hi": "Ek quadrant Area = ¼×22/7×49 = 38.5cm²",
+          "en": "One quadrant Area = ¼×22/7×49 = 38.5cm²"
+        },
+        {
+          "hi": "4 quadrants = 4×38.5 = 154cm²",
+          "en": "4 quadrants = 4×38.5 = 154cm²"
+        },
+        {
+          "hi": "Shaded = 196 − 154 = 42cm²",
+          "en": "Shaded = 196 − 154 = 42cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Bade circle ka radius R hai jismein ek diameter CD hai. CD hi chhote circle ka diameter hai (bade circle ke center O se guzarti hai). AB bade circle ka doosra diameter hai jo CD ⊥ hai, aur C, chhote circle ke arc pe ek point hai. R=7cm ho, to shaded region ka area nikaalo (π=22/7).",
+        "en": "A big circle has radius R with diameter CD. CD is also the smaller circle's diameter (passing through center O). AB is the big circle's other diameter, perpendicular to CD, and C lies on the smaller circle's arc. R=7cm — find the shaded region's area (π=22/7)."
+      },
+      "steps": [
+        {
+          "hi": "Chhote circle ka radius = R/2 = 3.5cm. Area = 22/7×3.5² = 38.5cm²",
+          "en": "Smaller circle's radius = R/2 = 3.5cm. Area = 22/7×3.5² = 38.5cm²"
+        },
+        {
+          "hi": "Semicircle ACB ka area (radius=R=7) = ½×22/7×49 = 77cm²",
+          "en": "Semicircle ACB's area (radius=R=7) = ½×22/7×49 = 77cm²"
+        },
+        {
+          "hi": "Triangle ACB ka area (AB diameter, angle ACB=90° kyunki semicircle mein) = ½×14×7 = 49cm²",
+          "en": "Triangle ACB's area (AB diameter, angle ACB=90° since in a semicircle) = ½×14×7 = 49cm²"
+        },
+        {
+          "hi": "Shaded = 38.5 + 77 − 49 = 66.5cm²",
+          "en": "Shaded = 38.5 + 77 − 49 = 66.5cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek equilateral triangle (side a) ke andar teeno corners pe radius r=a/2 ke sectors (60° har ek) hain. Agar triangle ka area 17320.5cm² hai (√3=1.732), aur π=3.14, to shaded (triangle minus 3 sectors) area nikaalo.",
+        "en": "An equilateral triangle (side a) has 60° sectors of radius r=a/2 at each corner. If the triangle's area is 17320.5cm² (√3=1.732) and π=3.14, find the shaded area (triangle minus 3 sectors)."
+      },
+      "steps": [
+        {
+          "hi": "(√3/4)a² = 17320.5 → a² = 40001 ≈ 40000 → a = 200cm, r = 100cm",
+          "en": "(√3/4)a² = 17320.5 → a² = 40001 ≈ 40000 → a = 200cm, r = 100cm"
+        },
+        {
+          "hi": "3 sectors ka total angle = 3×60° = 180° (aadha circle ke barabar)",
+          "en": "3 sectors' total angle = 3×60° = 180° (equal to half a circle)"
+        },
+        {
+          "hi": "3 sectors ka total area = ½×3.14×100² = 15700cm²",
+          "en": "3 sectors' total area = ½×3.14×100² = 15700cm²"
+        },
+        {
+          "hi": "Shaded = 17320.5 − 15700 = 1620.5cm²",
+          "en": "Shaded = 17320.5 − 15700 = 1620.5cm²"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "14cm side wale square ke 4 corners pe 7cm radius ke quadrants hain. Shaded area (square−quadrants) kya hai?",
+          "en": "A 14cm square has 7cm-radius quadrants at its 4 corners. Find the shaded area (square−quadrants)."
+        },
+        "options": [
+          {
+            "hi": "32cm²",
+            "en": "32cm²"
+          },
+          {
+            "hi": "42cm²",
+            "en": "42cm²"
+          },
+          {
+            "hi": "52cm²",
+            "en": "52cm²"
+          },
+          {
+            "hi": "62cm²",
+            "en": "62cm²"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "196 − 154 = 42cm².",
+          "en": "196 − 154 = 42cm²."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Combination figure ka shaded area nikalne ki strategy kya hai?",
+          "en": "What is the strategy for finding a combination figure's shaded area?"
+        },
+        "options": [
+          {
+            "hi": "Sirf bade shape ka area",
+            "en": "Just the bigger shape's area"
+          },
+          {
+            "hi": "Bada shape ± chhote shapes",
+            "en": "Bigger shape ± smaller shapes"
+          },
+          {
+            "hi": "Sirf chhote shapes jodo",
+            "en": "Just add smaller shapes"
+          },
+          {
+            "hi": "Perimeter nikalo",
+            "en": "Find the perimeter"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Diagram dekh kar bade shape mein se chhote shapes minus ya plus karo.",
+          "en": "Based on the diagram, add or subtract the smaller shapes from the bigger one."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Har shape ka area alag nikaalo, phir diagram dekh kar add/subtract karo",
+      "en": "Find each shape's area separately, then add/subtract based on the diagram"
+    },
+    {
+      "hi": "Semicircle mein diameter ke saamne wala angle hamesha 90° hota hai",
+      "en": "The angle opposite a diameter in a semicircle is always 90°"
+    },
+    {
+      "hi": "Answer kabhi negative nahi aana chahiye — aaye to calculation dobara check karo",
+      "en": "Answer should never be negative — recheck your calculation if it is"
+    }
+  ],
+  "summary": {
+    "hi": "Combination figures mushkil nahi hote — bas har piece ka area nikaalo aur diagram ke hisaab se jodo/ghatao.",
+    "en": "Combination figures aren't hard — just find each piece's area and add/subtract per the diagram."
+  },
+  "reward": {
+    "badge": null
+  }
+}

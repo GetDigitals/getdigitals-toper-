@@ -1,0 +1,238 @@
+{
+  "id": "chapter-11-lesson-02",
+  "chapterId": "chapter-11",
+  "order": 2,
+  "title": {
+    "hi": "Area of Segment",
+    "en": "Area of Segment"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🌙",
+    "headline": {
+      "hi": "The Curved Leftover Piece",
+      "en": "The Curved Leftover Piece"
+    },
+    "subtext": {
+      "hi": "Sector se triangle ghata do, jo bacha wo segment hai.",
+      "en": "Subtract the triangle from a sector, what's left is the segment."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Segment ek chord aur uski corresponding arc ke beech ka region hai. Isse nikalne ka trick hai: pehle sector ka area nikaalo, phir usme se triangle ka area ghata do.",
+      "en": "A segment is the region between a chord and its corresponding arc. The trick: find the sector's area first, then subtract the triangle's area."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "Area of Minor Segment = Area of Sector − Area of Triangle"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "θ=60° ho to triangle equilateral banta hai (kyunki dono radii equal hain aur angle 60° hai). Area = (√3/4)×side².",
+        "en": "When θ=60°, the triangle becomes equilateral (since both radii are equal and the angle is 60°). Area = (√3/4)×side²."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "θ=90° ho to triangle right-angled banta hai (dono legs = radius). Area = ½×r×r.",
+        "en": "When θ=90°, the triangle becomes right-angled (both legs = radius). Area = ½×r×r."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "θ=120° jaise obtuse angles ke liye, perpendicular draw karke do right triangles mein todo, trigonometry use karo.",
+        "en": "For obtuse angles like θ=120°, draw a perpendicular to split into two right triangles and use trigonometry."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Radius 10cm, θ=90°, π=3.14. Minor segment ka area nikaalo.",
+        "en": "Radius 10cm, θ=90°, π=3.14. Find the minor segment's area."
+      },
+      "steps": [
+        {
+          "hi": "Sector Area = (90/360)×3.14×100 = 78.5cm²",
+          "en": "Sector Area = (90/360)×3.14×100 = 78.5cm²"
+        },
+        {
+          "hi": "Triangle Area (right-angled, legs=10) = ½×10×10 = 50cm²",
+          "en": "Triangle Area (right-angled, legs=10) = ½×10×10 = 50cm²"
+        },
+        {
+          "hi": "Segment = 78.5 − 50 = 28.5cm²",
+          "en": "Segment = 78.5 − 50 = 28.5cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Radius 21cm, θ=60°, π=22/7. Minor segment ka area (formula mein) nikaalo.",
+        "en": "Radius 21cm, θ=60°, π=22/7. Find the minor segment's area (in formula form)."
+      },
+      "steps": [
+        {
+          "hi": "Arc Length = (60/360)×2×22/7×21 = 22cm",
+          "en": "Arc Length = (60/360)×2×22/7×21 = 22cm"
+        },
+        {
+          "hi": "Sector Area = (60/360)×22/7×441 = 231cm²",
+          "en": "Sector Area = (60/360)×22/7×441 = 231cm²"
+        },
+        {
+          "hi": "Triangle (equilateral, side=21): Area = (√3/4)×441 = 441√3/4 cm²",
+          "en": "Triangle (equilateral, side=21): Area = (√3/4)×441 = 441√3/4 cm²"
+        },
+        {
+          "hi": "Segment = 231 − 441√3/4 cm²",
+          "en": "Segment = 231 − 441√3/4 cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Radius 12cm, θ=120°, π=22/7, √3=1.73. Minor segment ka area nikaalo.",
+        "en": "Radius 12cm, θ=120°, π=22/7, √3=1.73. Find the minor segment's area."
+      },
+      "steps": [
+        {
+          "hi": "Sector Area = (120/360)×22/7×144 = 3168/21 = 150.86cm²",
+          "en": "Sector Area = (120/360)×22/7×144 = 3168/21 = 150.86cm²"
+        },
+        {
+          "hi": "Center se chord pe perpendicular draw karo — ye chord ko bisect karta hai. Half-angle = 60°.",
+          "en": "Draw a perpendicular from center to chord — it bisects the chord. Half-angle = 60°."
+        },
+        {
+          "hi": "Perpendicular distance OV = 12×cos60° = 6cm",
+          "en": "Perpendicular distance OV = 12×cos60° = 6cm"
+        },
+        {
+          "hi": "Half-chord SV = 12×sin60° = 6√3 = 10.38cm, so poora chord ST = 12√3 = 20.76cm",
+          "en": "Half-chord SV = 12×sin60° = 6√3 = 10.38cm, so full chord ST = 12√3 = 20.76cm"
+        },
+        {
+          "hi": "Triangle Area = ½×ST×OV = ½×12√3×6 = 36√3 = 62.28cm²",
+          "en": "Triangle Area = ½×ST×OV = ½×12√3×6 = 36√3 = 62.28cm²"
+        },
+        {
+          "hi": "Segment = 150.86 − 62.28 = 88.58cm²",
+          "en": "Segment = 150.86 − 62.28 = 88.58cm²"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Segment ka area kaise nikalte hain?",
+          "en": "How is the area of a segment found?"
+        },
+        "options": [
+          {
+            "hi": "Sector − Triangle",
+            "en": "Sector − Triangle"
+          },
+          {
+            "hi": "Sector + Triangle",
+            "en": "Sector + Triangle"
+          },
+          {
+            "hi": "Triangle − Sector",
+            "en": "Triangle − Sector"
+          },
+          {
+            "hi": "Sirf Sector",
+            "en": "Just Sector"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Segment = Sector ka area minus us sector ke andar bane triangle ka area.",
+          "en": "Segment = Sector's area minus the triangle inside that sector."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "θ=60° pe sector ke andar ka triangle kaisa hota hai?",
+          "en": "At θ=60°, the triangle inside the sector is:"
+        },
+        "options": [
+          {
+            "hi": "Right-angled",
+            "en": "Right-angled"
+          },
+          {
+            "hi": "Equilateral",
+            "en": "Equilateral"
+          },
+          {
+            "hi": "Isosceles (non-equilateral)",
+            "en": "Isosceles (non-equilateral)"
+          },
+          {
+            "hi": "Scalene",
+            "en": "Scalene"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Dono radii equal hain (r), aur angle 60° hai — isliye equilateral triangle banta hai.",
+          "en": "Both radii are equal (r), and the angle is 60° — this makes it equilateral."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "θ=90° pe sector ke andar ka triangle right-angled hota hai.",
+          "en": "At θ=90°, the triangle inside the sector is right-angled."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — dono radii legs hain aur unke beech ka angle 90° hai.",
+          "en": "True — both radii are the legs and the angle between them is 90°."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Segment = Sector − Triangle",
+      "en": "Segment = Sector − Triangle"
+    },
+    {
+      "hi": "θ=60° → equilateral triangle",
+      "en": "θ=60° → equilateral triangle"
+    },
+    {
+      "hi": "θ=90° → right-angled triangle (legs=r)",
+      "en": "θ=90° → right-angled triangle (legs=r)"
+    },
+    {
+      "hi": "θ=120° (obtuse) → perpendicular draw karke trigonometry use karo",
+      "en": "θ=120° (obtuse) → draw perpendicular and use trigonometry"
+    }
+  ],
+  "summary": {
+    "hi": "Segment nikalna simple hai — sector ka area nikaalo, us jaisa hi triangle ka area ghata do.",
+    "en": "Finding a segment is simple — find the sector's area, subtract the matching triangle's area."
+  },
+  "reward": {
+    "badge": null
+  }
+}

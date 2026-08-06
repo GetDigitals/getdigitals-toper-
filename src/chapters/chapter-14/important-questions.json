@@ -1,0 +1,207 @@
+{
+  "chapterId": "chapter-14",
+  "objective": [
+    {
+      "question": {
+        "hi": "Kisi event ki probability jo kabhi nahi hoti, wo _______ hoti hai. Aise event ko _______ kehte hain.",
+        "en": "The probability of an event that cannot happen is _______. Such an event is called _______."
+      },
+      "options": [
+        {
+          "hi": "1, Sure event",
+          "en": "1, Sure event"
+        },
+        {
+          "hi": "0, Impossible event",
+          "en": "0, Impossible event"
+        },
+        {
+          "hi": "0.5, Random event",
+          "en": "0.5, Random event"
+        },
+        {
+          "hi": "−1, Negative event",
+          "en": "−1, Negative event"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Kabhi na hone wale event ki probability 0 hoti hai, use Impossible event kehte hain.",
+        "en": "An event that never happens has probability 0, called an Impossible event."
+      }
+    },
+    {
+      "question": {
+        "hi": "Agar P(E) = 0.05, to 'not E' ki probability kya hai?",
+        "en": "If P(E) = 0.05, what is the probability of 'not E'?"
+      },
+      "options": [
+        {
+          "hi": "0.05",
+          "en": "0.05"
+        },
+        {
+          "hi": "0.95",
+          "en": "0.95"
+        },
+        {
+          "hi": "1.05",
+          "en": "1.05"
+        },
+        {
+          "hi": "0.5",
+          "en": "0.5"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "P(not E) = 1 − 0.05 = 0.95.",
+        "en": "P(not E) = 1 − 0.05 = 0.95."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek experiment ke saare elementary events ki probabilities ka sum kya hota hai?",
+        "en": "The sum of probabilities of all elementary events of an experiment is:"
+      },
+      "options": [
+        {
+          "hi": "0",
+          "en": "0"
+        },
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "0.5",
+          "en": "0.5"
+        },
+        {
+          "hi": "Experiment pe depend karta hai",
+          "en": "Depends on experiment"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Saare elementary events ki probability ka sum hamesha 1 hota hai.",
+        "en": "The sum of probabilities of all elementary events is always 1."
+      }
+    },
+    {
+      "question": {
+        "hi": "In mein se kaunsa kisi event ki probability nahi ho sakta?",
+        "en": "Which of the following cannot be the probability of an event?"
+      },
+      "options": [
+        {
+          "hi": "2/3",
+          "en": "2/3"
+        },
+        {
+          "hi": "15%",
+          "en": "15%"
+        },
+        {
+          "hi": "0.7",
+          "en": "0.7"
+        },
+        {
+          "hi": "−1.5",
+          "en": "−1.5"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "hi": "Probability hamesha 0 aur 1 ke beech honi chahiye. −1.5 range se bahar hai.",
+        "en": "Probability must always be between 0 and 1. −1.5 is out of range."
+      }
+    },
+    {
+      "question": {
+        "hi": "52 cards ke deck se ek card nikala jaata hai. Queen milne ki probability?",
+        "en": "A card is drawn from a deck of 52 cards. The probability of getting a queen is:"
+      },
+      "options": [
+        {
+          "hi": "1/13",
+          "en": "1/13"
+        },
+        {
+          "hi": "1/26",
+          "en": "1/26"
+        },
+        {
+          "hi": "1/52",
+          "en": "1/52"
+        },
+        {
+          "hi": "3/13",
+          "en": "3/13"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "52 cards mein 4 Queens hain. P = 4/52 = 1/13.",
+        "en": "There are 4 Queens in 52 cards. P = 4/52 = 1/13."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Ek die ek baar throw ki jaati hai. (i) Prime number, (ii) 2 aur 6 ke beech ka number, (iii) odd number aane ki probability nikaalo.",
+        "en": "A die is thrown once. Find the probability of getting: (i) a prime number, (ii) a number lying between 2 and 6, (iii) an odd number."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "Total outcomes n(S) = 6\n(i) Prime numbers = {2,3,5} → 3 outcomes. P = 3/6 = 1/2\n(ii) 2 aur 6 ke beech = {3,4,5} → 3 outcomes. P = 3/6 = 1/2\n(iii) Odd numbers = {1,3,5} → 3 outcomes. P = 3/6 = 1/2",
+        "en": "Total outcomes n(S) = 6\n(i) Prime numbers = {2,3,5} → 3 outcomes. P = 3/6 = 1/2\n(ii) Between 2 and 6 = {3,4,5} → 3 outcomes. P = 3/6 = 1/2\n(iii) Odd numbers = {1,3,5} → 3 outcomes. P = 3/6 = 1/2"
+      }
+    },
+    {
+      "question": {
+        "hi": "Diamond suit ke 5 cards — ten, jack, queen, king, ace — face-down shuffle kiye jaate hain. Ek card random nikala jaata hai. (i) Queen milne ki probability? (ii) Agar queen nikal ke alag rakh di jaaye, to doosra card (a) ace ho, (b) queen ho — inki probability?",
+        "en": "Five cards — ten, jack, queen, king, ace of diamonds — are shuffled face down. One card is picked at random. (i) Probability it's the queen? (ii) If the queen is removed, probability the second card is (a) an ace, (b) a queen?"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Total cards = 5\n(i) P(Queen) = 1/5\n(ii) Queen hatane ke baad remaining = 4\n(a) P(Ace) = 1/4\n(b) P(Queen) = 0/4 = 0 (queen already nikal chuki hai)",
+        "en": "Total cards = 5\n(i) P(Queen) = 1/5\n(ii) After removing queen, remaining = 4\n(a) P(Ace) = 1/4\n(b) P(Queen) = 0/4 = 0 (queen already removed)"
+      }
+    },
+    {
+      "question": {
+        "hi": "Coin 3 baar toss ki jaati hai (game). Hanif jeetta hai agar sab same aaye (HHH ya TTT). Hanif ke haarne ki probability nikaalo.",
+        "en": "A coin is tossed 3 times in a game. Hanif wins if all tosses match (HHH or TTT). Find the probability Hanif loses."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Total outcomes = {HHH,HHT,HTH,HTT,THH,THT,TTH,TTT} = 8\nHanif jeetta hai: HHH ya TTT → 2 outcomes\nHanif haarta hai: 8−2 = 6 outcomes\nP(Lose) = 6/8 = 3/4",
+        "en": "Total outcomes = {HHH,HHT,HTH,HTT,THH,THT,TTH,TTT} = 8\nHanif wins: HHH or TTT → 2 outcomes\nHanif loses: 8−2 = 6 outcomes\nP(Lose) = 6/8 = 3/4"
+      }
+    },
+    {
+      "question": {
+        "hi": "[CBSE 2023] Do dice ek saath throw kiye jaate hain. (i) Dono pe same number, (ii) different numbers, (iii) sum 10 hone ki probability nikaalo.",
+        "en": "[CBSE 2023] Two dice are thrown together. Find the probability of: (i) same number on both, (ii) different numbers, (iii) sum 10."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Total n(S) = 36\n(i) Same number: (1,1)(2,2)...(6,6) = 6 outcomes. P = 6/36 = 1/6\n(ii) Different numbers = 36−6 = 30. P = 30/36 = 5/6\n(iii) Sum 10: (4,6)(5,5)(6,4) = 3. P = 3/36 = 1/12",
+        "en": "Total n(S) = 36\n(i) Same number: (1,1)(2,2)...(6,6) = 6 outcomes. P = 6/36 = 1/6\n(ii) Different numbers = 36−6 = 30. P = 30/36 = 5/6\n(iii) Sum 10: (4,6)(5,5)(6,4) = 3. P = 3/36 = 1/12"
+      }
+    },
+    {
+      "question": {
+        "hi": "[CBSE 2021] 12 balls wale box mein x black hain. Ek ball nikalne pe black milne ki probability x/12 hai. Agar 6 aur black balls dale jaayein, to black milne ki probability pehle se double ho jaati hai. x nikaalo.",
+        "en": "[CBSE 2021] A box has 12 balls, x of which are black. Probability of black is x/12. Adding 6 more black balls doubles this probability. Find x."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Naya total = 18, naye black = x+6\nNayi probability = (x+6)/18\nYe purani probability ka double hai: (x+6)/18 = 2 × (x/12)\n6(x+6) = 18x → 6x+36 = 18x → 36 = 12x → x = 3",
+        "en": "New total = 18, new black = x+6\nNew probability = (x+6)/18\nThis is double the old probability: (x+6)/18 = 2 × (x/12)\n6(x+6) = 18x → 6x+36 = 18x → 36 = 12x → x = 3"
+      }
+    }
+  ]
+}

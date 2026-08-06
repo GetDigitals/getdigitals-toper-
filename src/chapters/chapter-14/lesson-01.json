@@ -1,0 +1,229 @@
+{
+  "id": "chapter-14-lesson-01",
+  "chapterId": "chapter-14",
+  "order": 1,
+  "title": {
+    "hi": "Probability Basics & Formula",
+    "en": "Probability Basics & Formula"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🎲",
+    "headline": {
+      "hi": "Master Chance & Prediction",
+      "en": "Master Chance & Prediction"
+    },
+    "subtext": {
+      "hi": "Coin toss, dice throw, card draw — sabki 'possibility' ko number mein naapna seekho.",
+      "en": "Learn to measure the 'chance' of coin tosses, dice throws, and card draws as a number."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Probability ka matlab hai kisi event ke hone ki 'chance' ya 'possibility'. Jaise coin toss mein head aane ka chance ½ hota hai. Statistics ke saath milkar ye chapter board exam mein 11 marks ka hai — bahut important!",
+      "en": "Probability means the 'chance' or 'possibility' of an event happening. Like the chance of getting heads in a coin toss being ½. Combined with Statistics, this chapter carries 11 marks in the board exam — very important!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Kuch basic terms samajhna zaroori hai: Experiment (jaise coin toss), Trial (ek baar perform karna), Outcome (possible result), Event (ek ya zyada outcomes ka collection), Sample Space S (saare possible outcomes ka set).",
+        "en": "A few basic terms to understand: Experiment (like a coin toss), Trial (performing it once), Outcome (a possible result), Event (a collection of one or more outcomes), Sample Space S (the set of all possible outcomes)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Equally Likely Outcomes: jab saare outcomes ka chance same ho. Jaise fair coin mein Head aur Tail dono equally likely hain.",
+        "en": "Equally Likely Outcomes: when all outcomes have the same chance. Like in a fair coin, Head and Tail are equally likely."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "P(E) = n(E) / n(S) = Favourable Outcomes / Total Outcomes"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Probability hamesha 0 aur 1 ke beech hoti hai. Percentage mein bhi likh sakte ho: P(E) × 100%.",
+        "en": "Probability always lies between 0 and 1. Can also be written as a percentage: P(E) × 100%."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "3 types ke events: Sure Event (hamesha hota hai, P=1), Impossible Event (kabhi nahi hota, P=0), Complementary Event ('not E', jiska sum P(E) ke saath hamesha 1 hota hai).",
+        "en": "3 types of events: Sure Event (always happens, P=1), Impossible Event (never happens, P=0), Complementary Event ('not E', whose sum with P(E) is always 1)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "P(E) + P(not E) = 1   →   P(not E) = 1 − P(E)"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek fair coin ek baar toss ki jaati hai. Head aane ki probability nikaalo.",
+        "en": "A fair coin is tossed once. What is the probability of getting a head?"
+      },
+      "steps": [
+        {
+          "hi": "Total outcomes n(S) = {H,T} = 2",
+          "en": "Total outcomes n(S) = {H,T} = 2"
+        },
+        {
+          "hi": "Favourable n(E) = {H} = 1",
+          "en": "Favourable n(E) = {H} = 1"
+        },
+        {
+          "hi": "P(Head) = 1/2",
+          "en": "P(Head) = 1/2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek die ek baar throw ki jaati hai. (i) Prime number, (ii) 2 se bada number aane ki probability nikaalo.",
+        "en": "A die is thrown once. Find the probability of getting (i) a prime number, (ii) a number greater than 2."
+      },
+      "steps": [
+        {
+          "hi": "Total n(S) = {1,2,3,4,5,6} = 6",
+          "en": "Total n(S) = {1,2,3,4,5,6} = 6"
+        },
+        {
+          "hi": "(i) Primes = {2,3,5} → P = 3/6 = 1/2",
+          "en": "(i) Primes = {2,3,5} → P = 3/6 = 1/2"
+        },
+        {
+          "hi": "(ii) >2 = {3,4,5,6} → P = 4/6 = 2/3",
+          "en": "(ii) >2 = {3,4,5,6} → P = 4/6 = 2/3"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar event E ki probability 0.65 hai, to 'not E' ki probability kya hogi?",
+        "en": "If the probability of an event E is 0.65, what is the probability of 'not E'?"
+      },
+      "steps": [
+        {
+          "hi": "P(E) = 0.65",
+          "en": "P(E) = 0.65"
+        },
+        {
+          "hi": "P(not E) = 1 − 0.65 = 0.35",
+          "en": "P(not E) = 1 − 0.65 = 0.35"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Kisi event ki probability kabhi negative nahi ho sakti.",
+          "en": "The probability of an event can never be negative."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Probability hamesha 0 aur 1 ke beech hoti hai, kabhi negative nahi.",
+          "en": "Probability always lies between 0 and 1, never negative."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Agar P(E) = 0.3, to P(not E) kya hai?",
+          "en": "If P(E) = 0.3, what is P(not E)?"
+        },
+        "options": [
+          {
+            "hi": "0.3",
+            "en": "0.3"
+          },
+          {
+            "hi": "0.7",
+            "en": "0.7"
+          },
+          {
+            "hi": "1.3",
+            "en": "1.3"
+          },
+          {
+            "hi": "0",
+            "en": "0"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "P(not E) = 1 − 0.3 = 0.7",
+          "en": "P(not E) = 1 − 0.3 = 0.7"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Ek bag mein sirf lemon candies hain. Orange candy nikalne ki probability?",
+          "en": "A bag contains only lemon candies. What is the probability of drawing an orange candy?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "Keh nahi sakte",
+            "en": "Cannot say"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Bag mein orange candy hai hi nahi — Impossible event, P=0.",
+          "en": "There's no orange candy in the bag — Impossible event, P=0."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "P(E) = n(E)/n(S)",
+      "en": "P(E) = n(E)/n(S)"
+    },
+    {
+      "hi": "Sure Event: P=1, Impossible Event: P=0",
+      "en": "Sure Event: P=1, Impossible Event: P=0"
+    },
+    {
+      "hi": "P(E) + P(not E) = 1",
+      "en": "P(E) + P(not E) = 1"
+    },
+    {
+      "hi": "Probability hamesha 0 se 1 ke beech",
+      "en": "Probability always between 0 and 1"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum probability ke basic terms aur formula samajh gaye ho — agle lesson mein cards aur real-life problems solve karenge.",
+    "en": "You now understand probability's basic terms and formula — next lesson we'll solve cards and real-life problems."
+  },
+  "reward": {
+    "badge": null
+  }
+}

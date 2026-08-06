@@ -1,0 +1,269 @@
+{
+  "id": "chapter-14-lesson-02",
+  "chapterId": "chapter-14",
+  "order": 2,
+  "title": {
+    "hi": "Cards, Dice & Real-life Problems",
+    "en": "Cards, Dice & Real-life Problems"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🃏",
+    "headline": {
+      "hi": "Playing Cards & Word Problems",
+      "en": "Playing Cards & Word Problems"
+    },
+    "subtext": {
+      "hi": "52 cards ke facts yaad karo — exam mein ye har baar kaam aayenge.",
+      "en": "Memorize the 52-card facts — these come up in every exam."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Card questions probability chapter ka sabse common type hai. Ek baar 52-card facts yaad ho jaayein, to koi bhi card question 10 second mein solve ho jaata hai.",
+      "en": "Card questions are the most common type in the probability chapter. Once you memorize the 52-card facts, any card question can be solved in 10 seconds."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "52 cards ke important facts: 4 Suits (Spade♠, Heart♥, Diamond♦, Club♣), har suit mein 13 cards. Red = 26 (Hearts+Diamonds), Black = 26 (Spades+Clubs).",
+        "en": "Important 52-card facts: 4 Suits (Spade♠, Heart♥, Diamond♦, Club♣), 13 cards each. Red = 26 (Hearts+Diamonds), Black = 26 (Spades+Clubs)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Face cards = 12 (4 Jack + 4 Queen + 4 King), Red face cards = 6, Black face cards = 6. Aces = 4. Number cards (2-10) = 36. Honour cards (Ace+J+Q+K) = 16.",
+        "en": "Face cards = 12 (4 Jack + 4 Queen + 4 King), Red face cards = 6, Black face cards = 6. Aces = 4. Number cards (2-10) = 36. Honour cards (Ace+J+Q+K) = 16."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Do dice throw karne pe total outcomes hamesha 6×6=36 hote hain — ye number yaad rakho, bahut common hai.",
+        "en": "When two dice are thrown, total outcomes are always 6×6=36 — remember this number, it's very common."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "52 cards ke deck se ek card nikala jaata hai. (i) Red king, (ii) Face card, (iii) Spade nikalne ki probability?",
+        "en": "One card is drawn from a deck of 52 cards. Find the probability that the card is: (i) a red king, (ii) a face card, (iii) a spade."
+      },
+      "steps": [
+        {
+          "hi": "Total n(S) = 52",
+          "en": "Total n(S) = 52"
+        },
+        {
+          "hi": "(i) Red Kings = 2 (Heart K + Diamond K). P = 2/52 = 1/26",
+          "en": "(i) Red Kings = 2 (Heart K + Diamond K). P = 2/52 = 1/26"
+        },
+        {
+          "hi": "(ii) Face cards = 12. P = 12/52 = 3/13",
+          "en": "(ii) Face cards = 12. P = 12/52 = 3/13"
+        },
+        {
+          "hi": "(iii) Spades = 13. P = 13/52 = 1/4",
+          "en": "(iii) Spades = 13. P = 13/52 = 1/4"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Do dice ek saath throw kiye jaate hain. Sum (i) 7, (ii) 11, (iii) 7 ya 11 hone ki probability nikaalo.",
+        "en": "Two dice are thrown simultaneously. Find the probability that the sum is: (i) 7, (ii) 11, (iii) 7 or 11."
+      },
+      "steps": [
+        {
+          "hi": "Total n(S) = 6×6 = 36",
+          "en": "Total n(S) = 6×6 = 36"
+        },
+        {
+          "hi": "(i) Sum=7: (1,6)(2,5)(3,4)(4,3)(5,2)(6,1) = 6 outcomes. P = 6/36 = 1/6",
+          "en": "(i) Sum=7: (1,6)(2,5)(3,4)(4,3)(5,2)(6,1) = 6 outcomes. P = 6/36 = 1/6"
+        },
+        {
+          "hi": "(ii) Sum=11: (5,6)(6,5) = 2 outcomes. P = 2/36 = 1/18",
+          "en": "(ii) Sum=11: (5,6)(6,5) = 2 outcomes. P = 2/36 = 1/18"
+        },
+        {
+          "hi": "(iii) 6+2 = 8 outcomes. P = 8/36 = 2/9",
+          "en": "(iii) 6+2 = 8 outcomes. P = 8/36 = 2/9"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek bag mein 3 red aur 5 black balls hain. Random ball nikali jaati hai. (i) Red, (ii) Black hone ki probability?",
+        "en": "A bag contains 3 red balls and 5 black balls. A ball is drawn at random. Find the probability that the ball is: (i) red, (ii) black."
+      },
+      "steps": [
+        {
+          "hi": "Total balls = 8",
+          "en": "Total balls = 8"
+        },
+        {
+          "hi": "(i) P(Red) = 3/8",
+          "en": "(i) P(Red) = 3/8"
+        },
+        {
+          "hi": "(ii) P(Black) = 5/8",
+          "en": "(ii) P(Black) = 5/8"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek game mein coin 3 baar toss ki jaati hai. Hanif jeetta hai agar sab same aaye (HHH ya TTT). Hanif ke haarne ki probability nikaalo.",
+        "en": "A coin is tossed 3 times in a game. Hanif wins if all three tosses give the same result (HHH or TTT). Find the probability Hanif loses."
+      },
+      "steps": [
+        {
+          "hi": "Total outcomes = {HHH,HHT,HTH,HTT,THH,THT,TTH,TTT} = 8",
+          "en": "Total outcomes = {HHH,HHT,HTH,HTT,THH,THT,TTH,TTT} = 8"
+        },
+        {
+          "hi": "Hanif jeetta hai: HHH ya TTT → 2 outcomes",
+          "en": "Hanif wins: HHH or TTT → 2 outcomes"
+        },
+        {
+          "hi": "Hanif haarta hai: 8−2 = 6 outcomes",
+          "en": "Hanif loses: 8−2 = 6 outcomes"
+        },
+        {
+          "hi": "P(Lose) = 6/8 = 3/4",
+          "en": "P(Lose) = 6/8 = 3/4"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "52 cards ke deck se Red King nikalne ki probability?",
+          "en": "Probability of getting a Red King from a deck of 52 cards?"
+        },
+        "options": [
+          {
+            "hi": "1/13",
+            "en": "1/13"
+          },
+          {
+            "hi": "1/26",
+            "en": "1/26"
+          },
+          {
+            "hi": "1/52",
+            "en": "1/52"
+          },
+          {
+            "hi": "2/13",
+            "en": "2/13"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Sirf 2 Red Kings hain (Heart K + Diamond K). P = 2/52 = 1/26.",
+          "en": "Only 2 Red Kings exist (Heart K + Diamond K). P = 2/52 = 1/26."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Do dice throw karne pe total outcomes kitne hote hain?",
+          "en": "How many total outcomes are there when two dice are thrown?"
+        },
+        "options": [
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "12",
+            "en": "12"
+          },
+          {
+            "hi": "36",
+            "en": "36"
+          },
+          {
+            "hi": "72",
+            "en": "72"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Do dice ke liye n(S) = 6×6 = 36.",
+          "en": "For two dice, n(S) = 6×6 = 36."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Blanks fill karo: 52 cards mein Face cards = ___, Aces = ___",
+          "en": "Fill the blanks: In 52 cards, Face cards = ___, Aces = ___"
+        },
+        "sentenceParts": [
+          {
+            "hi": "Face cards = ",
+            "en": "Face cards = "
+          },
+          {
+            "hi": ", Aces = ",
+            "en": "Aces = "
+          },
+          {
+            "hi": "",
+            "en": ""
+          }
+        ],
+        "blanks": [
+          "12",
+          "4"
+        ],
+        "tokens": [
+          "12",
+          "4",
+          "13",
+          "16"
+        ],
+        "explanation": {
+          "hi": "Face cards = 12 (4J+4Q+4K), Aces = 4 (1 per suit).",
+          "en": "Face cards = 12 (4J+4Q+4K), Aces = 4 (1 per suit)."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "52 cards: 4 suits × 13 each, 26 Red + 26 Black",
+      "en": "52 cards: 4 suits × 13 each, 26 Red + 26 Black"
+    },
+    {
+      "hi": "Face cards=12, Aces=4, Honour cards=16",
+      "en": "Face cards=12, Aces=4, Honour cards=16"
+    },
+    {
+      "hi": "Two dice → n(S) = 36 (always)",
+      "en": "Two dice → n(S) = 36 (always)"
+    }
+  ],
+  "summary": {
+    "hi": "52-card facts aur two-dice ka 36 outcomes yaad rakho — ye har exam mein repeat hote hain.",
+    "en": "Remember the 52-card facts and two-dice's 36 outcomes — these repeat in every exam."
+  },
+  "reward": {
+    "badge": null
+  }
+}

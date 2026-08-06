@@ -1,0 +1,224 @@
+{
+  "id": "chapter-11-lesson-01",
+  "chapterId": "chapter-11",
+  "order": 1,
+  "title": {
+    "hi": "Circle Basics & Area of Sector",
+    "en": "Circle Basics & Area of Sector"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🥧",
+    "headline": {
+      "hi": "Slice of a Circle",
+      "en": "Slice of a Circle"
+    },
+    "subtext": {
+      "hi": "Circle ka ek 'slice' (sector) — pizza jaisa — uska area aur arc length nikaalna seekho.",
+      "en": "A 'slice' of a circle (sector) — like pizza — learn to find its area and arc length."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Circle ka poora area aur circumference to tumhe pata hi hai. Ab ek sector (jaise pizza ka ek tukda) ka area kaise nikale, ye seekhte hain.",
+      "en": "You already know a full circle's area and circumference. Now let's learn how to find the area of a sector (like a slice of pizza)."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Recap: Circle ka Area = πr², Circumference = 2πr.",
+        "en": "Recap: Circle's Area = πr², Circumference = 2πr."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Sector wo region hai jo do radii aur unke beech ki arc se bana hota hai. Iska angle θ (theta) hota hai center pe.",
+        "en": "A sector is the region formed by two radii and the arc between them. It has an angle θ (theta) at the center."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Area of Sector = (θ/360°) × πr²\nLength of Arc = (θ/360°) × 2πr"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Agar θ = 360° ho, to poora circle hi ban jaata hai — formula check karo: (360/360)×πr² = πr², jo circle ka poora area hai!",
+        "en": "If θ = 360°, you get the whole circle — check the formula: (360/360)×πr² = πr², which is the full circle's area!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek circle ka radius 7cm hai. Iska area aur circumference nikaalo (π=22/7).",
+        "en": "A circle has radius 7cm. Find its area and circumference (π=22/7)."
+      },
+      "steps": [
+        {
+          "hi": "Area = πr² = 22/7×49 = 154cm²",
+          "en": "Area = πr² = 22/7×49 = 154cm²"
+        },
+        {
+          "hi": "Circumference = 2πr = 2×22/7×7 = 44cm",
+          "en": "Circumference = 2πr = 2×22/7×7 = 44cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek circle ka radius 14cm hai. Sector ka angle 60° hai. Sector ka area aur arc length nikaalo (π=22/7).",
+        "en": "A circle has radius 14cm. A sector has angle 60°. Find its area and arc length (π=22/7)."
+      },
+      "steps": [
+        {
+          "hi": "Sector Area = (60/360)×22/7×196 = 102.67cm²",
+          "en": "Sector Area = (60/360)×22/7×196 = 102.67cm²"
+        },
+        {
+          "hi": "Arc Length = (60/360)×2×22/7×14 = 14.67cm",
+          "en": "Arc Length = (60/360)×2×22/7×14 = 14.67cm"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek clock ki minute hand 14cm lambi hai. 5 minutes mein us hand dwara cover kiya gaya area nikaalo (π=22/7).",
+        "en": "A clock's minute hand is 14cm long. Find the area covered by it in 5 minutes (π=22/7)."
+      },
+      "steps": [
+        {
+          "hi": "5 minutes mein hand 30° ghoomti hai (60 min=360° → 1 min=6° → 5 min=30°)",
+          "en": "In 5 minutes the hand rotates 30° (60 min=360° → 1 min=6° → 5 min=30°)"
+        },
+        {
+          "hi": "Area = (30/360)×22/7×196 = 51.33cm²",
+          "en": "Area = (30/360)×22/7×196 = 51.33cm²"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Circle ka radius 14cm hai. Circumference kya hai (π=22/7)?",
+          "en": "A circle has radius 14cm. What is its circumference (π=22/7)?"
+        },
+        "options": [
+          {
+            "hi": "44cm",
+            "en": "44cm"
+          },
+          {
+            "hi": "88cm",
+            "en": "88cm"
+          },
+          {
+            "hi": "28cm",
+            "en": "28cm"
+          },
+          {
+            "hi": "154cm",
+            "en": "154cm"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "2×22/7×14=88cm.",
+          "en": "2×22/7×14=88cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Circle ka area 154cm² hai (π=22/7). Radius kitna hai?",
+          "en": "A circle's area is 154cm² (π=22/7). Find the radius."
+        },
+        "options": [
+          {
+            "hi": "5cm",
+            "en": "5cm"
+          },
+          {
+            "hi": "7cm",
+            "en": "7cm"
+          },
+          {
+            "hi": "9cm",
+            "en": "9cm"
+          },
+          {
+            "hi": "11cm",
+            "en": "11cm"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "πr²=154 → r²=154×7/22=49 → r=7cm.",
+          "en": "πr²=154 → r²=154×7/22=49 → r=7cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Circle ka radius 10cm, sector angle 90°, π=3.14. Sector ka area kya hai?",
+          "en": "A circle has radius 10cm, sector angle 90°, π=3.14. Find the sector's area."
+        },
+        "options": [
+          {
+            "hi": "78.5cm²",
+            "en": "78.5cm²"
+          },
+          {
+            "hi": "50cm²",
+            "en": "50cm²"
+          },
+          {
+            "hi": "31.4cm²",
+            "en": "31.4cm²"
+          },
+          {
+            "hi": "100cm²",
+            "en": "100cm²"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "(90/360)×3.14×100=78.5cm².",
+          "en": "(90/360)×3.14×100=78.5cm²."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Area of Sector = (θ/360°) × πr²",
+      "en": "Area of Sector = (θ/360°) × πr²"
+    },
+    {
+      "hi": "Arc Length = (θ/360°) × 2πr",
+      "en": "Arc Length = (θ/360°) × 2πr"
+    },
+    {
+      "hi": "θ=360° dalne pe poora circle ka formula ban jaata hai",
+      "en": "Setting θ=360° gives back the full circle's formula"
+    }
+  ],
+  "summary": {
+    "hi": "Sector ka area aur arc length dono θ/360° se scale hote hain poore circle ke formulas se.",
+    "en": "Both a sector's area and arc length scale by θ/360° from the full circle's formulas."
+  },
+  "reward": {
+    "badge": null
+  }
+}

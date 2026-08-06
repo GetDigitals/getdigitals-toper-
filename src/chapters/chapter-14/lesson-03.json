@@ -1,0 +1,231 @@
+{
+  "id": "chapter-14-lesson-03",
+  "chapterId": "chapter-14",
+  "order": 3,
+  "title": {
+    "hi": "Practice & Quiz",
+    "en": "Practice & Quiz"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 60,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Probability — Full Recap",
+      "en": "Probability — Full Recap"
+    },
+    "subtext": {
+      "hi": "Board exam level mixed problems solve karo.",
+      "en": "Solve board-exam level mixed problems."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ye lesson poore chapter ka mixed practice hai — 1-mark se 3-mark tak ke real board-pattern questions.",
+      "en": "This lesson is mixed practice from the whole chapter — real board-pattern questions from 1-mark to 3-mark."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Quick recap: P(E)=n(E)/n(S). Sure Event P=1, Impossible Event P=0. P(E)+P(not E)=1.",
+        "en": "Quick recap: P(E)=n(E)/n(S). Sure Event P=1, Impossible Event P=0. P(E)+P(not E)=1."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Coin: n(S)=2, Two coins: n(S)=4. Die: n(S)=6, Two dice: n(S)=36. Cards: n(S)=52.",
+        "en": "Coin: n(S)=2, Two coins: n(S)=4. Die: n(S)=6, Two dice: n(S)=36. Cards: n(S)=52."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "90 discs (1-90 numbered) wale box se ek disc nikala jaata hai. (i) 2-digit number, (ii) perfect square, (iii) 5 se divisible number aane ki probability?",
+        "en": "A box contains 90 discs numbered 1-90. One disc is drawn at random. Find the probability that it bears: (i) a two-digit number, (ii) a perfect square, (iii) a number divisible by 5."
+      },
+      "steps": [
+        {
+          "hi": "Total = 90",
+          "en": "Total = 90"
+        },
+        {
+          "hi": "(i) 2-digit (10-90) = 81. P = 81/90 = 9/10",
+          "en": "(i) 2-digit (10-90) = 81. P = 81/90 = 9/10"
+        },
+        {
+          "hi": "(ii) Perfect squares: 1,4,9,16,25,36,49,64,81 = 9. P = 9/90 = 1/10",
+          "en": "(ii) Perfect squares: 1,4,9,16,25,36,49,64,81 = 9. P = 9/90 = 1/10"
+        },
+        {
+          "hi": "(iii) Divisible by 5: 5,10,...,90 = 18. P = 18/90 = 1/5",
+          "en": "(iii) Divisible by 5: 5,10,...,90 = 18. P = 18/90 = 1/5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek bag mein 5 red balls hain aur kuch blue balls. Blue ball nikalne ki probability red se double hai. Blue balls ki sankhya nikaalo.",
+        "en": "A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball is double that of a red ball, find the number of blue balls."
+      },
+      "steps": [
+        {
+          "hi": "Blue balls = x maano. Total = 5+x",
+          "en": "Let blue balls = x. Total = 5+x"
+        },
+        {
+          "hi": "P(Blue) = 2 × P(Red) → x/(5+x) = 2×5/(5+x)",
+          "en": "P(Blue) = 2 × P(Red) → x/(5+x) = 2×5/(5+x)"
+        },
+        {
+          "hi": "x = 10",
+          "en": "x = 10"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Die throw karne pe perfect square number aane ki probability?",
+          "en": "A die is thrown once. Find the probability of getting a perfect square number."
+        },
+        "options": [
+          {
+            "hi": "1/6",
+            "en": "1/6"
+          },
+          {
+            "hi": "1/3",
+            "en": "1/3"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "2/3",
+            "en": "2/3"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Perfect squares 1-6 mein: {1,4} → 2/6 = 1/3.",
+          "en": "Perfect squares in 1-6: {1,4} → 2/6 = 1/3."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "12 balls wale box mein x black hain. P(black)=x/12. 6 aur black balls add karne pe probability double ho jaati hai. x nikaalo.",
+          "en": "A box has 12 balls, x of which are black. P(black)=x/12. Adding 6 more black balls doubles the probability. Find x."
+        },
+        "options": [
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "3",
+            "en": "3"
+          },
+          {
+            "hi": "4",
+            "en": "4"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "(x+6)/18 = 2×(x/12) → 6(x+6)=18x → x=3.",
+          "en": "(x+6)/18 = 2×(x/12) → 6(x+6)=18x → x=3."
+        }
+      },
+      {
+        "type": "match",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Event ko uski probability se match karo",
+          "en": "Match the event to its probability"
+        },
+        "pairs": [
+          {
+            "left": {
+              "hi": "Sure Event",
+              "en": "Sure Event"
+            },
+            "right": {
+              "hi": "P = 1",
+              "en": "P = 1"
+            }
+          },
+          {
+            "left": {
+              "hi": "Impossible Event",
+              "en": "Impossible Event"
+            },
+            "right": {
+              "hi": "P = 0",
+              "en": "P = 0"
+            }
+          },
+          {
+            "left": {
+              "hi": "Coin toss n(S)",
+              "en": "Coin toss n(S)"
+            },
+            "right": {
+              "hi": "2",
+              "en": "2"
+            }
+          },
+          {
+            "left": {
+              "hi": "Two dice n(S)",
+              "en": "Two dice n(S)"
+            },
+            "right": {
+              "hi": "36",
+              "en": "36"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "2-digit numbers 1-90 mein = 81, perfect squares = 9",
+      "en": "2-digit numbers in 1-90 = 81, perfect squares = 9"
+    },
+    {
+      "hi": "'Double probability' word problems mein equation banao aur solve karo",
+      "en": "In 'double probability' word problems, form an equation and solve"
+    }
+  ],
+  "summary": {
+    "hi": "Probability chapter complete! Ab tum coin, dice, cards, aur word problems — sab confidently solve kar sakte ho.",
+    "en": "Probability chapter complete! You can now confidently solve coin, dice, cards, and word problems."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-14-master",
+      "name": {
+        "hi": "Probability Master",
+        "en": "Probability Master"
+      },
+      "icon": "🏅"
+    }
+  }
+}

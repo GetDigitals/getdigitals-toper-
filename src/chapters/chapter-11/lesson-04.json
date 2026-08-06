@@ -1,0 +1,220 @@
+{
+  "id": "chapter-11-lesson-04",
+  "chapterId": "chapter-11",
+  "order": 4,
+  "title": {
+    "hi": "Chapter Wrap-up & Quiz",
+    "en": "Chapter Wrap-up & Quiz"
+  },
+  "estimatedMinutes": 11,
+  "xpReward": 60,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "hi": "Areas Related to Circles — Full Recap",
+      "en": "Areas Related to Circles — Full Recap"
+    },
+    "subtext": {
+      "hi": "Sector, segment, aur combinations — sab ek saath practice karo.",
+      "en": "Sector, segment, and combinations — practice them all together."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ye chapter board exam mein bahut common hai — sector/segment ke formulas aur combination figures dono practice karte hain is lesson mein.",
+      "en": "This chapter is very common in board exams — practice both sector/segment formulas and combination figures in this lesson."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Recap: Area of Sector = (θ/360°)×πr². Segment = Sector − Triangle. Combination figures: har piece ka area nikaalo, diagram ke hisaab se add/subtract karo.",
+        "en": "Recap: Area of Sector = (θ/360°)×πr². Segment = Sector − Triangle. Combination figures: find each piece's area, add/subtract per the diagram."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek circle ka circumference 44cm hai. Iska area nikaalo (π=22/7).",
+        "en": "A circle's circumference is 44cm. Find its area (π=22/7)."
+      },
+      "steps": [
+        {
+          "hi": "2πr=44 → r=44×7/(2×22)=7cm",
+          "en": "2πr=44 → r=44×7/(2×22)=7cm"
+        },
+        {
+          "hi": "Area = 22/7×49 = 154cm²",
+          "en": "Area = 22/7×49 = 154cm²"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Radius 15cm, θ=60°, π=3.14, √3=1.73. Minor segment ka area nikaalo.",
+        "en": "Radius 15cm, θ=60°, π=3.14, √3=1.73. Find the minor segment's area."
+      },
+      "steps": [
+        {
+          "hi": "Sector Area = (60/360)×3.14×225 = 117.75cm²",
+          "en": "Sector Area = (60/360)×3.14×225 = 117.75cm²"
+        },
+        {
+          "hi": "Triangle (equilateral) Area = (1.73/4)×225 = 97.3125cm²",
+          "en": "Triangle (equilateral) Area = (1.73/4)×225 = 97.3125cm²"
+        },
+        {
+          "hi": "Segment = 117.75 − 97.3125 = 20.4375cm²",
+          "en": "Segment = 117.75 − 97.3125 = 20.4375cm²"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Circle ka circumference 44cm hai. Area kya hai (π=22/7)?",
+          "en": "A circle's circumference is 44cm. Find its area (π=22/7)."
+        },
+        "options": [
+          {
+            "hi": "77cm²",
+            "en": "77cm²"
+          },
+          {
+            "hi": "154cm²",
+            "en": "154cm²"
+          },
+          {
+            "hi": "308cm²",
+            "en": "308cm²"
+          },
+          {
+            "hi": "44cm²",
+            "en": "44cm²"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "r=7cm, Area=154cm².",
+          "en": "r=7cm, Area=154cm²."
+        }
+      },
+      {
+        "type": "match",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Concept ko formula se match karo",
+          "en": "Match the concept to its formula"
+        },
+        "pairs": [
+          {
+            "left": {
+              "hi": "Sector Area",
+              "en": "Sector Area"
+            },
+            "right": {
+              "hi": "(θ/360°)×πr²",
+              "en": "(θ/360°)×πr²"
+            }
+          },
+          {
+            "left": {
+              "hi": "Arc Length",
+              "en": "Arc Length"
+            },
+            "right": {
+              "hi": "(θ/360°)×2πr",
+              "en": "(θ/360°)×2πr"
+            }
+          },
+          {
+            "left": {
+              "hi": "Segment",
+              "en": "Segment"
+            },
+            "right": {
+              "hi": "Sector − Triangle",
+              "en": "Sector − Triangle"
+            }
+          },
+          {
+            "left": {
+              "hi": "θ=60° triangle",
+              "en": "θ=60° triangle"
+            },
+            "right": {
+              "hi": "Equilateral",
+              "en": "Equilateral"
+            }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "8cm side wale square ke chaar sides pe semicircles hain (bahar ki taraf), jinka diameter square ki side ke barabar hai (8cm). Total area (square+semicircles) nikaalo (π=3.14).",
+          "en": "An 8cm square has semicircles on each side (outward), each with diameter equal to the square's side (8cm). Find the total area (square+semicircles) (π=3.14)."
+        },
+        "options": [
+          {
+            "hi": "128.48cm²",
+            "en": "128.48cm²"
+          },
+          {
+            "hi": "164.48cm²",
+            "en": "164.48cm²"
+          },
+          {
+            "hi": "144.48cm²",
+            "en": "144.48cm²"
+          },
+          {
+            "hi": "184.48cm²",
+            "en": "184.48cm²"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Square area = 64cm². Har semicircle ka radius = 4cm (diameter 8cm ka half). Ek semicircle area = ½×3.14×16 = 25.12cm². 4 semicircles = 100.48cm². Total = 64+100.48 = 164.48cm².",
+          "en": "Square area = 64cm². Each semicircle's radius = 4cm (half of 8cm diameter). One semicircle's area = ½×3.14×16 = 25.12cm². 4 semicircles = 100.48cm². Total = 64+100.48 = 164.48cm²."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Sector Area = (θ/360°)×πr², Arc = (θ/360°)×2πr",
+      "en": "Sector Area = (θ/360°)×πr², Arc = (θ/360°)×2πr"
+    },
+    {
+      "hi": "Segment = Sector − Triangle",
+      "en": "Segment = Sector − Triangle"
+    },
+    {
+      "hi": "Combination figures: har piece ka area, phir add/subtract",
+      "en": "Combination figures: each piece's area, then add/subtract"
+    }
+  ],
+  "summary": {
+    "hi": "Chapter 11 complete! Ab tum sector, segment, aur combination figures — sab confidently solve kar sakte ho.",
+    "en": "Chapter 11 complete! You can now confidently solve sector, segment, and combination figure problems."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-11-master",
+      "name": {
+        "hi": "Circles Master",
+        "en": "Circles Master"
+      },
+      "icon": "🏅"
+    }
+  }
+}
