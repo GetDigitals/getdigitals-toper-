@@ -12,7 +12,7 @@ import { BrandBadge, BrandFooter } from '../components/GetDigitalsBrand';
 
 export default function Home() {
   const navigate = useNavigate();
-  const { progress, isChapterUnlocked, recordStreak, settings } = useProgress();
+  const { progress, recordStreak, settings } = useProgress();
   const { profile, isApproved } = useAuth();
   const lang = langCode(settings.language);
   const chapters = useMemo(() => getAllChapters(), []);
@@ -20,7 +20,8 @@ export default function Home() {
   const continueChapter = chapters.find((ch) => {
     const lessons = getLessonsForChapter(ch.id);
     const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;
-    return isChapterUnlocked(ch.id) && done < lessons.length;
+    const accessible = !requiresPayment(ch) || isApproved;
+    return accessible && done < lessons.length;
   }) || chapters[0];
 
   const continueLessons = getLessonsForChapter(continueChapter?.id);
@@ -95,7 +96,7 @@ export default function Home() {
               key={ch.id}
               chapter={ch}
               index={i}
-              unlocked={isChapterUnlocked(ch.id)}
+              unlocked={true}
               paymentLocked={requiresPayment(ch) && !isApproved}
               progressPercent={(() => {
                 const lessons = getLessonsForChapter(ch.id);

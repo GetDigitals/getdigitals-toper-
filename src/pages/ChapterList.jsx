@@ -9,7 +9,7 @@ import ChapterCard from '../components/ChapterCard';
 export default function ChapterList() {
   const navigate = useNavigate();
   const chapters = useMemo(() => getAllChapters(), []);
-  const { progress, isChapterUnlocked } = useProgress();
+  const { progress } = useProgress();
   const { isApproved } = useAuth();
   const [query, setQuery] = useState('');
 
@@ -35,7 +35,7 @@ export default function ChapterList() {
               key={ch.id}
               chapter={ch}
               index={i}
-              unlocked={isChapterUnlocked(ch.id)}
+              unlocked={true}
               paymentLocked={requiresPayment(ch) && !isApproved}
               progressPercent={pct}
             />

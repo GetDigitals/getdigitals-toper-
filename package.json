@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/write-build-id.js",
     "dev": "vite",
+    "prebuild": "node scripts/write-build-id.js",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

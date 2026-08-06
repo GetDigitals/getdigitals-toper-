@@ -9,7 +9,7 @@ export default function ChapterDetail() {
   const navigate = useNavigate();
   const chapter = getChapterById(chapterId);
   const lessons = getLessonsForChapter(chapterId);
-  const { progress, isLessonComplete, isChapterUnlocked, settings } = useProgress();
+  const { progress, isLessonComplete, settings } = useProgress();
   const lang = langCode(settings.language);
 
   if (!chapter) {
@@ -18,7 +18,10 @@ export default function ChapterDetail() {
 
   const doneCount = lessons.filter((l) => isLessonComplete(l.id)).length;
   const allDone = doneCount === lessons.length && lessons.length > 0;
-  const chapterUnlocked = isChapterUnlocked(chapter.id);
+  // Reaching this page at all already means RequireChapterAccess (App.jsx) approved
+  // access — Chapter 1 is free, Chapter 2+ needed payment. No further sequential
+  // lock here: a paying student can freely jump to any lesson/topic they need,
+  // e.g. to look something up for an exam, without grinding earlier chapters first.
 
   return (
     <div className="pb-24">
@@ -43,34 +46,24 @@ export default function ChapterDetail() {
       </div>
 
       <div className="px-4 pt-5">
-        {!chapterUnlocked && (
-          <div className="rounded-xl p-4 bg-[var(--color-surface)] border border-[var(--color-border)] text-center text-[13px] text-[var(--color-muted)] mb-4">
-            🔒 Pichla chapter poora karo isko unlock karne ke liye.
-          </div>
-        )}
-
         <div className="space-y-2">
           {lessons.map((lesson, i) => {
             const complete = isLessonComplete(lesson.id);
-            const locked = !chapterUnlocked || (i > 0 && !isLessonComplete(lessons[i - 1].id) && !complete);
             return (
               <motion.button
                 key={lesson.id}
                 initial={{ opacity: 0, x: -8 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.03 }}
-                disabled={locked}
                 onClick={() => navigate(`/lesson/${chapter.id}/${lesson.id}`)}
-                className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl border text-left ${
-                  locked ? 'opacity-45 border-[var(--color-border)]/50 bg-[var(--color-surface)]/40' : 'border-[var(--color-border)] bg-[var(--color-surface)]'
-                }`}
+                className="w-full flex items-center gap-3 px-4 py-3 rounded-xl border text-left border-[var(--color-border)] bg-[var(--color-surface)]"
               >
                 <div
                   className={`w-8 h-8 rounded-full flex items-center justify-center text-[12px] font-mono font-bold shrink-0 ${
-                    complete ? 'bg-[var(--color-success)] text-black' : locked ? 'bg-[var(--color-surface-raised)]' : 'bg-[var(--color-surface-raised)] text-[var(--color-saffron)]'
+                    complete ? 'bg-[var(--color-success)] text-black' : 'bg-[var(--color-surface-raised)] text-[var(--color-saffron)]'
                   }`}
                 >
-                  {complete ? '✓' : locked ? '🔒' : i + 1}
+                  {complete ? '✓' : i + 1}
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-[14px] font-medium truncate">{t(lesson.title, lang)}</p>
@@ -84,22 +77,19 @@ export default function ChapterDetail() {
         <div className="grid grid-cols-2 gap-2.5 mt-5">
           <button
             onClick={() => navigate(`/practice/${chapter.id}`)}
-            disabled={doneCount === 0}
-            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium disabled:opacity-40"
+            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium"
           >
             💪 Practice
           </button>
           <button
             onClick={() => navigate(`/revision/${chapter.id}`)}
-            disabled={doneCount === 0}
-            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium disabled:opacity-40"
+            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium"
           >
             📝 Revision
           </button>
           <button
             onClick={() => navigate(`/important-questions/${chapter.id}`)}
-            disabled={doneCount === 0}
-            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium disabled:opacity-40"
+            className="py-3 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium"
           >
             ⭐ Important Qs
           </button>

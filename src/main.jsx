@@ -71,3 +71,34 @@ if ('serviceWorker' in navigator) {
     window.location.reload();
   });
 }
+
+// Version polling — the more reliable half of "already-logged-in tabs get
+// the update automatically". controllerchange above only fires when
+// public/sw.js itself changes bytes, which most deploys DON'T touch (only
+// the hashed JS/CSS bundle changes) — so on its own it silently misses
+// almost every real deploy. This compares the build id baked into this
+// running bundle against build-id.txt fetched fresh from the network
+// (never cached), and reloads once if they differ.
+import(/* @vite-ignore */ './buildId.json').then(({ id: myBuildId }) => {
+  let reloaded = false;
+  async function checkForUpdate() {
+    if (reloaded || document.hidden) return;
+    try {
+      const res = await fetch('/build-id.txt', { cache: 'no-store' });
+      const latest = (await res.text()).trim();
+      if (latest && latest !== myBuildId) {
+        reloaded = true;
+        window.location.reload();
+      }
+    } catch {
+      // offline or network hiccup — just skip this check, try again later
+    }
+  }
+  // Wait a bit before the first check so this never fires mid-login/
+  // mid-register on a tab that was JUST opened.
+  setTimeout(checkForUpdate, 20000);
+  setInterval(checkForUpdate, 5 * 60 * 1000); // every 5 min while open
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) checkForUpdate(); // e.g. student switches back after a break
+  });
+});
