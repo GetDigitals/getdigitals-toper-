@@ -23,9 +23,13 @@ function showFatalOverlay(title, detail) {
   el.id = 'fatal-error-overlay';
   el.style.cssText =
     'position:fixed;inset:0;z-index:99999;background:#0B0E14;color:#F5E9D8;padding:24px;font-family:monospace;font-size:13px;line-height:1.5;overflow-y:auto;white-space:pre-wrap;word-break:break-word;';
-  el.innerHTML = `<div style="font-size:22px;margin-bottom:12px;">⚠️ ${title}</div><div style="background:#1a1f2b;border:1px solid #E8650A55;border-radius:10px;padding:14px;color:#ff9d7a;margin-bottom:16px;">${detail}</div><button id="fatal-error-reload" style="background:#E8650A;color:#0B0E14;border:none;border-radius:10px;padding:12px 20px;font-weight:700;font-family:inherit;">Reload</button>`;
+  el.innerHTML = `<div style="font-size:22px;margin-bottom:12px;">⚠️ ${title}</div><div style="background:#1a1f2b;border:1px solid #4a90d955;border-radius:10px;padding:10px 14px;margin-bottom:16px;word-break:break-all;color:#7ec8ff;font-size:11px;">URL: ${window.location.href}</div><div style="background:#1a1f2b;border:1px solid #E8650A55;border-radius:10px;padding:14px;color:#ff9d7a;margin-bottom:16px;">${detail}</div><div style="display:flex;gap:10px;"><button id="fatal-error-reload" style="background:#1a1f2b;color:#F5E9D8;border:1px solid #333;border-radius:10px;padding:12px 20px;font-weight:700;font-family:inherit;">Reload (same page)</button><button id="fatal-error-home" style="background:#E8650A;color:#0B0E14;border:none;border-radius:10px;padding:12px 20px;font-weight:700;font-family:inherit;">Go to Home (safe)</button></div>`;
   document.body.appendChild(el);
   document.getElementById('fatal-error-reload').onclick = () => window.location.reload();
+  document.getElementById('fatal-error-home').onclick = () => {
+    window.location.hash = '#/home';
+    window.location.reload();
+  };
 }
 window.addEventListener('unhandledrejection', (e) => {
   console.error('[unhandledrejection]', e.reason);

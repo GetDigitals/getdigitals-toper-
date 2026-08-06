@@ -47,7 +47,8 @@ export default function RewardModal({ open, xp, coins, badge, onClose }) {
             </div>
             {badge && (
               <div className="flex items-center justify-center gap-2 text-[13px] text-[var(--color-saffron-soft)] mb-4">
-                <span className="text-xl">{badge.icon}</span> New badge: {badge.name}
+                <span className="text-xl">{badge.icon}</span> New badge:{' '}
+                {typeof badge.name === 'object' ? badge.name?.hi ?? badge.name?.en ?? '' : badge.name}
               </div>
             )}
             <button

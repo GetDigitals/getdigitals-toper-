@@ -29,6 +29,7 @@ export default class ErrorBoundary extends Component {
   render() {
     if (this.state.error) {
       const { error, info } = this.state;
+      const crashedUrl = window.location.href;
       return (
         <div
           style={{
@@ -43,9 +44,23 @@ export default class ErrorBoundary extends Component {
           }}
         >
           <div style={{ fontSize: '22px', marginBottom: '12px' }}>⚠️ App crashed</div>
-          <p style={{ marginBottom: '12px', opacity: 0.8 }}>
+          <p style={{ marginBottom: '8px', opacity: 0.8 }}>
             Ye screen isliye dikh rahi hai taaki ye pura error text screenshot leke bheja ja sake — pehle ye blank ho jaata tha.
           </p>
+          <div
+            style={{
+              background: '#1a1f2b',
+              border: '1px solid #4a90d955',
+              borderRadius: '10px',
+              padding: '10px 14px',
+              marginBottom: '16px',
+              wordBreak: 'break-all',
+              color: '#7ec8ff',
+              fontSize: '11px',
+            }}
+          >
+            URL: {crashedUrl}
+          </div>
           <div
             style={{
               background: '#1a1f2b',
@@ -96,20 +111,43 @@ export default class ErrorBoundary extends Component {
               </div>
             </details>
           )}
-          <button
-            onClick={() => window.location.reload()}
-            style={{
-              background: '#E8650A',
-              color: '#0B0E14',
-              border: 'none',
-              borderRadius: '10px',
-              padding: '12px 20px',
-              fontWeight: 700,
-              fontFamily: 'inherit',
-            }}
-          >
-            Reload
-          </button>
+          <div style={{ display: 'flex', gap: '10px' }}>
+            <button
+              onClick={() => window.location.reload()}
+              style={{
+                background: '#1a1f2b',
+                color: '#F5E9D8',
+                border: '1px solid #333',
+                borderRadius: '10px',
+                padding: '12px 20px',
+                fontWeight: 700,
+                fontFamily: 'inherit',
+              }}
+            >
+              Reload (same page)
+            </button>
+            <button
+              onClick={() => {
+                // A crash on a specific route reloading the SAME url will
+                // just crash again in a loop — this jumps to a known-safe
+                // screen (clears the hash route) so the app is actually
+                // usable again instead of stuck.
+                window.location.hash = '#/home';
+                window.location.reload();
+              }}
+              style={{
+                background: '#E8650A',
+                color: '#0B0E14',
+                border: 'none',
+                borderRadius: '10px',
+                padding: '12px 20px',
+                fontWeight: 700,
+                fontFamily: 'inherit',
+              }}
+            >
+              Go to Home (safe)
+            </button>
+          </div>
         </div>
       );
     }
