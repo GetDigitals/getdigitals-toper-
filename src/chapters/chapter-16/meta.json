@@ -1,0 +1,21 @@
+{
+  "id": "chapter-16",
+  "order": 2,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Reading Skills (Section A)",
+  "icon": "📰",
+  "color": "#4FA8FF",
+  "description": "Unseen passage + case-based passage — comprehension aur inference skills. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-16-master",
+    "name": "Reading Skills (Section A) Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "chapter-15-lesson-06",
+  "chapterId": "chapter-15",
+  "order": 6,
+  "title": {
+    "en": "Gap Filling, Editing & Transformation",
+    "hi": "Gap Filling, Editing & Transformation"
+  },
+  "estimatedMinutes": 16,
+  "xpReward": 45,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "✂️",
+    "headline": {
+      "en": "Gap Filling, Editing & Transformation",
+      "hi": "Gap Filling, Editing & Transformation"
+    },
+    "subtext": {
+      "en": "Integrated Grammar — 3 types of questions, one strategy",
+      "hi": "Integrated Grammar — 3 types ke questions, ek strategy"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Gap filling, editing, and transformation aren't 3 skills — they're 1 habit applied 3 ways. Learn the habit.",
+      "hi": "Gap filling, editing, aur transformation 3 skills nahi hain — ye 1 habit hai jo 3 tarike se apply hoti hai. Wo habit seekho."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "Type 1: Gap Filling (Cloze Test)\n\nGap filling mein ek passage hota hai jisme kuch words missing hain. Options diye hote hain ya blanks fill karne hote hain.\n\nStrategy:\n1. Passage ko pehle quickly padho — main idea samajh lo\n2. Blank ke aas-paas ke words padho — context samajhne ke liye\n3. Grammar rule apply karo:\n   - Agar noun ke pehle blank hai → Article/Determiner/Adjective\n   - Agar subject ke baad blank hai → Verb (tense check karo)\n   - Agar do clauses ke beech blank hai → Conjunction (and, but, because, although)\n   - Agar verb ke pehle blank hai → Adverb\n\nExample:\nShe is ___ (a/an) honest girl.\n→ 'Honest' vowel sound se start hota hai → an",
+        "hi": "Type 1: Gap Filling (Cloze Test)\n\nGap filling mein ek passage hota hai jisme kuch words missing hain. Options diye hote hain ya blanks fill karne hote hain.\n\nStrategy:\n1. Passage ko pehle quickly padho — main idea samajh lo\n2. Blank ke aas-paas ke words padho — context samajhne ke liye\n3. Grammar rule apply karo:\n   - Agar noun ke pehle blank hai → Article/Determiner/Adjective\n   - Agar subject ke baad blank hai → Verb (tense check karo)\n   - Agar do clauses ke beech blank hai → Conjunction (and, but, because, although)\n   - Agar verb ke pehle blank hai → Adverb\n\nExample:\nShe is ___ (a/an) honest girl.\n→ 'Honest' vowel sound se start hota hai → an"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🔍 One Habit That Solves All 3 Question Types\n\nGap Filling, Editing, and Transformation LOOK like 3 different skills — but they're really testing the SAME thing: can you spot which of the 5 grammar topics (Determiners, Tenses, Modals, SVA, Reported Speech) is being tested in THIS particular blank/line/sentence?\n\nThe habit: Before answering, silently label the question — \"Is this a tense issue? An article issue? An SVA issue?\" Once you've labelled it, you're just applying a rule you already know from the other 5 lessons — you're not learning anything new here, just combining what you already have.\n\nThat's why this lesson comes LAST — it's the exam-simulation lesson where all previous lessons get used together, exactly like the real board paper.",
+        "hi": "🔍 Ek Habit Jo Teeno Question Types Solve Kar Deti Hai\n\nGap Filling, Editing, aur Transformation 3 alag skills lagti hain — but asal mein SAME cheez test kar rahi hain: kya tum pehchan sakte ho ki 5 grammar topics (Determiners, Tenses, Modals, SVA, Reported Speech) mein se kaunsa is particular blank/line/sentence mein test ho raha hai?\n\nHabit: Answer dene se pehle, chupke se question ko label karo — \"Ye tense ka issue hai? Article ka? SVA ka?\" Ek baar label ho gaya, tum bas woh rule apply kar rahe ho jo tumhe pehle se pata hai baaki 5 lessons se — yahan kuch naya nahi seekh rahe, jo pata hai usko combine kar rahe ho.\n\nIsliye ye lesson LAST mein aata hai — ye exam-simulation lesson hai jahan saare pehle wale lessons ek saath use hote hain, bilkul real board paper ki tarah."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Type 2: Editing (Error Spotting)\n\nEditing mein ek passage diya jata hai jisme errors hain. Har line mein ek error hota hai. Error ko underline karna hai aur correct word likhna hai.\n\nMost Common Error Patterns in CBSE:\n\n1. Tense Errors (40% questions)\n   - Simple Present ki jagah Simple Past\n   - Present Continuous ki jagah Present Perfect\n   - 'Have' + V2 ki jagah 'have' + V3\n\n2. Subject-Verb Agreement (25% questions)\n   - Singular subject + plural verb\n   - 'Each', 'every', 'neither' ke baad plural verb\n\n3. Article Errors (15% questions)\n   - 'A' ki jagah 'an' (vowel sound)\n   - 'The' missing before superlative/unique nouns\n\n4. Preposition Errors (10% questions)\n   - 'In' ki jagah 'on' (days ke liye)\n   - 'At' ki jagah 'in' (cities/countries ke liye)\n\n5. Spelling Errors (10% questions)\n   - Double letters missing (beginning, success)\n   - Silent letters (honest, hour)",
+        "hi": "Type 2: Editing (Error Spotting)\n\nEditing mein ek passage diya jata hai jisme errors hain. Har line mein ek error hota hai. Error ko underline karna hai aur correct word likhna hai.\n\nCBSE mein Sabse Common Error Patterns:\n\n1. Tense Errors (40% questions)\n   - Simple Present ki jagah Simple Past\n   - Present Continuous ki jagah Present Perfect\n   - 'Have' + V2 ki jagah 'have' + V3\n\n2. Subject-Verb Agreement (25% questions)\n   - Singular subject + plural verb\n   - 'Each', 'every', 'neither' ke baad plural verb\n\n3. Article Errors (15% questions)\n   - 'A' ki jagah 'an' (vowel sound)\n   - 'The' missing before superlative/unique nouns\n\n4. Preposition Errors (10% questions)\n   - 'In' ki jagah 'on' (days ke liye)\n   - 'At' ki jagah 'in' (cities/countries ke liye)\n\n5. Spelling Errors (10% questions)\n   - Double letters missing (beginning, success)\n   - Silent letters (honest, hour)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Type 3: Sentence Transformation\n\nSentence transformation mein ek sentence diya jata hai aur usse doosre form mein badalna hota hai bina meaning change kiye.\n\nCommon Transformation Types:\n\n1. Assertive → Negative (without changing meaning)\n   - She is very intelligent. → She is not dull at all.\n\n2. Assertive → Interrogative\n   - He is a good boy. → Is he not a good boy?\n\n3. Simple → Compound\n   - Though he is poor, he is honest. → He is poor but honest.\n\n4. Simple → Complex\n   - Being tired, he sat down. → As he was tired, he sat down.\n\n5. Active → Passive\n   - Ram wrote a letter. → A letter was written by Ram.\n\n6. Direct → Indirect (Already covered in Reported Speech)",
+        "hi": "Type 3: Sentence Transformation\n\nSentence transformation mein ek sentence diya jata hai aur usse doosre form mein badalna hota hai bina meaning change kiye.\n\nCommon Transformation Types:\n\n1. Assertive → Negative (meaning bina change kiye)\n   - She is very intelligent. → She is not dull at all.\n\n2. Assertive → Interrogative\n   - He is a good boy. → Is he not a good boy?\n\n3. Simple → Compound\n   - Though he is poor, he is honest. → He is poor but honest.\n\n4. Simple → Complex\n   - Being tired, he sat down. → As he was tired, he sat down.\n\n5. Active → Passive\n   - Ram wrote a letter. → A letter was written by Ram.\n\n6. Direct → Indirect (Pehle hi Reported Speech mein cover kiya)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Active → Passive Voice (Important!)\n\nFormula: Object + Helping Verb + V3 + by + Subject\n\n| Tense | Active | Passive |\n|---|---|---|\n| Simple Present | Ram writes a letter. | A letter is written by Ram. |\n| Present Continuous | Ram is writing a letter. | A letter is being written by Ram. |\n| Present Perfect | Ram has written a letter. | A letter has been written by Ram. |\n| Simple Past | Ram wrote a letter. | A letter was written by Ram. |\n| Past Continuous | Ram was writing a letter. | A letter was being written by Ram. |\n| Past Perfect | Ram had written a letter. | A letter had been written by Ram. |\n| Simple Future | Ram will write a letter. | A letter will be written by Ram. |\n| Future Perfect | Ram will have written a letter. | A letter will have been written by Ram. |\n\nImportant Rules:\n1. Object becomes Subject\n2. Verb always becomes V3\n3. Helping verb tense ke hisaab se change hota hai\n4. 'By + subject' last mein lagta hai\n5. Intransitive verbs (no object) ka passive nahi banta: He sleeps. (no passive)",
+        "hi": "Active → Passive Voice (Important!)\n\nFormula: Object + Helping Verb + V3 + by + Subject\n\n| Tense | Active | Passive |\n|---|---|---|\n| Simple Present | Ram writes a letter. | A letter is written by Ram. |\n| Present Continuous | Ram is writing a letter. | A letter is being written by Ram. |\n| Present Perfect | Ram has written a letter. | A letter has been written by Ram. |\n| Simple Past | Ram wrote a letter. | A letter was written by Ram. |\n| Past Continuous | Ram was writing a letter. | A letter was being written by Ram. |\n| Past Perfect | Ram had written a letter. | A letter had been written by Ram. |\n| Simple Future | Ram will write a letter. | A letter will be written by Ram. |\n| Future Perfect | Ram will have written a letter. | A letter will have been written by Ram. |\n\nImportant Rules:\n1. Object becomes Subject\n2. Verb hamesha V3 ban jaata hai\n3. Helping verb tense ke hisaab se change hota hai\n4. 'By + subject' last mein lagta hai\n5. Intransitive verbs (jinka object nahi hota) ka passive nahi banta: He sleeps. (no passive)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🥊 Confusion Buster — Simple→Compound vs Simple→Complex\n\nBoth transformations join two ideas into one sentence — but students often can't tell which one is being asked for.\n\nCompound sentence = two EQUAL, independent ideas joined by and/but/or/so (both ideas could stand alone as full sentences)\n• \"He is poor but he is honest.\" (both halves are complete sentences on their own)\n\nComplex sentence = one MAIN idea + one DEPENDENT idea joined by because/although/when/if/who/which (the dependent part can't stand alone)\n• \"Although he is poor, he is honest.\" (\"Although he is poor\" can't stand alone as a complete thought)\n\nQuick test: Cover up everything after the joining word. If what's left still makes complete sense alone → compound. If it sounds incomplete/hanging → complex.",
+        "hi": "🥊 Confusion Buster — Simple→Compound vs Simple→Complex\n\nDono transformations do ideas ko ek sentence mein jodte hain — but students often bata nahi paate kaunsa poocha ja raha hai.\n\nCompound sentence = do EQUAL, independent ideas and/but/or/so se jude hue (dono ideas apne aap complete sentences ki tarah khade ho sakte hain)\n• \"He is poor but he is honest.\" (dono halves apne aap complete sentences hain)\n\nComplex sentence = ek MAIN idea + ek DEPENDENT idea because/although/when/if/who/which se juda (dependent part apne aap khada nahi ho sakta)\n• \"Although he is poor, he is honest.\" (\"Although he is poor\" apne aap complete thought nahi hai)\n\nQuick test: Joining word ke baad sab kuch cover karo. Agar jo bacha hai wo apne aap complete sense banata hai → compound. Agar incomplete/hanging lagta hai → complex."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "She is ___ (a/an) university student.",
+        "hi": "She is ___ (a/an) university student."
+      },
+      "steps": [
+        {
+          "en": "'University' starts with consonant sound 'yoo' → 'a'",
+          "hi": "'University' starts with consonant sound 'yoo' → 'a'"
+        }
+      ],
+      "answer": {
+        "en": "a",
+        "hi": "a"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: The news are very shocking.",
+        "hi": "Find and fix the error: The news are very shocking."
+      },
+      "steps": [
+        {
+          "en": "'News' is uncountable → singular verb 'is'",
+          "hi": "'News' is uncountable → singular verb 'is'"
+        }
+      ],
+      "answer": {
+        "en": "is",
+        "hi": "is"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: Each of the boys have a pen.",
+        "hi": "Find and fix the error: Each of the boys have a pen."
+      },
+      "steps": [
+        {
+          "en": "'Each' ke baad singular verb → 'has'",
+          "hi": "'Each' ke baad singular verb → 'has'"
+        }
+      ],
+      "answer": {
+        "en": "has",
+        "hi": "has"
+      }
+    },
+    {
+      "problem": {
+        "en": "He has been working here ___ (since/for) 2020.",
+        "hi": "He has been working here ___ (since/for) 2020."
+      },
+      "steps": [
+        {
+          "en": "'2020' is a point of time → 'since' (not 'for')",
+          "hi": "'2020' is a point of time → 'since' (not 'for')"
+        }
+      ],
+      "answer": {
+        "en": "since",
+        "hi": "since"
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: He is ___ (a/an) honest man.",
+          "hi": "Fill in the blank: He is ___ (a/an) honest man."
+        },
+        "options": [
+          {
+            "en": "a",
+            "hi": "a"
+          },
+          {
+            "en": "an",
+            "hi": "an"
+          },
+          {
+            "en": "the",
+            "hi": "the"
+          },
+          {
+            "en": "no article",
+            "hi": "no article"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "'Honest' starts with vowel sound 'o' (silent h) → 'an'",
+          "hi": "'Honest' vowel sound 'o' se start hota hai (silent h) → 'an'"
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Convert to passive: The dog bit the man.",
+          "hi": "Passive mein convert karo: The dog bit the man."
+        },
+        "options": [
+          {
+            "en": "The man was bitten by the dog.",
+            "hi": "The man was bitten by the dog."
+          },
+          {
+            "en": "The man is bitten by the dog.",
+            "hi": "The man is bitten by the dog."
+          },
+          {
+            "en": "The man was bit by the dog.",
+            "hi": "The man was bit by the dog."
+          },
+          {
+            "en": "The man had bitten by the dog.",
+            "hi": "The man had bitten by the dog."
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "en": "Simple Past passive: was/were + V3. 'Bit' (V2) → 'bitten' (V3).",
+          "hi": "Simple Past passive: was/were + V3. 'Bit' (V2) → 'bitten' (V3)."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Convert to compound: Although he is rich, he is unhappy.",
+          "hi": "Compound mein convert karo: Although he is rich, he is unhappy."
+        },
+        "options": [
+          {
+            "en": "He is rich but he is unhappy.",
+            "hi": "He is rich but he is unhappy."
+          },
+          {
+            "en": "He is rich but unhappy.",
+            "hi": "He is rich but unhappy."
+          },
+          {
+            "en": "He is rich and unhappy.",
+            "hi": "He is rich and unhappy."
+          },
+          {
+            "en": "He is rich so unhappy.",
+            "hi": "He is rich so unhappy."
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Compound sentence mein common subject hatate hain. 'Although' → 'but'. 'He is rich but unhappy.'",
+          "hi": "Compound sentence mein common subject hatate hain. 'Although' → 'but'. 'He is rich but unhappy.'"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "❌ A letter is writing by Ram. → ✅ A letter is being written by Ram. — Present Continuous passive mein 'is being + V3' aata hai. 'Is writing' galat hai.",
+      "hi": "❌ A letter is writing by Ram. → ✅ A letter is being written by Ram. — Present Continuous passive mein 'is being + V3' aata hai. 'Is writing' galat hai."
+    },
+    {
+      "en": "❌ Ram has written a letter. → A letter has written by Ram. → ✅ A letter has been written by Ram. — Present Perfect passive mein 'has been + V3' aata hai. 'Has written' galat hai.",
+      "hi": "❌ Ram has written a letter. → A letter has written by Ram. → ✅ A letter has been written by Ram. — Present Perfect passive mein 'has been + V3' aata hai. 'Has written' galat hai."
+    },
+    {
+      "en": "❌ He is poor but he is honest. (Simple→Compound) → ✅ He is poor but honest. — Compound sentence mein common subject hatana padta hai. 'But' ke baad sirf 'honest' rakho.",
+      "hi": "❌ He is poor but he is honest. (Simple→Compound) → ✅ He is poor but honest. — Compound sentence mein common subject hatana padta hai. 'But' ke baad sirf 'honest' rakho."
+    }
+  ],
+  "summary": {
+    "en": "You've covered Gap Filling, Editing & Transformation — practice the examples above and try the quiz to lock it in before the exam.",
+    "hi": "Gap Filling, Editing & Transformation cover ho gaya — upar wale examples practice karo aur quiz try karo exam se pehle pakka karne ke liye."
+  },
+  "reward": {
+    "badge": null
+  }
+}

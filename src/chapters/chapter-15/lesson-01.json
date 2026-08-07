@@ -1,0 +1,364 @@
+{
+  "id": "chapter-15-lesson-01",
+  "chapterId": "chapter-15",
+  "order": 1,
+  "title": {
+    "en": "Determiners — Articles, Quantifiers & More",
+    "hi": "Determiners — Articles, Quantifiers & More"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🔤",
+    "headline": {
+      "en": "Determiners — The Building Blocks of Nouns",
+      "hi": "Determiners — Nouns ke Building Blocks"
+    },
+    "subtext": {
+      "en": "Every noun asks 3 questions — determiners answer them",
+      "hi": "Har noun 3 sawaal poochta hai — determiners unka jawab dete hain"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Every noun asks 3 questions — learn to answer them and determiners pick themselves.",
+      "hi": "Har noun 3 sawaal poochta hai — unka jawab dena seekho, determiners khud mil jayenge."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "🎯 The 3 Questions Every Noun Asks\n\nBefore you pick a determiner, the noun is silently asking you one of these 3 questions. Answer the right question, and the correct determiner picks itself:\n\nQ1: \"Which one am I?\" → Articles (a/an/the), Demonstratives (this/that/these/those)\nQ2: \"How many of me?\" → Many, few, several, some, any (for countables)\nQ3: \"How much of me?\" → Much, little, some, any (for uncountables)\n\nExample: \"I want the pen\" answers Q1 (which one — the specific one). \"I want many pens\" answers Q2 (how many — a lot). \"I want much water\" answers Q3 (how much).\n\nEvery rule in this lesson is really just: figure out which question the sentence is asking, then match the determiner family to it.",
+        "hi": "🎯 Har Noun Jo 3 Sawaal Poochta Hai\n\nDeterminer choose karne se pehle, noun chupke se in 3 sawaalon mein se ek pooch raha hota hai. Sahi sawaal pehchano, sahi determiner khud-ba-khud mil jayega:\n\nQ1: \"Main kaunsa hoon?\" → Articles (a/an/the), Demonstratives (this/that/these/those)\nQ2: \"Mere kitne hain?\" → Many, few, several, some, any (countables ke liye)\nQ3: \"Mera kitna hai?\" → Much, little, some, any (uncountables ke liye)\n\nExample: \"I want the pen\" Q1 ka jawab hai (kaunsa — woh specific wala). \"I want many pens\" Q2 ka jawab hai (kitne — bahut saare). \"I want much water\" Q3 ka jawab hai (kitna).\n\nIs lesson ka har rule asal mein bas itna hai: pehchano sentence kaunsa sawaal pooch raha hai, phir uss family ka determiner match karo."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "What are Determiners? (Simple Definition)\n\nDeterminers are small words that come BEFORE a noun and tell us 'which one', 'how many', or 'how much'. Think of them as 'noun helpers'.\n\nExample:\n• I want a pen. (tells us 'how many' = one, unspecified)\n• I want the pen. (tells us 'which one' = a specific pen)\n• I want some pens. (tells us 'how many' = more than one, unspecified)",
+        "hi": "Determiners kya hain? (Simple Definition)\n\nDeterminers chhote words hain jo noun se PEHLE aate hain aur batate hain 'kaunsa', 'kitne', ya 'kitna'. Inhe 'noun helpers' samjho.\n\nExample:\n• I want a pen. (batata hai 'kitne' = ek, koi bhi)\n• I want the pen. (batata hai 'kaunsa' = woh specific pen)\n• I want some pens. (batata hai 'kitne' = ek se zyada, koi bhi)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Type 1: Articles — A, An, The\n\nRule 1: Use 'A' before words starting with a CONSONANT sound\n• a boy, a cat, a university (yoo-niversity → consonant sound)\n\nRule 2: Use 'AN' before words starting with a VOWEL sound\n• an apple, an elephant, an hour (silent 'h' → vowel sound)\n\nRule 3: Use 'THE' when talking about something SPECIFIC or UNIQUE\n• The sun (only one sun)\n• The book on the table (specific book)\n• The tallest boy in class (superlative = unique)\n\nRule 4: No article for general plural nouns\n• Dogs are loyal. (NOT 'The dogs are loyal' — unless specific dogs)\n• Water is essential. (uncountable, general)",
+        "hi": "Type 1: Articles — A, An, The\n\nRule 1: 'A' use karo jab word CONSONANT sound se start ho\n• a boy, a cat, a university (yoo-niversity → consonant sound)\n\nRule 2: 'AN' use karo jab word VOWEL sound se start ho\n• an apple, an elephant, an hour (silent 'h' → vowel sound)\n\nRule 3: 'THE' use karo jab kisi SPECIFIC ya UNIQUE cheez ki baat ho\n• The sun (sirf ek sun hai)\n• The book on the table (woh specific book)\n• The tallest boy in class (superlative = unique)\n\nRule 4: General plural nouns ke saath NO article\n• Dogs are loyal. ('The dogs' nahi — jab specific nahi ho)\n• Water is essential. (uncountable, general)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Type 2: Quantifiers — Some, Any, Much, Many, Few, Little\n\nSOME vs ANY\n• SOME = positive sentences, offers, requests\n  - I have some money.\n  - Would you like some tea? (offer)\n\n• ANY = negative sentences, questions\n  - I don't have any money.\n  - Do you have any questions?\n\nMUCH vs MANY\n• MUCH = uncountable nouns (water, sugar, time)\n  - How much water do you need?\n\n• MANY = countable nouns (books, students, pens)\n  - How many books do you have?\n\nFEW vs LITTLE\n• FEW = countable, negative meaning (almost none)\n  - Few students passed. (almost nobody passed = sad)\n\n• A FEW = countable, positive meaning (some, but enough)\n  - A few students passed. (some passed = okay)\n\n• LITTLE = uncountable, negative meaning\n  - There is little water left. (almost none)\n\n• A LITTLE = uncountable, positive meaning\n  - There is a little water left. (some is left = okay)",
+        "hi": "Type 2: Quantifiers — Some, Any, Much, Many, Few, Little\n\nSOME vs ANY\n• SOME = positive sentences, offers, requests\n  - I have some money.\n  - Would you like some tea? (offer)\n\n• ANY = negative sentences, questions\n  - I don't have any money.\n  - Do you have any questions?\n\nMUCH vs MANY\n• MUCH = uncountable nouns (water, sugar, time)\n  - How much water do you need?\n\n• MANY = countable nouns (books, students, pens)\n  - How many books do you have?\n\nFEW vs LITTLE\n• FEW = countable, negative meaning (almost none)\n  - Few students passed. (almost koi nahi pass hua = sad)\n\n• A FEW = countable, positive meaning (kuch, par kaafi hain)\n  - A few students passed. (kuch pass hue = okay)\n\n• LITTLE = uncountable, negative meaning\n  - There is little water left. (almost kuch nahi)\n\n• A LITTLE = uncountable, positive meaning\n  - There is a little water left. (kuch bacha hai = okay)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Type 3: Demonstratives — This, That, These, Those\n\nSimple Trick: Distance + Number\n\n| Near + Singular | THIS | This is my pen. |\n| Near + Plural | THESE | These are my pens. |\n| Far + Singular | THAT | That is your bike. |\n| Far + Plural | THOSE | Those are your books. |\n\nMemory Trick:\n• THIS/THese → start with 'T-H' → 'T' for 'Touch' (near)\n• THAT/THose → 'TH' sounds like 'thoda door' (far)",
+        "hi": "Type 3: Demonstratives — This, That, These, Those\n\nSimple Trick: Distance + Number\n\n| Paas + Singular | THIS | This is my pen. |\n| Paas + Plural | THESE | These are my pens. |\n| Door + Singular | THAT | That is your bike. |\n| Door + Plural | THOSE | Those are your books. |\n\nMemory Trick:\n• THIS/THese → 'T-H' se start → 'T' for 'Touch' (paas)\n• THAT/THose → 'TH' jaise 'thoda door' (door)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🥊 Confusion Buster — Few vs A Few / Little vs A Little\n\nThis is the #1 determiner mistake in board papers because 'few' and 'a few' LOOK almost identical but mean opposite vibes.\n\nOne-second test: Is there an 'A' in front?\n• NO article ('few'/'little') → negative, disappointed tone: \"Few people came to my birthday.\" (Sad — hardly anyone came)\n• WITH article ('a few'/'a little') → positive, satisfied tone: \"A few people came to my birthday.\" (Okay — some did come)\n\nSame logic for little/a little:\n• \"I have little hope of passing.\" (worried — almost no hope)\n• \"I have a little hope of passing.\" (relieved — at least some hope)\n\nTrick to remember: The 'A' acts like a thumbs-up 👍 — its presence flips the sentence from sad to okay.",
+        "hi": "🥊 Confusion Buster — Few vs A Few / Little vs A Little\n\nYe #1 determiner mistake hai board papers mein kyunki 'few' aur 'a few' dekhne mein almost same lagte hain but opposite feeling dete hain.\n\nOne-second test: Aage 'A' hai kya?\n• NO article ('few'/'little') → negative, disappointed tone: \"Few people came to my birthday.\" (Sad — mushkil se koi aaya)\n• WITH article ('a few'/'a little') → positive, satisfied tone: \"A few people came to my birthday.\" (Theek hai — kuch to aaye)\n\nSame logic little/a little ke liye bhi:\n• \"I have little hope of passing.\" (worried — almost koi hope nahi)\n• \"I have a little hope of passing.\" (relieved — kam se kam thodi hope hai)\n\nYaad rakhne ka trick: 'A' ek thumbs-up 👍 ki tarah kaam karta hai — uski presence sentence ko sad se okay mein badal deti hai."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "She has _______ (a/an) umbrella.",
+        "hi": "She has _______ (a/an) umbrella."
+      },
+      "steps": [
+        {
+          "en": "'Umbrella' starts with vowel sound 'u' → use 'an'",
+          "hi": "'Umbrella' starts with vowel sound 'u' → use 'an'"
+        }
+      ],
+      "answer": {
+        "en": "an",
+        "hi": "an"
+      }
+    },
+    {
+      "problem": {
+        "en": "I don't have _______ (some/any) money left.",
+        "hi": "I don't have _______ (some/any) money left."
+      },
+      "steps": [
+        {
+          "en": "Negative sentence → use 'any', not 'some'",
+          "hi": "Negative sentence → use 'any', not 'some'"
+        }
+      ],
+      "answer": {
+        "en": "any",
+        "hi": "any"
+      }
+    },
+    {
+      "problem": {
+        "en": "How _______ (much/many) sugar do you need?",
+        "hi": "How _______ (much/many) sugar do you need?"
+      },
+      "steps": [
+        {
+          "en": "Sugar is uncountable → use 'much'",
+          "hi": "Sugar is uncountable → use 'much'"
+        }
+      ],
+      "answer": {
+        "en": "much",
+        "hi": "much"
+      }
+    },
+    {
+      "problem": {
+        "en": "______ (This/These) books on the shelf are mine.",
+        "hi": "______ (This/These) books on the shelf are mine."
+      },
+      "steps": [
+        {
+          "en": "'Books' is plural + near (on the shelf) → use 'These'",
+          "hi": "'Books' is plural + near (on the shelf) → use 'These'"
+        }
+      ],
+      "answer": {
+        "en": "These",
+        "hi": "These"
+      }
+    },
+    {
+      "problem": {
+        "en": "He is _______ (a/the) best player in our team.",
+        "hi": "He is _______ (a/the) best player in our team."
+      },
+      "steps": [
+        {
+          "en": "Superlative 'best' → always use 'the' before superlatives",
+          "hi": "Superlative 'best' → always use 'the' before superlatives"
+        }
+      ],
+      "answer": {
+        "en": "the",
+        "hi": "the"
+      }
+    },
+    {
+      "problem": {
+        "en": "Only _______ (few/a few) students scored above 90 — most of us struggled.",
+        "hi": "Only _______ (few/a few) students scored above 90 — most of us struggled."
+      },
+      "steps": [
+        {
+          "en": "Some did score above 90 (a positive, satisfied fact) → 'a few', not the disappointed 'few'",
+          "hi": "Some did score above 90 (a positive, satisfied fact) → 'a few', not the disappointed 'few'"
+        }
+      ],
+      "answer": {
+        "en": "a few",
+        "hi": "a few"
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: She is ___ honest girl.",
+          "hi": "Fill in the blank: She is ___ honest girl."
+        },
+        "options": [
+          {
+            "en": "a",
+            "hi": "a"
+          },
+          {
+            "en": "an",
+            "hi": "an"
+          },
+          {
+            "en": "the",
+            "hi": "the"
+          },
+          {
+            "en": "no article",
+            "hi": "no article"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "'Honest' starts with vowel sound 'o' (silent h) → use 'an'",
+          "hi": "'Honest' vowel sound 'o' se start hota hai (silent h) → 'an' use karo"
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: I don't have ___ friends in this city.",
+          "hi": "Fill in the blank: I don't have ___ friends in this city."
+        },
+        "options": [
+          {
+            "en": "some",
+            "hi": "some"
+          },
+          {
+            "en": "any",
+            "hi": "any"
+          },
+          {
+            "en": "much",
+            "hi": "much"
+          },
+          {
+            "en": "a little",
+            "hi": "a little"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Negative sentence → use 'any'. 'Friends' is countable so 'much' and 'a little' are wrong.",
+          "hi": "Negative sentence mein 'any' use karte hain. 'Friends' countable hai isliye 'much' aur 'a little' galat hain."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: How ___ water do you drink daily?",
+          "hi": "Fill in the blank: How ___ water do you drink daily?"
+        },
+        "options": [
+          {
+            "en": "many",
+            "hi": "many"
+          },
+          {
+            "en": "much",
+            "hi": "much"
+          },
+          {
+            "en": "few",
+            "hi": "few"
+          },
+          {
+            "en": "a few",
+            "hi": "a few"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "'Water' is uncountable → use 'much'. 'Many' and 'few' are for countable nouns.",
+          "hi": "'Water' uncountable hai → 'much' use karo. 'Many' aur 'few' countable nouns ke liye hain."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: ___ books on that table are mine.",
+          "hi": "Fill in the blank: ___ books on that table are mine."
+        },
+        "options": [
+          {
+            "en": "This",
+            "hi": "This"
+          },
+          {
+            "en": "That",
+            "hi": "That"
+          },
+          {
+            "en": "These",
+            "hi": "These"
+          },
+          {
+            "en": "Those",
+            "hi": "Those"
+          }
+        ],
+        "correct": 3,
+        "explanation": {
+          "en": "'Books' is plural + 'that table' means far → use 'Those'",
+          "hi": "'Books' plural hai + 'that table' door hai → 'Those' use karo"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "❌ a hour → ✅ an hour — 'Hour' starts with vowel SOUND (silent h) → 'an'",
+      "hi": "❌ a hour → ✅ an hour — 'Hour' starts with vowel SOUND (silent h) → 'an'"
+    },
+    {
+      "en": "❌ the honest man → ✅ an honest man — 'Honest' starts with vowel SOUND (silent h) → 'an', not 'the'",
+      "hi": "❌ the honest man → ✅ an honest man — 'Honest' starts with vowel SOUND (silent h) → 'an', not 'the'"
+    },
+    {
+      "en": "❌ I have much friends. → ✅ I have many friends. — 'Friends' is countable → use 'many', not 'much'",
+      "hi": "❌ I have much friends. → ✅ I have many friends. — 'Friends' is countable → use 'many', not 'much'"
+    },
+    {
+      "en": "❌ Would you like any coffee? → ✅ Would you like some coffee? — Offers/requests mein 'some' use karte hain, 'any' nahi",
+      "hi": "❌ Would you like any coffee? → ✅ Would you like some coffee? — Offers/requests mein 'some' use karte hain, 'any' nahi"
+    },
+    {
+      "en": "❌ These is my book. → ✅ This is my book. — 'Book' is singular → use 'This', not 'These'",
+      "hi": "❌ These is my book. → ✅ This is my book. — 'Book' is singular → use 'This', not 'These'"
+    },
+    {
+      "en": "Determiner Type: Articles (a/an) | Examples: a boy, an apple | When to Use: General singular nouns",
+      "hi": "Determiner Type: Articles (a/an) | Examples: a boy, an apple | When to Use: General singular nouns"
+    },
+    {
+      "en": "Determiner Type: Article (the) | Examples: the sun, the book | When to Use: Specific/unique nouns",
+      "hi": "Determiner Type: Article (the) | Examples: the sun, the book | When to Use: Specific/unique nouns"
+    },
+    {
+      "en": "Determiner Type: Some | Examples: some water, some books | When to Use: Positive sentences, offers",
+      "hi": "Determiner Type: Some | Examples: some water, some books | When to Use: Positive sentences, offers"
+    },
+    {
+      "en": "Determiner Type: Any | Examples: any water, any books | When to Use: Negative sentences, questions",
+      "hi": "Determiner Type: Any | Examples: any water, any books | When to Use: Negative sentences, questions"
+    },
+    {
+      "en": "Determiner Type: Much | Examples: much time, much sugar | When to Use: Uncountable nouns",
+      "hi": "Determiner Type: Much | Examples: much time, much sugar | When to Use: Uncountable nouns"
+    },
+    {
+      "en": "Determiner Type: Many | Examples: many books, many students | When to Use: Countable nouns",
+      "hi": "Determiner Type: Many | Examples: many books, many students | When to Use: Countable nouns"
+    },
+    {
+      "en": "Determiner Type: Few/A Few | Examples: few students | When to Use: Countable (negative/positive)",
+      "hi": "Determiner Type: Few/A Few | Examples: few students | When to Use: Countable (negative/positive)"
+    },
+    {
+      "en": "Determiner Type: Little/A Little | Examples: little water | When to Use: Uncountable (negative/positive)",
+      "hi": "Determiner Type: Little/A Little | Examples: little water | When to Use: Uncountable (negative/positive)"
+    },
+    {
+      "en": "Determiner Type: This/That | Examples: this pen, that car | When to Use: Singular (near/far)",
+      "hi": "Determiner Type: This/That | Examples: this pen, that car | When to Use: Singular (near/far)"
+    },
+    {
+      "en": "Determiner Type: These/Those | Examples: these pens, those cars | When to Use: Plural (near/far)",
+      "hi": "Determiner Type: These/Those | Examples: these pens, those cars | When to Use: Plural (near/far)"
+    }
+  ],
+  "summary": {
+    "en": "You've covered Determiners — Articles, Quantifiers & More — practice the examples above and try the quiz to lock it in before the exam.",
+    "hi": "Determiners — Articles, Quantifiers & More cover ho gaya — upar wale examples practice karo aur quiz try karo exam se pehle pakka karne ke liye."
+  },
+  "reward": {
+    "badge": null
+  }
+}

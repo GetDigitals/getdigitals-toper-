@@ -1,0 +1,21 @@
+{
+  "id": "chapter-29",
+  "order": 15,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "A Question of Trust",
+  "icon": "🔐",
+  "color": "#C792EA",
+  "description": "Footprints Without Feet, Ch 4. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-29-master",
+    "name": "A Question of Trust Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

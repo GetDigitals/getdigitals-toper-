@@ -33,8 +33,9 @@ export const SUBJECTS = [
     subjectLabel: 'English',
     icon: '📖',
     color: '#FF9F5A',
-    // Flip to true once src/chapters/ has English chapter folders in it
-    available: false,
+    // Section B (Writing Skills & Grammar) is live as chapter-15 — Section A
+    // (Reading) and Section C (Literature) are still placeholders below.
+    available: true,
   },
   {
     slug: 'science',

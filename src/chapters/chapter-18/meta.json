@@ -1,0 +1,21 @@
+{
+  "id": "chapter-18",
+  "order": 4,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Nelson Mandela: Long Walk to Freedom",
+  "icon": "🕊️",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 2 — prose + poem 'A Tiger in the Zoo'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-18-master",
+    "name": "Nelson Mandela: Long Walk to Freedom Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

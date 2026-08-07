@@ -5,7 +5,7 @@
  */
 import { createContext, useContext, useEffect, useReducer, useCallback } from 'react';
 import { loadProgress, saveProgress, loadSettings, saveSettings, resetAllProgress } from '../services/db';
-import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
+import { getLessonsForChapter, getNextChapter } from '../services/contentLoader';
 import { evaluateAchievements, getAchievement } from '../services/achievements';
 
 const ProgressCtx = createContext(null);
@@ -62,9 +62,11 @@ function reducer(state, action) {
       const chapterLessons = getLessonsForChapter(chapterId);
       const allDone = chapterLessons.every((l) => next.completedLessons[l.id]);
       if (allDone) {
-        const chapters = getAllChapters();
-        const idx = chapters.findIndex((c) => c.id === chapterId);
-        const nextChapter = chapters[idx + 1];
+        // getNextChapter (not raw getAllChapters()+index) so this stays
+        // within the SAME subject — otherwise finishing the last Maths
+        // chapter would "unlock" English's chapter 1 (or vice versa) now
+        // that more than one subject has real chapters.
+        const nextChapter = getNextChapter(chapterId);
         if (nextChapter && !next.unlockedChapters.includes(nextChapter.id)) {
           next.unlockedChapters = [...next.unlockedChapters, nextChapter.id];
         }

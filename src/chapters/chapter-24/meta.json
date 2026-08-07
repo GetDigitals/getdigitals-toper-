@@ -1,0 +1,21 @@
+{
+  "id": "chapter-24",
+  "order": 10,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "The Sermon at Benares",
+  "icon": "🙏",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 8 — prose + poem 'The Tale of Custard the Dragon'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-24-master",
+    "name": "The Sermon at Benares Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

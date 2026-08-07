@@ -1,0 +1,21 @@
+{
+  "id": "chapter-23",
+  "order": 9,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Madam Rides the Bus",
+  "icon": "🚌",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 7 — prose + poem 'Fog'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-23-master",
+    "name": "Madam Rides the Bus Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

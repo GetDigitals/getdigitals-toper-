@@ -1,0 +1,21 @@
+{
+  "id": "chapter-17",
+  "order": 3,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "A Letter to God",
+  "icon": "✉️",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 1 — prose 'A Letter to God' + poems 'Dust of Snow' aur 'Fire and Ice'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-17-master",
+    "name": "A Letter to God Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

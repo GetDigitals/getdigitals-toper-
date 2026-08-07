@@ -1,0 +1,21 @@
+{
+  "id": "chapter-25",
+  "order": 11,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "The Proposal (Play)",
+  "icon": "🎭",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 9 — prose + poem 'For Anne Gregory'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-25-master",
+    "name": "The Proposal (Play) Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

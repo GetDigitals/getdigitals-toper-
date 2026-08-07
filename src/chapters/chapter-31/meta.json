@@ -1,0 +1,21 @@
+{
+  "id": "chapter-31",
+  "order": 17,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "The Making of a Scientist",
+  "icon": "🔬",
+  "color": "#C792EA",
+  "description": "Footprints Without Feet, Ch 6. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-31-master",
+    "name": "The Making of a Scientist Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

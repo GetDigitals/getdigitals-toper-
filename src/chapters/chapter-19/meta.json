@@ -1,0 +1,21 @@
+{
+  "id": "chapter-19",
+  "order": 5,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Two Stories about Flying",
+  "icon": "✈️",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 3 — 'His First Flight' + 'Black Aeroplane' + poem 'How to Tell Wild Animals'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-19-master",
+    "name": "Two Stories about Flying Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-15",
+  "order": 1,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Writing Skills & Grammar (Section B)",
+  "icon": "✍️",
+  "color": "#FF9F5A",
+  "description": "CBSE Class 10 English paper ka Section B — Determiners, Tenses, Modals, Subject-Verb Agreement, Reported Speech, Gap Filling/Editing, aur Formal Letter + Analytical Paragraph Writing.",
+  "xpReward": 370,
+  "coinReward": 91,
+  "badge": {
+    "id": "grammar-master",
+    "name": { "hi": "Grammar Master", "en": "Grammar Master" },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

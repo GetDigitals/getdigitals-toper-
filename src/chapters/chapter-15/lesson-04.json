@@ -1,0 +1,346 @@
+{
+  "id": "chapter-15-lesson-04",
+  "chapterId": "chapter-15",
+  "order": 4,
+  "title": {
+    "en": "Subject-Verb Concord (Agreement)",
+    "hi": "Subject-Verb Concord (Agreement)"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🤝",
+    "headline": {
+      "en": "Subject-Verb Concord — Matching Subject with Verb",
+      "hi": "Subject-Verb Concord — Subject ko Verb se Match Karna"
+    },
+    "subtext": {
+      "en": "Singular Subject → Singular Verb | Plural Subject → Plural Verb",
+      "hi": "Singular Subject → Singular Verb | Plural Subject → Plural Verb"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Learn the Detective Method to spot the real subject in any sentence — most SVA mistakes disappear instantly.",
+      "hi": "Detective Method seekho aur kisi bhi sentence ka real subject pehchano — zyadatar SVA mistakes turant khatam ho jayengi."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "Basic Rule (Sabse Important)\n\nSingular Subject → Singular Verb (s/es lagta hai)\n• She reads books.\n• He plays cricket.\n• The boy runs fast.\n\nPlural Subject → Plural Verb (s/es NAHI lagta)\n• They read books.\n• We play cricket.\n• The boys run fast.\n\nSimple Trick: Subject ke saath verb ka form match karo. Singular = s/es wala verb | Plural = bina s/es wala verb",
+        "hi": "Basic Rule (Sabse Important)\n\nSingular Subject → Singular Verb (s/es lagta hai)\n• She reads books.\n• He plays cricket.\n• The boy runs fast.\n\nPlural Subject → Plural Verb (s/es NAHI lagta)\n• They read books.\n• We play cricket.\n• The boys run fast.\n\nSimple Trick: Subject ke saath verb ka form match karo. Singular = s/es wala verb | Plural = bina s/es wala verb"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🕵️ Play Detective — Find the REAL Subject First\n\n90% of Subject-Verb Concord mistakes happen because students match the verb to the WRONG word — usually a word sitting right next to the verb that isn't actually the subject.\n\nThe Detective Method — 3 steps before you write the verb:\n1. Cross out every phrase starting with of, with, along with, as well as, in addition to, together with — these are distractions, never the real subject.\n2. Find the word that's left — THAT is your real subject.\n3. Match the verb to THAT word, ignoring everything you crossed out.\n\nExample: \"The box of chocolates ~~of chocolates~~ is on the table.\" (Real subject = box, singular → is, NOT 'are' even though 'chocolates' is plural and sits right before the verb)\n\nThis one habit alone fixes most SVA errors instantly — in gap-filling AND editing questions.",
+        "hi": "🕵️ Detective Bano — Pehle REAL Subject Dhundo\n\n90% Subject-Verb Concord mistakes isliye hoti hain kyunki students verb ko GALAT word se match kar dete hain — usually woh word jo verb ke bilkul paas baitha hai but real subject nahi hai.\n\nDetective Method — verb likhne se pehle 3 steps:\n1. Har phrase cross out karo jo of, with, along with, as well as, in addition to, together with se start hota hai — ye distractions hain, kabhi real subject nahi.\n2. Jo word bacha hai wo dhundo — WAHI tumhara real subject hai.\n3. Verb ko USI word se match karo, jo cross out kiya usse ignore karo.\n\nExample: \"The box of chocolates ~~of chocolates~~ is on the table.\" (Real subject = box, singular → is, 'are' NAHI chahe 'chocolates' plural ho aur verb ke bilkul pehle baitha ho)\n\nSirf ye ek habit follow karne se zyadatar SVA errors turant fix ho jaate hain — gap-filling AUR editing dono mein."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 1: 'And' ke saath Plural Verb\n\nJab do subjects 'and' se jude hain → hamesha PLURAL verb\n\n• Ram and Shyam are playing. (do subjects = plural)\n• The teacher and the student were talking.\n\nException: 'Bread and butter', 'Rice and curry' jaise fixed phrases singular treat hote hain.\n• Bread and butter is my favourite breakfast. (singular)",
+        "hi": "Rule 1: 'And' ke saath Plural Verb\n\nJab do subjects 'and' se jude hain → hamesha PLURAL verb\n\n• Ram and Shyam are playing. (do subjects = plural)\n• The teacher and the student were talking.\n\nException: 'Bread and butter', 'Rice and curry' jaise fixed phrases singular treat hote hain.\n• Bread and butter is my favourite breakfast. (singular)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 2: 'Or', 'Either...or', 'Neither...nor'\n\nJab 'or', 'either...or', 'neither...nor' se subjects jude hain → verb SECOND subject ke hisaab se aata hai.\n\n• Either Ram or his friends are coming. (friends = plural → plural verb)\n• Neither the students nor the teacher was present. (teacher = singular → singular verb)\n\nMemory Trick: 'Or' waale mein jo subject PAAS mein hai (second wala), uske hisaab se verb banao.",
+        "hi": "Rule 2: 'Or', 'Either...or', 'Neither...nor'\n\nJab 'or', 'either...or', 'neither...nor' se subjects jude hain → verb SECOND subject ke hisaab se aata hai.\n\n• Either Ram or his friends are coming. (friends = plural → plural verb)\n• Neither the students nor the teacher was present. (teacher = singular → singular verb)\n\nMemory Trick: 'Or' waale mein jo subject PAAS mein hai (second wala), uske hisaab se verb banao."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 3: Collective Nouns (Team, Class, Family)\n\nCollective nouns (team, class, family, committee, crowd) usually take SINGULAR verb jab group ek unit ki tarah kaam kare.\n\n• The team is playing well. (ek unit ki tarah)\n• The family has decided to move.\n\nException: Jab group ke members individually dikhaye jayein → PLURAL verb\n• The team are arguing among themselves. (alag-alag members ki baat)",
+        "hi": "Rule 3: Collective Nouns (Team, Class, Family)\n\nCollective nouns (team, class, family, committee, crowd) usually SINGULAR verb lete hain jab group ek unit ki tarah kaam kare.\n\n• The team is playing well. (ek unit ki tarah)\n• The family has decided to move.\n\nException: Jab group ke members individually dikhaye jayein → PLURAL verb\n• The team are arguing among themselves. (alag-alag members ki baat)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 4: 'Each', 'Every', 'Either', 'Neither' → Singular\n\n'Each', 'Every', 'Either', 'Neither', 'One', 'No one' ke baad hamesha SINGULAR verb aata hai.\n\n• Each student has submitted the project.\n• Every boy was present in class.\n• Neither of them is coming.\n• One of my friends lives in Delhi.\n\nMemory Trick: 'Each' aur 'Every' ka matlab hi 'ek-ek' hota hai → singular.",
+        "hi": "Rule 4: 'Each', 'Every', 'Either', 'Neither' → Singular\n\n'Each', 'Every', 'Either', 'Neither', 'One', 'No one' ke baad hamesha SINGULAR verb aata hai.\n\n• Each student has submitted the project.\n• Every boy was present in class.\n• Neither of them is coming.\n• One of my friends lives in Delhi.\n\nMemory Trick: 'Each' aur 'Every' ka matlab hi 'ek-ek' hota hai → singular."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 5: 'The number of' vs 'A number of'\n\n'The number of' = Singular (number ki baat ho rahi hai)\n• The number of students is increasing.\n\n'A number of' = Plural (bahut saare ki baat ho rahi hai)\n• A number of students are absent today.\n\nMemory Trick:\n• THE number = woh EK number → singular\n• A number = kuch log (bahut saare) → plural",
+        "hi": "Rule 5: 'The number of' vs 'A number of'\n\n'The number of' = Singular (number ki baat ho rahi hai)\n• The number of students is increasing.\n\n'A number of' = Plural (bahut saare ki baat ho rahi hai)\n• A number of students are absent today.\n\nMemory Trick:\n• THE number = woh EK number → singular\n• A number = kuch log (bahut saare) → plural"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 6: Uncountable Nouns → Singular Verb\n\nUncountable nouns (water, sugar, advice, news, furniture, information) hamesha SINGULAR verb lete hain.\n\n• The news is shocking. (NOT 'are shocking')\n• This furniture is expensive.\n• Her advice was very helpful.\n\nMemory Trick: Uncountable = gin nahi sakte → ek hi treat karo → singular verb",
+        "hi": "Rule 6: Uncountable Nouns → Singular Verb\n\nUncountable nouns (water, sugar, advice, news, furniture, information) hamesha SINGULAR verb lete hain.\n\n• The news is shocking. ('are shocking' NAHI)\n• This furniture is expensive.\n• Her advice was very helpful.\n\nMemory Trick: Uncountable = gin nahi sakte → ek hi treat karo → singular verb"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Rule 7: Distance/Time/Amount → Singular\n\nJab distance, time, ya amount subject ban jaayein → hamesha SINGULAR verb.\n\n• Ten miles is too far to walk.\n• Five thousand rupees was stolen.\n• Two hours is enough for this test.\n\nMemory Trick: Distance/time/amount ko ek unit ki tarah treat karo → singular verb",
+        "hi": "Rule 7: Distance/Time/Amount → Singular\n\nJab distance, time, ya amount subject ban jaayein → hamesha SINGULAR verb.\n\n• Ten miles is too far to walk.\n• Five thousand rupees was stolen.\n• Two hours is enough for this test.\n\nMemory Trick: Distance/time/amount ko ek unit ki tarah treat karo → singular verb"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🥊 Confusion Buster — 'Each/Every' vs the Noun That Follows\n\nStudents see a PLURAL-looking noun after 'each'/'every' and instinctively reach for a plural verb. Wrong reflex.\n\nRule that never breaks: Each/Every + [any noun, even if it looks plural] → verb is ALWAYS singular.\n\n• \"Each of the students has submitted the assignment.\" (students is plural, but 'has' is correct — because it's EACH one, one at a time)\n• \"Every boy and girl was given a certificate.\" (even with 'and' — 'every' overrides the usual 'and = plural' rule)\n\nWhy: 'Each' and 'Every' mean 'one at a time' — so no matter how many nouns follow, grammatically you're always talking about ONE at a time → singular verb, always.",
+        "hi": "🥊 Confusion Buster — 'Each/Every' vs Uske Baad Wala Noun\n\nStudents 'each'/'every' ke baad PLURAL-dikhne wala noun dekh kar instinctively plural verb use kar dete hain. Ye galat reflex hai.\n\nYe rule kabhi nahi tootta: Each/Every + [koi bhi noun, plural dikhe bhi toh] → verb HAMESHA singular hoga.\n\n• \"Each of the students has submitted the assignment.\" (students plural hai, but 'has' hi sahi hai — kyunki EACH ek-ek karke ki baat hai)\n• \"Every boy and girl was given a certificate.\" (even 'and' ke saath bhi — 'every' usual 'and = plural' rule ko override kar deta hai)\n\nKyun: 'Each' aur 'Every' ka matlab hai 'ek-ek karke' — isliye kitne bhi nouns baad mein aayein, grammatically tum hamesha ek ki baat kar rahe ho → singular verb, hamesha."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "Each of the students ___ (has/have) passed.",
+        "hi": "Each of the students ___ (has/have) passed."
+      },
+      "steps": [
+        {
+          "en": "'Each' ke baad singular verb → 'has'",
+          "hi": "'Each' ke baad singular verb → 'has'"
+        }
+      ],
+      "answer": {
+        "en": "has",
+        "hi": "has"
+      }
+    },
+    {
+      "problem": {
+        "en": "The team ___ (is/are) playing well today.",
+        "hi": "The team ___ (is/are) playing well today."
+      },
+      "steps": [
+        {
+          "en": "Collective noun as a unit → singular verb 'is'",
+          "hi": "Collective noun as a unit → singular verb 'is'"
+        }
+      ],
+      "answer": {
+        "en": "is",
+        "hi": "is"
+      }
+    },
+    {
+      "problem": {
+        "en": "Neither Ram nor his friends ___ (was/were) present.",
+        "hi": "Neither Ram nor his friends ___ (was/were) present."
+      },
+      "steps": [
+        {
+          "en": "'Neither...nor' mein second subject 'friends' = plural → 'were'",
+          "hi": "'Neither...nor' mein second subject 'friends' = plural → 'were'"
+        }
+      ],
+      "answer": {
+        "en": "were",
+        "hi": "were"
+      }
+    },
+    {
+      "problem": {
+        "en": "A number of boys ___ (is/are) absent.",
+        "hi": "A number of boys ___ (is/are) absent."
+      },
+      "steps": [
+        {
+          "en": "'A number of' = plural → 'are'",
+          "hi": "'A number of' = plural → 'are'"
+        }
+      ],
+      "answer": {
+        "en": "are",
+        "hi": "are"
+      }
+    },
+    {
+      "problem": {
+        "en": "The news ___ (is/are) shocking.",
+        "hi": "The news ___ (is/are) shocking."
+      },
+      "steps": [
+        {
+          "en": "'News' is uncountable → singular verb 'is'",
+          "hi": "'News' is uncountable → singular verb 'is'"
+        }
+      ],
+      "answer": {
+        "en": "is",
+        "hi": "is"
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: Each of the girls ___ passed the exam.",
+          "hi": "Fill in the blank: Each of the girls ___ passed the exam."
+        },
+        "options": [
+          {
+            "en": "have",
+            "hi": "have"
+          },
+          {
+            "en": "has",
+            "hi": "has"
+          },
+          {
+            "en": "had",
+            "hi": "had"
+          },
+          {
+            "en": "having",
+            "hi": "having"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "'Each' ke baad hamesha singular verb → 'has'",
+          "hi": "'Each' ke baad hamesha singular verb → 'has'"
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: Neither the teacher nor the students ___ present.",
+          "hi": "Fill in the blank: Neither the teacher nor the students ___ present."
+        },
+        "options": [
+          {
+            "en": "was",
+            "hi": "was"
+          },
+          {
+            "en": "were",
+            "hi": "were"
+          },
+          {
+            "en": "is",
+            "hi": "is"
+          },
+          {
+            "en": "are",
+            "hi": "are"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "'Neither...nor' mein second subject 'students' = plural → 'were'",
+          "hi": "'Neither...nor' mein second subject 'students' = plural → 'were'"
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: The number of accidents ___ increasing.",
+          "hi": "Fill in the blank: The number of accidents ___ increasing."
+        },
+        "options": [
+          {
+            "en": "are",
+            "hi": "are"
+          },
+          {
+            "en": "were",
+            "hi": "were"
+          },
+          {
+            "en": "is",
+            "hi": "is"
+          },
+          {
+            "en": "have",
+            "hi": "have"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "en": "'The number of' = singular subject → 'is'",
+          "hi": "'The number of' = singular subject → 'is'"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "❌ Each student have passed. → ✅ Each student has passed. — 'Each' ke baad singular verb 'has' aata hai.",
+      "hi": "❌ Each student have passed. → ✅ Each student has passed. — 'Each' ke baad singular verb 'has' aata hai."
+    },
+    {
+      "en": "❌ The number of students are increasing. → ✅ The number of students is increasing. — 'The number of' = singular subject → 'is'",
+      "hi": "❌ The number of students are increasing. → ✅ The number of students is increasing. — 'The number of' = singular subject → 'is'"
+    },
+    {
+      "en": "❌ Ten miles are too far. → ✅ Ten miles is too far. — Distance = singular treat → 'is'",
+      "hi": "❌ Ten miles are too far. → ✅ Ten miles is too far. — Distance = singular treat → 'is'"
+    },
+    {
+      "en": "❌ Bread and butter are my favourite. → ✅ Bread and butter is my favourite. — Fixed phrase 'bread and butter' = singular",
+      "hi": "❌ Bread and butter are my favourite. → ✅ Bread and butter is my favourite. — Fixed phrase 'bread and butter' = singular"
+    },
+    {
+      "en": "❌ The news are good. → ✅ The news is good. — 'News' uncountable hai → singular verb",
+      "hi": "❌ The news are good. → ✅ The news is good. — 'News' uncountable hai → singular verb"
+    },
+    {
+      "en": "Rule: Basic | Subject Type: Singular | Verb Form: Singular (s/es) | Example: She reads.",
+      "hi": "Rule: Basic | Subject Type: Singular | Verb Form: Singular (s/es) | Example: She reads."
+    },
+    {
+      "en": "Rule: Basic | Subject Type: Plural | Verb Form: Plural (no s/es) | Example: They read.",
+      "hi": "Rule: Basic | Subject Type: Plural | Verb Form: Plural (no s/es) | Example: They read."
+    },
+    {
+      "en": "Rule: Rule 1 | Subject Type: A and B | Verb Form: Plural | Example: Ram and Shyam are.",
+      "hi": "Rule: Rule 1 | Subject Type: A and B | Verb Form: Plural | Example: Ram and Shyam are."
+    },
+    {
+      "en": "Rule: Rule 2 | Subject Type: Either A or B | Verb Form: Match B | Example: Either Ram or friends are.",
+      "hi": "Rule: Rule 2 | Subject Type: Either A or B | Verb Form: Match B | Example: Either Ram or friends are."
+    },
+    {
+      "en": "Rule: Rule 3 | Subject Type: Collective Noun | Verb Form: Singular (usually) | Example: The team is playing.",
+      "hi": "Rule: Rule 3 | Subject Type: Collective Noun | Verb Form: Singular (usually) | Example: The team is playing."
+    },
+    {
+      "en": "Rule: Rule 4 | Subject Type: Each/Every/Neither | Verb Form: Singular | Example: Each student has.",
+      "hi": "Rule: Rule 4 | Subject Type: Each/Every/Neither | Verb Form: Singular | Example: Each student has."
+    },
+    {
+      "en": "Rule: Rule 5 | Subject Type: The number of | Verb Form: Singular | Example: The number is.",
+      "hi": "Rule: Rule 5 | Subject Type: The number of | Verb Form: Singular | Example: The number is."
+    },
+    {
+      "en": "Rule: Rule 5 | Subject Type: A number of | Verb Form: Plural | Example: A number are.",
+      "hi": "Rule: Rule 5 | Subject Type: A number of | Verb Form: Plural | Example: A number are."
+    },
+    {
+      "en": "Rule: Rule 6 | Subject Type: Uncountable | Verb Form: Singular | Example: The news is.",
+      "hi": "Rule: Rule 6 | Subject Type: Uncountable | Verb Form: Singular | Example: The news is."
+    },
+    {
+      "en": "Rule: Rule 7 | Subject Type: Distance/Time | Verb Form: Singular | Example: Ten miles is.",
+      "hi": "Rule: Rule 7 | Subject Type: Distance/Time | Verb Form: Singular | Example: Ten miles is."
+    }
+  ],
+  "summary": {
+    "en": "You've covered Subject-Verb Concord (Agreement) — practice the examples above and try the quiz to lock it in before the exam.",
+    "hi": "Subject-Verb Concord (Agreement) cover ho gaya — upar wale examples practice karo aur quiz try karo exam se pehle pakka karne ke liye."
+  },
+  "reward": {
+    "badge": null
+  }
+}

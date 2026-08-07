@@ -15,7 +15,11 @@ export default function Home() {
   const { progress, recordStreak, settings } = useProgress();
   const { profile, isApproved } = useAuth();
   const lang = langCode(settings.language);
-  const chapters = useMemo(() => getAllChapters(), []);
+  // Scoped to Maths explicitly — this page's header is hardcoded to "Class
+  // 10 Maths" below, and now that English has real content too,
+  // getAllChapters() with no argument would return chapters from BOTH
+  // subjects mixed into one list under that Maths-only heading.
+  const chapters = useMemo(() => getAllChapters('Maths'), []);
 
   const continueChapter = chapters.find((ch) => {
     const lessons = getLessonsForChapter(ch.id);

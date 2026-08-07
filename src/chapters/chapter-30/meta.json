@@ -1,0 +1,21 @@
+{
+  "id": "chapter-30",
+  "order": 16,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Footprints without Feet",
+  "icon": "👣",
+  "color": "#C792EA",
+  "description": "Footprints Without Feet, Ch 5 (title story). Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-30-master",
+    "name": "Footprints without Feet Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

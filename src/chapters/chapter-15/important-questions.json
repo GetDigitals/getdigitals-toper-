@@ -1,0 +1,77 @@
+{
+  "chapterId": "chapter-15",
+  "objective": [
+    {
+      "question": { "hi": "Fill in the blank: She is ___ honest girl.", "en": "Fill in the blank: She is ___ honest girl." },
+      "options": [{ "hi": "a", "en": "a" }, { "hi": "an", "en": "an" }, { "hi": "the", "en": "the" }, { "hi": "no article", "en": "no article" }],
+      "correct": 1,
+      "explanation": { "hi": "'Honest' vowel sound 'o' se start hota hai (silent h) → 'an' use karo.", "en": "'Honest' starts with vowel sound 'o' (silent h) → use 'an'." }
+    },
+    {
+      "question": { "hi": "Fill in the blank: ___ you please close the door? (polite request)", "en": "Fill in the blank: ___ you please close the door? (polite request)" },
+      "options": [{ "hi": "Can", "en": "Can" }, { "hi": "Could", "en": "Could" }, { "hi": "Must", "en": "Must" }, { "hi": "Shall", "en": "Shall" }],
+      "correct": 1,
+      "explanation": { "hi": "'Could' request ke liye sabse polite form hai.", "en": "'Could' is the most polite form for requests." }
+    },
+    {
+      "question": { "hi": "Correct the error: 'You must to finish your homework.'", "en": "Correct the error: 'You must to finish your homework.'" },
+      "options": [
+        { "hi": "You must finish your homework.", "en": "You must finish your homework." },
+        { "hi": "You must to finished your homework.", "en": "You must to finished your homework." },
+        { "hi": "You must finishing your homework.", "en": "You must finishing your homework." },
+        { "hi": "You must be finish your homework.", "en": "You must be finish your homework." }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "Har modal ke baad seedha V1 aata hai, 'to' nahi lagta.", "en": "After every modal, use V1 directly — never 'to' before the verb." }
+    },
+    {
+      "question": { "hi": "Convert: She said, \"I am happy.\"", "en": "Convert: She said, \"I am happy.\"" },
+      "options": [
+        { "hi": "She said that I am happy.", "en": "She said that I am happy." },
+        { "hi": "She said that she was happy.", "en": "She said that she was happy." },
+        { "hi": "She says that she is happy.", "en": "She says that she is happy." },
+        { "hi": "She said she is happy.", "en": "She said she is happy." }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "I → she, am → was. 'Said' (bina object) → 'said that'.", "en": "I → she, am → was. 'Said' (without object) → 'said that'." }
+    },
+    {
+      "question": { "hi": "The teacher said, \"The earth is round.\" — indirect speech mein convert karo.", "en": "The teacher said, \"The earth is round.\" — convert to indirect speech." },
+      "options": [
+        { "hi": "The teacher said that the earth was round.", "en": "The teacher said that the earth was round." },
+        { "hi": "The teacher said that the earth is round.", "en": "The teacher said that the earth is round." },
+        { "hi": "The teacher says that the earth is round.", "en": "The teacher says that the earth is round." },
+        { "hi": "The teacher told that the earth is round.", "en": "The teacher told that the earth is round." }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Universal truth ke liye tense change NAHI hota — 'is' 'is' hi rehta hai.", "en": "Universal truths never change tense — 'is' stays 'is'." }
+    }
+  ],
+  "subjective": [
+    {
+      "question": { "hi": "Error correct karo: 'She is knowing the answer.'", "en": "Correct the error: 'She is knowing the answer.'" },
+      "marks": 1,
+      "answer": { "hi": "She knows the answer. (Stative verb 'know' ka continuous form nahi banta.)", "en": "She knows the answer. (Stative verb 'know' has no continuous form.)" }
+    },
+    {
+      "question": { "hi": "Error correct karo: 'I have seen him two hours ago.'", "en": "Correct the error: 'I have seen him two hours ago.'" },
+      "marks": 1,
+      "answer": { "hi": "I saw him two hours ago. ('Ago' hamesha Simple Past ke saath aata hai.)", "en": "I saw him two hours ago. ('Ago' always takes Simple Past.)" }
+    },
+    {
+      "question": { "hi": "Error correct karo: 'By the time we arrived, the movie started.'", "en": "Correct the error: 'By the time we arrived, the movie started.'" },
+      "marks": 1,
+      "answer": { "hi": "By the time we arrived, the movie had started. (Do past actions mein pehle wali ke liye Past Perfect chahiye.)", "en": "By the time we arrived, the movie had started. (The earlier of two past actions needs Past Perfect.)" }
+    },
+    {
+      "question": { "hi": "Direct se Indirect karo: He said, \"Can you help me?\"", "en": "Convert direct to indirect: He said, \"Can you help me?\"" },
+      "marks": 2,
+      "answer": { "hi": "He asked if I could help him. (Question → asked + if; can → could; you → I; me → him)", "en": "He asked if I could help him. (Question → asked + if; can → could; you → I; me → him)" }
+    },
+    {
+      "question": { "hi": "Quick revision: Determiners ki 3 categories batao aur ek-ek example do (article, quantifier, demonstrative).", "en": "Quick revision: Name the 3 categories of determiners with one example each (article, quantifier, demonstrative)." },
+      "marks": 3,
+      "answer": { "hi": "1) Article — 'a book' (a/an/the). 2) Quantifier — 'many books' (much/many/some/any/few/little). 3) Demonstrative — 'this book' (this/that/these/those).", "en": "1) Article — 'a book' (a/an/the). 2) Quantifier — 'many books' (much/many/some/any/few/little). 3) Demonstrative — 'this book' (this/that/these/those)." }
+    }
+  ]
+}

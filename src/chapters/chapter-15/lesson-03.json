@@ -1,0 +1,313 @@
+{
+  "id": "chapter-15-lesson-03",
+  "chapterId": "chapter-15",
+  "order": 3,
+  "title": {
+    "en": "Modals — Can, Could, May, Might, Must, Should",
+    "hi": "Modals — Can, Could, May, Might, Must, Should"
+  },
+  "estimatedMinutes": 17,
+  "xpReward": 45,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "en": "Modals — Expressing Ability, Permission & Necessity",
+      "hi": "Modals — Ability, Permission aur Necessity Dikhana"
+    },
+    "subtext": {
+      "en": "Can, Could, May, Might, Must, Should, Will, Would — all explained",
+      "hi": "Can, Could, May, Might, Must, Should, Will, Would — sab explained"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Stop memorising modals one by one — see them as volume knobs and never mix up must/should/have to again.",
+      "hi": "Modals ko ek-ek karke yaad karna band karo — inhe volume knobs ki tarah dekho aur must/should/have to mein confusion khatam."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "What are Modals?\n\nModals are 'helping verbs' that express ability, permission, possibility, necessity, advice, or request.\n\nGolden Rule: After EVERY modal → always use V1 (base form)\n• She can sing. (NOT 'can sings')\n• He must go. (NOT 'must goes')",
+        "hi": "Modals kya hain?\n\nModals 'helping verbs' hain jo ability, permission, possibility, necessity, advice, ya request express karte hain.\n\nGolden Rule: Har modal ke baad → hamesha V1 (base form)\n• She can sing. ('can sings' NAHI)\n• He must go. ('must goes' NAHI)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🎚️ Modals Are Volume Knobs, Not Switches\n\nDon't think of modals as separate words to memorise. Think of each GROUP as a volume knob you turn up or down:\n\nPermission knob: Can (casual, low) → Could (polite, medium) → May (formal, high)\nPossibility knob: Might (30% sure) → May (50% sure) → Must (95% sure, near-certain)\nObligation knob: Should (soft advice) → Have to (external pressure) → Must (strongest, no-choice)\n\nOnce you see modals as a DIAL rather than separate boxes, choosing the right one in an exam becomes: \"how strong does this sentence feel?\" — then pick the modal at that strength.",
+        "hi": "🎚️ Modals Volume Knobs Hain, Switches Nahi\n\nModals ko alag-alag yaad karne wale words mat samjho. Har GROUP ko ek volume knob ki tarah socho jise tum kam ya zyada karte ho:\n\nPermission knob: Can (casual, low) → Could (polite, medium) → May (formal, high)\nPossibility knob: Might (30% sure) → May (50% sure) → Must (95% sure, almost certain)\nObligation knob: Should (soft advice) → Have to (bahar se pressure) → Must (sabse strong, no-choice)\n\nEk baar modals ko alag boxes ki jagah ek DIAL ki tarah dekhna shuru karo, exam mein sahi modal choose karna ho jayega: \"ye sentence kitna strong feel hota hai?\" — phir uss strength ka modal pick karo."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "CAN vs COULD\n\nCAN = Present Ability / Informal Permission\n• I can swim. (present ability)\n• Can I use your pen? (informal permission)\n\nCOULD = Past Ability / Polite Permission / Possibility\n• I could swim when I was five. (past ability)\n• Could I use your pen? (more polite)\n• It could rain tomorrow. (possibility)\n\nMemory Trick: CAN = abhi ki baat | COULD = pehle ki baat ya zyada polite",
+        "hi": "CAN vs COULD\n\nCAN = Present Ability / Informal Permission\n• I can swim. (present ability)\n• Can I use your pen? (informal permission)\n\nCOULD = Past Ability / Polite Permission / Possibility\n• I could swim when I was five. (past ability)\n• Could I use your pen? (zyada polite)\n• It could rain tomorrow. (possibility)\n\nMemory Trick: CAN = abhi ki baat | COULD = pehle ki baat ya zyada polite"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "MAY vs MIGHT\n\nMAY = Formal Permission / Strong Possibility (50% chance)\n• You may leave now. (formal permission)\n• It may rain today. (strong possibility)\n\nMIGHT = Weak Possibility (30% chance) / Polite Suggestion\n• It might rain today. (weak possibility)\n• You might want to check your answers. (polite suggestion)\n\nKey Difference: MAY = zyada chance | MIGHT = kam chance",
+        "hi": "MAY vs MIGHT\n\nMAY = Formal Permission / Strong Possibility (50% chance)\n• You may leave now. (formal permission)\n• It may rain today. (strong possibility)\n\nMIGHT = Weak Possibility (30% chance) / Polite Suggestion\n• It might rain today. (weak possibility)\n• You might want to check your answers. (polite suggestion)\n\nKey Difference: MAY = zyada chance | MIGHT = kam chance"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "MUST vs SHOULD vs HAVE TO\n\nMUST = Strong Necessity / Obligation / Certainty\n• You must wear a helmet. (rule/law)\n• He must be tired. (certainty)\n\nSHOULD = Advice / Recommendation\n• You should study daily. (advice)\n• You should see a doctor. (recommendation)\n\nHAVE TO = External Obligation\n• I have to wear a uniform. (school rule — external)\n• I must obey my parents. (internal duty)\n\nMemory Trick: MUST = karna HI padega | SHOULD = karna CHAHIYE | HAVE TO = kisi ne kaha, karna PADEGA",
+        "hi": "MUST vs SHOULD vs HAVE TO\n\nMUST = Strong Necessity / Obligation / Certainty\n• You must wear a helmet. (rule/law)\n• He must be tired. (certainty)\n\nSHOULD = Advice / Recommendation\n• You should study daily. (advice)\n• You should see a doctor. (recommendation)\n\nHAVE TO = External Obligation\n• I have to wear a uniform. (school rule — bahar se)\n• I must obey my parents. (internal duty)\n\nMemory Trick: MUST = karna HI padega | SHOULD = karna CHAHIYE | HAVE TO = kisi ne kaha, karna PADEGA"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "WILL vs WOULD\n\nWILL = Future / Promise / Instant Decision\n• I will help you. (promise)\n• I will take tea. (instant decision)\n\nWOULD = Past Habit / Polite Request / Imaginary\n• I would play cricket every evening. (past habit)\n• Would you help me? (polite request)\n• I would buy a car if I had money. (imaginary)\n\nMemory Trick: WILL = abhi/aage | WOULD = pehle ki habit ya polite request",
+        "hi": "WILL vs WOULD\n\nWILL = Future / Promise / Instant Decision\n• I will help you. (promise)\n• I will take tea. (instant decision)\n\nWOULD = Past Habit / Polite Request / Imaginary\n• I would play cricket every evening. (past habit)\n• Would you help me? (polite request)\n• I would buy a car if I had money. (imaginary)\n\nMemory Trick: WILL = abhi/aage | WOULD = pehle ki habit ya polite request"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🥊 Confusion Buster — MUST vs SHOULD vs HAVE TO\n\nThis trio confuses everyone because all three feel like 'you need to do this' — but the SOURCE of the pressure is different.\n\nAsk: \"Where is this rule coming from?\"\n• From ME, internally (my own decision/opinion) → MUST: \"I must call my grandmother today.\" (I decided this matters)\n• From SOMEONE ELSE, externally (school rule, law, boss) → HAVE TO: \"I have to wear a uniform.\" (the school decided, not me)\n• It's just good ADVICE, not a rule → SHOULD: \"You should drink more water.\" (recommendation, no real consequence if ignored)\n\nExam shortcut: If the sentence mentions a LAW, RULE, or ORDER from an authority → have to. If it's the speaker's own strong feeling → must. If it's a suggestion → should.",
+        "hi": "🥊 Confusion Buster — MUST vs SHOULD vs HAVE TO\n\nYe teeno sabko confuse karte hain kyunki teeno 'tumhe ye karna hai' jaisa feel dete hain — but pressure kahan se aa raha hai wo alag hai.\n\nPoocho: \"Ye rule kahan se aa raha hai?\"\n• MERE andar se, internally (mera apna decision/opinion) → MUST: \"I must call my grandmother today.\" (maine decide kiya ki ye important hai)\n• KISI AUR se, externally (school rule, law, boss) → HAVE TO: \"I have to wear a uniform.\" (school ne decide kiya, maine nahi)\n• Ye bas achhi ADVICE hai, rule nahi → SHOULD: \"You should drink more water.\" (recommendation, ignore kiya toh koi real consequence nahi)\n\nExam shortcut: Agar sentence mein LAW, RULE, ya ORDER kisi authority se mention hai → have to. Agar speaker ki apni strong feeling hai → must. Agar suggestion hai → should."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "___ I borrow your book? (polite permission)",
+        "hi": "___ I borrow your book? (polite permission)"
+      },
+      "steps": [
+        {
+          "en": "Polite permission ke liye 'Could' use karte hain. 'Can' se zyada polite hai.",
+          "hi": "Polite permission ke liye 'Could' use karte hain. 'Can' se zyada polite hai."
+        }
+      ],
+      "answer": {
+        "en": "Could",
+        "hi": "Could"
+      }
+    },
+    {
+      "problem": {
+        "en": "You ___ obey traffic rules. (strong obligation)",
+        "hi": "You ___ obey traffic rules. (strong obligation)"
+      },
+      "steps": [
+        {
+          "en": "Rules/laws ke liye 'must' use karte hain — strong obligation.",
+          "hi": "Rules/laws ke liye 'must' use karte hain — strong obligation."
+        }
+      ],
+      "answer": {
+        "en": "must",
+        "hi": "must"
+      }
+    },
+    {
+      "problem": {
+        "en": "It ___ rain tomorrow. (weak possibility)",
+        "hi": "It ___ rain tomorrow. (weak possibility)"
+      },
+      "steps": [
+        {
+          "en": "Weak possibility ke liye 'might'. 'May' se kam chance dikhata hai.",
+          "hi": "Weak possibility ke liye 'might'. 'May' se kam chance dikhata hai."
+        }
+      ],
+      "answer": {
+        "en": "might",
+        "hi": "might"
+      }
+    },
+    {
+      "problem": {
+        "en": "You ___ exercise daily for good health. (advice)",
+        "hi": "You ___ exercise daily for good health. (advice)"
+      },
+      "steps": [
+        {
+          "en": "Advice/recommendation ke liye 'should' use karte hain.",
+          "hi": "Advice/recommendation ke liye 'should' use karte hain."
+        }
+      ],
+      "answer": {
+        "en": "should",
+        "hi": "should"
+      }
+    },
+    {
+      "problem": {
+        "en": "When I was young, I ___ play in the park every day. (past habit)",
+        "hi": "When I was young, I ___ play in the park every day. (past habit)"
+      },
+      "steps": [
+        {
+          "en": "Past habit ke liye 'would' use karte hain. 'Used to' bhi sahi hai.",
+          "hi": "Past habit ke liye 'would' use karte hain. 'Used to' bhi sahi hai."
+        }
+      ],
+      "answer": {
+        "en": "would",
+        "hi": "would"
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: ___ you please close the door? (polite request)",
+          "hi": "Fill in the blank: ___ you please close the door? (polite request)"
+        },
+        "options": [
+          {
+            "en": "Can",
+            "hi": "Can"
+          },
+          {
+            "en": "Could",
+            "hi": "Could"
+          },
+          {
+            "en": "May",
+            "hi": "May"
+          },
+          {
+            "en": "Might",
+            "hi": "Might"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "'Could' is the most polite form for requests.",
+          "hi": "'Could' requests ke liye sabse polite form hai."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Correct the error: 'You must to finish your homework.'",
+          "hi": "Error correct karo: 'You must to finish your homework.'"
+        },
+        "options": [
+          {
+            "en": "You must finish your homework.",
+            "hi": "You must finish your homework."
+          },
+          {
+            "en": "You must to finishes your homework.",
+            "hi": "You must to finishes your homework."
+          },
+          {
+            "en": "You must finishing your homework.",
+            "hi": "You must finishing your homework."
+          },
+          {
+            "en": "You must finished your homework.",
+            "hi": "You must finished your homework."
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "en": "After every modal, use V1 directly. No 'to' before the verb.",
+          "hi": "Har modal ke baad direct V1 use karo. Verb se pehle 'to' nahi aata."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: It ___ rain today, so take an umbrella. (weak possibility)",
+          "hi": "Fill in the blank: It ___ rain today, so take an umbrella. (weak possibility)"
+        },
+        "options": [
+          {
+            "en": "must",
+            "hi": "must"
+          },
+          {
+            "en": "should",
+            "hi": "should"
+          },
+          {
+            "en": "may",
+            "hi": "may"
+          },
+          {
+            "en": "might",
+            "hi": "might"
+          }
+        ],
+        "correct": 3,
+        "explanation": {
+          "en": "'Might' shows weak possibility. 'Must' = certainty, 'Should' = advice, 'May' = stronger possibility.",
+          "hi": "'Might' weak possibility dikhata hai. 'Must' = certainty, 'Should' = advice, 'May' = zyada strong possibility."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "❌ She can sings well. → ✅ She can sing well. — Modal ke baad hamesha V1 (base form) aata hai.",
+      "hi": "❌ She can sings well. → ✅ She can sing well. — Modal ke baad hamesha V1 (base form) aata hai."
+    },
+    {
+      "en": "❌ You must to go now. → ✅ You must go now. — Modal ke baad 'to' nahi aata. Direct V1 use karo.",
+      "hi": "❌ You must to go now. → ✅ You must go now. — Modal ke baad 'to' nahi aata. Direct V1 use karo."
+    },
+    {
+      "en": "❌ I could can swim. → ✅ I could swim. — Do modals ek saath nahi aate. Sirf ek modal use karo.",
+      "hi": "❌ I could can swim. → ✅ I could swim. — Do modals ek saath nahi aate. Sirf ek modal use karo."
+    },
+    {
+      "en": "Modal: Can | Use: Present ability, informal permission | Example: I can swim. / Can I go?",
+      "hi": "Modal: Can | Use: Present ability, informal permission | Example: I can swim. / Can I go?"
+    },
+    {
+      "en": "Modal: Could | Use: Past ability, polite permission, possibility | Example: I could swim. / Could I go?",
+      "hi": "Modal: Could | Use: Past ability, polite permission, possibility | Example: I could swim. / Could I go?"
+    },
+    {
+      "en": "Modal: May | Use: Formal permission, strong possibility | Example: You may go. / It may rain.",
+      "hi": "Modal: May | Use: Formal permission, strong possibility | Example: You may go. / It may rain."
+    },
+    {
+      "en": "Modal: Might | Use: Weak possibility, polite suggestion | Example: It might rain. / You might try.",
+      "hi": "Modal: Might | Use: Weak possibility, polite suggestion | Example: It might rain. / You might try."
+    },
+    {
+      "en": "Modal: Must | Use: Strong obligation, certainty | Example: You must go. / He must be tired.",
+      "hi": "Modal: Must | Use: Strong obligation, certainty | Example: You must go. / He must be tired."
+    },
+    {
+      "en": "Modal: Should | Use: Advice, recommendation | Example: You should study.",
+      "hi": "Modal: Should | Use: Advice, recommendation | Example: You should study."
+    },
+    {
+      "en": "Modal: Have to | Use: External obligation | Example: I have to wear uniform.",
+      "hi": "Modal: Have to | Use: External obligation | Example: I have to wear uniform."
+    },
+    {
+      "en": "Modal: Will | Use: Future, promise, instant decision | Example: I will help you.",
+      "hi": "Modal: Will | Use: Future, promise, instant decision | Example: I will help you."
+    },
+    {
+      "en": "Modal: Would | Use: Past habit, polite request, imaginary | Example: I would play. / Would you help?",
+      "hi": "Modal: Would | Use: Past habit, polite request, imaginary | Example: I would play. / Would you help?"
+    }
+  ],
+  "summary": {
+    "en": "You've covered Modals — Can, Could, May, Might, Must, Should — practice the examples above and try the quiz to lock it in before the exam.",
+    "hi": "Modals — Can, Could, May, Might, Must, Should cover ho gaya — upar wale examples practice karo aur quiz try karo exam se pehle pakka karne ke liye."
+  },
+  "reward": {
+    "badge": null
+  }
+}

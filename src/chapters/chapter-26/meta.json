@@ -1,0 +1,21 @@
+{
+  "id": "chapter-26",
+  "order": 12,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "A Triumph of Surgery",
+  "icon": "🩺",
+  "color": "#C792EA",
+  "description": "Footprints Without Feet, Ch 1. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-26-master",
+    "name": "A Triumph of Surgery Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

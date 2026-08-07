@@ -1,0 +1,379 @@
+{
+  "id": "chapter-15-lesson-02",
+  "chapterId": "chapter-15",
+  "order": 2,
+  "title": {
+    "en": "Tenses — All 12 Tenses Made Simple",
+    "hi": "Tenses — All 12 Tenses Simple Tarike Se"
+  },
+  "estimatedMinutes": 22,
+  "xpReward": 50,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "⏰",
+    "headline": {
+      "en": "Tenses — Time ko Sentence mein Dikhana",
+      "hi": "Tenses — Time ko Sentence mein Dikhana"
+    },
+    "subtext": {
+      "en": "12 Tenses = 3 Time Zones × 4 Camera Angles",
+      "hi": "12 Tenses = 3 Time Zones × 4 Camera Angles"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Master all 12 tenses with one story-based system. No more confusion between Present Perfect and Past Simple — ever again!",
+      "hi": "All 12 tenses ko ek story-based system se master karo. Present Perfect aur Past Simple mein confusion hamesha ke liye khatam!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "🎬 The Whole System in One Story (Read this first!)\n\nForget memorising 12 separate rules. Think of it like a cricket match being filmed:\n\n3 Time Zones — Present (aaj ka match), Past (kal ka match), Future (kal ka match)\n\n4 Camera Angles on EVERY time zone:\n1. Simple → Wide shot. Just the fact. \"He scored.\"\n2. Continuous → Zoomed-in, action happening live. \"He is scoring / was scoring / will be scoring.\"\n3. Perfect → Camera cuts to AFTER the action — showing the result. \"He has scored / had scored / will have scored.\"\n4. Perfect Continuous → Shows the action running for a stretch of time, still relevant now. \"He has been scoring / had been scoring / will have been scoring.\"\n\nThat's it. Every one of the 12 tenses is just (1 of 3 time zones) + (1 of 4 camera angles). Once this clicks, you're not memorising 12 things — you're memorising 1 system.",
+        "hi": "🎬 Pura System Ek Story Mein (Pehle Ye Padho!)\n\n12 alag rules yaad karna chhodo. Isko ek cricket match film ho raha hai ki tarah socho:\n\n3 Time Zones — Present (aaj ka match), Past (kal ka match), Future (kal ka match)\n\nHar time zone pe 4 Camera Angles:\n1. Simple → Wide shot. Bas fact. \"He scored.\"\n2. Continuous → Zoomed-in, action live ho raha hai. \"He is scoring / was scoring / will be scoring.\"\n3. Perfect → Camera action ke BAAD cut hota hai — result dikhata hai. \"He has scored / had scored / will have scored.\"\n4. Perfect Continuous → Action ek time period tak chal raha hai, abhi bhi relevant hai. \"He has been scoring / had been scoring / will have been scoring.\"\n\nBas itna hi. 12 tenses mein se har ek sirf (3 time zones mein se 1) + (4 camera angles mein se 1) hai. Ye click hote hi, tum 12 cheezein yaad nahi kar rahe — tum 1 system yaad kar rahe ho."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "The Secret Formula\n\nEvery tense follows: Subject + Helping Verb + Main Verb + Object\n\nHelping Verbs:\n• Present → do/does/is/am/are/have/has\n• Past → did/was/were/had\n• Future → will/shall\n\nAfter EVERY modal → always V1 (base form)",
+        "hi": "The Secret Formula\n\nHar tense follow karta hai: Subject + Helping Verb + Main Verb + Object\n\nHelping Verbs:\n• Present → do/does/is/am/are/have/has\n• Past → did/was/were/had\n• Future → will/shall\n\nHar modal ke baad → hamesha V1 (base form)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Present Tense (4 Types) — with real examples\n\n1. Simple Present → S + V1(s/es) + O\nKeywords: always, usually, often, every day\nExample: Papa checks his phone first thing every morning.\n\n2. Present Continuous → S + am/is/are + V1+ing + O\nKeywords: now, at the moment, currently\nExample: Relax, I am watching the match right now, will call you after.\n\n3. Present Perfect → S + have/has + V3 + O\nKeywords: just, already, yet, ever, never, since, for\nExample: Bro, I have already submitted the assignment — chill.\n\n4. Present Perfect Continuous → S + have/has + been + V1+ing + O\nKeywords: since (point of time), for (duration)\nExample: She has been preparing for boards for three months now.",
+        "hi": "Present Tense (4 Types) — real examples ke saath\n\n1. Simple Present → S + V1(s/es) + O\nKeywords: always, usually, often, every day\nExample: Papa checks his phone first thing every morning.\n\n2. Present Continuous → S + am/is/are + V1+ing + O\nKeywords: now, at the moment, currently\nExample: Relax, I am watching the match right now, will call you after.\n\n3. Present Perfect → S + have/has + V3 + O\nKeywords: just, already, yet, ever, never, since, for\nExample: Bro, I have already submitted the assignment — chill.\n\n4. Present Perfect Continuous → S + have/has + been + V1+ing + O\nKeywords: since (point of time), for (duration)\nExample: She has been preparing for boards for three months now."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Past Tense (4 Types) — with real examples\n\n1. Simple Past → S + V2 + O\nKeywords: yesterday, last week, ago, in 2020\nExample: The result came out yesterday at 10 AM.\n\n2. Past Continuous → S + was/were + V1+ing + O\nKeywords: while, when, at 5 PM yesterday\nExample: I was sleeping when the result notification popped up.\n\n3. Past Perfect → S + had + V3 + O\nKeywords: before, after, already, by the time\nExample: By the time I woke up, my friends had already checked their marks.\n\n4. Past Perfect Continuous → S + had + been + V1+ing + O\nKeywords: for, since, before\nExample: I had been revising Maths for two hours straight before I finally took a break.",
+        "hi": "Past Tense (4 Types) — real examples ke saath\n\n1. Simple Past → S + V2 + O\nKeywords: yesterday, last week, ago, in 2020\nExample: The result came out yesterday at 10 AM.\n\n2. Past Continuous → S + was/were + V1+ing + O\nKeywords: while, when, at 5 PM yesterday\nExample: I was sleeping when the result notification popped up.\n\n3. Past Perfect → S + had + V3 + O\nKeywords: before, after, already, by the time\nExample: By the time I woke up, my friends had already checked their marks.\n\n4. Past Perfect Continuous → S + had + been + V1+ing + O\nKeywords: for, since, before\nExample: I had been revising Maths for two hours straight before I finally took a break."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Future Tense (4 Types) — with real examples\n\n1. Simple Future → S + will/shall + V1 + O\nKeywords: tomorrow, next week, soon\nExample: I will start the syllabus revision tomorrow, promise.\n\n2. Future Continuous → S + will/shall + be + V1+ing + O\nKeywords: at this time tomorrow, at 5 PM next Monday\nExample: This time next week, we will be writing the actual board exam.\n\n3. Future Perfect → S + will/shall + have + V3 + O\nKeywords: by next week, by the time, before 2027\nExample: By the time boards start, I will have finished all 8 chapters of Section B.\n\n4. Future Perfect Continuous → S + will/shall + have + been + V1+ing + O\nKeywords: for two hours by then, by next year\nExample: By March, I will have been studying this app's Grammar lessons for six months straight.",
+        "hi": "Future Tense (4 Types) — real examples ke saath\n\n1. Simple Future → S + will/shall + V1 + O\nKeywords: tomorrow, next week, soon\nExample: I will start the syllabus revision tomorrow, promise.\n\n2. Future Continuous → S + will/shall + be + V1+ing + O\nKeywords: at this time tomorrow, at 5 PM next Monday\nExample: This time next week, we will be writing the actual board exam.\n\n3. Future Perfect → S + will/shall + have + V3 + O\nKeywords: by next week, by the time, before 2027\nExample: By the time boards start, I will have finished all 8 chapters of Section B.\n\n4. Future Perfect Continuous → S + will/shall + have + been + V1+ing + O\nKeywords: for two hours by then, by next year\nExample: By March, I will have been studying this app's Grammar lessons for six months straight."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🥊 Confusion Buster — The 3 Pairs That Cost the Most Marks\n\nPAIR 1: Simple Past vs Present Perfect\n• Ask: \"Is there an exact time mentioned?\" → YES = Simple Past | NO (or 'ever since') = Present Perfect\n• ❌ \"I have watched that movie yesterday.\" (has a time word 'yesterday')\n• ✅ \"I watched that movie yesterday.\" OR \"I have watched that movie.\" (no time given)\n\nPAIR 2: Present Continuous vs Present Perfect Continuous\n• Ask: \"Did this start recently and it's ONLY about right now?\" → Present Continuous | \"Has this been going on for a while, started earlier?\" → Present Perfect Continuous\n• Present Continuous: \"I am doing my homework.\" (just describing now, no sense of duration)\n• Present Perfect Continuous: \"I have been doing my homework for an hour.\" (duration matters — since when/how long)\n\nPAIR 3: Past Simple vs Past Perfect\n• Ask: \"Are there TWO past actions and I need to show which happened FIRST?\" → the earlier one gets Past Perfect, the later one stays Simple Past\n• \"When I reached [later action] the station, the train had already left [earlier action].\"\n• If there's only ONE past action, just use Simple Past — don't force Past Perfect where it isn't needed.",
+        "hi": "🥊 Confusion Buster — Ye 3 Pairs Sabse Zyada Marks Katte Hain\n\nPAIR 1: Simple Past vs Present Perfect\n• Poocho: \"Kya exact time mention hai?\" → HAAN = Simple Past | NAHI (ya 'ever since') = Present Perfect\n• ❌ \"I have watched that movie yesterday.\" ('yesterday' ek time word hai)\n• ✅ \"I watched that movie yesterday.\" YA \"I have watched that movie.\" (koi time nahi diya)\n\nPAIR 2: Present Continuous vs Present Perfect Continuous\n• Poocho: \"Ye recently start hua hai aur sirf abhi ki baat hai?\" → Present Continuous | \"Ye kuch time se chal raha hai, pehle start hua tha?\" → Present Perfect Continuous\n• Present Continuous: \"I am doing my homework.\" (bas abhi ki baat, duration ka sense nahi)\n• Present Perfect Continuous: \"I have been doing my homework for an hour.\" (duration matter karta hai — kab se/kitni der se)\n\nPAIR 3: Past Simple vs Past Perfect\n• Poocho: \"Do past actions hain aur mujhe dikhana hai kaunsa PEHLE hua?\" → jo pehle hua wo Past Perfect, jo baad mein hua wo Simple Past hi rahega\n• \"When I reached [baad wali action] the station, the train had already left [pehle wali action].\"\n• Agar sirf EK hi past action hai, to Simple Past hi use karo — bina zaroorat ke Past Perfect mat lagao."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🔑 Golden Rules (Exam ke liye MUST)\n\nRule 1: Since vs For\n• SINCE = point of time (since 2020, since morning)\n• FOR = duration (for 2 hours, for 5 days)\n\nRule 2: Yet vs Already\n• YET = negative/question (Has he come yet?)\n• ALREADY = positive (He has already come.)\n\nRule 3: V1, V2, V3\n• V1 = Simple Present, Future, after modals\n• V2 = Simple Past only\n• V3 = Perfect tenses, Passive voice\n\nRule 4: 'Since' ke saath hamesha Simple Past\n• It has been raining since it started. (NOT 'since it has started')",
+        "hi": "🔑 Golden Rules (Exam ke liye MUST)\n\nRule 1: Since vs For\n• SINCE = point of time (since 2020, since morning)\n• FOR = duration (for 2 hours, for 5 days)\n\nRule 2: Yet vs Already\n• YET = negative/question (Has he come yet?)\n• ALREADY = positive (He has already come.)\n\nRule 3: V1, V2, V3\n• V1 = Simple Present, Future, modals ke baad\n• V2 = Sirf Simple Past mein\n• V3 = Perfect tenses, Passive voice\n\nRule 4: 'Since' ke saath hamesha Simple Past\n• It has been raining since it started. ('since it has started' NAHI)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "Find and fix the error: She is reading a book since morning.",
+        "hi": "Find and fix the error: She is reading a book since morning."
+      },
+      "steps": [
+        {
+          "en": "'Since morning' = point of time → Present Perfect Continuous",
+          "hi": "'Since morning' = point of time → Present Perfect Continuous"
+        }
+      ],
+      "answer": {
+        "en": "has been reading",
+        "hi": "has been reading"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: I have completed my homework yesterday.",
+        "hi": "Find and fix the error: I have completed my homework yesterday."
+      },
+      "steps": [
+        {
+          "en": "'Yesterday' = Simple Past marker → use V2 only",
+          "hi": "'Yesterday' = Simple Past marker → use V2 only"
+        }
+      ],
+      "answer": {
+        "en": "completed",
+        "hi": "completed"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: By the time we reached, the train left.",
+        "hi": "Find and fix the error: By the time we reached, the train left."
+      },
+      "steps": [
+        {
+          "en": "Two past actions — train left BEFORE we reached → Past Perfect",
+          "hi": "Two past actions — train left BEFORE we reached → Past Perfect"
+        }
+      ],
+      "answer": {
+        "en": "had left",
+        "hi": "had left"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: She will be reaching by tomorrow.",
+        "hi": "Find and fix the error: She will be reaching by tomorrow."
+      },
+      "steps": [
+        {
+          "en": "'By tomorrow' = completion by specific time → Future Perfect",
+          "hi": "'By tomorrow' = completion by specific time → Future Perfect"
+        }
+      ],
+      "answer": {
+        "en": "will have reached",
+        "hi": "will have reached"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: He is living here for ten years.",
+        "hi": "Find and fix the error: He is living here for ten years."
+      },
+      "steps": [
+        {
+          "en": "'For ten years' = duration, action still continuing → Present Perfect Continuous",
+          "hi": "'For ten years' = duration, action still continuing → Present Perfect Continuous"
+        }
+      ],
+      "answer": {
+        "en": "has been living",
+        "hi": "has been living"
+      }
+    },
+    {
+      "problem": {
+        "en": "Find and fix the error: My phone is ringing since the last five minutes.",
+        "hi": "Find and fix the error: My phone is ringing since the last five minutes."
+      },
+      "steps": [
+        {
+          "en": "'Since the last five minutes' shows duration + continuing action → Present Perfect Continuous, not Present Continuous",
+          "hi": "'Since the last five minutes' shows duration + continuing action → Present Perfect Continuous, not Present Continuous"
+        }
+      ],
+      "answer": {
+        "en": "has been ringing",
+        "hi": "has been ringing"
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: She ___ (live) here since 2020.",
+          "hi": "Fill in the blank: She ___ (live) here since 2020."
+        },
+        "options": [
+          {
+            "en": "lives",
+            "hi": "lives"
+          },
+          {
+            "en": "is living",
+            "hi": "is living"
+          },
+          {
+            "en": "has been living",
+            "hi": "has been living"
+          },
+          {
+            "en": "lived",
+            "hi": "lived"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "en": "'Since 2020' = point of time, action still continuing → Present Perfect Continuous",
+          "hi": "'Since 2020' = point of time, action abhi bhi chal raha hai → Present Perfect Continuous"
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Correct the error: 'I have completed my work yesterday.'",
+          "hi": "Error correct karo: 'I have completed my work yesterday.'"
+        },
+        "options": [
+          {
+            "en": "I completed my work yesterday.",
+            "hi": "I completed my work yesterday."
+          },
+          {
+            "en": "I has completed my work yesterday.",
+            "hi": "I has completed my work yesterday."
+          },
+          {
+            "en": "I have complete my work yesterday.",
+            "hi": "I have complete my work yesterday."
+          },
+          {
+            "en": "I had completed my work yesterday.",
+            "hi": "I had completed my work yesterday."
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "en": "'Yesterday' = Simple Past marker. Use V2 only: 'completed'. Present Perfect + 'yesterday' is wrong.",
+          "hi": "'Yesterday' = Simple Past marker. Sirf V2 use karo: 'completed'. Present Perfect + 'yesterday' galat hai."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Fill in the blank: By next Monday, she ___ (finish) the project.",
+          "hi": "Fill in the blank: By next Monday, she ___ (finish) the project."
+        },
+        "options": [
+          {
+            "en": "will finish",
+            "hi": "will finish"
+          },
+          {
+            "en": "will be finishing",
+            "hi": "will be finishing"
+          },
+          {
+            "en": "will have finished",
+            "hi": "will have finished"
+          },
+          {
+            "en": "finishes",
+            "hi": "finishes"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "en": "'By next Monday' = completion by specific future time → Future Perfect",
+          "hi": "'By next Monday' = specific future time tak completion → Future Perfect"
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Choose the correct sentence:",
+          "hi": "Sahi sentence choose karo:"
+        },
+        "options": [
+          {
+            "en": "When I reached home, my sister already left.",
+            "hi": "When I reached home, my sister already left."
+          },
+          {
+            "en": "When I reached home, my sister had already left.",
+            "hi": "When I reached home, my sister had already left."
+          },
+          {
+            "en": "When I reach home, my sister had already left.",
+            "hi": "When I reach home, my sister had already left."
+          },
+          {
+            "en": "When I had reached home, my sister left.",
+            "hi": "When I had reached home, my sister left."
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Two past actions — sister leaving happened FIRST (Past Perfect), reaching home happened second (Simple Past).",
+          "hi": "Do past actions — behen ka jaana PEHLE hua (Past Perfect), ghar pahunchna baad mein hua (Simple Past)."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "❌ I am knowing him. → ✅ I know him. — 'Know' is a stative verb — no continuous form.",
+      "hi": "❌ I am knowing him. → ✅ I know him. — 'Know' is a stative verb — no continuous form."
+    },
+    {
+      "en": "❌ She has went to school. → ✅ She has gone to school. — After has/have → always V3 (gone), not V2 (went)",
+      "hi": "❌ She has went to school. → ✅ She has gone to school. — After has/have → always V3 (gone), not V2 (went)"
+    },
+    {
+      "en": "❌ I didn't went there. → ✅ I didn't go there. — After did/didn't → always V1 (go), not V2 (went)",
+      "hi": "❌ I didn't went there. → ✅ I didn't go there. — After did/didn't → always V1 (go), not V2 (went)"
+    },
+    {
+      "en": "❌ By next year, I will complete my degree. → ✅ By next year, I will have completed my degree. — 'By next year' = completion by specific time → Future Perfect",
+      "hi": "❌ By next year, I will complete my degree. → ✅ By next year, I will have completed my degree. — 'By next year' = completion by specific time → Future Perfect"
+    },
+    {
+      "en": "❌ I have seen him two hours ago. → ✅ I saw him two hours ago. — 'Ago' = Simple Past marker. Present Perfect + 'ago' is wrong.",
+      "hi": "❌ I have seen him two hours ago. → ✅ I saw him two hours ago. — 'Ago' = Simple Past marker. Present Perfect + 'ago' is wrong."
+    },
+    {
+      "en": "Tense: Simple Present | Formula: S + V1(s/es) | Example: She reads daily. | Keywords: always, every day",
+      "hi": "Tense: Simple Present | Formula: S + V1(s/es) | Example: She reads daily. | Keywords: always, every day"
+    },
+    {
+      "en": "Tense: Present Cont. | Formula: S + is/am/are + V1+ing | Example: She is reading. | Keywords: now, at the moment",
+      "hi": "Tense: Present Cont. | Formula: S + is/am/are + V1+ing | Example: She is reading. | Keywords: now, at the moment"
+    },
+    {
+      "en": "Tense: Present Perfect | Formula: S + have/has + V3 | Example: She has read. | Keywords: just, already, yet, since, for",
+      "hi": "Tense: Present Perfect | Formula: S + have/has + V3 | Example: She has read. | Keywords: just, already, yet, since, for"
+    },
+    {
+      "en": "Tense: Present Perfect Cont. | Formula: S + have/has + been + V1+ing | Example: She has been reading. | Keywords: since, for (still continuing)",
+      "hi": "Tense: Present Perfect Cont. | Formula: S + have/has + been + V1+ing | Example: She has been reading. | Keywords: since, for (still continuing)"
+    },
+    {
+      "en": "Tense: Simple Past | Formula: S + V2 | Example: She read yesterday. | Keywords: yesterday, ago, last week",
+      "hi": "Tense: Simple Past | Formula: S + V2 | Example: She read yesterday. | Keywords: yesterday, ago, last week"
+    },
+    {
+      "en": "Tense: Past Continuous | Formula: S + was/were + V1+ing | Example: She was reading. | Keywords: while, when",
+      "hi": "Tense: Past Continuous | Formula: S + was/were + V1+ing | Example: She was reading. | Keywords: while, when"
+    },
+    {
+      "en": "Tense: Past Perfect | Formula: S + had + V3 | Example: She had read. | Keywords: before, after, by the time",
+      "hi": "Tense: Past Perfect | Formula: S + had + V3 | Example: She had read. | Keywords: before, after, by the time"
+    },
+    {
+      "en": "Tense: Past Perfect Cont. | Formula: S + had + been + V1+ing | Example: She had been reading. | Keywords: for, since, before",
+      "hi": "Tense: Past Perfect Cont. | Formula: S + had + been + V1+ing | Example: She had been reading. | Keywords: for, since, before"
+    },
+    {
+      "en": "Tense: Simple Future | Formula: S + will + V1 | Example: She will read. | Keywords: tomorrow, next week",
+      "hi": "Tense: Simple Future | Formula: S + will + V1 | Example: She will read. | Keywords: tomorrow, next week"
+    },
+    {
+      "en": "Tense: Future Continuous | Formula: S + will + be + V1+ing | Example: She will be reading. | Keywords: at this time tomorrow",
+      "hi": "Tense: Future Continuous | Formula: S + will + be + V1+ing | Example: She will be reading. | Keywords: at this time tomorrow"
+    },
+    {
+      "en": "Tense: Future Perfect | Formula: S + will + have + V3 | Example: She will have read. | Keywords: by next week",
+      "hi": "Tense: Future Perfect | Formula: S + will + have + V3 | Example: She will have read. | Keywords: by next week"
+    },
+    {
+      "en": "Tense: Future Perfect Cont. | Formula: S + will + have + been + V1+ing | Example: She will have been reading. | Keywords: for 2 hours by then",
+      "hi": "Tense: Future Perfect Cont. | Formula: S + will + have + been + V1+ing | Example: She will have been reading. | Keywords: for 2 hours by then"
+    }
+  ],
+  "summary": {
+    "en": "You've covered Tenses — All 12 Tenses Made Simple — practice the examples above and try the quiz to lock it in before the exam.",
+    "hi": "Tenses — All 12 Tenses Simple Tarike Se cover ho gaya — upar wale examples practice karo aur quiz try karo exam se pehle pakka karne ke liye."
+  },
+  "reward": {
+    "badge": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-21",
+  "order": 7,
+  "class": 10,
+  "subject": "English",
+  "board": "CBSE",
+  "title": "Glimpses of India",
+  "icon": "🇮🇳",
+  "color": "#FF9F5A",
+  "description": "First Flight, Ch 5 — 'A Baker from Goa', 'Coorg', 'Tea from Assam' + poem 'Amanda!'. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-21-master",
+    "name": "Glimpses of India Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
