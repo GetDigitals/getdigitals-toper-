@@ -1,0 +1,50 @@
+{
+  "chapterId": "chapter-02",
+  "flashcards": [
+    { "front": { "hi": "Polynomial ka 'degree' kya hota hai?", "en": "What is the 'degree' of a polynomial?" }, "back": { "hi": "Variable ka sabse bada power.", "en": "The highest power of the variable." } },
+    { "front": { "hi": "p(x) ka 'zero' kise kehte hain?", "en": "What is a 'zero' of p(x)?" }, "back": { "hi": "Wo x value jispe p(x) = 0 hota hai.", "en": "A value of x where p(x) = 0." } },
+    { "front": { "hi": "Quadratic polynomial ke max kitne zeros ho sakte hain?", "en": "Maximum zeros a quadratic polynomial can have?" }, "back": { "hi": "2", "en": "2" } },
+    { "front": { "hi": "Cubic polynomial ke max kitne zeros ho sakte hain?", "en": "Maximum zeros a cubic polynomial can have?" }, "back": { "hi": "3", "en": "3" } },
+    { "front": { "hi": "Quadratic ax²+bx+c ke zeros ka sum?", "en": "Sum of zeros of quadratic ax²+bx+c?" }, "back": { "hi": "-b/a", "en": "-b/a" } },
+    { "front": { "hi": "Quadratic ax²+bx+c ke zeros ka product?", "en": "Product of zeros of quadratic ax²+bx+c?" }, "back": { "hi": "c/a", "en": "c/a" } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Zeros ka sum (quadratic)", "en": "Sum of zeros (quadratic)" }, "formula": "α + β = -b/a" },
+    { "label": { "hi": "Zeros ka product (quadratic)", "en": "Product of zeros (quadratic)" }, "formula": "αβ = c/a" },
+    { "label": { "hi": "Zeros ka sum (cubic)", "en": "Sum of zeros (cubic)" }, "formula": "α + β + γ = -b/a" },
+    { "label": { "hi": "Division algorithm", "en": "Division algorithm" }, "formula": "p(x) = g(x) × q(x) + r(x)" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Polynomials", "en": "Polynomials" },
+    "branches": [
+      {
+        "label": { "hi": "Zeros", "en": "Zeros" },
+        "children": [
+          { "hi": "Linear → 1 zero", "en": "Linear → 1 zero" },
+          { "hi": "Quadratic → max 2 zeros", "en": "Quadratic → max 2 zeros" },
+          { "hi": "Cubic → max 3 zeros", "en": "Cubic → max 3 zeros" }
+        ]
+      },
+      {
+        "label": { "hi": "Zeros-Coefficients Relation", "en": "Zeros-Coefficients Relation" },
+        "children": [
+          { "hi": "Sum = -b/a", "en": "Sum = -b/a" },
+          { "hi": "Product = c/a", "en": "Product = c/a" }
+        ]
+      },
+      {
+        "label": { "hi": "Division Algorithm", "en": "Division Algorithm" },
+        "children": [
+          { "hi": "p(x) = g(x)·q(x) + r(x)", "en": "p(x) = g(x)·q(x) + r(x)" },
+          { "hi": "degree r(x) < degree g(x)", "en": "degree r(x) < degree g(x)" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "x² - 9 ke zeros?", "en": "Zeros of x² - 9?" }, "explanation": { "hi": "x² - 9 = (x-3)(x+3), zeros = 3 aur -3.", "en": "x² - 9 = (x-3)(x+3), zeros = 3 and -3." } },
+    { "question": { "hi": "2x² - 8x + 6 ke zeros ka sum?", "en": "Sum of zeros of 2x² - 8x + 6?" }, "explanation": { "hi": "-b/a = -(-8)/2 = 4.", "en": "-b/a = -(-8)/2 = 4." } },
+    { "question": { "hi": "Degree-3 polynomial ke max kitne zeros ho sakte hain?", "en": "Max zeros a degree-3 polynomial can have?" }, "explanation": { "hi": "3 — degree jitna, utne max zeros.", "en": "3 — the degree is the maximum possible number of zeros." } },
+    { "question": { "hi": "p(x) ke zero ka geometric matlab kya hai?", "en": "What's the geometric meaning of a zero of p(x)?" }, "explanation": { "hi": "Wo x-coordinate jahan y = p(x) ka graph x-axis ko touch/cross karta hai.", "en": "The x-coordinate where the graph of y = p(x) touches or crosses the x-axis." } }
+  ]
+}

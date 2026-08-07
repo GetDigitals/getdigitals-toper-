@@ -1,0 +1,51 @@
+{
+  "chapterId": "chapter-14",
+  "flashcards": [
+    { "front": { "hi": "Probability ka formula?", "en": "Formula for probability?" }, "back": { "hi": "P(E) = Favorable outcomes / Total outcomes.", "en": "P(E) = Favorable outcomes / Total outcomes." } },
+    { "front": { "hi": "Sure event ki probability?", "en": "Probability of a sure event?" }, "back": { "hi": "1", "en": "1" } },
+    { "front": { "hi": "Impossible event ki probability?", "en": "Probability of an impossible event?" }, "back": { "hi": "0", "en": "0" } },
+    { "front": { "hi": "Complementary events ka rule?", "en": "Rule for complementary events?" }, "back": { "hi": "P(E) + P(not E) = 1.", "en": "P(E) + P(not E) = 1." } },
+    { "front": { "hi": "Deck of cards mein kul kitne cards hote hain?", "en": "How many cards are in a full deck?" }, "back": { "hi": "52 (4 suits × 13 cards).", "en": "52 (4 suits × 13 cards)." } },
+    { "front": { "hi": "Probability ki range kya hai?", "en": "What is the range of probability?" }, "back": { "hi": "0 se 1 tak (dono included).", "en": "0 to 1 (inclusive)." } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Probability", "en": "Probability" }, "formula": "P(E) = n(E)/n(S)" },
+    { "label": { "hi": "Complementary event", "en": "Complementary event" }, "formula": "P(E) + P(not E) = 1" },
+    { "label": { "hi": "Sure event", "en": "Sure event" }, "formula": "P = 1" },
+    { "label": { "hi": "Impossible event", "en": "Impossible event" }, "formula": "P = 0" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Probability", "en": "Probability" },
+    "branches": [
+      {
+        "label": { "hi": "Basic Formula", "en": "Basic Formula" },
+        "children": [
+          { "hi": "P(E) = favorable/total", "en": "P(E) = favorable/total" },
+          { "hi": "Range: 0 ≤ P(E) ≤ 1", "en": "Range: 0 ≤ P(E) ≤ 1" }
+        ]
+      },
+      {
+        "label": { "hi": "Types of Events", "en": "Types of Events" },
+        "children": [
+          { "hi": "Sure event → P=1", "en": "Sure event → P=1" },
+          { "hi": "Impossible event → P=0", "en": "Impossible event → P=0" },
+          { "hi": "Complementary: P(E)+P(not E)=1", "en": "Complementary: P(E)+P(not E)=1" }
+        ]
+      },
+      {
+        "label": { "hi": "Common Experiments", "en": "Common Experiments" },
+        "children": [
+          { "hi": "Coin toss, dice roll", "en": "Coin toss, dice roll" },
+          { "hi": "Playing cards (52)", "en": "Playing cards (52)" },
+          { "hi": "Balls in a bag", "en": "Balls in a bag" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "Ek coin toss mein head aane ki probability?", "en": "Probability of getting heads in one coin toss?" }, "explanation": { "hi": "1/2.", "en": "1/2." } },
+    { "question": { "hi": "Deck se ek ace nikalne ki probability?", "en": "Probability of drawing an ace from a deck?" }, "explanation": { "hi": "4/52 = 1/13.", "en": "4/52 = 1/13." } },
+    { "question": { "hi": "Ek die pe even number aane ki probability?", "en": "Probability of getting an even number on a die?" }, "explanation": { "hi": "{2,4,6} = 3/6 = 1/2.", "en": "{2,4,6} = 3/6 = 1/2." } },
+    { "question": { "hi": "Agar P(E) = 0.3 hai, to P(not E) kya hoga?", "en": "If P(E) = 0.3, what is P(not E)?" }, "explanation": { "hi": "1 − 0.3 = 0.7.", "en": "1 − 0.3 = 0.7." } }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "chapterId": "chapter-06",
+  "totalMarks": 10,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "truefalse",
+      "question": { "hi": "Do triangles similar tab hote hain jab unke corresponding angles equal ho aur corresponding sides proportional ho.", "en": "Two triangles are similar when their corresponding angles are equal and corresponding sides are proportional." },
+      "correct": true,
+      "explanation": { "hi": "Ye similarity ki hi definition hai.", "en": "This is the definition of similarity itself." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Basic Proportionality Theorem (BPT) mein, agar DE || BC ho triangle ABC mein (D on AB, E on AC), to kaunsa sahi hai?", "en": "In the Basic Proportionality Theorem, if DE || BC in triangle ABC (D on AB, E on AC), which is correct?" },
+      "options": [
+        { "hi": "AD/DB = AE/EC", "en": "AD/DB = AE/EC" },
+        { "hi": "AD/AB = AE/AC²", "en": "AD/AB = AE/AC²" },
+        { "hi": "AD × DB = AE × EC", "en": "AD × DB = AE × EC" },
+        { "hi": "AD + DB = AE + EC", "en": "AD + DB = AE + EC" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "BPT (Thales Theorem): line jo do sides ko proportion mein divide kare, teesri side ke parallel hoti hai — aur iska converse bhi sach hai.", "en": "BPT (Thales' Theorem): a line dividing two sides in the same ratio is parallel to the third side — and the converse is true too." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Triangle ABC mein D on AB, E on AC, DE || BC. AD=4cm, DB=6cm, AC=15cm. AE ki length kya hogi?", "en": "In triangle ABC, D is on AB, E is on AC, DE || BC. AD=4cm, DB=6cm, AC=15cm. What is AE?" },
+      "options": [
+        { "hi": "5 cm", "en": "5 cm" },
+        { "hi": "6 cm", "en": "6 cm" },
+        { "hi": "9 cm", "en": "9 cm" },
+        { "hi": "10 cm", "en": "10 cm" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "AD/DB = AE/EC = 4/6 = 2/3. AE+EC=15, isliye AE = 15×(2/5) = 6 cm.", "en": "AD/DB = AE/EC = 4/6 = 2/3. AE+EC=15, so AE = 15×(2/5) = 6 cm." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Agar do similar triangles ke sides ka ratio 2:3 hai, to unke areas ka ratio kya hoga?", "en": "If the sides of two similar triangles are in ratio 2:3, what is the ratio of their areas?" },
+      "options": [
+        { "hi": "2:3", "en": "2:3" },
+        { "hi": "4:6", "en": "4:6" },
+        { "hi": "4:9", "en": "4:9" },
+        { "hi": "8:27", "en": "8:27" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "Similar triangles ke areas ka ratio = sides ke ratio ka square = 2²:3² = 4:9.", "en": "The ratio of areas of similar triangles = the square of the ratio of sides = 2²:3² = 4:9." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "AA similarity criterion mein, agar do angles equal hain to teesra angle automatically equal ho jaata hai.", "en": "In the AA similarity criterion, if two angles are equal then the third angle is automatically equal too." },
+      "correct": true,
+      "explanation": { "hi": "Triangle ke angles ka sum hamesha 180° hota hai, isliye 2 angles fix hone se teesra bhi fix ho jaata hai.", "en": "A triangle's angles always sum to 180°, so fixing 2 angles automatically fixes the third." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Ek 6m ka khambha (pole) 4m ka shadow banata hai. Usi waqt ek tower 24m ka shadow banata hai. Tower ki height kya hai?", "en": "A 6m pole casts a 4m shadow. At the same time, a tower casts a 24m shadow. What is the tower's height?" },
+      "options": [
+        { "hi": "16 m", "en": "16 m" },
+        { "hi": "20 m", "en": "20 m" },
+        { "hi": "36 m", "en": "36 m" },
+        { "hi": "40 m", "en": "40 m" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "Similar triangles: 6/4 = h/24 → h = 6×24/4 = 36 m.", "en": "Similar triangles: 6/4 = h/24 → h = 6×24/4 = 36 m." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Pythagoras theorem ke hisaab se, right triangle mein hypotenuse ka square kiske barabar hota hai?", "en": "By the Pythagoras theorem, in a right triangle the square of the hypotenuse equals what?" },
+      "options": [
+        { "hi": "Doosre do sides ke squares ka sum", "en": "The sum of the squares of the other two sides" },
+        { "hi": "Doosre do sides ka sum", "en": "The sum of the other two sides" },
+        { "hi": "Doosre do sides ka product", "en": "The product of the other two sides" },
+        { "hi": "Doosre do sides ke squares ka difference", "en": "The difference of the squares of the other two sides" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "hypotenuse² = base² + perpendicular².", "en": "hypotenuse² = base² + perpendicular²." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Ek 10m lambi seedhi (ladder) deewar se tikayi gayi hai, iska bottom deewar se 6m door hai. Seedhi deewar pe kitni height tak pahunchti hai?", "en": "A 10m ladder is leaned against a wall with its foot 6m from the wall. How high up the wall does the ladder reach?" },
+      "options": [
+        { "hi": "6 m", "en": "6 m" },
+        { "hi": "7 m", "en": "7 m" },
+        { "hi": "8 m", "en": "8 m" },
+        { "hi": "9 m", "en": "9 m" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "height = √(10² - 6²) = √(100-36) = √64 = 8 m.", "en": "height = √(10² - 6²) = √(100-36) = √64 = 8 m." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Agar ek triangle ke sides 7cm, 24cm, 25cm hain, to ye right-angled triangle hai.", "en": "If a triangle has sides 7cm, 24cm, 25cm, it is a right-angled triangle." },
+      "correct": true,
+      "explanation": { "hi": "7² + 24² = 49 + 576 = 625 = 25² — Pythagoras theorem ka converse satisfy hota hai.", "en": "7² + 24² = 49 + 576 = 625 = 25² — this satisfies the converse of the Pythagoras theorem." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "SSS similarity criterion mein do triangles similar tab hote hain jab:", "en": "In the SSS similarity criterion, two triangles are similar when:" },
+      "options": [
+        { "hi": "Ek pair sides equal ho", "en": "One pair of sides is equal" },
+        { "hi": "Saari corresponding sides proportional ho", "en": "All corresponding sides are proportional" },
+        { "hi": "Do angles equal ho", "en": "Two angles are equal" },
+        { "hi": "Ek angle aur do sides equal ho", "en": "One angle and two sides are equal" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "SSS similarity: teeno corresponding sides ka ratio same ho.", "en": "SSS similarity: the ratio of all three corresponding sides is the same." }
+    }
+  ]
+}

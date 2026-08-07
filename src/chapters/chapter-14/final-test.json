@@ -1,0 +1,109 @@
+{
+  "chapterId": "chapter-14",
+  "totalMarks": 10,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": { "hi": "Ek die roll karne pe, 5 se kam number aane ki probability kya hai?", "en": "When rolling a die, what is the probability of getting a number less than 5?" },
+      "options": [
+        { "hi": "1/2", "en": "1/2" },
+        { "hi": "1/3", "en": "1/3" },
+        { "hi": "2/3", "en": "2/3" },
+        { "hi": "5/6", "en": "5/6" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "Favorable outcomes {1,2,3,4} = 4, total = 6. P = 4/6 = 2/3.", "en": "Favorable outcomes {1,2,3,4} = 4, total = 6. P = 4/6 = 2/3." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Ek fair die roll karke 7 aane ki probability 0 hai.", "en": "The probability of rolling a 7 on a fair die is 0." },
+      "correct": true,
+      "explanation": { "hi": "Die pe 7 hota hi nahi — ye ek impossible event hai, P(impossible) = 0.", "en": "A die doesn't have a 7 — this is an impossible event, and P(impossible) = 0." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Do coins ek saath toss karo. Exactly ek head aane ki probability kya hai?", "en": "Two coins are tossed together. What is the probability of getting exactly one head?" },
+      "options": [
+        { "hi": "1/4", "en": "1/4" },
+        { "hi": "1/2", "en": "1/2" },
+        { "hi": "3/4", "en": "3/4" },
+        { "hi": "1", "en": "1" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Sample space: HH, HT, TH, TT. Exactly ek head = {HT, TH} = 2/4 = 1/2.", "en": "Sample space: HH, HT, TH, TT. Exactly one head = {HT, TH} = 2/4 = 1/2." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "52 cards ke deck se ek queen nikalne ki probability kya hai?", "en": "What is the probability of drawing a queen from a 52-card deck?" },
+      "options": [
+        { "hi": "1/52", "en": "1/52" },
+        { "hi": "1/26", "en": "1/26" },
+        { "hi": "1/13", "en": "1/13" },
+        { "hi": "1/4", "en": "1/4" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "4 queens hain 52 cards mein, P = 4/52 = 1/13.", "en": "There are 4 queens in 52 cards, P = 4/52 = 1/13." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Kisi bhi event E ke liye, P(E) + P(not E) = 1 hamesha sach hota hai.", "en": "For any event E, P(E) + P(not E) = 1 is always true." },
+      "correct": true,
+      "explanation": { "hi": "Complementary events ka basic property hai.", "en": "This is the basic property of complementary events." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Ek bag mein 4 red aur 5 blue balls hain. Ek ball randomly nikale, red ball nikalne ki probability kya hai?", "en": "A bag has 4 red and 5 blue balls. A ball is drawn at random. What is the probability of drawing a red ball?" },
+      "options": [
+        { "hi": "4/5", "en": "4/5" },
+        { "hi": "4/9", "en": "4/9" },
+        { "hi": "5/9", "en": "5/9" },
+        { "hi": "1/9", "en": "1/9" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Total balls = 4+5 = 9. P(red) = 4/9.", "en": "Total balls = 4+5 = 9. P(red) = 4/9." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Do dice ek saath roll karo. Sum 2 aane ki probability kya hai?", "en": "Two dice are rolled together. What is the probability that the sum is 2?" },
+      "options": [
+        { "hi": "1/6", "en": "1/6" },
+        { "hi": "1/12", "en": "1/12" },
+        { "hi": "1/36", "en": "1/36" },
+        { "hi": "1/18", "en": "1/18" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "Sirf (1,1) se sum 2 milta hai — 1 favorable outcome, total 36 outcomes. P = 1/36.", "en": "Only (1,1) gives sum 2 — 1 favorable outcome out of 36 total outcomes. P = 1/36." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Kisi sure (certain) event ki probability hamesha 1 hoti hai.", "en": "The probability of a sure (certain) event is always 1." },
+      "correct": true,
+      "explanation": { "hi": "Sure event zaroor hota hai, isliye P = 1.", "en": "A sure event is guaranteed to happen, so P = 1." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "1 se 20 tak ke numbers mein se ek randomly choose kiya jaata hai. 4 ka multiple aane ki probability kya hai?", "en": "A number is randomly chosen from 1 to 20. What is the probability that it's a multiple of 4?" },
+      "options": [
+        { "hi": "1/5", "en": "1/5" },
+        { "hi": "1/4", "en": "1/4" },
+        { "hi": "1/2", "en": "1/2" },
+        { "hi": "1/10", "en": "1/10" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Multiples of 4 in 1-20: {4,8,12,16,20} = 5 numbers. P = 5/20 = 1/4.", "en": "Multiples of 4 in 1-20: {4,8,12,16,20} = 5 numbers. P = 5/20 = 1/4." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Har probability ki value hamesha kis range mein hoti hai?", "en": "The value of every probability always lies in which range?" },
+      "options": [
+        { "hi": "-1 se 1 tak", "en": "-1 to 1" },
+        { "hi": "0 se 1 tak", "en": "0 to 1" },
+        { "hi": "0 se 100 tak", "en": "0 to 100" },
+        { "hi": "1 se 10 tak", "en": "1 to 10" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "0 ≤ P(E) ≤ 1 — kabhi negative ya 1 se zyada nahi hoti.", "en": "0 ≤ P(E) ≤ 1 — it's never negative or greater than 1." }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "chapterId": "chapter-06",
+  "flashcards": [
+    { "front": { "hi": "Similar triangles ki definition?", "en": "Definition of similar triangles?" }, "back": { "hi": "Corresponding angles equal, corresponding sides proportional.", "en": "Corresponding angles equal, corresponding sides proportional." } },
+    { "front": { "hi": "BPT (Thales Theorem) kya kehta hai?", "en": "What does BPT (Thales' Theorem) state?" }, "back": { "hi": "Agar ek line triangle ke do sides ko same ratio mein cut kare, to wo teesri side ke parallel hoti hai.", "en": "If a line divides two sides of a triangle in the same ratio, it is parallel to the third side." } },
+    { "front": { "hi": "Similar triangles ke areas ka ratio?", "en": "Ratio of areas of similar triangles?" }, "back": { "hi": "Corresponding sides ke ratio ka square.", "en": "The square of the ratio of corresponding sides." } },
+    { "front": { "hi": "Pythagoras theorem?", "en": "Pythagoras theorem?" }, "back": { "hi": "hypotenuse² = base² + perpendicular² (right triangle mein).", "en": "hypotenuse² = base² + perpendicular² (in a right triangle)." } },
+    { "front": { "hi": "AA similarity criterion?", "en": "AA similarity criterion?" }, "back": { "hi": "Do angles equal ho to triangles similar hain.", "en": "If two angles are equal, the triangles are similar." } },
+    { "front": { "hi": "Ek famous Pythagorean triple bolo.", "en": "Name a famous Pythagorean triple." }, "back": { "hi": "3, 4, 5 (aur iske multiples jaise 6,8,10).", "en": "3, 4, 5 (and its multiples like 6, 8, 10)." } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "BPT ratio", "en": "BPT ratio" }, "formula": "AD/DB = AE/EC" },
+    { "label": { "hi": "Similar triangles: area ratio", "en": "Similar triangles: area ratio" }, "formula": "Area₁/Area₂ = (side₁/side₂)²" },
+    { "label": { "hi": "Pythagoras theorem", "en": "Pythagoras theorem" }, "formula": "hyp² = base² + perp²" },
+    { "label": { "hi": "Converse of Pythagoras", "en": "Converse of Pythagoras" }, "formula": "a² + b² = c² ⇒ right angle opposite c" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Triangles", "en": "Triangles" },
+    "branches": [
+      {
+        "label": { "hi": "Similarity Criteria", "en": "Similarity Criteria" },
+        "children": [
+          { "hi": "AA / AAA", "en": "AA / AAA" },
+          { "hi": "SSS", "en": "SSS" },
+          { "hi": "SAS", "en": "SAS" }
+        ]
+      },
+      {
+        "label": { "hi": "BPT (Thales Theorem)", "en": "BPT (Thales Theorem)" },
+        "children": [
+          { "hi": "DE || BC ⇒ AD/DB = AE/EC", "en": "DE || BC ⇒ AD/DB = AE/EC" },
+          { "hi": "Converse bhi true hai", "en": "Converse is also true" }
+        ]
+      },
+      {
+        "label": { "hi": "Areas of Similar Triangles", "en": "Areas of Similar Triangles" },
+        "children": [
+          { "hi": "Area ratio = (side ratio)²", "en": "Area ratio = (side ratio)²" }
+        ]
+      },
+      {
+        "label": { "hi": "Pythagoras Theorem", "en": "Pythagoras Theorem" },
+        "children": [
+          { "hi": "hyp² = base² + perp²", "en": "hyp² = base² + perp²" },
+          { "hi": "Converse: a²+b²=c² ⇒ right angle", "en": "Converse: a²+b²=c² ⇒ right angle" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "5, 12, 13 sides wala triangle right-angled hai?", "en": "Is a triangle with sides 5, 12, 13 right-angled?" }, "explanation": { "hi": "Haan — 5²+12²=25+144=169=13².", "en": "Yes — 5²+12²=25+144=169=13²." } },
+    { "question": { "hi": "Agar side ratio 3:5 hai, area ratio kya hoga?", "en": "If side ratio is 3:5, what is the area ratio?" }, "explanation": { "hi": "9:25 (squares of 3 and 5).", "en": "9:25 (squares of 3 and 5)." } },
+    { "question": { "hi": "SAS similarity criterion mein kya chahiye?", "en": "What does the SAS similarity criterion require?" }, "explanation": { "hi": "Ek angle equal ho, aur us angle ke around ke do sides proportional ho.", "en": "One equal angle, with the two sides around it proportional." } },
+    { "question": { "hi": "BPT ka doosra naam kya hai?", "en": "What's another name for BPT?" }, "explanation": { "hi": "Thales Theorem.", "en": "Thales' Theorem." } }
+  ]
+}

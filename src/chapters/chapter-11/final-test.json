@@ -1,0 +1,109 @@
+{
+  "chapterId": "chapter-11",
+  "totalMarks": 10,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": { "hi": "Ek circle ki circumference 44 cm hai (π = 22/7 lo). Radius kya hai?", "en": "A circle's circumference is 44 cm (use π = 22/7). What is its radius?" },
+      "options": [
+        { "hi": "5 cm", "en": "5 cm" },
+        { "hi": "6 cm", "en": "6 cm" },
+        { "hi": "7 cm", "en": "7 cm" },
+        { "hi": "14 cm", "en": "14 cm" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "C = 2πr → 44 = 2×(22/7)×r → r = 7 cm.", "en": "C = 2πr → 44 = 2×(22/7)×r → r = 7 cm." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "7 cm radius wale circle ka area kya hai? (π = 22/7)", "en": "What is the area of a circle with radius 7 cm? (π = 22/7)" },
+      "options": [
+        { "hi": "44 cm²", "en": "44 cm²" },
+        { "hi": "154 cm²", "en": "154 cm²" },
+        { "hi": "308 cm²", "en": "308 cm²" },
+        { "hi": "49 cm²", "en": "49 cm²" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Area = πr² = (22/7)×49 = 154 cm².", "en": "Area = πr² = (22/7)×49 = 154 cm²." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Sector ka area formula (θ/360°) × πr² hai, jahan θ sector ka angle hai.", "en": "The area of a sector is (θ/360°) × πr², where θ is the sector's angle." },
+      "correct": true,
+      "explanation": { "hi": "Ye poore circle ke area ka wo fraction hai jo θ angle cover karta hai.", "en": "This is the fraction of the full circle's area covered by angle θ." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "14 cm radius wale circle mein ek quadrant (90°) sector ka area kya hai? (π = 22/7)", "en": "What is the area of a quadrant (90°) sector in a circle of radius 14 cm? (π = 22/7)" },
+      "options": [
+        { "hi": "77 cm²", "en": "77 cm²" },
+        { "hi": "154 cm²", "en": "154 cm²" },
+        { "hi": "308 cm²", "en": "308 cm²" },
+        { "hi": "616 cm²", "en": "616 cm²" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "(90/360) × (22/7) × 14² = (1/4) × 616 = 154 cm².", "en": "(90/360) × (22/7) × 14² = (1/4) × 616 = 154 cm²." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "21 cm radius wale circle mein 60° sector ka area kya hai? (π = 22/7)", "en": "What is the area of a 60° sector in a circle of radius 21 cm? (π = 22/7)" },
+      "options": [
+        { "hi": "154 cm²", "en": "154 cm²" },
+        { "hi": "198 cm²", "en": "198 cm²" },
+        { "hi": "231 cm²", "en": "231 cm²" },
+        { "hi": "441 cm²", "en": "441 cm²" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "(60/360) × (22/7) × 441 = (1/6) × 1386 = 231 cm².", "en": "(60/360) × (22/7) × 441 = (1/6) × 1386 = 231 cm²." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Usi 21 cm radius wale circle mein 60° arc ki length kya hai? (π = 22/7)", "en": "In the same circle of radius 21 cm, what is the length of the 60° arc? (π = 22/7)" },
+      "options": [
+        { "hi": "11 cm", "en": "11 cm" },
+        { "hi": "22 cm", "en": "22 cm" },
+        { "hi": "33 cm", "en": "33 cm" },
+        { "hi": "44 cm", "en": "44 cm" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Arc length = (60/360) × 2 × (22/7) × 21 = (1/6) × 132 = 22 cm.", "en": "Arc length = (60/360) × 2 × (22/7) × 21 = (1/6) × 132 = 22 cm." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Segment ka area = Sector ka area − Triangle ka area (minor segment ke liye).", "en": "Area of segment = Area of sector − Area of triangle (for the minor segment)." },
+      "correct": true,
+      "explanation": { "hi": "Segment sector mein se triangle hata ke bachta hai.", "en": "The segment is what's left of the sector after removing the triangle." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "14 cm radius wale circle mein 90° sector ka segment area kya hoga? (π = 22/7)", "en": "What is the area of the segment for a 90° sector in a circle of radius 14 cm? (π = 22/7)" },
+      "options": [
+        { "hi": "42 cm²", "en": "42 cm²" },
+        { "hi": "56 cm²", "en": "56 cm²" },
+        { "hi": "98 cm²", "en": "98 cm²" },
+        { "hi": "154 cm²", "en": "154 cm²" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Sector area = 154 cm², right-angled triangle area = ½×14×14 = 98 cm². Segment = 154 − 98 = 56 cm².", "en": "Sector area = 154 cm², right-angled triangle area = ½×14×14 = 98 cm². Segment = 154 − 98 = 56 cm²." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "14 cm radius wale circle ka semicircle (180°) ka area kya hoga? (π = 22/7)", "en": "What is the area of a semicircle (180°) with radius 14 cm? (π = 22/7)" },
+      "options": [
+        { "hi": "154 cm²", "en": "154 cm²" },
+        { "hi": "308 cm²", "en": "308 cm²" },
+        { "hi": "616 cm²", "en": "616 cm²" },
+        { "hi": "44 cm²", "en": "44 cm²" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Semicircle area = ½πr² = ½×(22/7)×196 = 308 cm².", "en": "Semicircle area = ½πr² = ½×(22/7)×196 = 308 cm²." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "'Combination of plane figures' problems mein, total shaded area nikalne ke liye alag-alag shapes ke areas ko add/subtract karte hain.", "en": "In 'combination of plane figures' problems, you add/subtract the areas of individual shapes to find the total shaded area." },
+      "correct": true,
+      "explanation": { "hi": "Har shape (square, circle, triangle, sector) ka area alag nikal ke combine karte hain.", "en": "You calculate the area of each shape (square, circle, triangle, sector) separately and combine them." }
+    }
+  ]
+}

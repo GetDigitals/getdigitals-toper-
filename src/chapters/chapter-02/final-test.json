@@ -1,0 +1,109 @@
+{
+  "chapterId": "chapter-02",
+  "totalMarks": 10,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": { "hi": "3x⁴ - 2x² + 5 ka degree kya hai?", "en": "What is the degree of 3x⁴ - 2x² + 5?" },
+      "options": [
+        { "hi": "2", "en": "2" },
+        { "hi": "3", "en": "3" },
+        { "hi": "4", "en": "4" },
+        { "hi": "5", "en": "5" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "Degree = polynomial mein sabse bada power = 4.", "en": "Degree = the highest power in the polynomial = 4." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Ek quadratic polynomial ke zyada se zyada 2 zeros ho sakte hain.", "en": "A quadratic polynomial can have at most 2 zeros." },
+      "correct": true,
+      "explanation": { "hi": "Degree 2 hai, isliye graph x-axis ko max 2 baar cross karega.", "en": "Its degree is 2, so its graph can cross the x-axis at most 2 times." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "x² - 5x + 6 ke zeros kya hain?", "en": "What are the zeros of x² - 5x + 6?" },
+      "options": [
+        { "hi": "1, 6", "en": "1, 6" },
+        { "hi": "2, 3", "en": "2, 3" },
+        { "hi": "-2, -3", "en": "-2, -3" },
+        { "hi": "2, -3", "en": "2, -3" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "x² - 5x + 6 = (x-2)(x-3), isliye zeros 2 aur 3 hain.", "en": "x² - 5x + 6 = (x-2)(x-3), so the zeros are 2 and 3." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "x² - 5x + 6 ke zeros ka sum kya hai?", "en": "What is the sum of zeros of x² - 5x + 6?" },
+      "options": [
+        { "hi": "-5", "en": "-5" },
+        { "hi": "5", "en": "5" },
+        { "hi": "6", "en": "6" },
+        { "hi": "-6", "en": "-6" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Sum of zeros = -b/a = -(-5)/1 = 5.", "en": "Sum of zeros = -b/a = -(-5)/1 = 5." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "x² - 5x + 6 ke zeros ka product kya hai?", "en": "What is the product of zeros of x² - 5x + 6?" },
+      "options": [
+        { "hi": "5", "en": "5" },
+        { "hi": "-6", "en": "-6" },
+        { "hi": "6", "en": "6" },
+        { "hi": "-5", "en": "-5" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "Product of zeros = c/a = 6/1 = 6.", "en": "Product of zeros = c/a = 6/1 = 6." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "ax² + bx + c (a≠0) ke liye, zeros ka sum hamesha -b/a hota hai.", "en": "For ax² + bx + c (a≠0), the sum of zeros is always -b/a." },
+      "correct": true,
+      "explanation": { "hi": "Ye standard identity hai — zeros aur coefficients ka relationship.", "en": "This is the standard identity relating zeros and coefficients." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Agar x² + kx + 12 ka ek zero 4 hai, to k ka value kya hai?", "en": "If one zero of x² + kx + 12 is 4, what is the value of k?" },
+      "options": [
+        { "hi": "7", "en": "7" },
+        { "hi": "-7", "en": "-7" },
+        { "hi": "3", "en": "3" },
+        { "hi": "-3", "en": "-3" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "x=4 substitute karo: 16 + 4k + 12 = 0 → 4k = -28 → k = -7.", "en": "Substitute x=4: 16 + 4k + 12 = 0 → 4k = -28 → k = -7." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "4x² - 4x + 1 ke zeros ke baare mein kya sahi hai?", "en": "What is true about the zeros of 4x² - 4x + 1?" },
+      "options": [
+        { "hi": "Do alag-alag zeros hain", "en": "It has two different zeros" },
+        { "hi": "Dono zeros equal hain (½, ½)", "en": "Both zeros are equal (½, ½)" },
+        { "hi": "Koi real zero nahi hai", "en": "It has no real zero" },
+        { "hi": "Teen zeros hain", "en": "It has three zeros" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "4x² - 4x + 1 = (2x-1)², isliye dono zeros equal hain = ½.", "en": "4x² - 4x + 1 = (2x-1)², so both zeros are equal to ½." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Division algorithm mein, remainder r(x) ka degree hamesha divisor g(x) ke degree se kam hota hai.", "en": "In the division algorithm, the degree of the remainder r(x) is always less than the degree of the divisor g(x)." },
+      "correct": true,
+      "explanation": { "hi": "Ye division algorithm ki hi definition hai: p(x) = g(x)·q(x) + r(x), jahan degree r(x) < degree g(x).", "en": "This is the definition of the division algorithm itself: p(x) = g(x)·q(x) + r(x), where degree r(x) < degree g(x)." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "x³ - 3x² + 5x - 3 ko x² - 2 se divide karne pe remainder kya milega?", "en": "What is the remainder when x³ - 3x² + 5x - 3 is divided by x² - 2?" },
+      "options": [
+        { "hi": "7x - 9", "en": "7x - 9" },
+        { "hi": "x - 3", "en": "x - 3" },
+        { "hi": "5x - 3", "en": "5x - 3" },
+        { "hi": "0", "en": "0" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "Long division karne pe quotient = x-3, remainder = 7x-9 milta hai.", "en": "Carrying out the long division gives quotient = x-3, remainder = 7x-9." }
+    }
+  ]
+}

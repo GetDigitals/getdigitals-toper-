@@ -1,0 +1,54 @@
+{
+  "chapterId": "chapter-11",
+  "flashcards": [
+    { "front": { "hi": "Circle ka area formula?", "en": "Formula for area of a circle?" }, "back": { "hi": "πr²", "en": "πr²" } },
+    { "front": { "hi": "Circle ki circumference formula?", "en": "Formula for circumference of a circle?" }, "back": { "hi": "2πr", "en": "2πr" } },
+    { "front": { "hi": "Sector ka area formula?", "en": "Formula for area of a sector?" }, "back": { "hi": "(θ/360°) × πr²", "en": "(θ/360°) × πr²" } },
+    { "front": { "hi": "Arc length formula?", "en": "Formula for arc length?" }, "back": { "hi": "(θ/360°) × 2πr", "en": "(θ/360°) × 2πr" } },
+    { "front": { "hi": "Segment ka area kaise nikalte hain?", "en": "How do you find the area of a segment?" }, "back": { "hi": "Sector area − Triangle area.", "en": "Sector area − Triangle area." } },
+    { "front": { "hi": "Semicircle ka area formula?", "en": "Formula for area of a semicircle?" }, "back": { "hi": "½πr²", "en": "½πr²" } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Circle ka area", "en": "Area of circle" }, "formula": "πr²" },
+    { "label": { "hi": "Sector ka area", "en": "Area of sector" }, "formula": "(θ/360°) × πr²" },
+    { "label": { "hi": "Arc length", "en": "Arc length" }, "formula": "(θ/360°) × 2πr" },
+    { "label": { "hi": "Segment ka area", "en": "Area of segment" }, "formula": "Sector area − Triangle area" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Areas Related to Circles", "en": "Areas Related to Circles" },
+    "branches": [
+      {
+        "label": { "hi": "Circle Basics", "en": "Circle Basics" },
+        "children": [
+          { "hi": "Area = πr²", "en": "Area = πr²" },
+          { "hi": "Circumference = 2πr", "en": "Circumference = 2πr" }
+        ]
+      },
+      {
+        "label": { "hi": "Sector", "en": "Sector" },
+        "children": [
+          { "hi": "Area = (θ/360)πr²", "en": "Area = (θ/360)πr²" },
+          { "hi": "Arc length = (θ/360)×2πr", "en": "Arc length = (θ/360)×2πr" }
+        ]
+      },
+      {
+        "label": { "hi": "Segment", "en": "Segment" },
+        "children": [
+          { "hi": "Sector − Triangle", "en": "Sector − Triangle" }
+        ]
+      },
+      {
+        "label": { "hi": "Combination of Figures", "en": "Combination of Figures" },
+        "children": [
+          { "hi": "Add/subtract individual shape areas", "en": "Add/subtract individual shape areas" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "7 cm radius wale circle ki circumference? (π=22/7)", "en": "Circumference of a circle with radius 7 cm? (π=22/7)" }, "explanation": { "hi": "2×(22/7)×7 = 44 cm.", "en": "2×(22/7)×7 = 44 cm." } },
+    { "question": { "hi": "180° sector ka area kaise nikalte hain?", "en": "How do you find the area of a 180° sector?" }, "explanation": { "hi": "Wo semicircle hai — area = ½πr².", "en": "That's a semicircle — area = ½πr²." } },
+    { "question": { "hi": "Sector aur segment mein kya farak hai?", "en": "What's the difference between a sector and a segment?" }, "explanation": { "hi": "Sector do radii aur ek arc se bana hai; segment ek chord aur ek arc se.", "en": "A sector is bounded by two radii and an arc; a segment by a chord and an arc." } },
+    { "question": { "hi": "Minute hand 5 minute mein kitne degree ghoomti hai?", "en": "How many degrees does a minute hand rotate in 5 minutes?" }, "explanation": { "hi": "60 minute mein 360°, isliye 5 minute mein 30°.", "en": "360° in 60 minutes, so 30° in 5 minutes." } }
+  ]
+}
