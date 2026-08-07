@@ -80,28 +80,51 @@ if ('serviceWorker' in navigator) {
 // almost every real deploy. This compares the build id baked into this
 // running bundle (imported statically above — Vite inlines JSON imports
 // at build time, no runtime fetch needed for our OWN id) against
-// build-id.txt fetched fresh from the network (never cached), and
-// reloads once if they differ.
+// build-id.txt fetched fresh from the network.
 (function watchForNewVersion() {
   let reloaded = false;
+  let pendingMismatch = null; // a different id seen on the PREVIOUS check, awaiting confirmation
+
   async function checkForUpdate() {
     if (reloaded || document.hidden) return;
     try {
-      const res = await fetch('/build-id.txt', { cache: 'no-store' });
+      // Cache-bust with a unique query string every time. build-id.txt is a
+      // small, unhashed file — unlike the JS bundle it has no unique
+      // filename per deploy, so a CDN edge cache can keep serving a stale
+      // copy indefinitely even with `cache: 'no-store'` (that only
+      // controls the browser's own HTTP cache, not a CDN sitting in front
+      // of it). This was the actual bug: a stale cached build-id.txt made
+      // every single check look like "a new version is available", which
+      // reloaded the page, which re-ran this same check moments later,
+      // repeating every ~20-30s and briefly bouncing an approved student
+      // through Payment Pending on every reload (auth/profile hadn't
+      // finished re-loading yet at that exact instant).
+      const res = await fetch(`/build-id.txt?t=${Date.now()}`, { cache: 'no-store' });
       const latest = (await res.text()).trim();
-      if (latest && latest !== myBuildId) {
+      if (!latest || latest === myBuildId) {
+        pendingMismatch = null;
+        return;
+      }
+      // Require the SAME different id on two separate checks before
+      // reloading — guards against any one-off stale read (e.g. mid-deploy
+      // propagation) causing an unnecessary reload.
+      if (pendingMismatch === latest) {
         reloaded = true;
         window.location.reload();
+      } else {
+        pendingMismatch = latest;
       }
     } catch {
-      // offline or network hiccup — just skip this check, try again later
+      // offline or network hiccup — skip this check, try again later
     }
   }
-  // Wait a bit before the first check so this never fires mid-login/
-  // mid-register on a tab that was JUST opened.
-  setTimeout(checkForUpdate, 20000);
-  setInterval(checkForUpdate, 5 * 60 * 1000); // every 5 min while open
+
+  // Deliberately NOT a tight interval — that's what caused the reload
+  // loop. A tab regaining focus (student switches back after a break) is
+  // the realistic real-world trigger; a long fallback covers a tab left
+  // open and untouched for a while.
   document.addEventListener('visibilitychange', () => {
-    if (!document.hidden) checkForUpdate(); // e.g. student switches back after a break
+    if (!document.hidden) checkForUpdate();
   });
+  setInterval(checkForUpdate, 20 * 60 * 1000); // fallback only, every 20 min
 })();
