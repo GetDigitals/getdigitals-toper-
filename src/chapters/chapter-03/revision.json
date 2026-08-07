@@ -1,0 +1,91 @@
+{
+  "chapterId": "chapter-03",
+  "flashcards": [
+    {
+      "front": { "hi": "Linear equation in two variables", "en": "Linear equation in two variables" },
+      "back": { "hi": "ax + by + c = 0, jahan a,b dono ek saath zero nahi ho sakte", "en": "ax + by + c = 0, where a and b cannot both be zero" }
+    },
+    {
+      "front": { "hi": "Unique Solution ki condition", "en": "Condition for a Unique Solution" },
+      "back": { "hi": "a₁/a₂ ≠ b₁/b₂ (lines intersect)", "en": "a₁/a₂ ≠ b₁/b₂ (lines intersect)" }
+    },
+    {
+      "front": { "hi": "Infinite Solutions ki condition", "en": "Condition for Infinite Solutions" },
+      "back": { "hi": "a₁/a₂ = b₁/b₂ = c₁/c₂ (lines coincide)", "en": "a₁/a₂ = b₁/b₂ = c₁/c₂ (lines coincide)" }
+    },
+    {
+      "front": { "hi": "No Solution ki condition", "en": "Condition for No Solution" },
+      "back": { "hi": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂ (lines parallel)", "en": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂ (lines parallel)" }
+    },
+    {
+      "front": { "hi": "Substitution Method ke steps", "en": "Steps of the Substitution Method" },
+      "back": { "hi": "Isolate → Substitute → Solve → Back-substitute", "en": "Isolate → Substitute → Solve → Back-substitute" }
+    },
+    {
+      "front": { "hi": "Elimination Method kab use karo?", "en": "When to use the Elimination Method?" },
+      "back": { "hi": "Jab coefficients bade/messy ho — match karke add/subtract karo", "en": "When coefficients are large/messy — match them and add/subtract" }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": { "hi": "Standard Form", "en": "Standard Form" },
+      "formula": "a₁x + b₁y + c₁ = 0\na₂x + b₂y + c₂ = 0"
+    },
+    {
+      "label": { "hi": "Unique Solution", "en": "Unique Solution" },
+      "formula": "a₁/a₂ ≠ b₁/b₂"
+    },
+    {
+      "label": { "hi": "Infinite Solutions", "en": "Infinite Solutions" },
+      "formula": "a₁/a₂ = b₁/b₂ = c₁/c₂"
+    },
+    {
+      "label": { "hi": "No Solution", "en": "No Solution" },
+      "formula": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂"
+    }
+  ],
+  "mindMap": {
+    "root": { "hi": "Pair of Linear Equations", "en": "Pair of Linear Equations" },
+    "branches": [
+      {
+        "label": { "hi": "Nature of Solutions", "en": "Nature of Solutions" },
+        "children": [
+          { "hi": "Unique (intersecting)", "en": "Unique (intersecting)" },
+          { "hi": "Infinite (coincident)", "en": "Infinite (coincident)" },
+          { "hi": "No solution (parallel)", "en": "No solution (parallel)" }
+        ]
+      },
+      {
+        "label": { "hi": "Solving Methods", "en": "Solving Methods" },
+        "children": [
+          { "hi": "Substitution", "en": "Substitution" },
+          { "hi": "Elimination", "en": "Elimination" }
+        ]
+      },
+      {
+        "label": { "hi": "Applications", "en": "Applications" },
+        "children": [
+          { "hi": "Age, speed, cost, digit word problems", "en": "Age, speed, cost, digit word problems" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": { "hi": "x+y=10, x−y=4 → x=?", "en": "x+y=10, x−y=4 → x=?" },
+      "explanation": { "hi": "7", "en": "7" }
+    },
+    {
+      "question": { "hi": "a₁/a₂=b₁/b₂=c₁/c₂ ka matlab?", "en": "What does a₁/a₂=b₁/b₂=c₁/c₂ mean?" },
+      "explanation": { "hi": "Infinite solutions (coincident lines)", "en": "Infinite solutions (coincident lines)" }
+    },
+    {
+      "question": { "hi": "Parallel lines ka solution kitna hota hai?", "en": "How many solutions do parallel lines have?" },
+      "explanation": { "hi": "Zero (no solution)", "en": "Zero (no solution)" }
+    },
+    {
+      "question": { "hi": "Substitution ka pehla step kya hai?", "en": "What's the first step in substitution?" },
+      "explanation": { "hi": "Ek variable isolate karo", "en": "Isolate one variable" }
+    }
+  ]
+}

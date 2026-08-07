@@ -1,0 +1,169 @@
+{
+  "chapterId": "chapter-03",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "x + 2y = 4 aur 2x + 4y = 12 ka pair kaisa hai?",
+        "en": "What kind of pair is x + 2y = 4 and 2x + 4y = 12?"
+      },
+      "options": [
+        { "hi": "Consistent, unique solution", "en": "Consistent, unique solution" },
+        { "hi": "Consistent, infinite solutions", "en": "Consistent, infinite solutions" },
+        { "hi": "Inconsistent", "en": "Inconsistent" },
+        { "hi": "Kuch nahi keh sakte", "en": "Cannot be determined" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "1/2 = 2/4 lekin 4/12 ≠ 1/2 — ratios equal nahi, isliye inconsistent (no solution).",
+        "en": "1/2 = 2/4 but 4/12 ≠ 1/2 — ratios aren't all equal, so it's inconsistent (no solution)."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Substitution method mein pehle ek equation se ek variable ko dusre ke terms mein isolate karte hain.",
+        "en": "In the substitution method, you first isolate one variable in terms of the other from one equation."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — phir usse dusri equation mein substitute karte hain.",
+        "en": "Correct — then you substitute it into the other equation."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "x + y = 6 aur x − y = 2 ko solve karo (elimination se). x kya hai?",
+        "en": "Solve x + y = 6 and x − y = 2 (using elimination). Find x."
+      },
+      "options": [
+        { "hi": "2", "en": "2" },
+        { "hi": "4", "en": "4" },
+        { "hi": "6", "en": "6" },
+        { "hi": "8", "en": "8" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Dono equations add karo: 2x = 8, isliye x = 4.",
+        "en": "Add both equations: 2x = 8, so x = 4."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Agar a₁/a₂ ≠ b₁/b₂ ho, to pair ka solution kaisa hoga?",
+        "en": "If a₁/a₂ ≠ b₁/b₂, what kind of solution will the pair have?"
+      },
+      "options": [
+        { "hi": "No solution", "en": "No solution" },
+        { "hi": "Unique solution", "en": "Unique solution" },
+        { "hi": "Infinite solutions", "en": "Infinite solutions" },
+        { "hi": "Kuch nahi keh sakte", "en": "Cannot be determined" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "a₁/a₂ ≠ b₁/b₂ ka matlab lines intersect karti hain — ek hi unique solution.",
+        "en": "a₁/a₂ ≠ b₁/b₂ means the lines intersect — exactly one unique solution."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Coincident lines wale pair ke infinite solutions hote hain.",
+        "en": "A pair of coincident lines has infinite solutions."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — dono lines ek hi line hain, isliye har point solution hai.",
+        "en": "Correct — both lines are the same line, so every point on it is a solution."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "2x + 3y = 12 aur 4x + 6y = k consistent (infinite solutions) ho, to k kya hoga?",
+        "en": "For 2x + 3y = 12 and 4x + 6y = k to be consistent (infinite solutions), find k."
+      },
+      "options": [
+        { "hi": "12", "en": "12" },
+        { "hi": "18", "en": "18" },
+        { "hi": "24", "en": "24" },
+        { "hi": "36", "en": "36" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "2/4 = 3/6 = 12/k → k = 24 hone par teeno ratios equal honge.",
+        "en": "2/4 = 3/6 = 12/k → k = 24 makes all three ratios equal."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Do numbers ka sum 25 hai aur difference 5 hai. Bada number kya hai?",
+        "en": "Two numbers have a sum of 25 and a difference of 5. What is the larger number?"
+      },
+      "options": [
+        { "hi": "10", "en": "10" },
+        { "hi": "15", "en": "15" },
+        { "hi": "20", "en": "20" },
+        { "hi": "12", "en": "12" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "x+y=25, x−y=5. Add karo: 2x=30, x=15.",
+        "en": "x+y=25, x−y=5. Adding: 2x=30, x=15."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Elimination method bade ya messy coefficients ke liye substitution se generally fast hota hai.",
+        "en": "The elimination method is generally faster than substitution for large or messy coefficients."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — coefficients match karke direct add/subtract kar sakte ho.",
+        "en": "Correct — you can match coefficients and add/subtract directly."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Parallel lines ke liye kaunsi condition sahi hai?",
+        "en": "Which condition holds for a pair of parallel lines?"
+      },
+      "options": [
+        { "hi": "a₁/a₂ ≠ b₁/b₂", "en": "a₁/a₂ ≠ b₁/b₂" },
+        { "hi": "a₁/a₂ = b₁/b₂ = c₁/c₂", "en": "a₁/a₂ = b₁/b₂ = c₁/c₂" },
+        { "hi": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂", "en": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂" },
+        { "hi": "a₁ = a₂", "en": "a₁ = a₂" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Parallel lines kabhi intersect nahi karti — coefficients ka ratio equal hota hai lekin constant ka nahi, isliye no solution.",
+        "en": "Parallel lines never intersect — the coefficient ratios match but not the constant term, giving no solution."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek number ka 2 guna, dusre se 4 zyada hai, aur dono ka sum 20 hai. Chhota number kya hai?",
+        "en": "Twice one number is 4 more than the other, and their sum is 20. Find the smaller number."
+      },
+      "options": [
+        { "hi": "4", "en": "4" },
+        { "hi": "8", "en": "8" },
+        { "hi": "12", "en": "12" },
+        { "hi": "16", "en": "16" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "2x = y+4 aur x+y=20 se x=8, y=12 milta hai — chhota number 8 hai.",
+        "en": "From 2x = y+4 and x+y=20, x=8, y=12 — the smaller number is 8."
+      }
+    }
+  ]
+}
