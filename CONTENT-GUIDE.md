@@ -7,7 +7,7 @@ Copy `src/chapters/chapter-01/` as a starting template for any new chapter. Ever
 ```json
 {
   "id": "chapter-02",              // required, must match folder name
-  "order": 2,                       // required, controls sort order everywhere
+  "order": 2,                       // required — this is the "01", "02"... number shown to students, NOT the folder name
   "class": 10,
   "subject": "Maths",
   "board": "CBSE",
@@ -21,6 +21,28 @@ Copy `src/chapters/chapter-01/` as a starting template for any new chapter. Ever
   "unlockRule": { "type": "sequential" }
 }
 ```
+
+### Adding a new subject (English, Science, etc.)
+
+The folder name and the `order` field serve two completely different
+purposes — don't confuse them:
+
+- **Folder name / `id`** (e.g. `chapter-15`) must be globally unique
+  across every subject, never reused. It's an internal storage detail
+  the student never sees. For a new subject, always pick the next free
+  number overall (Maths currently occupies chapter-01 through
+  chapter-14, authored or not — so English/Science/Social Science start
+  at chapter-15 and count up from there).
+- **`order`** is what's actually shown to the student ("01", "02"...)
+  and what decides free-vs-paid (the chapter with the lowest `order`
+  *within that subject* is the free one). This is scoped **per subject**
+  and always restarts at 1 — so English's first chapter folder might be
+  `chapter-15/meta.json`, but its `order` must be `1`, not `15`, so it
+  displays as "English — Chapter 01" like a student would expect, not
+  "Chapter 15". `getAllChapters(subject)` and `isFirstChapterOfSubject()`
+  in `contentLoader.js` both sort/compare by `order` scoped to that
+  subject already — this is just about setting the field correctly when
+  authoring a new subject's meta.json files.
 
 ## `lesson-01.json` (as many as you want per chapter)
 
