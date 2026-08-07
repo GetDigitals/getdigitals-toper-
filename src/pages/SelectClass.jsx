@@ -1,17 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { SUBJECTS } from '../config/subjects';
 
-// Future-ready roster. Only class10-maths has real content today; others
-// are declared here as data (not routed logic) so adding a real subject
-// later is just: drop chapters/ JSON + flip `available: true`.
-const SUBJECTS = [
-  { id: 'class10-maths', classLabel: 'Class 10', subject: 'Maths', icon: '📐', available: true },
-  { id: 'class10-science', classLabel: 'Class 10', subject: 'Science', icon: '🔬', available: false },
-  { id: 'class10-sst', classLabel: 'Class 10', subject: 'Social Science', icon: '🌍', available: false },
-  { id: 'class10-english', classLabel: 'Class 10', subject: 'English', icon: '📖', available: false },
-  { id: 'class9-maths', classLabel: 'Class 9', subject: 'Maths', icon: '📐', available: false },
-  { id: 'class12-maths', classLabel: 'Class 12', subject: 'Maths', icon: '📐', available: false },
-];
+// Subject roster now lives in src/config/subjects.js (single source of
+// truth, shared with ChapterList and PreviousPapers). Adding a real
+// subject is: drop chapters/ JSON with the right meta.json "subject"
+// field + flip `available: true` for that entry in subjects.js.
 
 export default function SelectClass() {
   const navigate = useNavigate();
@@ -22,12 +16,12 @@ export default function SelectClass() {
       <div className="grid grid-cols-2 gap-3">
         {SUBJECTS.map((s, i) => (
           <motion.button
-            key={s.id}
+            key={s.slug}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.05 }}
             disabled={!s.available}
-            onClick={() => s.available && navigate('/chapters')}
+            onClick={() => s.available && navigate(`/chapters/${s.slug}`)}
             className={`rounded-2xl p-4 text-left border ${
               s.available
                 ? 'bg-[var(--color-surface)] border-[var(--color-saffron)]/40'
@@ -35,7 +29,7 @@ export default function SelectClass() {
             }`}
           >
             <div className="text-3xl mb-2">{s.icon}</div>
-            <p className="font-display font-semibold text-[15px]">{s.subject}</p>
+            <p className="font-display font-semibold text-[15px]">{s.subjectLabel}</p>
             <p className="text-[12px] text-[var(--color-muted)]">{s.classLabel}</p>
             {!s.available && <p className="text-[10px] text-[var(--color-muted-2)] mt-2">Coming soon</p>}
           </motion.button>

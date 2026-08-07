@@ -2,7 +2,8 @@ import { HashRouter, Routes, Route, useLocation, useParams, Navigate } from 'rea
 import { AnimatePresence } from 'framer-motion';
 import { AuthProvider, useAuth } from './store/AuthContext';
 import { ProgressProvider, useProgress } from './store/ProgressContext';
-import { getChapterById } from './services/contentLoader';
+import { getChapterById, isFirstChapterOfSubject } from './services/contentLoader';
+import { DEFAULT_SUBJECT_SLUG } from './config/subjects';
 import BottomNav from './components/BottomNav';
 import AchievementToast from './components/AchievementToast';
 
@@ -30,14 +31,17 @@ const FULLSCREEN_PREFIXES = ['/', '/login', '/lesson', '/practice', '/final-test
 const PUBLIC_PATHS = ['/', '/login'];
 
 /**
- * Chapter 1 is free for every logged-in student (no payment needed) — it's
- * the "try before you buy" chapter. Chapters 2-14 require paymentStatus
- * 'approved'. This is the ONLY thing `requiresPayment` decides; whether a
- * chapter is reachable AT ALL (sequential progress unlock) is a separate,
- * unrelated concern handled by ProgressContext's isChapterUnlocked.
+ * Every subject gets its own free "Chapter 1" trial chapter — whichever
+ * chapter has the lowest `order` WITHIN that subject, not just chapter
+ * order 1 globally. Chapters 2+ (within that subject) require
+ * paymentStatus 'approved'. This is the ONLY thing `requiresPayment`
+ * decides; whether a chapter is reachable AT ALL (sequential progress
+ * unlock) is a separate, unrelated concern handled by ProgressContext's
+ * isChapterUnlocked.
  */
 export function requiresPayment(chapter) {
-  return (chapter?.order ?? 1) > 1;
+  if (!chapter) return false; // still loading — don't block render
+  return !isFirstChapterOfSubject(chapter);
 }
 
 /** Wrap any route that just requires a signed-in user (payment status doesn't matter here). */
@@ -53,9 +57,10 @@ const RequireAuth = RequireLogin;
 
 /**
  * Wrap chapter-scoped routes (/chapter/:chapterId, /lesson/:chapterId/*, etc).
- * Chapter 1 is always reachable once logged in; Chapter 2+ additionally
- * needs paymentStatus 'approved', else we bounce to /payment-pending and
- * remember where the student was headed so we can send them back after.
+ * Each subject's first chapter is always reachable once logged in;
+ * chapter 2+ in that subject additionally needs paymentStatus 'approved',
+ * else we bounce to /payment-pending and remember where the student was
+ * headed so we can send them back after.
  */
 function RequireChapterAccess({ children }) {
   const { user, authLoading, isApproved, profileLoading } = useAuth();
@@ -67,16 +72,6 @@ function RequireChapterAccess({ children }) {
   if (requiresPayment(chapter) && !isApproved) {
     return <Navigate to="/payment-pending" replace state={{ from: location.pathname }} />;
   }
-  return children;
-}
-
-/** Premium, non-chapter-specific content (Previous Year Papers) — needs full payment approval. */
-function RequirePayment({ children }) {
-  const { user, authLoading, isApproved, profileLoading } = useAuth();
-  const location = useLocation();
-  if (authLoading || profileLoading) return null;
-  if (!user) return <Navigate to="/login" replace />;
-  if (!isApproved) return <Navigate to="/payment-pending" replace state={{ from: location.pathname }} />;
   return children;
 }
 
@@ -105,14 +100,28 @@ function AppShell() {
           <Route path="/payment-pending" element={<RequireLogin><PaymentPending /></RequireLogin>} />
           <Route path="/home" element={<RequireAuth><Home /></RequireAuth>} />
           <Route path="/select-class" element={<RequireAuth><SelectClass /></RequireAuth>} />
-          <Route path="/chapters" element={<RequireAuth><ChapterList /></RequireAuth>} />
+
+          {/* Old bare /chapters link (bookmarks, notifications, etc.) still works — sends them to Maths */}
+          <Route path="/chapters" element={<Navigate to={`/chapters/${DEFAULT_SUBJECT_SLUG}`} replace />} />
+          <Route path="/chapters/:subject" element={<RequireAuth><ChapterList /></RequireAuth>} />
+
           <Route path="/chapter/:chapterId" element={<RequireChapterAccess><ChapterDetail /></RequireChapterAccess>} />
           <Route path="/lesson/:chapterId/:lessonId" element={<RequireChapterAccess><Lesson /></RequireChapterAccess>} />
           <Route path="/practice/:chapterId" element={<RequireChapterAccess><Practice /></RequireChapterAccess>} />
           <Route path="/revision/:chapterId" element={<RequireChapterAccess><Revision /></RequireChapterAccess>} />
           <Route path="/final-test/:chapterId" element={<RequireChapterAccess><FinalTest /></RequireChapterAccess>} />
           <Route path="/important-questions/:chapterId" element={<RequireChapterAccess><ImportantQuestions /></RequireChapterAccess>} />
-          <Route path="/previous-papers" element={<RequirePayment><PreviousPapers /></RequirePayment>} />
+
+          {/*
+            Previous Year Papers is now just login-gated at the route level
+            (not full-payment-gated) because the 2021 solved paper is free
+            for every subject. PreviousPapers.jsx itself decides, per
+            paper, whether to open it directly or send an unapproved user
+            to /payment-pending.
+          */}
+          <Route path="/previous-papers" element={<Navigate to={`/previous-papers/${DEFAULT_SUBJECT_SLUG}`} replace />} />
+          <Route path="/previous-papers/:subject" element={<RequireAuth><PreviousPapers /></RequireAuth>} />
+
           <Route path="/certificate/:chapterId" element={<RequireChapterAccess><Certificate /></RequireChapterAccess>} />
           <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
           <Route path="/leaderboard" element={<RequireAuth><Leaderboard /></RequireAuth>} />

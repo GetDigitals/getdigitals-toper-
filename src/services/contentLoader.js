@@ -7,10 +7,25 @@
  *
  * HOW TO ADD A NEW CHAPTER (no code changes, ever):
  *   1. Create  src/chapters/chapter-16/meta.json
+ *      -> make sure meta.json's "subject" field is set correctly
+ *         (e.g. "English", "Science") — this is what makes the chapter
+ *         show up under the right subject everywhere in the app.
  *   2. Create  src/chapters/chapter-16/lesson-01.json ... lesson-XX.json
  *   3. (optional) final-test.json, revision.json
  *   4. Run `npm run build` (or `npm run dev` if already running)
- *   -> Chapter 16 appears in Home, chapter list, lessons, quiz, everything.
+ *   -> Chapter 16 appears in its subject's chapter list, lessons, quiz,
+ *      everything — automatically.
+ *
+ * MULTI-SUBJECT NOTE: chapters for every subject still live together in
+ * the flat /src/chapters/ folder (chapter-01, chapter-02, ... regardless
+ * of subject) — we did NOT restructure into per-subject folders. This
+ * keeps the change small and low-risk. Subject separation happens purely
+ * through the "subject" field inside each meta.json, filtered at read
+ * time by getAllChapters(subject) / isFirstChapterOfSubject() below.
+ * Every chapter folder name and every lesson "id" must still be globally
+ * unique across ALL subjects (e.g. don't reuse "chapter-01" for English
+ * if Maths already has a chapter-01 — pick the next free number, like
+ * chapter-15, chapter-16...).
  *
  * import.meta.glob is a Vite build-time feature: it scans the folder
  * pattern and bundles whatever files match. Since there's no backend,
@@ -27,6 +42,10 @@ const importantQModules = import.meta.glob('/src/chapters/*/important-questions.
 
 function unwrap(mod) {
   return mod && mod.default ? mod.default : mod;
+}
+
+function normalizeSubject(subject) {
+  return (subject || 'Maths').toLowerCase().trim();
 }
 
 function buildIndex() {
@@ -69,8 +88,16 @@ function buildIndex() {
 
 const RAW_INDEX = buildIndex();
 
-export function getAllChapters() {
-  return Object.values(RAW_INDEX)
+/**
+ * getAllChapters(subject?)
+ * Pass a subject string (matches meta.json's "subject" field, case-
+ * insensitive — e.g. "Maths", "English") to get only that subject's
+ * chapters, sorted by order. Omit it to get every chapter from every
+ * subject (old behaviour, kept for any caller that hasn't been updated
+ * yet — but every page in this app should now pass a subject).
+ */
+export function getAllChapters(subject) {
+  const all = Object.values(RAW_INDEX)
     .filter((ch) => ch.meta)
     .map((ch) => ({
       ...ch.meta,
@@ -80,6 +107,24 @@ export function getAllChapters() {
       hasRevision: !!ch.revision,
     }))
     .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+
+  if (!subject) return all;
+  const target = normalizeSubject(subject);
+  return all.filter((ch) => normalizeSubject(ch.subject) === target);
+}
+
+/** Every distinct subject name found across all chapter meta.json files, in first-seen/sorted order. */
+export function getAvailableSubjects() {
+  const seen = new Set();
+  const result = [];
+  getAllChapters().forEach((ch) => {
+    const key = normalizeSubject(ch.subject);
+    if (!seen.has(key)) {
+      seen.add(key);
+      result.push(ch.subject || 'Maths');
+    }
+  });
+  return result;
 }
 
 export function getChapterByFolder(folder) {
@@ -92,6 +137,20 @@ export function getChapterById(chapterId) {
   const entry = Object.values(RAW_INDEX).find((ch) => ch.meta?.id === chapterId);
   if (!entry) return null;
   return { ...entry.meta, folder: entry.folder, lessonCount: entry.lessons.length };
+}
+
+/**
+ * isFirstChapterOfSubject(chapter)
+ * True if this chapter is the lowest-`order` chapter within its own
+ * subject — i.e. it's that subject's "Chapter 1", which is always free.
+ * This replaces the old global "order === 1" check so that every
+ * subject gets its own free trial chapter, not just Maths chapter 1.
+ */
+export function isFirstChapterOfSubject(chapter) {
+  if (!chapter) return false;
+  const subjectChapters = getAllChapters(chapter.subject);
+  if (!subjectChapters.length) return false;
+  return subjectChapters[0].id === chapter.id;
 }
 
 export function getLessonsForChapter(chapterIdOrFolder) {
@@ -134,8 +193,10 @@ export function getNextLesson(chapterIdOrFolder, currentLessonId) {
   return lessons[idx + 1];
 }
 
+/** Next chapter WITHIN THE SAME SUBJECT as currentChapterId (won't jump from last Maths chapter into English chapter 1). */
 export function getNextChapter(currentChapterId) {
-  const chapters = getAllChapters();
+  const current = getChapterById(currentChapterId);
+  const chapters = getAllChapters(current?.subject);
   const idx = chapters.findIndex((c) => c.id === currentChapterId);
   if (idx === -1 || idx === chapters.length - 1) return null;
   return chapters[idx + 1];

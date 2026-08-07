@@ -1,24 +1,43 @@
 import { useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams, Navigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
 import { requiresPayment } from '../App';
+import { getSubjectBySlug, DEFAULT_SUBJECT_SLUG } from '../config/subjects';
 import ChapterCard from '../components/ChapterCard';
 
 export default function ChapterList() {
   const navigate = useNavigate();
-  const chapters = useMemo(() => getAllChapters(), []);
+  const { subject: subjectSlug } = useParams();
+  const subjectConfig = getSubjectBySlug(subjectSlug);
+
+  // All hooks must run unconditionally, every render, in the same order —
+  // so these are called BEFORE the "unknown subject" redirect below, not
+  // after. (Calling hooks after an early return means they'd sometimes
+  // not run at all, which breaks React's per-component hook order and
+  // can crash or behave unpredictably.)
+  const chapters = useMemo(
+    () => (subjectConfig ? getAllChapters(subjectConfig.metaSubject) : []),
+    [subjectConfig]
+  );
   const { progress } = useProgress();
   const { isApproved } = useAuth();
   const [query, setQuery] = useState('');
+
+  // Unknown slug in the URL (typo, old bookmark) -> fall back to Maths instead of a blank/broken screen
+  if (!subjectConfig) {
+    return <Navigate to={`/chapters/${DEFAULT_SUBJECT_SLUG}`} replace />;
+  }
 
   const filtered = chapters.filter((c) => c.title.toLowerCase().includes(query.toLowerCase()));
 
   return (
     <div className="pb-24 px-4 pt-6">
-      <h1 className="font-display font-bold text-2xl mb-1">Class 10 Maths</h1>
-      <p className="text-[13px] text-[var(--color-muted)] mb-4">{chapters.length} chapters · CBSE 2025-26</p>
+      <h1 className="font-display font-bold text-2xl mb-1">
+        {subjectConfig.classLabel} {subjectConfig.subjectLabel}
+      </h1>
+      <p className="text-[13px] text-[var(--color-muted)] mb-4">{chapters.length} chapters · CBSE 2026-27</p>
       <input
         value={query}
         onChange={(e) => setQuery(e.target.value)}
@@ -41,14 +60,19 @@ export default function ChapterList() {
             />
           );
         })}
-        {filtered.length === 0 && (
+        {filtered.length === 0 && chapters.length > 0 && (
           <p className="text-center text-[13px] text-[var(--color-muted)] py-10">Koi chapter nahi mila.</p>
+        )}
+        {chapters.length === 0 && (
+          <p className="text-center text-[13px] text-[var(--color-muted)] py-10">
+            {subjectConfig.subjectLabel} ke chapters jald hi aayenge.
+          </p>
         )}
       </div>
 
-      {/* Separate section: sits after the 14 chapters, not inside them */}
+      {/* Separate section: sits after the chapters, not inside them */}
       <button
-        onClick={() => navigate('/previous-papers')}
+        onClick={() => navigate(`/previous-papers/${subjectConfig.slug}`)}
         className="w-full mt-6 flex items-center gap-3 rounded-2xl px-4 py-4 bg-gradient-to-br from-[var(--color-surface-raised)] to-[var(--color-surface)] border border-[var(--color-gold)]/30"
       >
         <div className="w-11 h-11 rounded-xl bg-[var(--color-gold)]/15 flex items-center justify-center text-xl shrink-0">📚</div>
