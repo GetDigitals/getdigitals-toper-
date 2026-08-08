@@ -1,0 +1,302 @@
+{
+  "id": "chapter-08-lesson-02",
+  "chapterId": "chapter-08",
+  "order": 2,
+  "title": {
+    "hi": "Trigonometric Ratios of Standard Angles",
+    "en": "Trigonometric Ratios of Standard Angles"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "📊",
+    "headline": {
+      "hi": "0°, 30°, 45°, 60°, 90° — Ek Baar Yaad Kiya, Zindagi Bhar Kaam Aayega!",
+      "en": "0°, 30°, 45°, 60°, 90° — Learn It Once, Use It Forever!"
+    },
+    "subtext": {
+      "hi": "CBSE exams mein ye table sabse zyada use hoti hai — isko yaad karne ka ek simple trick hai.",
+      "en": "This table is used the most in CBSE exams — there's a simple trick to remember it."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ye 5 angles (0°, 30°, 45°, 60°, 90°) real life aur exams mein sabse zyada aate hain — inki values exact hoti hain, koi calculator nahi chahiye! 30° aur 60° equilateral triangle se derive hote hain, 45° isosceles right-angled triangle se, aur 0°/90° boundary (extreme) cases hain.",
+      "en": "These 5 angles (0°, 30°, 45°, 60°, 90°) come up most often in real life and exams — their values are exact, no calculator needed! 30° and 60° are derived from an equilateral triangle, 45° from an isosceles right-angled triangle, and 0°/90° are the boundary (extreme) cases."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "Angle →   0°     30°      45°      60°     90°\nsin θ →   0     1/2     1/√2    √3/2      1\ncos θ →   1    √3/2     1/√2     1/2      0\ntan θ →   0    1/√3       1      √3    ∞ (undefined)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Table yaad karne ka super trick: 0, 1, 2, 3, 4 likho (in 5 angles ke liye), sabko 4 se divide karo (0, 1/4, 2/4, 3/4, 4/4), aur square root le lo — 0, 1/2, 1/√2, √3/2, 1. Ye mil gayi sin θ ki values! cos θ ke liye same values ulta (reverse) likh do, aur tan θ = sin θ/cos θ.",
+        "en": "Super trick to remember the table: write 0, 1, 2, 3, 4 (for these 5 angles), divide all by 4 (0, 1/4, 2/4, 3/4, 4/4), and take the square root — 0, 1/2, 1/√2, √3/2, 1. That's the sin θ values! For cos θ, write the same values in reverse, and tan θ = sin θ/cos θ."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "cosec, sec, cot ke liye bas reciprocal le lo: cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ. Dhyan rakho — cosec 0° aur sec 90° undefined hain (kyunki 1/0 = ∞).",
+        "en": "For cosec, sec, cot, just take the reciprocal: cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ. Note — cosec 0° and sec 90° are undefined (since 1/0 = ∞)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Interesting pattern: sin 30° = cos 60° = 1/2, sin 60° = cos 30° = √3/2 — table mein sin aur cos ki values ek doosre se reverse order mein match karti hain.",
+        "en": "Interesting pattern: sin 30° = cos 60° = 1/2, sin 60° = cos 30° = √3/2 — in the table, sin and cos values match each other in reverse order."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🔢",
+    "caption": {
+      "hi": "0,1,2,3,4 → ÷4 → √ = sin values. cos ke liye ulta likh do!",
+      "en": "0,1,2,3,4 → ÷4 → √ = sin values. Write them in reverse for cos!"
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "sin 30° cos 45° + tan 60° ki value nikaalo.",
+        "en": "Find the value of: sin 30° cos 45° + tan 60°"
+      },
+      "steps": [
+        {
+          "hi": "Table se values daalo: sin 30° = 1/2, cos 45° = 1/√2, tan 60° = √3",
+          "en": "Substitute values from the table: sin 30° = 1/2, cos 45° = 1/√2, tan 60° = √3"
+        },
+        {
+          "hi": "= (1/2) × (1/√2) + √3",
+          "en": "= (1/2) × (1/√2) + √3"
+        },
+        {
+          "hi": "= 1/(2√2) + √3",
+          "en": "= 1/(2√2) + √3"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "(2 tan 30°) / (1 − tan² 30°) ki value nikaalo.",
+        "en": "Find the value of (2 tan 30°) / (1 − tan² 30°)"
+      },
+      "steps": [
+        {
+          "hi": "tan 30° = 1/√3. Numerator: 2×(1/√3) = 2/√3",
+          "en": "tan 30° = 1/√3. Numerator: 2×(1/√3) = 2/√3"
+        },
+        {
+          "hi": "Denominator: 1 − (1/√3)² = 1 − 1/3 = 2/3",
+          "en": "Denominator: 1 − (1/√3)² = 1 − 1/3 = 2/3"
+        },
+        {
+          "hi": "= (2/√3) ÷ (2/3) = (2/√3) × (3/2) = 3/√3 = √3",
+          "en": "= (2/√3) ÷ (2/3) = (2/√3) × (3/2) = 3/√3 = √3"
+        },
+        {
+          "hi": "Answer = √3 = tan 60° (ye tan 2A formula ka hi ek roop hai!)",
+          "en": "Answer = √3 = tan 60° (this is actually the tan 2A formula in action!)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar sin(A+B) = √3/2 aur cos(A−B) = √3/2 hai (jahan 0° < A+B ≤ 90°), toh A aur B nikaalo.",
+        "en": "If sin(A+B) = √3/2 and cos(A−B) = √3/2 (where 0° < A+B ≤ 90°), find A and B."
+      },
+      "steps": [
+        {
+          "hi": "sin(A+B) = √3/2 → A+B = 60° ... (i)",
+          "en": "sin(A+B) = √3/2 → A+B = 60° ... (i)"
+        },
+        {
+          "hi": "cos(A−B) = √3/2 → A−B = 30° ... (ii)",
+          "en": "cos(A−B) = √3/2 → A−B = 30° ... (ii)"
+        },
+        {
+          "hi": "(i)+(ii): 2A = 90° → A = 45°",
+          "en": "(i)+(ii): 2A = 90° → A = 45°"
+        },
+        {
+          "hi": "(i)−(ii): 2B = 30° → B = 15°",
+          "en": "(i)−(ii): 2B = 30° → B = 15°"
+        },
+        {
+          "hi": "Answer: A = 45°, B = 15°",
+          "en": "Answer: A = 45°, B = 15°"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "sin 60° ki value kya hai?",
+          "en": "What is the value of sin 60°?"
+        },
+        "options": [
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "√3/2",
+            "en": "√3/2"
+          },
+          {
+            "hi": "1/√2",
+            "en": "1/√2"
+          },
+          {
+            "hi": "√3",
+            "en": "√3"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "sin 60° = √3/2",
+          "en": "sin 60° = √3/2"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "tan 45° + cot 45° = ?",
+          "en": "tan 45° + cot 45° = ?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "√2",
+            "en": "√2"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "tan45°=1, cot45°=1, sum=2",
+          "en": "tan45°=1, cot45°=1, sum=2"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "cos 0° = 0 aur sin 0° = 1 hota hai.",
+          "en": "cos 0° = 0 and sin 0° = 1."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — actually cos 0°=1 aur sin 0°=0 hota hai.",
+          "en": "False — actually cos 0°=1 and sin 0°=0."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "cosec 30° kya hai?",
+          "en": "What is cosec 30°?"
+        },
+        "options": [
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "√3",
+            "en": "√3"
+          },
+          {
+            "hi": "1/√3",
+            "en": "1/√3"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "cosec 30° = 1/sin 30° = 1/(1/2) = 2",
+          "en": "cosec 30° = 1/sin 30° = 1/(1/2) = 2"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "(sin 30° + cos 30°) − (sin 60° + cos 60°) = ?",
+          "en": "(sin 30° + cos 30°) − (sin 60° + cos 60°) = ?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "−1",
+            "en": "−1"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "sin30°=cos60° aur cos30°=sin60°, isliye dono brackets barabar hain — difference 0.",
+          "en": "sin30°=cos60° and cos30°=sin60°, so both brackets are equal — the difference is 0."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Trick: 0,1,2,3,4 → ÷4 → √ = sin values (0, 1/2, 1/√2, √3/2, 1)",
+      "en": "Trick: 0,1,2,3,4 → ÷4 → √ = sin values (0, 1/2, 1/√2, √3/2, 1)"
+    },
+    {
+      "hi": "cos values sin ka reverse hote hain",
+      "en": "cos values are the reverse of sin values"
+    },
+    {
+      "hi": "tan = sin/cos; cosec=1/sin; sec=1/cos; cot=1/tan",
+      "en": "tan = sin/cos; cosec=1/sin; sec=1/cos; cot=1/tan"
+    },
+    {
+      "hi": "tan 90° aur cosec 0°/sec 90° undefined hote hain",
+      "en": "tan 90° and cosec 0°/sec 90° are undefined"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tumhe standard angles ki saari values yaad hain aur inhe expressions mein substitute kar sakte ho. Agle lesson mein hum seekhenge ratios ke beech relationships — ek ratio diya ho toh baaki kaise nikaalte hain.",
+    "en": "You now know all the standard angle values and can substitute them into expressions. Next, we'll learn the relationships between ratios — how to find the rest when only one ratio is given."
+  },
+  "reward": {
+    "badge": null
+  }
+}
