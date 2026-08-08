@@ -1,0 +1,237 @@
+{
+  "chapterId": "chapter-08",
+  "flashcards": [
+    {
+      "front": {
+        "hi": "sin θ, cos θ, tan θ formulas?",
+        "en": "sin θ, cos θ, tan θ formulas?"
+      },
+      "back": {
+        "hi": "P/H, B/H, P/B",
+        "en": "P/H, B/H, P/B"
+      }
+    },
+    {
+      "front": {
+        "hi": "Reciprocal ratios?",
+        "en": "Reciprocal ratios?"
+      },
+      "back": {
+        "hi": "cosec=1/sin, sec=1/cos, cot=1/tan",
+        "en": "cosec=1/sin, sec=1/cos, cot=1/tan"
+      }
+    },
+    {
+      "front": {
+        "hi": "sin 30°, 45°, 60° values?",
+        "en": "sin 30°, 45°, 60° values?"
+      },
+      "back": {
+        "hi": "1/2, 1/√2, √3/2",
+        "en": "1/2, 1/√2, √3/2"
+      }
+    },
+    {
+      "front": {
+        "hi": "Identity 1?",
+        "en": "Identity 1?"
+      },
+      "back": {
+        "hi": "sin²θ + cos²θ = 1",
+        "en": "sin²θ + cos²θ = 1"
+      }
+    },
+    {
+      "front": {
+        "hi": "Identity 2?",
+        "en": "Identity 2?"
+      },
+      "back": {
+        "hi": "1 + tan²θ = sec²θ",
+        "en": "1 + tan²θ = sec²θ"
+      }
+    },
+    {
+      "front": {
+        "hi": "Identity 3?",
+        "en": "Identity 3?"
+      },
+      "back": {
+        "hi": "1 + cot²θ = cosec²θ",
+        "en": "1 + cot²θ = cosec²θ"
+      }
+    },
+    {
+      "front": {
+        "hi": "tan θ × cot θ?",
+        "en": "tan θ × cot θ?"
+      },
+      "back": {
+        "hi": "Hamesha 1",
+        "en": "Always 1"
+      }
+    },
+    {
+      "front": {
+        "hi": "k-method kab use karte hain?",
+        "en": "When do you use the k-method?"
+      },
+      "back": {
+        "hi": "Jab ek ratio diya ho aur baaki nikaalne ho",
+        "en": "When one ratio is given and you need to find the rest"
+      }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": {
+        "hi": "Basic Ratios",
+        "en": "Basic Ratios"
+      },
+      "formula": "sin θ=P/H, cos θ=B/H, tan θ=P/B"
+    },
+    {
+      "label": {
+        "hi": "Reciprocal Ratios",
+        "en": "Reciprocal Ratios"
+      },
+      "formula": "cosec θ=1/sin θ, sec θ=1/cos θ, cot θ=1/tan θ"
+    },
+    {
+      "label": {
+        "hi": "Quotient Relations",
+        "en": "Quotient Relations"
+      },
+      "formula": "tan θ=sin θ/cos θ, cot θ=cos θ/sin θ"
+    },
+    {
+      "label": {
+        "hi": "Identity 1",
+        "en": "Identity 1"
+      },
+      "formula": "sin²θ + cos²θ = 1"
+    },
+    {
+      "label": {
+        "hi": "Identity 2",
+        "en": "Identity 2"
+      },
+      "formula": "1 + tan²θ = sec²θ"
+    },
+    {
+      "label": {
+        "hi": "Identity 3",
+        "en": "Identity 3"
+      },
+      "formula": "1 + cot²θ = cosec²θ"
+    }
+  ],
+  "mindMap": {
+    "root": {
+      "hi": "Introduction to Trigonometry",
+      "en": "Introduction to Trigonometry"
+    },
+    "branches": [
+      {
+        "label": {
+          "hi": "Ratios",
+          "en": "Ratios"
+        },
+        "children": [
+          {
+            "hi": "sin, cos, tan",
+            "en": "sin, cos, tan"
+          },
+          {
+            "hi": "cosec, sec, cot",
+            "en": "cosec, sec, cot"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Standard Angles",
+          "en": "Standard Angles"
+        },
+        "children": [
+          {
+            "hi": "0°,30°,45°,60°,90°",
+            "en": "0°,30°,45°,60°,90°"
+          },
+          {
+            "hi": "0,1,2,3,4 trick",
+            "en": "0,1,2,3,4 trick"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Relationships",
+          "en": "Relationships"
+        },
+        "children": [
+          {
+            "hi": "quotient relations",
+            "en": "quotient relations"
+          },
+          {
+            "hi": "k-method",
+            "en": "k-method"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Identities",
+          "en": "Identities"
+        },
+        "children": [
+          {
+            "hi": "sin²+cos²=1",
+            "en": "sin²+cos²=1"
+          },
+          {
+            "hi": "1+tan²=sec²",
+            "en": "1+tan²=sec²"
+          },
+          {
+            "hi": "1+cot²=cosec²",
+            "en": "1+cot²=cosec²"
+          }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": {
+        "hi": "sin 90° ki value?",
+        "en": "Value of sin 90°?"
+      },
+      "explanation": {
+        "hi": "1",
+        "en": "1"
+      }
+    },
+    {
+      "question": {
+        "hi": "tan θ × cot θ = ?",
+        "en": "tan θ × cot θ = ?"
+      },
+      "explanation": {
+        "hi": "Hamesha 1",
+        "en": "Always 1"
+      }
+    },
+    {
+      "question": {
+        "hi": "sin²θ+cos²θ = ?",
+        "en": "sin²θ+cos²θ = ?"
+      },
+      "explanation": {
+        "hi": "Hamesha 1",
+        "en": "Always 1"
+      }
+    }
+  ]
+}
