@@ -1,0 +1,279 @@
+{
+  "chapterId": "chapter-08",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "cos θ ka formula kya hai?",
+        "en": "What is the formula for cos θ?"
+      },
+      "options": [
+        {
+          "hi": "P/H",
+          "en": "P/H"
+        },
+        {
+          "hi": "B/H",
+          "en": "B/H"
+        },
+        {
+          "hi": "P/B",
+          "en": "P/B"
+        },
+        {
+          "hi": "H/B",
+          "en": "H/B"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "cos θ = Base/Hypotenuse = B/H",
+        "en": "cos θ = Base/Hypotenuse = B/H"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "tan 30° ki value kya hai?",
+        "en": "What is the value of tan 30°?"
+      },
+      "options": [
+        {
+          "hi": "1/√3",
+          "en": "1/√3"
+        },
+        {
+          "hi": "√3",
+          "en": "√3"
+        },
+        {
+          "hi": "1/2",
+          "en": "1/2"
+        },
+        {
+          "hi": "1",
+          "en": "1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "tan 30° = 1/√3",
+        "en": "tan 30° = 1/√3"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "sec θ, cos θ ka reciprocal hota hai.",
+        "en": "sec θ is the reciprocal of cos θ."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi.",
+        "en": "True."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Agar sin A = 7/25 hai, toh cos A kya hoga?",
+        "en": "If sin A = 7/25, what is cos A?"
+      },
+      "options": [
+        {
+          "hi": "24/25",
+          "en": "24/25"
+        },
+        {
+          "hi": "25/24",
+          "en": "25/24"
+        },
+        {
+          "hi": "7/24",
+          "en": "7/24"
+        },
+        {
+          "hi": "24/7",
+          "en": "24/7"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "P=7k,H=25k → B²=625k²−49k²=576k²→B=24k. cosA=24/25",
+        "en": "P=7k,H=25k → B²=625k²−49k²=576k²→B=24k. cosA=24/25"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "sin 45° + cos 45° = ?",
+        "en": "sin 45° + cos 45° = ?"
+      },
+      "options": [
+        {
+          "hi": "√2",
+          "en": "√2"
+        },
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "1/√2",
+          "en": "1/√2"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "1/√2+1/√2 = 2/√2 = √2",
+        "en": "1/√2+1/√2 = 2/√2 = √2"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "sin²θ + cos²θ = 1 sirf kuch angles ke liye true hai.",
+        "en": "sin²θ + cos²θ = 1 is true only for some angles."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — ye ek identity hai, isliye HAR angle ke liye true hoti hai.",
+        "en": "False — this is an identity, so it's true for EVERY angle."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "(1+tan²θ) × cos²θ = ?",
+        "en": "(1+tan²θ) × cos²θ = ?"
+      },
+      "options": [
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "sin²θ",
+          "en": "sin²θ"
+        },
+        {
+          "hi": "cos²θ",
+          "en": "cos²θ"
+        },
+        {
+          "hi": "tan²θ",
+          "en": "tan²θ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "1+tan²θ=sec²θ, aur sec²θ×cos²θ = (1/cos²θ)×cos²θ = 1",
+        "en": "1+tan²θ=sec²θ, and sec²θ×cos²θ = (1/cos²θ)×cos²θ = 1"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "Agar cot θ = 7/8 hai, toh (1+sin θ)(1−sin θ) / (1+cos θ)(1−cos θ) ka simplified form kya hoga?",
+        "en": "If cot θ = 7/8, what is the simplified form of (1+sin θ)(1−sin θ) / (1+cos θ)(1−cos θ)?"
+      },
+      "options": [
+        {
+          "hi": "cot²θ",
+          "en": "cot²θ"
+        },
+        {
+          "hi": "tan²θ",
+          "en": "tan²θ"
+        },
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "cosec²θ",
+          "en": "cosec²θ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "(1−sin²θ)/(1−cos²θ) = cos²θ/sin²θ = cot²θ (cot θ ki value ki zaroorat nahi padi, simplification se hi mil gaya)",
+        "en": "(1−sin²θ)/(1−cos²θ) = cos²θ/sin²θ = cot²θ (the value of cot θ wasn't even needed, simplification alone gives it)"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "Agar 4 tan θ = 3 hai, toh (4 sin θ − cos θ + 1)/(4 sin θ + cos θ − 1) ka value kya hoga?",
+        "en": "If 4 tan θ = 3, what is the value of (4 sin θ − cos θ + 1)/(4 sin θ + cos θ − 1)?"
+      },
+      "options": [
+        {
+          "hi": "13/11",
+          "en": "13/11"
+        },
+        {
+          "hi": "11/13",
+          "en": "11/13"
+        },
+        {
+          "hi": "7/5",
+          "en": "7/5"
+        },
+        {
+          "hi": "5/7",
+          "en": "5/7"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "tanθ=3/4→sinθ=3/5,cosθ=4/5. (12/5−4/5+1)/(12/5+4/5−1)=(13/5)/(11/5)=13/11",
+        "en": "tanθ=3/4→sinθ=3/5,cosθ=4/5. (12/5−4/5+1)/(12/5+4/5−1)=(13/5)/(11/5)=13/11"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "cot 45° × tan 45° = ?",
+        "en": "cot 45° × tan 45° = ?"
+      },
+      "options": [
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "0",
+          "en": "0"
+        },
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "√2",
+          "en": "√2"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Ye tan θ×cot θ=1 wali property hai — kisi bhi angle ke liye true.",
+        "en": "This is the property tan θ×cot θ=1 — true for any angle."
+      }
+    }
+  ]
+}
