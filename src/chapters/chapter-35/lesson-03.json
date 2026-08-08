@@ -1,0 +1,187 @@
+{
+  "id": "chapter-35-lesson-03",
+  "chapterId": "chapter-35",
+  "order": 3,
+  "title": {
+    "hi": "Oxidation aur Reduction (Redox Reactions)",
+    "en": "Oxidation and Reduction (Redox Reactions)"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "🔥",
+    "headline": {
+      "hi": "Ek Deta Hai, Doosra Leta Hai",
+      "en": "One Gives, the Other Takes"
+    },
+    "subtext": {
+      "hi": "Redox reactions mein oxidation aur reduction hamesha saath-saath hote hain — jaise ek partnership.",
+      "en": "In redox reactions, oxidation and reduction always happen together — like a partnership."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab CuO (copper oxide, black powder) ko hydrogen gas ke saath heat karte hain, to CuO apna oxygen kho deta hai aur shiny copper (Cu) ban jaata hai, jabki hydrogen wo oxygen le leta hai aur paani (H2O) ban jaata hai. Ek substance oxygen khota hai, doosra usi oxygen ko paata hai — ye dono ek hi reaction mein saath-saath hote hain.",
+      "en": "When CuO (copper oxide, a black powder) is heated with hydrogen gas, the CuO loses its oxygen and becomes shiny copper (Cu), while the hydrogen gains that oxygen and becomes water (H2O). One substance loses oxygen, the other gains it — both happen together in the same reaction."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Oxidation: Jab kisi substance mein oxygen add hoti hai ya usse hydrogen remove hoti hai, to use oxidation kehte hain.",
+        "en": "Oxidation: When oxygen is added to a substance, or hydrogen is removed from it, it is called oxidation."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Reduction: Jab kisi substance se oxygen remove hoti hai ya usme hydrogen add hoti hai, to use reduction kehte hain.",
+        "en": "Reduction: When oxygen is removed from a substance, or hydrogen is added to it, it is called reduction."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "CuO(s) + H2(g) → Cu(s) + H2O(l)\nCuO reduced hota hai (oxygen khota hai) → Cu\nH2 oxidize hota hai (oxygen paata hai) → H2O"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Redox Reaction wo reaction hai jisme oxidation aur reduction dono ek saath hote hain — isliye 'redox' naam hai (REDuction + OXidation). Ye do reactions kabhi alag-alag nahi ho sakti, hamesha jodi mein hoti hain.",
+        "en": "A Redox Reaction is one in which both oxidation and reduction happen together — hence the name 'redox' (REDuction + OXidation). These two processes can never occur separately; they always happen as a pair."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Oxidizing agent (oxidant): wo substance jo doosre ko oxidize karta hai, khud reduce hota hai (jaise CuO). Reducing agent (reductant): wo substance jo doosre ko reduce karta hai, khud oxidize hota hai (jaise H2).",
+        "en": "Oxidizing agent (oxidant): the substance that oxidizes another substance, while itself getting reduced (like CuO). Reducing agent (reductant): the substance that reduces another substance, while itself getting oxidized (like H2)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Class 10 level par electron-transfer definition bhi useful hai: Oxidation = electrons ka loss, Reduction = electrons ka gain. (Ye advanced definition hai, oxygen/hydrogen wali definition CBSE board ke liye sabse zyada use hoti hai.)",
+        "en": "At the Class 10 level, the electron-transfer definition is also useful: Oxidation = loss of electrons, Reduction = gain of electrons. (This is the more advanced definition; the oxygen/hydrogen-based definition is used most for CBSE boards.)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Real-life application: Rancidity — jab oil/fat wale foods hawa mein khuli reh jaate hain, unme present fats/oils oxidize ho jaate hain, jisse unka taste aur smell kharab ho jaata hai. Isko rancidity kehte hain — ye ek oxidation reaction hai. Agla lesson isko detail mein cover karega, saath hi corrosion ko bhi — jo metals ka oxidation hai.",
+        "en": "Real-life application: Rancidity — when oily/fatty foods are left exposed to air, the fats/oils in them get oxidized, spoiling their taste and smell. This is called rancidity — it is an oxidation reaction. The next lesson covers this in detail, along with corrosion — which is the oxidation of metals."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Is reaction mein oxidizing aur reducing agent identify karo: MnO2 + 4HCl → MnCl2 + 2H2O + Cl2",
+        "en": "Identify the oxidizing and reducing agent: MnO2 + 4HCl → MnCl2 + 2H2O + Cl2"
+      },
+      "steps": [
+        {
+          "hi": "MnO2 apna oxygen khota hai aur MnCl2 banta hai — MnO2 reduce ho raha hai, isliye ye oxidizing agent hai.",
+          "en": "MnO2 loses its oxygen and becomes MnCl2 — MnO2 is being reduced, so it is the oxidizing agent."
+        },
+        {
+          "hi": "HCl (Cl atoms) oxidize hokar Cl2 gas banate hain (chlorine ki oxidation state badh jaati hai) — HCl reducing agent hai.",
+          "en": "HCl (Cl atoms) get oxidized to form Cl2 gas (chlorine's oxidation state increases) — HCl is the reducing agent."
+        },
+        {
+          "hi": "Isliye: MnO2 = oxidizing agent, HCl = reducing agent. Ye reaction Cl2 gas banane ke liye lab mein use hoti hai.",
+          "en": "Therefore: MnO2 = oxidizing agent, HCl = reducing agent. This reaction is used in labs to prepare Cl2 gas."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ye reaction identify karo aur batao kaunsa substance oxidize aur kaunsa reduce ho raha hai: ZnO + C → Zn + CO",
+        "en": "Identify the reaction and state which substance is oxidized and which is reduced: ZnO + C → Zn + CO"
+      },
+      "steps": [
+        {
+          "hi": "ZnO apna oxygen khokar Zn banta hai — ZnO reduce ho raha hai.",
+          "en": "ZnO loses its oxygen and becomes Zn — ZnO is being reduced."
+        },
+        {
+          "hi": "Carbon (C) oxygen paakar CO banta hai — Carbon oxidize ho raha hai.",
+          "en": "Carbon (C) gains oxygen and becomes CO — carbon is being oxidized."
+        },
+        {
+          "hi": "Dono saath ho rahe hain isliye ye ek Redox Reaction hai. Ye metallurgy mein zinc extraction ka ek important step hai.",
+          "en": "Both are happening together, so this is a Redox Reaction. This is an important step in the metallurgical extraction of zinc."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Oxidation ki simple definition kya hai?",
+          "en": "What is the simple definition of oxidation?"
+        },
+        "options": [
+          { "hi": "Oxygen ka remove hona ya hydrogen ka add hona", "en": "Removal of oxygen or addition of hydrogen" },
+          { "hi": "Oxygen ka add hona ya hydrogen ka remove hona", "en": "Addition of oxygen or removal of hydrogen" },
+          { "hi": "Sirf color change hona", "en": "Only a color change" },
+          { "hi": "Mass ka kam hona", "en": "Decrease in mass" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Oxidation mein oxygen add hoti hai ya hydrogen remove hoti hai.",
+          "en": "In oxidation, oxygen is added or hydrogen is removed."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "CuO + H2 → Cu + H2O reaction mein reducing agent kaun hai?",
+          "en": "In the reaction CuO + H2 → Cu + H2O, what is the reducing agent?"
+        },
+        "options": [
+          { "hi": "CuO", "en": "CuO" },
+          { "hi": "Cu", "en": "Cu" },
+          { "hi": "H2", "en": "H2" },
+          { "hi": "H2O", "en": "H2O" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "H2, CuO ko reduce karta hai (khud oxidize hokar H2O banta hai), isliye H2 reducing agent hai.",
+          "en": "H2 reduces CuO (getting oxidized itself to become H2O), so H2 is the reducing agent."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek redox reaction mein oxidation aur reduction alag-alag, do independent reactions ke roop mein ho sakte hain.",
+          "en": "In a redox reaction, oxidation and reduction can occur as two separate, independent reactions."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Nahi — oxidation aur reduction hamesha saath-saath hote hain, kyunki jo electron/oxygen ek substance khota hai wahi doosra paata hai.",
+          "en": "No — oxidation and reduction always occur together, because whatever electron/oxygen one substance loses is gained by the other."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Oxidation = oxygen add / hydrogen remove", "en": "Oxidation = oxygen added / hydrogen removed" },
+    { "hi": "Reduction = oxygen remove / hydrogen add", "en": "Reduction = oxygen removed / hydrogen added" },
+    { "hi": "Redox = oxidation + reduction saath-saath", "en": "Redox = oxidation + reduction happening together" },
+    { "hi": "Oxidizing agent khud reduce hota hai; Reducing agent khud oxidize hota hai", "en": "Oxidizing agent itself gets reduced; reducing agent itself gets oxidized" }
+  ],
+  "summary": {
+    "hi": "Redox reactions mein ek substance oxidize hota hai (oxygen gain/hydrogen lose) aur doosra reduce hota hai (oxygen lose/hydrogen gain) — dono ek saath, ek hi reaction mein hote hain.",
+    "en": "In redox reactions, one substance is oxidized (gains oxygen/loses hydrogen) while another is reduced (loses oxygen/gains hydrogen) — both happen together in the same reaction."
+  },
+  "reward": {
+    "badge": null
+  }
+}

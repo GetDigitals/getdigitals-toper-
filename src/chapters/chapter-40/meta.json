@@ -1,0 +1,21 @@
+{
+  "id": "chapter-40",
+  "order": 6,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "Control and Coordination",
+  "icon": "🧠",
+  "color": "#00C2A8",
+  "description": "Nervous system, reflex action, hormones in plants aur animals. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-40-master",
+    "name": "Control and Coordination Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "chapter-35-lesson-04",
+  "chapterId": "chapter-35",
+  "order": 4,
+  "title": {
+    "hi": "Corrosion aur Rancidity",
+    "en": "Corrosion and Rancidity"
+  },
+  "estimatedMinutes": 11,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🦀",
+    "headline": {
+      "hi": "Slow-Motion Oxidation Jo Cheezein Barbaad Karti Hai",
+      "en": "Slow-Motion Oxidation That Ruins Things"
+    },
+    "subtext": {
+      "hi": "Metals jang khaate hain, tel-ghee rancid hota hai — dono hi asal mein oxidation reactions hain.",
+      "en": "Metals rust, oils turn rancid — both are actually oxidation reactions."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek purani loha ki railing dekho — usme laal-bhoori jang (rust) lagi hoti hai. Aur ek khula packet chips ka kai din baad khao — swaad kadwa lagta hai. Dono cases mein oxygen chupke se apna kaam kar raha hota hai — bina aag ke bhi, slowly cheezein oxidize ho rahi hoti hain.",
+      "en": "Look at an old iron railing — it has reddish-brown rust on it. Or eat an opened packet of chips after several days — it tastes bitter. In both cases, oxygen is quietly doing its work — even without fire, things are slowly getting oxidized."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Corrosion: Jab koi metal, hawa mein maujood moisture, oxygen, ya acids ke saath react karke slowly-slowly khatam (eat away) hota hai, to use corrosion kehte hain. Ye ek natural oxidation process hai jo metal ki surface par hoti hai.",
+        "en": "Corrosion: When a metal reacts with moisture, oxygen, or acids present in the air and gets slowly eaten away, it is called corrosion. It is a natural oxidation process that occurs on the metal's surface."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Sabse common example hai Iron ki rusting: Iron, moisture aur oxygen dono ki presence mein react karke iron oxide (Fe2O3.xH2O — jise hum rust kehte hain) banata hai. Rust lal-bhoora, bharbhura (flaky) hota hai aur dheere-dheere poora metal khaa jaata hai.",
+        "en": "The most common example is the rusting of Iron: iron reacts in the presence of both moisture and oxygen to form iron oxide (Fe2O3.xH2O — what we call rust). Rust is reddish-brown, flaky, and gradually eats away the entire metal."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "4Fe(s) + 3O2(g) + xH2O(l) → 2Fe2O3.xH2O(s)  [rust]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Corrosion ke doosre examples: Silver par kaala coating (Ag2S banna, hawa mein sulphur compounds ki wajah se), Copper par green coating (CuCO3.Cu(OH)2 banna, jise 'patina' bhi kehte hain — jaise Statue of Liberty).",
+        "en": "Other examples of corrosion: black coating on silver (formation of Ag2S, due to sulphur compounds in air), green coating on copper (formation of CuCO3.Cu(OH)2, also called 'patina' — like on the Statue of Liberty)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Corrosion se bachne ke tarike: Painting, Oiling/Greasing, Galvanizing (iron par zinc ki coating chadhana), Alloying (jaise stainless steel — iron + chromium + nickel — jo rust nahi karta), aur Electroplating.",
+        "en": "Ways to prevent corrosion: Painting, Oiling/Greasing, Galvanizing (coating iron with zinc), Alloying (like stainless steel — iron + chromium + nickel — which doesn't rust), and Electroplating."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Rancidity: Jab fats aur oils wale foods hawa mein khule reh jaate hain aur oxidize ho jaate hain, to unka taste aur smell badal jaata hai — isko rancidity kehte hain. Ye bhi oxidation ka hi ek example hai, jaise corrosion, bas ye foods par hoti hai metals par nahi.",
+        "en": "Rancidity: When fat- and oil-containing foods are left exposed to air and get oxidized, their taste and smell change — this is called rancidity. This is also an example of oxidation, like corrosion, except it happens to foods instead of metals."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Rancidity rokne ke tarike: Antioxidants add karna (jo oxidation ko rokte hain), airtight containers mein store karna (oxygen exposure kam karna), refrigeration (low temperature reaction slow karti hai), aur packaged foods mein nitrogen gas flush karna (kyunki nitrogen unreactive hai, isse oxygen replace ho jaata hai).",
+        "en": "Ways to prevent rancidity: adding antioxidants (which prevent oxidation), storing in airtight containers (reducing oxygen exposure), refrigeration (low temperature slows the reaction), and flushing packaged foods with nitrogen gas (since nitrogen is unreactive, it replaces the oxygen)."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek iron pipe underground buried hai aur dusre iron pipe par paint lagi hai. Kaunsa jaldi rust karega aur kyun?",
+        "en": "One iron pipe is buried underground and another iron pipe is painted. Which will rust faster and why?"
+      },
+      "steps": [
+        {
+          "hi": "Rusting ke liye moisture aur oxygen dono chahiye.",
+          "en": "Rusting requires both moisture and oxygen."
+        },
+        {
+          "hi": "Underground pipe soil ki moisture ke seedhe contact mein hai aur oxygen bhi soil mein present hoti hai — isliye ye rust karega.",
+          "en": "The underground pipe is in direct contact with soil moisture, and oxygen is also present in soil — so it will rust."
+        },
+        {
+          "hi": "Painted pipe par paint ek barrier ki tarah kaam karta hai jo moisture aur oxygen ko metal surface tak pahunchne se rokta hai — isliye ye rust nahi karega ya bahut slowly karega.",
+          "en": "The painted pipe has paint acting as a barrier that prevents moisture and oxygen from reaching the metal surface — so it will not rust, or rust very slowly."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Chips ke packet ke andar nitrogen gas kyun bhari jaati hai, hawa kyun nahi?",
+        "en": "Why is nitrogen gas filled inside a chips packet instead of air?"
+      },
+      "steps": [
+        {
+          "hi": "Hawa mein ~21% oxygen hoti hai jo chips ke fats/oils ko oxidize kar degi, jisse rancidity ho jaayegi.",
+          "en": "Air contains ~21% oxygen, which would oxidize the fats/oils in the chips, causing rancidity."
+        },
+        {
+          "hi": "Nitrogen ek unreactive (inert-like) gas hai jo fats/oils ke saath react nahi karti.",
+          "en": "Nitrogen is an unreactive gas that does not react with fats/oils."
+        },
+        {
+          "hi": "Isliye packet mein hawa ki jagah nitrogen bharke oxygen ka exposure hata diya jaata hai, jisse chips zyada der tak fresh aur crispy rehte hain.",
+          "en": "So nitrogen is filled instead of air to remove oxygen exposure, keeping the chips fresh and crispy for longer."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Iron ki rusting ke liye kaun-kaun se do cheezein zaroori hain?",
+          "en": "Which two things are required for iron to rust?"
+        },
+        "options": [
+          { "hi": "Heat aur light", "en": "Heat and light" },
+          { "hi": "Moisture aur oxygen", "en": "Moisture and oxygen" },
+          { "hi": "Acid aur base", "en": "Acid and base" },
+          { "hi": "Salt aur sugar", "en": "Salt and sugar" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Iron sirf tab rust karta hai jab moisture aur oxygen dono present hon.",
+          "en": "Iron rusts only when both moisture and oxygen are present."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Iron ko corrosion se bachane ke liye uspar zinc ki coating chadhana kya kehlaata hai?",
+          "en": "Coating iron with zinc to prevent corrosion is called:"
+        },
+        "options": [
+          { "hi": "Electroplating", "en": "Electroplating" },
+          { "hi": "Galvanizing", "en": "Galvanizing" },
+          { "hi": "Alloying", "en": "Alloying" },
+          { "hi": "Painting", "en": "Painting" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Zinc coating chadhana specifically Galvanizing kehlaata hai — iron pipes aur sheets ke liye common method hai.",
+          "en": "Coating with zinc is specifically called Galvanizing — a common method for iron pipes and sheets."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Rancidity foods mein reduction reaction ki wajah se hoti hai.",
+          "en": "Rancidity in foods is caused by a reduction reaction."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Rancidity oxidation reaction ki wajah se hoti hai — fats/oils hawa ki oxygen se react karke oxidize ho jaate hain.",
+          "en": "Rancidity is caused by an oxidation reaction — fats/oils react with oxygen in the air and become oxidized."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Corrosion = metal ka slow oxidation (jaise rusting)", "en": "Corrosion = slow oxidation of a metal (like rusting)" },
+    { "hi": "Rusting ke liye moisture + oxygen dono chahiye", "en": "Rusting needs both moisture and oxygen" },
+    { "hi": "Corrosion rokna: painting, oiling, galvanizing, alloying", "en": "Prevent corrosion: painting, oiling, galvanizing, alloying" },
+    { "hi": "Rancidity = fats/oils ka oxidation (taste/smell kharab)", "en": "Rancidity = oxidation of fats/oils (spoils taste/smell)" },
+    { "hi": "Rancidity rokna: antioxidants, airtight container, refrigeration, nitrogen flushing", "en": "Prevent rancidity: antioxidants, airtight container, refrigeration, nitrogen flushing" }
+  ],
+  "summary": {
+    "hi": "Corrosion (metals ka) aur rancidity (fats/oils ka) dono real-life oxidation reactions hain jo dheere-dheere cheezein kharab karti hain — inhe rokne ke practical tarike bhi exam ke liye important hain.",
+    "en": "Corrosion (of metals) and rancidity (of fats/oils) are both real-life oxidation reactions that gradually spoil things — the practical ways to prevent them are also important for exams."
+  },
+  "reward": {
+    "badge": null
+  }
+}

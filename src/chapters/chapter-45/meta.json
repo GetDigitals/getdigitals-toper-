@@ -1,0 +1,21 @@
+{
+  "id": "chapter-45",
+  "order": 11,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "Electricity",
+  "icon": "⚡",
+  "color": "#00C2A8",
+  "description": "Ohm's Law, resistance, series/parallel circuits, electrical power. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-45-master",
+    "name": "Electricity Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-41",
+  "order": 7,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "How do Organisms Reproduce?",
+  "icon": "🌱",
+  "color": "#00C2A8",
+  "description": "Asexual aur sexual reproduction, human reproductive system. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-41-master",
+    "name": "How do Organisms Reproduce? Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

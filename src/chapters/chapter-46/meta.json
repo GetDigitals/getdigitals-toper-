@@ -1,0 +1,21 @@
+{
+  "id": "chapter-46",
+  "order": 12,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "Magnetic Effects of Electric Current",
+  "icon": "🧲",
+  "color": "#00C2A8",
+  "description": "Magnetic field, electromagnet, electric motor, Fleming's rules. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-46-master",
+    "name": "Magnetic Effects of Electric Current Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

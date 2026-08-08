@@ -1,0 +1,21 @@
+{
+  "id": "chapter-43",
+  "order": 9,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "Light — Reflection and Refraction",
+  "icon": "💡",
+  "color": "#00C2A8",
+  "description": "Laws of reflection/refraction, mirror aur lens formulas, image formation. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-43-master",
+    "name": "Light — Reflection and Refraction Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

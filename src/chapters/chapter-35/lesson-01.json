@@ -1,0 +1,198 @@
+{
+  "id": "chapter-35-lesson-01",
+  "chapterId": "chapter-35",
+  "order": 1,
+  "title": {
+    "hi": "Chemical Equations — Likhna aur Balance Karna",
+    "en": "Chemical Equations — Writing and Balancing"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "⚗️",
+    "headline": {
+      "hi": "Chemistry ki Shorthand Language",
+      "en": "Chemistry's Shorthand Language"
+    },
+    "subtext": {
+      "hi": "Ek chemical reaction ko symbols aur formulas mein likhne ka tarika — jaise ek recipe ko short code mein likhna.",
+      "en": "A way to write a chemical reaction using symbols and formulas — like writing a recipe in short code."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab magnesium ribbon ko jalate hain, wo hawa mein oxygen se react karke safed magnesium oxide banata hai. Isko har baar lambe sentence mein likhne ke bajaye, chemists ek chota symbolic equation use karte hain — Mg + O2 → MgO. Ye chemistry ki universal shorthand hai, jo duniya bhar ke scientists samajh sakte hain.",
+      "en": "When a magnesium ribbon is burnt, it reacts with oxygen in the air to form white magnesium oxide. Instead of writing this out as a long sentence every time, chemists use a short symbolic equation — Mg + O2 → MgO. This is chemistry's universal shorthand, understood by scientists everywhere."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Chemical reaction wo process hai jisme ek ya zyada substances (reactants) aapas mein react karke naye substances (products) banate hain, jinke properties reactants se alag hote hain.",
+        "en": "A chemical reaction is a process in which one or more substances (reactants) react to form new substances (products) with properties different from the reactants."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Word equation mein reactants aur products ke naam likhe jaate hain, arrow (→) unhe separate karta hai — jo 'produces' ya 'gives' ka matlab deta hai. Jaise: Magnesium + Oxygen → Magnesium oxide.",
+        "en": "A word equation states the names of reactants and products, separated by an arrow (→) meaning 'produces' or 'gives'. For example: Magnesium + Oxygen → Magnesium oxide."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Symbolic (chemical) equation mein naam ki jagah chemical formulas use hote hain. Reactants left side pe, products right side pe likhe jaate hain: Mg + O2 → MgO.",
+        "en": "A symbolic (chemical) equation replaces names with chemical formulas. Reactants are written on the left, products on the right: Mg + O2 → MgO."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Law of Conservation of Mass kehta hai: kisi bhi chemical reaction mein mass na to banti hai na khatam hoti hai — sirf ek form se doosre form mein badalti hai. Isliye equation ke dono taraf har element ke atoms ki sankhya barabar honi chahiye — isi ko 'balancing' kehte hain.",
+        "en": "The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction — it only changes form. Therefore, the number of atoms of each element must be equal on both sides of the equation — this is called 'balancing'."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Unbalanced: Mg + O2 → MgO  (left: 1 Mg, 2 O | right: 1 Mg, 1 O — NOT balanced)\nBalanced: 2Mg + O2 → 2MgO  (left: 2 Mg, 2 O | right: 2 Mg, 2 O — balanced ✓)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Balance karne ka aasan tarika 'hit and trial method' hai: sabse pehle unbalanced element choose karo, uske molecules ke aage coefficient (number) lagao jab tak dono side barabar na ho jaaye. Formula ke subscripts kabhi change nahi karte, sirf coefficients badalte hain.",
+        "en": "The simple way to balance is the 'hit and trial method': pick an unbalanced element first, then add a coefficient (number) in front of its molecules until both sides match. Subscripts inside a formula are never changed — only coefficients are adjusted."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "State symbols reaction ke conditions batate hain: (s) solid, (l) liquid, (g) gas, (aq) aqueous (paani mein ghula hua). Ye formula ke turant baad, bracket mein likhe jaate hain — jaise CaCO3(s), H2O(l).",
+        "en": "State symbols show the physical state of a substance: (s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water). They are written in brackets right after the formula — e.g. CaCO3(s), H2O(l)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Extra information jaise heat (Δ ya '\\u0394' symbol arrow ke upar), catalyst ka naam, ya precipitate (↓) aur gas (↑) evolve hone ke arrows bhi equation ke saath likhe ja sakte hain, taaki reaction conditions poori tarah clear ho.",
+        "en": "Extra information such as heat (Δ symbol above the arrow), the name of a catalyst, or arrows showing a precipitate (↓) or a gas evolved (↑) can also be written with the equation to fully specify the reaction conditions."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Balance karo: Fe + H2O → Fe3O4 + H2",
+        "en": "Balance the equation: Fe + H2O → Fe3O4 + H2"
+      },
+      "steps": [
+        {
+          "hi": "Fe count karo: left me 1, right me 3 → left me 3Fe likho",
+          "en": "Count Fe: 1 on left, 3 on right → write 3Fe on the left"
+        },
+        {
+          "hi": "3Fe + H2O → Fe3O4 + H2 — ab O count karo: left 1, right 4 → left me 4H2O likho",
+          "en": "3Fe + H2O → Fe3O4 + H2 — now count O: 1 on left, 4 on right → write 4H2O on the left"
+        },
+        {
+          "hi": "3Fe + 4H2O → Fe3O4 + H2 — ab H count karo: left 8, right 2 → right me 4H2 likho",
+          "en": "3Fe + 4H2O → Fe3O4 + H2 — now count H: 8 on left, 2 on right → write 4H2 on the right"
+        },
+        {
+          "hi": "Final balanced equation: 3Fe(s) + 4H2O(l) → Fe3O4(s) + 4H2(g) — check: 3Fe=3Fe, 8O... 4H2O=8H nahi 4H2O=4O nahi wait 4H2O has 4O aur 8H; Fe3O4 has 4O; 4H2 has 8H — dono side match ✓",
+          "en": "Final balanced equation: 3Fe(s) + 4H2O(l) → Fe3O4(s) + 4H2(g) — check: 3 Fe = 3 Fe, 4H2O gives 4 O and 8 H, Fe3O4 has 4 O, 4H2 has 8 H — both sides match ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Balance karo: Na + H2O → NaOH + H2, aur state symbols bhi lagao.",
+        "en": "Balance the equation: Na + H2O → NaOH + H2, and add state symbols."
+      },
+      "steps": [
+        {
+          "hi": "Na aur O pehle se balanced hain (1=1). H count karo: left 2, right 3 (1 in NaOH + 2 in H2)",
+          "en": "Na and O are already balanced (1=1). Count H: 2 on left, 3 on right (1 in NaOH + 2 in H2)"
+        },
+        {
+          "hi": "2Na + 2H2O → 2NaOH + H2 likho — ab check karo: Na=2=2, O=2=2, H=4=4+... 2NaOH has 2H, H2 has 2H, total right H=4, left 2H2O has 4H — match ✓",
+          "en": "Write 2Na + 2H2O → 2NaOH + H2 — now check: Na=2=2, O=2=2, right H = 2 (from 2NaOH) + 2 (from H2) = 4, left H = 4 (from 2H2O) — match ✓"
+        },
+        {
+          "hi": "State symbols ke saath: 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g)",
+          "en": "With state symbols: 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Ek chemical equation ko 'balanced' kab kaha jaata hai?",
+          "en": "A chemical equation is called 'balanced' when:"
+        },
+        "options": [
+          { "hi": "Reactants products se bhaari hain", "en": "Reactants are heavier than products" },
+          { "hi": "Har element ke atoms dono side barabar hain", "en": "Atoms of each element are equal on both sides" },
+          { "hi": "Sirf ek reactant hai", "en": "There is only one reactant" },
+          { "hi": "Reaction fast hoti hai", "en": "The reaction happens fast" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Law of Conservation of Mass ke hisab se dono side atoms ki sankhya barabar honi chahiye.",
+          "en": "Per the Law of Conservation of Mass, the number of atoms must be equal on both sides."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "(aq) state symbol ka matlab kya hai?",
+          "en": "What does the state symbol (aq) mean?"
+        },
+        "options": [
+          { "hi": "Solid", "en": "Solid" },
+          { "hi": "Gas", "en": "Gas" },
+          { "hi": "Paani mein ghula hua (aqueous)", "en": "Dissolved in water (aqueous)" },
+          { "hi": "Liquid pure form mein", "en": "Pure liquid form" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "(aq) ka matlab hai substance paani mein dissolve ho gayi hai.",
+          "en": "(aq) means the substance is dissolved in water."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Equation balance karte waqt hum formula ke subscript number (jaise H2O ka '2') change kar sakte hain.",
+          "en": "While balancing an equation, we can change the subscript number inside a formula (like the '2' in H2O)."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Subscripts kabhi change nahi hote — sirf coefficients (formula ke aage number) change hote hain, kyunki subscript badalne se ek bilkul alag compound ban jaata hai.",
+          "en": "Subscripts are never changed — only coefficients (the number in front of a formula) are changed, because altering a subscript creates a completely different compound."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Word equation → naam; Symbolic equation → formulas", "en": "Word equation → names; Symbolic equation → formulas" },
+    { "hi": "Balancing = Law of Conservation of Mass follow karna", "en": "Balancing follows the Law of Conservation of Mass" },
+    { "hi": "Sirf coefficients change karo, subscripts kabhi nahi", "en": "Only change coefficients, never subscripts" },
+    { "hi": "State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous", "en": "State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous" }
+  ],
+  "summary": {
+    "hi": "Chemical equations reactions ko short symbols mein represent karte hain, aur balancing ye ensure karti hai ki mass conserve ho — na koi atom banta hai na khatam hota hai.",
+    "en": "Chemical equations represent reactions using short symbols, and balancing ensures mass is conserved — no atom is created or destroyed."
+  },
+  "reward": {
+    "badge": null
+  }
+}

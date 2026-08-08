@@ -24,6 +24,18 @@ Copy `src/chapters/chapter-01/` as a starting template for any new chapter. Ever
 
 ### Adding a new subject (English, Science, etc.)
 
+**Claimed folder ranges — check this before picking a number for a new
+subject or new chapters, so two parallel authoring sessions never pick
+the same folder:**
+
+| Subject | Folders | Status |
+|---|---|---|
+| Maths | chapter-01 – chapter-14 | 1,2,3,6,11,14 authored, rest placeholder |
+| English | chapter-15 – chapter-34 | chapter-15 (Section B) authored, rest placeholder |
+| Science | chapter-35 – chapter-47 | chapter-35 (Ch1) authored, rest placeholder |
+
+Next free number for a new subject: **chapter-48**.
+
 The folder name and the `order` field serve two completely different
 purposes — don't confuse them:
 

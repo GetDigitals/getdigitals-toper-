@@ -1,0 +1,24 @@
+{
+  "id": "chapter-35",
+  "order": 1,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "Chemical Reactions and Equations",
+  "icon": "🧪",
+  "color": "#00C2A8",
+  "description": "Chemical equations likhna aur balance karna, reactions ke 4 types, oxidation-reduction, aur corrosion/rancidity — 2026-27 CBSE Rationalised syllabus ke hisab se (Periodic Classification is chapter se hata di gayi hai, wo Formative Assessment only hai).",
+  "xpReward": 260,
+  "coinReward": 68,
+  "badge": {
+    "id": "reaction-master",
+    "name": {
+      "hi": "Reaction Master",
+      "en": "Reaction Master"
+    },
+    "icon": "⚗️"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

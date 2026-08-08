@@ -1,0 +1,185 @@
+{
+  "id": "chapter-35-lesson-05",
+  "chapterId": "chapter-35",
+  "order": 5,
+  "title": {
+    "hi": "Exam Mastery — Mixed Problems",
+    "en": "Exam Mastery — Mixed Problems"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 50,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Sab Kuch Ek Saath — Board Exam Ready",
+      "en": "Everything Together — Board Exam Ready"
+    },
+    "subtext": {
+      "hi": "Balancing, reaction types, aur redox — sabko mix karke board-pattern questions solve karo.",
+      "en": "Balancing, reaction types, and redox — mix them all to solve board-pattern questions."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Board exam mein sirf ek concept alag se nahi puchha jaata — aksar ek hi question mein balancing bhi karna padta hai, reaction type bhi identify karni padti hai, aur redox agents bhi batane padte hain. Is lesson mein hum wahi combined skill practice karenge jo real exam mein chahiye.",
+      "en": "In the board exam, a single concept is rarely asked in isolation — often one question requires balancing, identifying the reaction type, and naming redox agents all together. In this lesson, we practice exactly that combined skill needed for the real exam."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Board exam mein ye chapter typically 2-3 questions deta hai — 1 mark (identification/definition), 2-3 marks (balance + type + reason), ya 3-5 marks (application-based, jaise 'why does X happen' ya real-life scenario).",
+        "en": "In the board exam, this chapter typically gives 2-3 questions — 1 mark (identification/definition), 2-3 marks (balance + type + reason), or 3-5 marks (application-based, like 'why does X happen' or a real-life scenario)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step-by-step approach kisi bhi mixed question ke liye: (1) Pehle equation balance karo agar unbalanced di gayi hai, (2) State symbols check/add karo, (3) Reactants-products ke pattern dekhkar reaction type identify karo, (4) Agar oxygen/hydrogen transfer ho raha hai to redox angle bhi mention karo.",
+        "en": "Step-by-step approach for any mixed question: (1) First balance the equation if given unbalanced, (2) Check/add state symbols, (3) Identify the reaction type by looking at the reactant-product pattern, (4) If oxygen/hydrogen is being transferred, also mention the redox angle."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Common confusion: Displacement vs Double Displacement — Displacement mein sirf EK element apni jagah kisi doosre element ko deta hai. Double Displacement mein DO compounds apas mein ions swap karte hain (koi single element displace nahi ho raha).",
+        "en": "Common confusion: Displacement vs Double Displacement — In displacement, only ONE element takes the place of another element. In double displacement, TWO compounds swap ions with each other (no single element is being displaced)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Common confusion: Combination vs Double Displacement dono mein products bante hain, lekin combination mein reactants SIRF jud rahe hote hain (koi part alag nahi ho raha), jabki double displacement mein ions apas mein exchange ho rahe hote hain.",
+        "en": "Common confusion: Combination vs Double Displacement — both form products, but in combination the reactants simply JOIN (no part separates), while in double displacement, ions are exchanged between the compounds."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek reaction ek se zyada category mein bhi aa sakti hai — jaise CuO + H2 → Cu + H2O ek Displacement bhi hai (H2 ne O ko displace kiya CuO se) aur Redox bhi hai (CuO reduce, H2 oxidize). Exam mein dono angles se answer likhna full marks deta hai.",
+        "en": "A single reaction can also fall into more than one category — like CuO + H2 → Cu + H2O is both a Displacement (H2 displaces O from CuO) and a Redox reaction (CuO is reduced, H2 is oxidized). Answering from both angles in the exam earns full marks."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "(Board pattern, 3 marks) Ye equation balance karo, state symbols lagao (Pb solid, N2O4 aur PbO dono solid, O2 gas), aur reaction type identify karo: Pb(NO3)2 → PbO + NO2 + O2",
+        "en": "(Board pattern, 3 marks) Balance this equation, add state symbols (Pb(NO3)2 and PbO are solids, NO2 and O2 are gases), and identify the reaction type: Pb(NO3)2 → PbO + NO2 + O2"
+      },
+      "steps": [
+        {
+          "hi": "N count karo: left 2, right 1 → right me 2NO2 likho: Pb(NO3)2 → PbO + 2NO2 + O2",
+          "en": "Count N: 2 on left, 1 on right → write 2NO2 on right: Pb(NO3)2 → PbO + 2NO2 + O2"
+        },
+        {
+          "hi": "O count karo: left 6, right = 1(PbO)+4(2NO2)+2(O2) = 7 — Pb ko 2 se multiply karo: 2Pb(NO3)2 → 2PbO + 4NO2 + O2",
+          "en": "Count O: left 6, right = 1(PbO)+4(2NO2)+2(O2) = 7 — multiply Pb side by 2: 2Pb(NO3)2 → 2PbO + 4NO2 + O2"
+        },
+        {
+          "hi": "Recheck: left O = 2×6=12, right O = 2(PbO)+8(4NO2)+2(O2) = 12 ✓ Pb: 2=2 ✓ N: 4=4 ✓ — Balanced!",
+          "en": "Recheck: left O = 2×6=12, right O = 2(PbO)+8(4NO2)+2(O2) = 12 ✓ Pb: 2=2 ✓ N: 4=4 ✓ — Balanced!"
+        },
+        {
+          "hi": "State symbols ke saath: 2Pb(NO3)2(s) → 2PbO(s) + 4NO2(g) + O2(g). Ek hi reactant do+ products mein toot raha hai aur heat se ho raha hai — ye Thermal Decomposition Reaction hai.",
+          "en": "With state symbols: 2Pb(NO3)2(s) → 2PbO(s) + 4NO2(g) + O2(g). A single reactant is breaking into multiple products due to heat — this is a Thermal Decomposition Reaction."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "(Board pattern, 2 marks) Ek student ne apni chandi (silver) ki anguthi kuch mahino tak nahi pehni. Use nikaalne par anguthi kaali ho chuki thi. (a) Ye kya phenomenon hai? (b) Chemical reason batao.",
+        "en": "(Board pattern, 2 marks) A student didn't wear their silver ring for a few months. When they took it out, the ring had turned black. (a) What phenomenon is this? (b) State the chemical reason."
+      },
+      "steps": [
+        {
+          "hi": "(a) Ye Corrosion hai — silver ka slow oxidation.",
+          "en": "(a) This is Corrosion — the slow oxidation of silver."
+        },
+        {
+          "hi": "(b) Hawa mein present sulphur compounds ke saath react karke silver, silver sulphide (Ag2S) banata hai, jo kaale color ka hota hai: 2Ag(s) + S(traces in air) → Ag2S(s) [black]",
+          "en": "(b) Silver reacts with sulphur compounds present in the air to form silver sulphide (Ag2S), which is black in colour: 2Ag(s) + S(traces in air) → Ag2S(s) [black]"
+        },
+        {
+          "hi": "Ye corrosion ka hi ek type hai, jaise iron ki rusting, bas yaha silver aur sulphur involve hote hain.",
+          "en": "This is a type of corrosion, similar to the rusting of iron, but here it involves silver and sulphur."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Fe2O3 + 2Al → Al2O3 + 2Fe (thermite reaction) — is reaction ke do sahi types kaunse hain?",
+          "en": "Fe2O3 + 2Al → Al2O3 + 2Fe (thermite reaction) — which two correct classifications apply to this reaction?"
+        },
+        "options": [
+          { "hi": "Combination aur Decomposition", "en": "Combination and Decomposition" },
+          { "hi": "Displacement aur Redox", "en": "Displacement and Redox" },
+          { "hi": "Double Displacement aur Combination", "en": "Double Displacement and Combination" },
+          { "hi": "Sirf Decomposition", "en": "Only Decomposition" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Aluminium, iron ko uske oxide se displace karta hai (Displacement), aur saath hi Fe2O3 reduce ho raha hai jabki Al oxidize ho raha hai (Redox).",
+          "en": "Aluminium displaces iron from its oxide (Displacement), and simultaneously Fe2O3 is reduced while Al is oxidized (Redox)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Displacement aur Double Displacement mein sabse bada fark kya hai?",
+          "en": "What is the key difference between Displacement and Double Displacement?"
+        },
+        "options": [
+          { "hi": "Displacement mein heat chahiye, double displacement mein nahi", "en": "Displacement needs heat, double displacement doesn't" },
+          { "hi": "Displacement mein ek element doosre element ko replace karta hai; double displacement mein do compounds ions exchange karte hain", "en": "In displacement, one element replaces another; in double displacement, two compounds exchange ions" },
+          { "hi": "Displacement sirf gases ke beech hoti hai", "en": "Displacement only happens between gases" },
+          { "hi": "Dono same hain", "en": "Both are the same" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Displacement mein ek element kisi compound se doosre element ko hataata hai; double displacement mein koi single element involve nahi hota, balki do compounds apas mein ions swap karte hain.",
+          "en": "In displacement, one element removes another element from a compound; in double displacement, no single element is involved — instead, two compounds swap ions with each other."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Blanks fill karo: CuO + H2 → Cu + H2O mein CuO ___ ho raha hai aur H2 ___ ho raha hai.",
+          "en": "Fill the blanks: In CuO + H2 → Cu + H2O, CuO is being ___ and H2 is being ___."
+        },
+        "sentenceParts": [
+          { "hi": "CuO ", "en": "CuO is being " },
+          { "hi": " ho raha hai aur H2 ", "en": " and H2 is being " },
+          { "hi": " ho raha hai.", "en": "." }
+        ],
+        "blanks": ["reduce", "oxidize"],
+        "tokens": ["reduce", "oxidize", "decompose", "precipitate"],
+        "explanation": {
+          "hi": "CuO apna oxygen khota hai (reduce), H2 wo oxygen paata hai (oxidize) — ye classic redox aur displacement dono hai.",
+          "en": "CuO loses its oxygen (reduced), H2 gains that oxygen (oxidized) — this is a classic example of both redox and displacement."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Ek reaction ek se zyada category mein aa sakti hai (jaise Displacement + Redox)", "en": "A reaction can fall into more than one category (like Displacement + Redox)" },
+    { "hi": "Displacement = 1 element replace karta hai; Double Displacement = 2 compounds ions swap karte hain", "en": "Displacement = 1 element replaces; Double Displacement = 2 compounds swap ions" },
+    { "hi": "Board answer likhte waqt: balance → state symbols → type → reason, sab include karo", "en": "For board answers: include balance → state symbols → type → reason, all together" }
+  ],
+  "summary": {
+    "hi": "Board exam mein questions concepts ko mix karke puchhte hain — balancing, reaction type identification, aur redox ko ek saath apply karna aana chahiye, taaki koi bhi mixed question confidently solve ho sake.",
+    "en": "Board exam questions mix concepts together — you should be able to apply balancing, reaction type identification, and redox together, so any mixed question can be solved confidently."
+  },
+  "reward": {
+    "badge": null
+  }
+}

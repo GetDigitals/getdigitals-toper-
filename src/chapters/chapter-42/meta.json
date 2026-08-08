@@ -1,0 +1,21 @@
+{
+  "id": "chapter-42",
+  "order": 8,
+  "class": 10,
+  "subject": "Science",
+  "board": "CBSE",
+  "title": "Heredity",
+  "icon": "🧬",
+  "color": "#00C2A8",
+  "description": "Mendel's laws, inheritance of traits, sex determination (2025-26 rationalised version — evolution portion removed). Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-42-master",
+    "name": "Heredity Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "id": "chapter-35-lesson-02",
+  "chapterId": "chapter-35",
+  "order": 2,
+  "title": {
+    "hi": "Chemical Reactions ke Types",
+    "en": "Types of Chemical Reactions"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "🔬",
+    "headline": {
+      "hi": "Reactions ke 4 Bade Family Groups",
+      "en": "The 4 Big Family Groups of Reactions"
+    },
+    "subtext": {
+      "hi": "Har chemical reaction ko uske pattern se pehchano — jodna, todna, badalna, ya swap karna.",
+      "en": "Recognize every chemical reaction by its pattern — combining, breaking, replacing, or swapping."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Socho reactions ek dance floor jaisa hai. Kabhi do dancers jud kar ek ban jaate hain (combination), kabhi ek dancer todkar do ban jaata hai (decomposition), kabhi naya dancer aakar purane ko replace kar deta hai (displacement), aur kabhi do jode apas mein partner swap kar lete hain (double displacement).",
+      "en": "Think of reactions like a dance floor. Sometimes two dancers join to become one (combination), sometimes one dancer splits into two (decomposition), sometimes a new dancer replaces an old one (displacement), and sometimes two couples swap partners (double displacement)."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Combination Reaction: Do ya zyada reactants jud kar ek hi product banate hain. General form: A + B → AB. Example: CaO(s) + H2O(l) → Ca(OH)2(aq) (quicklime + water = slaked lime, heat bhi release hoti hai).",
+        "en": "Combination Reaction: Two or more reactants combine to form a single product. General form: A + B → AB. Example: CaO(s) + H2O(l) → Ca(OH)2(aq) (quicklime + water = slaked lime, releasing heat too)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Combination: A + B → AB\nExample: C(s) + O2(g) → CO2(g)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Decomposition Reaction: Ek reactant todkar do ya zyada simple products banata hai. General form: AB → A + B. Ye 3 tarah se ho sakti hai — Thermal (heat se), Electrolytic (electricity se), Photolytic (light se).",
+        "en": "Decomposition Reaction: One reactant breaks down into two or more simpler products. General form: AB → A + B. This can happen three ways — Thermal (by heat), Electrolytic (by electricity), Photolytic (by light)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Thermal: 2FeSO4(s) →(heat) Fe2O3(s) + SO2(g) + SO3(g)\nElectrolytic: 2H2O(l) →(electricity) 2H2(g) + O2(g)\nPhotolytic: 2AgCl(s) →(sunlight) 2Ag(s) + Cl2(g)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Displacement Reaction: Ek zyada reactive element kisi kam reactive element ko uske compound se hata (displace) kar deta hai. General form: A + BC → AC + B. Example: Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s) — iron copper ko uske salt se displace karta hai kyunki iron zyada reactive hai.",
+        "en": "Displacement Reaction: A more reactive element displaces a less reactive element from its compound. General form: A + BC → AC + B. Example: Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s) — iron displaces copper from its salt because iron is more reactive."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Double Displacement Reaction: Do compounds apne ions ko aapas mein exchange (swap) karte hain, aur aksar ek insoluble precipitate banta hai. General form: AB + CD → AD + CB. Example: Na2SO4(aq) + BaCl2(aq) → BaSO4(s)↓ + 2NaCl(aq) — BaSO4 white precipitate hai.",
+        "en": "Double Displacement Reaction: Two compounds exchange (swap) their ions, often forming an insoluble precipitate. General form: AB + CD → AD + CB. Example: Na2SO4(aq) + BaCl2(aq) → BaSO4(s)↓ + 2NaCl(aq) — BaSO4 is a white precipitate."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Precipitation reaction double displacement ka ek special case hai jaha ek insoluble solid (precipitate) banta hai — jaise upar wala BaSO4 example. Acid-base neutralization reactions bhi double displacement ka hi type hain.",
+        "en": "A precipitation reaction is a special case of double displacement where an insoluble solid (precipitate) is formed — like the BaSO4 example above. Acid-base neutralization reactions are also a type of double displacement."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ye reaction identify karo aur reason batao: Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)",
+        "en": "Identify this reaction and give the reason: Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)"
+      },
+      "steps": [
+        {
+          "hi": "Zinc, copper ko CuSO4 se hata raha hai — ek element doosre element ko replace kar raha hai.",
+          "en": "Zinc is removing copper from CuSO4 — one element is replacing another element."
+        },
+        {
+          "hi": "General form A + BC → AC + B match karta hai — ye Displacement Reaction hai.",
+          "en": "This matches the general form A + BC → AC + B — this is a Displacement Reaction."
+        },
+        {
+          "hi": "Reason: Zinc, copper se zyada reactive hai (reactivity series mein Zn upar hai), isliye Zn, Cu ko displace kar deta hai.",
+          "en": "Reason: Zinc is more reactive than copper (Zn is above Cu in the reactivity series), so Zn displaces Cu."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "CaCO3 ko strongly heat karne par kya hota hai? Reaction type identify karo.",
+        "en": "What happens when CaCO3 is strongly heated? Identify the reaction type."
+      },
+      "steps": [
+        {
+          "hi": "CaCO3(s) →(heat) CaO(s) + CO2(g)",
+          "en": "CaCO3(s) →(heat) CaO(s) + CO2(g)"
+        },
+        {
+          "hi": "Ek hi reactant (CaCO3) do products (CaO aur CO2) mein toot raha hai.",
+          "en": "A single reactant (CaCO3) is breaking into two products (CaO and CO2)."
+        },
+        {
+          "hi": "Ye Thermal Decomposition Reaction hai (heat se decompose ho rahi hai). Ye reaction cement industry mein bahut important hai (limestone se quicklime banane ke liye).",
+          "en": "This is a Thermal Decomposition Reaction (decomposing due to heat). This reaction is very important in the cement industry (for making quicklime from limestone)."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "AB → A + B kis reaction ka general form hai?",
+          "en": "AB → A + B is the general form of which reaction?"
+        },
+        "options": [
+          { "hi": "Combination", "en": "Combination" },
+          { "hi": "Decomposition", "en": "Decomposition" },
+          { "hi": "Displacement", "en": "Displacement" },
+          { "hi": "Double displacement", "en": "Double displacement" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Decomposition mein ek compound do ya zyada simple substances mein toot jaata hai.",
+          "en": "In decomposition, one compound breaks into two or more simpler substances."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "2AgCl →(sunlight) 2Ag + Cl2 — ye kis type ki decomposition hai?",
+          "en": "2AgCl →(sunlight) 2Ag + Cl2 — which type of decomposition is this?"
+        },
+        "options": [
+          { "hi": "Thermal", "en": "Thermal" },
+          { "hi": "Electrolytic", "en": "Electrolytic" },
+          { "hi": "Photolytic", "en": "Photolytic" },
+          { "hi": "Mechanical", "en": "Mechanical" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Sunlight (light energy) se decomposition hone ko Photolytic decomposition kehte hain — isi principle par black-and-white photography kaam karti thi.",
+          "en": "Decomposition caused by sunlight (light energy) is called photolytic decomposition — this principle was used in black-and-white photography."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Blank fill karo: Na2SO4 + BaCl2 → BaSO4↓ + 2NaCl — ye ek ___ reaction hai jisme ions ___ hote hain.",
+          "en": "Fill in the blanks: Na2SO4 + BaCl2 → BaSO4↓ + 2NaCl — this is a ___ reaction in which ions are ___."
+        },
+        "sentenceParts": [
+          { "hi": "Ye ek ", "en": "This is a " },
+          { "hi": " reaction jisme ions ", "en": " reaction in which ions are " },
+          { "hi": " hote hain.", "en": "." }
+        ],
+        "blanks": ["double displacement", "exchanged"],
+        "tokens": ["double displacement", "exchanged", "combination", "created"],
+        "explanation": {
+          "hi": "Dono compounds apne ions swap karte hain aur BaSO4 precipitate banta hai — ye double displacement reaction hai.",
+          "en": "Both compounds swap their ions, forming a BaSO4 precipitate — this is a double displacement reaction."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Combination: A + B → AB (jud kar ek banna)", "en": "Combination: A + B → AB (combining into one)" },
+    { "hi": "Decomposition: AB → A + B (thermal/electrolytic/photolytic)", "en": "Decomposition: AB → A + B (thermal/electrolytic/photolytic)" },
+    { "hi": "Displacement: A + BC → AC + B (reactive element kam reactive ko hataata hai)", "en": "Displacement: A + BC → AC + B (reactive element displaces less reactive one)" },
+    { "hi": "Double Displacement: AB + CD → AD + CB (ions swap, precipitate ban sakta hai)", "en": "Double Displacement: AB + CD → AD + CB (ions swap, may form precipitate)" }
+  ],
+  "summary": {
+    "hi": "Chemical reactions ko unke pattern se 4 categories mein classify kiya jaata hai: combination, decomposition, displacement, aur double displacement.",
+    "en": "Chemical reactions are classified into 4 categories based on their pattern: combination, decomposition, displacement, and double displacement."
+  },
+  "reward": {
+    "badge": null
+  }
+}

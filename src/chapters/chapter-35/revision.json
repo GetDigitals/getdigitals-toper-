@@ -1,0 +1,89 @@
+{
+  "chapterId": "chapter-35",
+  "flashcards": [
+    {
+      "front": { "hi": "Law of Conservation of Mass", "en": "Law of Conservation of Mass" },
+      "back": { "hi": "Mass na banti hai na khatam hoti hai, sirf form badalti hai — isliye equations balance karte hain", "en": "Mass is neither created nor destroyed, only changes form — that's why we balance equations" }
+    },
+    {
+      "front": { "hi": "Combination Reaction", "en": "Combination Reaction" },
+      "back": { "hi": "A + B → AB (do reactants jud kar ek product)", "en": "A + B → AB (two reactants combine into one product)" }
+    },
+    {
+      "front": { "hi": "Decomposition ke 3 types", "en": "3 types of Decomposition" },
+      "back": { "hi": "Thermal (heat), Electrolytic (electricity), Photolytic (light)", "en": "Thermal (heat), Electrolytic (electricity), Photolytic (light)" }
+    },
+    {
+      "front": { "hi": "Displacement vs Double Displacement", "en": "Displacement vs Double Displacement" },
+      "back": { "hi": "Displacement: 1 element replace karta hai. Double: 2 compounds ions swap karte hain", "en": "Displacement: 1 element replaces. Double: 2 compounds swap ions" }
+    },
+    {
+      "front": { "hi": "Oxidation", "en": "Oxidation" },
+      "back": { "hi": "Oxygen add hoti hai ya hydrogen remove hoti hai", "en": "Oxygen is added or hydrogen is removed" }
+    },
+    {
+      "front": { "hi": "Reduction", "en": "Reduction" },
+      "back": { "hi": "Oxygen remove hoti hai ya hydrogen add hoti hai", "en": "Oxygen is removed or hydrogen is added" }
+    },
+    {
+      "front": { "hi": "Rusting ki formula", "en": "Formula of rust" },
+      "back": { "hi": "Fe2O3.xH2O — moisture aur oxygen dono chahiye", "en": "Fe2O3.xH2O — needs both moisture and oxygen" }
+    },
+    {
+      "front": { "hi": "Rancidity", "en": "Rancidity" },
+      "back": { "hi": "Fats/oils ka oxidation — taste aur smell kharab ho jaate hain", "en": "Oxidation of fats/oils — taste and smell get spoiled" }
+    }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Combination", "en": "Combination" }, "formula": "A + B → AB" },
+    { "label": { "hi": "Decomposition", "en": "Decomposition" }, "formula": "AB → A + B" },
+    { "label": { "hi": "Displacement", "en": "Displacement" }, "formula": "A + BC → AC + B" },
+    { "label": { "hi": "Double Displacement", "en": "Double Displacement" }, "formula": "AB + CD → AD + CB" },
+    { "label": { "hi": "Rusting", "en": "Rusting" }, "formula": "4Fe + 3O2 + xH2O → 2Fe2O3.xH2O" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Chemical Reactions and Equations", "en": "Chemical Reactions and Equations" },
+    "branches": [
+      {
+        "label": { "hi": "Chemical Equations", "en": "Chemical Equations" },
+        "children": [
+          { "hi": "Word vs Symbolic equation", "en": "Word vs Symbolic equation" },
+          { "hi": "Balancing (hit and trial)", "en": "Balancing (hit and trial)" },
+          { "hi": "State symbols: s, l, g, aq", "en": "State symbols: s, l, g, aq" }
+        ]
+      },
+      {
+        "label": { "hi": "Types of Reactions", "en": "Types of Reactions" },
+        "children": [
+          { "hi": "Combination", "en": "Combination" },
+          { "hi": "Decomposition (thermal/electrolytic/photolytic)", "en": "Decomposition (thermal/electrolytic/photolytic)" },
+          { "hi": "Displacement", "en": "Displacement" },
+          { "hi": "Double Displacement", "en": "Double Displacement" }
+        ]
+      },
+      {
+        "label": { "hi": "Oxidation-Reduction", "en": "Oxidation-Reduction" },
+        "children": [
+          { "hi": "Oxidation = O add / H remove", "en": "Oxidation = O added / H removed" },
+          { "hi": "Reduction = O remove / H add", "en": "Reduction = O removed / H added" },
+          { "hi": "Redox = dono saath", "en": "Redox = both together" }
+        ]
+      },
+      {
+        "label": { "hi": "Corrosion aur Rancidity", "en": "Corrosion and Rancidity" },
+        "children": [
+          { "hi": "Corrosion: metal oxidation (rusting)", "en": "Corrosion: metal oxidation (rusting)" },
+          { "hi": "Rancidity: fat/oil oxidation", "en": "Rancidity: fat/oil oxidation" },
+          { "hi": "Prevention: paint, galvanize, alloy, antioxidant, nitrogen flush", "en": "Prevention: paint, galvanize, alloy, antioxidant, nitrogen flush" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "Balancing kis law se follow hoti hai?", "en": "Balancing follows which law?" }, "explanation": { "hi": "Law of Conservation of Mass", "en": "Law of Conservation of Mass" } },
+    { "question": { "hi": "(aq) ka matlab?", "en": "What does (aq) mean?" }, "explanation": { "hi": "Paani mein dissolved", "en": "Dissolved in water" } },
+    { "question": { "hi": "Rusting ke liye 2 zaroori cheezein?", "en": "2 things needed for rusting?" }, "explanation": { "hi": "Moisture aur oxygen", "en": "Moisture and oxygen" } },
+    { "question": { "hi": "Galvanizing kya hai?", "en": "What is galvanizing?" }, "explanation": { "hi": "Iron par zinc coating", "en": "Coating iron with zinc" } },
+    { "question": { "hi": "Redox ka full form kya represent karta hai?", "en": "What does redox stand for?" }, "explanation": { "hi": "REDuction + OXidation", "en": "REDuction + OXidation" } }
+  ]
+}

@@ -44,7 +44,10 @@ export const SUBJECTS = [
     subjectLabel: 'Science',
     icon: '🔬',
     color: '#6FE3A6',
-    available: false,
+    // chapter-35 (Chemical Reactions and Equations) is live; chapters
+    // 36-47 cover the rest of the retained 13-chapter 2025-26 syllabus,
+    // as placeholders.
+    available: true,
   },
   {
     slug: 'sst',
