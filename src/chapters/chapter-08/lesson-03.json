@@ -1,0 +1,285 @@
+{
+  "id": "chapter-08-lesson-03",
+  "chapterId": "chapter-08",
+  "order": 3,
+  "title": {
+    "hi": "Relationships Between Ratios",
+    "en": "Relationships Between Ratios"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "🔗",
+    "headline": {
+      "hi": "Ek Ratio Pata Hai? Baaki Sab Nikaal Lo!",
+      "en": "Know One Ratio? Find All the Rest!"
+    },
+    "subtext": {
+      "hi": "Agar sirf sin θ diya ho, toh baaki 5 ratios bhi nikaal sakte ho — bina angle actually jaane!",
+      "en": "If only sin θ is given, you can find all 5 other ratios — without even knowing the actual angle!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Board exam mein aksar sirf ek ratio diya jaata hai (jaise 'sin A = 3/5') aur baaki sab nikaalne ko kaha jaata hai. Isके liye ek smart 'k-method' hai — jab ratio diya ho, sides ko k se multiply kar do, Pythagoras se teesri side nikaalo, phir sab ratios seedhe mil jaate hain.",
+      "en": "Board exams often give just one ratio (like 'sin A = 3/5') and ask you to find the rest. There's a smart 'k-method' for this — when a ratio is given, multiply the sides by k, find the third side using Pythagoras, and then all the ratios come directly."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "tan θ = sin θ / cos θ\ncot θ = cos θ / sin θ\ncosec θ = 1/sin θ    sec θ = 1/cos θ    cot θ = 1/tan θ"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye relationships basic definitions se hi derive hote hain: tan θ = (P/H) ÷ (B/H) = P/B = tan θ ✓ — H cancel ho jaata hai aur direct definition wapas mil jaati hai.",
+        "en": "These relationships come directly from the basic definitions: tan θ = (P/H) ÷ (B/H) = P/B = tan θ ✓ — H cancels out and we get back the direct definition."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "'k-method': jab koi ratio diya ho (jaise sin A = 3/5), toh us ratio ke numerator aur denominator ko 'k' se multiply karke actual sides maan lo (P=3k, H=5k), phir Pythagoras Theorem se teesri side (B) nikaalo, aur baaki sab ratios seedhe mil jaate hain.",
+        "en": "'k-method': when a ratio is given (like sin A = 3/5), treat the numerator and denominator as actual sides multiplied by 'k' (P=3k, H=5k), then find the third side (B) using the Pythagoras Theorem, and the rest of the ratios come directly."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek chhota tip: tan θ × cot θ hamesha 1 hota hai (kyunki cot θ, tan θ ka reciprocal hai) — ye kai proofs mein directly kaam aata hai.",
+        "en": "A small tip: tan θ × cot θ always equals 1 (since cot θ is the reciprocal of tan θ) — this is directly useful in many proofs."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🔑",
+    "caption": {
+      "hi": "k-method: ratio ke numerator/denominator ko 'k' maan lo, Pythagoras se teesri side nikaalo, baaki sab ratios ready!",
+      "en": "k-method: treat the ratio's numerator/denominator as multiples of 'k', find the third side using Pythagoras, and the rest of the ratios are ready!"
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Agar sin A = 3/5 hai, toh cos A aur tan A nikaalo.",
+        "en": "If sin A = 3/5, find cos A and tan A."
+      },
+      "steps": [
+        {
+          "hi": "sin A = P/H = 3/5, isliye P = 3k, H = 5k (k koi positive number)",
+          "en": "sin A = P/H = 3/5, so P = 3k, H = 5k (k is any positive number)"
+        },
+        {
+          "hi": "Pythagoras se: H² = P² + B² → (5k)² = (3k)² + B² → 25k² = 9k² + B²",
+          "en": "Using Pythagoras: H² = P² + B² → (5k)² = (3k)² + B² → 25k² = 9k² + B²"
+        },
+        {
+          "hi": "B² = 16k² → B = 4k",
+          "en": "B² = 16k² → B = 4k"
+        },
+        {
+          "hi": "cos A = B/H = 4k/5k = 4/5,  tan A = P/B = 3k/4k = 3/4",
+          "en": "cos A = B/H = 4k/5k = 4/5,  tan A = P/B = 3k/4k = 3/4"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar cos A = 5/13 hai, toh sin A aur tan A nikaalo.",
+        "en": "If cos A = 5/13, find sin A and tan A."
+      },
+      "steps": [
+        {
+          "hi": "cos A = B/H = 5/13 → B = 5k, H = 13k",
+          "en": "cos A = B/H = 5/13 → B = 5k, H = 13k"
+        },
+        {
+          "hi": "P² = H² − B² = 169k² − 25k² = 144k² → P = 12k",
+          "en": "P² = H² − B² = 169k² − 25k² = 144k² → P = 12k"
+        },
+        {
+          "hi": "sin A = P/H = 12k/13k = 12/13,  tan A = P/B = 12k/5k = 12/5",
+          "en": "sin A = P/H = 12k/13k = 12/13,  tan A = P/B = 12k/5k = 12/5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar tan θ = 4/3 hai, toh (sin θ + cos θ)/(sin θ − cos θ) nikaalo.",
+        "en": "If tan θ = 4/3, find (sin θ + cos θ)/(sin θ − cos θ)."
+      },
+      "steps": [
+        {
+          "hi": "tan θ = 4/3 → P=4k, B=3k, H=5k (Pythagoras se, 3-4-5 triple)",
+          "en": "tan θ = 4/3 → P=4k, B=3k, H=5k (from Pythagoras, a 3-4-5 triple)"
+        },
+        {
+          "hi": "sin θ = 4/5, cos θ = 3/5",
+          "en": "sin θ = 4/5, cos θ = 3/5"
+        },
+        {
+          "hi": "(4/5+3/5)/(4/5−3/5) = (7/5)/(1/5) = 7",
+          "en": "(4/5+3/5)/(4/5−3/5) = (7/5)/(1/5) = 7"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "cot θ ka reciprocal kaunsa ratio hai?",
+          "en": "Which ratio is the reciprocal of cot θ?"
+        },
+        "options": [
+          {
+            "hi": "sin θ",
+            "en": "sin θ"
+          },
+          {
+            "hi": "tan θ",
+            "en": "tan θ"
+          },
+          {
+            "hi": "sec θ",
+            "en": "sec θ"
+          },
+          {
+            "hi": "cosec θ",
+            "en": "cosec θ"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "cot θ = 1/tan θ, isliye tan θ hi cot θ ka reciprocal hai.",
+          "en": "cot θ = 1/tan θ, so tan θ is the reciprocal of cot θ."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "tan θ × cot θ = 1 hamesha hota hai.",
+          "en": "tan θ × cot θ = 1 always."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — cot θ, tan θ ka reciprocal hai, isliye product hamesha 1 hota hai.",
+          "en": "True — cot θ is the reciprocal of tan θ, so the product is always 1."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Agar sec θ = 5/4 hai, toh tan θ kya hoga?",
+          "en": "If sec θ = 5/4, what is tan θ?"
+        },
+        "options": [
+          {
+            "hi": "3/4",
+            "en": "3/4"
+          },
+          {
+            "hi": "4/3",
+            "en": "4/3"
+          },
+          {
+            "hi": "5/3",
+            "en": "5/3"
+          },
+          {
+            "hi": "3/5",
+            "en": "3/5"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "sec θ=H/B=5/4 → B=4k,H=5k → P=3k (Pythagoras) → tan θ=P/B=3/4",
+          "en": "sec θ=H/B=5/4 → B=4k,H=5k → P=3k (Pythagoras) → tan θ=P/B=3/4"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Prove karne ke liye tan θ = sin θ/cos θ kaise likhte hain, definitions se?",
+          "en": "How do you derive tan θ = sin θ/cos θ from the basic definitions?"
+        },
+        "options": [
+          {
+            "hi": "(P/H) ÷ (B/H) = P/B = tan θ",
+            "en": "(P/H) ÷ (B/H) = P/B = tan θ"
+          },
+          {
+            "hi": "(P/H) × (B/H)",
+            "en": "(P/H) × (B/H)"
+          },
+          {
+            "hi": "(H/P) ÷ (H/B)",
+            "en": "(H/P) ÷ (H/B)"
+          },
+          {
+            "hi": "Ye derive nahi ho sakta",
+            "en": "This cannot be derived"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "sin θ ÷ cos θ = (P/H) ÷ (B/H), H cancel hoke P/B = tan θ milta hai.",
+          "en": "sin θ ÷ cos θ = (P/H) ÷ (B/H), H cancels giving P/B = tan θ."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "question": {
+          "hi": "k-method: sin A = 3/5 diya hai, toh P aur H kya hoge?",
+          "en": "k-method: given sin A = 3/5, what are P and H?"
+        },
+        "sentenceParts": [
+          "P = 3k, H ="
+        ],
+        "blanks": [
+          "5k"
+        ],
+        "tokens": [
+          "5k",
+          "3k",
+          "4k"
+        ],
+        "explanation": {
+          "hi": "sin A = P/H = 3/5, isliye P=3k, H=5k.",
+          "en": "sin A = P/H = 3/5, so P=3k, H=5k."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "tan θ = sin θ/cos θ, cot θ = cos θ/sin θ",
+      "en": "tan θ = sin θ/cos θ, cot θ = cos θ/sin θ"
+    },
+    {
+      "hi": "cosec θ=1/sin θ, sec θ=1/cos θ, cot θ=1/tan θ",
+      "en": "cosec θ=1/sin θ, sec θ=1/cos θ, cot θ=1/tan θ"
+    },
+    {
+      "hi": "k-method: ratio diya ho toh sides ko k se multiply maan lo, Pythagoras se teesri side nikaalo",
+      "en": "k-method: when a ratio is given, treat the sides as multiples of k, find the third side using Pythagoras"
+    },
+    {
+      "hi": "tan θ × cot θ = 1 hamesha (proofs mein bahut useful)",
+      "en": "tan θ × cot θ = 1 always (very useful in proofs)"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum ek ratio se baaki sab ratios nikaal sakte ho — k-method use karke. Agle lesson mein hum seekhenge Trigonometric Identities — equations jo har angle ke liye hamesha true hoti hain.",
+    "en": "You can now find all other ratios from just one — using the k-method. Next, we'll learn Trigonometric Identities — equations that are always true for every angle."
+  },
+  "reward": {
+    "badge": null
+  }
+}
