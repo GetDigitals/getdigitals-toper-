@@ -1,0 +1,404 @@
+{
+  "id": "chapter-08-lesson-05",
+  "chapterId": "chapter-08",
+  "order": 5,
+  "title": {
+    "hi": "Exam Mastery — Important Questions & Mixed Practice",
+    "en": "Exam Mastery — Important Questions & Mixed Practice"
+  },
+  "estimatedMinutes": 16,
+  "xpReward": 80,
+  "coinReward": 16,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "hi": "Board Exam Ke Liye Must-Do Questions!",
+      "en": "Must-Do Questions for the Board Exam!"
+    },
+    "subtext": {
+      "hi": "Wo questions jo har saal CBSE board exams mein repeat hote hain — objective aur subjective dono.",
+      "en": "Questions that repeat every year in CBSE board exams — both objective and subjective."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "CBSE Class 10 board exam mein Trigonometry se total ~8-12 marks aate hain — aur ye ek scoring chapter hai! Agar table aur teeno identities yaad hain, toh full marks pakke. Is lesson mein wahi questions hain jo har saal repeat hote hain.",
+      "en": "Trigonometry carries about 8-12 marks in the CBSE Class 10 board exam — and it's a scoring chapter! If you know the table and the three identities, full marks are guaranteed. This lesson covers the questions that repeat every year."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Marks distribution: 1-mark questions — values find karna (standard angles); 2-mark — ratios nikaalna ya simple prove karna; 3-mark — identities prove karna; 4-mark — complex proof ya application. Table yaad honi chahiye — bina iske kuch nahi hoga!",
+        "en": "Marks distribution: 1-mark questions — finding values (standard angles); 2-mark — finding ratios or simple proofs; 3-mark — proving identities; 4-mark — complex proofs or applications. You must know the table — nothing works without it!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Objective questions mein time bachane ke liye table aur identities directly use karo, poora derivation likhne ki zaroorat nahi. Subjective (proof) questions mein step-by-step LHS ko RHS ke barabar lao — beech ke steps bhi marks dete hain.",
+        "en": "For objective questions, save time by directly using the table and identities — no need to write the full derivation. For subjective (proof) questions, bring LHS to RHS step-by-step — intermediate steps also earn marks."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📝",
+    "caption": {
+      "hi": "Pattern same rehta hai, sirf numbers change hote hain — isliye practice karne se confidence sabse zyada badhta hai.",
+      "en": "The pattern stays the same, only the numbers change — that's why practice builds confidence the most."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Evaluate karo: (5 cos² 60° + 4 sec² 30° − tan² 45°) / (sin² 30° + cos² 30°)",
+        "en": "Evaluate: (5 cos² 60° + 4 sec² 30° − tan² 45°) / (sin² 30° + cos² 30°)"
+      },
+      "steps": [
+        {
+          "hi": "5 cos²60° = 5×(1/2)² = 5/4.  4 sec²30° = 4×(2/√3)² = 4×4/3 = 16/3.  tan²45° = 1",
+          "en": "5 cos²60° = 5×(1/2)² = 5/4.  4 sec²30° = 4×(2/√3)² = 4×4/3 = 16/3.  tan²45° = 1"
+        },
+        {
+          "hi": "Numerator = 5/4 + 16/3 − 1 = (15+64−12)/12 = 67/12",
+          "en": "Numerator = 5/4 + 16/3 − 1 = (15+64−12)/12 = 67/12"
+        },
+        {
+          "hi": "Denominator = sin²30°+cos²30° = 1 (Identity)",
+          "en": "Denominator = sin²30°+cos²30° = 1 (Identity)"
+        },
+        {
+          "hi": "Answer = 67/12",
+          "en": "Answer = 67/12"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Prove karo: (cosec θ − cot θ)² = (1 − cos θ) / (1 + cos θ)",
+        "en": "Prove that: (cosec θ − cot θ)² = (1 − cos θ) / (1 + cos θ)"
+      },
+      "steps": [
+        {
+          "hi": "LHS = (1/sin θ − cos θ/sin θ)² = [(1−cos θ)/sin θ]²",
+          "en": "LHS = (1/sin θ − cos θ/sin θ)² = [(1−cos θ)/sin θ]²"
+        },
+        {
+          "hi": "= (1−cos θ)²/sin²θ = (1−cos θ)²/(1−cos²θ)",
+          "en": "= (1−cos θ)²/sin²θ = (1−cos θ)²/(1−cos²θ)"
+        },
+        {
+          "hi": "= (1−cos θ)²/[(1−cos θ)(1+cos θ)] = (1−cos θ)/(1+cos θ) = RHS ✓",
+          "en": "= (1−cos θ)²/[(1−cos θ)(1+cos θ)] = (1−cos θ)/(1+cos θ) = RHS ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar tan θ + cot θ = 2 hai, toh tan²θ + cot²θ nikaalo.",
+        "en": "If tan θ + cot θ = 2, find tan²θ + cot²θ."
+      },
+      "steps": [
+        {
+          "hi": "(a+b)² = a²+b²+2ab, isliye tan²θ+cot²θ = (tan θ+cot θ)² − 2·tan θ·cot θ",
+          "en": "(a+b)² = a²+b²+2ab, so tan²θ+cot²θ = (tan θ+cot θ)² − 2·tan θ·cot θ"
+        },
+        {
+          "hi": "tan θ × cot θ = 1 (hamesha)",
+          "en": "tan θ × cot θ = 1 (always)"
+        },
+        {
+          "hi": "tan²θ+cot²θ = (2)² − 2(1) = 4−2 = 2",
+          "en": "tan²θ+cot²θ = (2)² − 2(1) = 4−2 = 2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar sin θ = (a²−b²)/(a²+b²) hai, toh cos θ aur tan θ nikaalo.",
+        "en": "If sin θ = (a²−b²)/(a²+b²), find cos θ and tan θ."
+      },
+      "steps": [
+        {
+          "hi": "P = a²−b², H = a²+b² maano",
+          "en": "Let P = a²−b², H = a²+b²"
+        },
+        {
+          "hi": "B² = H²−P² = (a²+b²)²−(a²−b²)² = [(a²+b²)+(a²−b²)]×[(a²+b²)−(a²−b²)] = 2a²×2b² = 4a²b²",
+          "en": "B² = H²−P² = (a²+b²)²−(a²−b²)² = [(a²+b²)+(a²−b²)]×[(a²+b²)−(a²−b²)] = 2a²×2b² = 4a²b²"
+        },
+        {
+          "hi": "B = 2ab",
+          "en": "B = 2ab"
+        },
+        {
+          "hi": "cos θ = B/H = 2ab/(a²+b²),  tan θ = P/B = (a²−b²)/2ab",
+          "en": "cos θ = B/H = 2ab/(a²+b²),  tan θ = P/B = (a²−b²)/2ab"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "sin 30° + cos 60° = ?",
+          "en": "sin 30° + cos 60° = ?"
+        },
+        "options": [
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "√3",
+            "en": "√3"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "sin30°+cos60° = 1/2+1/2 = 1",
+          "en": "sin30°+cos60° = 1/2+1/2 = 1"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Agar tan A = 5/12 hai, toh sin A = ?",
+          "en": "If tan A = 5/12, then sin A = ?"
+        },
+        "options": [
+          {
+            "hi": "5/13",
+            "en": "5/13"
+          },
+          {
+            "hi": "12/13",
+            "en": "12/13"
+          },
+          {
+            "hi": "13/5",
+            "en": "13/5"
+          },
+          {
+            "hi": "13/12",
+            "en": "13/12"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "tanA=5/12 → P=5k,B=12k,H=13k (5-12-13 triple) → sinA=5/13",
+          "en": "tanA=5/12 → P=5k,B=12k,H=13k (5-12-13 triple) → sinA=5/13"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "(sec²θ − 1)(cosec²θ − 1) = ?",
+          "en": "(sec²θ − 1)(cosec²θ − 1) = ?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "−1",
+            "en": "−1"
+          },
+          {
+            "hi": "tan²θ",
+            "en": "tan²θ"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "sec²θ−1=tan²θ, cosec²θ−1=cot²θ. tan²θ×cot²θ=1 (kyunki tanθ×cotθ=1)",
+          "en": "sec²θ−1=tan²θ, cosec²θ−1=cot²θ. tan²θ×cot²θ=1 (since tanθ×cotθ=1)"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "1 + tan²θ = sec²θ",
+          "en": "1 + tan²θ = sec²θ"
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — ye Identity (2) hai, cos²θ se divide karke sin²θ+cos²θ=1 se derive hoti hai.",
+          "en": "True — this is Identity (2), derived by dividing sin²θ+cos²θ=1 by cos²θ."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Evaluate karo: 2 tan² 45° + cos² 30° − sin² 60°",
+          "en": "Evaluate: 2 tan² 45° + cos² 30° − sin² 60°"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "3/2",
+            "en": "3/2"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "2(1)²+ (√3/2)²−(√3/2)² = 2+0 = 2 (cos²30° aur sin²60° dono 3/4 hain, cancel ho jaate hain)",
+          "en": "2(1)²+(√3/2)²−(√3/2)² = 2+0 = 2 (cos²30° and sin²60° are both 3/4, they cancel)"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Agar sin θ + cos θ = √2 hai, toh sin θ cos θ = ?",
+          "en": "If sin θ + cos θ = √2, then sin θ cos θ = ?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "√2",
+            "en": "√2"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Square karo: 1+2sinθcosθ=2 → sinθcosθ=1/2. (√2 hi is equation ka maximum possible value hai, θ=45° par).",
+          "en": "Square it: 1+2sinθcosθ=2 → sinθcosθ=1/2. (√2 is exactly the maximum possible value here, achieved at θ=45°.)"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "cos 0° × sin 90° × tan 0° = ?",
+          "en": "cos 0° × sin 90° × tan 0° = ?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "∞",
+            "en": "∞"
+          },
+          {
+            "hi": "Undefined",
+            "en": "Undefined"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "1×1×0 = 0 (tan 0°=0 hone ki wajah se poora product 0 ho jaata hai)",
+          "en": "1×1×0 = 0 (since tan 0°=0, the whole product becomes 0)"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Identity prove karne ki sabse best strategy kya hai?",
+          "en": "What is the best strategy for proving an identity?"
+        },
+        "options": [
+          {
+            "hi": "RHS se start karo",
+            "en": "Start from RHS"
+          },
+          {
+            "hi": "LHS ko simplify karke RHS ke barabar lao",
+            "en": "Simplify LHS to match RHS"
+          },
+          {
+            "hi": "Dono sides alag solve karo",
+            "en": "Solve both sides separately"
+          },
+          {
+            "hi": "Kuch bhi chalega",
+            "en": "Anything works"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Standard strategy: complex side (usually LHS) ko step-by-step simplify karo jab tak simple side (RHS) na mile.",
+          "en": "Standard strategy: simplify the more complex side (usually LHS) step-by-step until it matches the simpler side (RHS)."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Chapter 8 weightage: ~8-12 marks — ek scoring chapter, table aur identities yaad rakho",
+      "en": "Chapter 8 weightage: ~8-12 marks — a scoring chapter, remember the table and identities"
+    },
+    {
+      "hi": "Objective questions: table/identity directly substitute karo",
+      "en": "Objective questions: directly substitute the table/identity"
+    },
+    {
+      "hi": "Subjective (proof) questions: complex side ko simplify karke doosri side ke barabar lao — beech ke steps bhi marks dete hain",
+      "en": "Subjective (proof) questions: simplify the complex side to match the other — intermediate steps also earn marks"
+    },
+    {
+      "hi": "Poora chapter recap: Ratios (sin,cos,tan..), Standard Angles Table, Identities (3), k-method",
+      "en": "Whole chapter recap: Ratios (sin,cos,tan..), Standard Angles Table, Identities (3), k-method"
+    }
+  ],
+  "summary": {
+    "hi": "Congratulations! Ab tumhe Trigonometry ka poora chapter aata hai — ratios, standard angles, relationships, identities, aur board-exam-level important questions bhi. Final Test attempt karo aur apni mastery confirm karo!",
+    "en": "Congratulations! You now know the entire Trigonometry chapter — ratios, standard angles, relationships, identities, and board-exam-level important questions too. Attempt the Final Test to confirm your mastery!"
+  },
+  "reward": {
+    "badge": {
+      "id": "trigonometry-master",
+      "name": "Trigonometry Master",
+      "icon": "🏅"
+    }
+  }
+}
