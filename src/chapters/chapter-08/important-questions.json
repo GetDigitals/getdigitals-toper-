@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-08",
+  "objective": [
+    {
+      "question": {
+        "hi": "Agar sin A = 3/4 hai, toh cos A ki value kya hogi?",
+        "en": "If sin A = 3/4, what is the value of cos A?"
+      },
+      "options": [
+        { "hi": "√7/4", "en": "√7/4" },
+        { "hi": "4/√7", "en": "4/√7" },
+        { "hi": "3/√7", "en": "3/√7" },
+        { "hi": "√7/3", "en": "√7/3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "P=3k, H=4k. B²=H²-P²=16k²-9k²=7k² → B=√7 k. cos A = B/H = √7/4",
+        "en": "P=3k, H=4k. B²=H²-P²=16k²-9k²=7k² → B=√7 k. cos A = B/H = √7/4"
+      }
+    },
+    {
+      "question": {
+        "hi": "9 sec²A − 9 tan²A ki value kya hai?",
+        "en": "What is the value of 9 sec²A − 9 tan²A?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "9", "en": "9" },
+        { "hi": "8", "en": "8" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "sec²A − tan²A = 1 (identity), isliye 9(sec²A−tan²A) = 9×1 = 9",
+        "en": "sec²A − tan²A = 1 (identity), so 9(sec²A−tan²A) = 9×1 = 9"
+      }
+    },
+    {
+      "question": {
+        "hi": "(1 + tan θ + sec θ)(1 + cot θ − cosec θ) ki value kya hogi?",
+        "en": "What is the value of (1 + tan θ + sec θ)(1 + cot θ − cosec θ)?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "2", "en": "2" },
+        { "hi": "−1", "en": "−1" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Yeh ek standard identity result hai — simplify karne pe 2 milta hai.",
+        "en": "This is a standard identity result — simplifies to 2."
+      }
+    },
+    {
+      "question": {
+        "hi": "Agar x = a sin θ aur y = a cos θ ho, toh x² + y² ka value kya hoga?",
+        "en": "If x = a sin θ and y = a cos θ, what is the value of x² + y²?"
+      },
+      "options": [
+        { "hi": "a", "en": "a" },
+        { "hi": "a²", "en": "a²" },
+        { "hi": "2a²", "en": "2a²" },
+        { "hi": "1", "en": "1" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "x²+y² = a²sin²θ + a²cos²θ = a²(sin²θ+cos²θ) = a²×1 = a²",
+        "en": "x²+y² = a²sin²θ + a²cos²θ = a²(sin²θ+cos²θ) = a²×1 = a²"
+      }
+    },
+    {
+      "question": {
+        "hi": "sin 2A = 2 sin A hoga jab A ki value kya ho?",
+        "en": "sin 2A = 2 sin A is true when A equals:"
+      },
+      "options": [
+        { "hi": "0°", "en": "0°" },
+        { "hi": "30°", "en": "30°" },
+        { "hi": "45°", "en": "45°" },
+        { "hi": "60°", "en": "60°" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "A=0° pe dono sides 0 hote hain, isliye equation satisfy hoti hai.",
+        "en": "At A=0°, both sides equal 0, so the equation holds true."
+      }
+    },
+    {
+      "question": {
+        "hi": "cot θ tan θ ka value kya hota hai?",
+        "en": "What is the value of cot θ × tan θ?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "sin θ", "en": "sin θ" },
+        { "hi": "cos θ", "en": "cos θ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "cot θ = 1/tan θ, isliye cot θ × tan θ = 1 (hamesha, kisi bhi angle ke liye)",
+        "en": "cot θ = 1/tan θ, so cot θ × tan θ = 1 (always, for any angle)"
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Prove karo: (sin θ + cos θ)² + (sin θ − cos θ)² = 2",
+        "en": "Prove that: (sin θ + cos θ)² + (sin θ − cos θ)² = 2"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "LHS = (sin²θ+2sinθcosθ+cos²θ) + (sin²θ−2sinθcosθ+cos²θ)\n= 2sin²θ + 2cos²θ\n= 2(sin²θ+cos²θ)\n= 2×1 = 2 = RHS ✓",
+        "en": "LHS = (sin²θ+2sinθcosθ+cos²θ) + (sin²θ−2sinθcosθ+cos²θ)\n= 2sin²θ + 2cos²θ\n= 2(sin²θ+cos²θ)\n= 2×1 = 2 = RHS ✓"
+      }
+    },
+    {
+      "question": {
+        "hi": "Agar tan A = 12/5 hai, toh sin A aur cos A ki value nikaalo.",
+        "en": "If tan A = 12/5, find the values of sin A and cos A."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "P=12k, B=5k. H²=P²+B²=144k²+25k²=169k² → H=13k.\nsin A = P/H = 12/13, cos A = B/H = 5/13",
+        "en": "P=12k, B=5k. H²=P²+B²=144k²+25k²=169k² → H=13k.\nsin A = P/H = 12/13, cos A = B/H = 5/13"
+      }
+    },
+    {
+      "question": {
+        "hi": "Prove karo: (cosec θ − cot θ)² = (1 − cos θ)/(1 + cos θ)",
+        "en": "Prove that: (cosec θ − cot θ)² = (1 − cos θ)/(1 + cos θ)"
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "LHS = (1/sinθ − cosθ/sinθ)² = ((1−cosθ)/sinθ)²\n= (1−cosθ)²/sin²θ\n= (1−cosθ)²/(1−cos²θ)  [kyunki sin²θ=1−cos²θ]\n= (1−cosθ)²/[(1−cosθ)(1+cosθ)]\n= (1−cosθ)/(1+cosθ) = RHS ✓",
+        "en": "LHS = (1/sinθ − cosθ/sinθ)² = ((1−cosθ)/sinθ)²\n= (1−cosθ)²/sin²θ\n= (1−cosθ)²/(1−cos²θ)  [since sin²θ=1−cos²θ]\n= (1−cosθ)²/[(1−cosθ)(1+cosθ)]\n= (1−cosθ)/(1+cosθ) = RHS ✓"
+      }
+    },
+    {
+      "question": {
+        "hi": "sin 60° cos 30° + cos 60° sin 30° ki value nikaalo, aur bataao yeh kis standard angle ki value ke barabar hai.",
+        "en": "Evaluate sin 60° cos 30° + cos 60° sin 30°, and identify which standard angle's value it equals."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4 = 1\nYeh sin 90° = 1 ke barabar hai.",
+        "en": "= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4 = 1\nThis equals sin 90° = 1."
+      }
+    },
+    {
+      "question": {
+        "hi": "Agar 3 cot A = 4, toh (i) (1−tan²A)/(1+tan²A) aur (ii) sin²A − cos²A ki values nikaalo.",
+        "en": "If 3 cot A = 4, find (i) (1−tan²A)/(1+tan²A) and (ii) sin²A − cos²A."
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "cot A = 4/3, isliye tan A = 3/4. P=3k,B=4k,H=5k. sin A=3/5, cos A=4/5.\n(i) (1−9/16)/(1+9/16) = (7/16)/(25/16) = 7/25\n(ii) sin²A−cos²A = 9/25 − 16/25 = −7/25",
+        "en": "cot A = 4/3, so tan A = 3/4. P=3k,B=4k,H=5k. sin A=3/5, cos A=4/5.\n(i) (1−9/16)/(1+9/16) = (7/16)/(25/16) = 7/25\n(ii) sin²A−cos²A = 9/25 − 16/25 = −7/25"
+      }
+    }
+  ]
+}
