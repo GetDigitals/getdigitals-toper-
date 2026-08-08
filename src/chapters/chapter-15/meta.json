@@ -1,6 +1,6 @@
 {
   "id": "chapter-15",
-  "order": 1,
+  "order": 2,
   "class": 10,
   "subject": "English",
   "board": "CBSE",
@@ -12,7 +12,10 @@
   "coinReward": 91,
   "badge": {
     "id": "grammar-master",
-    "name": { "hi": "Grammar Master", "en": "Grammar Master" },
+    "name": {
+      "hi": "Grammar Master",
+      "en": "Grammar Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

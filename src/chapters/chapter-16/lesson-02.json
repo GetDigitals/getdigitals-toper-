@@ -1,0 +1,241 @@
+{
+  "id": "chapter-16-lesson-02",
+  "chapterId": "chapter-16",
+  "order": 2,
+  "title": {
+    "en": "Case-Based Factual Passage (10 Marks)",
+    "hi": "Case-Based Factual Passage (10 Marks)"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 45,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "📊",
+    "headline": {
+      "en": "Case-Based Factual Passage — 200-250 words",
+      "hi": "Case-Based Factual Passage — 200-250 words"
+    },
+    "subtext": {
+      "en": "Data-driven passage with visual input (chart/graph/table) (10 Marks | MCQs + Short Answers (30-40 words) based on visual data)",
+      "hi": "Data-driven passage jisme visual input ho (chart/graph/table) (10 Marks | MCQs + Short Answers (30-40 words) visual data pe based)"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Data-driven passage with visual input (chart/graph/table)",
+      "hi": "Data-driven passage jisme visual input ho (chart/graph/table)"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "What is a Case-Based Factual Passage?\n\nThis passage presents factual information based on a case, situation, or data. It is accompanied by a visual input such as a chart, graph, table, or statistical data. The questions test your ability to interpret data, draw conclusions, and connect textual information with visual representation.",
+        "hi": "Case-Based Factual Passage kya hota hai?\n\nYeh passage kisi case, situation ya data pe based factual information present karti hai. Iske saath ek visual input hota hai jaise chart, graph, table ya statistical data. Questions tumhari ability test karte hain — data interpret karna, conclusions nikaalna, aur text ko visual representation se connect karna."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Types of Visual Inputs\n\n1. Bar Graphs — comparison of data\n2. Pie Charts — percentage distribution\n3. Line Graphs — trends over time\n4. Tables — organized data with rows and columns\n5. Flow Charts — processes or sequences",
+        "hi": "Visual Inputs ke Types\n\n1. Bar Graphs — data ka comparison\n2. Pie Charts — percentage distribution\n3. Line Graphs — time ke saath trends\n4. Tables — rows aur columns mein organized data\n5. Flow Charts — processes ya sequences"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🔥 4-Step Strategy for Case-Based Passages\n\n1. ANALYSE THE VISUAL (1 min) — Look at the title, labels, axes, units, and key of the visual. Understand what data is being shown before reading the passage.\n2. READ THE PASSAGE (2-3 min) — Read the passage carefully. Note how the text relates to the visual data. Underline numbers, percentages, and key facts.\n3. READ QUESTIONS (1 min) — Read all questions. Identify which questions need the visual, which need the text, and which need both.\n4. ANSWER WITH PROOF (8-9 min) — For data-based questions, always refer back to the visual. Quote numbers/percentages from the graph/table in your answer.",
+        "hi": "🔥 Case-Based Passages ke liye 4-Step Strategy\n\n1. VISUAL ANALYSE KARO (1 min) — Visual ka title, labels, axes, units aur key dekho. Passage padhne se pehle samajh lo ki kya data dikhaya gaya hai.\n2. PASSAGE PADHO (2-3 min) — Passage carefully padho. Note karo ki text visual data se kaise relate karta hai. Numbers, percentages aur key facts underline karo.\n3. QUESTIONS PADHO (1 min) — Sare questions padho. Pehchano ki kaunse questions visual se, kaunse text se, aur kaunse dono se answer honge.\n4. PROOF KE SAATH ANSWER DO (8-9 min) — Data-based questions ke liye hamesha visual ko refer karo. Graph/table se numbers/percentages quote karo apne answer mein."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "Social Media Usage Among Teenagers\n\nA recent survey conducted among 1000 teenagers aged 13-19 revealed interesting patterns in social media usage. The data shows that Instagram leads with 45% users, followed by YouTube at 30%, Snapchat at 15%, and others at 10%. Interestingly, 60% of respondents spend more than 3 hours daily on these platforms. The survey also found that 70% of teenagers use social media primarily for entertainment, while only 20% use it for educational purposes.",
+        "hi": "Social Media Usage Among Teenagers\n\nA recent survey conducted among 1000 teenagers aged 13-19 revealed interesting patterns in social media usage. The data shows that Instagram leads with 45% users, followed by YouTube at 30%, Snapchat at 15%, and others at 10%. Interestingly, 60% of respondents spend more than 3 hours daily on these platforms. The survey also found that 70% of teenagers use social media primarily for entertainment, while only 20% use it for educational purposes."
+      },
+      "steps": [
+        {
+          "en": "Q: Which platform has the highest usage among teenagers? | A: Instagram (The pie chart and passage both show Instagram at 45%, which is the highest.)",
+          "hi": "Q: Which platform has the highest usage among teenagers? | A: Instagram (The pie chart and passage both show Instagram at 45%, which is the highest.)"
+        },
+        {
+          "en": "Q: What percentage of teenagers use social media for education? | A: 20% (The passage states: 'only 20% use it for educational purposes.')",
+          "hi": "Q: What percentage of teenagers use social media for education? | A: 20% (The passage states: 'only 20% use it for educational purposes.')"
+        },
+        {
+          "en": "Q: Calculate the difference in percentage between Instagram and YouTube users. | A: The difference between Instagram (45%) and YouTube (30%) users is 15 percentage points.",
+          "hi": "Q: Calculate the difference in percentage between Instagram and YouTube users. | A: The difference between Instagram (45%) and YouTube (30%) users is 15 percentage points."
+        }
+      ],
+      "answer": {
+        "en": "See each question's answer in the steps above.",
+        "hi": "See each question's answer in the steps above."
+      }
+    },
+    {
+      "problem": {
+        "en": "Student Preferences for Extracurricular Activities\n\nA survey was conducted among 500 students of Class 10 to understand their preferences for extracurricular activities. The results revealed that sports was the most preferred activity, followed by music and dance. Surprisingly, only a small percentage showed interest in debate and public speaking. The school principal noted that this trend calls for more encouragement towards communication-based activities.",
+        "hi": "Student Preferences for Extracurricular Activities\n\nA survey was conducted among 500 students of Class 10 to understand their preferences for extracurricular activities. The results revealed that sports was the most preferred activity, followed by music and dance. Surprisingly, only a small percentage showed interest in debate and public speaking. The school principal noted that this trend calls for more encouragement towards communication-based activities."
+      },
+      "steps": [
+        {
+          "en": "Q: What percentage of students prefer Music? | A: 25%",
+          "hi": "Q: What percentage of students prefer Music? | A: 25%"
+        },
+        {
+          "en": "Q: How many students prefer Sports? (Total = 500) | A: 200",
+          "hi": "Q: How many students prefer Sports? (Total = 500) | A: 200"
+        },
+        {
+          "en": "Q: What is the combined percentage of students who prefer Dance and Debate? | A:",
+          "hi": "Q: What is the combined percentage of students who prefer Dance and Debate? | A:"
+        },
+        {
+          "en": "Q: Why does the principal want to encourage communication-based activities? | A:",
+          "hi": "Q: Why does the principal want to encourage communication-based activities? | A:"
+        }
+      ],
+      "answer": {
+        "en": "See each question's answer in the steps above.",
+        "hi": "See each question's answer in the steps above."
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "What should you do FIRST when you see a case-based passage?",
+          "hi": "Jab case-based passage dikhe toh SABSE PEHLE kya karna chahiye?"
+        },
+        "options": [
+          {
+            "en": "Read the passage completely",
+            "hi": "Passage completely padho"
+          },
+          {
+            "en": "Analyse the visual/graph",
+            "hi": "Visual/graph analyse karo"
+          },
+          {
+            "en": "Skip to the questions",
+            "hi": "Direct questions pe jao"
+          },
+          {
+            "en": "Guess the answers",
+            "hi": "Answers guess karo"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Always analyse the visual first to understand what data is being presented before reading the passage.",
+          "hi": "Hamesha visual pehle analyse karo taaki pata chale ki kya data present kiya gaya hai, passage padhne se pehle."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "For a pie chart question, what should your answer include?",
+          "hi": "Pie chart question ke liye answer mein kya include karna chahiye?"
+        },
+        "options": [
+          {
+            "en": "Your personal opinion",
+            "hi": "Apni personal opinion"
+          },
+          {
+            "en": "Exact percentages from the chart",
+            "hi": "Chart se exact percentages"
+          },
+          {
+            "en": "A creative story",
+            "hi": "Ek creative story"
+          },
+          {
+            "en": "A poem about the data",
+            "hi": "Data pe ek poem"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Data-based answers must include exact numbers/percentages from the visual to be accurate.",
+          "hi": "Data-based answers mein visual se exact numbers/percentages include karne chahiye taaki accurate ho."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "Which of these is NOT a type of visual input for case-based passages?",
+          "hi": "Inme se kaunsa case-based passages ke liye visual input ka type NAHI hai?"
+        },
+        "options": [
+          {
+            "en": "Bar Graph",
+            "hi": "Bar Graph"
+          },
+          {
+            "en": "Pie Chart",
+            "hi": "Pie Chart"
+          },
+          {
+            "en": "Novel",
+            "hi": "Novel"
+          },
+          {
+            "en": "Table",
+            "hi": "Table"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "en": "A novel is a literary work, not a visual data representation. Bar graphs, pie charts, and tables are all valid visual inputs.",
+          "hi": "Novel ek literary work hai, visual data representation nahi. Bar graphs, pie charts aur tables sab valid visual inputs hain."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "Ignoring the visual and answering only from text",
+      "hi": "Visual ignore karke sirf text se answer dena"
+    },
+    {
+      "en": "Misreading graph axes or units (e.g., thousands vs. lakhs)",
+      "hi": "Graph axes ya units galat padhna (jaise thousands vs. lakhs)"
+    },
+    {
+      "en": "Not showing calculations for data-based questions",
+      "hi": "Data-based questions mein calculations nahi dikhana"
+    },
+    {
+      "en": "Writing opinions instead of factual answers",
+      "hi": "Factual answers ki jagah opinions likhna"
+    },
+    {
+      "en": "Case-based passage = 200-250 words + visual input",
+      "hi": "Case-based passage = 200-250 words + visual input"
+    },
+    {
+      "en": "10 marks — MCQs + Short Answers based on data",
+      "hi": "10 marks — MCQs + Short Answers data pe based"
+    },
+    {
+      "en": "Always analyse visual FIRST, then read passage",
+      "hi": "Hamesha visual PEHLE analyse karo, phir passage padho"
+    },
+    {
+      "en": "Quote numbers/percentages from visual in answers",
+      "hi": "Answers mein visual se numbers/percentages quote karo"
+    }
+  ],
+  "summary": {
+    "en": "You've covered Case-Based Factual Passage (10 Marks) — practice reading passages under a timer using the strategy above before the exam.",
+    "hi": "Case-Based Factual Passage (10 Marks) cover ho gaya — exam se pehle timer laga ke upar wali strategy se passages practice karo."
+  },
+  "reward": {
+    "badge": null
+  }
+}

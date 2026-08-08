@@ -1,0 +1,241 @@
+{
+  "id": "chapter-16-lesson-01",
+  "chapterId": "chapter-16",
+  "order": 1,
+  "title": {
+    "en": "Discursive Passage (10 Marks)",
+    "hi": "Discursive Passage (10 Marks)"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 45,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "📰",
+    "headline": {
+      "en": "Discursive Passage — 400-450 words",
+      "hi": "Discursive Passage — 400-450 words"
+    },
+    "subtext": {
+      "en": "Opinion-based, argumentative, or reflective passage (10 Marks | 1 passage with MCQs + Short Answers)",
+      "hi": "Opinion-based, argumentative ya reflective passage (10 Marks | 1 passage jisme MCQs + Short Answers hain)"
+    }
+  },
+  "story": {
+    "text": {
+      "en": "Opinion-based, argumentative, or reflective passage",
+      "hi": "Opinion-based, argumentative ya reflective passage"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "en": "What is a Discursive Passage?\n\nA discursive passage presents arguments, opinions, or reflections on a topic. It may discuss both sides of an issue, explore causes and effects, or reflect on human experiences. The tone is usually formal and thought-provoking.",
+        "hi": "Discursive Passage kya hota hai?\n\nDiscursive passage ek aisa text hota hai jo kisi topic pe arguments, opinions ya reflections present karta hai. Yeh issue ke dono sides discuss kar sakta hai, causes aur effects explore kar sakta hai, ya human experiences pe reflect kar sakta hai. Tone usually formal aur thought-provoking hoti hai."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "Question Types Asked\n\n1. Comprehension questions (direct reference)\n2. Inference-based questions (reading between the lines)\n3. Vocabulary in context (synonyms, antonyms, meaning)\n4. Analytical/evaluative questions (author's opinion, tone, purpose)",
+        "hi": "Kaunse Question Types aate hain?\n\n1. Comprehension questions (direct reference se answer)\n2. Inference-based questions (lines ke beech padhna)\n3. Vocabulary in context (synonyms, antonyms, meaning)\n4. Analytical/evaluative questions (author ki opinion, tone, purpose)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "en": "🔥 3-Step Strategy to Score Full Marks\n\n1. SKIM (30 seconds) — Quickly read the title, first paragraph, and last paragraph to understand the main idea.\n2. READ QUESTIONS (1 minute) — Read ALL questions before reading the passage. This helps you know what to look for while reading.\n3. READ + ANSWER (12-13 minutes) — Read the passage carefully. Underline keywords. Answer questions directly from the text. For vocabulary, read 2-3 lines before and after the word.",
+        "hi": "🔥 Full Marks Lane ki 3-Step Strategy\n\n1. SKIM (30 seconds) — Title, first paragraph aur last paragraph quickly padho taaki main idea samajh aaye.\n2. QUESTIONS PADHO (1 minute) — Passage padhne se pehle SARE questions padho. Isse pata chalta hai ki padhte waqt kya dhoondhna hai.\n3. PADHO + ANSWER DO (12-13 minutes) — Passage carefully padho. Keywords underline karo. Questions directly text se answer karo. Vocabulary ke liye word ke pehle aur baad ki 2-3 lines padho."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "en": "The Power of Habits\n\nHabits are the invisible architecture of daily life. Research shows that about 40% of our daily actions are not decisions but habits. When a behaviour becomes automatic, the brain stops working so hard. This is why habits are powerful — they free up mental energy for other tasks. However, breaking a bad habit or forming a good one requires understanding the habit loop: cue, routine, and reward. The cue triggers the behaviour, the routine is the behaviour itself, and the reward reinforces it. By changing the routine while keeping the same cue and reward, we can transform our habits. Small changes, consistently applied, lead to remarkable results over time.",
+        "hi": "The Power of Habits\n\nHabits are the invisible architecture of daily life. Research shows that about 40% of our daily actions are not decisions but habits. When a behaviour becomes automatic, the brain stops working so hard. This is why habits are powerful — they free up mental energy for other tasks. However, breaking a bad habit or forming a good one requires understanding the habit loop: cue, routine, and reward. The cue triggers the behaviour, the routine is the behaviour itself, and the reward reinforces it. By changing the routine while keeping the same cue and reward, we can transform our habits. Small changes, consistently applied, lead to remarkable results over time."
+      },
+      "steps": [
+        {
+          "en": "Q: What percentage of daily actions are habits according to the passage? | A: 40% (The passage clearly states: 'Research shows that about 40% of our daily actions are not decisions but habits.')",
+          "hi": "Q: What percentage of daily actions are habits according to the passage? | A: 40% (The passage clearly states: 'Research shows that about 40% of our daily actions are not decisions but habits.')"
+        },
+        {
+          "en": "Q: What are the three components of the habit loop? | A: The three components of the habit loop are: cue (triggers behaviour), routine (the behaviour itself), and reward (reinforces the behaviour).",
+          "hi": "Q: What are the three components of the habit loop? | A: The three components of the habit loop are: cue (triggers behaviour), routine (the behaviour itself), and reward (reinforces the behaviour)."
+        },
+        {
+          "en": "Q: Find a word from the passage that means 'to strengthen or support'. | A: reinforces ('Reinforces' means to strengthen or support a behaviour by providing a reward.)",
+          "hi": "Q: Find a word from the passage that means 'to strengthen or support'. | A: reinforces ('Reinforces' means to strengthen or support a behaviour by providing a reward.)"
+        }
+      ],
+      "answer": {
+        "en": "See each question's answer in the steps above.",
+        "hi": "See each question's answer in the steps above."
+      }
+    },
+    {
+      "problem": {
+        "en": "The Art of Listening\n\nIn a world obsessed with speaking, listening has become a lost art. We are taught to express ourselves, to voice our opinions, to be heard. But rarely are we taught to truly listen. Active listening is not merely hearing words; it is understanding the emotions, intentions, and unspoken messages behind those words. When we listen actively, we give the speaker our full attention, make eye contact, and respond thoughtfully. This builds trust and deepens relationships. Ironically, the best communicators are often the best listeners. They understand that communication is a two-way street, and that sometimes, silence speaks louder than words.",
+        "hi": "The Art of Listening\n\nIn a world obsessed with speaking, listening has become a lost art. We are taught to express ourselves, to voice our opinions, to be heard. But rarely are we taught to truly listen. Active listening is not merely hearing words; it is understanding the emotions, intentions, and unspoken messages behind those words. When we listen actively, we give the speaker our full attention, make eye contact, and respond thoughtfully. This builds trust and deepens relationships. Ironically, the best communicators are often the best listeners. They understand that communication is a two-way street, and that sometimes, silence speaks louder than words."
+      },
+      "steps": [
+        {
+          "en": "Q: According to the passage, what has become a 'lost art'? | A: Listening",
+          "hi": "Q: According to the passage, what has become a 'lost art'? | A: Listening"
+        },
+        {
+          "en": "Q: What is the difference between hearing and active listening? | A:",
+          "hi": "Q: What is the difference between hearing and active listening? | A:"
+        },
+        {
+          "en": "Q: Find a word from the passage that means 'without being spoken'. | A:",
+          "hi": "Q: Find a word from the passage that means 'without being spoken'. | A:"
+        },
+        {
+          "en": "Q: Why does the author say 'silence speaks louder than words'? | A:",
+          "hi": "Q: Why does the author say 'silence speaks louder than words'? | A:"
+        }
+      ],
+      "answer": {
+        "en": "See each question's answer in the steps above.",
+        "hi": "See each question's answer in the steps above."
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": {
+          "en": "What should you do FIRST before reading a discursive passage?",
+          "hi": "Discursive passage padhne se pehle SABSE PEHLE kya karna chahiye?"
+        },
+        "options": [
+          {
+            "en": "Read the passage slowly",
+            "hi": "Passage slowly padho"
+          },
+          {
+            "en": "Read the questions",
+            "hi": "Questions padho"
+          },
+          {
+            "en": "Write the summary",
+            "hi": "Summary likho"
+          },
+          {
+            "en": "Guess the answers",
+            "hi": "Answers guess karo"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Always read the questions first so you know what information to look for while reading the passage.",
+          "hi": "Hamesha questions pehle padho taaki pata chale ki passage padhte waqt kya information dhoondhni hai."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "For vocabulary questions, how many lines should you read around the word?",
+          "hi": "Vocabulary questions ke liye word ke aas-paas kitni lines padhni chahiye?"
+        },
+        "options": [
+          {
+            "en": "Only the line containing the word",
+            "hi": "Sirf woh line jisme word hai"
+          },
+          {
+            "en": "2-3 lines before and after",
+            "hi": "2-3 lines pehle aur baad mein"
+          },
+          {
+            "en": "The entire paragraph",
+            "hi": "Poora paragraph"
+          },
+          {
+            "en": "No need to read context",
+            "hi": "Context padhne ki zarurat nahi"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "Reading 2-3 lines before and after gives you enough context to understand the meaning of the word.",
+          "hi": "2-3 lines pehle aur baad mein padhne se word ka meaning samajhne ke liye kaafi context milta hai."
+        }
+      },
+      {
+        "type": "mcq",
+        "question": {
+          "en": "What is the ideal word limit for short answers in Reading section?",
+          "hi": "Reading section mein short answers ke liye ideal word limit kya hai?"
+        },
+        "options": [
+          {
+            "en": "20-25 words",
+            "hi": "20-25 words"
+          },
+          {
+            "en": "30-40 words",
+            "hi": "30-40 words"
+          },
+          {
+            "en": "50-60 words",
+            "hi": "50-60 words"
+          },
+          {
+            "en": "100-120 words",
+            "hi": "100-120 words"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "en": "CBSE specifies 30-40 words for short answers in the Reading section.",
+          "hi": "CBSE ne Reading section ke short answers ke liye 30-40 words specify kiye hain."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "en": "Copying exact sentences from passage for answers — always rephrase",
+      "hi": "Passage ke exact sentences copy karke answer dena — hamesha rephrase karo"
+    },
+    {
+      "en": "Ignoring word limits — stick to 30-40 words for short answers",
+      "hi": "Word limit ignore karna — short answers mein 30-40 words mein rehna hai"
+    },
+    {
+      "en": "Answering vocabulary questions without reading context",
+      "hi": "Vocabulary questions bina context padhe answer karna"
+    },
+    {
+      "en": "Spending too much time on one question",
+      "hi": "Ek question pe zyada time waste karna"
+    },
+    {
+      "en": "Discursive passage = 400-450 words, opinion/argument based",
+      "hi": "Discursive passage = 400-450 words, opinion/argument based"
+    },
+    {
+      "en": "10 marks — MCQs + Short Answers (30-40 words)",
+      "hi": "10 marks — MCQs + Short Answers (30-40 words)"
+    },
+    {
+      "en": "Strategy: Skim → Read Questions → Read Passage → Answer",
+      "hi": "Strategy: Skim → Questions Padho → Passage Padho → Answer Do"
+    },
+    {
+      "en": "Key skills: Comprehension, Inference, Vocabulary, Analysis",
+      "hi": "Key skills: Comprehension, Inference, Vocabulary, Analysis"
+    }
+  ],
+  "summary": {
+    "en": "You've covered Discursive Passage (10 Marks) — practice reading passages under a timer using the strategy above before the exam.",
+    "hi": "Discursive Passage (10 Marks) cover ho gaya — exam se pehle timer laga ke upar wali strategy se passages practice karo."
+  },
+  "reward": {
+    "badge": null
+  }
+}
