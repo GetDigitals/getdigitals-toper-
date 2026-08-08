@@ -1,0 +1,272 @@
+{
+  "id": "chapter-08-lesson-01",
+  "chapterId": "chapter-08",
+  "order": 1,
+  "title": {
+    "hi": "Trigonometric Ratios",
+    "en": "Trigonometric Ratios"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Triangle + Measurement = Trigonometry!",
+      "en": "Triangle + Measurement = Trigonometry!"
+    },
+    "subtext": {
+      "hi": "Trigonometry ek aisi branch hai jo triangles ke angles aur sides ke beech relationship study karti hai — buildings ki height se lekar river ki width tak sab isse measure hota hai!",
+      "en": "Trigonometry studies the relationship between a triangle's angles and sides — from the height of buildings to the width of a river, all of it is measured using this!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Trigonometry do Greek words se bani hai: 'Tri' = Three (teen), 'Gon' = Sides (bhujayein), aur 'Metron' = Measure (naapna). Matlab: triangle ke teeno sides aur angles ko measure karna! Real life mein iska use hota hai buildings ki height, stars ki distance, flight paths, aur music waves tak measure karne mein.",
+      "en": "Trigonometry comes from Greek words: 'Tri' = Three, 'Gon' = Sides, and 'Metron' = Measure. It literally means measuring a triangle's sides and angles! In real life it's used to measure the height of buildings, the distance of stars, flight paths, and even music waves."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Trigonometry shuru hoti hai Right-Angled Triangle se (90° wala triangle). Kisi angle θ ke reference se, triangle ki 3 sides ke naam hote hain: Hypotenuse (H) — sabse badi side, 90° angle ke saamne; Perpendicular/Opposite (P) — jo angle θ ke saamne hoti hai; Base/Adjacent (B) — jo angle θ ke bagal wali side hoti hai.",
+        "en": "Trigonometry starts with a Right-Angled Triangle (the one with a 90° angle). With respect to an angle θ, the triangle's 3 sides are named: Hypotenuse (H) — the longest side, opposite the 90° angle; Perpendicular/Opposite (P) — the side opposite angle θ; Base/Adjacent (B) — the side next to angle θ."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Pythagoras Theorem: H² = P² + B²"
+    },
+    {
+      "type": "formula",
+      "content": "sin θ = P/H    cos θ = B/H    tan θ = P/B\ncosec θ = H/P    sec θ = H/B    cot θ = B/P"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yaad rakhne ka mnemonic: SOH CAH TOA — Sin=Opposite/Hypotenuse, Cos=Adjacent/Hypotenuse, Tan=Opposite/Adjacent. Baaki teen (cosec, sec, cot) pehle teen ke reciprocals hain.",
+        "en": "Memory trick: SOH CAH TOA — Sin=Opposite/Hypotenuse, Cos=Adjacent/Hypotenuse, Tan=Opposite/Adjacent. The other three (cosec, sec, cot) are the reciprocals of the first three."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek zaroori baat: ye ratios sirf angle θ par depend karte hain, triangle ke size par nahi — chahe triangle chhota ho ya bada, same angle θ ke liye ratios hamesha same rahenge.",
+        "en": "An important point: these ratios depend only on the angle θ, not on the triangle's size — whether the triangle is small or large, the ratios for the same angle θ stay exactly the same."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🔺",
+    "caption": {
+      "hi": "Hypotenuse hamesha sabse badi side hoti hai — 90° angle ke bilkul saamne.",
+      "en": "The Hypotenuse is always the longest side — directly opposite the 90° angle."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek right-angled triangle mein, angle θ ke saamne perpendicular = 5, base = 12. Sare trigonometric ratios nikaalo.",
+        "en": "In a right-angled triangle, for angle θ, perpendicular = 5 and base = 12. Find all trigonometric ratios."
+      },
+      "steps": [
+        {
+          "hi": "Pehle Hypotenuse nikaalo: H² = P² + B² = 5² + 12² = 25 + 144 = 169",
+          "en": "First find the Hypotenuse: H² = P² + B² = 5² + 12² = 25 + 144 = 169"
+        },
+        {
+          "hi": "H = √169 = 13",
+          "en": "H = √169 = 13"
+        },
+        {
+          "hi": "sin θ = 5/13, cos θ = 12/13, tan θ = 5/12",
+          "en": "sin θ = 5/13, cos θ = 12/13, tan θ = 5/12"
+        },
+        {
+          "hi": "cosec θ = 13/5, sec θ = 13/12, cot θ = 12/5",
+          "en": "cosec θ = 13/5, sec θ = 13/12, cot θ = 12/5"
+        },
+        {
+          "hi": "Check: sin²θ + cos²θ = 25/169 + 144/169 = 169/169 = 1 ✓",
+          "en": "Check: sin²θ + cos²θ = 25/169 + 144/169 = 169/169 = 1 ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek triangle mein P = 8, B = 15. Sare trigonometric ratios nikaalo.",
+        "en": "In a triangle, P = 8, B = 15. Find all trigonometric ratios."
+      },
+      "steps": [
+        {
+          "hi": "H² = 8² + 15² = 64 + 225 = 289 → H = 17",
+          "en": "H² = 8² + 15² = 64 + 225 = 289 → H = 17"
+        },
+        {
+          "hi": "sin θ = 8/17, cos θ = 15/17, tan θ = 8/15",
+          "en": "sin θ = 8/17, cos θ = 15/17, tan θ = 8/15"
+        },
+        {
+          "hi": "cosec θ = 17/8, sec θ = 17/15, cot θ = 15/8",
+          "en": "cosec θ = 17/8, sec θ = 17/15, cot θ = 15/8"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Right-angled triangle mein sabse badi side kaunsi hoti hai?",
+          "en": "In a right-angled triangle, which side is the longest?"
+        },
+        "options": [
+          {
+            "hi": "Base",
+            "en": "Base"
+          },
+          {
+            "hi": "Perpendicular",
+            "en": "Perpendicular"
+          },
+          {
+            "hi": "Hypotenuse",
+            "en": "Hypotenuse"
+          },
+          {
+            "hi": "Koi nahi",
+            "en": "None"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Hypotenuse hamesha 90° angle ke saamne aur sabse badi hoti hai.",
+          "en": "The hypotenuse is always opposite the 90° angle and is the longest side."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "sin θ ka formula kya hai?",
+          "en": "What is the formula for sin θ?"
+        },
+        "options": [
+          {
+            "hi": "B/H",
+            "en": "B/H"
+          },
+          {
+            "hi": "P/H",
+            "en": "P/H"
+          },
+          {
+            "hi": "H/P",
+            "en": "H/P"
+          },
+          {
+            "hi": "P/B",
+            "en": "P/B"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "sin θ = Perpendicular/Hypotenuse = P/H",
+          "en": "sin θ = Perpendicular/Hypotenuse = P/H"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "cosec θ = 1/sin θ",
+          "en": "cosec θ = 1/sin θ"
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — cosec θ, sin θ ka reciprocal hai.",
+          "en": "True — cosec θ is the reciprocal of sin θ."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Agar tan A = 4/3 hai, toh sin A kya hoga?",
+          "en": "If tan A = 4/3, what is sin A?"
+        },
+        "options": [
+          {
+            "hi": "3/5",
+            "en": "3/5"
+          },
+          {
+            "hi": "4/5",
+            "en": "4/5"
+          },
+          {
+            "hi": "5/4",
+            "en": "5/4"
+          },
+          {
+            "hi": "5/3",
+            "en": "5/3"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan A=4/3 → P=4k,B=3k → H=5k (Pythagoras) → sin A=P/H=4/5",
+          "en": "tan A=4/3 → P=4k,B=3k → H=5k (Pythagoras) → sin A=P/H=4/5"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Ratios ko unke reciprocals se match karo",
+          "en": "Match each ratio to its reciprocal"
+        },
+        "pairs": [
+          {
+            "left": "sin θ",
+            "right": "cosec θ"
+          },
+          {
+            "left": "cos θ",
+            "right": "sec θ"
+          },
+          {
+            "left": "tan θ",
+            "right": "cot θ"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "sin θ = P/H, cos θ = B/H, tan θ = P/B — SOH CAH TOA se yaad rakho",
+      "en": "sin θ = P/H, cos θ = B/H, tan θ = P/B — remember with SOH CAH TOA"
+    },
+    {
+      "hi": "cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ",
+      "en": "cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ"
+    },
+    {
+      "hi": "Pehle Hypotenuse nikaalo Pythagoras se, phir ratios nikaalo",
+      "en": "Find the Hypotenuse first using Pythagoras, then find the ratios"
+    },
+    {
+      "hi": "Ratios sirf angle par depend karte hain, triangle ke size par nahi",
+      "en": "Ratios depend only on the angle, not on the triangle's size"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum trigonometric ratios define kar sakte ho aur ek ratio se baaki sab nikaal sakte ho. Agle lesson mein hum seekhenge kuch standard angles (0°,30°,45°,60°,90°) ke exact ratio values — jo har board exam mein use hoti hain.",
+    "en": "You can now define the trigonometric ratios and find the rest from just one. Next, we'll learn the exact ratio values for some standard angles (0°,30°,45°,60°,90°) — used in every board exam."
+  },
+  "reward": {
+    "badge": null
+  }
+}
