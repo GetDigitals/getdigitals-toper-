@@ -14,7 +14,7 @@ import { getSubjectBySlug, DEFAULT_SUBJECT_SLUG } from '../config/subjects';
  * cached by the service worker on first visit.
  *
  * ACCESS: the route itself only requires login (see App.jsx) — it does
- * NOT require payment approval anymore, because the 2021 solved paper is
+ * NOT require payment approval anymore, because the 2020 solved paper is
  * free for every subject. Every other paper checks `isApproved` right
  * here and, if the student hasn't paid, shows a lock instead of the
  * paper and sends them to /payment-pending on tap.
@@ -52,8 +52,8 @@ export default function PreviousPapers() {
       </h1>
       <p className="text-[13px] text-[var(--color-muted)] mb-5">
         {isEnglish
-          ? '2021 solved paper is free — rest unlock with your plan'
-          : '2021 wala solved paper free hai — baaki plan ke saath unlock hote hain'}
+          ? '2020 solved paper is free — rest unlock with your plan'
+          : '2020 wala solved paper free hai — baaki plan ke saath unlock hote hain'}
       </p>
 
       <div className="flex gap-2 mb-5">
