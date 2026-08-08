@@ -1,0 +1,295 @@
+{
+  "id": "chapter-08-lesson-04",
+  "chapterId": "chapter-08",
+  "order": 4,
+  "title": {
+    "hi": "Trigonometric Identities",
+    "en": "Trigonometric Identities"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 65,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🆔",
+    "headline": {
+      "hi": "Jadoo Ke Formulas Jo Har Proof Mein Kaam Aate Hain!",
+      "en": "Magic Formulas That Work in Every Proof!"
+    },
+    "subtext": {
+      "hi": "Identities woh equations hain jo har angle θ ke liye true hoti hain — CBSE exams mein directly 3-4 marks ke questions aate hain.",
+      "en": "Identities are equations that are true for every angle θ — CBSE exams directly ask 3-4 mark questions on these."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Equation sirf kuch specific values ke liye true hoti hai (jaise 2x=4 sirf x=2 par true hai), lekin Identity har valid value ke liye true hoti hai (jaise sin²θ+cos²θ=1, har θ ke liye). CBSE mein mainly 3 identities padhni hain, aur inhe prove karna aur apply karna dono aana chahiye.",
+      "en": "An equation is true only for specific values (like 2x=4 is true only at x=2), but an Identity is true for every valid value (like sin²θ+cos²θ=1, true for every θ). CBSE mainly covers 3 identities, and you need to be able to both prove and apply them."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "(1) sin²θ + cos²θ = 1\n(2) 1 + tan²θ = sec²θ\n(3) 1 + cot²θ = cosec²θ"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof of Identity (1): Right triangle mein sin θ=P/H, cos θ=B/H. sin²θ+cos²θ = (P²+B²)/H². Pythagoras se P²+B²=H², isliye ye H²/H²=1 ban jaata hai.",
+        "en": "Proof of Identity (1): In a right triangle, sin θ=P/H, cos θ=B/H. sin²θ+cos²θ = (P²+B²)/H². By Pythagoras, P²+B²=H², so this becomes H²/H²=1."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof of Identity (2): Identity (1) ko cos²θ se divide karo: (sin²θ/cos²θ) + (cos²θ/cos²θ) = 1/cos²θ, jo ban jaata hai tan²θ + 1 = sec²θ.",
+        "en": "Proof of Identity (2): Divide Identity (1) by cos²θ: (sin²θ/cos²θ) + (cos²θ/cos²θ) = 1/cos²θ, which gives tan²θ + 1 = sec²θ."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof of Identity (3): Identity (1) ko sin²θ se divide karo: (sin²θ/sin²θ) + (cos²θ/sin²θ) = 1/sin²θ, jo ban jaata hai 1 + cot²θ = cosec²θ.",
+        "en": "Proof of Identity (3): Divide Identity (1) by sin²θ: (sin²θ/sin²θ) + (cos²θ/sin²θ) = 1/sin²θ, which gives 1 + cot²θ = cosec²θ."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof strategy: har proof mein LHS ko step-by-step simplify karo (sin/cos mein convert karke) jab tak RHS ke barabar na aa jaaye. Bonus: (sin θ ± cos θ)² = 1 ± 2 sin θ cos θ — bahut kaam aata hai!",
+        "en": "Proof strategy: in every proof, simplify the LHS step-by-step (by converting to sin/cos) until it matches the RHS. Bonus: (sin θ ± cos θ)² = 1 ± 2 sin θ cos θ — very useful!"
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "✨",
+    "caption": {
+      "hi": "Teeno identities Pythagoras Theorem se hi derive hoti hain — sirf divide karne ka tareeka alag hai.",
+      "en": "All three identities are derived from the Pythagoras Theorem — only the way you divide differs."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Prove karo: sec θ (1 − sin θ)(sec θ + tan θ) = 1",
+        "en": "Prove that: sec θ (1 − sin θ)(sec θ + tan θ) = 1"
+      },
+      "steps": [
+        {
+          "hi": "(1−sin θ)(sec θ+tan θ) multiply karo = sec θ+tan θ−sin θ sec θ−sin θ tan θ",
+          "en": "Multiply (1−sin θ)(sec θ+tan θ) = sec θ+tan θ−sin θ sec θ−sin θ tan θ"
+        },
+        {
+          "hi": "sec θ=1/cos θ, tan θ=sin θ/cos θ substitute karo: = 1/cos θ+sin θ/cos θ−sin θ/cos θ−sin²θ/cos θ",
+          "en": "Substitute sec θ=1/cos θ, tan θ=sin θ/cos θ: = 1/cos θ+sin θ/cos θ−sin θ/cos θ−sin²θ/cos θ"
+        },
+        {
+          "hi": "= 1/cos θ − sin²θ/cos θ = (1−sin²θ)/cos θ = cos²θ/cos θ = cos θ",
+          "en": "= 1/cos θ − sin²θ/cos θ = (1−sin²θ)/cos θ = cos²θ/cos θ = cos θ"
+        },
+        {
+          "hi": "LHS = sec θ × cos θ = (1/cos θ) × cos θ = 1 = RHS ✓",
+          "en": "LHS = sec θ × cos θ = (1/cos θ) × cos θ = 1 = RHS ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "tan A ko sec A ki terms mein likho.",
+        "en": "Express tan A in terms of sec A."
+      },
+      "steps": [
+        {
+          "hi": "Identity (2): 1 + tan²A = sec²A",
+          "en": "Identity (2): 1 + tan²A = sec²A"
+        },
+        {
+          "hi": "tan²A = sec²A − 1",
+          "en": "tan²A = sec²A − 1"
+        },
+        {
+          "hi": "tan A = √(sec²A − 1)",
+          "en": "tan A = √(sec²A − 1)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar sin θ + cos θ = 7/5 hai, toh sin θ cos θ nikaalo.",
+        "en": "If sin θ + cos θ = 7/5, find sin θ cos θ."
+      },
+      "steps": [
+        {
+          "hi": "Dono sides ka square karo: (sin θ+cos θ)² = (7/5)²",
+          "en": "Square both sides: (sin θ+cos θ)² = (7/5)²"
+        },
+        {
+          "hi": "sin²θ+cos²θ+2 sin θ cos θ = 49/25",
+          "en": "sin²θ+cos²θ+2 sin θ cos θ = 49/25"
+        },
+        {
+          "hi": "1 + 2 sin θ cos θ = 49/25 [kyunki sin²θ+cos²θ=1]",
+          "en": "1 + 2 sin θ cos θ = 49/25 [since sin²θ+cos²θ=1]"
+        },
+        {
+          "hi": "2 sin θ cos θ = 49/25 − 1 = 24/25 → sin θ cos θ = 12/25",
+          "en": "2 sin θ cos θ = 49/25 − 1 = 24/25 → sin θ cos θ = 12/25"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "sin² 30° + cos² 30° = ?",
+          "en": "sin² 30° + cos² 30° = ?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "√3/2",
+            "en": "√3/2"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Identity (1) se: sin²θ+cos²θ hamesha 1 hota hai.",
+          "en": "By Identity (1): sin²θ+cos²θ always equals 1."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "cosec²θ − cot²θ = 1",
+          "en": "cosec²θ − cot²θ = 1"
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — Identity (3), 1+cot²θ=cosec²θ, ko rearrange karne se milta hai.",
+          "en": "True — this comes from rearranging Identity (3), 1+cot²θ=cosec²θ."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "(sin θ + cos θ)² = ?",
+          "en": "(sin θ + cos θ)² = ?"
+        },
+        "options": [
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "1 + sin θ cos θ",
+            "en": "1 + sin θ cos θ"
+          },
+          {
+            "hi": "1 + 2 sin θ cos θ",
+            "en": "1 + 2 sin θ cos θ"
+          },
+          {
+            "hi": "sin²θ + cos²θ",
+            "en": "sin²θ + cos²θ"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Expand karo: sin²θ+2sinθcosθ+cos²θ = 1+2sinθcosθ",
+          "en": "Expand: sin²θ+2sinθcosθ+cos²θ = 1+2sinθcosθ"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Agar sin θ = 1/2 hai, toh cos²θ kya hoga?",
+          "en": "If sin θ = 1/2, what is cos²θ?"
+        },
+        "options": [
+          {
+            "hi": "1/4",
+            "en": "1/4"
+          },
+          {
+            "hi": "3/4",
+            "en": "3/4"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "√3/2",
+            "en": "√3/2"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "cos²θ = 1−sin²θ = 1−1/4 = 3/4",
+          "en": "cos²θ = 1−sin²θ = 1−1/4 = 3/4"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Teeno identities ko match karo",
+          "en": "Match the three identities"
+        },
+        "pairs": [
+          {
+            "left": "sin²θ + cos²θ",
+            "right": "1"
+          },
+          {
+            "left": "1 + tan²θ",
+            "right": "sec²θ"
+          },
+          {
+            "left": "1 + cot²θ",
+            "right": "cosec²θ"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Identity (1): sin²θ+cos²θ=1 (sabse important, yahi se baaki do derive hoti hain)",
+      "en": "Identity (1): sin²θ+cos²θ=1 (most important, the other two derive from it)"
+    },
+    {
+      "hi": "Identity (2): 1+tan²θ=sec²θ (cos²θ se divide karke)",
+      "en": "Identity (2): 1+tan²θ=sec²θ (by dividing by cos²θ)"
+    },
+    {
+      "hi": "Identity (3): 1+cot²θ=cosec²θ (sin²θ se divide karke)",
+      "en": "Identity (3): 1+cot²θ=cosec²θ (by dividing by sin²θ)"
+    },
+    {
+      "hi": "Proofs mein LHS ko simplify karo, RHS ke barabar lao — (sin θ±cos θ)²=1±2sinθcosθ bahut kaam aata hai",
+      "en": "In proofs, simplify the LHS to match the RHS — (sin θ±cos θ)²=1±2sinθcosθ is very useful"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tumhe teeno trigonometric identities aur unki proofs aati hain, aur inhe apply karke problems solve kar sakte ho. Agle (aakhri) lesson mein hum ye sab concepts board-exam-level important questions mein practice karenge.",
+    "en": "You now know all three trigonometric identities and their proofs, and can apply them to solve problems. In the next (final) lesson, we'll practice all of this in board-exam-level important questions."
+  },
+  "reward": {
+    "badge": null
+  }
+}
