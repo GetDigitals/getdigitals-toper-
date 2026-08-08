@@ -10,11 +10,21 @@ service cloud.firestore {
       allow create: if request.auth != null && request.auth.uid == userId
                     && request.resource.data.paymentStatus == 'pending';
 
-      // On any update (device rebind, lastLoginAt, etc.), paymentStatus must
-      // stay UNCHANGED. This is what actually blocks free access — a student
-      // cannot self-approve their own payment by editing client-side data.
-      // Only Ashok, editing directly in the Firebase console (which uses
-      // admin privileges and bypasses these rules), can flip it to 'approved'.
+      // On any update (device rebind, lastLoginAt, referral reward claims,
+      // etc.), paymentStatus must stay UNCHANGED. This is what actually
+      // blocks free access — a student cannot self-approve their own
+      // payment by editing client-side data. Only Ashok, editing directly
+      // in the Firebase console (which uses admin privileges and bypasses
+      // these rules), can flip it to 'approved'.
+      //
+      // Note: rewardUnlockChapterId/rewardUnlockExpiresAt/
+      // rewardClaimedForCount (Refer & Earn's 2-referrals-for-a-7-day-
+      // chapter-unlock reward) are NOT cross-checked here against the
+      // student's actual referral count — Firestore rules can't do that
+      // kind of cross-collection validation without a Cloud Function. This
+      // app has no backend, so that reward is an accepted, low-stakes,
+      // client-side-trust feature (same trust model as the payment
+      // approval itself and the soft single-device lock).
       allow update: if request.auth != null && request.auth.uid == userId
                     && request.resource.data.paymentStatus == resource.data.paymentStatus;
     }

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
-import { requiresPayment } from '../App';
+import { isChapterLocked, getRewardDaysLeft } from '../App';
 import { t, langCode } from '../utils/i18n';
 import TopStatsBar from '../components/TopStatsBar';
 import ChapterCard from '../components/ChapterCard';
@@ -24,7 +24,7 @@ export default function Home() {
   const continueChapter = chapters.find((ch) => {
     const lessons = getLessonsForChapter(ch.id);
     const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;
-    const accessible = !requiresPayment(ch) || isApproved;
+    const accessible = !isChapterLocked(ch, { isApproved, profile });
     return accessible && done < lessons.length;
   }) || chapters[0];
 
@@ -101,7 +101,8 @@ export default function Home() {
               chapter={ch}
               index={i}
               unlocked={true}
-              paymentLocked={requiresPayment(ch) && !isApproved}
+              paymentLocked={isChapterLocked(ch, { isApproved, profile })}
+              rewardDaysLeft={getRewardDaysLeft(ch, profile)}
               progressPercent={(() => {
                 const lessons = getLessonsForChapter(ch.id);
                 const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;

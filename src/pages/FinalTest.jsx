@@ -2,6 +2,8 @@ import { useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getChapterById, getFinalTest, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { useAuth } from '../store/AuthContext';
+import { requiresPayment } from '../App';
 import QuizEngine from '../components/QuizEngine';
 import { localizeQuestions, langCode } from '../utils/i18n';
 
@@ -22,6 +24,7 @@ export default function FinalTest() {
   const finalTest = getFinalTest(chapterId);
   const lessons = getLessonsForChapter(chapterId);
   const { recordFinalTest, settings } = useProgress();
+  const { isApproved } = useAuth();
   const lang = langCode(settings.language);
   const [started, setStarted] = useState(false);
   const [result, setResult] = useState(null);
@@ -68,6 +71,20 @@ export default function FinalTest() {
             </div>
           </div>
         </div>
+        {!requiresPayment(chapter) && !isApproved && result.score >= 80 && (
+          <div className="rounded-2xl p-5 bg-gradient-to-br from-[var(--color-saffron)]/15 to-transparent border border-[var(--color-saffron)]/40 mb-6 text-left">
+            <p className="text-[15px] font-semibold mb-1">🔥 {result.score}% — solid score!</p>
+            <p className="text-[13px] text-[var(--color-muted)] mb-4">
+              Tum is momentum pe achhi tarah ho — poora course unlock karke ise sab chapters pe le jao.
+            </p>
+            <button
+              onClick={() => navigate('/payment-pending', { state: { from: `/chapter/${chapter.id}` } })}
+              className="w-full py-3 rounded-xl bg-[var(--color-saffron)] font-semibold text-[14px]"
+            >
+              Poora course unlock karo →
+            </button>
+          </div>
+        )}
         <button
           onClick={() => navigate(`/certificate/${chapter.id}`)}
           className="w-full py-3.5 rounded-xl bg-[var(--color-saffron)] font-semibold shadow-[var(--shadow-glow-saffron)] mb-3"

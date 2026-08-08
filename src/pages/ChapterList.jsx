@@ -3,7 +3,7 @@ import { useNavigate, useParams, Navigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
-import { requiresPayment } from '../App';
+import { isChapterLocked, getRewardDaysLeft } from '../App';
 import { getSubjectBySlug, DEFAULT_SUBJECT_SLUG } from '../config/subjects';
 import ChapterCard from '../components/ChapterCard';
 
@@ -22,7 +22,7 @@ export default function ChapterList() {
     [subjectConfig]
   );
   const { progress } = useProgress();
-  const { isApproved } = useAuth();
+  const { isApproved, profile } = useAuth();
   const [query, setQuery] = useState('');
 
   // Unknown slug in the URL (typo, old bookmark) -> fall back to Maths instead of a blank/broken screen
@@ -55,7 +55,8 @@ export default function ChapterList() {
               chapter={ch}
               index={i}
               unlocked={true}
-              paymentLocked={requiresPayment(ch) && !isApproved}
+              paymentLocked={isChapterLocked(ch, { isApproved, profile })}
+              rewardDaysLeft={getRewardDaysLeft(ch, profile)}
               progressPercent={pct}
             />
           );

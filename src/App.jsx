@@ -44,6 +44,53 @@ export function requiresPayment(chapter) {
   return !isFirstChapterOfSubject(chapter);
 }
 
+/**
+ * Single source of truth for "can this student open this paid chapter
+ * right now" — combines the real payment approval with a temporary
+ * Refer & Earn reward unlock (2 referrals = 1 chosen paid chapter free
+ * for 7 days, see ReferAndEarn.jsx). Every place that decides whether to
+ * show a 💰 lock or let the student in calls this ONE function, so the
+ * reward logic only has to be right in one place.
+ *
+ * Note on trust model: like the payment approval itself (manually set by
+ * Ashok in the Firebase console) and the single-device lock (already
+ * soft/lenient by design), this reward is enforced client-side and
+ * Firestore rules don't cross-check it against the student's actual
+ * referral count — a technically determined student could grant this to
+ * themselves via devtools without really referring anyone. Given it's a
+ * time-limited unlock of one chapter (not permanent, not the real
+ * payment gate), this is an accepted low-stakes trust gap, consistent
+ * with how the rest of this app is built.
+ */
+export function isChapterLocked(chapter, { isApproved, profile }) {
+  if (!requiresPayment(chapter)) return false;
+  if (isApproved) return false;
+  if (
+    profile?.rewardUnlockChapterId === chapter.id &&
+    profile?.rewardUnlockExpiresAt &&
+    Date.now() < toMillis(profile.rewardUnlockExpiresAt)
+  ) {
+    return false;
+  }
+  return true;
+}
+
+/** Days left on a reward unlock for this specific chapter, or null if none/expired. Used to show "⏰ 5d left" on the chapter card instead of a bare open lock. */
+export function getRewardDaysLeft(chapter, profile) {
+  if (!chapter || profile?.rewardUnlockChapterId !== chapter.id || !profile?.rewardUnlockExpiresAt) return null;
+  const msLeft = toMillis(profile.rewardUnlockExpiresAt) - Date.now();
+  if (msLeft <= 0) return null;
+  return Math.max(1, Math.ceil(msLeft / (24 * 60 * 60 * 1000)));
+}
+
+/** Firestore Timestamp fields can arrive as a Timestamp object (.toMillis()), a plain {seconds} shape, or already-a-number — normalize once. */
+function toMillis(value) {
+  if (value == null) return 0;
+  if (typeof value.toMillis === 'function') return value.toMillis();
+  if (typeof value.seconds === 'number') return value.seconds * 1000;
+  return typeof value === 'number' ? value : 0;
+}
+
 /** Wrap any route that just requires a signed-in user (payment status doesn't matter here). */
 function RequireLogin({ children }) {
   const { user, authLoading } = useAuth();
@@ -63,13 +110,13 @@ const RequireAuth = RequireLogin;
  * headed so we can send them back after.
  */
 function RequireChapterAccess({ children }) {
-  const { user, authLoading, isApproved, profileLoading } = useAuth();
+  const { user, authLoading, isApproved, profile, profileLoading } = useAuth();
   const { chapterId } = useParams();
   const location = useLocation();
   if (authLoading || profileLoading) return null;
   if (!user) return <Navigate to="/login" replace />;
   const chapter = getChapterById(chapterId);
-  if (requiresPayment(chapter) && !isApproved) {
+  if (isChapterLocked(chapter, { isApproved, profile })) {
     return <Navigate to="/payment-pending" replace state={{ from: location.pathname }} />;
   }
   return children;
