@@ -1,0 +1,24 @@
+{
+  "id": "chapter-69",
+  "order": 22,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Consumer Rights",
+  "icon": "🛡️",
+  "color": "#C084FC",
+  "description": "Consumer rights and protection in India — the Consumer Protection Act and how consumers can seek redressal. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-69-master",
+    "name": {
+      "hi": "Consumer Rights Master",
+      "en": "Consumer Rights Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
