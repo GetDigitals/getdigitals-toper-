@@ -1,0 +1,91 @@
+{
+  "chapterId": "chapter-04",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": { "hi": "Standard form of a quadratic equation kya hai?", "en": "What is the standard form of a quadratic equation?" },
+      "options": [
+        { "hi": "ax + b = 0", "en": "ax + b = 0" },
+        { "hi": "ax² + bx + c = 0, a≠0", "en": "ax² + bx + c = 0, a≠0" },
+        { "hi": "ax³ + bx² + c = 0", "en": "ax³ + bx² + c = 0" },
+        { "hi": "ax² + b = 0", "en": "ax² + b = 0" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Standard form hamesha ax²+bx+c=0 hoti hai, jahan a≠0.", "en": "The standard form is always ax²+bx+c=0, where a≠0." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Agar discriminant negative ho, toh quadratic equation ke real roots hote hain.", "en": "If the discriminant is negative, the quadratic equation has real roots." },
+      "correct": false,
+      "explanation": { "hi": "D<0 hone pe koi real roots nahi hote — roots imaginary hote hain.", "en": "When D<0, there are no real roots — the roots are imaginary." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "x² - 9 = 0 ke roots kya hain?", "en": "What are the roots of x² - 9 = 0?" },
+      "options": [
+        { "hi": "3, -3", "en": "3, -3" },
+        { "hi": "9, -9", "en": "9, -9" },
+        { "hi": "sirf 3", "en": "only 3" },
+        { "hi": "3, 9", "en": "3, 9" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "x²=9 → x=±3.", "en": "x²=9 → x=±3." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Discriminant D = b² - 4ac hone pe D>0 ka matlab kya hai?", "en": "If discriminant D = b² - 4ac and D>0, what does it mean?" },
+      "options": [
+        { "hi": "No real roots", "en": "No real roots" },
+        { "hi": "Do equal real roots", "en": "Two equal real roots" },
+        { "hi": "Do distinct real roots", "en": "Two distinct real roots" },
+        { "hi": "Teen roots", "en": "Three roots" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "D>0 hone pe do alag-alag real roots milte hain.", "en": "When D>0, there are two distinct real roots." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Completing the square method sirf tab use ho sakta hai jab equation factorize na ho.", "en": "The completing-the-square method can only be used when the equation cannot be factorized." },
+      "correct": false,
+      "explanation": { "hi": "Galat — completing the square kisi bhi quadratic equation ke liye use ho sakta hai, factorize ho ya na ho.", "en": "False — completing the square can be used for ANY quadratic equation, whether or not it factorizes." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "x² + 4x + 4 = 0 ke roots kaisi hain?", "en": "What kind of roots does x² + 4x + 4 = 0 have?" },
+      "options": [
+        { "hi": "Distinct real", "en": "Distinct real" },
+        { "hi": "Equal real (-2, -2)", "en": "Equal real (-2, -2)" },
+        { "hi": "No real roots", "en": "No real roots" },
+        { "hi": "Undefined", "en": "Undefined" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "x²+4x+4=(x+2)², isliye equal roots x=-2, -2.", "en": "x²+4x+4=(x+2)², so equal roots x=-2, -2." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "2x² + x - 6 = 0 ko factorize karke roots batao.", "en": "Factorize 2x² + x - 6 = 0 and find its roots." },
+      "options": [
+        { "hi": "x=3/2, -2", "en": "x=3/2, -2" },
+        { "hi": "x=2, -3/2", "en": "x=2, -3/2" },
+        { "hi": "x=-3/2, 2", "en": "x=-3/2, 2" },
+        { "hi": "x=6, -1", "en": "x=6, -1" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "2x²+x-6=(2x-3)(x+2)=0 → x=3/2 ya x=-2.", "en": "2x²+x-6=(2x-3)(x+2)=0 → x=3/2 or x=-2." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Quadratic formula mein '±' sign kyun aata hai?", "en": "Why does the '±' sign appear in the quadratic formula?" },
+      "options": [
+        { "hi": "Kyunki quadratic equation ke do roots ho sakte hain", "en": "Because a quadratic equation can have two roots" },
+        { "hi": "Yeh galti se aa gaya", "en": "It's a typo" },
+        { "hi": "Sirf negative roots ke liye", "en": "Only for negative roots" },
+        { "hi": "Koi reason nahi", "en": "No particular reason" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "'±' isliye hai kyunki square root positive ya negative dono ho sakti hai, jisse do possible roots milte hain.", "en": "'±' exists because a square root can be positive or negative, giving two possible roots." }
+    }
+  ]
+}
