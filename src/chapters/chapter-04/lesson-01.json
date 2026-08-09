@@ -1,0 +1,391 @@
+{
+  "id": "chapter-04-lesson-01",
+  "chapterId": "chapter-04",
+  "order": 1,
+  "title": {
+    "hi": "Introduction to Quadratic Equations",
+    "en": "Introduction to Quadratic Equations"
+  },
+  "estimatedMinutes": 10,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Quadratic Equations",
+      "en": "Quadratic Equations"
+    },
+    "subtext": {
+      "hi": "Where x meets its square!",
+      "en": "Where x meets its square!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Quadratic equation woh equation hoti hai jisme variable ki highest power 2 hoti hai. Yeh Class 10 ka sabse important topic hai aur har saal board exams mein aata hai!",
+      "en": "Quadratic equation woh equation hoti hai jisme variable ki highest power 2 hoti hai. Yeh Class 10 ka sabse important topic hai aur har saal board exams mein aata hai!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "What is a Quadratic Equation?\nEk quadratic equation polynomial equation hai jiska degree 2 hota hai. Isme variable x ki maximum power 2 hoti hai.\n• Standard Form: ax² + bx + c = 0\n• a, b, c = real numbers (coefficients)\n• a ≠ 0 (agar a=0 ho toh linear equation ban jaayegi)\n• x = variable (unknown value)\n• ax² = quadratic term, bx = linear term, c = constant term\n\n💡 Remember: a kabhi bhi 0 nahi hona chahiye, warna quadratic equation nahi rahegi!",
+        "en": "What is a Quadratic Equation?\nEk quadratic equation polynomial equation hai jiska degree 2 hota hai. Isme variable x ki maximum power 2 hoti hai.\n• Standard Form: ax² + bx + c = 0\n• a, b, c = real numbers (coefficients)\n• a ≠ 0 (agar a=0 ho toh linear equation ban jaayegi)\n• x = variable (unknown value)\n• ax² = quadratic term, bx = linear term, c = constant term\n\n💡 Remember: a kabhi bhi 0 nahi hona chahiye, warna quadratic equation nahi rahegi!"
+      }
+    },
+    {
+      "type": "formula",
+      "content": {
+        "hi": "Standard Form of Quadratic Equation\nax² + bx + c = 0,    where a ≠ 0\nYeh quadratic equation ka standard form hai. Har quadratic equation ko is form mein likha ja sakta hai.\nExample: 2x² - 5x + 3 = 0 mein a=2, b=-5, c=3",
+        "en": "Standard Form of Quadratic Equation\nax² + bx + c = 0,    where a ≠ 0\nYeh quadratic equation ka standard form hai. Har quadratic equation ko is form mein likha ja sakta hai.\nExample: 2x² - 5x + 3 = 0 mein a=2, b=-5, c=3"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "How to Identify Quadratic Equations?\nKisi bhi equation ko quadratic equation check karne ke liye:\n• Step 1: Equation ko standard form (ax² + bx + c = 0) mein convert karo\n• Step 2: Check karo ki x² term present hai ya nahi\n• Step 3: x² ka coefficient (a) zero nahi hona chahiye\n• Agar yeh conditions satisfy hoti hain → Quadratic Equation\n\n💡 Tip: Fractions aur brackets hata kar pehle simplify karo!",
+        "en": "How to Identify Quadratic Equations?\nKisi bhi equation ko quadratic equation check karne ke liye:\n• Step 1: Equation ko standard form (ax² + bx + c = 0) mein convert karo\n• Step 2: Check karo ki x² term present hai ya nahi\n• Step 3: x² ka coefficient (a) zero nahi hona chahiye\n• Agar yeh conditions satisfy hoti hain → Quadratic Equation\n\n💡 Tip: Fractions aur brackets hata kar pehle simplify karo!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Real Life Applications\nQuadratic equations ka use kahan hota hai?\n• 🚀 Physics: Projectile motion (ball ki height calculate karne mein)\n• 🏗️ Engineering: Bridge aur arch designs mein\n• 💰 Finance: Compound interest aur profit calculations mein\n• 🎯 Sports: Ball ki trajectory calculate karne mein\n• 📐 Geometry: Area aur perimeter ke problems mein",
+        "en": "Real Life Applications\nQuadratic equations ka use kahan hota hai?\n• 🚀 Physics: Projectile motion (ball ki height calculate karne mein)\n• 🏗️ Engineering: Bridge aur arch designs mein\n• 💰 Finance: Compound interest aur profit calculations mein\n• 🎯 Sports: Ball ki trajectory calculate karne mein\n• 📐 Geometry: Area aur perimeter ke problems mein"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Example 1: Check if Quadratic: Check whether (x - 2)(x + 3) = 0 is a quadratic equation.",
+        "en": "Example 1: Check if Quadratic: Check whether (x - 2)(x + 3) = 0 is a quadratic equation."
+      },
+      "steps": [
+        {
+          "hi": "(x - 2)(x + 3) = 0",
+          "en": "(x - 2)(x + 3) = 0"
+        },
+        {
+          "hi": "x² + 3x - 2x - 6 = 0",
+          "en": "x² + 3x - 2x - 6 = 0"
+        },
+        {
+          "hi": "x² + x - 6 = 0",
+          "en": "x² + x - 6 = 0"
+        },
+        {
+          "hi": "a = 1, b = 1, c = -6",
+          "en": "a = 1, b = 1, c = -6"
+        },
+        {
+          "hi": "a ≠ 0 ✓",
+          "en": "a ≠ 0 ✓"
+        },
+        {
+          "hi": "✅ Yes, it is a quadratic equation",
+          "en": "✅ Yes, it is a quadratic equation"
+        },
+        {
+          "hi": "x² term present hai aur a=1 ≠ 0 ✓",
+          "en": "x² term present hai aur a=1 ≠ 0 ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 2: Not a Quadratic Equation: Check whether x(x + 2) + 1 = x² - 3 is a quadratic equation.",
+        "en": "Example 2: Not a Quadratic Equation: Check whether x(x + 2) + 1 = x² - 3 is a quadratic equation."
+      },
+      "steps": [
+        {
+          "hi": "x(x + 2) + 1 = x² - 3",
+          "en": "x(x + 2) + 1 = x² - 3"
+        },
+        {
+          "hi": "x² + 2x + 1 = x² - 3",
+          "en": "x² + 2x + 1 = x² - 3"
+        },
+        {
+          "hi": "x² + 2x + 1 - x² + 3 = 0",
+          "en": "x² + 2x + 1 - x² + 3 = 0"
+        },
+        {
+          "hi": "2x + 4 = 0",
+          "en": "2x + 4 = 0"
+        },
+        {
+          "hi": "x² term cancel ho gayi!",
+          "en": "x² term cancel ho gayi!"
+        },
+        {
+          "hi": "a = 0",
+          "en": "a = 0"
+        },
+        {
+          "hi": "❌ Not a quadratic equation (it is linear)",
+          "en": "❌ Not a quadratic equation (it is linear)"
+        },
+        {
+          "hi": "Agar simplify karne ke baad x² term eliminate ho jaye, toh quadratic nahi hai!",
+          "en": "Agar simplify karne ke baad x² term eliminate ho jaye, toh quadratic nahi hai!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 3: Form Quadratic Equation: The product of two consecutive positive integers is 240. Form the quadratic equation.",
+        "en": "Example 3: Form Quadratic Equation: The product of two consecutive positive integers is 240. Form the quadratic equation."
+      },
+      "steps": [
+        {
+          "hi": "Let first integer = x",
+          "en": "Let first integer = x"
+        },
+        {
+          "hi": "Second integer = x + 1",
+          "en": "Second integer = x + 1"
+        },
+        {
+          "hi": "Product = x(x + 1) = 240",
+          "en": "Product = x(x + 1) = 240"
+        },
+        {
+          "hi": "x² + x = 240",
+          "en": "x² + x = 240"
+        },
+        {
+          "hi": "x² + x - 240 = 0",
+          "en": "x² + x - 240 = 0"
+        },
+        {
+          "hi": "✅ x² + x - 240 = 0",
+          "en": "✅ x² + x - 240 = 0"
+        },
+        {
+          "hi": "🎯 Word problems ko equations mein convert karna seekhna bahut zaroori hai!",
+          "en": "🎯 Word problems ko equations mein convert karna seekhna bahut zaroori hai!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Check if 2x² + 3x - 5 = 0 is a quadratic equation. Find a, b, c.",
+        "en": "Check if 2x² + 3x - 5 = 0 is a quadratic equation. Find a, b, c."
+      },
+      "steps": [
+        {
+          "hi": "Already standard form mein hai. a=2, b=3, c=-5. a≠0, so quadratic.",
+          "en": "Already standard form mein hai. a=2, b=3, c=-5. a≠0, so quadratic."
+        },
+        {
+          "hi": "Answer: Yes, a=2, b=3, c=-5",
+          "en": "Answer: Yes, a=2, b=3, c=-5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Check whether (x - 3)(2x + 1) = x(x + 5) is quadratic.",
+        "en": "Check whether (x - 3)(2x + 1) = x(x + 5) is quadratic."
+      },
+      "steps": [
+        {
+          "hi": "LHS: 2x²+x-6x-3 = 2x²-5x-3. RHS: x²+5x. So 2x²-5x-3=x²+5x → x²-10x-3=0. Quadratic.",
+          "en": "LHS: 2x²+x-6x-3 = 2x²-5x-3. RHS: x²+5x. So 2x²-5x-3=x²+5x → x²-10x-3=0. Quadratic."
+        },
+        {
+          "hi": "Answer: Yes, x² - 10x - 3 = 0",
+          "en": "Answer: Yes, x² - 10x - 3 = 0"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "The area of a rectangular plot is 528 m². The length is one more than twice its breadth. Form the quadratic equation.",
+        "en": "The area of a rectangular plot is 528 m². The length is one more than twice its breadth. Form the quadratic equation."
+      },
+      "steps": [
+        {
+          "hi": "Let breadth = x, length = 2x+1. Area = x(2x+1)=528 → 2x²+x-528=0.",
+          "en": "Let breadth = x, length = 2x+1. Area = x(2x+1)=528 → 2x²+x-528=0."
+        },
+        {
+          "hi": "Answer: 2x² + x - 528 = 0",
+          "en": "Answer: 2x² + x - 528 = 0"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Which of the following is a quadratic equation?",
+          "en": "Which of the following is a quadratic equation?"
+        },
+        "options": [
+          {
+            "hi": "x + 5 = 0",
+            "en": "x + 5 = 0"
+          },
+          {
+            "hi": "x² - 4 = 0",
+            "en": "x² - 4 = 0"
+          },
+          {
+            "hi": "x³ + 2x = 0",
+            "en": "x³ + 2x = 0"
+          },
+          {
+            "hi": "2x + 3y = 5",
+            "en": "2x + 3y = 5"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "x² - 4 = 0 mein x ki highest power 2 hai aur a=1 ≠ 0.",
+          "en": "x² - 4 = 0 mein x ki highest power 2 hai aur a=1 ≠ 0."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "In 3x² - 7x + 2 = 0, the value of a is:",
+          "en": "In 3x² - 7x + 2 = 0, the value of a is:"
+        },
+        "options": [
+          {
+            "hi": "3",
+            "en": "3"
+          },
+          {
+            "hi": "-7",
+            "en": "-7"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "0",
+            "en": "0"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Standard form ax²+bx+c=0 mein a = 3, b = -7, c = 2.",
+          "en": "Standard form ax²+bx+c=0 mein a = 3, b = -7, c = 2."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Simplify: (x + 1)² = x² + 3. Is it quadratic?",
+          "en": "Simplify: (x + 1)² = x² + 3. Is it quadratic?"
+        },
+        "options": [
+          {
+            "hi": "Yes",
+            "en": "Yes"
+          },
+          {
+            "hi": "No",
+            "en": "No"
+          },
+          {
+            "hi": "Can't say",
+            "en": "Can't say"
+          },
+          {
+            "hi": "Linear",
+            "en": "Linear"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "(x+1)²=x²+3 → x²+2x+1=x²+3 → 2x-2=0. x² cancel ho gayi, so NOT quadratic.",
+          "en": "(x+1)²=x²+3 → x²+2x+1=x²+3 → 2x-2=0. x² cancel ho gayi, so NOT quadratic."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "A quadratic equation can have degree 3.",
+          "en": "A quadratic equation can have degree 3."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Quadratic equation ka degree hamesha 2 hota hai. Degree 3 hone par cubic equation kehte hain.",
+          "en": "Quadratic equation ka degree hamesha 2 hota hai. Degree 3 hone par cubic equation kehte hain."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "The standard form of x(x - 5) = -6 is:",
+          "en": "The standard form of x(x - 5) = -6 is:"
+        },
+        "options": [
+          {
+            "hi": "x² - 5x + 6 = 0",
+            "en": "x² - 5x + 6 = 0"
+          },
+          {
+            "hi": "x² - 5x - 6 = 0",
+            "en": "x² - 5x - 6 = 0"
+          },
+          {
+            "hi": "x² + 5x + 6 = 0",
+            "en": "x² + 5x + 6 = 0"
+          },
+          {
+            "hi": "x² + 5x - 6 = 0",
+            "en": "x² + 5x - 6 = 0"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "x(x-5)=-6 → x²-5x=-6 → x²-5x+6=0",
+          "en": "x(x-5)=-6 → x²-5x=-6 → x²-5x+6=0"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Standard form: ax² + bx + c = 0, where a ≠ 0",
+      "en": "Standard form: ax² + bx + c = 0, where a ≠ 0"
+    },
+    {
+      "hi": "Degree hamesha 2 honi chahiye",
+      "en": "Degree hamesha 2 honi chahiye"
+    },
+    {
+      "hi": "Pehle equation ko simplify karo, phir check karo",
+      "en": "Pehle equation ko simplify karo, phir check karo"
+    },
+    {
+      "hi": "a = 0 hone par linear equation ban jaati hai",
+      "en": "a = 0 hone par linear equation ban jaati hai"
+    },
+    {
+      "hi": "Word problems mein variable define karna important hai",
+      "en": "Word problems mein variable define karna important hai"
+    }
+  ],
+  "summary": {
+    "hi": "Introduction to Quadratic Equations ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!",
+    "en": "Introduction to Quadratic Equations ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!"
+  },
+  "reward": {
+    "badge": null
+  }
+}
