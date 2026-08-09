@@ -1,0 +1,265 @@
+{
+  "id": "chapter-13-lesson-03",
+  "chapterId": "chapter-13",
+  "order": 3,
+  "title": {
+    "hi": "Mode of Grouped Data",
+    "en": "Mode of Grouped Data"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 60,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "hi": "Sabse Common Value Kaunsi Hai?",
+      "en": "Which Value Occurs Most Often?"
+    },
+    "subtext": {
+      "hi": "Mode wo value hai jo sabse zyada baar aati hai — ek shop owner ke liye sabse popular shoe size jaisa.",
+      "en": "Mode is the value that occurs most frequently — like the most popular shoe size for a shop owner."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek shoe shop owner jaanna chahta hai ki sabse zyada bikne wala shoe size kaunsa hai, taaki wo usi ka zyada stock rakhe. Ye 'mode' hai — data ka wo value jo sabse zyada frequent hai. Grouped data mein hum exact size nahi jaante (bas range jaante hain), isliye pehle 'Modal Class' dhoondte hain, phir formula se exact mode nikaalte hain.",
+      "en": "A shoe shop owner wants to know which shoe size sells the most, so they can stock more of it. That's the 'mode' — the most frequent value in the data. In grouped data we don't know the exact value (only the range), so we first find the 'Modal Class', then use a formula to get the exact mode."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Mode wo value hai jo data mein sabse zyada baar repeat hoti hai. Grouped data mein, jis class ki frequency sabse zyada ho, use 'Modal Class' kehte hain.",
+        "en": "Mode is the value that repeats most often in the data. In grouped data, the class with the highest frequency is called the 'Modal Class'."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yahan: l = modal class ki lower limit, f₁ = modal class ki frequency, f₀ = modal class SE PEHLE wali class ki frequency, f₂ = modal class KE BAAD wali class ki frequency, h = class size.",
+        "en": "Here: l = lower limit of the modal class, f₁ = frequency of the modal class, f₀ = frequency of the class BEFORE the modal class, f₂ = frequency of the class AFTER the modal class, h = class size."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Common mistake: students f₀ aur f₂ ko confuse kar dete hain. Yaad rakho — f₀ 'pehle' (preceding) ki hai, f₂ 'baad' (succeeding) ki hai. Modal class ki apni frequency hamesha f₁ hoti hai.",
+        "en": "Common mistake: students confuse f₀ and f₂. Remember — f₀ is 'before' (preceding), f₂ is 'after' (succeeding). The modal class's own frequency is always f₁."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📶",
+    "caption": {
+      "hi": "Modal class hamesha sabse lambi bar (highest frequency) wali class hoti hai bar graph mein.",
+      "en": "The modal class is always the tallest bar (highest frequency) in a bar graph."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Mode nikaalo:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 5, 12, 20, 9, 4",
+        "en": "Find the mode:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 5, 12, 20, 9, 4"
+      },
+      "steps": [
+        {
+          "hi": "Modal class = 20-30 (highest frequency = 20)",
+          "en": "Modal class = 20-30 (highest frequency = 20)"
+        },
+        {
+          "hi": "l=20, h=10, f₁=20, f₀=12 (preceding class), f₂=9 (succeeding class)",
+          "en": "l=20, h=10, f₁=20, f₀=12 (preceding class), f₂=9 (succeeding class)"
+        },
+        {
+          "hi": "Mode = 20 + [(20−12)/(40−12−9)]×10",
+          "en": "Mode = 20 + [(20−12)/(40−12−9)]×10"
+        },
+        {
+          "hi": "Mode = 20 + [8/19]×10 = 20 + 4.21 = 24.21",
+          "en": "Mode = 20 + [8/19]×10 = 20 + 4.21 = 24.21"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Mode nikaalo:\nClass: 0-20, 20-40, 40-60, 60-80, 80-100\nfᵢ: 10, 35, 52, 61, 38",
+        "en": "Find the mode:\nClass: 0-20, 20-40, 40-60, 60-80, 80-100\nfᵢ: 10, 35, 52, 61, 38"
+      },
+      "steps": [
+        {
+          "hi": "Modal class = 60-80 (highest frequency = 61)",
+          "en": "Modal class = 60-80 (highest frequency = 61)"
+        },
+        {
+          "hi": "l=60, h=20, f₁=61, f₀=52, f₂=38",
+          "en": "l=60, h=20, f₁=61, f₀=52, f₂=38"
+        },
+        {
+          "hi": "Mode = 60 + [(61−52)/(122−52−38)]×20",
+          "en": "Mode = 60 + [(61−52)/(122−52−38)]×20"
+        },
+        {
+          "hi": "Mode = 60 + [9/32]×20 = 60 + 5.625 = 65.625",
+          "en": "Mode = 60 + [9/32]×20 = 60 + 5.625 = 65.625"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Mode formula mein f₀ kya represent karta hai?",
+          "en": "In the mode formula, what does f₀ represent?"
+        },
+        "options": [
+          {
+            "hi": "Modal class ki frequency",
+            "en": "Frequency of modal class"
+          },
+          {
+            "hi": "Modal class se pehle wali class ki frequency",
+            "en": "Frequency of class preceding modal class"
+          },
+          {
+            "hi": "Modal class ke baad wali class ki frequency",
+            "en": "Frequency of class succeeding modal class"
+          },
+          {
+            "hi": "Total frequency",
+            "en": "Total frequency"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "f₀ = modal class se pehle wali class ki frequency.",
+          "en": "f₀ = frequency of the class preceding the modal class."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Modal class hamesha sabse zyada frequency wali class hoti hai.",
+          "en": "The modal class is always the class with the highest frequency."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — mode ki definition hi ye hai.",
+          "en": "True — that's exactly the definition of the modal class."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Data: Class 0-10..40-50, fᵢ: 8,16,25,15,6. Modal class kaunsi hai?",
+          "en": "Data: Class 0-10..40-50, fᵢ: 8,16,25,15,6. Which is the modal class?"
+        },
+        "options": [
+          {
+            "hi": "20-30",
+            "en": "20-30"
+          },
+          {
+            "hi": "10-20",
+            "en": "10-20"
+          },
+          {
+            "hi": "30-40",
+            "en": "30-40"
+          },
+          {
+            "hi": "0-10",
+            "en": "0-10"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "20-30 ki frequency 25 hai, jo sabse zyada hai.",
+          "en": "20-30 has frequency 25, which is the highest."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Modal class=20-30, l=20,h=10,f₁=25,f₀=16,f₂=15 ho toh mode kya hoga?",
+          "en": "If modal class=20-30, l=20,h=10,f₁=25,f₀=16,f₂=15, what is the mode?"
+        },
+        "options": [
+          {
+            "hi": "24.74",
+            "en": "24.74"
+          },
+          {
+            "hi": "25.5",
+            "en": "25.5"
+          },
+          {
+            "hi": "23.2",
+            "en": "23.2"
+          },
+          {
+            "hi": "26.1",
+            "en": "26.1"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Mode = 20+[(25−16)/(50−16−15)]×10 = 20+(9/19)×10 = 20+4.74 = 24.74",
+          "en": "Mode = 20+[(25−16)/(50−16−15)]×10 = 20+(9/19)×10 = 20+4.74 = 24.74"
+        }
+      },
+      {
+        "type": "dragdrop",
+        "question": {
+          "hi": "Mode formula complete karo:",
+          "en": "Complete the mode formula:"
+        },
+        "sentenceParts": [
+          "Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] ×"
+        ],
+        "blanks": [
+          "h"
+        ],
+        "tokens": [
+          "h",
+          "f₁",
+          "N"
+        ],
+        "explanation": {
+          "hi": "Sahi formula: Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h",
+          "en": "The correct formula: Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Mode = l + [(f₁−f₀)/(2f₁−f₀−f₂)] × h",
+      "en": "Mode = l + [(f₁−f₀)/(2f₁−f₀−f₂)] × h"
+    },
+    {
+      "hi": "Modal class = sabse zyada frequency wali class",
+      "en": "Modal class = the class with the highest frequency"
+    },
+    {
+      "hi": "f₀ = pehle (preceding) wali class ki frequency, f₂ = baad (succeeding) wali class ki frequency — inhe confuse mat karo",
+      "en": "f₀ = frequency of the preceding class, f₂ = frequency of the succeeding class — don't mix these up"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum grouped data ka mode nikaal sakte ho, modal class pehchaan sakte ho, aur formula sahi se apply kar sakte ho. Agle (aakhri) lesson mein hum ye teeno concepts — mean, median, mode — ek saath combined board-exam-style problems mein solve karenge.",
+    "en": "You can now find the mode of grouped data, identify the modal class, and apply the formula correctly. In the next (final) lesson, we'll solve mean, median and mode together in combined board-exam-style problems."
+  },
+  "reward": {
+    "badge": null
+  }
+}

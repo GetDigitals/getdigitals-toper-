@@ -1,0 +1,347 @@
+{
+  "id": "chapter-13-lesson-02",
+  "chapterId": "chapter-13",
+  "order": 2,
+  "title": {
+    "hi": "Median of Grouped Data",
+    "en": "Median of Grouped Data"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 60,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📈",
+    "headline": {
+      "hi": "Beech Ki Value Dhoondo — Cumulative Frequency Se!",
+      "en": "Find the Middle Value — Using Cumulative Frequency!"
+    },
+    "subtext": {
+      "hi": "Median wo value hai jo data ko exactly do barabar hisso mein baant deti hai — grouped data mein iske liye ek special table chahiye.",
+      "en": "The median is the value that splits data into exactly two equal halves — for grouped data, this needs a special table."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek hospital mein 68 consumers ki monthly electricity units record ki gayi. Agar hum sabko chhote se bade order mein rakhein, toh 'median' wo value hogi jo bilkul beech mein aati hai — aadhe consumers isse kam use karte hain, aadhe zyada. Grouped data mein exact beech ka consumer dhoondna mushkil hai, isliye hum 'cumulative frequency' ka use karte hain.",
+      "en": "A hospital recorded the monthly electricity units of 68 consumers. If we arrange them from smallest to largest, the 'median' is the value that falls exactly in the middle — half the consumers use less, half use more. In grouped data we can't pick that exact middle consumer directly, so we use 'cumulative frequency' instead."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Cumulative Frequency (cf) matlab: ek class tak ke sabhi frequencies ka running total. Ye batata hai ki ek particular value tak kitna data 'jama' ho chuka hai.",
+        "en": "Cumulative Frequency (cf) means the running total of all frequencies up to a class. It tells you how much data has 'accumulated' up to a particular value."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Median nikaalne ke steps: (1) Cumulative frequency (cf) table banao, (2) N (total frequency) aur N/2 nikaalo, (3) Jis class mein cf pehli baar N/2 se bada ya barabar ho jaaye, wahi 'Median Class' hai.",
+        "en": "Steps to find the median: (1) Build the cumulative frequency (cf) table, (2) Find N (total frequency) and N/2, (3) The class where cf first becomes ≥ N/2 is the 'Median Class'."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Median = l + [(N/2 − cf) / f] × h"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yahan: l = median class ki lower limit, N = total frequency, cf = median class SE PEHLE wali cumulative frequency, f = median class ki apni frequency, h = class size.",
+        "en": "Here: l = lower limit of the median class, N = total frequency, cf = cumulative frequency BEFORE the median class, f = frequency of the median class itself, h = class size."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Bonus: Median ko graphically bhi nikaal sakte hain — 'Less Than Ogive' (upper limits vs cf, upward curve) aur 'More Than Ogive' (lower limits vs cf, downward curve) banao, dono curves jahan cross karte hain, uska x-coordinate hi median hota hai.",
+        "en": "Bonus: the median can also be found graphically — draw a 'Less Than Ogive' (upper limits vs cf, an upward curve) and a 'More Than Ogive' (lower limits vs cf, a downward curve); the x-coordinate where the two curves intersect is the median."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🔀",
+    "caption": {
+      "hi": "Less Than aur More Than ogive jahan ek doosre ko cross karte hain, wahi point median hai.",
+      "en": "The point where the Less Than and More Than ogives cross each other — that's the median."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Median nikaalo:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 4, 8, 15, 10, 3",
+        "en": "Find the median:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 4, 8, 15, 10, 3"
+      },
+      "steps": [
+        {
+          "hi": "Cumulative frequency (cf): 4, 12, 27, 37, 40",
+          "en": "Cumulative frequency (cf): 4, 12, 27, 37, 40"
+        },
+        {
+          "hi": "N = 40, N/2 = 20",
+          "en": "N = 40, N/2 = 20"
+        },
+        {
+          "hi": "20 pehli baar cf=27 (class 20-30) mein cross hota hai → Median class = 20-30",
+          "en": "20 first gets crossed at cf=27 (class 20-30) → Median class = 20-30"
+        },
+        {
+          "hi": "l=20, h=10, f=15 (20-30 ki frequency), cf=12 (usse pehle wali cf)",
+          "en": "l=20, h=10, f=15 (frequency of 20-30), cf=12 (cumulative frequency before it)"
+        },
+        {
+          "hi": "Median = 20 + [(20−12)/15]×10 = 20 + 5.33 = 25.33",
+          "en": "Median = 20 + [(20−12)/15]×10 = 20 + 5.33 = 25.33"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "400 neon lamps ke lifetime (hours) ka median nikaalo:\nClass: 1500-2000, 2000-2500, 2500-3000, 3000-3500, 3500-4000, 4000-4500, 4500-5000\nLamps: 14, 56, 60, 86, 74, 62, 48",
+        "en": "Find the median lifetime (hours) of 400 neon lamps:\nClass: 1500-2000, 2000-2500, 2500-3000, 3000-3500, 3500-4000, 4000-4500, 4500-5000\nLamps: 14, 56, 60, 86, 74, 62, 48"
+      },
+      "steps": [
+        {
+          "hi": "cf: 14, 70, 130, 216, 290, 352, 400",
+          "en": "cf: 14, 70, 130, 216, 290, 352, 400"
+        },
+        {
+          "hi": "N=400, N/2=200. 200 pehli baar cf=216 (class 3000-3500) mein cross hota hai",
+          "en": "N=400, N/2=200. 200 is first crossed at cf=216 (class 3000-3500)"
+        },
+        {
+          "hi": "l=3000, h=500, f=86, cf=130",
+          "en": "l=3000, h=500, f=86, cf=130"
+        },
+        {
+          "hi": "Median = 3000 + [(200−130)/86]×500 = 3000 + 406.98 = 3406.98 hours",
+          "en": "Median = 3000 + [(200−130)/86]×500 = 3000 + 406.98 = 3406.98 hours"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "50 workers ki daily income ka 'less than' cumulative frequency table banao:\nIncome: 100-120, 120-140, 140-160, 160-180, 180-200\nWorkers: 12, 14, 8, 6, 10 Phir 'more than' table bhi banao.",
+        "en": "Build the 'less than' cumulative frequency table for the daily income of 50 workers:\nIncome: 100-120, 120-140, 140-160, 160-180, 180-200\nWorkers: 12, 14, 8, 6, 10 Then also build the 'more than' table."
+      },
+      "steps": [
+        {
+          "hi": "'Less than' cf hamesha class ki UPPER limit ke against likhi jaati hai",
+          "en": "'Less than' cf is always written against the UPPER limit of the class"
+        },
+        {
+          "hi": "Less than 120 = 12",
+          "en": "Less than 120 = 12"
+        },
+        {
+          "hi": "Less than 140 = 12+14 = 26",
+          "en": "Less than 140 = 12+14 = 26"
+        },
+        {
+          "hi": "Less than 160 = 26+8 = 34",
+          "en": "Less than 160 = 26+8 = 34"
+        },
+        {
+          "hi": "Less than 180 = 34+6 = 40",
+          "en": "Less than 180 = 34+6 = 40"
+        },
+        {
+          "hi": "Less than 200 = 40+10 = 50",
+          "en": "Less than 200 = 40+10 = 50"
+        },
+        {
+          "hi": "Ogive ke points: (120,12), (140,26), (160,34), (180,40), (200,50)",
+          "en": "Ogive points: (120,12), (140,26), (160,34), (180,40), (200,50)"
+        },
+        {
+          "hi": "Ab 'more than' cf bhi banate hain — ye hamesha class ki LOWER limit ke against likhi jaati hai",
+          "en": "Now let's also build the 'more than' cf — this is always written against the LOWER limit of the class"
+        },
+        {
+          "hi": "More than 100 = 50 (sabhi workers)",
+          "en": "More than 100 = 50 (all workers)"
+        },
+        {
+          "hi": "More than 120 = 50−12 = 38",
+          "en": "More than 120 = 50−12 = 38"
+        },
+        {
+          "hi": "More than 140 = 38−14 = 24",
+          "en": "More than 140 = 38−14 = 24"
+        },
+        {
+          "hi": "More than 160 = 24−8 = 16",
+          "en": "More than 160 = 24−8 = 16"
+        },
+        {
+          "hi": "More than 180 = 16−6 = 10",
+          "en": "More than 180 = 16−6 = 10"
+        },
+        {
+          "hi": "🎯 Dono ogives (less than = upward curve, more than = downward curve) same graph par draw karo — jaha wo intersect karte hain, uska x-coordinate hi median hota hai!",
+          "en": "🎯 Draw both ogives (less than = upward curve, more than = downward curve) on the same graph — the x-coordinate where they intersect IS the median!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Grouped data ka median nikaalne ke liye sabse pehle kya banana padta hai?",
+          "en": "For finding the median of grouped data, what do we first need to build?"
+        },
+        "options": [
+          {
+            "hi": "Mean",
+            "en": "Mean"
+          },
+          {
+            "hi": "Mode",
+            "en": "Mode"
+          },
+          {
+            "hi": "Cumulative Frequency table",
+            "en": "Cumulative Frequency table"
+          },
+          {
+            "hi": "Class Mark",
+            "en": "Class Mark"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Median nikaalne ke liye cf table zaroori hai.",
+          "en": "A cumulative frequency table is essential for finding the median."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Agar Less Than aur More Than ogive x=40 par cross karte hain, toh median kya hoga?",
+          "en": "If the Less Than and More Than ogives intersect at x=40, what is the median?"
+        },
+        "options": [
+          {
+            "hi": "20",
+            "en": "20"
+          },
+          {
+            "hi": "30",
+            "en": "30"
+          },
+          {
+            "hi": "40",
+            "en": "40"
+          },
+          {
+            "hi": "80",
+            "en": "80"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Do ogives ka intersection point x-axis par hi median batata hai.",
+          "en": "The intersection point of the two ogives on the x-axis directly gives the median."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Median class dhoondne ke liye us class ko choose karo jahan cf pehli baar N/2 se bada ya barabar ho.",
+          "en": "To find the median class, choose the class where cf first becomes greater than or equal to N/2."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — yehi median class dhoondne ka rule hai.",
+          "en": "True — this is exactly the rule for finding the median class."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Data: cf = 12,26,34,40,50 (classes 100-120 se 180-200, h=20). N/2=25 hai. Median class kaunsi hai?",
+          "en": "Data: cf = 12,26,34,40,50 (classes 100-120 to 180-200, h=20). N/2=25. What is the median class?"
+        },
+        "options": [
+          {
+            "hi": "120-140",
+            "en": "120-140"
+          },
+          {
+            "hi": "100-120",
+            "en": "100-120"
+          },
+          {
+            "hi": "140-160",
+            "en": "140-160"
+          },
+          {
+            "hi": "160-180",
+            "en": "160-180"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "25, cf=26 (class 120-140) mein pehli baar cross hoti hai, isliye median class 120-140 hai.",
+          "en": "25 is first crossed at cf=26 (class 120-140), so the median class is 120-140."
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Median formula ke symbols match karo",
+          "en": "Match the symbols in the median formula"
+        },
+        "pairs": [
+          {
+            "left": "l",
+            "right": "Median class ki lower limit"
+          },
+          {
+            "left": "cf",
+            "right": "Median class se pehle ki cumulative frequency"
+          },
+          {
+            "left": "f",
+            "right": "Median class ki frequency"
+          },
+          {
+            "left": "h",
+            "right": "Class size"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Median = l + [(N/2 − cf)/f] × h",
+      "en": "Median = l + [(N/2 − cf)/f] × h"
+    },
+    {
+      "hi": "cf table banana median nikaalne ka sabse pehla step hai",
+      "en": "Building the cf table is the very first step in finding the median"
+    },
+    {
+      "hi": "Median class = wo class jahan cf pehli baar N/2 se bada ya barabar ho",
+      "en": "Median class = the class where cf first becomes ≥ N/2"
+    },
+    {
+      "hi": "Less Than Ogive: upper limits vs cf (upward curve); More Than Ogive: lower limits vs cf (downward curve); dono ka intersection = median",
+      "en": "Less Than Ogive: upper limits vs cf (upward curve); More Than Ogive: lower limits vs cf (downward curve); their intersection = median"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum grouped data ka median cf table se nikaal sakte ho, aur ogive graphs se graphically bhi samajh sakte ho. Agle lesson mein hum seekhenge Mode — grouped data mein sabse common value kaise dhoondte hain.",
+    "en": "You can now find the median of grouped data using the cf table, and understand it graphically with ogives too. Next, we'll learn the Mode — how to find the most common value in grouped data."
+  },
+  "reward": {
+    "badge": null
+  }
+}

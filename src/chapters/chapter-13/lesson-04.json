@@ -1,0 +1,276 @@
+{
+  "id": "chapter-13-lesson-04",
+  "chapterId": "chapter-13",
+  "order": 4,
+  "title": {
+    "hi": "Exam Mastery — Mean, Median & Mode Together",
+    "en": "Exam Mastery — Mean, Median & Mode Together"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 80,
+  "coinReward": 16,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Board Exam Ka Sabse Common Question Type!",
+      "en": "The Most Common Board Exam Question Type!"
+    },
+    "subtext": {
+      "hi": "Mean, Median aur Mode teeno ek hi data se — CBSE boards mein ye combo bahut common hai.",
+      "en": "Mean, Median and Mode all from the same data — this combo is very common in CBSE boards."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Statistics aur Probability milkar board exam mein 11 marks ke hote hain, aur inmein bhi sabse common question wo hota hai jisme ek hi data table se Mean, Median aur Mode teeno nikaalne ko kaha jaata hai (4 marks tak ka!). Ye lesson tumhe exact isi pattern ke liye taiyar karega.",
+      "en": "Statistics and Probability together carry 11 marks in the board exam, and the single most common question type asks you to find Mean, Median AND Mode from the same data table (worth up to 4 marks!). This lesson prepares you exactly for that pattern."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Exam tip: jab ek hi data se Mean, Median, Mode teeno poocha jaaye, toh ek hi baar mein poori table banao — Class, fᵢ, xᵢ, cf — sabhi columns ek saath, phir teeno formulas alag-alag apply karo. Isse time bachta hai aur mistakes kam hoti hain.",
+        "en": "Exam tip: when Mean, Median and Mode are all asked from the same data, build ONE complete table — Class, fᵢ, xᵢ, cf — all columns together, then apply the three formulas separately. This saves time and reduces mistakes."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Interesting fact: Mean, Median aur Mode teeno hamesha same nahi hote (sirf perfectly symmetric data mein same hote hain) — real data mein teeno thode alag-alag aate hain, aur unka comparison karna bhi board mein poocha jaata hai (jaise 'mode aur mean compare karo').",
+        "en": "Interesting fact: Mean, Median and Mode aren't always equal (they match only for perfectly symmetric data) — in real data they usually differ slightly, and comparing them is sometimes asked in boards too (like 'compare the mode and mean')."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Empirical relationship (extra fact, useful for quick sanity-check): Mode ≈ 3×Median − 2×Mean. Isse tum apna answer verify bhi kar sakte ho.",
+        "en": "Empirical relationship (extra fact, useful for a quick sanity check): Mode ≈ 3×Median − 2×Mean. You can use this to verify your answers too."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🧮",
+    "caption": {
+      "hi": "Ek table, teen formulas — Mean, Median, Mode teeno usi ek table se nikalte hain.",
+      "en": "One table, three formulas — Mean, Median and Mode are all found from that same one table."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "68 consumers ki monthly electricity consumption (units) di gayi hai. Median, Mean aur Mode teeno nikaalo.\nClass: 65-85, 85-105, 105-125, 125-145, 145-165, 165-185, 185-205\nConsumers: 4, 5, 13, 20, 14, 8, 4",
+        "en": "The monthly electricity consumption (units) of 68 consumers is given. Find the Median, Mean and Mode.\nClass: 65-85, 85-105, 105-125, 125-145, 145-165, 165-185, 185-205\nConsumers: 4, 5, 13, 20, 14, 8, 4"
+      },
+      "steps": [
+        {
+          "hi": "Class marks xᵢ: 75,95,115,135,155,175,195. cf: 4,9,22,42,56,64,68",
+          "en": "Class marks xᵢ: 75,95,115,135,155,175,195. cf: 4,9,22,42,56,64,68"
+        },
+        {
+          "hi": "MEAN: fᵢxᵢ = 300,475,1495,2700,2170,1400,780 → Σfᵢxᵢ=9320, Σfᵢ=68 → Mean=9320/68=137.06",
+          "en": "MEAN: fᵢxᵢ = 300,475,1495,2700,2170,1400,780 → Σfᵢxᵢ=9320, Σfᵢ=68 → Mean=9320/68=137.06"
+        },
+        {
+          "hi": "MEDIAN: N=68, N/2=34. cf=42 (class 125-145) mein 34 pehli baar cross hoti hai → Median class=125-145. l=125,h=20,f=20,cf=22 → Median=125+[(34−22)/20]×20=125+12=137",
+          "en": "MEDIAN: N=68, N/2=34. cf=42 (class 125-145) is where 34 is first crossed → Median class=125-145. l=125,h=20,f=20,cf=22 → Median=125+[(34−22)/20]×20=125+12=137"
+        },
+        {
+          "hi": "MODE: Modal class=125-145 (freq=20, highest). l=125,h=20,f₁=20,f₀=13,f₂=14 → Mode=125+[(20−13)/(40−13−14)]×20=125+140/13=125+10.77=135.77",
+          "en": "MODE: Modal class=125-145 (freq=20, highest). l=125,h=20,f₁=20,f₀=13,f₂=14 → Mode=125+[(20−13)/(40−13−14)]×20=125+140/13=125+10.77=135.77"
+        },
+        {
+          "hi": "Answer: Mean=137.06, Median=137, Mode=135.77 — teeno kaafi close hain!",
+          "en": "Answer: Mean=137.06, Median=137, Mode=135.77 — all three are quite close to each other!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "50 workers ki daily income (₹) di gayi hai. Mean, Median aur Mode teeno nikaalo.\nIncome: 100-120, 120-140, 140-160, 160-180, 180-200\nWorkers: 12, 14, 8, 6, 10",
+        "en": "The daily income (₹) of 50 workers is given. Find the Mean, Median and Mode.\nIncome: 100-120, 120-140, 140-160, 160-180, 180-200\nWorkers: 12, 14, 8, 6, 10"
+      },
+      "steps": [
+        {
+          "hi": "Class marks xᵢ: 110,130,150,170,190. cf: 12,26,34,40,50",
+          "en": "Class marks xᵢ: 110,130,150,170,190. cf: 12,26,34,40,50"
+        },
+        {
+          "hi": "MEAN: fᵢxᵢ = 1320,1820,1200,1020,1900 → Σfᵢxᵢ=7260, Σfᵢ=50 → Mean=7260/50=145.2",
+          "en": "MEAN: fᵢxᵢ = 1320,1820,1200,1020,1900 → Σfᵢxᵢ=7260, Σfᵢ=50 → Mean=7260/50=145.2"
+        },
+        {
+          "hi": "MEDIAN: N=50, N/2=25. cf=26 (class 120-140) mein 25 pehli baar cross hoti hai. l=120,h=20,f=14,cf=12 → Median=120+[(25−12)/14]×20=120+18.57=138.57",
+          "en": "MEDIAN: N=50, N/2=25. cf=26 (class 120-140) is where 25 is first crossed. l=120,h=20,f=14,cf=12 → Median=120+[(25−12)/14]×20=120+18.57=138.57"
+        },
+        {
+          "hi": "MODE: Modal class=120-140 (freq=14, highest). l=120,h=20,f₁=14,f₀=12,f₂=8 → Mode=120+[(14−12)/(28−12−8)]×20=120+5=125",
+          "en": "MODE: Modal class=120-140 (freq=14, highest). l=120,h=20,f₁=14,f₀=12,f₂=8 → Mode=120+[(14−12)/(28−12−8)]×20=120+5=125"
+        },
+        {
+          "hi": "Answer: Mean=145.2, Median=138.57, Mode=125 — is baar teeno mein zyada farak hai kyunki data thoda skewed hai",
+          "en": "Answer: Mean=145.2, Median=138.57, Mode=125 — this time there's more spread between them since the data is somewhat skewed"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Empirical relationship ke hisaab se, agar Mean=40 aur Median=42 hai, toh Mode approx kya hoga?",
+          "en": "Using the empirical relationship, if Mean=40 and Median=42, what is the approximate Mode?"
+        },
+        "options": [
+          {
+            "hi": "46",
+            "en": "46"
+          },
+          {
+            "hi": "40",
+            "en": "40"
+          },
+          {
+            "hi": "42",
+            "en": "42"
+          },
+          {
+            "hi": "38",
+            "en": "38"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Mode ≈ 3×Median − 2×Mean = 3×42 − 2×40 = 126−80 = 46",
+          "en": "Mode ≈ 3×Median − 2×Mean = 3×42 − 2×40 = 126−80 = 46"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Mean, Median aur Mode kisi bhi grouped data mein hamesha exactly equal hote hain.",
+          "en": "Mean, Median and Mode are always exactly equal for any grouped data."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — ye teeno sirf perfectly symmetric data mein equal hote hain; real data mein alag-alag aate hain.",
+          "en": "False — these three are equal only for perfectly symmetric data; in real data they usually differ."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek hi data table se Mean, Median, Mode teeno poochne wale question mein pehla step kya hona chahiye?",
+          "en": "In a question asking for Mean, Median and Mode from the same table, what should the first step be?"
+        },
+        "options": [
+          {
+            "hi": "Class marks (xᵢ) aur cumulative frequency (cf) dono nikaal ke poori table banao",
+            "en": "Find class marks (xᵢ) and cumulative frequency (cf), building one complete table"
+          },
+          {
+            "hi": "Seedha Mean ka formula lagao",
+            "en": "Directly apply the Mean formula"
+          },
+          {
+            "hi": "Sirf modal class dhoondo",
+            "en": "Only find the modal class"
+          },
+          {
+            "hi": "Data ko chhota kar do",
+            "en": "Shrink the data"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Ek poori table (xᵢ aur cf dono ke saath) banane se teeno formulas fast apply ho jaate hain.",
+          "en": "Building one complete table (with both xᵢ and cf) lets you apply all three formulas quickly."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Data: fᵢxᵢ sum=7260, Σfᵢ=50. Mean kya hai?",
+          "en": "Data: Σfᵢxᵢ=7260, Σfᵢ=50. What is the mean?"
+        },
+        "options": [
+          {
+            "hi": "145.2",
+            "en": "145.2"
+          },
+          {
+            "hi": "140",
+            "en": "140"
+          },
+          {
+            "hi": "150",
+            "en": "150"
+          },
+          {
+            "hi": "142.5",
+            "en": "142.5"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Mean = 7260/50 = 145.2",
+          "en": "Mean = 7260/50 = 145.2"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Poore chapter ke formulas match karo",
+          "en": "Match the whole chapter's formulas"
+        },
+        "pairs": [
+          {
+            "left": "Mean (Direct)",
+            "right": "x̄ = Σfᵢxᵢ/Σfᵢ"
+          },
+          {
+            "left": "Median",
+            "right": "l + [(N/2−cf)/f]×h"
+          },
+          {
+            "left": "Mode",
+            "right": "l + [(f₁−f₀)/(2f₁−f₀−f₂)]×h"
+          },
+          {
+            "left": "Empirical relation",
+            "right": "Mode ≈ 3×Median − 2×Mean"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Combined questions mein ek hi table banao (xᵢ aur cf dono), phir teeno formulas alag apply karo",
+      "en": "For combined questions, build one table (with both xᵢ and cf), then apply all three formulas separately"
+    },
+    {
+      "hi": "Mode ≈ 3×Median − 2×Mean — apna answer quickly verify karne ke liye",
+      "en": "Mode ≈ 3×Median − 2×Mean — use this to quickly verify your answers"
+    },
+    {
+      "hi": "Poora chapter recap: Mean (3 methods), Median (cf table + formula), Mode (modal class + formula)",
+      "en": "Whole chapter recap: Mean (3 methods), Median (cf table + formula), Mode (modal class + formula)"
+    }
+  ],
+  "summary": {
+    "hi": "Congratulations! Ab tumhe Statistics chapter poora aata hai — Mean ke 3 methods, Median with cumulative frequency, Mode, aur combined board-exam-style problems bhi. Final Test attempt karo aur apni mastery confirm karo!",
+    "en": "Congratulations! You now know the entire Statistics chapter — the 3 methods of Mean, Median with cumulative frequency, Mode, and combined board-exam-style problems too. Attempt the Final Test to confirm your mastery!"
+  },
+  "reward": {
+    "badge": {
+      "id": "statistics-master",
+      "name": "Statistics Master",
+      "icon": "🏅"
+    }
+  }
+}

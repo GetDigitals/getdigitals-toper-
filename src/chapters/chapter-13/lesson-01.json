@@ -1,0 +1,338 @@
+{
+  "id": "chapter-13-lesson-01",
+  "chapterId": "chapter-13",
+  "order": 1,
+  "title": {
+    "hi": "Mean of Grouped Data",
+    "en": "Mean of Grouped Data"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 60,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📊",
+    "headline": {
+      "hi": "Bade Data Ka Average — 3 Smart Tarike Se!",
+      "en": "Averaging Big Data — 3 Smart Ways!"
+    },
+    "subtext": {
+      "hi": "Jab data 100s survey responses ya census ka ho, toh average nikaalne ka smart tarika seekho.",
+      "en": "When data comes from hundreds of survey responses or a census, learn the smart way to find the average."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Socho tumhare school ke 60 students ke marks hain — sabke individual marks add karke 60 se divide karna possible hai, par bohot lamba. Ab socho ye 60 students ko groups mein baanta gaya hai (jaise 10-20 marks, 20-30 marks...) aur sirf ye pata hai ki har group mein kitne students hain. Isse 'grouped data' kehte hain, aur iska mean nikaalne ka apna smart tarika hai.",
+      "en": "Imagine 60 students' marks in your school — you could add every individual mark and divide by 60, but that's tedious. Now imagine those 60 students are grouped into ranges (like 10-20 marks, 20-30 marks...) and you only know how many students fall in each range. This is called 'grouped data', and finding its mean needs its own smart approach."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Statistics ka matlab hai data ko collect, organize, analyse aur interpret karna. Jab data ko class intervals (jaise 0-10, 10-20) mein baant kar frequency table mein dikhaya jaata hai, use 'Grouped Data' kehte hain.",
+        "en": "Statistics means collecting, organising, analysing and interpreting data. When data is divided into class intervals (like 0-10, 10-20) and shown in a frequency table, it's called 'Grouped Data'."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Do naye terms samajhna zaroori hai: Class Mark (xᵢ) — har class interval ki middle value, aur Frequency (fᵢ) — us class interval mein kitni baar value aayi.",
+        "en": "Two new terms to understand: Class Mark (xᵢ) — the middle value of each class interval, and Frequency (fᵢ) — how many times a value falls in that class interval."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "xᵢ = (Upper Limit + Lower Limit) / 2"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Grouped data ka mean nikaalne ke 3 methods hote hain — sabka answer same aata hai, bas calculation ka style alag hota hai.",
+        "en": "There are 3 methods to find the mean of grouped data — all give the same answer, only the calculation style differs."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Direct Method:  x̄ = Σ(fᵢxᵢ) / Σfᵢ"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Direct Method sabse simple hai — jab numbers chhote hon tab use karo.",
+        "en": "The Direct Method is the simplest — use it when the numbers are small and easy to work with."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Assumed Mean Method:  x̄ = a + Σ(fᵢdᵢ) / Σfᵢ,  jahan dᵢ = xᵢ − a"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Assumed Mean Method mein ek 'assumed mean' (a) choose karte ho — usually middle class mark. Isse numbers chhote ho jaate hain (dᵢ = xᵢ − a) aur calculation aasan ho jaata hai.",
+        "en": "In the Assumed Mean Method, you pick an 'assumed mean' (a) — usually the middle class mark. This makes numbers smaller (dᵢ = xᵢ − a) and calculation easier."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Step Deviation Method:  x̄ = a + [Σ(fᵢuᵢ) / Σfᵢ] × h,  jahan uᵢ = (xᵢ − a) / h"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Step Deviation Method jab sabhi class intervals same size (h) ke hon tab sabse fast hai — isliye board exams mein ye sabse zyada poocha jaata hai.",
+        "en": "The Step Deviation Method is fastest when all class intervals are the same size (h) — that's why it's asked most often in board exams."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📋",
+    "caption": {
+      "hi": "Hamesha pehle ek table banao: Class Interval | fᵢ | xᵢ | fᵢxᵢ (ya fᵢdᵢ/fᵢuᵢ) — table banane ke baad formula lagana easy ho jaata hai.",
+      "en": "Always start with a table: Class Interval | fᵢ | xᵢ | fᵢxᵢ (or fᵢdᵢ/fᵢuᵢ) — once the table is ready, applying the formula becomes easy."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Direct Method se mean nikaalo:\nClass: 10-20, 20-30, 30-40, 40-50, 50-60\nfᵢ: 5, 8, 15, 20, 12",
+        "en": "Find the mean using the Direct Method:\nClass: 10-20, 20-30, 30-40, 40-50, 50-60\nfᵢ: 5, 8, 15, 20, 12"
+      },
+      "steps": [
+        {
+          "hi": "Class marks (xᵢ): 15, 25, 35, 45, 55",
+          "en": "Class marks (xᵢ): 15, 25, 35, 45, 55"
+        },
+        {
+          "hi": "fᵢ×xᵢ: 5×15=75, 8×25=200, 15×35=525, 20×45=900, 12×55=660",
+          "en": "fᵢ×xᵢ: 5×15=75, 8×25=200, 15×35=525, 20×45=900, 12×55=660"
+        },
+        {
+          "hi": "Σfᵢ = 5+8+15+20+12 = 60",
+          "en": "Σfᵢ = 5+8+15+20+12 = 60"
+        },
+        {
+          "hi": "Σ(fᵢxᵢ) = 75+200+525+900+660 = 2360",
+          "en": "Σ(fᵢxᵢ) = 75+200+525+900+660 = 2360"
+        },
+        {
+          "hi": "Mean = 2360/60 = 39.33",
+          "en": "Mean = 2360/60 = 39.33"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Assumed Mean Method se mean nikaalo:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 6, 8, 13, 7, 6",
+        "en": "Find the mean using the Assumed Mean Method:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 6, 8, 13, 7, 6"
+      },
+      "steps": [
+        {
+          "hi": "Class marks (xᵢ): 5, 15, 25, 35, 45. Assumed mean a = 25 (middle class mark)",
+          "en": "Class marks (xᵢ): 5, 15, 25, 35, 45. Assumed mean a = 25 (middle class mark)"
+        },
+        {
+          "hi": "dᵢ = xᵢ − a: −20, −10, 0, 10, 20",
+          "en": "dᵢ = xᵢ − a: −20, −10, 0, 10, 20"
+        },
+        {
+          "hi": "fᵢ×dᵢ: 6×(−20)=−120, 8×(−10)=−80, 13×0=0, 7×10=70, 6×20=120",
+          "en": "fᵢ×dᵢ: 6×(−20)=−120, 8×(−10)=−80, 13×0=0, 7×10=70, 6×20=120"
+        },
+        {
+          "hi": "Σfᵢ = 40, Σ(fᵢdᵢ) = −120−80+0+70+120 = −10",
+          "en": "Σfᵢ = 40, Σ(fᵢdᵢ) = −120−80+0+70+120 = −10"
+        },
+        {
+          "hi": "Mean = a + Σ(fᵢdᵢ)/Σfᵢ = 25 + (−10/40) = 25 − 0.25 = 24.75",
+          "en": "Mean = a + Σ(fᵢdᵢ)/Σfᵢ = 25 + (−10/40) = 25 − 0.25 = 24.75"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Step Deviation Method se mean nikaalo:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 5, 10, 15, 8, 2",
+        "en": "Find the mean using the Step Deviation Method:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 5, 10, 15, 8, 2"
+      },
+      "steps": [
+        {
+          "hi": "Class marks (xᵢ): 5, 15, 25, 35, 45. Class size h = 10. Assumed mean a = 25",
+          "en": "Class marks (xᵢ): 5, 15, 25, 35, 45. Class size h = 10. Assumed mean a = 25"
+        },
+        {
+          "hi": "uᵢ = (xᵢ−a)/h: −2, −1, 0, 1, 2",
+          "en": "uᵢ = (xᵢ−a)/h: −2, −1, 0, 1, 2"
+        },
+        {
+          "hi": "fᵢ×uᵢ: 5×(−2)=−10, 10×(−1)=−10, 15×0=0, 8×1=8, 2×2=4",
+          "en": "fᵢ×uᵢ: 5×(−2)=−10, 10×(−1)=−10, 15×0=0, 8×1=8, 2×2=4"
+        },
+        {
+          "hi": "Σfᵢ = 40, Σ(fᵢuᵢ) = −10−10+0+8+4 = −8",
+          "en": "Σfᵢ = 40, Σ(fᵢuᵢ) = −10−10+0+8+4 = −8"
+        },
+        {
+          "hi": "Mean = a + [Σ(fᵢuᵢ)/Σfᵢ]×h = 25 + (−8/40)×10 = 25 − 2 = 23",
+          "en": "Mean = a + [Σ(fᵢuᵢ)/Σfᵢ]×h = 25 + (−8/40)×10 = 25 − 2 = 23"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Class interval 20-30 ka class mark kya hai?",
+          "en": "What is the class mark of the class interval 20-30?"
+        },
+        "options": [
+          {
+            "hi": "20",
+            "en": "20"
+          },
+          {
+            "hi": "25",
+            "en": "25"
+          },
+          {
+            "hi": "30",
+            "en": "30"
+          },
+          {
+            "hi": "50",
+            "en": "50"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Class mark = (20+30)/2 = 25",
+          "en": "Class mark = (20+30)/2 = 25"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Step Deviation Method mein assumed mean 'a' generally kya choose karte hain?",
+          "en": "In the Step Deviation Method, what is generally chosen as the assumed mean 'a'?"
+        },
+        "options": [
+          {
+            "hi": "Sabse chhota class mark",
+            "en": "Smallest class mark"
+          },
+          {
+            "hi": "Sabse bada class mark",
+            "en": "Largest class mark"
+          },
+          {
+            "hi": "Middle class mark",
+            "en": "Middle class mark"
+          },
+          {
+            "hi": "Koi bhi random value",
+            "en": "Any random value"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Generally middle class mark ko 'a' choose karte hain — isse dᵢ/uᵢ chhote rehte hain.",
+          "en": "The middle class mark is generally chosen as 'a' — this keeps dᵢ/uᵢ small."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Step Deviation Method sirf tab kaam karta hai jab sabhi class intervals same size ke hon.",
+          "en": "The Step Deviation Method only works when all class intervals are the same size."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — h (class size) fixed hona zaroori hai kyunki uᵢ=(xᵢ−a)/h ek hi h use karta hai poore table mein.",
+          "en": "True — h (class size) must be fixed since uᵢ=(xᵢ−a)/h uses one single h across the whole table."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Data: Class 5-15,15-25,25-35,35-45; fᵢ: 4,8,12,6. Direct method se mean kya hoga?",
+          "en": "Data: Class 5-15,15-25,25-35,35-45; fᵢ: 4,8,12,6. What is the mean using the Direct Method?"
+        },
+        "options": [
+          {
+            "hi": "31.67",
+            "en": "31.67"
+          },
+          {
+            "hi": "30",
+            "en": "30"
+          },
+          {
+            "hi": "33",
+            "en": "33"
+          },
+          {
+            "hi": "29.5",
+            "en": "29.5"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "xᵢ=15,25,35,45. Σfᵢxᵢ=60+200+420+270=950, Σfᵢ=30. Mean=950/30=31.67",
+          "en": "xᵢ=15,25,35,45. Σfᵢxᵢ=60+200+420+270=950, Σfᵢ=30. Mean=950/30=31.67"
+        }
+      },
+      {
+        "type": "dragdrop",
+        "question": {
+          "hi": "Step deviation formula complete karo:",
+          "en": "Complete the step deviation formula:"
+        },
+        "sentenceParts": [
+          "uᵢ = (xᵢ − a)"
+        ],
+        "blanks": [
+          "/ h"
+        ],
+        "tokens": [
+          "/ h",
+          "× h",
+          "+ h"
+        ],
+        "explanation": {
+          "hi": "Sahi formula: uᵢ = (xᵢ − a) / h",
+          "en": "The correct formula: uᵢ = (xᵢ − a) / h"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Direct Method: x̄ = Σ(fᵢxᵢ)/Σfᵢ — chhote numbers ke liye",
+      "en": "Direct Method: x̄ = Σ(fᵢxᵢ)/Σfᵢ — for small numbers"
+    },
+    {
+      "hi": "Assumed Mean Method: x̄ = a + Σ(fᵢdᵢ)/Σfᵢ, dᵢ=xᵢ−a — bade numbers ko chhota karne ke liye",
+      "en": "Assumed Mean Method: x̄ = a + Σ(fᵢdᵢ)/Σfᵢ, dᵢ=xᵢ−a — to shrink large numbers"
+    },
+    {
+      "hi": "Step Deviation Method: x̄ = a + [Σ(fᵢuᵢ)/Σfᵢ]×h, uᵢ=(xᵢ−a)/h — sabse fast, uniform class size mein",
+      "en": "Step Deviation Method: x̄ = a + [Σ(fᵢuᵢ)/Σfᵢ]×h, uᵢ=(xᵢ−a)/h — fastest, for uniform class size"
+    },
+    {
+      "hi": "Hamesha table bana ke solve karo — isse calculation mistakes kam hoti hain aur step marks bhi milte hain",
+      "en": "Always solve using a table — it reduces calculation mistakes and earns step marks"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum grouped data ka mean 3 alag methods se nikaal sakte ho, aur jaante ho ki kaunsa method kab use karna hai. Agle lesson mein hum seekhenge median nikaalna — cumulative frequency table ke through.",
+    "en": "You can now find the mean of grouped data using 3 different methods, and know which method to use when. Next, we'll learn to find the median — using the cumulative frequency table."
+  },
+  "reward": {
+    "badge": null
+  }
+}

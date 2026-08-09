@@ -1,0 +1,242 @@
+{
+  "chapterId": "chapter-13",
+  "flashcards": [
+    {
+      "front": {
+        "hi": "Mean (Direct Method)?",
+        "en": "Mean (Direct Method)?"
+      },
+      "back": {
+        "hi": "x̄ = Σfᵢxᵢ/Σfᵢ",
+        "en": "x̄ = Σfᵢxᵢ/Σfᵢ"
+      }
+    },
+    {
+      "front": {
+        "hi": "Mean (Assumed Mean Method)?",
+        "en": "Mean (Assumed Mean Method)?"
+      },
+      "back": {
+        "hi": "x̄ = a + Σfᵢdᵢ/Σfᵢ, dᵢ=xᵢ−a",
+        "en": "x̄ = a + Σfᵢdᵢ/Σfᵢ, dᵢ=xᵢ−a"
+      }
+    },
+    {
+      "front": {
+        "hi": "Mean (Step Deviation Method)?",
+        "en": "Mean (Step Deviation Method)?"
+      },
+      "back": {
+        "hi": "x̄ = a + [Σfᵢuᵢ/Σfᵢ]×h, uᵢ=(xᵢ−a)/h",
+        "en": "x̄ = a + [Σfᵢuᵢ/Σfᵢ]×h, uᵢ=(xᵢ−a)/h"
+      }
+    },
+    {
+      "front": {
+        "hi": "Median formula?",
+        "en": "Median formula?"
+      },
+      "back": {
+        "hi": "l + [(N/2−cf)/f]×h",
+        "en": "l + [(N/2−cf)/f]×h"
+      }
+    },
+    {
+      "front": {
+        "hi": "Mode formula?",
+        "en": "Mode formula?"
+      },
+      "back": {
+        "hi": "l + [(f₁−f₀)/(2f₁−f₀−f₂)]×h",
+        "en": "l + [(f₁−f₀)/(2f₁−f₀−f₂)]×h"
+      }
+    },
+    {
+      "front": {
+        "hi": "Class mark formula?",
+        "en": "Class mark formula?"
+      },
+      "back": {
+        "hi": "xᵢ = (Upper+Lower)/2",
+        "en": "xᵢ = (Upper+Lower)/2"
+      }
+    },
+    {
+      "front": {
+        "hi": "Empirical relationship?",
+        "en": "Empirical relationship?"
+      },
+      "back": {
+        "hi": "Mode ≈ 3×Median − 2×Mean",
+        "en": "Mode ≈ 3×Median − 2×Mean"
+      }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": {
+        "hi": "Class Mark",
+        "en": "Class Mark"
+      },
+      "formula": "xᵢ = (Upper Limit + Lower Limit) / 2"
+    },
+    {
+      "label": {
+        "hi": "Class Size",
+        "en": "Class Size"
+      },
+      "formula": "h = Upper Limit − Lower Limit"
+    },
+    {
+      "label": {
+        "hi": "Mean — Direct Method",
+        "en": "Mean — Direct Method"
+      },
+      "formula": "x̄ = Σ(fᵢxᵢ) / Σfᵢ"
+    },
+    {
+      "label": {
+        "hi": "Mean — Assumed Mean Method",
+        "en": "Mean — Assumed Mean Method"
+      },
+      "formula": "x̄ = a + Σ(fᵢdᵢ) / Σfᵢ"
+    },
+    {
+      "label": {
+        "hi": "Mean — Step Deviation Method",
+        "en": "Mean — Step Deviation Method"
+      },
+      "formula": "x̄ = a + [Σ(fᵢuᵢ) / Σfᵢ] × h"
+    },
+    {
+      "label": {
+        "hi": "Median",
+        "en": "Median"
+      },
+      "formula": "l + [(N/2 − cf) / f] × h"
+    },
+    {
+      "label": {
+        "hi": "Mode",
+        "en": "Mode"
+      },
+      "formula": "l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h"
+    }
+  ],
+  "mindMap": {
+    "root": {
+      "hi": "Statistics",
+      "en": "Statistics"
+    },
+    "branches": [
+      {
+        "label": {
+          "hi": "Basics",
+          "en": "Basics"
+        },
+        "children": [
+          {
+            "hi": "class mark (xᵢ)",
+            "en": "class mark (xᵢ)"
+          },
+          {
+            "hi": "frequency (fᵢ)",
+            "en": "frequency (fᵢ)"
+          },
+          {
+            "hi": "class size (h)",
+            "en": "class size (h)"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Mean",
+          "en": "Mean"
+        },
+        "children": [
+          {
+            "hi": "Direct Method",
+            "en": "Direct Method"
+          },
+          {
+            "hi": "Assumed Mean Method",
+            "en": "Assumed Mean Method"
+          },
+          {
+            "hi": "Step Deviation Method",
+            "en": "Step Deviation Method"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Median",
+          "en": "Median"
+        },
+        "children": [
+          {
+            "hi": "cumulative frequency",
+            "en": "cumulative frequency"
+          },
+          {
+            "hi": "median class",
+            "en": "median class"
+          },
+          {
+            "hi": "ogive graphs",
+            "en": "ogive graphs"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Mode",
+          "en": "Mode"
+        },
+        "children": [
+          {
+            "hi": "modal class",
+            "en": "modal class"
+          },
+          {
+            "hi": "mode formula",
+            "en": "mode formula"
+          }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": {
+        "hi": "Class mark = (Upper+Lower)/2 — sahi ya galat?",
+        "en": "Class mark = (Upper+Lower)/2 — true or false?"
+      },
+      "explanation": {
+        "hi": "Sahi",
+        "en": "True"
+      }
+    },
+    {
+      "question": {
+        "hi": "Median class kaise dhoondte hain?",
+        "en": "How do you find the median class?"
+      },
+      "explanation": {
+        "hi": "Jahan cf pehli baar N/2 se bada ya barabar ho",
+        "en": "The class where cf first becomes ≥ N/2"
+      }
+    },
+    {
+      "question": {
+        "hi": "Modal class kaise dhoondte hain?",
+        "en": "How do you find the modal class?"
+      },
+      "explanation": {
+        "hi": "Sabse zyada frequency wali class",
+        "en": "The class with the highest frequency"
+      }
+    }
+  ]
+}

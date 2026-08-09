@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-13",
+  "objective": [
+    {
+      "question": {
+        "hi": "Direct method mein Mean nikaalne ka formula kya hai?",
+        "en": "What is the formula for Mean using the direct method?"
+      },
+      "options": [
+        { "hi": "x̄ = Σfᵢxᵢ / Σfᵢ", "en": "x̄ = Σfᵢxᵢ / Σfᵢ" },
+        { "hi": "x̄ = Σfᵢ / Σxᵢ", "en": "x̄ = Σfᵢ / Σxᵢ" },
+        { "hi": "x̄ = Σxᵢ / n", "en": "x̄ = Σxᵢ / n" },
+        { "hi": "x̄ = a + Σfᵢuᵢ", "en": "x̄ = a + Σfᵢuᵢ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Direct method: x̄ = Σfᵢxᵢ / Σfᵢ, jaha xᵢ har class ka class mark hai.",
+        "en": "Direct method: x̄ = Σfᵢxᵢ / Σfᵢ, where xᵢ is each class's mid-point (class mark)."
+      }
+    },
+    {
+      "question": {
+        "hi": "Median class kaise identify karte hain?",
+        "en": "How is the median class identified?"
+      },
+      "options": [
+        { "hi": "Jisme sabse zyada frequency ho", "en": "The class with the highest frequency" },
+        { "hi": "Jiska cf pehli baar N/2 ke barabar ya usse zyada ho", "en": "The class where cf first becomes ≥ N/2" },
+        { "hi": "Sabse pehli class", "en": "The very first class" },
+        { "hi": "Sabse aakhri class", "en": "The very last class" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Median class wo hai jisme cumulative frequency pehli baar N/2 ke barabar ya usse zyada ho jaati hai.",
+        "en": "The median class is the one where cumulative frequency first reaches or exceeds N/2."
+      }
+    },
+    {
+      "question": {
+        "hi": "Mode ke formula mein f₁, f₀, f₂ kya represent karte hain?",
+        "en": "In the mode formula, what do f₁, f₀, f₂ represent?"
+      },
+      "options": [
+        { "hi": "f₁=modal class frequency, f₀=preceding class frequency, f₂=succeeding class frequency", "en": "f₁=modal class frequency, f₀=preceding class frequency, f₂=succeeding class frequency" },
+        { "hi": "Teeno hi modal class ki frequency hain", "en": "All three are the modal class's frequency" },
+        { "hi": "f₁=total frequency", "en": "f₁=total frequency" },
+        { "hi": "In sabka koi matlab nahi hota", "en": "These have no specific meaning" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Mode formula: l + [(f₁−f₀)/(2f₁−f₀−f₂)] × h — jaha f₁ modal class ki, f₀ usse pehle wali, f₂ usse baad wali class ki frequency hai.",
+        "en": "Mode formula: l + [(f₁−f₀)/(2f₁−f₀−f₂)] × h — where f₁ is the modal class's frequency, f₀ the preceding class's, f₂ the succeeding class's."
+      }
+    },
+    {
+      "question": {
+        "hi": "Empirical relationship (3 Median = Mode + 2 Mean) kab use hoti hai?",
+        "en": "When is the empirical relationship (3 Median = Mode + 2 Mean) used?"
+      },
+      "options": [
+        { "hi": "Jab sirf mean pata ho aur mode/median nikaalne ho", "en": "When only mean is known and mode/median need to be found" },
+        { "hi": "Sirf grouped data ke liye kabhi use nahi hoti", "en": "It's never used for grouped data" },
+        { "hi": "Sirf circles ke chapter mein", "en": "Only in the circles chapter" },
+        { "hi": "Sirf probability mein", "en": "Only in probability" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Agar do values (mean, median, ya mode) pata hon, to teesri empirical relationship se nikaali ja sakti hai — bina poori calculation kiye.",
+        "en": "If two of the three values (mean, median, mode) are known, the third can be found using the empirical relationship — without doing the full calculation."
+      }
+    },
+    {
+      "question": {
+        "hi": "'Less than' ogive kis limit ke against plot hoti hai?",
+        "en": "The 'less than' ogive is plotted against which limit?"
+      },
+      "options": [
+        { "hi": "Lower limit", "en": "Lower limit" },
+        { "hi": "Upper limit", "en": "Upper limit" },
+        { "hi": "Class mark", "en": "Class mark" },
+        { "hi": "Class size", "en": "Class size" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "'Less than' cumulative frequency hamesha class ki upper limit ke against plot ki jaati hai.",
+        "en": "'Less than' cumulative frequency is always plotted against a class's upper limit."
+      }
+    },
+    {
+      "question": {
+        "hi": "Do ogives (less than aur more than) ka intersection point kya batata hai?",
+        "en": "What does the intersection point of the two ogives (less than and more than) represent?"
+      },
+      "options": [
+        { "hi": "Mean", "en": "Mean" },
+        { "hi": "Mode", "en": "Mode" },
+        { "hi": "Median", "en": "Median" },
+        { "hi": "Range", "en": "Range" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Dono ogives ke intersection point ka x-coordinate Median deta hai — ye graphical method hai.",
+        "en": "The x-coordinate of the two ogives' intersection point gives the Median — this is the graphical method."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Step-deviation method se mean nikaalne ka formula likho aur samjhao ki ye kab use karna chahiye.",
+        "en": "Write the formula for mean using the step-deviation method and explain when it should be used."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Step-deviation method: x̄ = a + h × (Σfᵢuᵢ/Σfᵢ), jaha uᵢ = (xᵢ−a)/h, a = assumed mean, h = class size.\nYe method tab use karo jab class sizes equal hon aur xᵢ values bade ho — kyunki h se divide karne se numbers chote ho jaate hain aur calculation easy ho jaati hai.",
+        "en": "Step-deviation method: x̄ = a + h × (Σfᵢuᵢ/Σfᵢ), where uᵢ = (xᵢ−a)/h, a = assumed mean, h = class size.\nUse this method when class sizes are equal and xᵢ values are large — dividing by h makes the numbers smaller and simplifies calculation."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek grouped data mein median class 40−50 hai, jisme l=40, cf=25, f=18, N=68, h=10. Median nikaalo.",
+        "en": "For a grouped data, the median class is 40−50, with l=40, cf=25, f=18, N=68, h=10. Find the median."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Median = l + [(N/2 − cf)/f] × h\nN/2 = 68/2 = 34\nMedian = 40 + [(34−25)/18] × 10 = 40 + (9/18)×10 = 40 + 5 = 45\n<strong>Median = 45</strong>",
+        "en": "Median = l + [(N/2 − cf)/f] × h\nN/2 = 68/2 = 34\nMedian = 40 + [(34−25)/18] × 10 = 40 + (9/18)×10 = 40 + 5 = 45\n<strong>Median = 45</strong>"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek data set ka mean 62.8 aur median 61.6 hai. Empirical relationship use karke mode nikaalo.",
+        "en": "A data set has mean = 62.8 and median = 61.6. Use the empirical relationship to find the mode."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "3 Median = Mode + 2 Mean\n3(61.6) = Mode + 2(62.8)\n184.8 = Mode + 125.6\nMode = 184.8 − 125.6 = 59.2\n<strong>Mode = 59.2</strong>",
+        "en": "3 Median = Mode + 2 Mean\n3(61.6) = Mode + 2(62.8)\n184.8 = Mode + 125.6\nMode = 184.8 − 125.6 = 59.2\n<strong>Mode = 59.2</strong>"
+      }
+    },
+    {
+      "question": {
+        "hi": "'Less than' aur 'more than' ogive mein fark batao. Dono kis limit ke against plot hote hain?",
+        "en": "Differentiate between 'less than' and 'more than' ogive. Against which limits are each plotted?"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "'Less than' ogive: upper limits ke against cumulative frequency plot hoti hai, curve upward (badhta hua) hota hai.\n'More than' ogive: lower limits ke against cumulative frequency plot hoti hai, curve downward (ghatta hua) hota hai.\nDono ko same graph par draw karke, unka intersection point Median deta hai.",
+        "en": "'Less than' ogive: cumulative frequency plotted against upper limits, curve is upward (increasing).\n'More than' ogive: cumulative frequency plotted against lower limits, curve is downward (decreasing).\nDrawing both on the same graph, their intersection point gives the Median."
+      }
+    },
+    {
+      "question": {
+        "hi": "Grouped data ke liye mode ka formula likho aur ek example ke saath solve karo: modal class 25−35, f₁=20, f₀=12, f₂=14, h=10, l=25.",
+        "en": "Write the mode formula for grouped data and solve an example: modal class 25−35, f₁=20, f₀=12, f₂=14, h=10, l=25."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Mode = l + [(f₁−f₀)/(2f₁−f₀−f₂)] × h\nMode = 25 + [(20−12)/(2×20−12−14)] × 10\n= 25 + [8/(40−26)] × 10\n= 25 + (8/14)×10\n= 25 + 5.71\n<strong>Mode ≈ 30.71</strong>",
+        "en": "Mode = l + [(f₁−f₀)/(2f₁−f₀−f₂)] × h\nMode = 25 + [(20−12)/(2×20−12−14)] × 10\n= 25 + [8/(40−26)] × 10\n= 25 + (8/14)×10\n= 25 + 5.71\n<strong>Mode ≈ 30.71</strong>"
+      }
+    }
+  ]
+}

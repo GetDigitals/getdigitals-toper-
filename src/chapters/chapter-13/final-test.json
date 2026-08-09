@@ -1,0 +1,279 @@
+{
+  "chapterId": "chapter-13",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "Class interval 30-40 ka class mark kya hai?",
+        "en": "What is the class mark of the class interval 30-40?"
+      },
+      "options": [
+        {
+          "hi": "30",
+          "en": "30"
+        },
+        {
+          "hi": "35",
+          "en": "35"
+        },
+        {
+          "hi": "40",
+          "en": "40"
+        },
+        {
+          "hi": "70",
+          "en": "70"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "(30+40)/2 = 35",
+        "en": "(30+40)/2 = 35"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "Class 10-20,20-30,30-40; fᵢ: 4,8,12. Direct method se Σfᵢxᵢ kya hoga? (xᵢ=15,25,35)",
+        "en": "Class 10-20,20-30,30-40; fᵢ: 4,8,12. What is Σfᵢxᵢ using the Direct Method? (xᵢ=15,25,35)"
+      },
+      "options": [
+        {
+          "hi": "680",
+          "en": "680"
+        },
+        {
+          "hi": "620",
+          "en": "620"
+        },
+        {
+          "hi": "700",
+          "en": "700"
+        },
+        {
+          "hi": "660",
+          "en": "660"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "4×15+8×25+12×35 = 60+200+420 = 680",
+        "en": "4×15+8×25+12×35 = 60+200+420 = 680"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Assumed Mean Method mein dᵢ = xᵢ − a hota hai.",
+        "en": "In the Assumed Mean Method, dᵢ = xᵢ − a."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi.",
+        "en": "True."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "cf = 5,13,28,48,62,70,75 hai, N=75. Median class dhoondne ke liye N/2 kitna hoga?",
+        "en": "cf = 5,13,28,48,62,70,75, N=75. What is N/2 for finding the median class?"
+      },
+      "options": [
+        {
+          "hi": "37.5",
+          "en": "37.5"
+        },
+        {
+          "hi": "35",
+          "en": "35"
+        },
+        {
+          "hi": "40",
+          "en": "40"
+        },
+        {
+          "hi": "30",
+          "en": "30"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "N/2 = 75/2 = 37.5",
+        "en": "N/2 = 75/2 = 37.5"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Upar wale data mein median class kaunsi hogi agar classes 0-10,10-20,20-30,30-40,40-50,50-60,60-70 hain?",
+        "en": "In the data above, which is the median class, if the classes are 0-10,10-20,20-30,30-40,40-50,50-60,60-70?"
+      },
+      "options": [
+        {
+          "hi": "30-40",
+          "en": "30-40"
+        },
+        {
+          "hi": "20-30",
+          "en": "20-30"
+        },
+        {
+          "hi": "40-50",
+          "en": "40-50"
+        },
+        {
+          "hi": "10-20",
+          "en": "10-20"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "37.5, cf=48 (class 30-40) mein pehli baar cross hoti hai.",
+        "en": "37.5 is first crossed at cf=48 (class 30-40)."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Modal class hamesha wo class hai jiski frequency sabse zyada hai.",
+        "en": "The modal class is always the class with the highest frequency."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi.",
+        "en": "True."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Modal class ka l=30,h=10,f₁=25,f₀=18,f₂=20 hai. Mode kya hoga?",
+        "en": "Modal class has l=30,h=10,f₁=25,f₀=18,f₂=20. What is the mode?"
+      },
+      "options": [
+        {
+          "hi": "35.83",
+          "en": "35.83"
+        },
+        {
+          "hi": "34.5",
+          "en": "34.5"
+        },
+        {
+          "hi": "36.2",
+          "en": "36.2"
+        },
+        {
+          "hi": "33.9",
+          "en": "33.9"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Mode = 30+[(25−18)/(50−18−20)]×10 = 30+(7/12)×10 = 30+5.83 = 35.83",
+        "en": "Mode = 30+[(25−18)/(50−18−20)]×10 = 30+(7/12)×10 = 30+5.83 = 35.83"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "Step Deviation Method mein Σfᵢ=60, Σfᵢuᵢ=−15, a=25, h=10 hai. Mean kya hoga?",
+        "en": "In the Step Deviation Method, Σfᵢ=60, Σfᵢuᵢ=−15, a=25, h=10. What is the mean?"
+      },
+      "options": [
+        {
+          "hi": "22.5",
+          "en": "22.5"
+        },
+        {
+          "hi": "20",
+          "en": "20"
+        },
+        {
+          "hi": "25",
+          "en": "25"
+        },
+        {
+          "hi": "27.5",
+          "en": "27.5"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Mean = 25 + (−15/60)×10 = 25 − 2.5 = 22.5",
+        "en": "Mean = 25 + (−15/60)×10 = 25 − 2.5 = 22.5"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "Ek data ka Mean=35.53 aur Median=34.75 hai. Empirical relation se Mode approx kya hoga?",
+        "en": "A dataset has Mean=35.53 and Median=34.75. Using the empirical relation, what is the approximate Mode?"
+      },
+      "options": [
+        {
+          "hi": "33.19",
+          "en": "33.19"
+        },
+        {
+          "hi": "36",
+          "en": "36"
+        },
+        {
+          "hi": "35",
+          "en": "35"
+        },
+        {
+          "hi": "34",
+          "en": "34"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Mode ≈ 3×34.75 − 2×35.53 = 104.25 − 71.06 = 33.19",
+        "en": "Mode ≈ 3×34.75 − 2×35.53 = 104.25 − 71.06 = 33.19"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "'Less than' ogive banate waqt cf ko class ki kis limit ke against plot karte hain?",
+        "en": "When drawing a 'less than' ogive, cf is plotted against which limit of the class?"
+      },
+      "options": [
+        {
+          "hi": "Upper limit",
+          "en": "Upper limit"
+        },
+        {
+          "hi": "Lower limit",
+          "en": "Lower limit"
+        },
+        {
+          "hi": "Class mark",
+          "en": "Class mark"
+        },
+        {
+          "hi": "Kisi bhi limit",
+          "en": "Any limit"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Less than ogive mein cf hamesha upper limit ke against plot hoti hai.",
+        "en": "In a less than ogive, cf is always plotted against the upper limit."
+      }
+    }
+  ]
+}
