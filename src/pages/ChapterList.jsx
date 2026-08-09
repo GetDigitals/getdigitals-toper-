@@ -3,7 +3,7 @@ import { useNavigate, useParams, Navigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
-import { isChapterLocked, getRewardDaysLeft } from '../App';
+import { isChapterLocked } from '../App';
 import { getSubjectBySlug, DEFAULT_SUBJECT_SLUG } from '../config/subjects';
 import ChapterCard from '../components/ChapterCard';
 
@@ -56,7 +56,6 @@ export default function ChapterList() {
               index={i}
               unlocked={true}
               paymentLocked={isChapterLocked(ch, { isApproved, profile })}
-              rewardDaysLeft={getRewardDaysLeft(ch, profile)}
               progressPercent={pct}
             />
           );

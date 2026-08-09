@@ -25,9 +25,10 @@ import Dashboard from './pages/Dashboard';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
 import ReferAndEarn from './pages/ReferAndEarn';
+import BonusContent from './pages/BonusContent';
 
 // Screens that own their own full-bleed layout (no bottom tab bar)
-const FULLSCREEN_PREFIXES = ['/', '/login', '/lesson', '/practice', '/final-test', '/certificate', '/payment-pending'];
+const FULLSCREEN_PREFIXES = ['/', '/login', '/lesson', '/practice', '/final-test', '/certificate', '/payment-pending', '/bonus'];
 const PUBLIC_PATHS = ['/', '/login'];
 
 /**
@@ -46,49 +47,22 @@ export function requiresPayment(chapter) {
 
 /**
  * Single source of truth for "can this student open this paid chapter
- * right now" — combines the real payment approval with a temporary
- * Refer & Earn reward unlock (2 referrals = 1 chosen paid chapter free
- * for 7 days, see ReferAndEarn.jsx). Every place that decides whether to
- * show a 💰 lock or let the student in calls this ONE function, so the
- * reward logic only has to be right in one place.
- *
- * Note on trust model: like the payment approval itself (manually set by
- * Ashok in the Firebase console) and the single-device lock (already
- * soft/lenient by design), this reward is enforced client-side and
- * Firestore rules don't cross-check it against the student's actual
- * referral count — a technically determined student could grant this to
- * themselves via devtools without really referring anyone. Given it's a
- * time-limited unlock of one chapter (not permanent, not the real
- * payment gate), this is an accepted low-stakes trust gap, consistent
- * with how the rest of this app is built.
+ * right now" — currently just the real payment approval, kept as its
+ * own named function (rather than inlining `requiresPayment && !isApproved`
+ * everywhere) so any future access rule only has to be added in one place.
  */
-export function isChapterLocked(chapter, { isApproved, profile }) {
-  if (!requiresPayment(chapter)) return false;
-  if (isApproved) return false;
-  if (
-    profile?.rewardUnlockChapterId === chapter.id &&
-    profile?.rewardUnlockExpiresAt &&
-    Date.now() < toMillis(profile.rewardUnlockExpiresAt)
-  ) {
-    return false;
-  }
-  return true;
+export function isChapterLocked(chapter, { isApproved }) {
+  return requiresPayment(chapter) && !isApproved;
 }
 
-/** Days left on a reward unlock for this specific chapter, or null if none/expired. Used to show "⏰ 5d left" on the chapter card instead of a bare open lock. */
-export function getRewardDaysLeft(chapter, profile) {
-  if (!chapter || profile?.rewardUnlockChapterId !== chapter.id || !profile?.rewardUnlockExpiresAt) return null;
-  const msLeft = toMillis(profile.rewardUnlockExpiresAt) - Date.now();
-  if (msLeft <= 0) return null;
-  return Math.max(1, Math.ceil(msLeft / (24 * 60 * 60 * 1000)));
-}
-
-/** Firestore Timestamp fields can arrive as a Timestamp object (.toMillis()), a plain {seconds} shape, or already-a-number — normalize once. */
-function toMillis(value) {
-  if (value == null) return 0;
-  if (typeof value.toMillis === 'function') return value.toMillis();
-  if (typeof value.seconds === 'number') return value.seconds * 1000;
-  return typeof value === 'number' ? value : 0;
+/** Wrap a bonus-content route — needs login, and this specific bonus item must be in the student's unlockedBonusIds (earned via Refer & Earn). */
+function RequireBonusAccess({ children }) {
+  const { user, authLoading, profile, profileLoading } = useAuth();
+  const { bonusId } = useParams();
+  if (authLoading || profileLoading) return null;
+  if (!user) return <Navigate to="/login" replace />;
+  if (!profile?.unlockedBonusIds?.includes(bonusId)) return <Navigate to="/refer" replace />;
+  return children;
 }
 
 /** Wrap any route that just requires a signed-in user (payment status doesn't matter here). */
@@ -173,6 +147,7 @@ function AppShell() {
           <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
           <Route path="/leaderboard" element={<RequireAuth><Leaderboard /></RequireAuth>} />
           <Route path="/refer" element={<RequireAuth><ReferAndEarn /></RequireAuth>} />
+          <Route path="/bonus/:bonusId" element={<RequireBonusAccess><BonusContent /></RequireBonusAccess>} />
           <Route path="/settings" element={<RequireAuth><Settings /></RequireAuth>} />
         </Routes>
       </AnimatePresence>

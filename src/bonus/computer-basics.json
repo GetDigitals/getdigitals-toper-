@@ -1,0 +1,100 @@
+{
+  "id": "bonus-computer-basics",
+  "title": { "hi": "Computer Basics — Rozana Kaam Aane Wali Skills", "en": "Computer Basics — Everyday Useful Skills" },
+  "icon": "💻",
+  "hero": {
+    "emoji": "💻",
+    "headline": { "hi": "Computer Basics Jo Har Kisi Ko Aani Chahiye", "en": "Computer Basics Everyone Should Know" },
+    "subtext": { "hi": "Files organize karna, shortcuts, aur online safe rehna — sab ek hi jagah.", "en": "Organizing files, shortcuts, and staying safe online — all in one place." }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Hardware wo hai jo tum touch kar sakte ho — keyboard, mouse, screen, CPU. Software wo programs hain jo hardware pe chalte hain — jaise Windows/Android (operating system), Chrome (browser), Word (app). Operating system (OS) sabse important software hai — ye baaki sab software ko chalne deta hai aur hardware ko control karta hai.",
+        "en": "Hardware is what you can physically touch — keyboard, mouse, screen, CPU. Software is the programs that run on hardware — like Windows/Android (operating system), Chrome (browser), Word (app). The operating system (OS) is the most important software — it lets everything else run and controls the hardware."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Files ko organize karna ek underrated skill hai. Basic rule: har subject/project ka apna folder banao, files ko clear naam do (jaise 'Maths_Assignment_Ch3' na ki 'Untitled1'), aur related files ko ek saath rakho. Isse baad mein kuch bhi dhoondhna easy ho jaata hai.",
+        "en": "Organizing files is an underrated skill. Basic rule: make a separate folder for each subject/project, give files clear names (like 'Maths_Assignment_Ch3' not 'Untitled1'), and keep related files together. This makes finding anything later much easier."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Kuch keyboard shortcuts jo bahut time bachate hain: Ctrl+C (copy), Ctrl+V (paste), Ctrl+Z (undo — galti ho jaaye to isse turant wapas), Ctrl+S (save — bar-bar save karne ki aadat daalo), Ctrl+F (page pe kuch dhoondhna), aur Alt+Tab (dusri open window pe switch karna).",
+        "en": "Some keyboard shortcuts that save a lot of time: Ctrl+C (copy), Ctrl+V (paste), Ctrl+Z (undo — instantly reverses a mistake), Ctrl+S (save — build the habit of saving often), Ctrl+F (find something on a page), and Alt+Tab (switch to another open window)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Online safety ke 4 basic rules: (1) Strong password banao — kam se kam 8 characters, letters+numbers+symbols mix, aur har account ka password alag rakho. (2) URL mein 'https://' (lock icon ke saath) check karo before koi sensitive info dalna — 'http' (bina 's') ka matlab connection secure nahi hai. (3) Kabhi bhi unknown links pe click mat karo jo bahut acha lagne wala offer promise karein (free prize, urgent action) — ye phishing scams hote hain. (4) Apna password ya OTP kisi ke saath share mat karo, chahe wo khud ko 'company se' bata rha ho — real companies kabhi OTP nahi maangti.",
+        "en": "4 basic online safety rules: (1) Make a strong password — at least 8 characters, mix of letters+numbers+symbols, and a different password for each account. (2) Check for 'https://' (with a lock icon) in the URL before entering sensitive info — 'http' (without the 's') means the connection isn't secure. (3) Never click unknown links promising something too good to be true (free prize, urgent action) — these are phishing scams. (4) Never share your password or OTP with anyone, even if they claim to be 'from the company' — real companies never ask for your OTP."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Basic troubleshooting: agar kuch kaam nahi kar raha, pehle restart karo (bahut si problems isse fix ho jaati hain), phir internet connection check karo, aur agar phir bhi na chale to exact error message note karo — ye problem solve karne mein sabse zyada help karta hai.",
+        "en": "Basic troubleshooting: if something isn't working, first restart it (fixes a surprising number of problems), then check your internet connection, and if it still doesn't work, note down the exact error message — this helps the most in solving the problem."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": { "hi": "Tumhe ek email milta hai jo kehta hai 'Tumhara account 24 ghante mein band ho jayega, abhi is link pe click karke password confirm karo!' Kya karna chahiye?", "en": "You get an email saying 'Your account will be closed in 24 hours, click this link now to confirm your password!' What should you do?" },
+      "steps": [
+        { "hi": "Urgency create karna (jaldi karo, warna kuch bura hoga) phishing scams ka classic sign hai.", "en": "Creating urgency (act now or something bad happens) is a classic sign of a phishing scam." },
+        { "hi": "Link pe click mat karo. Directly official website/app khol ke apna account check karo.", "en": "Don't click the link. Open the official website/app directly to check your account." }
+      ],
+      "answer": { "hi": "Link ignore karo, email delete/report karo, aur kabhi bhi email ke link se password enter mat karo.", "en": "Ignore the link, delete/report the email, and never enter your password through a link from an email." }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": { "hi": "In mein se kaunsa 'hardware' hai?", "en": "Which of these is 'hardware'?" },
+        "options": [
+          { "hi": "Chrome browser", "en": "Chrome browser" },
+          { "hi": "Keyboard", "en": "Keyboard" },
+          { "hi": "Windows operating system", "en": "Windows operating system" },
+          { "hi": "MS Word", "en": "MS Word" }
+        ],
+        "correct": 1,
+        "explanation": { "hi": "Keyboard physically touch kiya ja sakta hai — hardware hai. Baaki teeno software hain.", "en": "A keyboard can be physically touched — it's hardware. The other three are software." }
+      },
+      {
+        "type": "mcq",
+        "question": { "hi": "Ctrl+Z kya karta hai?", "en": "What does Ctrl+Z do?" },
+        "options": [
+          { "hi": "Save karta hai", "en": "Saves" },
+          { "hi": "Copy karta hai", "en": "Copies" },
+          { "hi": "Undo karta hai", "en": "Undoes" },
+          { "hi": "Print karta hai", "en": "Prints" }
+        ],
+        "correct": 2,
+        "explanation": { "hi": "Ctrl+Z pichhle action ko wapas (undo) kar deta hai.", "en": "Ctrl+Z reverses (undoes) the last action." }
+      },
+      {
+        "type": "truefalse",
+        "question": { "hi": "Kisi bhi legit company representative ke maangne pe apna OTP share kar dena chahiye.", "en": "You should share your OTP if any legit-sounding company representative asks for it." },
+        "correct": false,
+        "explanation": { "hi": "Real companies kabhi OTP nahi maangti — OTP maangna hamesha ek scam sign hai.", "en": "Real companies never ask for your OTP — asking for it is always a scam sign." }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Files ko clear naam do aur subject-wise folders mein rakho.", "en": "Give files clear names and keep them in subject-wise folders." },
+    { "hi": "'https://' aur lock icon check karo koi bhi sensitive info dalne se pehle.", "en": "Check for 'https://' and the lock icon before entering any sensitive info." },
+    { "hi": "Password/OTP kisi ke saath share mat karo, kabhi bhi.", "en": "Never share your password/OTP with anyone, ever." }
+  ],
+  "summary": {
+    "hi": "Hardware/software ka farak samajhna, files organize karna, kuch key shortcuts, aur online safety ke 4 rules — ye sab chhoti cheezein hain jo rozana bahut time aur trouble bachati hain.",
+    "en": "Understanding hardware vs software, organizing files, a few key shortcuts, and the 4 online safety rules — these are small things that save a lot of time and trouble every day."
+  }
+}

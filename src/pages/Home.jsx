@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
-import { isChapterLocked, getRewardDaysLeft } from '../App';
+import { isChapterLocked } from '../App';
 import { t, langCode } from '../utils/i18n';
 import TopStatsBar from '../components/TopStatsBar';
 import ChapterCard from '../components/ChapterCard';
@@ -102,7 +102,6 @@ export default function Home() {
               index={i}
               unlocked={true}
               paymentLocked={isChapterLocked(ch, { isApproved, profile })}
-              rewardDaysLeft={getRewardDaysLeft(ch, profile)}
               progressPercent={(() => {
                 const lessons = getLessonsForChapter(ch.id);
                 const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;

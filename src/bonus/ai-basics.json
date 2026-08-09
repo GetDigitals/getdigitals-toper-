@@ -1,0 +1,100 @@
+{
+  "id": "bonus-ai-basics",
+  "title": { "hi": "AI Basics — Artificial Intelligence Samjho", "en": "AI Basics — Understanding Artificial Intelligence" },
+  "icon": "🤖",
+  "hero": {
+    "emoji": "🤖",
+    "headline": { "hi": "AI Kya Hai — Bina Confusion Ke", "en": "What AI Actually Is — No Confusion" },
+    "subtext": { "hi": "Roz use karte ho, lekin kabhi socha nahi ki ye kaam kaise karta hai? Yahi samjhenge.", "en": "You use it daily without thinking about how it actually works. Let's fix that." }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "AI (Artificial Intelligence) matlab computer/software ko aisa banana ki wo un cheezon mein achha ho jo normally insaan ki soch/samajh se hoti hain — jaise pattern pehchanna, language samajhna, ya decision lena. AI 'sochta' nahi hai jaise insaan sochta hai — ye bahut saara data dekh kar patterns seekhta hai, aur unhi patterns ke hisaab se predictions/output deta hai.",
+        "en": "AI (Artificial Intelligence) means building computers/software that are good at tasks which normally need human-like thinking — recognising patterns, understanding language, or making decisions. AI doesn't 'think' the way humans do — it learns patterns from huge amounts of data, and produces predictions/output based on those patterns."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Tum har din AI use karte ho, bina notice kiye: Google search suggestions, YouTube/Instagram ka 'recommended for you', phone ka face unlock, Google Maps ka best-route suggestion, aur voice assistants (Siri, Alexa, Google Assistant). Aur ab ChatGPT/Gemini jaise 'chatbots' bhi AI hi hain — ye ek specific type hai jise Large Language Model (LLM) kehte hain, jo bahut saara text padh kar seekhta hai ki agla word kya hona chahiye.",
+        "en": "You use AI every day without noticing: Google search suggestions, YouTube/Instagram's 'recommended for you', your phone's face unlock, Google Maps' best-route suggestion, and voice assistants (Siri, Alexa, Google Assistant). Chatbots like ChatGPT/Gemini are also AI — a specific type called a Large Language Model (LLM), which learns by reading huge amounts of text to predict what the next word should be."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek badi galatfehmi: AI 'jaanta' kuch nahi hai jaise insaan jaanta hai — ye sirf patterns ke basis pe best-guess deta hai. Isiliye AI kabhi-kabhi bilkul confidence se galat jawab bhi de sakta hai (isko 'hallucination' kehte hain). Isliye AI se koi bhi important fact milne pe use doosre source se verify karna zaroori hai — khaas kar exam ya homework ke liye.",
+        "en": "A big misconception: AI doesn't 'know' things the way a human does — it just makes its best guess based on patterns. That's why AI can sometimes confidently give a WRONG answer (this is called 'hallucination'). So any important fact from AI should be verified against another source — especially for exams or homework."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Achha prompt (AI ko diya gaya instruction) likhna ek useful skill hai. Teen simple rules: (1) Specific raho — 'essay likho' ki jagah 'CBSE Class 10 ke liye 200-word essay likho, Hinglish mein, discipline ke topic pe' likho. (2) Context do — AI ko batao tum kis level pe ho, kya chahiye. (3) Follow-up karo — pehla jawab perfect nahi milega, usse refine karne ko bolo ('isko aur simple karo', 'ek example do').",
+        "en": "Writing a good prompt (the instruction you give AI) is a useful skill. Three simple rules: (1) Be specific — instead of 'write an essay', say 'write a 200-word essay for CBSE Class 10, in Hinglish, on discipline'. (2) Give context — tell AI your level and what you need. (3) Follow up — the first answer won't be perfect, ask it to refine ('make this simpler', 'give me an example')."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Responsible use: AI se homework ka jawab copy-paste karna cheating hai aur tumhe kuch seekhne nahi deta — AI ko ek 'tutor jo explain karta hai' ki tarah use karo, 'jo jawab deta hai' ki tarah nahi. Apni personal details (address, phone number, family ki details) kabhi bhi AI chatbots mein type mat karo — wo data company ke servers pe store ho sakta hai.",
+        "en": "Responsible use: copy-pasting AI's answer for homework is cheating and doesn't let you learn anything — use AI as a 'tutor that explains', not a 'source of answers to copy'. Never type personal details (address, phone number, family details) into AI chatbots — that data may be stored on the company's servers."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": { "hi": "Tum ek AI chatbot se poochte ho 'Taj Mahal kab bana?' aur wo confidence se ek galat saal bata deta hai. Aisa kyun hota hai?", "en": "You ask an AI chatbot 'When was the Taj Mahal built?' and it confidently gives a wrong year. Why does this happen?" },
+      "steps": [
+        { "hi": "AI ka jawab pattern-based hota hai, fact-check based nahi — ye training data mein dekhe hue similar patterns se best-guess banata hai.", "en": "AI's answer is pattern-based, not fact-checked — it makes a best-guess from similar patterns it saw in training data." },
+        { "hi": "Isse 'hallucination' kehte hain — AI galat info ko bhi bilkul confident tone mein bolta hai.", "en": "This is called 'hallucination' — AI states wrong info in a completely confident tone." }
+      ],
+      "answer": { "hi": "Kisi bhi factual claim ko ek reliable source (textbook, official website) se verify karo, sirf AI ke jawab pe bharosa mat karo.", "en": "Always verify any factual claim against a reliable source (textbook, official website) — don't rely on AI's answer alone." }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "question": { "hi": "AI 'sochta' kaise hai?", "en": "How does AI 'think'?" },
+        "options": [
+          { "hi": "Bilkul insaan ki tarah", "en": "Exactly like a human" },
+          { "hi": "Bahut saara data dekh kar patterns seekh ke", "en": "By learning patterns from huge amounts of data" },
+          { "hi": "Random guess karke", "en": "By randomly guessing" },
+          { "hi": "Ye kabhi galat nahi ho sakta", "en": "It can never be wrong" }
+        ],
+        "correct": 1,
+        "explanation": { "hi": "AI patterns seekhta hai data se, insaan jaisi 'samajh' nahi rakhta.", "en": "AI learns patterns from data — it doesn't have human-like 'understanding'." }
+      },
+      {
+        "type": "truefalse",
+        "question": { "hi": "AI kabhi galat jawab nahi deta.", "en": "AI never gives a wrong answer." },
+        "correct": false,
+        "explanation": { "hi": "AI galat jawab bilkul confident tone mein bhi de sakta hai — ise hallucination kehte hain.", "en": "AI can give wrong answers in a very confident tone too — this is called hallucination." }
+      },
+      {
+        "type": "mcq",
+        "question": { "hi": "Ek achha AI prompt likhne ka sabse important rule kya hai?", "en": "What's the most important rule for writing a good AI prompt?" },
+        "options": [
+          { "hi": "Jitna chhota utna achha", "en": "The shorter the better" },
+          { "hi": "Specific aur context ke saath likho", "en": "Be specific and give context" },
+          { "hi": "Sirf English mein likho", "en": "Only write in English" },
+          { "hi": "Ek hi baar mein perfect jawab expect karo", "en": "Expect a perfect answer on the first try" }
+        ],
+        "correct": 1,
+        "explanation": { "hi": "Specific aur context-wala prompt hamesha behtar jawab deta hai.", "en": "A specific, context-rich prompt always gives a better answer." }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "AI ko homework ka jawab-machine mat banao — use samajhne ke liye use karo.", "en": "Don't turn AI into a homework answer-machine — use it to understand things." },
+    { "hi": "Personal details (address, phone, family info) AI chatbots mein kabhi type mat karo.", "en": "Never type personal details (address, phone, family info) into AI chatbots." },
+    { "hi": "Har important fact ko doosre source se verify karo.", "en": "Verify every important fact against another source." }
+  ],
+  "summary": {
+    "hi": "AI patterns seekh kar kaam karta hai, insaan ki tarah nahi 'sochta'. Roz ke bahut saare apps (search, recommendations, voice assistants) AI use karte hain. Achha prompt likhna ek seekhne layak skill hai, aur AI ko responsibly use karna (verify facts, privacy protect karna) sabse zaroori habit hai.",
+    "en": "AI works by learning patterns, not by 'thinking' like a human. Many everyday apps (search, recommendations, voice assistants) use AI. Writing good prompts is a skill worth learning, and using AI responsibly (verifying facts, protecting privacy) is the most important habit."
+  }
+}
