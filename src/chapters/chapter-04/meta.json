@@ -5,14 +5,17 @@
   "subject": "Maths",
   "board": "CBSE",
   "title": "Quadratic Equations",
-  "icon": "🧮",
-  "color": "#E8650A",
-  "description": "Quadratic Equations — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 300,
-  "coinReward": 60,
+  "icon": "📐",
+  "color": "#8B5CF6",
+  "description": "Learn about quadratic equations, their solutions by factorization, completing the square, quadratic formula, and nature of roots.",
+  "xpReward": 260,
+  "coinReward": 65,
   "badge": {
-    "id": "chapter-04-master",
-    "name": "Quadratic Equations Master",
+    "id": "quadratic-equations-master",
+    "name": {
+      "hi": "Quadratic Equations Master",
+      "en": "Quadratic Equations Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {
