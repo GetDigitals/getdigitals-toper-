@@ -1,0 +1,421 @@
+{
+  "id": "chapter-04-lesson-02",
+  "chapterId": "chapter-04",
+  "order": 2,
+  "title": {
+    "hi": "Solution by Factorization",
+    "en": "Solution by Factorization"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "✂️",
+    "headline": {
+      "hi": "Solution by Factorization",
+      "en": "Solution by Factorization"
+    },
+    "subtext": {
+      "hi": "Split and solve!",
+      "en": "Split and solve!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Factorization method quadratic equation solve karne ka sabse simple aur commonly used method hai. Isme middle term ko split karke factors nikaale jaate hain!",
+      "en": "Factorization method quadratic equation solve karne ka sabse simple aur commonly used method hai. Isme middle term ko split karke factors nikaale jaate hain!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Steps of Factorization Method\nQuadratic equation ax² + bx + c = 0 ko factorize karne ke steps:\n• Step 1: Equation ko standard form (ax² + bx + c = 0) mein likho\n• Step 2: a × c ka product nikaalo\n• Step 3: Do aise numbers dhoondo jinka product = a×c aur sum = b ho\n• Step 4: Middle term (bx) ko in do numbers ke terms mein split karo\n• Step 5: Common factor nikaal kar equation ko factorize karo\n• Step 6: Har factor ko 0 ke equal rakho aur x ki values nikaalo\n\n💡 Tip: a × c = product aur b = sum. Yeh do numbers dhoondhna sabse important step hai!",
+        "en": "Steps of Factorization Method\nQuadratic equation ax² + bx + c = 0 ko factorize karne ke steps:\n• Step 1: Equation ko standard form (ax² + bx + c = 0) mein likho\n• Step 2: a × c ka product nikaalo\n• Step 3: Do aise numbers dhoondo jinka product = a×c aur sum = b ho\n• Step 4: Middle term (bx) ko in do numbers ke terms mein split karo\n• Step 5: Common factor nikaal kar equation ko factorize karo\n• Step 6: Har factor ko 0 ke equal rakho aur x ki values nikaalo\n\n💡 Tip: a × c = product aur b = sum. Yeh do numbers dhoondhna sabse important step hai!"
+      }
+    },
+    {
+      "type": "formula",
+      "content": {
+        "hi": "Factorization Trick\nax² + bx + c = ax² + p x + q x + c,    where p×q = a×c and p+q = b\nMiddle term bx ko px + qx mein split karte hain jahan p aur q aise numbers hain jinka product a×c aur sum b hota hai.\nExample: x² + 5x + 6 mein a×c=6, b=5. Numbers: 2 aur 3 (2×3=6, 2+3=5)",
+        "en": "Factorization Trick\nax² + bx + c = ax² + p x + q x + c,    where p×q = a×c and p+q = b\nMiddle term bx ko px + qx mein split karte hain jahan p aur q aise numbers hain jinka product a×c aur sum b hota hai.\nExample: x² + 5x + 6 mein a×c=6, b=5. Numbers: 2 aur 3 (2×3=6, 2+3=5)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Example 1: Basic Factorization: Solve: x² + 5x + 6 = 0 by factorization.",
+        "en": "Example 1: Basic Factorization: Solve: x² + 5x + 6 = 0 by factorization."
+      },
+      "steps": [
+        {
+          "hi": "a = 1, b = 5, c = 6",
+          "en": "a = 1, b = 5, c = 6"
+        },
+        {
+          "hi": "a × c = 1 × 6 = 6",
+          "en": "a × c = 1 × 6 = 6"
+        },
+        {
+          "hi": "Do numbers jinka product 6 aur sum 5 ho:",
+          "en": "Do numbers jinka product 6 aur sum 5 ho:"
+        },
+        {
+          "hi": "2 aur 3 (kyunki 2×3=6 aur 2+3=5)",
+          "en": "2 aur 3 (kyunki 2×3=6 aur 2+3=5)"
+        },
+        {
+          "hi": "x² + 2x + 3x + 6 = 0",
+          "en": "x² + 2x + 3x + 6 = 0"
+        },
+        {
+          "hi": "x(x + 2) + 3(x + 2) = 0",
+          "en": "x(x + 2) + 3(x + 2) = 0"
+        },
+        {
+          "hi": "(x + 2)(x + 3) = 0",
+          "en": "(x + 2)(x + 3) = 0"
+        },
+        {
+          "hi": "x + 2 = 0  →  x = -2",
+          "en": "x + 2 = 0  →  x = -2"
+        },
+        {
+          "hi": "x + 3 = 0  →  x = -3",
+          "en": "x + 3 = 0  →  x = -3"
+        },
+        {
+          "hi": "✅ x = -2, -3",
+          "en": "✅ x = -2, -3"
+        },
+        {
+          "hi": "Verify: (-2)²+5(-2)+6 = 4-10+6 = 0 ✓, (-3)²+5(-3)+6 = 9-15+6 = 0 ✓",
+          "en": "Verify: (-2)²+5(-2)+6 = 4-10+6 = 0 ✓, (-3)²+5(-3)+6 = 9-15+6 = 0 ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 2: When a ≠ 1: Solve: 2x² - 7x + 3 = 0 by factorization.",
+        "en": "Example 2: When a ≠ 1: Solve: 2x² - 7x + 3 = 0 by factorization."
+      },
+      "steps": [
+        {
+          "hi": "a = 2, b = -7, c = 3",
+          "en": "a = 2, b = -7, c = 3"
+        },
+        {
+          "hi": "a × c = 2 × 3 = 6",
+          "en": "a × c = 2 × 3 = 6"
+        },
+        {
+          "hi": "Do numbers jinka product 6 aur sum -7 ho:",
+          "en": "Do numbers jinka product 6 aur sum -7 ho:"
+        },
+        {
+          "hi": "-6 aur -1 (kyunki -6×-1=6 aur -6+(-1)=-7)",
+          "en": "-6 aur -1 (kyunki -6×-1=6 aur -6+(-1)=-7)"
+        },
+        {
+          "hi": "2x² - 6x - x + 3 = 0",
+          "en": "2x² - 6x - x + 3 = 0"
+        },
+        {
+          "hi": "2x(x - 3) - 1(x - 3) = 0",
+          "en": "2x(x - 3) - 1(x - 3) = 0"
+        },
+        {
+          "hi": "(x - 3)(2x - 1) = 0",
+          "en": "(x - 3)(2x - 1) = 0"
+        },
+        {
+          "hi": "x - 3 = 0  →  x = 3",
+          "en": "x - 3 = 0  →  x = 3"
+        },
+        {
+          "hi": "2x - 1 = 0  →  x = 1/2",
+          "en": "2x - 1 = 0  →  x = 1/2"
+        },
+        {
+          "hi": "✅ x = 3, 1/2",
+          "en": "✅ x = 3, 1/2"
+        },
+        {
+          "hi": "Jab a ≠ 1 ho, tab bhi same method use hoti hai. Bas a×c ka product dekhna hai!",
+          "en": "Jab a ≠ 1 ho, tab bhi same method use hoti hai. Bas a×c ka product dekhna hai!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 3: Word Problem: Find two numbers whose sum is 27 and product is 182.",
+        "en": "Example 3: Word Problem: Find two numbers whose sum is 27 and product is 182."
+      },
+      "steps": [
+        {
+          "hi": "Let numbers be x aur (27 - x)",
+          "en": "Let numbers be x aur (27 - x)"
+        },
+        {
+          "hi": "Product: x(27 - x) = 182",
+          "en": "Product: x(27 - x) = 182"
+        },
+        {
+          "hi": "27x - x² = 182",
+          "en": "27x - x² = 182"
+        },
+        {
+          "hi": "x² - 27x + 182 = 0",
+          "en": "x² - 27x + 182 = 0"
+        },
+        {
+          "hi": "a×c = 182, b = -27",
+          "en": "a×c = 182, b = -27"
+        },
+        {
+          "hi": "Numbers: -13 aur -14 (-13×-14=182, -13-14=-27)",
+          "en": "Numbers: -13 aur -14 (-13×-14=182, -13-14=-27)"
+        },
+        {
+          "hi": "x² - 13x - 14x + 182 = 0",
+          "en": "x² - 13x - 14x + 182 = 0"
+        },
+        {
+          "hi": "x(x - 13) - 14(x - 13) = 0",
+          "en": "x(x - 13) - 14(x - 13) = 0"
+        },
+        {
+          "hi": "(x - 13)(x - 14) = 0",
+          "en": "(x - 13)(x - 14) = 0"
+        },
+        {
+          "hi": "✅ Numbers are 13 and 14",
+          "en": "✅ Numbers are 13 and 14"
+        },
+        {
+          "hi": "🎯 Word problems ko pehle equation mein convert karo, phir factorize karo!",
+          "en": "🎯 Word problems ko pehle equation mein convert karo, phir factorize karo!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve: x² + 7x + 12 = 0",
+        "en": "Solve: x² + 7x + 12 = 0"
+      },
+      "steps": [
+        {
+          "hi": "a×c=12, b=7. Numbers: 3,4. x²+3x+4x+12 = x(x+3)+4(x+3) = (x+3)(x+4)=0 → x=-3,-4",
+          "en": "a×c=12, b=7. Numbers: 3,4. x²+3x+4x+12 = x(x+3)+4(x+3) = (x+3)(x+4)=0 → x=-3,-4"
+        },
+        {
+          "hi": "Answer: x = -3, -4",
+          "en": "Answer: x = -3, -4"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve: 2x² + 5x - 3 = 0",
+        "en": "Solve: 2x² + 5x - 3 = 0"
+      },
+      "steps": [
+        {
+          "hi": "a×c=-6, b=5. Numbers: 6,-1. 2x²+6x-x-3 = 2x(x+3)-1(x+3) = (x+3)(2x-1)=0 → x=-3,1/2",
+          "en": "a×c=-6, b=5. Numbers: 6,-1. 2x²+6x-x-3 = 2x(x+3)-1(x+3) = (x+3)(2x-1)=0 → x=-3,1/2"
+        },
+        {
+          "hi": "Answer: x = 1/2, -3",
+          "en": "Answer: x = 1/2, -3"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "The sum of squares of two consecutive natural numbers is 313. Find the numbers.",
+        "en": "The sum of squares of two consecutive natural numbers is 313. Find the numbers."
+      },
+      "steps": [
+        {
+          "hi": "Let numbers be x and x+1. x²+(x+1)²=313 → 2x²+2x+1=313 → 2x²+2x-312=0 → x²+x-156=0 → (x+13)(x-12)=0 → x=12. Numbers: 12,13.",
+          "en": "Let numbers be x and x+1. x²+(x+1)²=313 → 2x²+2x+1=313 → 2x²+2x-312=0 → x²+x-156=0 → (x+13)(x-12)=0 → x=12. Numbers: 12,13."
+        },
+        {
+          "hi": "Answer: 12 and 13",
+          "en": "Answer: 12 and 13"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Solve: x² - 5x + 6 = 0",
+          "en": "Solve: x² - 5x + 6 = 0"
+        },
+        "options": [
+          {
+            "hi": "x=2,3",
+            "en": "x=2,3"
+          },
+          {
+            "hi": "x=-2,-3",
+            "en": "x=-2,-3"
+          },
+          {
+            "hi": "x=1,6",
+            "en": "x=1,6"
+          },
+          {
+            "hi": "x=-1,-6",
+            "en": "x=-1,-6"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "x²-5x+6 = x²-2x-3x+6 = x(x-2)-3(x-2) = (x-2)(x-3)=0 → x=2,3",
+          "en": "x²-5x+6 = x²-2x-3x+6 = x(x-2)-3(x-2) = (x-2)(x-3)=0 → x=2,3"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Solve: 3x² - 10x + 3 = 0",
+          "en": "Solve: 3x² - 10x + 3 = 0"
+        },
+        "options": [
+          {
+            "hi": "x=3,1/3",
+            "en": "x=3,1/3"
+          },
+          {
+            "hi": "x=3,1",
+            "en": "x=3,1"
+          },
+          {
+            "hi": "x=1/3,1",
+            "en": "x=1/3,1"
+          },
+          {
+            "hi": "x=-3,-1/3",
+            "en": "x=-3,-1/3"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a×c=9, b=-10. Numbers: -9,-1. 3x²-9x-x+3 = 3x(x-3)-1(x-3) = (x-3)(3x-1)=0 → x=3,1/3",
+          "en": "a×c=9, b=-10. Numbers: -9,-1. 3x²-9x-x+3 = 3x(x-3)-1(x-3) = (x-3)(3x-1)=0 → x=3,1/3"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "For x² + 8x + 15 = 0, the two numbers for splitting are:",
+          "en": "For x² + 8x + 15 = 0, the two numbers for splitting are:"
+        },
+        "options": [
+          {
+            "hi": "3,5",
+            "en": "3,5"
+          },
+          {
+            "hi": "-3,-5",
+            "en": "-3,-5"
+          },
+          {
+            "hi": "1,15",
+            "en": "1,15"
+          },
+          {
+            "hi": "-1,-15",
+            "en": "-1,-15"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a×c=15, b=8. Numbers: 3 aur 5 (3×5=15, 3+5=8)",
+          "en": "a×c=15, b=8. Numbers: 3 aur 5 (3×5=15, 3+5=8)"
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Every quadratic equation can be solved by factorization.",
+          "en": "Every quadratic equation can be solved by factorization."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Kuch quadratic equations aise hote hain jinke factors integers mein nahi hote. Unke liye quadratic formula use karte hain.",
+          "en": "Kuch quadratic equations aise hote hain jinke factors integers mein nahi hote. Unke liye quadratic formula use karte hain."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Solve: x² - x - 12 = 0",
+          "en": "Solve: x² - x - 12 = 0"
+        },
+        "options": [
+          {
+            "hi": "x=4,-3",
+            "en": "x=4,-3"
+          },
+          {
+            "hi": "x=3,-4",
+            "en": "x=3,-4"
+          },
+          {
+            "hi": "x=6,-2",
+            "en": "x=6,-2"
+          },
+          {
+            "hi": "x=2,-6",
+            "en": "x=2,-6"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a×c=-12, b=-1. Numbers: -4,3. x²-4x+3x-12 = x(x-4)+3(x-4) = (x-4)(x+3)=0 → x=4,-3",
+          "en": "a×c=-12, b=-1. Numbers: -4,3. x²-4x+3x-12 = x(x-4)+3(x-4) = (x-4)(x+3)=0 → x=4,-3"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "a × c = product, b = sum → do numbers dhoondo",
+      "en": "a × c = product, b = sum → do numbers dhoondo"
+    },
+    {
+      "hi": "Middle term ko split karo: px + qx",
+      "en": "Middle term ko split karo: px + qx"
+    },
+    {
+      "hi": "Common factor nikaal kar (x + m)(x + n) = 0 banao",
+      "en": "Common factor nikaal kar (x + m)(x + n) = 0 banao"
+    },
+    {
+      "hi": "Har factor = 0 → x ki values nikaalo",
+      "en": "Har factor = 0 → x ki values nikaalo"
+    },
+    {
+      "hi": "Hamesha verify karo answers ko original equation mein rakh ke",
+      "en": "Hamesha verify karo answers ko original equation mein rakh ke"
+    }
+  ],
+  "summary": {
+    "hi": "Solution by Factorization ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!",
+    "en": "Solution by Factorization ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!"
+  },
+  "reward": {
+    "badge": null
+  }
+}
