@@ -1,0 +1,24 @@
+{
+  "id": "chapter-64",
+  "order": 17,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Outcomes of Democracy",
+  "icon": "📊",
+  "color": "#8B5CF6",
+  "description": "Evaluating democracy — accountability, economic growth, and reduction of inequality under democratic governments. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-64-master",
+    "name": {
+      "hi": "Outcomes of Democracy Master",
+      "en": "Outcomes of Democracy Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
