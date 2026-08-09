@@ -1,0 +1,481 @@
+{
+  "id": "chapter-04-lesson-06",
+  "chapterId": "chapter-04",
+  "order": 6,
+  "title": {
+    "hi": "Chapter Wrap-up & Mixed Problems",
+    "en": "Chapter Wrap-up & Mixed Problems"
+  },
+  "estimatedMinutes": 10,
+  "xpReward": 60,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Quadratic Equations - Chapter Wrap-up",
+      "en": "Quadratic Equations - Chapter Wrap-up"
+    },
+    "subtext": {
+      "hi": "Sab kuch ek jagah!",
+      "en": "Sab kuch ek jagah!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ab tak humne quadratic equations ki standard form, factorization method, completing the square, quadratic formula, aur nature of roots seekhe hain. Aao sabko ek saath revise karein!",
+      "en": "Ab tak humne quadratic equations ki standard form, factorization method, completing the square, quadratic formula, aur nature of roots seekhe hain. Aao sabko ek saath revise karein!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Quick Revision - All Concepts\nChapter ke sabse important concepts aur formulas:\n• Standard Form: ax² + bx + c = 0, where a ≠ 0\n• Factorization: a×c = product, b = sum → middle term split karo\n• Completing the Square: (x + b/2a)² = (b²-4ac)/4a²\n• Quadratic Formula: x = [-b ± √(b²-4ac)] / 2a\n• Discriminant: D = b² - 4ac → D>0 (distinct), D=0 (equal), D<0 (no real)\n\n💡 Yeh formulas aur concepts har exam mein aate hain - zaroor yaad rakho!",
+        "en": "Quick Revision - All Concepts\nChapter ke sabse important concepts aur formulas:\n• Standard Form: ax² + bx + c = 0, where a ≠ 0\n• Factorization: a×c = product, b = sum → middle term split karo\n• Completing the Square: (x + b/2a)² = (b²-4ac)/4a²\n• Quadratic Formula: x = [-b ± √(b²-4ac)] / 2a\n• Discriminant: D = b² - 4ac → D>0 (distinct), D=0 (equal), D<0 (no real)\n\n💡 Yeh formulas aur concepts har exam mein aate hain - zaroor yaad rakho!"
+      }
+    },
+    {
+      "type": "formula",
+      "content": {
+        "hi": "All Important Formulas\nx = [-b ± √(b²-4ac)]/2a  |  D = b²-4ac  |  Sum = -b/a  |  Product = c/a\nYeh chaar formulas quadratic equations chapter ke sabse important hain. Inse har type ka question solve ho jaata hai.\nExample: x²-5x+6=0 mein sum=5, product=6, roots=2,3",
+        "en": "All Important Formulas\nx = [-b ± √(b²-4ac)]/2a  |  D = b²-4ac  |  Sum = -b/a  |  Product = c/a\nYeh chaar formulas quadratic equations chapter ke sabse important hain. Inse har type ka question solve ho jaata hai.\nExample: x²-5x+6=0 mein sum=5, product=6, roots=2,3"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Mixed Problem 1: Factorization + Word Problem: A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the original speed.",
+        "en": "Mixed Problem 1: Factorization + Word Problem: A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the original speed."
+      },
+      "steps": [
+        {
+          "hi": "Let original speed = x km/h",
+          "en": "Let original speed = x km/h"
+        },
+        {
+          "hi": "Time = 360/x hours",
+          "en": "Time = 360/x hours"
+        },
+        {
+          "hi": "New speed = (x+5) km/h",
+          "en": "New speed = (x+5) km/h"
+        },
+        {
+          "hi": "New time = 360/(x+5) hours",
+          "en": "New time = 360/(x+5) hours"
+        },
+        {
+          "hi": "360/x - 360/(x+5) = 1",
+          "en": "360/x - 360/(x+5) = 1"
+        },
+        {
+          "hi": "360(x+5) - 360x = x(x+5)",
+          "en": "360(x+5) - 360x = x(x+5)"
+        },
+        {
+          "hi": "360x + 1800 - 360x = x² + 5x",
+          "en": "360x + 1800 - 360x = x² + 5x"
+        },
+        {
+          "hi": "x² + 5x - 1800 = 0",
+          "en": "x² + 5x - 1800 = 0"
+        },
+        {
+          "hi": "Factorize: x² + 45x - 40x - 1800 = 0",
+          "en": "Factorize: x² + 45x - 40x - 1800 = 0"
+        },
+        {
+          "hi": "x(x+45) - 40(x+45) = 0",
+          "en": "x(x+45) - 40(x+45) = 0"
+        },
+        {
+          "hi": "(x+45)(x-40) = 0",
+          "en": "(x+45)(x-40) = 0"
+        },
+        {
+          "hi": "x = -45 (reject, speed negative nahi hoti)",
+          "en": "x = -45 (reject, speed negative nahi hoti)"
+        },
+        {
+          "hi": "x = 40",
+          "en": "x = 40"
+        },
+        {
+          "hi": "✅ Original speed = 40 km/h",
+          "en": "✅ Original speed = 40 km/h"
+        },
+        {
+          "hi": "Word problems mein variables define karna aur equation banana sabse important hai!",
+          "en": "Word problems mein variables define karna aur equation banana sabse important hai!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Mixed Problem 2: Nature of Roots + Find k: If the equation (k+1)x² - 2(k-1)x + 1 = 0 has equal roots, find k.",
+        "en": "Mixed Problem 2: Nature of Roots + Find k: If the equation (k+1)x² - 2(k-1)x + 1 = 0 has equal roots, find k."
+      },
+      "steps": [
+        {
+          "hi": "Equal roots ke liye D = 0",
+          "en": "Equal roots ke liye D = 0"
+        },
+        {
+          "hi": "a = k+1, b = -2(k-1), c = 1",
+          "en": "a = k+1, b = -2(k-1), c = 1"
+        },
+        {
+          "hi": "D = [-2(k-1)]² - 4(k+1)(1) = 0",
+          "en": "D = [-2(k-1)]² - 4(k+1)(1) = 0"
+        },
+        {
+          "hi": "4(k-1)² - 4(k+1) = 0",
+          "en": "4(k-1)² - 4(k+1) = 0"
+        },
+        {
+          "hi": "4[(k-1)² - (k+1)] = 0",
+          "en": "4[(k-1)² - (k+1)] = 0"
+        },
+        {
+          "hi": "(k-1)² - (k+1) = 0",
+          "en": "(k-1)² - (k+1) = 0"
+        },
+        {
+          "hi": "k² - 2k + 1 - k - 1 = 0",
+          "en": "k² - 2k + 1 - k - 1 = 0"
+        },
+        {
+          "hi": "k² - 3k = 0",
+          "en": "k² - 3k = 0"
+        },
+        {
+          "hi": "k(k - 3) = 0",
+          "en": "k(k - 3) = 0"
+        },
+        {
+          "hi": "k = 0 ya k = 3",
+          "en": "k = 0 ya k = 3"
+        },
+        {
+          "hi": "But k+1 ≠ 0 (kyunki a ≠ 0 hona chahiye)",
+          "en": "But k+1 ≠ 0 (kyunki a ≠ 0 hona chahiye)"
+        },
+        {
+          "hi": "So k ≠ -1",
+          "en": "So k ≠ -1"
+        },
+        {
+          "hi": "✅ k = 0 or k = 3",
+          "en": "✅ k = 0 or k = 3"
+        },
+        {
+          "hi": "🎯 a ≠ 0 ki condition hamesha check karo!",
+          "en": "🎯 a ≠ 0 ki condition hamesha check karo!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Mixed Problem 3: Quadratic Formula Application: The sum of the ages of a father and his son is 45 years. Five years ago, the product of their ages was 124. Find their present ages.",
+        "en": "Mixed Problem 3: Quadratic Formula Application: The sum of the ages of a father and his son is 45 years. Five years ago, the product of their ages was 124. Find their present ages."
+      },
+      "steps": [
+        {
+          "hi": "Let father's age = x",
+          "en": "Let father's age = x"
+        },
+        {
+          "hi": "Son's age = 45 - x",
+          "en": "Son's age = 45 - x"
+        },
+        {
+          "hi": "5 years ago:",
+          "en": "5 years ago:"
+        },
+        {
+          "hi": "Father = x - 5",
+          "en": "Father = x - 5"
+        },
+        {
+          "hi": "Son = 45 - x - 5 = 40 - x",
+          "en": "Son = 45 - x - 5 = 40 - x"
+        },
+        {
+          "hi": "Product = (x-5)(40-x) = 124",
+          "en": "Product = (x-5)(40-x) = 124"
+        },
+        {
+          "hi": "40x - x² - 200 + 5x = 124",
+          "en": "40x - x² - 200 + 5x = 124"
+        },
+        {
+          "hi": "-x² + 45x - 200 = 124",
+          "en": "-x² + 45x - 200 = 124"
+        },
+        {
+          "hi": "x² - 45x + 324 = 0",
+          "en": "x² - 45x + 324 = 0"
+        },
+        {
+          "hi": "Using quadratic formula:",
+          "en": "Using quadratic formula:"
+        },
+        {
+          "hi": "a=1, b=-45, c=324",
+          "en": "a=1, b=-45, c=324"
+        },
+        {
+          "hi": "D = 2025 - 1296 = 729",
+          "en": "D = 2025 - 1296 = 729"
+        },
+        {
+          "hi": "√D = 27",
+          "en": "√D = 27"
+        },
+        {
+          "hi": "x = [45 ± 27]/2",
+          "en": "x = [45 ± 27]/2"
+        },
+        {
+          "hi": "x = 72/2 = 36 ya x = 18/2 = 9",
+          "en": "x = 72/2 = 36 ya x = 18/2 = 9"
+        },
+        {
+          "hi": "Father = 36, Son = 9 (kyunki father ki age zyada hoti hai)",
+          "en": "Father = 36, Son = 9 (kyunki father ki age zyada hoti hai)"
+        },
+        {
+          "hi": "✅ Father = 36 years, Son = 9 years",
+          "en": "✅ Father = 36 years, Son = 9 years"
+        },
+        {
+          "hi": "Age problems mein past/future ki conditions ko carefully translate karo!",
+          "en": "Age problems mein past/future ki conditions ko carefully translate karo!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve by factorization: 6x² - x - 2 = 0",
+        "en": "Solve by factorization: 6x² - x - 2 = 0"
+      },
+      "steps": [
+        {
+          "hi": "a×c=-12, b=-1. Numbers: -4,3. 6x²-4x+3x-2 = 2x(3x-2)+1(3x-2) = (3x-2)(2x+1)=0 → x=2/3,-1/2",
+          "en": "a×c=-12, b=-1. Numbers: -4,3. 6x²-4x+3x-2 = 2x(3x-2)+1(3x-2) = (3x-2)(2x+1)=0 → x=2/3,-1/2"
+        },
+        {
+          "hi": "Answer: x = 2/3, -1/2",
+          "en": "Answer: x = 2/3, -1/2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Find k for which x² + 2(k+2)x + 9 = 0 has equal roots.",
+        "en": "Find k for which x² + 2(k+2)x + 9 = 0 has equal roots."
+      },
+      "steps": [
+        {
+          "hi": "D = 4(k+2)² - 36 = 0 → (k+2)² = 9 → k+2 = ±3 → k=1,-5",
+          "en": "D = 4(k+2)² - 36 = 0 → (k+2)² = 9 → k+2 = ±3 → k=1,-5"
+        },
+        {
+          "hi": "Answer: k = 1 or k = -5",
+          "en": "Answer: k = 1 or k = -5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, find the base.",
+        "en": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, find the base."
+      },
+      "steps": [
+        {
+          "hi": "Let base = x, altitude = x-7. x²+(x-7)²=169 → x²+x²-14x+49=169 → 2x²-14x-120=0 → x²-7x-60=0 → (x-12)(x+5)=0 → x=12. Base=12cm, altitude=5cm. Verify: 12²+5²=144+25=169=13² ✓",
+          "en": "Let base = x, altitude = x-7. x²+(x-7)²=169 → x²+x²-14x+49=169 → 2x²-14x-120=0 → x²-7x-60=0 → (x-12)(x+5)=0 → x=12. Base=12cm, altitude=5cm. Verify: 12²+5²=144+25=169=13² ✓"
+        },
+        {
+          "hi": "Answer: 12 cm",
+          "en": "Answer: 12 cm"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Solve: x² - 3x - 10 = 0",
+          "en": "Solve: x² - 3x - 10 = 0"
+        },
+        "options": [
+          {
+            "hi": "x=5,-2",
+            "en": "x=5,-2"
+          },
+          {
+            "hi": "x=5,2",
+            "en": "x=5,2"
+          },
+          {
+            "hi": "x=-5,2",
+            "en": "x=-5,2"
+          },
+          {
+            "hi": "x=-5,-2",
+            "en": "x=-5,-2"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "x²-5x+2x-10 = x(x-5)+2(x-5) = (x-5)(x+2)=0 → x=5,-2",
+          "en": "x²-5x+2x-10 = x(x-5)+2(x-5) = (x-5)(x+2)=0 → x=5,-2"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Nature of roots of 2x² - 3x + 5 = 0:",
+          "en": "Nature of roots of 2x² - 3x + 5 = 0:"
+        },
+        "options": [
+          {
+            "hi": "Real & Distinct",
+            "en": "Real & Distinct"
+          },
+          {
+            "hi": "Real & Equal",
+            "en": "Real & Equal"
+          },
+          {
+            "hi": "No Real Roots",
+            "en": "No Real Roots"
+          },
+          {
+            "hi": "Rational",
+            "en": "Rational"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "D = 9 - 40 = -31 < 0, so No Real Roots.",
+          "en": "D = 9 - 40 = -31 < 0, so No Real Roots."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "For equal roots of x² + kx + 9 = 0, k = ?",
+          "en": "For equal roots of x² + kx + 9 = 0, k = ?"
+        },
+        "options": [
+          {
+            "hi": "±3",
+            "en": "±3"
+          },
+          {
+            "hi": "±6",
+            "en": "±6"
+          },
+          {
+            "hi": "±9",
+            "en": "±9"
+          },
+          {
+            "hi": "±18",
+            "en": "±18"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "D = k² - 36 = 0 → k² = 36 → k = ±6",
+          "en": "D = k² - 36 = 0 → k² = 36 → k = ±6"
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Every quadratic equation has exactly two roots.",
+          "en": "Every quadratic equation has exactly two roots."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Quadratic equation hamesha exactly do roots rakhti hai (real ya complex, distinct ya equal).",
+          "en": "Quadratic equation hamesha exactly do roots rakhti hai (real ya complex, distinct ya equal)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "The sum of squares of two consecutive even integers is 340. Find the integers.",
+          "en": "The sum of squares of two consecutive even integers is 340. Find the integers."
+        },
+        "options": [
+          {
+            "hi": "12, 14",
+            "en": "12, 14"
+          },
+          {
+            "hi": "14, 16",
+            "en": "14, 16"
+          },
+          {
+            "hi": "16, 18",
+            "en": "16, 18"
+          },
+          {
+            "hi": "10, 12",
+            "en": "10, 12"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Let integers be x and x+2. x²+(x+2)²=340 → 2x²+4x+4=340 → x²+2x-168=0 → (x+14)(x-12)=0 → x=12. Integers: 12, 14. Verify: 12²+14²=144+196=340 ✓",
+          "en": "Let integers be x and x+2. x²+(x+2)²=340 → 2x²+4x+4=340 → x²+2x-168=0 → (x+14)(x-12)=0 → x=12. Integers: 12, 14. Verify: 12²+14²=144+196=340 ✓"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Standard form mein convert karna pehla step hai",
+      "en": "Standard form mein convert karna pehla step hai"
+    },
+    {
+      "hi": "Factorization tab use karo jab factors easily mil jaayein",
+      "en": "Factorization tab use karo jab factors easily mil jaayein"
+    },
+    {
+      "hi": "Quadratic formula universal method hai - har case mein kaam karta hai",
+      "en": "Quadratic formula universal method hai - har case mein kaam karta hai"
+    },
+    {
+      "hi": "Discriminant se roots ki nature pata chalti hai bina solve kiye",
+      "en": "Discriminant se roots ki nature pata chalti hai bina solve kiye"
+    },
+    {
+      "hi": "Word problems mein variables define karna aur equation banana seekho",
+      "en": "Word problems mein variables define karna aur equation banana seekho"
+    },
+    {
+      "hi": "Hamesha final answer verify karo original conditions se",
+      "en": "Hamesha final answer verify karo original conditions se"
+    }
+  ],
+  "summary": {
+    "hi": "Chapter Wrap-up & Mixed Problems ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!",
+    "en": "Chapter Wrap-up & Mixed Problems ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!"
+  },
+  "reward": {
+    "badge": null
+  }
+}
