@@ -41,6 +41,13 @@
     {
       "type": "text",
       "content": {
+        "hi": "Yahan subscript '1' pehli equation ke coefficients batata hai (a1, b1, c1), aur subscript '2' dusri equation ke (a2, b2, c2) — bas do equations ko alag-alag naam diya hai taaki confuse na ho.\n\nExample: 2x+3y=5 aur 4x+6y=12 ko is form mein likho: 2x+3y-5=0 aur 4x+6y-12=0. Yahan a1=2,b1=3,c1=-5 aur a2=4,b2=6,c2=-12.",
+        "en": "Here subscript '1' refers to the first equation's coefficients (a1, b1, c1), and subscript '2' refers to the second equation's (a2, b2, c2) — it's just a way to label the two equations separately so they don't get mixed up.\n\nExample: write 2x+3y=5 and 4x+6y=12 in this form: 2x+3y-5=0 and 4x+6y-12=0. Here a1=2,b1=3,c1=-5 and a2=4,b2=6,c2=-12."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
         "hi": "Do straight lines ko plot karne pe 3 cases ban sakte hain — lines intersect (ek unique solution), parallel (koi solution nahi), ya coincide (infinite solutions).",
         "en": "Plotting two straight lines gives 3 possible cases — the lines intersect (one unique solution), are parallel (no solution), or coincide (infinite solutions)."
       }

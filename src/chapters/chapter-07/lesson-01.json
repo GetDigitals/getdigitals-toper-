@@ -55,6 +55,13 @@
     {
       "type": "text",
       "content": {
+        "hi": "Yahan A(x1, y1) aur B(x2, y2) wo do points hain jinke beech distance nikal rahe ho — x1,y1 pehle point (A) ke coordinates hain, x2,y2 dusre point (B) ke.\n\nExample: A(2, 3) aur B(5, 7) ke beech distance = √[(5-2)² + (7-3)²] = √[9+16] = √25 = 5.",
+        "en": "Here A(x1, y1) and B(x2, y2) are the two points whose distance you're finding — x1,y1 are the first point's (A's) coordinates, x2,y2 are the second point's (B's).\n\nExample: distance between A(2, 3) and B(5, 7) = √[(5-2)² + (7-3)²] = √[9+16] = √25 = 5."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
         "hi": "Ye formula Pythagoras Theorem se derive hota hai — socho A aur B ke beech ek right-angled triangle banta hai jiske legs (x₂−x₁) aur (y₂−y₁) hain, toh hypotenuse hi unke beech ki distance hai.",
         "en": "This formula is derived from the Pythagoras Theorem — imagine a right-angled triangle between A and B with legs (x₂−x₁) and (y₂−y₁); the hypotenuse is exactly the distance between them."
       }
