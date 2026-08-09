@@ -37,19 +37,19 @@
     {
       "type": "text",
       "content": {
-        "hi": "Sabse common example hai Iron ki rusting: Iron, moisture aur oxygen dono ki presence mein react karke iron oxide (Fe2O3.xH2O — jise hum rust kehte hain) banata hai. Rust lal-bhoora, bharbhura (flaky) hota hai aur dheere-dheere poora metal khaa jaata hai.",
-        "en": "The most common example is the rusting of Iron: iron reacts in the presence of both moisture and oxygen to form iron oxide (Fe2O3.xH2O — what we call rust). Rust is reddish-brown, flaky, and gradually eats away the entire metal."
+        "hi": "Sabse common example hai Iron ki rusting: Iron, moisture aur oxygen dono ki presence mein react karke iron oxide (Fe₂O₃.xH₂O — jise hum rust kehte hain) banata hai. Rust lal-bhoora, bharbhura (flaky) hota hai aur dheere-dheere poora metal khaa jaata hai.",
+        "en": "The most common example is the rusting of Iron: iron reacts in the presence of both moisture and oxygen to form iron oxide (Fe₂O₃.xH₂O — what we call rust). Rust is reddish-brown, flaky, and gradually eats away the entire metal."
       }
     },
     {
       "type": "formula",
-      "content": "4Fe(s) + 3O2(g) + xH2O(l) → 2Fe2O3.xH2O(s)  [rust]"
+      "content": "4Fe(s) + 3O₂(g) + xH₂O(l) → 2Fe₂O₃.xH₂O(s)  [rust]"
     },
     {
       "type": "text",
       "content": {
-        "hi": "Corrosion ke doosre examples: Silver par kaala coating (Ag2S banna, hawa mein sulphur compounds ki wajah se), Copper par green coating (CuCO3.Cu(OH)2 banna, jise 'patina' bhi kehte hain — jaise Statue of Liberty).",
-        "en": "Other examples of corrosion: black coating on silver (formation of Ag2S, due to sulphur compounds in air), green coating on copper (formation of CuCO3.Cu(OH)2, also called 'patina' — like on the Statue of Liberty)."
+        "hi": "Corrosion ke doosre examples: Silver par kaala coating (Ag₂S banna, hawa mein sulphur compounds ki wajah se), Copper par green coating (CuCO₃.Cu(OH)2 banna, jise 'patina' bhi kehte hain — jaise Statue of Liberty).",
+        "en": "Other examples of corrosion: black coating on silver (formation of Ag₂S, due to sulphur compounds in air), green coating on copper (formation of CuCO₃.Cu(OH)2, also called 'patina' — like on the Statue of Liberty)."
       }
     },
     {
