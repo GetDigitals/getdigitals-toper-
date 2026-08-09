@@ -77,6 +77,23 @@ function RequireLogin({ children }) {
 const RequireAuth = RequireLogin;
 
 /**
+ * Wraps ONLY /home. A student must have picked a subject at least once
+ * (settings.activeSubject) before landing on Home — otherwise Home has
+ * nothing meaningful to show and used to silently default to Maths.
+ * First login/register -> no activeSubject yet -> bounced to
+ * /select-class -> picking a subject there persists it and sends them
+ * back to /home, which now shows THAT subject from here on.
+ */
+function RequireHomeReady({ children }) {
+  const { user, authLoading } = useAuth();
+  const { settings, hydrated } = useProgress();
+  if (authLoading || !hydrated) return null;
+  if (!user) return <Navigate to="/login" replace />;
+  if (!settings.activeSubject) return <Navigate to="/select-class" replace />;
+  return children;
+}
+
+/**
  * Wrap chapter-scoped routes (/chapter/:chapterId, /lesson/:chapterId/*, etc).
  * Each subject's first chapter is always reachable once logged in;
  * chapter 2+ in that subject additionally needs paymentStatus 'approved',
@@ -119,7 +136,7 @@ function AppShell() {
           <Route path="/" element={<Splash />} />
           <Route path="/login" element={<Login />} />
           <Route path="/payment-pending" element={<RequireLogin><PaymentPending /></RequireLogin>} />
-          <Route path="/home" element={<RequireAuth><Home /></RequireAuth>} />
+          <Route path="/home" element={<RequireHomeReady><Home /></RequireHomeReady>} />
           <Route path="/select-class" element={<RequireAuth><SelectClass /></RequireAuth>} />
 
           {/* Old bare /chapters link (bookmarks, notifications, etc.) still works — sends them to Maths */}
