@@ -22,8 +22,8 @@
   },
   "story": {
     "text": {
-      "hi": "Jab CuO (copper oxide, black powder) ko hydrogen gas ke saath heat karte hain, to CuO apna oxygen kho deta hai aur shiny copper (Cu) ban jaata hai, jabki hydrogen wo oxygen le leta hai aur paani (H2O) ban jaata hai. Ek substance oxygen khota hai, doosra usi oxygen ko paata hai — ye dono ek hi reaction mein saath-saath hote hain.",
-      "en": "When CuO (copper oxide, a black powder) is heated with hydrogen gas, the CuO loses its oxygen and becomes shiny copper (Cu), while the hydrogen gains that oxygen and becomes water (H2O). One substance loses oxygen, the other gains it — both happen together in the same reaction."
+      "hi": "Jab CuO (copper oxide, black powder) ko hydrogen gas ke saath heat karte hain, to CuO apna oxygen kho deta hai aur shiny copper (Cu) ban jaata hai, jabki hydrogen wo oxygen le leta hai aur paani (H₂O) ban jaata hai. Ek substance oxygen khota hai, doosra usi oxygen ko paata hai — ye dono ek hi reaction mein saath-saath hote hain.",
+      "en": "When CuO (copper oxide, a black powder) is heated with hydrogen gas, the CuO loses its oxygen and becomes shiny copper (Cu), while the hydrogen gains that oxygen and becomes water (H₂O). One substance loses oxygen, the other gains it — both happen together in the same reaction."
     }
   },
   "explanation": [
@@ -43,7 +43,7 @@
     },
     {
       "type": "formula",
-      "content": "CuO(s) + H2(g) → Cu(s) + H2O(l)\nCuO reduced hota hai (oxygen khota hai) → Cu\nH2 oxidize hota hai (oxygen paata hai) → H2O"
+      "content": "CuO(s) + H₂(g) → Cu(s) + H₂O(l)\nCuO reduced hota hai (oxygen khota hai) → Cu\nH₂ oxidize hota hai (oxygen paata hai) → H₂O"
     },
     {
       "type": "text",
@@ -55,8 +55,8 @@
     {
       "type": "text",
       "content": {
-        "hi": "Oxidizing agent (oxidant): wo substance jo doosre ko oxidize karta hai, khud reduce hota hai (jaise CuO). Reducing agent (reductant): wo substance jo doosre ko reduce karta hai, khud oxidize hota hai (jaise H2).",
-        "en": "Oxidizing agent (oxidant): the substance that oxidizes another substance, while itself getting reduced (like CuO). Reducing agent (reductant): the substance that reduces another substance, while itself getting oxidized (like H2)."
+        "hi": "Oxidizing agent (oxidant): wo substance jo doosre ko oxidize karta hai, khud reduce hota hai (jaise CuO). Reducing agent (reductant): wo substance jo doosre ko reduce karta hai, khud oxidize hota hai (jaise H₂).",
+        "en": "Oxidizing agent (oxidant): the substance that oxidizes another substance, while itself getting reduced (like CuO). Reducing agent (reductant): the substance that reduces another substance, while itself getting oxidized (like H₂)."
       }
     },
     {
@@ -77,21 +77,21 @@
   "examples": [
     {
       "problem": {
-        "hi": "Is reaction mein oxidizing aur reducing agent identify karo: MnO2 + 4HCl → MnCl2 + 2H2O + Cl2",
-        "en": "Identify the oxidizing and reducing agent: MnO2 + 4HCl → MnCl2 + 2H2O + Cl2"
+        "hi": "Is reaction mein oxidizing aur reducing agent identify karo: MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂",
+        "en": "Identify the oxidizing and reducing agent: MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂"
       },
       "steps": [
         {
-          "hi": "MnO2 apna oxygen khota hai aur MnCl2 banta hai — MnO2 reduce ho raha hai, isliye ye oxidizing agent hai.",
-          "en": "MnO2 loses its oxygen and becomes MnCl2 — MnO2 is being reduced, so it is the oxidizing agent."
+          "hi": "MnO₂ apna oxygen khota hai aur MnCl₂ banta hai — MnO₂ reduce ho raha hai, isliye ye oxidizing agent hai.",
+          "en": "MnO₂ loses its oxygen and becomes MnCl₂ — MnO₂ is being reduced, so it is the oxidizing agent."
         },
         {
-          "hi": "HCl (Cl atoms) oxidize hokar Cl2 gas banate hain (chlorine ki oxidation state badh jaati hai) — HCl reducing agent hai.",
-          "en": "HCl (Cl atoms) get oxidized to form Cl2 gas (chlorine's oxidation state increases) — HCl is the reducing agent."
+          "hi": "HCl (Cl atoms) oxidize hokar Cl₂ gas banate hain (chlorine ki oxidation state badh jaati hai) — HCl reducing agent hai.",
+          "en": "HCl (Cl atoms) get oxidized to form Cl₂ gas (chlorine's oxidation state increases) — HCl is the reducing agent."
         },
         {
-          "hi": "Isliye: MnO2 = oxidizing agent, HCl = reducing agent. Ye reaction Cl2 gas banane ke liye lab mein use hoti hai.",
-          "en": "Therefore: MnO2 = oxidizing agent, HCl = reducing agent. This reaction is used in labs to prepare Cl2 gas."
+          "hi": "Isliye: MnO₂ = oxidizing agent, HCl = reducing agent. Ye reaction Cl₂ gas banane ke liye lab mein use hoti hai.",
+          "en": "Therefore: MnO₂ = oxidizing agent, HCl = reducing agent. This reaction is used in labs to prepare Cl₂ gas."
         }
       ]
     },
@@ -141,19 +141,19 @@
         "type": "mcq",
         "difficulty": "medium",
         "question": {
-          "hi": "CuO + H2 → Cu + H2O reaction mein reducing agent kaun hai?",
-          "en": "In the reaction CuO + H2 → Cu + H2O, what is the reducing agent?"
+          "hi": "CuO + H₂ → Cu + H₂O reaction mein reducing agent kaun hai?",
+          "en": "In the reaction CuO + H₂ → Cu + H₂O, what is the reducing agent?"
         },
         "options": [
           { "hi": "CuO", "en": "CuO" },
           { "hi": "Cu", "en": "Cu" },
-          { "hi": "H2", "en": "H2" },
-          { "hi": "H2O", "en": "H2O" }
+          { "hi": "H₂", "en": "H₂" },
+          { "hi": "H₂O", "en": "H₂O" }
         ],
         "correct": 2,
         "explanation": {
-          "hi": "H2, CuO ko reduce karta hai (khud oxidize hokar H2O banta hai), isliye H2 reducing agent hai.",
-          "en": "H2 reduces CuO (getting oxidized itself to become H2O), so H2 is the reducing agent."
+          "hi": "H₂, CuO ko reduce karta hai (khud oxidize hokar H₂O banta hai), isliye H₂ reducing agent hai.",
+          "en": "H₂ reduces CuO (getting oxidized itself to become H₂O), so H₂ is the reducing agent."
         }
       },
       {
