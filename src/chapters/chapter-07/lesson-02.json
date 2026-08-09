@@ -1,0 +1,342 @@
+{
+  "id": "chapter-07-lesson-02",
+  "chapterId": "chapter-07",
+  "order": 2,
+  "title": {
+    "hi": "Section Formula & Mid-point",
+    "en": "Section Formula & Mid-point"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 60,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "✂️",
+    "headline": {
+      "hi": "Ek Line Segment Ko Kisi Bhi Ratio Mein Kaato!",
+      "en": "Cut a Line Segment in Any Ratio!"
+    },
+    "subtext": {
+      "hi": "Section Formula se pata karo ki koi point ek line segment ko kis ratio mein divide karta hai — ya us point ke coordinates nikaalo.",
+      "en": "Use the Section Formula to find in what ratio a point divides a line segment — or find that point's coordinates."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Socho ek relay race mein 2 runners ke beech ek baton-exchange point hona hai, jo total distance ko 2:3 ratio mein divide kare. Ya socho ek road A se B tak jaati hai, aur beech mein exactly halfway ek petrol pump hai. Dono situations mein hume ek point ke exact coordinates chahiye jo do given points ke beech kisi specific ratio mein aata hai — yehi Section Formula karta hai.",
+      "en": "Imagine a relay race needs a baton-exchange point between 2 runners that divides the total distance in a 2:3 ratio. Or imagine a road from A to B has a petrol pump exactly halfway. In both situations we need the exact coordinates of a point that lies between two given points in some specific ratio — that's exactly what the Section Formula does."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Agar point P, line segment AB ko andar se (internally) ratio m:n mein divide karta hai, toh P ke coordinates:",
+        "en": "If point P divides the line segment AB internally in the ratio m:n, then P's coordinates are:"
+      }
+    },
+    {
+      "type": "formula",
+      "content": "P(x, y) = [ (mx₂+nx₁)/(m+n) , (my₂+ny₁)/(m+n) ]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yahan A(x₁,y₁) aur B(x₂,y₂) diye gaye points hain, aur m:n wo ratio hai jisme P divide karta hai (A ki taraf se).",
+        "en": "Here A(x₁,y₁) and B(x₂,y₂) are the given points, and m:n is the ratio in which P divides (starting from A)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Mid-point Section Formula ka hi ek special case hai — jab m:n = 1:1 ho, matlab point exactly beech mein hota hai.",
+        "en": "The Mid-point is just a special case of the section formula — when m:n = 1:1, the point lies exactly halfway."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Mid-point M = [ (x₁+x₂)/2 , (y₁+y₂)/2 ]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Bonus: 3 points A, B, C wale triangle ka Centroid bhi isi idea ka extension hai — teeno vertices ka 'average'.",
+        "en": "Bonus: the Centroid of a triangle with 3 points A, B, C is an extension of the same idea — the 'average' of all three vertices."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Centroid G = [ (x₁+x₂+x₃)/3 , (y₁+y₂+y₃)/3 ]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Common application: Parallelogram ke diagonals ek doosre ko bisect karte hain (yaani unka mid-point same hota hai) — isse missing vertex nikaalne mein bahut use hota hai.",
+        "en": "Common application: the diagonals of a parallelogram bisect each other (i.e. share the same mid-point) — this is very useful for finding a missing vertex."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "⚖️",
+    "caption": {
+      "hi": "Section formula mein 'm' hamesha B ki taraf wale point ke saath multiply hota hai, 'n' A ki taraf wale ke saath — order yaad rakho!",
+      "en": "In the section formula, 'm' always multiplies the coordinate closer to B, and 'n' the one closer to A — remember the order!"
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "(2, 3) aur (4, 7) ko jodne wali line segment ko ratio 3:2 mein internally divide karne wale point ke coordinates nikaalo.",
+        "en": "Find the coordinates of the point which divides the line segment joining (2, 3) and (4, 7) in the ratio 3:2 internally."
+      },
+      "steps": [
+        {
+          "hi": "A(2,3), B(4,7), m:n = 3:2",
+          "en": "A(2,3), B(4,7), m:n = 3:2"
+        },
+        {
+          "hi": "x = (3×4 + 2×2)/(3+2) = (12+4)/5 = 16/5 = 3.2",
+          "en": "x = (3×4 + 2×2)/(3+2) = (12+4)/5 = 16/5 = 3.2"
+        },
+        {
+          "hi": "y = (3×7 + 2×3)/(3+2) = (21+6)/5 = 27/5 = 5.4",
+          "en": "y = (3×7 + 2×3)/(3+2) = (21+6)/5 = 27/5 = 5.4"
+        },
+        {
+          "hi": "P = (3.2, 5.4)",
+          "en": "P = (3.2, 5.4)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Point (−4, 6), A(−6, 10) aur B(3, −8) ko jodne wali line segment ko kis ratio mein divide karta hai?",
+        "en": "In what ratio does the point (−4, 6) divide the line segment joining A(−6, 10) and B(3, −8)?"
+      },
+      "steps": [
+        {
+          "hi": "Maano ratio k:1 hai. x-coordinate se equation banao:",
+          "en": "Assume the ratio is k:1. Form an equation using the x-coordinate:"
+        },
+        {
+          "hi": "−4 = (3k + (−6))/(k+1) → −4k−4 = 3k−6 → −7k = −2 → k = 2/7",
+          "en": "−4 = (3k + (−6))/(k+1) → −4k−4 = 3k−6 → −7k = −2 → k = 2/7"
+        },
+        {
+          "hi": "Ratio = 2/7 : 1 = 2:7",
+          "en": "Ratio = 2/7 : 1 = 2:7"
+        },
+        {
+          "hi": "Verify y-coordinate: y=(−8k+10)/(k+1), k=2/7 → (−16/7+70/7)/(9/7) = (54/7)/(9/7) = 6 ✓",
+          "en": "Verify with y-coordinate: y=(−8k+10)/(k+1), k=2/7 → (−16/7+70/7)/(9/7) = (54/7)/(9/7) = 6 ✓"
+        },
+        {
+          "hi": "Answer: Ratio = 2:7",
+          "en": "Answer: Ratio = 2:7"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "(−3, 5) aur (7, −1) ka mid-point nikaalo.",
+        "en": "Find the mid-point of (−3, 5) and (7, −1)."
+      },
+      "steps": [
+        {
+          "hi": "M = [(x₁+x₂)/2, (y₁+y₂)/2]",
+          "en": "M = [(x₁+x₂)/2, (y₁+y₂)/2]"
+        },
+        {
+          "hi": "= [(−3+7)/2, (5+(−1))/2] = [4/2, 4/2]",
+          "en": "= [(−3+7)/2, (5+(−1))/2] = [4/2, 4/2]"
+        },
+        {
+          "hi": "M = (2, 2)",
+          "en": "M = (2, 2)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek parallelogram ke consecutive vertices A(1,2), B(4,3), aur C(6,6) hain. Chautha vertex D nikaalo.",
+        "en": "The consecutive vertices of a parallelogram are A(1,2), B(4,3), and C(6,6). Find the fourth vertex D."
+      },
+      "steps": [
+        {
+          "hi": "Parallelogram mein diagonals bisect each other, isliye Mid-point of AC = Mid-point of BD",
+          "en": "In a parallelogram, diagonals bisect each other, so Mid-point of AC = Mid-point of BD"
+        },
+        {
+          "hi": "Mid-point of AC = [(1+6)/2, (2+6)/2] = (3.5, 4)",
+          "en": "Mid-point of AC = [(1+6)/2, (2+6)/2] = (3.5, 4)"
+        },
+        {
+          "hi": "Maano D=(x,y). Mid-point of BD = [(4+x)/2, (3+y)/2]",
+          "en": "Let D=(x,y). Mid-point of BD = [(4+x)/2, (3+y)/2]"
+        },
+        {
+          "hi": "(4+x)/2 = 3.5 → x = 3.  (3+y)/2 = 4 → y = 5",
+          "en": "(4+x)/2 = 3.5 → x = 3.  (3+y)/2 = 4 → y = 5"
+        },
+        {
+          "hi": "D = (3, 5)",
+          "en": "D = (3, 5)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Mid-point section formula ka special case hai jab ratio kya ho?",
+          "en": "The mid-point is a special case of the section formula when the ratio is what?"
+        },
+        "options": [
+          {
+            "hi": "1:1",
+            "en": "1:1"
+          },
+          {
+            "hi": "2:1",
+            "en": "2:1"
+          },
+          {
+            "hi": "1:2",
+            "en": "1:2"
+          },
+          {
+            "hi": "3:1",
+            "en": "3:1"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Ratio 1:1 par point exactly beech mein hota hai — yehi mid-point hai.",
+          "en": "With ratio 1:1, the point lies exactly halfway — that's the mid-point."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "(2,4) aur (6,8) ka mid-point kya hai?",
+          "en": "What is the mid-point of (2,4) and (6,8)?"
+        },
+        "options": [
+          {
+            "hi": "(4,6)",
+            "en": "(4,6)"
+          },
+          {
+            "hi": "(3,5)",
+            "en": "(3,5)"
+          },
+          {
+            "hi": "(8,12)",
+            "en": "(8,12)"
+          },
+          {
+            "hi": "(2,4)",
+            "en": "(2,4)"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "M = [(2+6)/2, (4+8)/2] = (4,6)",
+          "en": "M = [(2+6)/2, (4+8)/2] = (4,6)"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Section formula mein 'm' hamesha A ke coordinates ke saath multiply hota hai.",
+          "en": "In the section formula, 'm' always multiplies A's coordinates."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — 'm' B (x₂,y₂) ke saath multiply hota hai, 'n' A (x₁,y₁) ke saath.",
+          "en": "False — 'm' multiplies B's coordinates (x₂,y₂), 'n' multiplies A's (x₁,y₁)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Triangle ke vertices (3,3),(6,6),(9,3) hain. Centroid kya hoga?",
+          "en": "A triangle has vertices (3,3),(6,6),(9,3). What is the centroid?"
+        },
+        "options": [
+          {
+            "hi": "(6,4)",
+            "en": "(6,4)"
+          },
+          {
+            "hi": "(6,6)",
+            "en": "(6,6)"
+          },
+          {
+            "hi": "(5,4)",
+            "en": "(5,4)"
+          },
+          {
+            "hi": "(6,3)",
+            "en": "(6,3)"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "G=[(3+6+9)/3,(3+6+3)/3]=(18/3,12/3)=(6,4)",
+          "en": "G=[(3+6+9)/3,(3+6+3)/3]=(18/3,12/3)=(6,4)"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Formulas ko match karo",
+          "en": "Match the formulas"
+        },
+        "pairs": [
+          {
+            "left": "Section formula (internal)",
+            "right": "[(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)]"
+          },
+          {
+            "left": "Mid-point",
+            "right": "[(x₁+x₂)/2, (y₁+y₂)/2]"
+          },
+          {
+            "left": "Centroid",
+            "right": "[(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3]"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Section formula: P = [(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)] — m B ke saath, n A ke saath",
+      "en": "Section formula: P = [(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)] — m goes with B, n goes with A"
+    },
+    {
+      "hi": "Mid-point: [(x₁+x₂)/2, (y₁+y₂)/2] — section formula ka special case (ratio 1:1)",
+      "en": "Mid-point: [(x₁+x₂)/2, (y₁+y₂)/2] — special case of the section formula (ratio 1:1)"
+    },
+    {
+      "hi": "Centroid: [(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3]",
+      "en": "Centroid: [(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3]"
+    },
+    {
+      "hi": "Parallelogram trick: diagonals ka mid-point same hota hai — isse missing vertex nikalta hai",
+      "en": "Parallelogram trick: diagonals share the same mid-point — this is how you find a missing vertex"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum kisi bhi ratio mein line segment divide karne wale point ke coordinates nikaal sakte ho, mid-point aur centroid bhi. Agle lesson mein hum seekhenge triangle ka area coordinates se seedha kaise nikaalte hain, aur collinear points ko kaise pehchaante hain.",
+    "en": "You can now find the coordinates of a point dividing a line segment in any ratio, along with mid-points and centroids. Next, we'll learn how to find a triangle's area directly from coordinates, and how to identify collinear points."
+  },
+  "reward": {
+    "badge": null
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "id": "chapter-09-lesson-02",
+  "chapterId": "chapter-09",
+  "order": 2,
+  "title": {
+    "hi": "Problems on Angle of Elevation",
+    "en": "Problems on Angle of Elevation"
+  },
+  "estimatedMinutes": 16,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "📏",
+    "headline": {
+      "hi": "Tower, Kite, Cloud, Balloon — Sabki height nikaalo!",
+      "en": "Find heights of Towers, Kites, Clouds, and Balloons!"
+    },
+    "subtext": {
+      "hi": "Is lesson mein hum different types ke Angle of Elevation problems solve karenge.",
+      "en": "In this lesson, we solve different types of Angle of Elevation problems."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Is lesson mein hum different types ke Angle of Elevation problems solve karenge. Har problem mein naya concept seekhne milega — jaise two points se elevation, object ki shadow, aur moving observer!",
+      "en": "In this lesson, we solve different types of Angle of Elevation problems. Each problem teaches a new concept — like two points elevation, object's shadow, and moving observer!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yeh sabse simple type hai. Ground pe ek point se object ka angle of elevation diya hota hai aur distance diya hota hai. Height nikaalni hoti hai.\n📐 Formula: tan θ = Height / Distance\n📐 Height = Distance × tan θ\n📐 Distance = Height / tan θ\n🎯 Standard angles (30°, 45°, 60°) hi aate hain exams mein",
+        "en": "This is the simplest type. The angle of elevation from a point on the ground is given, and the distance is given. We need to find the height.\n📐 Formula: tan θ = Height / Distance\n📐 Height = Distance × tan θ\n📐 Distance = Height / tan θ\n🎯 Standard angles (30°, 45°, 60°) appear in exams"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "tan θ = h/d — Yeh formula har elevation problem mein kaam aayega!",
+        "en": "tan θ = h/d — This formula works in every elevation problem!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Jab observer ya object move karta hai, toh angle change hota hai. Is type mein height constant rehti hai.\n🚶 Observer tower ki taraf chal raha hai → angle badhta hai\n🏃 Observer tower se door ja raha hai → angle ghatta hai\n📐 Do alag-alag positions pe tan θ use karo\n📐 Height same rehti hai — isliye dono equations se height eliminate kar sakte ho",
+        "en": "When the observer or object moves, the angle changes. In this type, the height remains constant.\n🚶 Observer walking towards tower → angle increases\n🏃 Observer walking away from tower → angle decreases\n📐 Use tan θ at two different positions\n📐 Height remains same — so you can equate both equations"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Tip: Height = d₁ tan θ₁ = d₂ tan θ₂. Is relation se unknown nikaal sakte ho!",
+        "en": "💡 Tip: Height = d₁ tan θ₁ = d₂ tan θ₂. Use this relation to find unknowns!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek tower ki shadow 30m lambi hai aur sun ka elevation angle 30° hai. Tower ki height nikaalo. (√3 = 1.732)",
+        "en": "The shadow of a tower is 30m long and the angle of elevation of the sun is 30°. Find the height of the tower. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let tower height = h",
+          "en": "Let tower height = h"
+        },
+        {
+          "hi": "Shadow length = Distance = 30m",
+          "en": "Shadow length = Distance = 30m"
+        },
+        {
+          "hi": "Angle of elevation = 30°",
+          "en": "Angle of elevation = 30°"
+        },
+        {
+          "hi": "tan 30° = h / 30",
+          "en": "tan 30° = h / 30"
+        },
+        {
+          "hi": "1/√3 = h / 30",
+          "en": "1/√3 = h / 30"
+        },
+        {
+          "hi": "h = 30/√3 = 30√3/3 = 10√3",
+          "en": "h = 30/√3 = 30√3/3 = 10√3"
+        },
+        {
+          "hi": "h = 10 × 1.732 = 17.32m",
+          "en": "h = 10 × 1.732 = 17.32m"
+        },
+        {
+          "hi": "✅ Tower ki height = 10√3 m ≈ 17.32 m",
+          "en": "✅ Height of tower = 10√3 m ≈ 17.32 m"
+        },
+        {
+          "hi": "Shadow = Distance from base. Sun ka angle of elevation = object ka angle of elevation.",
+          "en": "Shadow = Distance from base. Sun's angle of elevation = object's angle of elevation."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek tower ke base se 30m door ek point se tower ka angle of elevation 30° hai. Tower kitna door move karne pe angle of elevation 60° ho jaayega? (√3 = 1.732)",
+        "en": "The angle of elevation of a tower from a point 30m from the base is 30°. How much further should one walk so that the angle of elevation becomes 60°? (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let tower height = h",
+          "en": "Let tower height = h"
+        },
+        {
+          "hi": "Pehle point se:",
+          "en": "From first point:"
+        },
+        {
+          "hi": "tan 30° = h/30 → h = 30/√3 = 10√3 m",
+          "en": "tan 30° = h/30 → h = 30/√3 = 10√3 m"
+        },
+        {
+          "hi": "Ab doosre point pe angle 60° hai. Doosre point ki doori = x",
+          "en": "At second point, angle is 60°. Let distance = x"
+        },
+        {
+          "hi": "tan 60° = h/x",
+          "en": "tan 60° = h/x"
+        },
+        {
+          "hi": "√3 = 10√3 / x",
+          "en": "√3 = 10√3 / x"
+        },
+        {
+          "hi": "x = 10√3/√3 = 10m",
+          "en": "x = 10√3/√3 = 10m"
+        },
+        {
+          "hi": "Door move kiya = 30 - 10 = 20m",
+          "en": "Distance moved further = 30 - 10 = 20m"
+        },
+        {
+          "hi": "✅ 20m aur door jaane pe angle 60° ho jaayega",
+          "en": "✅ Walk 20m further for angle to become 60°"
+        },
+        {
+          "hi": "🎯 Is type mein height pehle nikaal lo, phir doosre point ki doori nikaalo!",
+          "en": "🎯 In this type, first find height, then find the second distance!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek kite 60m high udi hui hai aur string ka angle of elevation 60° hai. String ki length aur horizontal doori nikaalo. (√3 = 1.732)",
+        "en": "A kite is flying at a height of 60m and the string makes an angle of 60° with the ground. Find the length of the string and the horizontal distance. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let string length = L (Hypotenuse)",
+          "en": "Let string length = L (Hypotenuse)"
+        },
+        {
+          "hi": "Horizontal distance = d",
+          "en": "Horizontal distance = d"
+        },
+        {
+          "hi": "Height = 60m",
+          "en": "Height = 60m"
+        },
+        {
+          "hi": "Angle = 60°",
+          "en": "Angle = 60°"
+        },
+        {
+          "hi": "sin 60° = Height / L",
+          "en": "sin 60° = Height / L"
+        },
+        {
+          "hi": "√3/2 = 60/L",
+          "en": "√3/2 = 60/L"
+        },
+        {
+          "hi": "L = 120/√3 = 120√3/3 = 40√3 ≈ 69.28m",
+          "en": "L = 120/√3 = 120√3/3 = 40√3 ≈ 69.28m"
+        },
+        {
+          "hi": "tan 60° = 60/d",
+          "en": "tan 60° = 60/d"
+        },
+        {
+          "hi": "√3 = 60/d",
+          "en": "√3 = 60/d"
+        },
+        {
+          "hi": "d = 60/√3 = 20√3 ≈ 34.64m",
+          "en": "d = 60/√3 = 20√3 ≈ 34.64m"
+        },
+        {
+          "hi": "✅ String length = 40√3 m ≈ 69.28m",
+          "en": "✅ String length = 40√3 m ≈ 69.28m"
+        },
+        {
+          "hi": "✅ Horizontal distance = 20√3 m ≈ 34.64m",
+          "en": "✅ Horizontal distance = 20√3 m ≈ 34.64m"
+        },
+        {
+          "hi": "String = Hypotenuse (sin use karo), Horizontal = Base (tan use karo)",
+          "en": "String = Hypotenuse (use sin), Horizontal = Base (use tan)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek 10m high building ke top se ek tower ka angle of elevation 60° hai aur tower ke base ka angle of depression 30° hai. Tower ki total height nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 10m high building, the angle of elevation of a tower is 60° and the angle of depression of the tower's base is 30°. Find the total height of the tower. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Building height = 10m",
+          "en": "Building height = 10m"
+        },
+        {
+          "hi": "Let tower height above building = h",
+          "en": "Let tower height above building = h"
+        },
+        {
+          "hi": "Building se tower base ki doori = d",
+          "en": "Distance from building to tower base = d"
+        },
+        {
+          "hi": "Depression 30° hai, toh elevation bhi 30° (alternate angles):",
+          "en": "Depression 30° means elevation is also 30° (alternate angles):"
+        },
+        {
+          "hi": "tan 30° = 10/d → d = 10√3 m",
+          "en": "tan 30° = 10/d → d = 10√3 m"
+        },
+        {
+          "hi": "Ab building ke top se tower top ka elevation 60° hai:",
+          "en": "From building top, elevation to tower top is 60°:"
+        },
+        {
+          "hi": "tan 60° = h/d",
+          "en": "tan 60° = h/d"
+        },
+        {
+          "hi": "√3 = h/(10√3)",
+          "en": "√3 = h/(10√3)"
+        },
+        {
+          "hi": "h = 10√3 × √3 = 10 × 3 = 30m",
+          "en": "h = 10√3 × √3 = 10 × 3 = 30m"
+        },
+        {
+          "hi": "Total tower height = 10 + 30 = 40m",
+          "en": "Total tower height = 10 + 30 = 40m"
+        },
+        {
+          "hi": "✅ Tower ki height = 40 m",
+          "en": "✅ Tower height = 40 m"
+        },
+        {
+          "hi": "🎯 Is type mein do right triangles bante hain — ek depression ke liye, ek elevation ke liye!",
+          "en": "🎯 In this type, two right triangles form — one for depression, one for elevation!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek tower ke base se kisi point se angle of elevation 30° hai. 20m aur paas aane pe angle 60° ho jaata hai. Tower ki height nikaalo. (√3 = 1.732)",
+        "en": "The angle of elevation of a tower from a point is 30°. On walking 20m towards the tower, the angle becomes 60°. Find the height of the tower. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let tower height = h",
+          "en": "Let tower height = h"
+        },
+        {
+          "hi": "Pehli doori = x + 20",
+          "en": "First distance = x + 20"
+        },
+        {
+          "hi": "Doosri doori = x",
+          "en": "Second distance = x"
+        },
+        {
+          "hi": "Pehle point se:",
+          "en": "From first point:"
+        },
+        {
+          "hi": "tan 30° = h/(x+20) → h = (x+20)/√3 ... (i)",
+          "en": "tan 30° = h/(x+20) → h = (x+20)/√3 ... (i)"
+        },
+        {
+          "hi": "Doosre point se:",
+          "en": "From second point:"
+        },
+        {
+          "hi": "tan 60° = h/x → h = x√3 ... (ii)",
+          "en": "tan 60° = h/x → h = x√3 ... (ii)"
+        },
+        {
+          "hi": "(i) = (ii):",
+          "en": "Equating (i) and (ii):"
+        },
+        {
+          "hi": "(x+20)/√3 = x√3",
+          "en": "(x+20)/√3 = x√3"
+        },
+        {
+          "hi": "x + 20 = 3x",
+          "en": "x + 20 = 3x"
+        },
+        {
+          "hi": "2x = 20 → x = 10m",
+          "en": "2x = 20 → x = 10m"
+        },
+        {
+          "hi": "h = x√3 = 10√3 ≈ 17.32m",
+          "en": "h = x√3 = 10√3 ≈ 17.32m"
+        },
+        {
+          "hi": "✅ Tower ki height = 10√3 m ≈ 17.32 m",
+          "en": "✅ Tower height = 10√3 m ≈ 17.32 m"
+        },
+        {
+          "hi": "Height same hai dono positions pe — isliye equations equal kar do!",
+          "en": "Height is same at both positions — equate the equations!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Ek tower se 20m door angle of elevation 45° hai. Tower ki height kya hai?",
+          "en": "The angle of elevation of a tower from a point 20m away is 45°. What is the height?"
+        },
+        "options": [
+          {
+            "hi": "10m",
+            "en": "10m"
+          },
+          {
+            "hi": "20m",
+            "en": "20m"
+          },
+          {
+            "hi": "20√3 m",
+            "en": "20√3 m"
+          },
+          {
+            "hi": "40m",
+            "en": "40m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan 45° = h/20 → 1 = h/20 → h = 20m.",
+          "en": "tan 45° = h/20 → 1 = h/20 → h = 20m."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek kite 50m high hai aur string ka angle 30° hai. String ki length kya hai?",
+          "en": "A kite is 50m high and the string makes 30° with ground. What is the string length?"
+        },
+        "options": [
+          {
+            "hi": "50m",
+            "en": "50m"
+          },
+          {
+            "hi": "100m",
+            "en": "100m"
+          },
+          {
+            "hi": "50√3 m",
+            "en": "50√3 m"
+          },
+          {
+            "hi": "100√3 m",
+            "en": "100√3 m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "sin 30° = 50/L → 1/2 = 50/L → L = 100m.",
+          "en": "sin 30° = 50/L → 1/2 = 50/L → L = 100m."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Jab observer object ki taraf move karta hai, toh angle of elevation badhta hai.",
+          "en": "When an observer moves towards an object, the angle of elevation increases."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Paas aane pe object upar ki taraf lagta hai, isliye angle badhta hai.",
+          "en": "As you get closer, the object appears higher, so the angle increases."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek building 20m high hai. Uski shadow 20√3 m hai. Sun ka angle of elevation kitna hai?",
+          "en": "A building is 20m high. Its shadow is 20√3 m. What is the sun's angle of elevation?"
+        },
+        "options": [
+          {
+            "hi": "30°",
+            "en": "30°"
+          },
+          {
+            "hi": "45°",
+            "en": "45°"
+          },
+          {
+            "hi": "60°",
+            "en": "60°"
+          },
+          {
+            "hi": "90°",
+            "en": "90°"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "tan θ = 20/(20√3) = 1/√3 = tan 30°. So θ = 30°.",
+          "en": "tan θ = 20/(20√3) = 1/√3 = tan 30°. So θ = 30°."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek tower ke base se 30m door angle of elevation 30° hai. Tower ki height nikaalo.",
+          "en": "From a tower's base, angle is 30° at 30m distance. What is the height?"
+        },
+        "options": [
+          {
+            "hi": "10m",
+            "en": "10m"
+          },
+          {
+            "hi": "10√3 m",
+            "en": "10√3 m"
+          },
+          {
+            "hi": "30/√3 m",
+            "en": "30/√3 m"
+          },
+          {
+            "hi": "30√3 m",
+            "en": "30√3 m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan 30° = h/30 → 1/√3 = h/30 → h = 30/√3 = 10√3 m.",
+          "en": "tan 30° = h/30 → 1/√3 = h/30 → h = 30/√3 = 10√3 m."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Basic: tan θ = Height/Distance → Height = d × tan θ",
+      "en": "Basic: tan θ = Height/Distance → Height = d × tan θ"
+    },
+    {
+      "hi": "Shadow problems: Shadow = Distance, Sun angle = Elevation angle",
+      "en": "Shadow problems: Shadow = Distance, Sun angle = Elevation angle"
+    },
+    {
+      "hi": "Two points: Height same hoti hai → equations equal karo",
+      "en": "Two points: Height is same → equate equations"
+    },
+    {
+      "hi": "Kite/String: String = Hypotenuse (sin), Horizontal = tan",
+      "en": "Kite/String: String = Hypotenuse (sin), Horizontal = tan"
+    },
+    {
+      "hi": "Building + Tower: Do triangles banao — depression aur elevation alag-alag",
+      "en": "Building + Tower: Two triangles — depression and elevation separately"
+    },
+    {
+      "hi": "Moving observer: d₁ tan θ₁ = d₂ tan θ₂ use karo",
+      "en": "Moving observer: d₁ tan θ₁ = d₂ tan θ₂"
+    },
+    {
+      "hi": "Hamesha √3 = 1.732 aur √2 = 1.414 yaad rakho",
+      "en": "Always remember √3 = 1.732 and √2 = 1.414"
+    }
+  ],
+  "summary": {
+    "hi": "Elevation angle wale alag-alag problem types — shadow, kite, two points, moving observer — ab clear hain, sabme same tan θ formula use hota hai bas setup alag hota hai.",
+    "en": "Different elevation-angle problem types — shadow, kite, two points, moving observer — are now clear; they all use the same tan θ formula with different setups."
+  },
+  "reward": {
+    "badge": null
+  }
+}

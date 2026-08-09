@@ -1,0 +1,429 @@
+{
+  "id": "chapter-09-lesson-03",
+  "chapterId": "chapter-09",
+  "order": 3,
+  "title": {
+    "hi": "Problems on Angle of Depression",
+    "en": "Problems on Angle of Depression"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🚢",
+    "headline": {
+      "hi": "Upar se neeche dekhke distance aur height nikaalo! 🏗️",
+      "en": "Look down and calculate distance and height! 🏗️"
+    },
+    "subtext": {
+      "hi": "Is lesson mein hum Angle of Depression ke problems solve karenge — jaise building ki terrace se road dekhna, cliff se boat dekhna, ya plane se ground dekhna.",
+      "en": "In this lesson, we solve Angle of Depression problems — like looking at the road from a building terrace, a boat from a cliff, or the ground from a plane."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Is lesson mein hum Angle of Depression ke problems solve karenge — jaise building ki terrace se road dekhna, cliff se boat dekhna, ya plane se ground dekhna. Trick: Depression ko elevation mein convert kar lo!",
+      "en": "In this lesson, we solve Angle of Depression problems — like looking at the road from a building terrace, a boat from a cliff, or the ground from a plane. The trick: Convert depression to elevation!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Depression problems solve karne ke do tareeke hain:\nMethod 1: Depression angle ko elevation angle mein convert karo (alternate angles)\nMethod 2: Directly depression angle se horizontal line ke saath triangle banao\n💡 Easy Method: Depression = Elevation (alternate angles) → Ground se object ka elevation angle same hota hai\nIsliye hum hamesha ground level se triangle bana ke solve karte hain!",
+        "en": "There are two methods to solve depression problems:\nMethod 1: Convert depression angle to elevation angle (alternate angles)\nMethod 2: Directly use depression angle with horizontal line triangle\n💡 Easy Method: Depression = Elevation (alternate angles) → The elevation angle from ground to object is the same\nSo we always form the triangle from ground level!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Angle of Depression = Angle of Elevation (same horizontal level pe)",
+        "en": "Angle of Depression = Angle of Elevation (same horizontal level)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek 30m high building ke top se ek car ka angle of depression 60° hai. Car building se kitni door hai? (√3 = 1.732)",
+        "en": "From the top of a 30m high building, the angle of depression of a car is 60°. How far is the car from the building? (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Building height = 30m",
+          "en": "Building height = 30m"
+        },
+        {
+          "hi": "Angle of depression = 60°",
+          "en": "Angle of depression = 60°"
+        },
+        {
+          "hi": "Depression = Elevation (alternate angles)",
+          "en": "Depression = Elevation (alternate angles)"
+        },
+        {
+          "hi": "So, car se building ka angle of elevation = 60°",
+          "en": "So, elevation angle from car to building = 60°"
+        },
+        {
+          "hi": "tan 60° = Height / Distance",
+          "en": "tan 60° = Height / Distance"
+        },
+        {
+          "hi": "√3 = 30 / d",
+          "en": "√3 = 30 / d"
+        },
+        {
+          "hi": "d = 30/√3 = 30√3/3 = 10√3",
+          "en": "d = 30/√3 = 30√3/3 = 10√3"
+        },
+        {
+          "hi": "d = 10 × 1.732 = 17.32m",
+          "en": "d = 10 × 1.732 = 17.32m"
+        },
+        {
+          "hi": "✅ Car ki doori = 10√3 m ≈ 17.32 m",
+          "en": "✅ Car's distance = 10√3 m ≈ 17.32 m"
+        },
+        {
+          "hi": "Depression ko elevation mein convert karo — same triangle, same answer!",
+          "en": "Convert depression to elevation — same triangle, same answer!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek 100m high cliff ke top se do boats ka angle of depression 30° aur 60° hai dono same side mein. Dono boats ke beech ka distance nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 100m high cliff, the angles of depression of two boats are 30° and 60° on the same side. Find the distance between the two boats. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Cliff height = 100m",
+          "en": "Cliff height = 100m"
+        },
+        {
+          "hi": "Pehli boat (depression 60°):",
+          "en": "First boat (60° depression):"
+        },
+        {
+          "hi": "tan 60° = 100/d₁ → √3 = 100/d₁ → d₁ = 100/√3 m",
+          "en": "tan 60° = 100/d₁ → √3 = 100/d₁ → d₁ = 100/√3 m"
+        },
+        {
+          "hi": "Doosri boat (depression 30°):",
+          "en": "Second boat (30° depression):"
+        },
+        {
+          "hi": "tan 30° = 100/d₂ → 1/√3 = 100/d₂ → d₂ = 100√3 m",
+          "en": "tan 30° = 100/d₂ → 1/√3 = 100/d₂ → d₂ = 100√3 m"
+        },
+        {
+          "hi": "Dono boats ke beech ka distance:",
+          "en": "Distance between boats:"
+        },
+        {
+          "hi": "d₂ - d₁ = 100√3 - 100/√3",
+          "en": "d₂ - d₁ = 100√3 - 100/√3"
+        },
+        {
+          "hi": "= (300 - 100)/√3 = 200/√3",
+          "en": "= (300 - 100)/√3 = 200/√3"
+        },
+        {
+          "hi": "= 200√3/3 ≈ 115.47m",
+          "en": "= 200√3/3 ≈ 115.47m"
+        },
+        {
+          "hi": "✅ Distance between boats = 200√3/3 m ≈ 115.47 m",
+          "en": "✅ Distance between boats = 200√3/3 m ≈ 115.47 m"
+        },
+        {
+          "hi": "🎯 Do alag-alag triangles banao — ek 60° ke liye, ek 30° ke liye. Phir distance subtract karo!",
+          "en": "🎯 Form two separate triangles — one for 60°, one for 30°. Then subtract distances!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek plane 1500m ki height mein udd raha hai. Plane se ek point ka angle of depression 30° hai. Plane kitni doori pe hai us point se? (√3 = 1.732)",
+        "en": "A plane is flying at a height of 1500m. The angle of depression of a point on the ground is 30°. How far is the plane from that point? (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Plane height = 1500m",
+          "en": "Plane height = 1500m"
+        },
+        {
+          "hi": "Angle of depression = 30°",
+          "en": "Angle of depression = 30°"
+        },
+        {
+          "hi": "Depression = Elevation",
+          "en": "Depression = Elevation"
+        },
+        {
+          "hi": "tan 30° = 1500/d",
+          "en": "tan 30° = 1500/d"
+        },
+        {
+          "hi": "1/√3 = 1500/d",
+          "en": "1/√3 = 1500/d"
+        },
+        {
+          "hi": "d = 1500√3",
+          "en": "d = 1500√3"
+        },
+        {
+          "hi": "d = 1500 × 1.732 = 2598m",
+          "en": "d = 1500 × 1.732 = 2598m"
+        },
+        {
+          "hi": "✅ Plane ki doori = 1500√3 m ≈ 2598 m",
+          "en": "✅ Plane's distance = 1500√3 m ≈ 2598 m"
+        },
+        {
+          "hi": "Plane problems mein bhi same method — height = altitude, depression = elevation convert!",
+          "en": "Plane problems use the same method — height = altitude, depression = elevation convert!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek 60m high building ke top se doosre building ke top ka angle of depression 30° hai aur doosre building ke bottom ka angle of depression 60° hai. Doosri building ki height nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 60m high building, the angle of depression of the top of another building is 30° and the angle of depression of its bottom is 60°. Find the height of the second building. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Pehli building height = 60m",
+          "en": "First building = 60m"
+        },
+        {
+          "hi": "Doosri building height = h",
+          "en": "Second building height = h"
+        },
+        {
+          "hi": "Dono buildings ke beech doori = d",
+          "en": "Distance between buildings = d"
+        },
+        {
+          "hi": "Bottom se depression 60°:",
+          "en": "Bottom depression 60°:"
+        },
+        {
+          "hi": "tan 60° = 60/d → √3 = 60/d → d = 60/√3 = 20√3 m",
+          "en": "tan 60° = 60/d → √3 = 60/d → d = 60/√3 = 20√3 m"
+        },
+        {
+          "hi": "Top se depression 30°:",
+          "en": "Top depression 30°:"
+        },
+        {
+          "hi": "Vertical distance between tops = 60 - h",
+          "en": "Vertical distance between tops = 60 - h"
+        },
+        {
+          "hi": "tan 30° = (60-h)/d",
+          "en": "tan 30° = (60-h)/d"
+        },
+        {
+          "hi": "1/√3 = (60-h)/(20√3)",
+          "en": "1/√3 = (60-h)/(20√3)"
+        },
+        {
+          "hi": "20 = 60 - h",
+          "en": "20 = 60 - h"
+        },
+        {
+          "hi": "h = 60 - 20 = 40m",
+          "en": "h = 60 - 20 = 40m"
+        },
+        {
+          "hi": "✅ Doosri building ki height = 40 m",
+          "en": "✅ Second building height = 40 m"
+        },
+        {
+          "hi": "Do buildings problem mein vertical distance between tops use karo, not ground level!",
+          "en": "In two buildings problems, use vertical distance between tops, not ground level!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Ek 50m high building ke top se road ka angle of depression 45° hai. Road kitni door hai?",
+          "en": "From a 50m high building, the angle of depression to a road is 45°. How far is the road?"
+        },
+        "options": [
+          {
+            "hi": "25m",
+            "en": "25m"
+          },
+          {
+            "hi": "50m",
+            "en": "50m"
+          },
+          {
+            "hi": "50√2 m",
+            "en": "50√2 m"
+          },
+          {
+            "hi": "50/√2 m",
+            "en": "50/√2 m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan 45° = 50/d → 1 = 50/d → d = 50m.",
+          "en": "tan 45° = 50/d → 1 = 50/d → d = 50m."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek cliff 100m high hai. Cliff ke top se boat ka angle of depression 30° hai. Boat kitni door hai?",
+          "en": "A cliff is 100m high. From the top, a boat's angle of depression is 30°. How far is the boat?"
+        },
+        "options": [
+          {
+            "hi": "50m",
+            "en": "50m"
+          },
+          {
+            "hi": "100m",
+            "en": "100m"
+          },
+          {
+            "hi": "100√3 m",
+            "en": "100√3 m"
+          },
+          {
+            "hi": "100/√3 m",
+            "en": "100/√3 m"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "tan 30° = 100/d → 1/√3 = 100/d → d = 100√3 m.",
+          "en": "tan 30° = 100/d → 1/√3 = 100/d → d = 100√3 m."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Angle of Depression hamesha Angle of Elevation ke barabar hota hai.",
+          "en": "Angle of Depression is always equal to Angle of Elevation."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Sirf tab barabar hota hai jab observer aur object same horizontal level pe ho. Hamesha nahi!",
+          "en": "They are equal only when observer and object are at the same horizontal level. Not always!"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek plane 1000m height se ground ka angle of depression 60° hai. Plane ground se kitna door hai?",
+          "en": "A plane at 1000m height sees ground at 60° depression. How far is the plane from ground?"
+        },
+        "options": [
+          {
+            "hi": "1000m",
+            "en": "1000m"
+          },
+          {
+            "hi": "1000/√3 m",
+            "en": "1000/√3 m"
+          },
+          {
+            "hi": "1000√3 m",
+            "en": "1000√3 m"
+          },
+          {
+            "hi": "500m",
+            "en": "500m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan 60° = 1000/d → √3 = 1000/d → d = 1000/√3 m.",
+          "en": "tan 60° = 1000/d → √3 = 1000/d → d = 1000/√3 m."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek 30m high building ke top se car ka depression 60° hai. Car se building ka elevation angle kitna hoga?",
+          "en": "From a 30m high building, a car's depression is 60°. What is the elevation angle from car to building?"
+        },
+        "options": [
+          {
+            "hi": "30°",
+            "en": "30°"
+          },
+          {
+            "hi": "45°",
+            "en": "45°"
+          },
+          {
+            "hi": "60°",
+            "en": "60°"
+          },
+          {
+            "hi": "90°",
+            "en": "90°"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Angle of Depression = Angle of Elevation = 60° (alternate angles).",
+          "en": "Angle of Depression = Angle of Elevation = 60° (alternate angles)."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Angle of Depression = Angle of Elevation (alternate angles)",
+      "en": "Angle of Depression = Angle of Elevation (alternate angles)"
+    },
+    {
+      "hi": "Depression problems mein: Depression ko elevation mein convert karo",
+      "en": "In depression problems: Convert depression to elevation"
+    },
+    {
+      "hi": "Two objects same side mein: Distance subtract karo (d₂ - d₁)",
+      "en": "Two objects same side: Subtract distances (d₂ - d₁)"
+    },
+    {
+      "hi": "Two buildings: Vertical distance between tops use karo",
+      "en": "Two buildings: Use vertical distance between tops"
+    },
+    {
+      "hi": "Plane problems: Same method, height = altitude",
+      "en": "Plane problems: Same method, height = altitude"
+    },
+    {
+      "hi": "Hamesha check karo ki given values consistent hain",
+      "en": "Always check if given values are consistent"
+    },
+    {
+      "hi": "Diagram bina solve mat karo!",
+      "en": "Never solve without a diagram!"
+    }
+  ],
+  "summary": {
+    "hi": "Angle of Depression problems mein depression ko elevation mein convert karna aur two-objects/two-buildings wale cases handle karna ab aata hai.",
+    "en": "You can now convert depression to elevation and handle two-objects/two-buildings cases in angle of depression problems."
+  },
+  "reward": {
+    "badge": null
+  }
+}

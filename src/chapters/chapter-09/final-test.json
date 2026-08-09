@@ -1,0 +1,169 @@
+{
+  "chapterId": "chapter-09",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Angle of Elevation kab banta hai?",
+        "en": "When is an angle of elevation formed?"
+      },
+      "options": [
+        { "hi": "Object upar ho aur hum upar dekhein", "en": "Object is above and we look up" },
+        { "hi": "Object neeche ho aur hum neeche dekhein", "en": "Object is below and we look down" },
+        { "hi": "Object same level pe ho", "en": "Object is at the same level" },
+        { "hi": "Kabhi nahi", "en": "Never" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Object observer se upar ho aur observer upar dekhe, tab angle of elevation banta hai.",
+        "en": "When the object is above the observer and the observer looks up, an angle of elevation is formed."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Angle of Elevation aur Angle of Depression same horizontal level pe equal hote hain.",
+        "en": "The angle of elevation and angle of depression are equal at the same horizontal level."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — ye alternate angles hain (parallel horizontal lines ke beech).",
+        "en": "True — these are alternate angles between two parallel horizontal lines."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek tower ka angle of elevation 20m door se 30° hai. Tower ki height kya hogi? (√3 = 1.732)",
+        "en": "A tower's angle of elevation from 20m away is 30°. What is the tower's height? (√3 = 1.732)"
+      },
+      "options": [
+        { "hi": "11.55m", "en": "11.55m" },
+        { "hi": "20m", "en": "20m" },
+        { "hi": "34.64m", "en": "34.64m" },
+        { "hi": "10m", "en": "10m" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "tan 30° = h/20 → h = 20/√3 = 20/1.732 ≈ 11.55m.",
+        "en": "tan 30° = h/20 → h = 20/√3 = 20/1.732 ≈ 11.55m."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek pole 10m high hai, shadow bhi 10m hai. Sun ka angle of elevation kya hoga?",
+        "en": "A pole is 10m high with a 10m shadow. What is the sun's angle of elevation?"
+      },
+      "options": [
+        { "hi": "30°", "en": "30°" },
+        { "hi": "45°", "en": "45°" },
+        { "hi": "60°", "en": "60°" },
+        { "hi": "90°", "en": "90°" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "tan θ = 10/10 = 1 = tan 45°, isliye θ = 45°.",
+        "en": "tan θ = 10/10 = 1 = tan 45°, so θ = 45°."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Observer object ki taraf move kare toh angle of elevation ghat jaata hai.",
+        "en": "If the observer moves towards the object, the angle of elevation decreases."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — distance kam hone se angle of elevation badhta hai, ghatata nahi.",
+        "en": "False — as distance decreases, the angle of elevation increases, not decreases."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek 100m high lighthouse ke base se do ships opposite side mein hain — angles 30° aur 45°. Dono ke beech distance? (√3 = 1.732)",
+        "en": "From a 100m lighthouse, two ships are on opposite sides with angles 30° and 45°. Find the distance between them. (√3 = 1.732)"
+      },
+      "options": [
+        { "hi": "173.2m", "en": "173.2m" },
+        { "hi": "200m", "en": "200m" },
+        { "hi": "273.2m", "en": "273.2m" },
+        { "hi": "100m", "en": "100m" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "d₁=100m (45°), d₂=100√3m (30°). Opposite sides → add: 100(1+√3) = 273.2m.",
+        "en": "d₁=100m (45°), d₂=100√3m (30°). Opposite sides → add: 100(1+√3) = 273.2m."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Kite ki string 100m hai aur angle 30° hai. Kite ki height kya hogi?",
+        "en": "A kite's string is 100m and the angle is 30°. What is the kite's height?"
+      },
+      "options": [
+        { "hi": "25m", "en": "25m" },
+        { "hi": "50m", "en": "50m" },
+        { "hi": "86.6m", "en": "86.6m" },
+        { "hi": "100m", "en": "100m" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "sin 30° = height/100 → height = 100 × 1/2 = 50m.",
+        "en": "sin 30° = height/100 → height = 100 × 1/2 = 50m."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Two-buildings-with-depression problems mein hamesha ground-level distance use karo, top-to-top nahi.",
+        "en": "In two-buildings depression problems, always use the ground-level distance, not top-to-top."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — top-to-top vertical distance use karni hoti hai, sirf ground level se kaam nahi chalta.",
+        "en": "False — you must use the vertical distance between the tops, not just the ground level."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek point se tower ka angle of elevation 30° hai. 20m paas jaane par angle 60° ho jaata hai. Tower ki height? (√3 = 1.732)",
+        "en": "A tower's angle of elevation is 30° from a point. Moving 20m closer makes it 60°. Find the tower's height. (√3 = 1.732)"
+      },
+      "options": [
+        { "hi": "10m", "en": "10m" },
+        { "hi": "17.32m", "en": "17.32m" },
+        { "hi": "20m", "en": "20m" },
+        { "hi": "34.64m", "en": "34.64m" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "d=10m milta hai equations equal karke, phir h = d√3 = 10×1.732 = 17.32m.",
+        "en": "Equating both equations gives d=10m, then h = d√3 = 10×1.732 = 17.32m."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "60m building ke top se doosri building ka top 30° depression pe hai aur bottom 60° depression pe hai. Doosri building ki height?",
+        "en": "From a 60m building, another building's top is at 30° depression and its bottom is at 60° depression. Find the second building's height."
+      },
+      "options": [
+        { "hi": "20m", "en": "20m" },
+        { "hi": "30m", "en": "30m" },
+        { "hi": "40m", "en": "40m" },
+        { "hi": "45m", "en": "45m" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "d = 20√3 m (bottom se), phir top equation se h = 60−20 = 40m.",
+        "en": "d = 20√3 m (from bottom), then the top equation gives h = 60−20 = 40m."
+      }
+    }
+  ]
+}

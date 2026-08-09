@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-09",
+  "objective": [
+    {
+      "question": {
+        "hi": "Angle of Elevation tab hota hai jab object observer se ______.",
+        "en": "Angle of Elevation occurs when the object is ______ the observer."
+      },
+      "options": [
+        { "hi": "Upar hai", "en": "Above" },
+        { "hi": "Neeche hai", "en": "Below" },
+        { "hi": "Same level pe hai", "en": "At the same level" },
+        { "hi": "Bahut door hai", "en": "Very far away" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Jab object observer se upar hota hai aur observer upar dekhta hai, tab angle of elevation banta hai.",
+        "en": "When the object is above the observer and the observer looks up, an angle of elevation is formed."
+      }
+    },
+    {
+      "question": {
+        "hi": "Height aur distance nikaalne ke liye sabse zyada kaunsa trigonometric ratio use hota hai?",
+        "en": "Which trigonometric ratio is most commonly used to find heights and distances?"
+      },
+      "options": [
+        { "hi": "sin θ", "en": "sin θ" },
+        { "hi": "cos θ", "en": "cos θ" },
+        { "hi": "tan θ", "en": "tan θ" },
+        { "hi": "cot θ", "en": "cot θ" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "tan θ = Height/Distance, isliye ye height-distance problems mein sabse zyada use hota hai.",
+        "en": "tan θ = Height/Distance, which is why it's the most commonly used ratio in these problems."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek pole 10m high hai aur uski shadow bhi 10m hai. Sun ka angle of elevation kya hoga?",
+        "en": "A pole is 10m high and its shadow is also 10m. What is the sun's angle of elevation?"
+      },
+      "options": [
+        { "hi": "30°", "en": "30°" },
+        { "hi": "45°", "en": "45°" },
+        { "hi": "60°", "en": "60°" },
+        { "hi": "90°", "en": "90°" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "tan θ = 10/10 = 1, aur tan 45° = 1, isliye angle = 45°.",
+        "en": "tan θ = 10/10 = 1, and tan 45° = 1, so the angle = 45°."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek kite ki string 100m hai aur angle of elevation 30° hai. Kite ki height kya hogi?",
+        "en": "A kite's string is 100m long and the angle of elevation is 30°. What is the kite's height?"
+      },
+      "options": [
+        { "hi": "25m", "en": "25m" },
+        { "hi": "50m", "en": "50m" },
+        { "hi": "86.6m", "en": "86.6m" },
+        { "hi": "100m", "en": "100m" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "String hypotenuse hai, isliye sin 30° = height/100 → height = 100 × 1/2 = 50m.",
+        "en": "The string is the hypotenuse, so sin 30° = height/100 → height = 100 × 1/2 = 50m."
+      }
+    },
+    {
+      "question": {
+        "hi": "Jab observer object ki taraf move karta hai, angle of elevation kya hota hai?",
+        "en": "When the observer moves towards the object, what happens to the angle of elevation?"
+      },
+      "options": [
+        { "hi": "Ghat jaata hai", "en": "Decreases" },
+        { "hi": "Badh jaata hai", "en": "Increases" },
+        { "hi": "Same rehta hai", "en": "Stays the same" },
+        { "hi": "0 ho jaata hai", "en": "Becomes 0" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Distance kam hote hi angle of elevation badhta hai, kyunki tan θ = height/distance.",
+        "en": "As the distance decreases, the angle of elevation increases, since tan θ = height/distance."
+      }
+    },
+    {
+      "question": {
+        "hi": "Angle of Depression ki range kya hoti hai?",
+        "en": "What is the range of the angle of depression?"
+      },
+      "options": [
+        { "hi": "0° se 45° ke beech", "en": "Between 0° and 45°" },
+        { "hi": "0° se 90° ke beech", "en": "Between 0° and 90°" },
+        { "hi": "45° se 90° ke beech", "en": "Between 45° and 90°" },
+        { "hi": "90° se 180° ke beech", "en": "Between 90° and 180°" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Angle of depression hamesha 0° se 90° ke beech hota hai (horizontal se neeche ka angle).",
+        "en": "The angle of depression is always between 0° and 90° (measured below the horizontal)."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Ek tower ke top pe flagstaff laga hai. Tower ke base se flagstaff ke top ka angle of elevation 60° hai aur tower ke top ka angle of elevation 45° hai. Agar tower 10m high hai, toh flagstaff ki height nikaalo. (√3 = 1.732)",
+        "en": "A flagstaff stands on top of a tower. From the base of the tower, the angle of elevation of the top of the flagstaff is 60° and that of the top of the tower is 45°. If the tower is 10m high, find the height of the flagstaff. (√3 = 1.732)"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Tower top se (45°): tan 45° = 10/d → d = 10m\nFlagstaff top se (60°): tan 60° = (10+h)/d → √3 = (10+h)/10\n10+h = 10√3 → h = 10(√3−1) = 10 × 0.732 = 7.32m",
+        "en": "Tower top (45°): tan 45° = 10/d → d = 10m\nFlagstaff top (60°): tan 60° = (10+h)/d → √3 = (10+h)/10\n10+h = 10√3 → h = 10(√3−1) = 10 × 0.732 = 7.32m"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek 100m high lighthouse ke base se do ships opposite sides mein hain. Ek ship ka angle of elevation 30° hai aur doosre ka 45° hai. Dono ships ke beech ka distance nikaalo. (√3 = 1.732)",
+        "en": "From the base of a 100m high lighthouse, two ships are on opposite sides. One ship has angle of elevation 30° and the other 45°. Find the distance between the two ships. (√3 = 1.732)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Pehli ship (45°): d₁ = 100m\nDoosri ship (30°): tan 30° = 100/d₂ → d₂ = 100√3 m\nDistance = d₁+d₂ = 100(1+√3) = 100 × 2.732 = 273.2m",
+        "en": "First ship (45°): d₁ = 100m\nSecond ship (30°): tan 30° = 100/d₂ → d₂ = 100√3 m\nDistance = d₁+d₂ = 100(1+√3) = 100 × 2.732 = 273.2m"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek 20m high building ke top se ek cloud ka angle of elevation 30° hai aur uske reflection (water mein) ka angle of depression 60° hai. Cloud ki height nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 20m high building, the angle of elevation of a cloud is 30° and the angle of depression of its reflection in water is 60°. Find the height of the cloud. (√3 = 1.732)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Let cloud height = H. tan 30° = (H−20)/d ... (i); tan 60° = (H+20)/d ... (ii)\n(H−20)√3 = (H+20)/√3 → 3(H−20) = H+20 → 2H = 80 → H = 40m",
+        "en": "Let cloud height = H. tan 30° = (H−20)/d ... (i); tan 60° = (H+20)/d ... (ii)\n(H−20)√3 = (H+20)/√3 → 3(H−20) = H+20 → 2H = 80 → H = 40m"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek tower ke base se kisi point se angle of elevation 30° hai. Tower ki taraf 20m chalne ke baad angle 60° ho jaata hai. Tower ki height nikaalo. (√3 = 1.732)",
+        "en": "The angle of elevation of a tower from a point is 30°. On walking 20m towards the tower, the angle becomes 60°. Find the height of the tower. (√3 = 1.732)"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "h = (d+20)/√3 ... (i); h = d√3 ... (ii)\n(d+20)/√3 = d√3 → d+20 = 3d → d = 10m\nh = 10√3 = 17.32m",
+        "en": "h = (d+20)/√3 ... (i); h = d√3 ... (ii)\n(d+20)/√3 = d√3 → d+20 = 3d → d = 10m\nh = 10√3 = 17.32m"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek 60m high building ke top se doosre building ke top ka angle of depression 30° hai aur doosre building ke bottom ka angle of depression 60° hai. Doosri building ki height aur dono buildings ke beech ka distance nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 60m high building, the angle of depression of the top of another building is 30° and the angle of depression of its bottom is 60°. Find the height of the second building and the distance between them. (√3 = 1.732)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Bottom se (60°): d = 60/√3 = 20√3 m\nTop se (30°): (60−h)/d = tan 30° → 20 = 60−h → h = 40m\nDistance = 20√3 ≈ 34.64m",
+        "en": "Bottom (60°): d = 60/√3 = 20√3 m\nTop (30°): (60−h)/d = tan 30° → 20 = 60−h → h = 40m\nDistance = 20√3 ≈ 34.64m"
+      }
+    }
+  ]
+}

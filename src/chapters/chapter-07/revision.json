@@ -1,0 +1,241 @@
+{
+  "chapterId": "chapter-07",
+  "flashcards": [
+    {
+      "front": {
+        "hi": "Distance formula?",
+        "en": "Distance formula?"
+      },
+      "back": {
+        "hi": "√[(x₂−x₁)²+(y₂−y₁)²]",
+        "en": "√[(x₂−x₁)²+(y₂−y₁)²]"
+      }
+    },
+    {
+      "front": {
+        "hi": "Distance from origin?",
+        "en": "Distance from origin?"
+      },
+      "back": {
+        "hi": "√(x²+y²)",
+        "en": "√(x²+y²)"
+      }
+    },
+    {
+      "front": {
+        "hi": "Section formula (internal)?",
+        "en": "Section formula (internal)?"
+      },
+      "back": {
+        "hi": "[(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)]",
+        "en": "[(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)]"
+      }
+    },
+    {
+      "front": {
+        "hi": "Mid-point formula?",
+        "en": "Mid-point formula?"
+      },
+      "back": {
+        "hi": "[(x₁+x₂)/2, (y₁+y₂)/2]",
+        "en": "[(x₁+x₂)/2, (y₁+y₂)/2]"
+      }
+    },
+    {
+      "front": {
+        "hi": "Centroid formula?",
+        "en": "Centroid formula?"
+      },
+      "back": {
+        "hi": "[(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3]",
+        "en": "[(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3]"
+      }
+    },
+    {
+      "front": {
+        "hi": "Area of triangle?",
+        "en": "Area of triangle?"
+      },
+      "back": {
+        "hi": "½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|",
+        "en": "½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|"
+      }
+    },
+    {
+      "front": {
+        "hi": "Collinearity test?",
+        "en": "Collinearity test?"
+      },
+      "back": {
+        "hi": "Area = 0",
+        "en": "Area = 0"
+      }
+    },
+    {
+      "front": {
+        "hi": "Mid-point triangle area vs original?",
+        "en": "Mid-point triangle area vs original?"
+      },
+      "back": {
+        "hi": "Hamesha 1/4",
+        "en": "Always 1/4"
+      }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": {
+        "hi": "Distance",
+        "en": "Distance"
+      },
+      "formula": "√[(x₂−x₁)² + (y₂−y₁)²]"
+    },
+    {
+      "label": {
+        "hi": "Distance from origin",
+        "en": "Distance from origin"
+      },
+      "formula": "√(x² + y²)"
+    },
+    {
+      "label": {
+        "hi": "Section Formula (internal)",
+        "en": "Section Formula (internal)"
+      },
+      "formula": "[(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)]"
+    },
+    {
+      "label": {
+        "hi": "Mid-point",
+        "en": "Mid-point"
+      },
+      "formula": "[(x₁+x₂)/2, (y₁+y₂)/2]"
+    },
+    {
+      "label": {
+        "hi": "Centroid",
+        "en": "Centroid"
+      },
+      "formula": "[(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3]"
+    },
+    {
+      "label": {
+        "hi": "Area of Triangle",
+        "en": "Area of Triangle"
+      },
+      "formula": "½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|"
+    }
+  ],
+  "mindMap": {
+    "root": {
+      "hi": "Coordinate Geometry",
+      "en": "Coordinate Geometry"
+    },
+    "branches": [
+      {
+        "label": {
+          "hi": "Basics",
+          "en": "Basics"
+        },
+        "children": [
+          {
+            "hi": "axes, quadrants",
+            "en": "axes, quadrants"
+          },
+          {
+            "hi": "abscissa, ordinate",
+            "en": "abscissa, ordinate"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Distance",
+          "en": "Distance"
+        },
+        "children": [
+          {
+            "hi": "between 2 points",
+            "en": "between 2 points"
+          },
+          {
+            "hi": "from origin",
+            "en": "from origin"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Section Formula",
+          "en": "Section Formula"
+        },
+        "children": [
+          {
+            "hi": "internal division",
+            "en": "internal division"
+          },
+          {
+            "hi": "mid-point",
+            "en": "mid-point"
+          },
+          {
+            "hi": "centroid",
+            "en": "centroid"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Area",
+          "en": "Area"
+        },
+        "children": [
+          {
+            "hi": "triangle area",
+            "en": "triangle area"
+          },
+          {
+            "hi": "collinearity",
+            "en": "collinearity"
+          },
+          {
+            "hi": "quadrilateral area",
+            "en": "quadrilateral area"
+          }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": {
+        "hi": "Distance kabhi negative ho sakti hai?",
+        "en": "Can distance ever be negative?"
+      },
+      "explanation": {
+        "hi": "Nahi, hamesha positive/zero",
+        "en": "No, always positive/zero"
+      }
+    },
+    {
+      "question": {
+        "hi": "Mid-point ratio kya hoti hai?",
+        "en": "What ratio does the mid-point represent?"
+      },
+      "explanation": {
+        "hi": "1:1",
+        "en": "1:1"
+      }
+    },
+    {
+      "question": {
+        "hi": "Area=0 ka matlab?",
+        "en": "What does area=0 mean?"
+      },
+      "explanation": {
+        "hi": "Points collinear hain",
+        "en": "Points are collinear"
+      }
+    }
+  ]
+}

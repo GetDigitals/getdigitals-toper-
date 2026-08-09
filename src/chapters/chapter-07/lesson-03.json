@@ -1,0 +1,297 @@
+{
+  "id": "chapter-07-lesson-03",
+  "chapterId": "chapter-07",
+  "order": 3,
+  "title": {
+    "hi": "Area of a Triangle & Collinearity",
+    "en": "Area of a Triangle & Collinearity"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 60,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Bina Naapo, Seedha Coordinates Se Area Nikaalo!",
+      "en": "Find Area Directly from Coordinates — No Measuring!"
+    },
+    "subtext": {
+      "hi": "Agar area 0 aa jaaye, iska matlab points ek seedhi line mein hain — triangle bana hi nahi!",
+      "en": "If the area comes out 0, it means the points lie on a straight line — no triangle was formed at all!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek land surveyor ko plot ka area nikaalna hai, aur usके paas sirf teeno corners ke GPS coordinates hain — scale se naapna possible nahi. Coordinate geometry ka area formula exactly isi kaam aata hai. Aur agar kabhi teeno corners ek seedhi line mein nikal aayein (area=0), matlab wo plot hai hi nahi — ye 'Collinearity' check karne ka tarika bhi hai!",
+      "en": "A land surveyor needs to find a plot's area, and has only the GPS coordinates of the three corners — measuring with a scale isn't possible. Coordinate geometry's area formula is exactly built for this. And if the three corners turn out to lie on one straight line (area=0), it means there's no plot at all — this is also how we check 'Collinearity'!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Triangle ABC ka area, jiske vertices A(x₁,y₁), B(x₂,y₂), C(x₃,y₃) hain, seedha coordinates se nikaala ja sakta hai — bina koi height ya base naape.",
+        "en": "The area of triangle ABC, with vertices A(x₁,y₁), B(x₂,y₂), C(x₃,y₃), can be found directly from coordinates — without measuring any height or base."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Modulus (| |) isliye lagate hain kyunki area kabhi negative nahi hoti — vertices ka order (clockwise/anticlockwise) kabhi kabhi negative value de sakta hai, uska sirf sign ignore karte hain.",
+        "en": "We use modulus (| |) because area can never be negative — the order of vertices (clockwise/anticlockwise) can sometimes give a negative value, we just ignore that sign."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Collinearity ka golden rule: Agar teen points ek seedhi line mein hain, toh unse banne wale 'triangle' ka area 0 hoga (kyunki triangle bana hi nahi). Isliye check karne ke liye same area formula use karo — agar answer 0 aaye, points collinear hain.",
+        "en": "Golden rule for collinearity: if three points lie on a straight line, the 'triangle' they form has area 0 (since no triangle was actually formed). So use the same area formula to check — if the answer is 0, the points are collinear."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Quadrilateral ka area nikaalne ke liye, use diagonal se do triangles mein baant do, dono ka area nikaalo aur add kar do.",
+        "en": "To find a quadrilateral's area, split it into two triangles using a diagonal, find each triangle's area, and add them."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🔺",
+    "caption": {
+      "hi": "Agar area formula se 0 mile, matlab teeno points ek seedhi line mein hain — koi triangle bana hi nahi.",
+      "en": "If the area formula gives 0, it means all three points lie on a straight line — no triangle was formed."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Vertices (1,2), (4,5), aur (7,3) wale triangle ka area nikaalo.",
+        "en": "Find the area of the triangle with vertices (1,2), (4,5), and (7,3)."
+      },
+      "steps": [
+        {
+          "hi": "Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|",
+          "en": "Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|"
+        },
+        {
+          "hi": "= ½ |1(5−3) + 4(3−2) + 7(2−5)|",
+          "en": "= ½ |1(5−3) + 4(3−2) + 7(2−5)|"
+        },
+        {
+          "hi": "= ½ |2 + 4 − 21| = ½ |−15| = ½ × 15",
+          "en": "= ½ |2 + 4 − 21| = ½ |−15| = ½ × 15"
+        },
+        {
+          "hi": "Area = 7.5 sq. units",
+          "en": "Area = 7.5 sq. units"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Dikhao ki points (1,2), (3,4), aur (5,6) collinear hain.",
+        "en": "Show that the points (1,2), (3,4), and (5,6) are collinear."
+      },
+      "steps": [
+        {
+          "hi": "Area = ½ |1(4−6) + 3(6−2) + 5(2−4)|",
+          "en": "Area = ½ |1(4−6) + 3(6−2) + 5(2−4)|"
+        },
+        {
+          "hi": "= ½ |−2 + 12 − 10| = ½ |0| = 0",
+          "en": "= ½ |−2 + 12 − 10| = ½ |0| = 0"
+        },
+        {
+          "hi": "Area = 0, isliye points collinear hain ✓",
+          "en": "Area = 0, so the points are collinear ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Agar (2,3), (4,5), aur (x,2) wale triangle ka area 5 sq. units hai, toh x nikaalo.",
+        "en": "If the triangle with vertices (2,3), (4,5), and (x,2) has area 5 sq. units, find x."
+      },
+      "steps": [
+        {
+          "hi": "½ |2(5−2) + 4(2−3) + x(3−5)| = 5",
+          "en": "½ |2(5−2) + 4(2−3) + x(3−5)| = 5"
+        },
+        {
+          "hi": "½ |6 − 4 − 2x| = 5 → |2 − 2x| = 10",
+          "en": "½ |6 − 4 − 2x| = 5 → |2 − 2x| = 10"
+        },
+        {
+          "hi": "Case 1: 2−2x=10 → x=−4.  Case 2: 2−2x=−10 → x=6",
+          "en": "Case 1: 2−2x=10 → x=−4.  Case 2: 2−2x=−10 → x=6"
+        },
+        {
+          "hi": "Answer: x = −4 ya x = 6",
+          "en": "Answer: x = −4 or x = 6"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Agar teen points collinear hon, toh unse bane triangle ka area kya hoga?",
+          "en": "If three points are collinear, what is the area of the triangle formed by them?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "Infinite",
+            "en": "Infinite"
+          },
+          {
+            "hi": "Negative",
+            "en": "Negative"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Collinear points koi triangle nahi banate, isliye area 0 hota hai.",
+          "en": "Collinear points don't form a triangle, so the area is 0."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Area formula mein modulus (| |) kyun lagate hain?",
+          "en": "Why do we use modulus (| |) in the area formula?"
+        },
+        "options": [
+          {
+            "hi": "Area kabhi negative nahi hoti",
+            "en": "Area can never be negative"
+          },
+          {
+            "hi": "Formula ko chhota karne ke liye",
+            "en": "To shorten the formula"
+          },
+          {
+            "hi": "Sirf convention hai",
+            "en": "Just a convention"
+          },
+          {
+            "hi": "Coordinates positive karne ke liye",
+            "en": "To make coordinates positive"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Area hamesha positive hoti hai, isliye modulus se sign ignore karte hain.",
+          "en": "Area is always positive, so modulus removes any negative sign."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Quadrilateral ka area nikaalne ke liye use ek diagonal se 2 triangles mein baant sakte hain.",
+          "en": "To find a quadrilateral's area, you can split it into 2 triangles using a diagonal."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — dono triangles ka area nikaal ke add kar do.",
+          "en": "True — find both triangles' areas and add them."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Vertices (0,0),(4,0),(0,3) wale triangle ka area kya hai?",
+          "en": "What is the area of the triangle with vertices (0,0),(4,0),(0,3)?"
+        },
+        "options": [
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "12",
+            "en": "12"
+          },
+          {
+            "hi": "7",
+            "en": "7"
+          },
+          {
+            "hi": "3.5",
+            "en": "3.5"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Area=½|0(0−3)+4(3−0)+0(0−0)|=½|12|=6",
+          "en": "Area=½|0(0−3)+4(3−0)+0(0−0)|=½|12|=6"
+        }
+      },
+      {
+        "type": "dragdrop",
+        "question": {
+          "hi": "Collinearity check karne ka rule complete karo:",
+          "en": "Complete the collinearity check rule:"
+        },
+        "sentenceParts": [
+          "Agar 3 points ka area",
+          "hai, to wo collinear hain"
+        ],
+        "blanks": [
+          "0"
+        ],
+        "tokens": [
+          "0",
+          "1",
+          "negative"
+        ],
+        "explanation": {
+          "hi": "Area = 0 hone par hi points collinear hote hain.",
+          "en": "Points are collinear only when the area equals 0."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|",
+      "en": "Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|"
+    },
+    {
+      "hi": "Collinearity check: same formula use karo — area=0 matlab collinear",
+      "en": "Collinearity check: use the same formula — area=0 means collinear"
+    },
+    {
+      "hi": "Quadrilateral area = diagonal se 2 triangles mein baant ke dono ka sum",
+      "en": "Quadrilateral area = split by a diagonal into 2 triangles and sum them"
+    },
+    {
+      "hi": "Modulus lagana mat bhoolo — area kabhi negative nahi hoti",
+      "en": "Don't forget the modulus — area is never negative"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum coordinates se seedha triangle ka area nikaal sakte ho, aur collinearity check kar sakte ho. Agle (aakhri) lesson mein hum ye sab concepts ek saath board-exam-level mixed problems mein solve karenge.",
+    "en": "You can now find a triangle's area directly from coordinates, and check for collinearity. In the next (final) lesson, we'll solve all these concepts together in board-exam-level mixed problems."
+  },
+  "reward": {
+    "badge": null
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "chapterId": "chapter-07",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "A(0,0) aur B(6,8) ke beech distance kya hai?",
+        "en": "What is the distance between A(0,0) and B(6,8)?"
+      },
+      "options": [
+        {
+          "hi": "10",
+          "en": "10"
+        },
+        {
+          "hi": "14",
+          "en": "14"
+        },
+        {
+          "hi": "8",
+          "en": "8"
+        },
+        {
+          "hi": "6",
+          "en": "6"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "√(36+64)=√100=10",
+        "en": "√(36+64)=√100=10"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "Point (5,−2) kis quadrant mein hoga?",
+        "en": "In which quadrant does (5,−2) lie?"
+      },
+      "options": [
+        {
+          "hi": "IV",
+          "en": "IV"
+        },
+        {
+          "hi": "I",
+          "en": "I"
+        },
+        {
+          "hi": "II",
+          "en": "II"
+        },
+        {
+          "hi": "III",
+          "en": "III"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "x>0,y<0 → Quadrant IV",
+        "en": "x>0,y<0 → Quadrant IV"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Distance formula Pythagoras Theorem se derive hoti hai.",
+        "en": "The distance formula is derived from the Pythagoras Theorem."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi.",
+        "en": "True."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "(1,1) aur (5,5) ko jodne wali line ka mid-point kya hai?",
+        "en": "What is the mid-point of the line joining (1,1) and (5,5)?"
+      },
+      "options": [
+        {
+          "hi": "(3,3)",
+          "en": "(3,3)"
+        },
+        {
+          "hi": "(2,2)",
+          "en": "(2,2)"
+        },
+        {
+          "hi": "(4,4)",
+          "en": "(4,4)"
+        },
+        {
+          "hi": "(6,6)",
+          "en": "(6,6)"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "[(1+5)/2,(1+5)/2]=(3,3)",
+        "en": "[(1+5)/2,(1+5)/2]=(3,3)"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "(3,5) aur (9,11) ko ratio 2:1 mein internally divide karne wale point ka x-coordinate kya hai?",
+        "en": "What is the x-coordinate of the point dividing (3,5) and (9,11) in ratio 2:1 internally?"
+      },
+      "options": [
+        {
+          "hi": "7",
+          "en": "7"
+        },
+        {
+          "hi": "6",
+          "en": "6"
+        },
+        {
+          "hi": "8",
+          "en": "8"
+        },
+        {
+          "hi": "5",
+          "en": "5"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "x=(2×9+1×3)/3=(18+3)/3=21/3=7",
+        "en": "x=(2×9+1×3)/3=(18+3)/3=21/3=7"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Agar 3 points collinear hain, unse bane 'triangle' ka area 0 hota hai.",
+        "en": "If 3 points are collinear, the 'triangle' they form has area 0."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi.",
+        "en": "True."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Vertices (2,0),(0,4),(4,4) wale triangle ka area kya hai?",
+        "en": "What is the area of the triangle with vertices (2,0),(0,4),(4,4)?"
+      },
+      "options": [
+        {
+          "hi": "8",
+          "en": "8"
+        },
+        {
+          "hi": "6",
+          "en": "6"
+        },
+        {
+          "hi": "10",
+          "en": "10"
+        },
+        {
+          "hi": "12",
+          "en": "12"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Area=½|2(4−4)+0(4−0)+4(0−4)|=½|0+0−16|=8",
+        "en": "Area=½|2(4−4)+0(4−0)+4(0−4)|=½|0+0−16|=8"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "Triangle (1,3),(2,5),(3,7) collinear hai ya nahi?",
+        "en": "Are the points (1,3),(2,5),(3,7) collinear?"
+      },
+      "options": [
+        {
+          "hi": "Haan, area=0",
+          "en": "Yes, area=0"
+        },
+        {
+          "hi": "Nahi, area=2",
+          "en": "No, area=2"
+        },
+        {
+          "hi": "Nahi, area=4",
+          "en": "No, area=4"
+        },
+        {
+          "hi": "Pata nahi chal sakta",
+          "en": "Cannot be determined"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Area=½|1(5−7)+2(7−3)+3(3−5)|=½|−2+8−6|=½×0=0, isliye collinear",
+        "en": "Area=½|1(5−7)+2(7−3)+3(3−5)|=½|−2+8−6|=½×0=0, so collinear"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "Parallelogram A(0,0),B(4,0),C(6,3),D(x,y) hai. D kya hoga?",
+        "en": "A parallelogram has A(0,0),B(4,0),C(6,3),D(x,y). What is D?"
+      },
+      "options": [
+        {
+          "hi": "(2,3)",
+          "en": "(2,3)"
+        },
+        {
+          "hi": "(3,2)",
+          "en": "(3,2)"
+        },
+        {
+          "hi": "(2,2)",
+          "en": "(2,2)"
+        },
+        {
+          "hi": "(4,3)",
+          "en": "(4,3)"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Mid AC=(3,1.5)=Mid BD=[(4+x)/2,(0+y)/2] → x=2,y=3",
+        "en": "Mid AC=(3,1.5)=Mid BD=[(4+x)/2,(0+y)/2] → x=2,y=3"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "(0,−1),(2,1),(0,3) triangle ke mid-point triangle ka area kya hoga agar original ka area 4 hai?",
+        "en": "If the original triangle (0,−1),(2,1),(0,3) has area 4, what is the mid-point triangle's area?"
+      },
+      "options": [
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "0.5",
+          "en": "0.5"
+        },
+        {
+          "hi": "4",
+          "en": "4"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Mid-point triangle ka area hamesha original ka 1/4 hota hai: 4/4=1",
+        "en": "The mid-point triangle's area is always 1/4 of the original: 4/4=1"
+      }
+    }
+  ]
+}

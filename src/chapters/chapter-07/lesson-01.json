@@ -1,0 +1,308 @@
+{
+  "id": "chapter-07-lesson-01",
+  "chapterId": "chapter-07",
+  "order": 1,
+  "title": {
+    "hi": "The Coordinate Plane & Distance Formula",
+    "en": "The Coordinate Plane & Distance Formula"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "📍",
+    "headline": {
+      "hi": "Points Ko Numbers Se Represent Karo!",
+      "en": "Represent Points with Numbers!"
+    },
+    "subtext": {
+      "hi": "Coordinate Geometry mein algebra aur geometry milte hain — GPS se lekar game development tak har jagah use hota hai.",
+      "en": "Coordinate Geometry is where algebra meets geometry — used everywhere from GPS to game development."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab tum Google Maps par apni location dekhte ho, ya koi game character screen par move karta hai, uske peeche coordinate geometry hi kaam kar rahi hoti hai — har point ek (x, y) pair se define hota hai. Is chapter mein hum seekhenge do points ke beech ki exact distance kaise nikaalte hain — bina scale se naapo!",
+      "en": "When you check your location on Google Maps, or a game character moves on screen, coordinate geometry is working behind it — every point is defined by an (x, y) pair. In this chapter, we'll learn how to find the exact distance between two points — without measuring with a scale!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Coordinate plane do perpendicular lines (axes) se banta hai jahan har point ko ek unique ordered pair (x, y) se represent kiya jaata hai.",
+        "en": "The coordinate plane is formed by two perpendicular lines (axes) where every point is represented by a unique ordered pair (x, y)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "X-axis horizontal line hai (left to right), Y-axis vertical line hai (bottom to top), aur Origin wo point hai jahan dono axes intersect karte hain (0, 0). Point (x, y) mein x ko 'abscissa' aur y ko 'ordinate' kehte hain.",
+        "en": "The X-axis is horizontal (left to right), the Y-axis is vertical (bottom to top), and the Origin is where both axes intersect (0, 0). In a point (x, y), x is called the 'abscissa' and y the 'ordinate'."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Coordinate plane 4 Quadrants mein baata hai: Quadrant I (x>0, y>0), Quadrant II (x<0, y>0), Quadrant III (x<0, y<0), Quadrant IV (x>0, y<0).",
+        "en": "The coordinate plane is divided into 4 Quadrants: Quadrant I (x>0, y>0), Quadrant II (x<0, y>0), Quadrant III (x<0, y<0), Quadrant IV (x>0, y<0)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Distance AB = √[(x₂−x₁)² + (y₂−y₁)²]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye formula Pythagoras Theorem se derive hota hai — socho A aur B ke beech ek right-angled triangle banta hai jiske legs (x₂−x₁) aur (y₂−y₁) hain, toh hypotenuse hi unke beech ki distance hai.",
+        "en": "This formula is derived from the Pythagoras Theorem — imagine a right-angled triangle between A and B with legs (x₂−x₁) and (y₂−y₁); the hypotenuse is exactly the distance between them."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Distance from origin = √(x² + y²)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye origin se distance ka special case hai (jab ek point (0,0) hi ho). Agar point x-axis par ho (x, 0), distance = |x|; agar y-axis par ho (0, y), distance = |y|.",
+        "en": "This is the special case of distance from the origin (when one point is (0,0)). If a point is on the x-axis (x, 0), distance = |x|; if on the y-axis (0, y), distance = |y|."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📐",
+    "caption": {
+      "hi": "Do points ke beech ek right-angled triangle socho — Pythagoras Theorem hi distance formula ka base hai.",
+      "en": "Imagine a right-angled triangle between two points — the Pythagoras Theorem is the base of the distance formula."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "A(3, 4) aur B(6, 8) ke beech distance nikaalo.",
+        "en": "Find the distance between A(3, 4) and B(6, 8)."
+      },
+      "steps": [
+        {
+          "hi": "AB = √[(x₂−x₁)² + (y₂−y₁)²]",
+          "en": "AB = √[(x₂−x₁)² + (y₂−y₁)²]"
+        },
+        {
+          "hi": "= √[(6−3)² + (8−4)²] = √[3² + 4²]",
+          "en": "= √[(6−3)² + (8−4)²] = √[3² + 4²]"
+        },
+        {
+          "hi": "= √[9 + 16] = √25 = 5 units",
+          "en": "= √[9 + 16] = √25 = 5 units"
+        },
+        {
+          "hi": "Verify: 3-4-5 ek classic right triangle ratio hai ✓",
+          "en": "Verify: 3-4-5 is a classic right-triangle ratio ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "P(−5, 12) ki origin se distance nikaalo.",
+        "en": "Find the distance of P(−5, 12) from the origin."
+      },
+      "steps": [
+        {
+          "hi": "Origin se distance = √(x² + y²)",
+          "en": "Distance from origin = √(x² + y²)"
+        },
+        {
+          "hi": "= √[(−5)² + 12²] = √[25 + 144]",
+          "en": "= √[(−5)² + 12²] = √[25 + 144]"
+        },
+        {
+          "hi": "= √169 = 13 units",
+          "en": "= √169 = 13 units"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Dikhao ki A(1, 2), B(4, 5), aur C(7, 2) ek isosceles triangle banate hain.",
+        "en": "Show that A(1, 2), B(4, 5), and C(7, 2) form an isosceles triangle."
+      },
+      "steps": [
+        {
+          "hi": "AB = √[(4−1)² + (5−2)²] = √[9+9] = √18 = 3√2",
+          "en": "AB = √[(4−1)² + (5−2)²] = √[9+9] = √18 = 3√2"
+        },
+        {
+          "hi": "BC = √[(7−4)² + (2−5)²] = √[9+9] = √18 = 3√2",
+          "en": "BC = √[(7−4)² + (2−5)²] = √[9+9] = √18 = 3√2"
+        },
+        {
+          "hi": "CA = √[(1−7)² + (2−2)²] = √[36+0] = 6",
+          "en": "CA = √[(1−7)² + (2−2)²] = √[36+0] = 6"
+        },
+        {
+          "hi": "AB = BC = 3√2 (do sides equal) → Isosceles triangle ✓",
+          "en": "AB = BC = 3√2 (two sides equal) → Isosceles triangle ✓"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Point (x, y) mein x ko kya kehte hain?",
+          "en": "In a point (x, y), what is x called?"
+        },
+        "options": [
+          {
+            "hi": "Ordinate",
+            "en": "Ordinate"
+          },
+          {
+            "hi": "Abscissa",
+            "en": "Abscissa"
+          },
+          {
+            "hi": "Origin",
+            "en": "Origin"
+          },
+          {
+            "hi": "Quadrant",
+            "en": "Quadrant"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "x-coordinate ko abscissa kehte hain, y-coordinate ko ordinate.",
+          "en": "The x-coordinate is called the abscissa, the y-coordinate is the ordinate."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Point (−3, 4) kis quadrant mein hoga?",
+          "en": "In which quadrant does the point (−3, 4) lie?"
+        },
+        "options": [
+          {
+            "hi": "I",
+            "en": "I"
+          },
+          {
+            "hi": "II",
+            "en": "II"
+          },
+          {
+            "hi": "III",
+            "en": "III"
+          },
+          {
+            "hi": "IV",
+            "en": "IV"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "x<0, y>0 hone par point Quadrant II mein hota hai.",
+          "en": "With x<0, y>0, the point lies in Quadrant II."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "A(2,3) aur B(5,7) ke beech distance kya hai?",
+          "en": "What is the distance between A(2,3) and B(5,7)?"
+        },
+        "options": [
+          {
+            "hi": "5",
+            "en": "5"
+          },
+          {
+            "hi": "4",
+            "en": "4"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "7",
+            "en": "7"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "√[(5−2)²+(7−3)²]=√[9+16]=√25=5",
+          "en": "√[(5−2)²+(7−3)²]=√[9+16]=√25=5"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Origin se kisi point (x,y) ki distance √(x²+y²) hoti hai.",
+          "en": "The distance of a point (x,y) from the origin is √(x²+y²)."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — ye distance formula ka special case hai jahan doosra point (0,0) hai.",
+          "en": "True — this is a special case of the distance formula where the other point is (0,0)."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "question": {
+          "hi": "Distance formula complete karo:",
+          "en": "Complete the distance formula:"
+        },
+        "sentenceParts": [
+          "AB = √[(x₂−x₁)² +",
+          "]"
+        ],
+        "blanks": [
+          "(y₂−y₁)²"
+        ],
+        "tokens": [
+          "(y₂−y₁)²",
+          "(y₂+y₁)²",
+          "(y₁−y₂)"
+        ],
+        "explanation": {
+          "hi": "Sahi formula: AB = √[(x₂−x₁)² + (y₂−y₁)²]",
+          "en": "The correct formula: AB = √[(x₂−x₁)² + (y₂−y₁)²]"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Distance formula: AB = √[(x₂−x₁)² + (y₂−y₁)²] — Pythagoras Theorem se derive hota hai",
+      "en": "Distance formula: AB = √[(x₂−x₁)² + (y₂−y₁)²] — derived from the Pythagoras Theorem"
+    },
+    {
+      "hi": "Origin se distance: √(x²+y²)",
+      "en": "Distance from origin: √(x²+y²)"
+    },
+    {
+      "hi": "Distance hamesha positive hoti hai — squares ki wajah se signs matter nahi karte",
+      "en": "Distance is always positive — squaring means signs don't matter"
+    },
+    {
+      "hi": "Teeno sides ki distance nikaal ke triangle ka type (equilateral/isosceles/scalene/right-angled) check kar sakte ho",
+      "en": "Find all three side distances to check the type of triangle (equilateral/isosceles/scalene/right-angled)"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum coordinate plane samajh sakte ho aur do points ke beech distance nikaal sakte ho — chahe origin se ho ya kisi bhi do points ke beech. Agle lesson mein hum seekhenge ki ek line segment ko kisi given ratio mein kaise divide karte hain — Section Formula ke through.",
+    "en": "You can now understand the coordinate plane and find the distance between two points — whether from the origin or between any two points. Next, we'll learn how to divide a line segment in a given ratio — using the Section Formula."
+  },
+  "reward": {
+    "badge": null
+  }
+}

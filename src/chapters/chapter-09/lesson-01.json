@@ -1,0 +1,399 @@
+{
+  "id": "chapter-09-lesson-01",
+  "chapterId": "chapter-09",
+  "order": 1,
+  "title": {
+    "hi": "Heights and Distances",
+    "en": "Heights and Distances"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🏔️",
+    "headline": {
+      "hi": "Trigonometry se buildings, mountains, aur ships ki height nikaalo! 🏔️",
+      "en": "Use Trigonometry to find heights of buildings, mountains, and ships! 🏔️"
+    },
+    "subtext": {
+      "hi": "Yeh chapter mein hum seekhenge ki kaunsi angle se dekhne pe kya hota hai — Angle of Elevation, Angle of Depression, aur Line of Sight.",
+      "en": "In this chapter, we will learn what happens when you look at different angles — Angle of Elevation, Angle of Depression, and Line of Sight."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Yeh chapter mein hum seekhenge ki kaunsi angle se dekhne pe kya hota hai — Angle of Elevation, Angle of Depression, aur Line of Sight. Yeh sab real life mein surveyors, architects, aur engineers use karte hain!",
+      "en": "In this chapter, we will learn what happens when you look at different angles — Angle of Elevation, Angle of Depression, and Line of Sight. Surveyors, architects, and engineers use these in real life!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Jab hum kisi object ko dekhte hain, toh humari aankh se object tak jo imaginary straight line jaati hai, usse Line of Sight kehte hain.\n👁️ Line of Sight = Observer ki aankh se Object tak ki straight line\n📐 Yeh line horizontal line ke saath ek angle banati hai\n🎯 Isi angle ko Angle of Elevation ya Angle of Depression kehte hain\n⚠️ Important: Humesha observer ki eye level se measure karte hain",
+        "en": "When we look at an object, the imaginary straight line from our eye to the object is called the Line of Sight.\n👁️ Line of Sight = Straight line from Observer's eye to the Object\n📐 This line makes an angle with the horizontal line\n🎯 This angle is called Angle of Elevation or Angle of Depression\n⚠️ Important: Always measure from the observer's eye level"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Line of Sight = Observer → Object (straight imaginary line)",
+        "en": "Line of Sight = Observer → Object (straight imaginary line)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Jab object observer ke upar ho aur hum usse upar ki taraf dekh rahe ho, toh horizontal line aur Line of Sight ke beech ka angle Angle of Elevation hota hai.\n📐 Object observer se UPAR hai\n👀 Hum upar ki taraf dekh rahe hain\n📏 Horizontal line se Line of Sight ke beech ka angle = Angle of Elevation\n🔺 Yeh angle hamesha 0° se 90° ke beech hota hai\nExamples: Tower dekhna, Kite dekhna, Cloud dekhna, Mountain dekhna",
+        "en": "When the object is above the observer and we look upwards, the angle between the horizontal line and the Line of Sight is called the Angle of Elevation.\n📐 Object is ABOVE the observer\n👀 We are looking UPWARDS\n📏 Angle between Horizontal line and Line of Sight = Angle of Elevation\n🔺 This angle is always between 0° and 90°\nExamples: Looking at a tower, kite, cloud, or mountain"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Tip: 'Elevation' matlab 'Upar' — jab upar dekho toh Elevation!",
+        "en": "💡 Tip: 'Elevation' means 'Up' — when you look up, it's Elevation!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Jab object observer ke neeche ho aur hum usse neeche ki taraf dekh rahe ho, toh horizontal line aur Line of Sight ke beech ka angle Angle of Depression hota hai.\n📐 Object observer ke NEECHE hai\n👀 Hum neeche ki taraf dekh rahe hain\n📏 Horizontal line se Line of Sight ke beech ka angle = Angle of Depression\n🔺 Yeh bhi hamesha 0° se 90° ke beech hota hai\nExamples: Building ki terrace se road dekhna, Cliff se boat dekhna, Plane se ground dekhna",
+        "en": "When the object is below the observer and we look downwards, the angle between the horizontal line and the Line of Sight is called the Angle of Depression.\n📐 Object is BELOW the observer\n👀 We are looking DOWNWARDS\n📏 Angle between Horizontal line and Line of Sight = Angle of Depression\n🔺 This is also always between 0° and 90°\nExamples: Looking at road from building terrace, boat from cliff, ground from plane"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Tip: 'Depression' matlab 'Neeche' — jab neeche dekho toh Depression!",
+        "en": "💡 Tip: 'Depression' means 'Down' — when you look down, it's Depression!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Important Formulas for Heights & Distances: Right-angled triangle banake hum trigonometric ratios use karke height ya distance nikaal sakte hain. Sabse zyada tan θ use hota hai kyunki humein height aur distance dono chahiye hote hain.",
+        "en": "Important Formulas for Heights & Distances: By forming a right-angled triangle, we can use trigonometric ratios to find height or distance. tan θ is used most because we usually need both height and distance."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "tan θ = Height / Distance\\nsin θ = Height / Line of Sight\\ncos θ = Distance / Line of Sight"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Example: Agar tower se 30m door khade ho aur angle of elevation 45° hai, toh tan 45° = h/30 → h = 30m",
+        "en": "Example: If standing 30m away from a tower with angle of elevation 45°, then tan 45° = h/30 → h = 30m"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek important property hai:\n🔄 Agar observer aur object dono same horizontal level pe hain\n🔄 Toh Angle of Elevation = Angle of Depression (Alternate angles)\n🔄 Isliye: Top se bottom ka depression angle = Bottom se top ka elevation angle\nExample: Building ki terrace se ground ka depression angle 30° hai, toh ground se building ka elevation angle bhi 30° hoga!",
+        "en": "There's an important property:\n🔄 If observer and object are at the same horizontal level\n🔄 Then Angle of Elevation = Angle of Depression (Alternate angles)\n🔄 Therefore: Depression angle from top = Elevation angle from bottom\nExample: If depression angle from building terrace to ground is 30°, then elevation angle from ground to building is also 30°!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Angle of Elevation = Angle of Depression (jab same horizontal level ho)",
+        "en": "Angle of Elevation = Angle of Depression (when same horizontal level)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Har Heights & Distances problem ko solve karne ke liye yeh steps follow karo:\nStep 1: Diagram banao — Observer, Object, Horizontal line mark karo\nStep 2: Right-angled triangle identify karo\nStep 3: Given values likho — angle, height, distance\nStep 4: Unknown value ke liye suitable ratio choose karo (sin/cos/tan)\nStep 5: Substitute karo aur equation solve karo\nStep 6: Answer ko verify karo aur units likhna mat bhoolo!",
+        "en": "Follow these steps for every Heights & Distances problem:\nStep 1: Draw diagram — Mark Observer, Object, and Horizontal line\nStep 2: Identify the right-angled triangle\nStep 3: Write given values — angle, height, distance\nStep 4: Choose suitable ratio (sin/cos/tan) for unknown value\nStep 5: Substitute and solve the equation\nStep 6: Verify answer and don't forget units!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Diagram banaana sabse important hai — bina diagram ke galat ho sakta hai!",
+        "en": "Drawing a diagram is the most important step — without it, you can go wrong!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek tower ke base se 20m door ek point se tower ka angle of elevation 60° hai. Tower ki height nikaalo. (√3 = 1.732)",
+        "en": "The angle of elevation of a tower from a point 20m from its base is 60°. Find the height of the tower. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let tower height = h",
+          "en": "Let tower height = h"
+        },
+        {
+          "hi": "Distance = 20m",
+          "en": "Distance = 20m"
+        },
+        {
+          "hi": "Angle of elevation = 60°",
+          "en": "Angle of elevation = 60°"
+        },
+        {
+          "hi": "Right triangle banayein:",
+          "en": "Form right triangle:"
+        },
+        {
+          "hi": "tan 60° = Height / Distance",
+          "en": "tan 60° = Height / Distance"
+        },
+        {
+          "hi": "√3 = h / 20",
+          "en": "√3 = h / 20"
+        },
+        {
+          "hi": "h = 20√3",
+          "en": "h = 20√3"
+        },
+        {
+          "hi": "h = 20 × 1.732 = 34.64m",
+          "en": "h = 20 × 1.732 = 34.64m"
+        },
+        {
+          "hi": "✅ Tower ki height = 20√3 m ≈ 34.64 m",
+          "en": "✅ Height of tower = 20√3 m ≈ 34.64 m"
+        },
+        {
+          "hi": "Step 1: Right triangle banao. Step 2: Given angle ke liye ratio choose karo. Step 3: Substitute karo aur solve karo.",
+          "en": "Step 1: Form right triangle. Step 2: Choose ratio for given angle. Step 3: Substitute and solve."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek lighthouse 75m high hai. Lighthouse ke top se ek ship ka angle of depression 30° hai. Ship kitni door hai? (√3 = 1.732)",
+        "en": "A lighthouse is 75m high. The angle of depression of a ship from the top of the lighthouse is 30°. How far is the ship from the lighthouse? (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Lighthouse height = 75m",
+          "en": "Lighthouse height = 75m"
+        },
+        {
+          "hi": "Angle of depression = 30°",
+          "en": "Angle of depression = 30°"
+        },
+        {
+          "hi": "Angle of depression = Angle of elevation (alternate angles)",
+          "en": "Depression = Elevation (alternate angles)"
+        },
+        {
+          "hi": "So, ship se lighthouse ka elevation angle = 30°",
+          "en": "So, elevation angle from ship to lighthouse = 30°"
+        },
+        {
+          "hi": "tan 30° = Height / Distance",
+          "en": "tan 30° = Height / Distance"
+        },
+        {
+          "hi": "1/√3 = 75 / d",
+          "en": "1/√3 = 75 / d"
+        },
+        {
+          "hi": "d = 75√3",
+          "en": "d = 75√3"
+        },
+        {
+          "hi": "d = 75 × 1.732 = 129.9m",
+          "en": "d = 75 × 1.732 = 129.9m"
+        },
+        {
+          "hi": "✅ Ship ki doori = 75√3 m ≈ 129.9 m",
+          "en": "✅ Distance of ship = 75√3 m ≈ 129.9 m"
+        },
+        {
+          "hi": "🎯 Angle of depression ko elevation mein convert karke solve karna easy hota hai!",
+          "en": "🎯 Converting depression to elevation makes solving easier!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Jab object observer ke upar ho, toh kaunsa angle banta hai?",
+          "en": "When the object is above the observer, which angle is formed?"
+        },
+        "options": [
+          {
+            "hi": "Angle of Depression",
+            "en": "Angle of Depression"
+          },
+          {
+            "hi": "Angle of Elevation",
+            "en": "Angle of Elevation"
+          },
+          {
+            "hi": "Right Angle",
+            "en": "Right Angle"
+          },
+          {
+            "hi": "Straight Angle",
+            "en": "Straight Angle"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Object upar hone pe Angle of Elevation banta hai.",
+          "en": "When the object is above, Angle of Elevation is formed."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Angle of Elevation aur Angle of Depression ka relation kya hai?",
+          "en": "What is the relation between Angle of Elevation and Angle of Depression?"
+        },
+        "options": [
+          {
+            "hi": "Dono equal hote hain",
+            "en": "They are equal"
+          },
+          {
+            "hi": "Dono complementary hote hain",
+            "en": "They are complementary"
+          },
+          {
+            "hi": "Dono supplementary hote hain",
+            "en": "They are supplementary"
+          },
+          {
+            "hi": "Koi relation nahi",
+            "en": "No relation"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Jab observer aur object same horizontal level pe ho, tab Angle of Elevation = Angle of Depression (alternate angles).",
+          "en": "When observer and object are at the same horizontal level, Angle of Elevation = Angle of Depression (alternate angles)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Height aur Distance nikaalne ke liye sabse zyada kaunsa ratio use hota hai?",
+          "en": "Which ratio is most used to find height and distance?"
+        },
+        "options": [
+          {
+            "hi": "sin θ",
+            "en": "sin θ"
+          },
+          {
+            "hi": "cos θ",
+            "en": "cos θ"
+          },
+          {
+            "hi": "tan θ",
+            "en": "tan θ"
+          },
+          {
+            "hi": "cosec θ",
+            "en": "cosec θ"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "tan θ = Height/Distance, isliye jab height aur distance dono involved ho toh tan θ use karte hain.",
+          "en": "tan θ = Height/Distance, so when both height and distance are involved, we use tan θ."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Angle of Depression hamesha 90° se bada hota hai.",
+          "en": "Angle of Depression is always greater than 90°."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Angle of Depression hamesha 0° se 90° ke beech hota hai.",
+          "en": "Angle of Depression is always between 0° and 90°."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek 10m high building se ground ka angle of depression 45° hai. Ground se building ka angle of elevation kitna hoga?",
+          "en": "From a 10m high building, the angle of depression to ground is 45°. What is the angle of elevation from ground to building?"
+        },
+        "options": [
+          {
+            "hi": "30°",
+            "en": "30°"
+          },
+          {
+            "hi": "45°",
+            "en": "45°"
+          },
+          {
+            "hi": "60°",
+            "en": "60°"
+          },
+          {
+            "hi": "90°",
+            "en": "90°"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Angle of Elevation = Angle of Depression = 45° (alternate angles).",
+          "en": "Angle of Elevation = Angle of Depression = 45° (alternate angles)."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Line of Sight = Observer ki aankh se Object tak ki straight line",
+      "en": "Line of Sight = Straight line from Observer's eye to Object"
+    },
+    {
+      "hi": "Angle of Elevation = Object UPAR hai, hum upar dekh rahe hain",
+      "en": "Angle of Elevation = Object is ABOVE, we look UP"
+    },
+    {
+      "hi": "Angle of Depression = Object NEECHE hai, hum neeche dekh rahe hain",
+      "en": "Angle of Depression = Object is BELOW, we look DOWN"
+    },
+    {
+      "hi": "Angle of Elevation = Angle of Depression (same horizontal level pe)",
+      "en": "Angle of Elevation = Angle of Depression (same horizontal level)"
+    },
+    {
+      "hi": "tan θ = Height/Distance (sabse zyada use hota hai)",
+      "en": "tan θ = Height/Distance (most frequently used)"
+    },
+    {
+      "hi": "Hamesha diagram banao pehle",
+      "en": "Always draw diagram first"
+    },
+    {
+      "hi": "√3 = 1.732 aur √2 = 1.414 yaad rakho",
+      "en": "Remember √3 = 1.732 and √2 = 1.414"
+    },
+    {
+      "hi": "Units (m, km, cm) hamesha mention karo",
+      "en": "Always mention units (m, km, cm)"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum Line of Sight, Angle of Elevation aur Angle of Depression samajh gaye ho — tan θ = Height/Distance formula ki madad se koi bhi height/distance problem solve kar sakte ho.",
+    "en": "You now understand Line of Sight, Angle of Elevation, and Angle of Depression — you can solve any height/distance problem using tan θ = Height/Distance."
+  },
+  "reward": {
+    "badge": null
+  }
+}

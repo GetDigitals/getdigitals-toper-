@@ -1,0 +1,98 @@
+{
+  "chapterId": "chapter-09",
+  "flashcards": [
+    {
+      "front": { "hi": "Line of Sight", "en": "Line of Sight" },
+      "back": { "hi": "Observer ki aankh se object tak ki straight line", "en": "The straight line from the observer's eye to the object" }
+    },
+    {
+      "front": { "hi": "Angle of Elevation", "en": "Angle of Elevation" },
+      "back": { "hi": "Object upar hai — hum upar dekhte hain", "en": "Object is above — we look upward" }
+    },
+    {
+      "front": { "hi": "Angle of Depression", "en": "Angle of Depression" },
+      "back": { "hi": "Object neeche hai — hum neeche dekhte hain", "en": "Object is below — we look downward" }
+    },
+    {
+      "front": { "hi": "Elevation = Depression kab?", "en": "When is elevation = depression?" },
+      "back": { "hi": "Jab dono same horizontal level pe measure ho (alternate angles)", "en": "When both are measured from the same horizontal level (alternate angles)" }
+    },
+    {
+      "front": { "hi": "Two points, same side", "en": "Two points, same side" },
+      "back": { "hi": "Distances subtract karo (d₂ − d₁)", "en": "Subtract the distances (d₂ − d₁)" }
+    },
+    {
+      "front": { "hi": "Two points, opposite side", "en": "Two points, opposite sides" },
+      "back": { "hi": "Distances add karo (d₁ + d₂)", "en": "Add the distances (d₁ + d₂)" }
+    },
+    {
+      "front": { "hi": "Two buildings problem", "en": "Two buildings problem" },
+      "back": { "hi": "Vertical distance between tops use karo, ground level nahi", "en": "Use the vertical distance between the tops, not ground level" }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": { "hi": "Main Formula", "en": "Main Formula" },
+      "formula": "tan θ = Height / Distance"
+    },
+    {
+      "label": { "hi": "Kite/String Problems", "en": "Kite/String Problems" },
+      "formula": "sin θ = Height / String length"
+    },
+    {
+      "label": { "hi": "Moving Observer", "en": "Moving Observer" },
+      "formula": "d₁ tan θ₁ = d₂ tan θ₂ = Height"
+    },
+    {
+      "label": { "hi": "Common Values", "en": "Common Values" },
+      "formula": "tan 30° = 1/√3, tan 45° = 1, tan 60° = √3\n√3 = 1.732, √2 = 1.414"
+    }
+  ],
+  "mindMap": {
+    "root": { "hi": "Applications of Trigonometry", "en": "Applications of Trigonometry" },
+    "branches": [
+      {
+        "label": { "hi": "Core Concepts", "en": "Core Concepts" },
+        "children": [
+          { "hi": "Line of Sight", "en": "Line of Sight" },
+          { "hi": "Angle of Elevation", "en": "Angle of Elevation" },
+          { "hi": "Angle of Depression", "en": "Angle of Depression" }
+        ]
+      },
+      {
+        "label": { "hi": "Elevation Problem Types", "en": "Elevation Problem Types" },
+        "children": [
+          { "hi": "Shadow problems", "en": "Shadow problems" },
+          { "hi": "Kite/string problems", "en": "Kite/string problems" },
+          { "hi": "Two points, moving observer", "en": "Two points, moving observer" }
+        ]
+      },
+      {
+        "label": { "hi": "Depression Problem Types", "en": "Depression Problem Types" },
+        "children": [
+          { "hi": "Two objects, same/opposite side", "en": "Two objects, same/opposite side" },
+          { "hi": "Two buildings (top-to-top)", "en": "Two buildings (top-to-top)" },
+          { "hi": "Cloud + reflection problems", "en": "Cloud + reflection problems" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": { "hi": "tan 45° = ?", "en": "tan 45° = ?" },
+      "explanation": { "hi": "1", "en": "1" }
+    },
+    {
+      "question": { "hi": "Pole 10m, shadow 10m — sun angle?", "en": "Pole 10m, shadow 10m — sun angle?" },
+      "explanation": { "hi": "45°", "en": "45°" }
+    },
+    {
+      "question": { "hi": "Observer object ki taraf move kare toh elevation angle?", "en": "If observer moves towards object, elevation angle?" },
+      "explanation": { "hi": "Badhta hai", "en": "Increases" }
+    },
+    {
+      "question": { "hi": "Kite string 100m, angle 30° — height?", "en": "Kite string 100m, angle 30° — height?" },
+      "explanation": { "hi": "50m", "en": "50m" }
+    }
+  ]
+}

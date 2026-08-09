@@ -1,0 +1,657 @@
+{
+  "id": "chapter-09-lesson-04",
+  "chapterId": "chapter-09",
+  "order": 4,
+  "title": {
+    "hi": "Important Questions & Mixed Practice",
+    "en": "Important Questions & Mixed Practice"
+  },
+  "estimatedMinutes": 18,
+  "xpReward": 60,
+  "coinReward": 16,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "hi": "Board Exam ke liye Must-Do Questions!",
+      "en": "Must-Do Questions for Board Exams!"
+    },
+    "subtext": {
+      "hi": "Yeh lesson mein wo questions hain jo har saal CBSE board exams mein repeat hote hain.",
+      "en": "This lesson contains questions that are repeated every year in CBSE board exams."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Yeh lesson mein wo questions hain jo har saal CBSE board exams mein repeat hote hain. Objective (MCQ/1-mark) aur Subjective (2-4 marks) dono types cover kiye hain!",
+      "en": "This lesson contains questions that are repeated every year in CBSE board exams. Both Objective (MCQ/1-mark) and Subjective (2-4 marks) types are covered!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "CBSE Class 10 Board Exam mein Some Applications of Trigonometry se kitne marks aate hain?\n📊 Total Weightage: ~6-8 marks\n📝 1-mark questions: Basic definition ya simple value\n📝 2-mark questions: Simple height/distance nikaalna\n📝 3-mark questions: Two points ya moving observer\n📝 4-mark questions: Complex problem with two buildings/objects\n🎯 Important: Diagram banaana sabse zaroori hai — bina diagram ke 0 marks!",
+        "en": "How many marks does Some Applications of Trigonometry carry in CBSE Class 10 Board Exam?\n📊 Total Weightage: ~6-8 marks\n📝 1-mark questions: Basic definition or simple value\n📝 2-mark questions: Simple height/distance finding\n📝 3-mark questions: Two points or moving observer\n📝 4-mark questions: Complex problem with two buildings/objects\n🎯 Important: Drawing diagram is most crucial — without it, 0 marks!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Heights & Distances = Scoring Chapter! Diagram + tan θ = Full Marks!",
+        "en": "Heights & Distances = Scoring Chapter! Diagram + tan θ = Full Marks!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yeh questions har saal exam mein aate hain:\nQ1. Angle of Elevation tab hota hai jab object observer se ______ hai.  [Ans: Upar/Above]\nQ2. Angle of Depression = Angle of ______ (same horizontal level pe).  [Ans: Elevation]\nQ3. Height nikaalne ke liye sabse zyada kaunsa ratio use hota hai?  [Ans: tan θ]\nQ4. Jab observer object ki taraf move karta hai, toh angle of elevation ______ hota hai.  [Ans: Badhta hai/Increases]\nQ5. Ek pole 10m high hai aur uski shadow 10m hai. Sun ka angle = ?  [Ans: 45°]\nQ6. Kite ki string 100m hai aur angle 30° hai. Kite ki height = ?  [Ans: 50m]\nQ7. tan 45° = ?  [Ans: 1]\nQ8. Depression angle hamesha 0° se ______ ke beech hota hai.  [Ans: 90°]",
+        "en": "These questions appear in the exam every year:\nQ1. Angle of Elevation occurs when object is ______ the observer.  [Ans: Above]\nQ2. Angle of Depression = Angle of ______ (at same horizontal level).  [Ans: Elevation]\nQ3. Which ratio is most used to find height and distance?  [Ans: tan θ]\nQ4. When observer moves towards object, angle of elevation ______.  [Ans: Increases]\nQ5. A pole 10m high has shadow 10m. Sun's angle = ?  [Ans: 45°]\nQ6. Kite string 100m, angle 30°. Kite height = ?  [Ans: 50m]\nQ7. tan 45° = ?  [Ans: 1]\nQ8. Depression angle is always between 0° and ______.  [Ans: 90°]"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Tip: Objective questions mein direct formula use karo — time bachao!",
+        "en": "💡 Tip: In objective questions, use direct formula — save time!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Board exam ke liye ye questions practice karo:\n📌 Ek 15m high pole ki shadow 5√3 m hai. Sun ka angle of elevation nikaalo. [2M]\n📌 Ek kite 60m high udi hui hai aur string ka angle 60° hai. String ki length nikaalo. [2M]\n📌 Ek tower ke base se 30m door angle 30° hai aur 10m aur paas aane pe 60°. Tower ki height. [3M]\n📌 Ek building ke top se car ka depression 60° hai aur bottom se car ka elevation 30° hai. Building ki height. [3M]\n📌 Do buildings 50m aur 30m high hain. Choti building ke top se badi building ka elevation 30° hai. Distance nikaalo. [3M]\n📌 Ek plane 1500m height mein hai. Ground ke ek point se plane ka elevation 60° hai. Plane kitna door hai? [2M]\n📌 Ek tower pe flagstaff hai. Tower ke base se tower top ka elevation 45° aur flagstaff top ka 60°. Tower 20m hai. Flagstaff ki height. [4M]\n📌 Ek lighthouse 80m high hai. Do ships same side mein hain with depression angles 30° and 60°. Ships ke beech ka distance. [4M]",
+        "en": "Practice these questions for the board exam:\n📌 A 15m high pole has shadow 5√3 m. Find sun's angle of elevation. [2M]\n📌 A kite is 60m high with string angle 60°. Find string length. [2M]\n📌 From 30m away, tower angle is 30°. After moving 10m closer, angle is 60°. Find height. [3M]\n📌 From building top, car depression is 60°; from bottom, car elevation is 30°. Find building height. [3M]\n📌 Two buildings 50m and 30m high. From shorter building top, taller building elevation is 30°. Find distance. [3M]\n📌 A plane at 1500m height has ground elevation 60°. How far is the plane? [2M]\n📌 Tower with flagstaff. Tower 20m high. Tower top elevation 45°, flagstaff top 60°. Find flagstaff height. [4M]\n📌 A lighthouse 80m high. Two ships same side with depression angles 30° and 60°. Find distance between ships. [4M]"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "In questions ko 2-3 baar practice karo — pattern same rehta hai, sirf numbers change hote hain!",
+        "en": "Practice these questions 2-3 times — pattern remains same, only numbers change!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek tower ke top pe ek flagstaff laga hai. Tower ke base se flagstaff ke top ka angle of elevation 60° hai aur tower ke top ka angle of elevation 45° hai. Agar tower 10m high hai, toh flagstaff ki height nikaalo. (√3 = 1.732)",
+        "en": "A flagstaff stands on top of a tower. From the base of the tower, the angle of elevation of the top of the flagstaff is 60° and that of the top of the tower is 45°. If the tower is 10m high, find the height of the flagstaff. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let flagstaff height = h",
+          "en": "Let flagstaff height = h"
+        },
+        {
+          "hi": "Tower height = 10m",
+          "en": "Tower height = 10m"
+        },
+        {
+          "hi": "Total height = 10 + h",
+          "en": "Total height = 10 + h"
+        },
+        {
+          "hi": "Distance from base = d",
+          "en": "Distance from base = d"
+        },
+        {
+          "hi": "Tower top se (45°):",
+          "en": "Tower top (45°):"
+        },
+        {
+          "hi": "tan 45° = 10/d → 1 = 10/d → d = 10m",
+          "en": "tan 45° = 10/d → 1 = 10/d → d = 10m"
+        },
+        {
+          "hi": "Flagstaff top se (60°):",
+          "en": "Flagstaff top (60°):"
+        },
+        {
+          "hi": "tan 60° = (10+h)/d",
+          "en": "tan 60° = (10+h)/d"
+        },
+        {
+          "hi": "√3 = (10+h)/10",
+          "en": "√3 = (10+h)/10"
+        },
+        {
+          "hi": "10+h = 10√3",
+          "en": "10+h = 10√3"
+        },
+        {
+          "hi": "h = 10√3 - 10 = 10(√3 - 1)",
+          "en": "h = 10√3 - 10 = 10(√3 - 1)"
+        },
+        {
+          "hi": "h = 10(1.732 - 1) = 10 × 0.732 = 7.32m",
+          "en": "h = 10(1.732 - 1) = 10 × 0.732 = 7.32m"
+        },
+        {
+          "hi": "✅ Flagstaff ki height = 10(√3 - 1) m ≈ 7.32 m",
+          "en": "✅ Flagstaff height = 10(√3 - 1) m ≈ 7.32 m"
+        },
+        {
+          "hi": "Do alag-alag angles → do equations → pehle d nikaalo, phir h!",
+          "en": "Two different angles → two equations → first find d, then h!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek 100m high lighthouse ke base se do ships opposite sides mein hain. Ek ship ka angle of elevation 30° hai aur doosre ka 45° hai. Dono ships ke beech ka distance nikaalo. (√3 = 1.732)",
+        "en": "From the base of a 100m high lighthouse, two ships are on opposite sides. One ship has angle of elevation 30° and the other 45°. Find the distance between the two ships. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Lighthouse height = 100m",
+          "en": "Lighthouse height = 100m"
+        },
+        {
+          "hi": "Pehli ship (45°):",
+          "en": "First ship (45°):"
+        },
+        {
+          "hi": "tan 45° = 100/d₁ → 1 = 100/d₁ → d₁ = 100m",
+          "en": "tan 45° = 100/d₁ → 1 = 100/d₁ → d₁ = 100m"
+        },
+        {
+          "hi": "Doosri ship (30°):",
+          "en": "Second ship (30°):"
+        },
+        {
+          "hi": "tan 30° = 100/d₂ → 1/√3 = 100/d₂ → d₂ = 100√3 m",
+          "en": "tan 30° = 100/d₂ → 1/√3 = 100/d₂ → d₂ = 100√3 m"
+        },
+        {
+          "hi": "Total distance = d₁ + d₂ = 100 + 100√3",
+          "en": "Total distance = d₁ + d₂ = 100 + 100√3"
+        },
+        {
+          "hi": "= 100(1 + √3)",
+          "en": "= 100(1 + √3)"
+        },
+        {
+          "hi": "= 100(1 + 1.732) = 100 × 2.732 = 273.2m",
+          "en": "= 100(1 + 1.732) = 100 × 2.732 = 273.2m"
+        },
+        {
+          "hi": "✅ Distance between ships = 100(1 + √3) m ≈ 273.2 m",
+          "en": "✅ Distance between ships = 100(1 + √3) m ≈ 273.2 m"
+        },
+        {
+          "hi": "🎯 Opposite sides mein distances ADD karte hain, same side mein SUBTRACT!",
+          "en": "🎯 Opposite sides → ADD distances, same side → SUBTRACT!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek 20m high building ke top se ek cloud ka angle of elevation 30° hai aur uske reflection (water mein) ka angle of depression 60° hai. Cloud ki height nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 20m high building, the angle of elevation of a cloud is 30° and the angle of depression of its reflection in water is 60°. Find the height of the cloud. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Building height = 20m",
+          "en": "Building height = 20m"
+        },
+        {
+          "hi": "Let cloud height above ground = H",
+          "en": "Let cloud height above ground = H"
+        },
+        {
+          "hi": "Cloud height above building = H - 20",
+          "en": "Cloud height above building = H - 20"
+        },
+        {
+          "hi": "Reflection ground se neeche H meter hai",
+          "en": "Reflection is H meters below ground"
+        },
+        {
+          "hi": "Reflection se building top ki vertical distance = H + 20",
+          "en": "Reflection to building top vertical distance = H + 20"
+        },
+        {
+          "hi": "Cloud se elevation 30°:",
+          "en": "Cloud elevation 30°:"
+        },
+        {
+          "hi": "tan 30° = (H-20)/d → 1/√3 = (H-20)/d → d = (H-20)√3 ... (i)",
+          "en": "tan 30° = (H-20)/d → 1/√3 = (H-20)/d → d = (H-20)√3 ... (i)"
+        },
+        {
+          "hi": "Reflection se depression 60°:",
+          "en": "Reflection depression 60°:"
+        },
+        {
+          "hi": "tan 60° = (H+20)/d → √3 = (H+20)/d → d = (H+20)/√3 ... (ii)",
+          "en": "tan 60° = (H+20)/d → √3 = (H+20)/d → d = (H+20)/√3 ... (ii)"
+        },
+        {
+          "hi": "(i) = (ii):",
+          "en": "Equating (i) and (ii):"
+        },
+        {
+          "hi": "(H-20)√3 = (H+20)/√3",
+          "en": "(H-20)√3 = (H+20)/√3"
+        },
+        {
+          "hi": "3(H-20) = H+20",
+          "en": "3(H-20) = H+20"
+        },
+        {
+          "hi": "3H - 60 = H + 20",
+          "en": "3H - 60 = H + 20"
+        },
+        {
+          "hi": "2H = 80 → H = 40m",
+          "en": "2H = 80 → H = 40m"
+        },
+        {
+          "hi": "✅ Cloud ki height = 40 m",
+          "en": "✅ Cloud height = 40 m"
+        },
+        {
+          "hi": "Reflection problems mein: Cloud height above building aur reflection depth below building dono use karo!",
+          "en": "In reflection problems: Use cloud height above building AND reflection depth below building!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek ladder deewar (wall) se 60° ka angle banati hai. Agar ladder ka base wall se 5m door hai, to ladder ki length nikaalo. (√3 = 1.732)",
+        "en": "A ladder makes an angle of 60° with the ground against a wall. If the foot of the ladder is 5m from the wall, find the length of the ladder. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Let ladder length = L (hypotenuse)",
+          "en": "Let ladder length = L (hypotenuse)"
+        },
+        {
+          "hi": "Wall se distance (base) = 5m, angle with ground = 60°",
+          "en": "Distance from wall (base) = 5m, angle with ground = 60°"
+        },
+        {
+          "hi": "Base aur hypotenuse involve hain, isliye cos use karo:",
+          "en": "Base and hypotenuse are involved, so use cos:"
+        },
+        {
+          "hi": "cos 60° = Base / Hypotenuse = 5 / L",
+          "en": "cos 60° = Base / Hypotenuse = 5 / L"
+        },
+        {
+          "hi": "1/2 = 5/L",
+          "en": "1/2 = 5/L"
+        },
+        {
+          "hi": "L = 10m",
+          "en": "L = 10m"
+        },
+        {
+          "hi": "✅ Ladder ki length = 10 m",
+          "en": "✅ Ladder's length = 10 m"
+        },
+        {
+          "hi": "🎯 Base + Hypotenuse diye ho to cos use karo; Perpendicular + Base ho to tan; Perpendicular + Hypotenuse ho to sin!",
+          "en": "🎯 When Base + Hypotenuse are given, use cos; Perpendicular + Base, use tan; Perpendicular + Hypotenuse, use sin!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek 60m high building ke top se doosre building ke top ka angle of depression 30° hai aur doosre building ke bottom ka angle of depression 60° hai. Doosri building ki height aur dono buildings ke beech ka distance nikaalo. (√3 = 1.732)",
+        "en": "From the top of a 60m high building, the angle of depression of the top of another building is 30° and the angle of depression of its bottom is 60°. Find the height of the second building and the distance between them. (√3 = 1.732)"
+      },
+      "steps": [
+        {
+          "hi": "Pehli building = 60m",
+          "en": "First building = 60m"
+        },
+        {
+          "hi": "Doosri building = h",
+          "en": "Second building = h"
+        },
+        {
+          "hi": "Distance = d",
+          "en": "Distance = d"
+        },
+        {
+          "hi": "Bottom se depression 60°:",
+          "en": "Bottom depression 60°:"
+        },
+        {
+          "hi": "tan 60° = 60/d → √3 = 60/d → d = 60/√3 = 20√3 m",
+          "en": "tan 60° = 60/d → √3 = 60/d → d = 60/√3 = 20√3 m"
+        },
+        {
+          "hi": "Top se depression 30°:",
+          "en": "Top depression 30°:"
+        },
+        {
+          "hi": "Vertical distance between tops = 60 - h",
+          "en": "Vertical distance between tops = 60 - h"
+        },
+        {
+          "hi": "tan 30° = (60-h)/d",
+          "en": "tan 30° = (60-h)/d"
+        },
+        {
+          "hi": "1/√3 = (60-h)/(20√3)",
+          "en": "1/√3 = (60-h)/(20√3)"
+        },
+        {
+          "hi": "20 = 60 - h",
+          "en": "20 = 60 - h"
+        },
+        {
+          "hi": "h = 40m",
+          "en": "h = 40m"
+        },
+        {
+          "hi": "✅ Doosri building ki height = 40 m",
+          "en": "✅ Second building height = 40 m"
+        },
+        {
+          "hi": "✅ Distance = 20√3 m ≈ 34.64 m",
+          "en": "✅ Distance = 20√3 m ≈ 34.64 m"
+        },
+        {
+          "hi": "Do triangles: ek ground level ke liye, ek top-to-top ke liye!",
+          "en": "Two triangles: one for ground level, one for top-to-top!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Height aur Distance nikaalne ke liye sabse zyada kaunsa ratio use hota hai?",
+          "en": "Which ratio is most used to find height and distance?"
+        },
+        "options": [
+          {
+            "hi": "sin θ",
+            "en": "sin θ"
+          },
+          {
+            "hi": "cos θ",
+            "en": "cos θ"
+          },
+          {
+            "hi": "tan θ",
+            "en": "tan θ"
+          },
+          {
+            "hi": "sec θ",
+            "en": "sec θ"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "tan θ = Height/Distance, isliye jab height aur distance dono involved ho toh tan θ use karte hain.",
+          "en": "tan θ = Height/Distance, so when both height and distance are involved, we use tan θ."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek tower 20m high hai. Base se 20m door angle of elevation kitna hoga?",
+          "en": "A tower is 20m high. From a point 20m away, what is the angle of elevation?"
+        },
+        "options": [
+          {
+            "hi": "30°",
+            "en": "30°"
+          },
+          {
+            "hi": "45°",
+            "en": "45°"
+          },
+          {
+            "hi": "60°",
+            "en": "60°"
+          },
+          {
+            "hi": "90°",
+            "en": "90°"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan θ = 20/20 = 1 = tan 45°. So θ = 45°.",
+          "en": "tan θ = 20/20 = 1 = tan 45°. So θ = 45°."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek kite 50m high hai aur string ka angle 30° hai. String ki length kya hai?",
+          "en": "A kite is 50m high and string makes 30° with ground. What is the string length?"
+        },
+        "options": [
+          {
+            "hi": "50m",
+            "en": "50m"
+          },
+          {
+            "hi": "100m",
+            "en": "100m"
+          },
+          {
+            "hi": "50√3 m",
+            "en": "50√3 m"
+          },
+          {
+            "hi": "100√3 m",
+            "en": "100√3 m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "sin 30° = 50/L → 1/2 = 50/L → L = 100m.",
+          "en": "sin 30° = 50/L → 1/2 = 50/L → L = 100m."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Angle of Depression hamesha Angle of Elevation se bada hota hai.",
+          "en": "Angle of Depression is always greater than Angle of Elevation."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Dono equal ho sakte hain (alternate angles), lekin hamesha nahi. Situation pe depend karta hai.",
+          "en": "They can be equal (alternate angles), but not always greater. Depends on situation."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek 30m high building ke top se ground ka angle of depression 60° hai. Ground kitni door hai?",
+          "en": "A 30m high building has ground depression 60°. How far is the ground?"
+        },
+        "options": [
+          {
+            "hi": "30m",
+            "en": "30m"
+          },
+          {
+            "hi": "30/√3 m",
+            "en": "30/√3 m"
+          },
+          {
+            "hi": "30√3 m",
+            "en": "30√3 m"
+          },
+          {
+            "hi": "60m",
+            "en": "60m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "tan 60° = 30/d → √3 = 30/d → d = 30/√3 = 10√3 m.",
+          "en": "tan 60° = 30/d → √3 = 30/d → d = 30/√3 = 10√3 m."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Do ships opposite sides mein hain. Ek ka elevation 30° aur doosre ka 45°. Lighthouse 100m high hai. Total distance kya hoga?",
+          "en": "Two ships on opposite sides. One elevation 30°, other 45°. Lighthouse 100m high. Total distance?"
+        },
+        "options": [
+          {
+            "hi": "100(1+√3) m",
+            "en": "100(1+√3) m"
+          },
+          {
+            "hi": "100(√3-1) m",
+            "en": "100(√3-1) m"
+          },
+          {
+            "hi": "100√3 m",
+            "en": "100√3 m"
+          },
+          {
+            "hi": "200m",
+            "en": "200m"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "d₁ = 100/tan 45° = 100m. d₂ = 100/tan 30° = 100√3 m. Total = 100 + 100√3 = 100(1+√3) m.",
+          "en": "d₁ = 100/tan 45° = 100m. d₂ = 100/tan 30° = 100√3 m. Total = 100 + 100√3 = 100(1+√3) m."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek tower ke base se angle 30° hai. 20m aur paas aane pe 60° hai. Tower ki height kya hai?",
+          "en": "From a tower's base, angle is 30° at 30m. After moving 20m closer, angle is 60°. What is the height?"
+        },
+        "options": [
+          {
+            "hi": "10m",
+            "en": "10m"
+          },
+          {
+            "hi": "10√3 m",
+            "en": "10√3 m"
+          },
+          {
+            "hi": "20m",
+            "en": "20m"
+          },
+          {
+            "hi": "20√3 m",
+            "en": "20√3 m"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "h = d√3 = (d+20)/√3 → 3d = d+20 → d=10 → h = 10√3 m.",
+          "en": "h = d√3 = (d+20)/√3 → 3d = d+20 → d=10 → h = 10√3 m."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Heights & Distances problems solve karne ke liye sabse pehle kya karna chahiye?",
+          "en": "What is the first step to solve Heights & Distances problems?"
+        },
+        "options": [
+          {
+            "hi": "Formula likho",
+            "en": "Write formula"
+          },
+          {
+            "hi": "Diagram banao",
+            "en": "Draw diagram"
+          },
+          {
+            "hi": "Values substitute karo",
+            "en": "Substitute values"
+          },
+          {
+            "hi": "Answer guess karo",
+            "en": "Guess answer"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Bina diagram ke galat ho sakta hai. Hamesha pehle diagram banao!",
+          "en": "Without diagram, you can go wrong. Always draw diagram first!"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "✅ Line of Sight = Observer se Object tak ki straight line",
+      "en": "✅ Line of Sight = Straight line from Observer's eye to Object"
+    },
+    {
+      "hi": "✅ Angle of Elevation = Object UPAR hai",
+      "en": "✅ Angle of Elevation = Object is ABOVE"
+    },
+    {
+      "hi": "✅ Angle of Depression = Object NEECHE hai",
+      "en": "✅ Angle of Depression = Object is BELOW"
+    },
+    {
+      "hi": "✅ Depression = Elevation (alternate angles)",
+      "en": "✅ Depression = Elevation (alternate angles)"
+    },
+    {
+      "hi": "✅ tan θ = Height/Distance (sabse zyada use)",
+      "en": "✅ tan θ = Height/Distance (most used)"
+    },
+    {
+      "hi": "✅ Two points same side: Distance subtract (d₂ - d₁)",
+      "en": "✅ Two points same side: Subtract distances (d₂ - d₁)"
+    },
+    {
+      "hi": "✅ Two points opposite side: Distance add (d₁ + d₂)",
+      "en": "✅ Two points opposite side: Add distances (d₁ + d₂)"
+    },
+    {
+      "hi": "✅ Moving observer: Height same → equations equal",
+      "en": "✅ Moving observer: Height same → equate equations"
+    },
+    {
+      "hi": "✅ Two buildings: Vertical distance between tops use karo",
+      "en": "✅ Two buildings: Use vertical distance between tops"
+    },
+    {
+      "hi": "✅ Reflection problems: Cloud height + Reflection depth",
+      "en": "✅ Reflection problems: Cloud height + Reflection depth"
+    },
+    {
+      "hi": "🎯 Full Chapter XP: 210 | Total Duration: ~62 min",
+      "en": "🎯 Full Chapter XP: 210 | Total Duration: ~62 min"
+    }
+  ],
+  "summary": {
+    "hi": "Chapter 9 complete! Ab tum heights and distances ke har type ke board exam question — objective se le kar 4-mark subjective tak — confidently solve kar sakte ho.",
+    "en": "Chapter 9 complete! You can now confidently solve every type of board exam question on heights and distances — from objective to 4-mark subjective."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-09-master",
+      "name": {
+        "hi": "Trigonometry Applications Master",
+        "en": "Trigonometry Applications Master"
+      },
+      "icon": "🏅"
+    }
+  }
+}

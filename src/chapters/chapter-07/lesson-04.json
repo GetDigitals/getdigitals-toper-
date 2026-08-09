@@ -1,0 +1,304 @@
+{
+  "id": "chapter-07-lesson-04",
+  "chapterId": "chapter-07",
+  "order": 4,
+  "title": {
+    "hi": "Exam Mastery — Mixed Problems & Chapter Wrap-up",
+    "en": "Exam Mastery — Mixed Problems & Chapter Wrap-up"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 75,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Sab Formulas Ek Saath — Board Level Problems!",
+      "en": "All Formulas Together — Board-Level Problems!"
+    },
+    "subtext": {
+      "hi": "Distance, section formula, aur area — teeno ek hi problem mein combine karke solve karna seekho.",
+      "en": "Learn to combine distance, section formula, and area — all in one problem, just like board exams."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "CBSE board mein Coordinate Geometry ke questions aksar ek se zyada concept combine karte hain — jaise 'parallelogram ka missing vertex nikaalo, phir uski sides ki length bhi batao'. Ye lesson tumhe exactly is tarah ke combined problems ke liye taiyar karega.",
+      "en": "In CBSE boards, Coordinate Geometry questions often combine more than one concept — like 'find the missing vertex of a parallelogram, then also find its side lengths'. This lesson prepares you exactly for these combined problems."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Exam tip: jab question mein 'prove that...' likha ho (jaise 'prove ki ye right-angled triangle hai'), toh distance formula se sides nikaalo, phir Pythagoras theorem (converse) apply karo.",
+        "en": "Exam tip: when a question says 'prove that...' (like 'prove it's a right-angled triangle'), find the sides using the distance formula, then apply the converse of the Pythagoras theorem."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek interesting result: kisi bhi triangle ke midpoints jodne se jo naya (smaller) triangle banta hai, uska area hamesha original triangle ke area ka exactly 1/4 hota hai — chahe original triangle ka shape kuch bhi ho.",
+        "en": "An interesting result: the triangle formed by joining the midpoints of any triangle's sides always has an area exactly 1/4 of the original triangle — regardless of the original triangle's shape."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Parallelogram wale problems mein hamesha yaad rakho: diagonals bisect each other. Isse pehle missing vertex nikaalo, phir distance formula se sides ki length nikaal sakte ho.",
+        "en": "In parallelogram problems, always remember: diagonals bisect each other. Use this to find the missing vertex first, then find side lengths using the distance formula."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🧩",
+    "caption": {
+      "hi": "Board exam ke combined problems mein 2-3 formulas ek saath use hote hain — pehle plan banao ki kaunsa formula kab lagega.",
+      "en": "Combined board-exam problems use 2-3 formulas together — plan first which formula to apply when."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Triangle ke vertices (0,−1), (2,1), aur (0,3) hain. Uske sides ke mid-points jodkar bane triangle ka area nikaalo, aur dono areas ka ratio batao.",
+        "en": "A triangle has vertices (0,−1), (2,1), and (0,3). Find the area of the triangle formed by joining the mid-points of its sides, and find the ratio of the two areas."
+      },
+      "steps": [
+        {
+          "hi": "Area of ΔABC = ½|0(1−3)+2(3−(−1))+0(−1−1)| = ½|0+8+0| = 4 sq. units",
+          "en": "Area of ΔABC = ½|0(1−3)+2(3−(−1))+0(−1−1)| = ½|0+8+0| = 4 sq. units"
+        },
+        {
+          "hi": "Mid-points: D(mid AB)=(1,0), E(mid BC)=(1,2), F(mid CA)=(0,1)",
+          "en": "Mid-points: D(mid AB)=(1,0), E(mid BC)=(1,2), F(mid CA)=(0,1)"
+        },
+        {
+          "hi": "Area of ΔDEF = ½|1(2−1)+1(1−0)+0(0−2)| = ½|1+1+0| = 1 sq. unit",
+          "en": "Area of ΔDEF = ½|1(2−1)+1(1−0)+0(0−2)| = ½|1+1+0| = 1 sq. unit"
+        },
+        {
+          "hi": "Ratio = 1:4 (ye hamesha true hota hai, kisi bhi triangle ke liye)",
+          "en": "Ratio = 1:4 (this is always true, for any triangle)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Prove karo ki (3,0), (6,4), aur (−1,3) ek right-angled isosceles triangle ke vertices hain.",
+        "en": "Prove that (3,0), (6,4), and (−1,3) are the vertices of a right-angled isosceles triangle."
+      },
+      "steps": [
+        {
+          "hi": "AB² = (6−3)² + (4−0)² = 9+16 = 25",
+          "en": "AB² = (6−3)² + (4−0)² = 9+16 = 25"
+        },
+        {
+          "hi": "BC² = (−1−6)² + (3−4)² = 49+1 = 50",
+          "en": "BC² = (−1−6)² + (3−4)² = 49+1 = 50"
+        },
+        {
+          "hi": "CA² = (3−(−1))² + (0−3)² = 16+9 = 25",
+          "en": "CA² = (3−(−1))² + (0−3)² = 16+9 = 25"
+        },
+        {
+          "hi": "AB² + CA² = 25+25 = 50 = BC² → Pythagoras converse se right angle A par hai",
+          "en": "AB² + CA² = 25+25 = 50 = BC² → by the converse of Pythagoras, the right angle is at A"
+        },
+        {
+          "hi": "Aur AB = CA = 5 (isosceles bhi hai) → Right-angled isosceles triangle ✓",
+          "en": "Also AB = CA = 5 (isosceles too) → Right-angled isosceles triangle ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "X-axis par wo point dhoondo jo (2,−5) aur (−2,9) se equidistant ho.",
+        "en": "Find the point on the x-axis which is equidistant from (2,−5) and (−2,9)."
+      },
+      "steps": [
+        {
+          "hi": "X-axis par point = (x, 0)",
+          "en": "A point on the x-axis = (x, 0)"
+        },
+        {
+          "hi": "Distance from (2,−5): √[(x−2)²+25]. Distance from (−2,9): √[(x+2)²+81]",
+          "en": "Distance from (2,−5): √[(x−2)²+25]. Distance from (−2,9): √[(x+2)²+81]"
+        },
+        {
+          "hi": "Equal karo: (x−2)²+25 = (x+2)²+81 → −4x+29 = 4x+85",
+          "en": "Set them equal: (x−2)²+25 = (x+2)²+81 → −4x+29 = 4x+85"
+        },
+        {
+          "hi": "−8x = 56 → x = −7",
+          "en": "−8x = 56 → x = −7"
+        },
+        {
+          "hi": "Answer: Point = (−7, 0)",
+          "en": "Answer: Point = (−7, 0)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Kisi triangle ke mid-points se bane triangle ka area, original ke kitne fraction ke barabar hota hai?",
+          "en": "The triangle formed by the mid-points of any triangle has area equal to what fraction of the original?"
+        },
+        "options": [
+          {
+            "hi": "1/4",
+            "en": "1/4"
+          },
+          {
+            "hi": "1/2",
+            "en": "1/2"
+          },
+          {
+            "hi": "1/3",
+            "en": "1/3"
+          },
+          {
+            "hi": "2/3",
+            "en": "2/3"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Ye hamesha 1/4 hota hai, kisi bhi triangle ke liye — ek useful shortcut hai.",
+          "en": "This is always 1/4, for any triangle — a useful shortcut."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Right-angled triangle prove karne ke liye distance formula se sides nikaal ke Pythagoras theorem apply karte hain.",
+          "en": "To prove a right-angled triangle, we find sides using the distance formula and apply the Pythagoras theorem."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — sides² compare karke check karte hain (converse of Pythagoras).",
+          "en": "True — we compare the squared sides (converse of Pythagoras)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "A(−2,−1), B(a,0), C(4,b), D(1,2) ek parallelogram ke vertices hain. a aur b nikaalne ka pehla step kya hai?",
+          "en": "A(−2,−1), B(a,0), C(4,b), D(1,2) are the vertices of a parallelogram. What is the first step to find a and b?"
+        },
+        "options": [
+          {
+            "hi": "Mid-point of AC = Mid-point of BD set karo",
+            "en": "Set Mid-point of AC = Mid-point of BD"
+          },
+          {
+            "hi": "Seedha distance formula lagao",
+            "en": "Directly apply the distance formula"
+          },
+          {
+            "hi": "Area formula lagao",
+            "en": "Apply the area formula"
+          },
+          {
+            "hi": "Section formula 2:1 mein lagao",
+            "en": "Apply the section formula in 2:1"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Parallelogram ke diagonals bisect each other, isliye mid-points equal set karke a,b nikaalte hain.",
+          "en": "A parallelogram's diagonals bisect each other, so setting the mid-points equal gives a, b."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "(4,−1) aur (−2,−3) ko jodne wale line segment ke trisection points mein pehla point (1:2 ratio) kya hoga?",
+          "en": "For the trisection points of the line segment joining (4,−1) and (−2,−3), what is the first point (1:2 ratio)?"
+        },
+        "options": [
+          {
+            "hi": "(2, −5/3)",
+            "en": "(2, −5/3)"
+          },
+          {
+            "hi": "(0, −7/3)",
+            "en": "(0, −7/3)"
+          },
+          {
+            "hi": "(1, −2)",
+            "en": "(1, −2)"
+          },
+          {
+            "hi": "(3, −1)",
+            "en": "(3, −1)"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "x=(1×−2+2×4)/3=2, y=(1×−3+2×−1)/3=−5/3",
+          "en": "x=(1×−2+2×4)/3=2, y=(1×−3+2×−1)/3=−5/3"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Poore chapter ke formulas match karo",
+          "en": "Match the whole chapter's formulas"
+        },
+        "pairs": [
+          {
+            "left": "Distance",
+            "right": "√[(x₂−x₁)²+(y₂−y₁)²]"
+          },
+          {
+            "left": "Section formula",
+            "right": "[(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)]"
+          },
+          {
+            "left": "Mid-point",
+            "right": "[(x₁+x₂)/2, (y₁+y₂)/2]"
+          },
+          {
+            "left": "Area of triangle",
+            "right": "½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "'Prove right-angled' questions: distance formula se sides ka square nikaalo, phir Pythagoras converse check karo",
+      "en": "'Prove right-angled' questions: find squared sides via distance formula, then check the Pythagoras converse"
+    },
+    {
+      "hi": "Mid-point triangle ka area = original ka 1/4 (universal result)",
+      "en": "Mid-point triangle's area = 1/4 of the original (universal result)"
+    },
+    {
+      "hi": "Parallelogram: diagonals bisect each other — missing vertex nikaalne ka main trick",
+      "en": "Parallelogram: diagonals bisect each other — the main trick for finding a missing vertex"
+    },
+    {
+      "hi": "Poora chapter recap: Distance, Section Formula, Mid-point, Centroid, Area of Triangle, Collinearity",
+      "en": "Whole chapter recap: Distance, Section Formula, Mid-point, Centroid, Area of Triangle, Collinearity"
+    }
+  ],
+  "summary": {
+    "hi": "Congratulations! Ab tumhe Coordinate Geometry ka poora chapter aata hai — distance, section formula, mid-point, area, aur collinearity, sab kuch combined problems solve karne ke level tak. Final Test attempt karo aur apni mastery confirm karo!",
+    "en": "Congratulations! You now know the entire Coordinate Geometry chapter — distance, section formula, mid-point, area, and collinearity, all the way up to solving combined problems. Attempt the Final Test to confirm your mastery!"
+  },
+  "reward": {
+    "badge": {
+      "id": "coordinate-geometry-master",
+      "name": "Coordinate Geometry Master",
+      "icon": "🏅"
+    }
+  }
+}
