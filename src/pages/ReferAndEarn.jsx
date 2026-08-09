@@ -8,7 +8,7 @@ import { useAuth } from '../store/AuthContext';
 // Free-user referral reward: unlock bonus skill content (outside the paid
 // syllabus entirely) as referral count rises. Paid-conversion referrals
 // (a referred friend becomes an approved paying student) are rewarded
-// with real cash — that's tracked and paid manually by Ashok over
+// with real cash — that's tracked and paid manually by the GetDigitals team over
 // WhatsApp (see the note in the UI below), not automated here, since
 // there's no payment gateway/backend to verify a real bank transfer.
 const BONUS_TIERS = [
@@ -142,7 +142,7 @@ export default function ReferAndEarn() {
       <div className="rounded-2xl p-4 bg-[var(--color-surface)] border border-[var(--color-border)] mb-4">
         <p className="text-[13px] font-semibold mb-1">💰 Paid Referral Bonus</p>
         <p className="text-[12px] text-[var(--color-muted)] leading-relaxed">
-          Agar tumhare refer kiye hue dost ka payment approve hota hai, tumhe cash bonus milega — Ashok se WhatsApp pe seedha confirm kar lo jab wo approve ho jaaye.
+          Agar tumhare refer kiye hue dost ka payment approve hota hai, tumhe cash bonus milega — GetDigitals Support ko WhatsApp pe seedha confirm kar lo jab wo approve ho jaaye.
         </p>
       </div>
 
