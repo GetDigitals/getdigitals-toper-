@@ -1,0 +1,428 @@
+{
+  "id": "chapter-04-lesson-05",
+  "chapterId": "chapter-04",
+  "order": 5,
+  "title": {
+    "hi": "Nature of Roots",
+    "en": "Nature of Roots"
+  },
+  "estimatedMinutes": 11,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "🌿",
+    "headline": {
+      "hi": "Nature of Roots",
+      "en": "Nature of Roots"
+    },
+    "subtext": {
+      "hi": "What type of roots will you get?",
+      "en": "What type of roots will you get?"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Discriminant (D = b² - 4ac) batata hai ki quadratic equation ke roots kis type ke honge - real aur distinct, real aur equal, ya phir imaginary. Yeh concept bahut important hai!",
+      "en": "Discriminant (D = b² - 4ac) batata hai ki quadratic equation ke roots kis type ke honge - real aur distinct, real aur equal, ya phir imaginary. Yeh concept bahut important hai!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "What is Discriminant?\nDiscriminant quadratic formula ka woh part hai jo roots ki nature decide karta hai.\n• Discriminant = D = b² - 4ac\n• D > 0 → Two distinct real roots\n• D = 0 → Two equal real roots (ek hi root repeat hota hai)\n• D < 0 → No real roots (imaginary/complex roots)\n• D perfect square hone par roots rational hote hain\n\n💡 Remember: Discriminant sirf D = b² - 4ac hai. Iski value se sab kuch pata chalta hai!",
+        "en": "What is Discriminant?\nDiscriminant quadratic formula ka woh part hai jo roots ki nature decide karta hai.\n• Discriminant = D = b² - 4ac\n• D > 0 → Two distinct real roots\n• D = 0 → Two equal real roots (ek hi root repeat hota hai)\n• D < 0 → No real roots (imaginary/complex roots)\n• D perfect square hone par roots rational hote hain\n\n💡 Remember: Discriminant sirf D = b² - 4ac hai. Iski value se sab kuch pata chalta hai!"
+      }
+    },
+    {
+      "type": "formula",
+      "content": {
+        "hi": "Nature of Roots based on Discriminant\nD > 0 → Real & Distinct | D = 0 → Real & Equal | D < 0 → No Real Roots\nYeh teen conditions roots ki nature determine karti hain. Har condition ke liye graph alag alag hota hai.\nExample: x²-4x+4=0 mein D=16-16=0, so real and equal roots (x=2,2)",
+        "en": "Nature of Roots based on Discriminant\nD > 0 → Real & Distinct | D = 0 → Real & Equal | D < 0 → No Real Roots\nYeh teen conditions roots ki nature determine karti hain. Har condition ke liye graph alag alag hota hai.\nExample: x²-4x+4=0 mein D=16-16=0, so real and equal roots (x=2,2)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Graphical Interpretation\nParabola (quadratic graph) ka x-axis se relation:\n• D > 0 → Parabola x-axis ko do alag points par cut karta hai (2 distinct roots)\n• D = 0 → Parabola x-axis ko exactly ek point par touch karta hai (1 repeated root)\n• D < 0 → Parabola x-axis ko kabhi nahi touch karta (no real roots)",
+        "en": "Graphical Interpretation\nParabola (quadratic graph) ka x-axis se relation:\n• D > 0 → Parabola x-axis ko do alag points par cut karta hai (2 distinct roots)\n• D = 0 → Parabola x-axis ko exactly ek point par touch karta hai (1 repeated root)\n• D < 0 → Parabola x-axis ko kabhi nahi touch karta (no real roots)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Example 1: D > 0 (Real & Distinct): Find the nature of roots of x² - 5x + 6 = 0.",
+        "en": "Example 1: D > 0 (Real & Distinct): Find the nature of roots of x² - 5x + 6 = 0."
+      },
+      "steps": [
+        {
+          "hi": "a = 1, b = -5, c = 6",
+          "en": "a = 1, b = -5, c = 6"
+        },
+        {
+          "hi": "D = b² - 4ac",
+          "en": "D = b² - 4ac"
+        },
+        {
+          "hi": "= (-5)² - 4(1)(6)",
+          "en": "= (-5)² - 4(1)(6)"
+        },
+        {
+          "hi": "= 25 - 24",
+          "en": "= 25 - 24"
+        },
+        {
+          "hi": "= 1",
+          "en": "= 1"
+        },
+        {
+          "hi": "D = 1 > 0",
+          "en": "D = 1 > 0"
+        },
+        {
+          "hi": "✅ Roots are Real and Distinct",
+          "en": "✅ Roots are Real and Distinct"
+        },
+        {
+          "hi": "Actual roots: x=2,3 (do alag real roots) ✓",
+          "en": "Actual roots: x=2,3 (do alag real roots) ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 2: D = 0 (Real & Equal): Find the nature of roots of x² - 6x + 9 = 0.",
+        "en": "Example 2: D = 0 (Real & Equal): Find the nature of roots of x² - 6x + 9 = 0."
+      },
+      "steps": [
+        {
+          "hi": "a = 1, b = -6, c = 9",
+          "en": "a = 1, b = -6, c = 9"
+        },
+        {
+          "hi": "D = (-6)² - 4(1)(9)",
+          "en": "D = (-6)² - 4(1)(9)"
+        },
+        {
+          "hi": "= 36 - 36",
+          "en": "= 36 - 36"
+        },
+        {
+          "hi": "= 0",
+          "en": "= 0"
+        },
+        {
+          "hi": "D = 0",
+          "en": "D = 0"
+        },
+        {
+          "hi": "✅ Roots are Real and Equal",
+          "en": "✅ Roots are Real and Equal"
+        },
+        {
+          "hi": "D = 0 hone par ek hi root hota hai jo do baar repeat hota hai!",
+          "en": "D = 0 hone par ek hi root hota hai jo do baar repeat hota hai!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 3: D < 0 (No Real Roots): Find the nature of roots of x² + x + 1 = 0.",
+        "en": "Example 3: D < 0 (No Real Roots): Find the nature of roots of x² + x + 1 = 0."
+      },
+      "steps": [
+        {
+          "hi": "a = 1, b = 1, c = 1",
+          "en": "a = 1, b = 1, c = 1"
+        },
+        {
+          "hi": "D = (1)² - 4(1)(1)",
+          "en": "D = (1)² - 4(1)(1)"
+        },
+        {
+          "hi": "= 1 - 4",
+          "en": "= 1 - 4"
+        },
+        {
+          "hi": "= -3",
+          "en": "= -3"
+        },
+        {
+          "hi": "D = -3 < 0",
+          "en": "D = -3 < 0"
+        },
+        {
+          "hi": "✅ No Real Roots (Imaginary roots)",
+          "en": "✅ No Real Roots (Imaginary roots)"
+        },
+        {
+          "hi": "🎯 Negative discriminant matlab square root of negative number, jo real nahi hota!",
+          "en": "🎯 Negative discriminant matlab square root of negative number, jo real nahi hota!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 4: Find k for Equal Roots: Find the value of k for which 2x² + kx + 3 = 0 has equal roots.",
+        "en": "Example 4: Find k for Equal Roots: Find the value of k for which 2x² + kx + 3 = 0 has equal roots."
+      },
+      "steps": [
+        {
+          "hi": "Equal roots ke liye D = 0",
+          "en": "Equal roots ke liye D = 0"
+        },
+        {
+          "hi": "D = k² - 4(2)(3) = 0",
+          "en": "D = k² - 4(2)(3) = 0"
+        },
+        {
+          "hi": "k² - 24 = 0",
+          "en": "k² - 24 = 0"
+        },
+        {
+          "hi": "k² = 24",
+          "en": "k² = 24"
+        },
+        {
+          "hi": "k = ±√24",
+          "en": "k = ±√24"
+        },
+        {
+          "hi": "k = ±2√6",
+          "en": "k = ±2√6"
+        },
+        {
+          "hi": "✅ k = 2√6 or k = -2√6",
+          "en": "✅ k = 2√6 or k = -2√6"
+        },
+        {
+          "hi": "Equal roots ke liye hamesha D = 0 rakho aur k nikaalo!",
+          "en": "Equal roots ke liye hamesha D = 0 rakho aur k nikaalo!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Find nature of roots of 3x² - 4x + 1 = 0.",
+        "en": "Find nature of roots of 3x² - 4x + 1 = 0."
+      },
+      "steps": [
+        {
+          "hi": "D = (-4)² - 4(3)(1) = 16 - 12 = 4 > 0. Real and Distinct.",
+          "en": "D = (-4)² - 4(3)(1) = 16 - 12 = 4 > 0. Real and Distinct."
+        },
+        {
+          "hi": "Answer: Real and Distinct (D = 4)",
+          "en": "Answer: Real and Distinct (D = 4)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Find k if x² - 2(k+1)x + k² = 0 has equal roots.",
+        "en": "Find k if x² - 2(k+1)x + k² = 0 has equal roots."
+      },
+      "steps": [
+        {
+          "hi": "D = 4(k+1)² - 4k² = 0 → (k+1)² = k² → k²+2k+1=k² → 2k+1=0 → k=-1/2",
+          "en": "D = 4(k+1)² - 4k² = 0 → (k+1)² = k² → k²+2k+1=k² → 2k+1=0 → k=-1/2"
+        },
+        {
+          "hi": "Answer: k = -1/2",
+          "en": "Answer: k = -1/2"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "For what values of p does 2x² + px + 8 = 0 have no real roots?",
+        "en": "For what values of p does 2x² + px + 8 = 0 have no real roots?"
+      },
+      "steps": [
+        {
+          "hi": "D = p² - 64 < 0 → p² < 64 → -8 < p < 8",
+          "en": "D = p² - 64 < 0 → p² < 64 → -8 < p < 8"
+        },
+        {
+          "hi": "Answer: -8 < p < 8",
+          "en": "Answer: -8 < p < 8"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Nature of roots of x² + 4x + 4 = 0:",
+          "en": "Nature of roots of x² + 4x + 4 = 0:"
+        },
+        "options": [
+          {
+            "hi": "Real & Distinct",
+            "en": "Real & Distinct"
+          },
+          {
+            "hi": "Real & Equal",
+            "en": "Real & Equal"
+          },
+          {
+            "hi": "No Real Roots",
+            "en": "No Real Roots"
+          },
+          {
+            "hi": "Imaginary",
+            "en": "Imaginary"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "D = 16-16 = 0, so Real & Equal roots.",
+          "en": "D = 16-16 = 0, so Real & Equal roots."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "For what value of k does x² - kx + 4 = 0 have equal roots?",
+          "en": "For what value of k does x² - kx + 4 = 0 have equal roots?"
+        },
+        "options": [
+          {
+            "hi": "±2",
+            "en": "±2"
+          },
+          {
+            "hi": "±4",
+            "en": "±4"
+          },
+          {
+            "hi": "±8",
+            "en": "±8"
+          },
+          {
+            "hi": "±16",
+            "en": "±16"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "D = k² - 16 = 0 → k² = 16 → k = ±4",
+          "en": "D = k² - 16 = 0 → k² = 16 → k = ±4"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Nature of roots of x² + x + 2 = 0:",
+          "en": "Nature of roots of x² + x + 2 = 0:"
+        },
+        "options": [
+          {
+            "hi": "Real & Distinct",
+            "en": "Real & Distinct"
+          },
+          {
+            "hi": "Real & Equal",
+            "en": "Real & Equal"
+          },
+          {
+            "hi": "No Real Roots",
+            "en": "No Real Roots"
+          },
+          {
+            "hi": "Rational",
+            "en": "Rational"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "D = 1 - 8 = -7 < 0, so No Real Roots.",
+          "en": "D = 1 - 8 = -7 < 0, so No Real Roots."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "If D is a perfect square, roots are always irrational.",
+          "en": "If D is a perfect square, roots are always irrational."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Agar D perfect square hai toh √D integer hota hai, jisse roots rational hote hain.",
+          "en": "Agar D perfect square hai toh √D integer hota hai, jisse roots rational hote hain."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "If roots of x² - 4x + k = 0 are real and distinct, then:",
+          "en": "If roots of x² - 4x + k = 0 are real and distinct, then:"
+        },
+        "options": [
+          {
+            "hi": "k > 4",
+            "en": "k > 4"
+          },
+          {
+            "hi": "k < 4",
+            "en": "k < 4"
+          },
+          {
+            "hi": "k = 4",
+            "en": "k = 4"
+          },
+          {
+            "hi": "k ≥ 4",
+            "en": "k ≥ 4"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "D = 16 - 4k > 0 → 16 > 4k → k < 4",
+          "en": "D = 16 - 4k > 0 → 16 > 4k → k < 4"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "D = b² - 4ac (Discriminant)",
+      "en": "D = b² - 4ac (Discriminant)"
+    },
+    {
+      "hi": "D > 0 → Real & Distinct roots",
+      "en": "D > 0 → Real & Distinct roots"
+    },
+    {
+      "hi": "D = 0 → Real & Equal roots",
+      "en": "D = 0 → Real & Equal roots"
+    },
+    {
+      "hi": "D < 0 → No Real roots (Imaginary)",
+      "en": "D < 0 → No Real roots (Imaginary)"
+    },
+    {
+      "hi": "Equal roots ke liye D = 0 condition use karo",
+      "en": "Equal roots ke liye D = 0 condition use karo"
+    },
+    {
+      "hi": "Graph par: D>0 → 2 cuts, D=0 → 1 touch, D<0 → no touch",
+      "en": "Graph par: D>0 → 2 cuts, D=0 → 1 touch, D<0 → no touch"
+    }
+  ],
+  "summary": {
+    "hi": "Nature of Roots ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!",
+    "en": "Nature of Roots ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!"
+  },
+  "reward": {
+    "badge": null
+  }
+}
