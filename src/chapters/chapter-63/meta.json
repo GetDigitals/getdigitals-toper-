@@ -1,0 +1,24 @@
+{
+  "id": "chapter-63",
+  "order": 16,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Political Parties",
+  "icon": "🗳️",
+  "color": "#8B5CF6",
+  "description": "Functions of political parties, the party system in India, and challenges faced by political parties. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-63-master",
+    "name": {
+      "hi": "Political Parties Master",
+      "en": "Political Parties Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
