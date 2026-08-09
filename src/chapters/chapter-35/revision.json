@@ -27,7 +27,7 @@
     },
     {
       "front": { "hi": "Rusting ki formula", "en": "Formula of rust" },
-      "back": { "hi": "Fe2O3.xH2O — moisture aur oxygen dono chahiye", "en": "Fe2O3.xH2O — needs both moisture and oxygen" }
+      "back": { "hi": "Fe₂O₃.xH₂O — moisture aur oxygen dono chahiye", "en": "Fe₂O₃.xH₂O — needs both moisture and oxygen" }
     },
     {
       "front": { "hi": "Rancidity", "en": "Rancidity" },
@@ -39,7 +39,7 @@
     { "label": { "hi": "Decomposition", "en": "Decomposition" }, "formula": "AB → A + B" },
     { "label": { "hi": "Displacement", "en": "Displacement" }, "formula": "A + BC → AC + B" },
     { "label": { "hi": "Double Displacement", "en": "Double Displacement" }, "formula": "AB + CD → AD + CB" },
-    { "label": { "hi": "Rusting", "en": "Rusting" }, "formula": "4Fe + 3O2 + xH2O → 2Fe2O3.xH2O" }
+    { "label": { "hi": "Rusting", "en": "Rusting" }, "formula": "4Fe + 3O₂ + xH₂O → 2Fe₂O₃.xH₂O" }
   ],
   "mindMap": {
     "root": { "hi": "Chemical Reactions and Equations", "en": "Chemical Reactions and Equations" },
