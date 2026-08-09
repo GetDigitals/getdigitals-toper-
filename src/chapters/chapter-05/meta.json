@@ -4,15 +4,24 @@
   "class": 10,
   "subject": "Maths",
   "board": "CBSE",
-  "title": "Arithmetic Progressions",
+  "title": {
+    "hi": "Arithmetic Progressions",
+    "en": "Arithmetic Progressions"
+  },
   "icon": "🔢",
   "color": "#FFC93C",
-  "description": "Arithmetic Progressions — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "description": {
+    "hi": "Numbers ki sequences jisme har term ke beech ek fixed gap hota hai — nth term, sum of n terms, aur real-life word problems, sab yahan.",
+    "en": "Sequences of numbers with a fixed gap between consecutive terms — nth term, sum of n terms, and real-life word problems, all here."
+  },
   "xpReward": 300,
   "coinReward": 60,
   "badge": {
     "id": "chapter-05-master",
-    "name": "Arithmetic Progressions Master",
+    "name": {
+      "hi": "AP Master",
+      "en": "AP Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

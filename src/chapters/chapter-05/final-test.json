@@ -1,0 +1,279 @@
+{
+  "chapterId": "chapter-05",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "AP 3,7,11,15... ka common difference kya hai?",
+        "en": "What is the common difference of the AP 3,7,11,15...?"
+      },
+      "options": [
+        {
+          "hi": "4",
+          "en": "4"
+        },
+        {
+          "hi": "3",
+          "en": "3"
+        },
+        {
+          "hi": "7",
+          "en": "7"
+        },
+        {
+          "hi": "11",
+          "en": "11"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "d = 7-3 = 4",
+        "en": "d = 7-3 = 4"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": {
+        "hi": "AP 6,11,16... ka 12th term kya hai?",
+        "en": "What is the 12th term of the AP 6,11,16...?"
+      },
+      "options": [
+        {
+          "hi": "61",
+          "en": "61"
+        },
+        {
+          "hi": "56",
+          "en": "56"
+        },
+        {
+          "hi": "66",
+          "en": "66"
+        },
+        {
+          "hi": "51",
+          "en": "51"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "a₁₂=6+11×5=61",
+        "en": "a₁₂=6+11×5=61"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "AP mein d=0 hone ka matlab hai sabhi terms equal hain.",
+        "en": "d=0 in an AP means all terms are equal."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi — d=0 par har term same rehta hai.",
+        "en": "True — with d=0, every term stays the same."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "AP 2,4,6,...,100 mein kitne terms hain?",
+        "en": "How many terms are there in the AP 2,4,6,...,100?"
+      },
+      "options": [
+        {
+          "hi": "50",
+          "en": "50"
+        },
+        {
+          "hi": "49",
+          "en": "49"
+        },
+        {
+          "hi": "51",
+          "en": "51"
+        },
+        {
+          "hi": "48",
+          "en": "48"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "100=2+(n-1)2 → 98=2(n-1) → n=50",
+        "en": "100=2+(n-1)2 → 98=2(n-1) → n=50"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "AP 10,7,4... mein 22 terms tak ka sum kya hoga?",
+        "en": "What is the sum of the first 22 terms of the AP 10,7,4...?"
+      },
+      "options": [
+        {
+          "hi": "-473",
+          "en": "-473"
+        },
+        {
+          "hi": "473",
+          "en": "473"
+        },
+        {
+          "hi": "-373",
+          "en": "-373"
+        },
+        {
+          "hi": "373",
+          "en": "373"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "a=10,d=-3,n=22: S=11[20+21×(-3)]=11×(-43)=-473",
+        "en": "a=10,d=-3,n=22: S=11[20+21×(-3)]=11×(-43)=-473"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Pehle 25 natural numbers ka sum kya hai?",
+        "en": "What is the sum of the first 25 natural numbers?"
+      },
+      "options": [
+        {
+          "hi": "325",
+          "en": "325"
+        },
+        {
+          "hi": "300",
+          "en": "300"
+        },
+        {
+          "hi": "350",
+          "en": "350"
+        },
+        {
+          "hi": "275",
+          "en": "275"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "n(n+1)/2 = 25×26/2 = 325",
+        "en": "n(n+1)/2 = 25×26/2 = 325"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "End se kth term nikaalne ke liye formula hai l - (k-1)d.",
+        "en": "The formula for the kth term from the end is l - (k-1)d."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi.",
+        "en": "True."
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Ek AP ka 5th term 3rd term se 8 zyada hai. Common difference d kya hai?",
+        "en": "The 5th term of an AP is 8 more than the 3rd term. What is d?"
+      },
+      "options": [
+        {
+          "hi": "4",
+          "en": "4"
+        },
+        {
+          "hi": "8",
+          "en": "8"
+        },
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "6",
+          "en": "6"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "a₅-a₃ = 2d = 8 → d=4",
+        "en": "a₅-a₃ = 2d = 8 → d=4"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": {
+        "hi": "AP 25, 22, 19... mein pehla negative term kaunsa hai?",
+        "en": "In the AP 25, 22, 19..., which is the first negative term?"
+      },
+      "options": [
+        {
+          "hi": "10th",
+          "en": "10th"
+        },
+        {
+          "hi": "9th",
+          "en": "9th"
+        },
+        {
+          "hi": "11th",
+          "en": "11th"
+        },
+        {
+          "hi": "8th",
+          "en": "8th"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "a=25,d=-3: 25+(n-1)(-3)<0 → 28<3n → n>9.33 → n=10",
+        "en": "a=25,d=-3: 25+(n-1)(-3)<0 → 28<3n → n>9.33 → n=10"
+      }
+    },
+    {
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": {
+        "hi": "Ek company employee ka starting salary ₹18000 hai, har saal ₹1000 increment. 5 saal baad total kitni salary mil chuki hogi (5 saal ka sum)?",
+        "en": "An employee's starting salary is ₹18000, with a ₹1000 yearly increment. What is the total salary earned over 5 years (sum)?"
+      },
+      "options": [
+        {
+          "hi": "₹1,00,000",
+          "en": "₹1,00,000"
+        },
+        {
+          "hi": "₹95,000",
+          "en": "₹95,000"
+        },
+        {
+          "hi": "₹1,05,000",
+          "en": "₹1,05,000"
+        },
+        {
+          "hi": "₹90,000",
+          "en": "₹90,000"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "a=18000,d=1000,n=5: S₅=5/2[36000+4×1000]=2.5×40000=1,00,000",
+        "en": "a=18000,d=1000,n=5: S₅=5/2[36000+4×1000]=2.5×40000=1,00,000"
+      }
+    }
+  ]
+}

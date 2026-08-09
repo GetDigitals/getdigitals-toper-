@@ -1,0 +1,207 @@
+{
+  "chapterId": "chapter-05",
+  "objective": [
+    {
+      "question": {
+        "hi": "AP 3, 7, 11, 15... ka common difference kya hai?",
+        "en": "What is the common difference of the AP 3, 7, 11, 15...?"
+      },
+      "options": [
+        {
+          "hi": "3",
+          "en": "3"
+        },
+        {
+          "hi": "4",
+          "en": "4"
+        },
+        {
+          "hi": "7",
+          "en": "7"
+        },
+        {
+          "hi": "11",
+          "en": "11"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "d = 7-3 = 4.",
+        "en": "d = 7-3 = 4."
+      }
+    },
+    {
+      "question": {
+        "hi": "AP ka nth term formula kya hai?",
+        "en": "What is the nth term formula of an AP?"
+      },
+      "options": [
+        {
+          "hi": "aₙ = a × nd",
+          "en": "aₙ = a × nd"
+        },
+        {
+          "hi": "aₙ = a + (n-1)d",
+          "en": "aₙ = a + (n-1)d"
+        },
+        {
+          "hi": "aₙ = a + nd",
+          "en": "aₙ = a + nd"
+        },
+        {
+          "hi": "aₙ = a - (n-1)d",
+          "en": "aₙ = a - (n-1)d"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Standard nth term formula: aₙ = a + (n-1)d.",
+        "en": "Standard nth term formula: aₙ = a + (n-1)d."
+      }
+    },
+    {
+      "question": {
+        "hi": "AP 2,4,6,...,100 mein kitne terms hain?",
+        "en": "How many terms are in the AP 2,4,6,...,100?"
+      },
+      "options": [
+        {
+          "hi": "48",
+          "en": "48"
+        },
+        {
+          "hi": "49",
+          "en": "49"
+        },
+        {
+          "hi": "50",
+          "en": "50"
+        },
+        {
+          "hi": "51",
+          "en": "51"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "100=2+(n-1)2 → 98=2(n-1) → n=50.",
+        "en": "100=2+(n-1)2 → 98=2(n-1) → n=50."
+      }
+    },
+    {
+      "question": {
+        "hi": "Pehle 20 natural numbers ka sum kya hai?",
+        "en": "What is the sum of the first 20 natural numbers?"
+      },
+      "options": [
+        {
+          "hi": "200",
+          "en": "200"
+        },
+        {
+          "hi": "210",
+          "en": "210"
+        },
+        {
+          "hi": "190",
+          "en": "190"
+        },
+        {
+          "hi": "220",
+          "en": "220"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "n(n+1)/2 = 20×21/2 = 210.",
+        "en": "n(n+1)/2 = 20×21/2 = 210."
+      }
+    },
+    {
+      "question": {
+        "hi": "AP mein agar d=0 ho, to sequence kaisi hogi?",
+        "en": "If d=0 in an AP, what will the sequence look like?"
+      },
+      "options": [
+        {
+          "hi": "Increasing",
+          "en": "Increasing"
+        },
+        {
+          "hi": "Decreasing",
+          "en": "Decreasing"
+        },
+        {
+          "hi": "Constant (sab terms same)",
+          "en": "Constant (all terms equal)"
+        },
+        {
+          "hi": "Random",
+          "en": "Random"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "d=0 ka matlab har term same rehta hai — constant AP.",
+        "en": "d=0 means every term stays the same — a constant AP."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "AP 7, 13, 19, ..., 205 mein kitne terms hain, aur inka sum nikaalo.",
+        "en": "The AP 7, 13, 19, ..., 205 — find how many terms it has, and their sum."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "a=7, d=6, l=205\n205=7+(n-1)6 → 198=6(n-1) → n-1=33 → n=34\nSum: Sₙ=n/2(a+l) = 34/2×(7+205) = 17×212 = 3604",
+        "en": "a=7, d=6, l=205\n205=7+(n-1)6 → 198=6(n-1) → n-1=33 → n=34\nSum: Sₙ=n/2(a+l) = 34/2×(7+205) = 17×212 = 3604"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek AP ke 3rd term aur 7th term ka sum 40 hai, aur 5th term aur 9th term ka sum 60 hai. AP nikaalo.",
+        "en": "The sum of the 3rd and 7th terms of an AP is 40, and the sum of the 5th and 9th terms is 60. Find the AP."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "a₃+a₇ = (a+2d)+(a+6d) = 2a+8d = 40 → a+4d=20 ...(1)\na₅+a₉ = (a+4d)+(a+8d) = 2a+12d = 60 → a+6d=30 ...(2)\n(2)-(1): 2d=10 → d=5\nSubstitute in (1): a+20=20 → a=0\nAP: 0, 5, 10, 15, 20...",
+        "en": "a₃+a₇ = (a+2d)+(a+6d) = 2a+8d = 40 → a+4d=20 ...(1)\na₅+a₉ = (a+4d)+(a+8d) = 2a+12d = 60 → a+6d=30 ...(2)\n(2)-(1): 2d=10 → d=5\nSubstitute in (1): a+20=20 → a=0\nAP: 0, 5, 10, 15, 20..."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek theatre ki row 1 mein 25 seats hain, har agli row mein 3 seats zyada hain. Agar theatre mein total 30 rows hain, to total seats nikaalo.",
+        "en": "Row 1 of a theatre has 25 seats, with 3 more in each subsequent row. If there are 30 rows total, find the total number of seats."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "a=25, d=3, n=30\nSₙ=n/2[2a+(n-1)d] = 30/2[50+29×3] = 15[50+87] = 15×137 = 2055\nTotal seats = 2055",
+        "en": "a=25, d=3, n=30\nSₙ=n/2[2a+(n-1)d] = 30/2[50+29×3] = 15[50+87] = 15×137 = 2055\nTotal seats = 2055"
+      }
+    },
+    {
+      "question": {
+        "hi": "AP 30, 27, 24... mein pehla negative term kaunsa hai?",
+        "en": "In the AP 30, 27, 24..., which term is the first negative one?"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "a=30, d=-3. Condition: aₙ<0\n30+(n-1)(-3)<0 → 33<3n → n>11\nSmallest valid integer n=12\nCheck: a₁₂=30+11×(-3)=30-33=-3 ✓ (a₁₁=0, not negative yet)\nAnswer: 12th term is the first negative term",
+        "en": "a=30, d=-3. Condition: aₙ<0\n30+(n-1)(-3)<0 → 33<3n → n>11\nSmallest valid integer n=12\nCheck: a₁₂=30+11×(-3)=30-33=-3 ✓ (a₁₁=0, not negative yet)\nAnswer: 12th term is the first negative term"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek AP ke first n terms ka sum 3n²+5n hai. AP ka first term aur common difference nikaalo.",
+        "en": "The sum of the first n terms of an AP is 3n²+5n. Find the AP's first term and common difference."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "a = S₁ = 3(1)²+5(1) = 3+5 = 8\nS₂ = 3(4)+5(2) = 12+10 = 22\na₂ = S₂-S₁ = 22-8 = 14\nd = a₂-a₁ = 14-8 = 6\nFirst term a=8, common difference d=6",
+        "en": "a = S₁ = 3(1)²+5(1) = 3+5 = 8\nS₂ = 3(4)+5(2) = 12+10 = 22\na₂ = S₂-S₁ = 22-8 = 14\nd = a₂-a₁ = 14-8 = 6\nFirst term a=8, common difference d=6"
+      }
+    }
+  ]
+}

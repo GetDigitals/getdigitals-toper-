@@ -1,0 +1,290 @@
+{
+  "id": "chapter-05-lesson-02",
+  "chapterId": "chapter-05",
+  "order": 2,
+  "title": {
+    "hi": "nth Term of an AP",
+    "en": "nth Term of an AP"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "hi": "50वां Term Chahiye? Sab Likhne Ki Zaroorat Nahi!",
+      "en": "Need the 50th Term? No Need to Write Them All!"
+    },
+    "subtext": {
+      "hi": "Ek formula se AP ka koi bhi term seedha nikaalo — chahe wo 10th ho ya 1000th.",
+      "en": "Use one formula to directly find any term of an AP — whether it's the 10th or the 1000th."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Socho ek AP hai jisme a=3, d=4 aur tumhe 100th term chahiye. Kya tum 100 numbers likhoge? Bilkul nahi! Mathematicians ne ek shortcut nikaala — nth term formula, jisse seedha jaake wo term nikal jaati hai.",
+      "en": "Suppose an AP has a=3, d=4 and you need the 100th term. Will you write out 100 numbers? Definitely not! Mathematicians found a shortcut — the nth term formula, which jumps straight to that term."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "AP ka nth term (aₙ) nikaalne ka formula hai: aₙ = a + (n-1)d, jahan a = first term, d = common difference, n = term number jo chahiye.",
+        "en": "The formula for the nth term (aₙ) of an AP is: aₙ = a + (n-1)d, where a = first term, d = common difference, n = the term number you want."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "aₙ = a + (n-1)d"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Isse hum: (a) koi bhi specific term nikaal sakte hain (jaise 25th term), (b) diya gaya term kaunsa number hai wo dhoond sakte hain (jaise '95 AP ka konsa term hai?'), aur (c) 'terms from end' bhi nikaal sakte hain.",
+        "en": "This lets us: (a) find any specific term (like the 25th term), (b) find which term number a given value is (like 'which term of the AP is 95?'), and (c) also find terms counted from the end."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Last term se ginti karne ke liye trick: agar AP mein last term 'l' hai, toh end se kth term = l - (k-1)d hota hai.",
+        "en": "Trick for counting from the last term: if the last term of the AP is 'l', then the kth term from the end = l - (k-1)d."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📏",
+    "caption": {
+      "hi": "Har term = pehla term + (kitne steps aage) × common difference",
+      "en": "Every term = first term + (how many steps ahead) × common difference"
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "AP 5, 11, 17, 23... ka 15th term nikaalo.",
+        "en": "Find the 15th term of the AP 5, 11, 17, 23..."
+      },
+      "steps": [
+        {
+          "hi": "a = 5, d = 11-5 = 6, n = 15",
+          "en": "a = 5, d = 11-5 = 6, n = 15"
+        },
+        {
+          "hi": "aₙ = a + (n-1)d formula use karo",
+          "en": "Use the formula aₙ = a + (n-1)d"
+        },
+        {
+          "hi": "a₁₅ = 5 + (15-1)×6 = 5 + 84 = 89",
+          "en": "a₁₅ = 5 + (15-1)×6 = 5 + 84 = 89"
+        },
+        {
+          "hi": "Answer: 15th term = 89",
+          "en": "Answer: 15th term = 89"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "AP 7, 13, 19, 25... mein 205 kaunsa term hai?",
+        "en": "In the AP 7, 13, 19, 25..., which term is 205?"
+      },
+      "steps": [
+        {
+          "hi": "a=7, d=6, aₙ=205 diya hai",
+          "en": "a=7, d=6, given aₙ=205"
+        },
+        {
+          "hi": "205 = 7 + (n-1)×6",
+          "en": "205 = 7 + (n-1)×6"
+        },
+        {
+          "hi": "198 = (n-1)×6 → n-1 = 33 → n = 34",
+          "en": "198 = (n-1)×6 → n-1 = 33 → n = 34"
+        },
+        {
+          "hi": "Answer: 205, AP ka 34th term hai",
+          "en": "Answer: 205 is the 34th term of the AP"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "AP 3, 8, 13, ..., 253 mein end se 5th term nikaalo.",
+        "en": "Find the 5th term from the end of the AP 3, 8, 13, ..., 253."
+      },
+      "steps": [
+        {
+          "hi": "l = 253 (last term), d = 5, k = 5",
+          "en": "l = 253 (last term), d = 5, k = 5"
+        },
+        {
+          "hi": "End se kth term = l - (k-1)d",
+          "en": "kth term from the end = l - (k-1)d"
+        },
+        {
+          "hi": "= 253 - (5-1)×5 = 253 - 20 = 233",
+          "en": "= 253 - (5-1)×5 = 253 - 20 = 233"
+        },
+        {
+          "hi": "Answer: End se 5th term = 233",
+          "en": "Answer: 5th term from the end = 233"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "AP 2,7,12,17... ka 10th term kya hai?",
+          "en": "What is the 10th term of the AP 2,7,12,17...?"
+        },
+        "options": [
+          {
+            "hi": "47",
+            "en": "47"
+          },
+          {
+            "hi": "42",
+            "en": "42"
+          },
+          {
+            "hi": "52",
+            "en": "52"
+          },
+          {
+            "hi": "37",
+            "en": "37"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a₁₀=2+(10-1)×5=2+45=47",
+          "en": "a₁₀=2+(10-1)×5=2+45=47"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AP 100,95,90... ka 21st term kya hoga?",
+          "en": "What will be the 21st term of the AP 100,95,90...?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "5",
+            "en": "5"
+          },
+          {
+            "hi": "-5",
+            "en": "-5"
+          },
+          {
+            "hi": "10",
+            "en": "10"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=100,d=-5,n=21: a₂₁=100+20×(-5)=0",
+          "en": "a=100,d=-5,n=21: a₂₁=100+20×(-5)=0"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "nth term formula sirf tab kaam karta hai jab d positive ho.",
+          "en": "The nth term formula only works when d is positive."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — formula aₙ=a+(n-1)d har AP ke liye kaam karta hai, chahe d positive, negative ya zero ho.",
+          "en": "False — the formula aₙ=a+(n-1)d works for every AP, whether d is positive, negative, or zero."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AP 4,9,14,...,199 mein total kitne terms hain?",
+          "en": "How many terms are there in the AP 4,9,14,...,199?"
+        },
+        "options": [
+          {
+            "hi": "38",
+            "en": "38"
+          },
+          {
+            "hi": "39",
+            "en": "39"
+          },
+          {
+            "hi": "40",
+            "en": "40"
+          },
+          {
+            "hi": "41",
+            "en": "41"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "199=4+(n-1)5 → 195=5(n-1) → n-1=39 → n=40",
+          "en": "199=4+(n-1)5 → 195=5(n-1) → n-1=39 → n=40"
+        }
+      },
+      {
+        "type": "dragdrop",
+        "question": {
+          "hi": "nth term ka formula complete karo:",
+          "en": "Complete the nth term formula:"
+        },
+        "sentenceParts": [
+          "aₙ = a +",
+          "× d"
+        ],
+        "blanks": [
+          "(n-1)"
+        ],
+        "tokens": [
+          "(n-1)",
+          "(n+1)",
+          "(n-2)"
+        ],
+        "explanation": {
+          "hi": "Sahi nth term formula: aₙ = a + (n-1) × d",
+          "en": "The correct nth term formula: aₙ = a + (n-1) × d"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "aₙ = a + (n-1)d — ye poore chapter ki sabse important formula hai",
+      "en": "aₙ = a + (n-1)d — this is the single most important formula of the chapter"
+    },
+    {
+      "hi": "Term number (n) hamesha ek positive integer hota hai — agar solve karne par n fraction ya negative aaye, matlab wo value AP mein hai hi nahi",
+      "en": "The term number (n) must always be a positive integer — if solving gives a fraction or negative n, that value simply isn't in the AP"
+    },
+    {
+      "hi": "End se kth term = l - (k-1)d, jahan l last term hai",
+      "en": "kth term from the end = l - (k-1)d, where l is the last term"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum AP ka koi bhi term seedha nikaal sakte ho, aur ye bhi pata laga sakte ho ki koi number AP mein kaunsa term hai. Agla lesson mein hum seekhenge ki AP ke shuru ke n terms ka sum kaise nikaalte hain — bina ek-ek term add kiye!",
+    "en": "You can now directly find any term of an AP, and also figure out which term number a given value corresponds to. Next, we'll learn how to add up the first n terms of an AP — without adding them one by one!"
+  },
+  "reward": {
+    "badge": null
+  }
+}

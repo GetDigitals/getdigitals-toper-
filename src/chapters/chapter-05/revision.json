@@ -1,0 +1,248 @@
+{
+  "chapterId": "chapter-05",
+  "flashcards": [
+    {
+      "front": {
+        "hi": "AP kya hai?",
+        "en": "What is an AP?"
+      },
+      "back": {
+        "hi": "Ek sequence jisme consecutive terms ka difference hamesha same (d) hota hai",
+        "en": "A sequence where the difference between consecutive terms is always the same (d)"
+      }
+    },
+    {
+      "front": {
+        "hi": "nth term formula?",
+        "en": "nth term formula?"
+      },
+      "back": {
+        "hi": "aₙ = a + (n-1)d",
+        "en": "aₙ = a + (n-1)d"
+      }
+    },
+    {
+      "front": {
+        "hi": "Sum formula (a,d given)?",
+        "en": "Sum formula (a,d given)?"
+      },
+      "back": {
+        "hi": "Sₙ = n/2[2a+(n-1)d]",
+        "en": "Sₙ = n/2[2a+(n-1)d]"
+      }
+    },
+    {
+      "front": {
+        "hi": "Sum formula (a,l given)?",
+        "en": "Sum formula (a,l given)?"
+      },
+      "back": {
+        "hi": "Sₙ = n/2(a+l)",
+        "en": "Sₙ = n/2(a+l)"
+      }
+    },
+    {
+      "front": {
+        "hi": "End se kth term?",
+        "en": "kth term from the end?"
+      },
+      "back": {
+        "hi": "l - (k-1)d",
+        "en": "l - (k-1)d"
+      }
+    },
+    {
+      "front": {
+        "hi": "Sum se nth term?",
+        "en": "nth term from sum?"
+      },
+      "back": {
+        "hi": "aₙ = Sₙ - Sₙ₋₁",
+        "en": "aₙ = Sₙ - Sₙ₋₁"
+      }
+    },
+    {
+      "front": {
+        "hi": "Pehle n odd numbers ka sum?",
+        "en": "Sum of first n odd numbers?"
+      },
+      "back": {
+        "hi": "n²",
+        "en": "n²"
+      }
+    },
+    {
+      "front": {
+        "hi": "Pehle n natural numbers ka sum?",
+        "en": "Sum of first n natural numbers?"
+      },
+      "back": {
+        "hi": "n(n+1)/2",
+        "en": "n(n+1)/2"
+      }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": {
+        "hi": "nth term",
+        "en": "nth term"
+      },
+      "formula": "aₙ = a + (n-1)d"
+    },
+    {
+      "label": {
+        "hi": "Sum (a, d known)",
+        "en": "Sum (a, d known)"
+      },
+      "formula": "Sₙ = n/2[2a + (n-1)d]"
+    },
+    {
+      "label": {
+        "hi": "Sum (a, l known)",
+        "en": "Sum (a, l known)"
+      },
+      "formula": "Sₙ = n/2(a + l)"
+    },
+    {
+      "label": {
+        "hi": "Term from end",
+        "en": "Term from end"
+      },
+      "formula": "l - (k-1)d"
+    },
+    {
+      "label": {
+        "hi": "nth term from sum",
+        "en": "nth term from sum"
+      },
+      "formula": "aₙ = Sₙ - Sₙ₋₁"
+    },
+    {
+      "label": {
+        "hi": "Sum of first n odd numbers",
+        "en": "Sum of first n odd numbers"
+      },
+      "formula": "n²"
+    },
+    {
+      "label": {
+        "hi": "Sum of first n natural numbers",
+        "en": "Sum of first n natural numbers"
+      },
+      "formula": "n(n+1)/2"
+    }
+  ],
+  "mindMap": {
+    "root": {
+      "hi": "Arithmetic Progressions",
+      "en": "Arithmetic Progressions"
+    },
+    "branches": [
+      {
+        "label": {
+          "hi": "Basics",
+          "en": "Basics"
+        },
+        "children": [
+          {
+            "hi": "first term (a)",
+            "en": "first term (a)"
+          },
+          {
+            "hi": "common difference (d)",
+            "en": "common difference (d)"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "nth Term",
+          "en": "nth Term"
+        },
+        "children": [
+          {
+            "hi": "aₙ = a+(n-1)d",
+            "en": "aₙ = a+(n-1)d"
+          },
+          {
+            "hi": "term from end",
+            "en": "term from end"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Sum",
+          "en": "Sum"
+        },
+        "children": [
+          {
+            "hi": "Sₙ = n/2[2a+(n-1)d]",
+            "en": "Sₙ = n/2[2a+(n-1)d]"
+          },
+          {
+            "hi": "Sₙ = n/2(a+l)",
+            "en": "Sₙ = n/2(a+l)"
+          },
+          {
+            "hi": "special sums",
+            "en": "special sums"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Applications",
+          "en": "Applications"
+        },
+        "children": [
+          {
+            "hi": "word problems",
+            "en": "word problems"
+          },
+          {
+            "hi": "ratio problems",
+            "en": "ratio problems"
+          },
+          {
+            "hi": "first negative term",
+            "en": "first negative term"
+          }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": {
+        "hi": "AP 5,10,15... ka d?",
+        "en": "AP 5,10,15... has d = ?"
+      },
+      "explanation": {
+        "hi": "d = 5",
+        "en": "d = 5"
+      }
+    },
+    {
+      "question": {
+        "hi": "aₙ = a+(n-1)d — sahi ya galat?",
+        "en": "aₙ = a+(n-1)d — true or false?"
+      },
+      "explanation": {
+        "hi": "Sahi, ye standard nth term formula hai",
+        "en": "True, this is the standard nth term formula"
+      }
+    },
+    {
+      "question": {
+        "hi": "Pehle 10 natural numbers ka sum?",
+        "en": "Sum of first 10 natural numbers?"
+      },
+      "explanation": {
+        "hi": "10×11/2 = 55",
+        "en": "10×11/2 = 55"
+      }
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "chapter-05-lesson-01",
+  "chapterId": "chapter-05",
+  "order": 1,
+  "title": {
+    "hi": "Introduction to Arithmetic Progressions",
+    "en": "Introduction to Arithmetic Progressions"
+  },
+  "estimatedMinutes": 10,
+  "xpReward": 50,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📊",
+    "headline": {
+      "hi": "Numbers Jo Pattern Mein Chalte Hain!",
+      "en": "Numbers That Follow a Pattern!"
+    },
+    "subtext": {
+      "hi": "AP seekho aur dekho kaise real life mein bhi numbers ek fixed gap se badhte hain.",
+      "en": "Learn APs and see how numbers in real life also grow by a fixed gap."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Socho tumhari saving jar mein pehle mahine ₹500 hai. Har mahine tum thik ₹200 aur daalte ho. Toh amount hoga: 500, 700, 900, 1100... Dekha? Har baar exactly ₹200 ka farak. Yehi hai Arithmetic Progression (AP) ka core idea — ek sequence jisme consecutive terms ke beech ka gap hamesha same rehta hai.",
+      "en": "Imagine your savings jar has ₹500 in month one. Every month you add exactly ₹200 more. The amounts become: 500, 700, 900, 1100... Notice — the gap is exactly ₹200 every single time. That's the core idea of an Arithmetic Progression (AP): a sequence where the gap between consecutive terms stays constant."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Arithmetic Progression (AP) ek list of numbers hoti hai jisme har next number, pichle number mein ek fixed value add karke banta hai. Ye fixed value 'common difference' kehlati hai aur ise 'd' se represent karte hain.",
+        "en": "An Arithmetic Progression (AP) is a list of numbers where each next number is formed by adding a fixed value to the previous number. This fixed value is called the 'common difference', represented by 'd'."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "AP ke do main parts hote hain: 'a' (first term — sequence ka pehla number) aur 'd' (common difference — har term ke beech ka fixed gap).",
+        "en": "An AP has two key parts: 'a' (the first term) and 'd' (the common difference — the fixed gap between terms)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "d = a₂ - a₁ = a₃ - a₂ = a₄ - a₃ = ..."
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Agar d positive hai, AP increasing hoti hai (jaise 2,5,8,11...). Agar d negative hai, AP decreasing hoti hai (jaise 20,17,14,11...). Agar d = 0, sab terms same rehte hain (constant AP, jaise 7,7,7,7...).",
+        "en": "If d is positive, the AP is increasing (like 2, 5, 8, 11...). If d is negative, the AP is decreasing (like 20, 17, 14, 11...). If d = 0, every term stays the same (a constant AP, like 7, 7, 7, 7...)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "General AP: a, a+d, a+2d, a+3d, ..."
+    }
+  ],
+  "diagram": {
+    "emoji": "🪜",
+    "caption": {
+      "hi": "Har step same height ka hota hai — bilkul AP jaisa, jahan har term ka gap same hota hai.",
+      "en": "Every step is the same height — just like an AP, where the gap between every term is identical."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Check karo ki 4, 9, 14, 19, 24... ek AP hai ya nahi. Agar hai toh a aur d batao.",
+        "en": "Check whether 4, 9, 14, 19, 24... is an AP. If yes, find a and d."
+      },
+      "steps": [
+        {
+          "hi": "9 - 4 = 5",
+          "en": "9 - 4 = 5"
+        },
+        {
+          "hi": "14 - 9 = 5",
+          "en": "14 - 9 = 5"
+        },
+        {
+          "hi": "19 - 14 = 5",
+          "en": "19 - 14 = 5"
+        },
+        {
+          "hi": "24 - 19 = 5",
+          "en": "24 - 19 = 5"
+        },
+        {
+          "hi": "Sabhi differences 5 hain (same) — isliye ye AP hai, a = 4, d = 5",
+          "en": "All differences equal 5 — so this is an AP, a = 4, d = 5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Check karo ki 1, 4, 9, 16, 25... ek AP hai ya nahi.",
+        "en": "Check whether 1, 4, 9, 16, 25... is an AP."
+      },
+      "steps": [
+        {
+          "hi": "4 - 1 = 3",
+          "en": "4 - 1 = 3"
+        },
+        {
+          "hi": "9 - 4 = 5",
+          "en": "9 - 4 = 5"
+        },
+        {
+          "hi": "16 - 9 = 7",
+          "en": "16 - 9 = 7"
+        },
+        {
+          "hi": "Differences 3, 5, 7 — sab alag hain, equal nahi",
+          "en": "Differences are 3, 5, 7 — all different, not equal"
+        },
+        {
+          "hi": "❌ Ye AP nahi hai (ye perfect squares ki sequence hai: 1²,2²,3²,4²,5²)",
+          "en": "❌ This is not an AP (it's the sequence of perfect squares: 1²,2²,3²,4²,5²)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "AP mein missing term dhoondo: 6, __, 16, 21, 26",
+        "en": "Find the missing term in the AP: 6, __, 16, 21, 26"
+      },
+      "steps": [
+        {
+          "hi": "Known consecutive terms se d nikaalo: 21-16=5, 26-21=5, toh d=5",
+          "en": "Find d from known consecutive terms: 21-16=5, 26-21=5, so d=5"
+        },
+        {
+          "hi": "Missing term = 6 + 5 = 11",
+          "en": "Missing term = 6 + 5 = 11"
+        },
+        {
+          "hi": "Verify: 11 + 5 = 16 ✓",
+          "en": "Verify: 11 + 5 = 16 ✓"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Konsi sequence AP hai?",
+          "en": "Which of these sequences is an AP?"
+        },
+        "options": [
+          {
+            "hi": "2, 4, 8, 16",
+            "en": "2, 4, 8, 16"
+          },
+          {
+            "hi": "5, 10, 15, 20",
+            "en": "5, 10, 15, 20"
+          },
+          {
+            "hi": "1, 4, 9, 16",
+            "en": "1, 4, 9, 16"
+          },
+          {
+            "hi": "3, 9, 27, 81",
+            "en": "3, 9, 27, 81"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "5,10,15,20 mein differences 5,5,5 hain (same). Isliye ye AP hai, d=5.",
+          "en": "5,10,15,20 has differences 5,5,5 (equal). So it's an AP, d=5."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "AP 12, 8, 4, 0, -4... mein common difference d hai:",
+          "en": "In the AP 12, 8, 4, 0, -4..., the common difference d is:"
+        },
+        "options": [
+          {
+            "hi": "4",
+            "en": "4"
+          },
+          {
+            "hi": "-4",
+            "en": "-4"
+          },
+          {
+            "hi": "8",
+            "en": "8"
+          },
+          {
+            "hi": "12",
+            "en": "12"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "d = 8 - 12 = -4",
+          "en": "d = 8 - 12 = -4"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "AP mein common difference kabhi negative nahi ho sakta.",
+          "en": "The common difference of an AP can never be negative."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — decreasing AP mein d negative hota hai, jaise 20,17,14,11 mein d=-3.",
+          "en": "False — in a decreasing AP, d is negative, e.g. 20,17,14,11 has d=-3."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Missing term dhoondo: 3, __, 11, 15",
+          "en": "Find the missing term: 3, __, 11, 15"
+        },
+        "options": [
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "7",
+            "en": "7"
+          },
+          {
+            "hi": "8",
+            "en": "8"
+          },
+          {
+            "hi": "9",
+            "en": "9"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "d = 15-11 = 4, missing term = 3+4 = 7",
+          "en": "d = 15-11 = 4, missing term = 3+4 = 7"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "AP ko uske common difference se match karo",
+          "en": "Match each AP to its common difference"
+        },
+        "pairs": [
+          {
+            "left": "2, 5, 8, 11",
+            "right": "d = 3"
+          },
+          {
+            "left": "10, 7, 4, 1",
+            "right": "d = -3"
+          },
+          {
+            "left": "5, 5, 5, 5",
+            "right": "d = 0"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "AP mein consecutive terms ka difference hamesha same (d) hota hai",
+      "en": "In an AP, the difference between consecutive terms is always the same (d)"
+    },
+    {
+      "hi": "a = first term, d = common difference = a₂ - a₁",
+      "en": "a = first term, d = common difference = a₂ - a₁"
+    },
+    {
+      "hi": "AP check karne ke liye kam se kam 3 differences nikaal ke compare karo, sirf 2 se confirm mat karo",
+      "en": "To check an AP, compute at least 3 differences and compare — don't confirm with just 2"
+    },
+    {
+      "hi": "d>0 → increasing AP, d<0 → decreasing AP, d=0 → constant AP",
+      "en": "d>0 → increasing AP, d<0 → decreasing AP, d=0 → constant AP"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum AP ko pehchaan sakte ho, first term aur common difference nikaal sakte ho. Agla lesson mein hum seekhenge ki AP ka koi bhi term (jaise 50th term) bina saare terms likhe kaise turant nikaalte hain — nth term formula ke through.",
+    "en": "You can now recognise an AP and find its first term and common difference. Next, we'll learn how to instantly find any term of an AP (like the 50th term) without writing out every term — using the nth term formula."
+  },
+  "reward": {
+    "badge": null
+  }
+}

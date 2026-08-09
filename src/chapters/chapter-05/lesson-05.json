@@ -1,0 +1,315 @@
+{
+  "id": "chapter-05-lesson-05",
+  "chapterId": "chapter-05",
+  "order": 5,
+  "title": {
+    "hi": "Exam Mastery — Mixed Problems & Chapter Wrap-up",
+    "en": "Exam Mastery — Mixed Problems & Chapter Wrap-up"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 85,
+  "coinReward": 17,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "Ab Board-Level Tricky Problems Solve Karo!",
+      "en": "Now Solve Board-Level Tricky Problems!"
+    },
+    "subtext": {
+      "hi": "First negative term, mixed review, aur exam ke liye final tips — sab is lesson mein.",
+      "en": "First negative term, mixed review, and final exam tips — all in this lesson."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "CBSE board papers mein AP se seedhe formula-based questions kam, aur 'mix' wale questions zyada aate hain — jisme nth term aur sum dono ka use karna padta hai, ya koi tricky condition di hoti hai jaise 'first negative term dhoondo'. Ye lesson tumhe exam-ready banayega.",
+      "en": "In CBSE board papers, straightforward formula-based AP questions are rare — 'mixed' questions are more common, needing both nth term and sum, or a tricky condition like 'find the first negative term'. This lesson gets you exam-ready."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "'First negative term' type problems mein hume aisa n dhoondna hota hai jahan aₙ pehli baar negative ho jaaye. Inequality bana ke solve karte hain: a + (n-1)d < 0",
+        "en": "'First negative term' problems require finding the n where aₙ first becomes negative. Solve using the inequality: a + (n-1)d < 0"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Inequality solve karne ke baad jo n milta hai, use hamesha nearest valid integer tak round karna padta hai (kyunki n integer hi ho sakta hai) — aur check karo ki wo term genuinely negative hai.",
+        "en": "After solving the inequality, round the resulting n to the nearest valid integer (since n must be a whole number) — then double-check that term is genuinely negative."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Mixed problems mein aksar 2 conditions di jaati hain (jaise 2 alag terms ke sum/values), jinse simultaneous equations bana ke a aur d dono nikaalte hain — phir jo bhi poocha ho wo nikaalte hain.",
+        "en": "Mixed problems usually give 2 conditions (like sums/values of two different terms), which form simultaneous equations to find both a and d — then you solve for whatever is actually asked."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Exam tip: Board papers mein hamesha formula likh ke shuru karo, phir values substitute karo — step marks isi se milte hain, chahe final answer galat ho jaaye.",
+        "en": "Exam tip: Always write the formula first, then substitute values — step marks come from this, even if the final answer goes wrong."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "📉",
+    "caption": {
+      "hi": "Decreasing AP mein terms ek point ke baad negative ho jaate hain — wahi 'first negative term' hai.",
+      "en": "In a decreasing AP, terms eventually turn negative — that point is the 'first negative term'."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "AP 20, 17, 14, 11... mein pehla negative term kaunsa hai (kaunsa term number)?",
+        "en": "In the AP 20, 17, 14, 11..., which term is the first negative one (which term number)?"
+      },
+      "steps": [
+        {
+          "hi": "a=20, d=-3. Condition: aₙ < 0",
+          "en": "a=20, d=-3. Condition: aₙ < 0"
+        },
+        {
+          "hi": "20 + (n-1)(-3) < 0",
+          "en": "20 + (n-1)(-3) < 0"
+        },
+        {
+          "hi": "20 - 3n + 3 < 0 → 23 < 3n → n > 7.67",
+          "en": "20 - 3n + 3 < 0 → 23 < 3n → n > 7.67"
+        },
+        {
+          "hi": "n integer hona chahiye, toh smallest integer n=8",
+          "en": "n must be an integer, so the smallest valid n = 8"
+        },
+        {
+          "hi": "Check: a₈ = 20+7×(-3) = 20-21 = -1 ✓ (negative)",
+          "en": "Check: a₈ = 20+7×(-3) = 20-21 = -1 ✓ (negative)"
+        },
+        {
+          "hi": "Answer: 8th term pehla negative term hai",
+          "en": "Answer: The 8th term is the first negative term"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "AP ke 3rd aur 9th terms ka sum 8 hai, aur 5th aur 7th terms ka sum bhi 8 hai. Isse kya nikalta hai?",
+        "en": "The sum of the 3rd and 9th terms of an AP is 8, and the sum of the 5th and 7th terms is also 8. What does this tell us?"
+      },
+      "steps": [
+        {
+          "hi": "a₃+a₉ = (a+2d)+(a+8d) = 2a+10d = 8",
+          "en": "a₃+a₉ = (a+2d)+(a+8d) = 2a+10d = 8"
+        },
+        {
+          "hi": "a₅+a₇ = (a+4d)+(a+6d) = 2a+10d = 8",
+          "en": "a₅+a₇ = (a+4d)+(a+6d) = 2a+10d = 8"
+        },
+        {
+          "hi": "Dono equations same hain! Isse sirf ek relation milta hai: 2a+10d=8 → a+5d=4",
+          "en": "Both equations are identical! This gives only one relation: 2a+10d=8 → a+5d=4"
+        },
+        {
+          "hi": "Isse pata chalta hai ki a₆ (jo a+5d hai) hamesha 4 hoga, chahe a aur d ki individual value kuch bhi ho — ye classic board-exam insight hai",
+          "en": "This tells us a₆ (which equals a+5d) is always 4, regardless of the individual values of a and d — a classic board-exam insight"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek AP ke first 14 terms ka sum 1050 hai aur first term 10 hai. Common difference nikaalo.",
+        "en": "The sum of the first 14 terms of an AP is 1050 and the first term is 10. Find the common difference."
+      },
+      "steps": [
+        {
+          "hi": "n=14, a=10, S₁₄=1050",
+          "en": "n=14, a=10, S₁₄=1050"
+        },
+        {
+          "hi": "Sₙ=n/2[2a+(n-1)d] mein substitute karo",
+          "en": "Substitute into Sₙ=n/2[2a+(n-1)d]"
+        },
+        {
+          "hi": "1050 = 14/2[20+13d] = 7[20+13d] = 140+91d",
+          "en": "1050 = 14/2[20+13d] = 7[20+13d] = 140+91d"
+        },
+        {
+          "hi": "1050-140 = 91d → 910 = 91d → d = 10",
+          "en": "1050-140 = 91d → 910 = 91d → d = 10"
+        },
+        {
+          "hi": "Answer: d = 10",
+          "en": "Answer: d = 10"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "AP 15, 12, 9, 6... mein pehla negative term kaunsa hai?",
+          "en": "In the AP 15, 12, 9, 6..., which is the first negative term?"
+        },
+        "options": [
+          {
+            "hi": "7th term",
+            "en": "7th term"
+          },
+          {
+            "hi": "6th term",
+            "en": "6th term"
+          },
+          {
+            "hi": "5th term",
+            "en": "5th term"
+          },
+          {
+            "hi": "8th term",
+            "en": "8th term"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=15,d=-3. 15+(n-1)(-3)<0 → 18<3n → n>6, isliye smallest valid n=7. Check: a₇=15+6×(-3)=-3 ✓ (a₆=0 hai, negative nahi)",
+          "en": "a=15,d=-3. Solve 15+(n-1)(-3)<0 → 18<3n → n>6, so the smallest valid n=7. Check: a₇=15+6×(-3)=-3 ✓ (a₆=0, not yet negative)"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Ek AP ke first 10 terms ka sum 140 hai aur a=5 hai. d nikaalo.",
+          "en": "The sum of the first 10 terms of an AP is 140 and a=5. Find d."
+        },
+        "options": [
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "3",
+            "en": "3"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "4",
+            "en": "4"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "140 = 10/2[2×5+9d] = 5[10+9d] = 50+45d → 90=45d → d=2",
+          "en": "140 = 10/2[2×5+9d] = 5[10+9d] = 50+45d → 90=45d → d=2"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Do alag conditions se banayi gayi simultaneous equations hamesha AP ke a aur d dono unique batati hain.",
+          "en": "Simultaneous equations from two different conditions always give unique values of both a and d."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — kabhi-kabhi dono equations same nikal aati hain (jaisa is lesson ke Example 2 mein hua), tab a aur d dono unique nahi milte, sirf ek relation milta hai.",
+          "en": "False — sometimes both equations turn out identical (as in Example 2 of this lesson), so a and d aren't uniquely found, only one relation is obtained."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AP ka 6th term 4 hai (a+5d=4). Iska matlab kya hai board exam mein?",
+          "en": "The 6th term of an AP is 4 (a+5d=4). What does this tell us in a board exam?"
+        },
+        "options": [
+          {
+            "hi": "Isse sirf ek relation milta hai a aur d ke beech, dono ki unique value nahi",
+            "en": "It only gives one relation between a and d, not their unique values"
+          },
+          {
+            "hi": "a aur d dono unique nikal jaate hain",
+            "en": "Both a and d are uniquely determined"
+          },
+          {
+            "hi": "d hamesha 0 hota hai",
+            "en": "d is always 0"
+          },
+          {
+            "hi": "a hamesha 4 hota hai",
+            "en": "a is always 4"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Ek equation se do unknowns (a, d) unique nahi milte — poore chapter ka important concept.",
+          "en": "One equation cannot uniquely determine two unknowns (a, d) — an important concept across the whole chapter."
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Poore chapter ke formulas match karo",
+          "en": "Match the whole chapter's formulas"
+        },
+        "pairs": [
+          {
+            "left": "nth term",
+            "right": "aₙ = a + (n-1)d"
+          },
+          {
+            "left": "Sum (a, d given)",
+            "right": "Sₙ = n/2[2a+(n-1)d]"
+          },
+          {
+            "left": "Sum (a, l given)",
+            "right": "Sₙ = n/2(a+l)"
+          },
+          {
+            "left": "term from end",
+            "right": "l - (k-1)d"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "First negative/positive term: inequality a+(n-1)d < 0 (ya >0) solve karo, phir n ko integer round karo",
+      "en": "First negative/positive term: solve the inequality a+(n-1)d < 0 (or >0), then round n to an integer"
+    },
+    {
+      "hi": "Do conditions se simultaneous equations banao jab a aur d dono unknown hon",
+      "en": "Form simultaneous equations from two conditions when both a and d are unknown"
+    },
+    {
+      "hi": "Formula likh ke shuru karo — step marks milte hain",
+      "en": "Always start by writing the formula — step marks matter"
+    },
+    {
+      "hi": "Poora chapter recap: aₙ=a+(n-1)d, Sₙ=n/2[2a+(n-1)d]=n/2(a+l), aₙ=Sₙ-Sₙ₋₁",
+      "en": "Whole chapter recap: aₙ=a+(n-1)d, Sₙ=n/2[2a+(n-1)d]=n/2(a+l), aₙ=Sₙ-Sₙ₋₁"
+    }
+  ],
+  "summary": {
+    "hi": "Congratulations! Ab tumhe Arithmetic Progressions ka poora chapter aata hai — pehchaanna, nth term, sum, real-life problems, aur tricky mixed questions bhi. Final Test attempt karo aur apni mastery confirm karo!",
+    "en": "Congratulations! You now know the entire Arithmetic Progressions chapter — identifying APs, nth term, sum, real-life problems, and tricky mixed questions too. Attempt the Final Test to confirm your mastery!"
+  },
+  "reward": {
+    "badge": {
+      "id": "arithmetic-progressions-master",
+      "name": "AP Master",
+      "icon": "🏅"
+    }
+  }
+}

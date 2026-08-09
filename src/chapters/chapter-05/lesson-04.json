@@ -1,0 +1,294 @@
+{
+  "id": "chapter-05-lesson-04",
+  "chapterId": "chapter-05",
+  "order": 4,
+  "title": {
+    "hi": "Real-Life Word Problems on AP",
+    "en": "Real-Life Word Problems on AP"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "💼",
+    "headline": {
+      "hi": "AP Sirf Numbers Nahi, Real Zindagi Ka Hissa Hai",
+      "en": "AP Isn't Just Numbers — It's Part of Real Life"
+    },
+    "subtext": {
+      "hi": "Salary increments, loan installments, stadium seating — sab AP se solve hote hain.",
+      "en": "Salary increments, loan instalments, stadium seating — all solved using AP."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek company apne employee ki salary har saal fixed amount se badhati hai. Ek theatre mein har row mein pichli row se fixed extra seats hoti hain. Ye dono examples AP hain! Board exams mein word problems isi tarah aate hain — real situation ko AP ke a, d, n mein convert karna hi asli skill hai.",
+      "en": "A company increases an employee's salary by a fixed amount every year. A theatre has a fixed number of extra seats in each row compared to the previous one. Both are APs! Board exam word problems work exactly this way — the real skill is converting a real situation into a, d, n."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Word problem solve karne ke 3 steps: (1) Pehla term (a) pehchaano, (2) Fixed gap (d) pehchaano — 'har baar itna extra/kam' jaisa phrase dhoondo, (3) Poocha kya gaya hai wo decide karo — koi specific term? Ya total sum?",
+        "en": "3 steps to solve a word problem: (1) Identify the first term (a), (2) Identify the fixed gap (d) — look for phrases like 'each time this much more/less', (3) Decide what's actually being asked — a specific term? Or the total sum?"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ratio of terms wale problems mein aksar diya jaata hai ki AP ke kisi do terms ka ratio kya hai, ya specific terms ke beech relation diya hota hai — inhe simultaneous equations bana ke solve karte hain.",
+        "en": "Ratio-of-terms problems usually give you a ratio between two terms of an AP, or a relation between specific terms — these are solved by forming simultaneous equations."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Tip: 3 unknown terms wale AP problems mein terms ko (a-d), a, (a+d) jaise symmetric form mein lena solve karna bahut easy bana deta hai.",
+        "en": "Tip: for problems with 3 unknown consecutive AP terms, taking them as (a-d), a, (a+d) makes solving much easier — the symmetric form cancels d nicely."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "🏟️",
+    "caption": {
+      "hi": "Stadium ki har row mein pichli row se fixed extra seats — classic AP word problem.",
+      "en": "Every row of a stadium has a fixed number of extra seats compared to the previous row — a classic AP word problem."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek company employee ki starting salary ₹25,000/month hai, aur har saal ₹1,500 fixed increment milta hai. 8th saal mein uski salary kya hogi?",
+        "en": "A company employee's starting salary is ₹25,000/month, with a fixed yearly increment of ₹1,500. What will the salary be in the 8th year?"
+      },
+      "steps": [
+        {
+          "hi": "a = 25000, d = 1500, n = 8",
+          "en": "a = 25000, d = 1500, n = 8"
+        },
+        {
+          "hi": "aₙ = a + (n-1)d formula lagao",
+          "en": "Apply aₙ = a + (n-1)d"
+        },
+        {
+          "hi": "a₈ = 25000 + 7×1500 = 25000 + 10500 = 35500",
+          "en": "a₈ = 25000 + 7×1500 = 25000 + 10500 = 35500"
+        },
+        {
+          "hi": "Answer: 8th saal mein salary = ₹35,500/month",
+          "en": "Answer: Salary in the 8th year = ₹35,500/month"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek theatre ki pehli row mein 20 seats hain, aur har next row mein 4 seats zyada hain. Agar total 15 rows hain, toh theatre mein total kitni seats hain?",
+        "en": "The first row of a theatre has 20 seats, and each next row has 4 more seats. If there are 15 rows in total, how many seats does the theatre have?"
+      },
+      "steps": [
+        {
+          "hi": "a=20, d=4, n=15",
+          "en": "a=20, d=4, n=15"
+        },
+        {
+          "hi": "Total seats = Sum of AP, Sₙ=n/2[2a+(n-1)d]",
+          "en": "Total seats = sum of the AP, Sₙ=n/2[2a+(n-1)d]"
+        },
+        {
+          "hi": "S₁₅ = 15/2[40+14×4] = 7.5×[40+56] = 7.5×96 = 720",
+          "en": "S₁₅ = 15/2[40+14×4] = 7.5×[40+56] = 7.5×96 = 720"
+        },
+        {
+          "hi": "Answer: Total 720 seats hain",
+          "en": "Answer: Total 720 seats"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek AP ke 4th aur 8th terms ka ratio 1:2 hai, aur a=3 hai. Common difference d nikaalo.",
+        "en": "The ratio of the 4th and 8th terms of an AP is 1:2, and a=3. Find the common difference d."
+      },
+      "steps": [
+        {
+          "hi": "a₄ = a+3d = 3+3d, a₈ = a+7d = 3+7d",
+          "en": "a₄ = a+3d = 3+3d, a₈ = a+7d = 3+7d"
+        },
+        {
+          "hi": "Ratio condition: (3+3d)/(3+7d) = 1/2",
+          "en": "Ratio condition: (3+3d)/(3+7d) = 1/2"
+        },
+        {
+          "hi": "Cross multiply: 2(3+3d) = 1(3+7d) → 6+6d = 3+7d → 6-3 = 7d-6d → d = 3",
+          "en": "Cross multiply: 2(3+3d) = 1(3+7d) → 6+6d = 3+7d → 6-3 = 7d-6d → d = 3"
+        },
+        {
+          "hi": "Answer: d = 3",
+          "en": "Answer: d = 3"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Ek shop January mein 30 kapde becha, aur har mahine 5 zyada kapde bechta hai. June mein kitne kapde bikenge?",
+          "en": "A shop sold 30 clothes in January, and 5 more each month after. How many will it sell in June?"
+        },
+        "options": [
+          {
+            "hi": "55",
+            "en": "55"
+          },
+          {
+            "hi": "50",
+            "en": "50"
+          },
+          {
+            "hi": "60",
+            "en": "60"
+          },
+          {
+            "hi": "45",
+            "en": "45"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=30,d=5,n=6 (Jan se June): a₆=30+5×5=55",
+          "en": "a=30,d=5,n=6 (Jan to June): a₆=30+5×5=55"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek loan ki EMIs AP mein hain — pehli EMI ₹2000, har baar ₹50 kam hoti hai. 10th EMI kitni hogi?",
+          "en": "Loan EMIs form an AP — first EMI ₹2000, decreasing by ₹50 each time. What is the 10th EMI?"
+        },
+        "options": [
+          {
+            "hi": "1550",
+            "en": "1550"
+          },
+          {
+            "hi": "1500",
+            "en": "1500"
+          },
+          {
+            "hi": "1600",
+            "en": "1600"
+          },
+          {
+            "hi": "1450",
+            "en": "1450"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=2000,d=-50,n=10: a₁₀=2000+9×(-50)=1550",
+          "en": "a=2000,d=-50,n=10: a₁₀=2000+9×(-50)=1550"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "AP word problems mein 'har saal fixed increment' phrase common difference (d) indicate karta hai.",
+          "en": "In AP word problems, the phrase 'fixed increment every year' indicates the common difference (d)."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — 'fixed increment/increase har baar' hamesha d ko point karta hai.",
+          "en": "True — 'fixed increment/increase each time' always points to d."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "3 consecutive AP terms ka sum 24 hai. Middle term kya hoga?",
+          "en": "The sum of 3 consecutive AP terms is 24. What is the middle term?"
+        },
+        "options": [
+          {
+            "hi": "8",
+            "en": "8"
+          },
+          {
+            "hi": "6",
+            "en": "6"
+          },
+          {
+            "hi": "10",
+            "en": "10"
+          },
+          {
+            "hi": "12",
+            "en": "12"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Teen consecutive terms (a-d)+a+(a+d)=3a=24, isliye middle term a = 8",
+          "en": "Three consecutive terms (a-d)+a+(a+d)=3a=24, so the middle term a = 8"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Ek stadium ki row 1 mein 15 seats hain aur d=3. Row 10 mein kitni seats hongi?",
+          "en": "Row 1 of a stadium has 15 seats and d=3. How many seats will row 10 have?"
+        },
+        "options": [
+          {
+            "hi": "42",
+            "en": "42"
+          },
+          {
+            "hi": "39",
+            "en": "39"
+          },
+          {
+            "hi": "45",
+            "en": "45"
+          },
+          {
+            "hi": "36",
+            "en": "36"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=15,d=3,n=10: a₁₀=15+9×3=42",
+          "en": "a=15,d=3,n=10: a₁₀=15+9×3=42"
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Word problem solve karne ke 3 steps: a pehchaano, d pehchaano, poocha kya gaya hai (term ya sum) decide karo",
+      "en": "3 steps for word problems: identify a, identify d, decide what's asked (term or sum)"
+    },
+    {
+      "hi": "Ratio/relation wale problems simultaneous equations se solve hote hain",
+      "en": "Ratio/relation problems are solved with simultaneous equations"
+    },
+    {
+      "hi": "3 unknown consecutive terms ko (a-d), a, (a+d) le kar solve karna aasan hai",
+      "en": "Take 3 unknown consecutive terms as (a-d), a, (a+d) for easier solving"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum real-life situations ko AP mein convert karke solve kar sakte ho — salary, seating, ratio problems sab. Agle (aur aakhri) lesson mein hum board-exam level tricky mixed problems solve karenge, jisme negative term jaise concepts bhi honge.",
+    "en": "You can now convert real-life situations into AP and solve them — salary, seating, ratio problems, all of it. In the next (and final) lesson, we'll tackle tricky board-exam-level mixed problems, including concepts like the first negative term."
+  },
+  "reward": {
+    "badge": null
+  }
+}

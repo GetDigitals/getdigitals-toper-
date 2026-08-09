@@ -1,0 +1,303 @@
+{
+  "id": "chapter-05-lesson-03",
+  "chapterId": "chapter-05",
+  "order": 3,
+  "title": {
+    "hi": "Sum of First n Terms of an AP",
+    "en": "Sum of First n Terms of an AP"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 55,
+  "coinReward": 11,
+  "hero": {
+    "emoji": "➕",
+    "headline": {
+      "hi": "1 se 100 Tak Sabka Sum, 3 Second Mein!",
+      "en": "Sum of 1 to 100 in 3 Seconds!"
+    },
+    "subtext": {
+      "hi": "Bachpan mein Gauss ne class mein 1+2+...+100 second mein solve kiya tha — wahi trick ab tumhara bhi hai.",
+      "en": "As a child, Gauss solved 1+2+...+100 in seconds in class — now that same trick is yours too."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Kahani hai ki chhoti class mein teacher ne Gauss ko punishment di: 1 se 100 tak sab numbers add karo. Gauss ne seconds mein jawab de diya: 5050! Uska trick tha — pehla aur aakhri number jodo (1+100=101), phir dusra aur second-last jodo (2+99=101)... har pair 101 banata hai, aur 50 pairs hain, toh 50×101=5050. Yehi trick AP ke sum formula ka base hai!",
+      "en": "Legend says a young Gauss was asked by his teacher to add 1 to 100. He answered in seconds: 5050! His trick — pair the first and last number (1+100=101), then the second and second-last (2+99=101)... every pair makes 101, and there are 50 such pairs, so 50×101=5050. This exact trick is the foundation of the AP sum formula!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "AP ke pehle n terms ka sum (Sₙ) nikaalne ke do formulas hain, dono same jawab dete hain — jo bhi info di ho usके hisaab se use karo.",
+        "en": "There are two formulas to find the sum of the first n terms of an AP (Sₙ) — both give the same answer, use whichever matches the info you're given."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Sₙ = n/2 [2a + (n-1)d]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye formula use karo jab tumhe a (first term) aur d (common difference) pata ho.",
+        "en": "Use this formula when you know a (first term) and d (common difference)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Sₙ = n/2 (a + l)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ye formula use karo jab tumhe first term (a) aur last term (l) dono pata ho — bilkul Gauss ke trick jaisa: pehla+aakhri, phir n/2 se multiply.",
+        "en": "Use this formula when you know both the first term (a) and last term (l) — exactly like Gauss's trick: first+last, then multiply by n/2."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Bonus: agar tumhe nth term nikaalni ho lekin Sₙ pata ho, toh: aₙ = Sₙ - Sₙ₋₁ (current sum minus pichla sum).",
+        "en": "Bonus: if you need the nth term but only know Sₙ, use: aₙ = Sₙ - Sₙ₋₁ (current sum minus the previous sum)."
+      }
+    }
+  ],
+  "diagram": {
+    "emoji": "⚖️",
+    "caption": {
+      "hi": "Pehla + Aakhri term hamesha same rehta hai, chahe koi bhi pair uthao — yehi Gauss ka raaz hai.",
+      "en": "First + Last term always stays the same no matter which pair you pick — that's Gauss's secret."
+    }
+  },
+  "examples": [
+    {
+      "problem": {
+        "hi": "AP 2,5,8,11... ke pehle 20 terms ka sum nikaalo.",
+        "en": "Find the sum of the first 20 terms of the AP 2,5,8,11..."
+      },
+      "steps": [
+        {
+          "hi": "a=2, d=3, n=20",
+          "en": "a=2, d=3, n=20"
+        },
+        {
+          "hi": "Sₙ = n/2[2a+(n-1)d] use karo",
+          "en": "Use Sₙ = n/2[2a+(n-1)d]"
+        },
+        {
+          "hi": "S₂₀ = 20/2 [2(2)+(20-1)(3)] = 10[4+57] = 10×61 = 610",
+          "en": "S₂₀ = 20/2 [2(2)+(20-1)(3)] = 10[4+57] = 10×61 = 610"
+        },
+        {
+          "hi": "Answer: S₂₀ = 610",
+          "en": "Answer: S₂₀ = 610"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "AP 8,10,12,...,50 ka sum nikaalo.",
+        "en": "Find the sum of the AP 8,10,12,...,50."
+      },
+      "steps": [
+        {
+          "hi": "Pehle n nikaalo: a=8,d=2,l=50 → 50=8+(n-1)2 → 42=2(n-1) → n=22",
+          "en": "First find n: a=8,d=2,l=50 → 50=8+(n-1)2 → 42=2(n-1) → n=22"
+        },
+        {
+          "hi": "Ab Sₙ=n/2(a+l) use karo kyunki a aur l dono pata hain",
+          "en": "Now use Sₙ=n/2(a+l) since both a and l are known"
+        },
+        {
+          "hi": "S₂₂ = 22/2 (8+50) = 11×58 = 638",
+          "en": "S₂₂ = 22/2 (8+50) = 11×58 = 638"
+        },
+        {
+          "hi": "Answer: Sum = 638",
+          "en": "Answer: Sum = 638"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Special sum: pehle 50 odd numbers ka sum nikaalo (1+3+5+...+99).",
+        "en": "Special sum: Find the sum of the first 50 odd numbers (1+3+5+...+99)."
+      },
+      "steps": [
+        {
+          "hi": "Odd numbers khud ek AP hain: a=1, d=2, n=50",
+          "en": "Odd numbers themselves form an AP: a=1, d=2, n=50"
+        },
+        {
+          "hi": "Sₙ = n/2[2a+(n-1)d] = 50/2[2(1)+49(2)] = 25[2+98] = 25×100 = 2500",
+          "en": "Sₙ = n/2[2a+(n-1)d] = 50/2[2(1)+49(2)] = 25[2+98] = 25×100 = 2500"
+        },
+        {
+          "hi": "Interesting fact: pehle n odd numbers ka sum hamesha n² hota hai — yahan 50²=2500 ✓",
+          "en": "Interesting fact: the sum of the first n odd numbers is always n² — here 50²=2500 ✓"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "AP 1,2,3,...,50 ka sum kya hai?",
+          "en": "What is the sum of 1,2,3,...,50?"
+        },
+        "options": [
+          {
+            "hi": "1275",
+            "en": "1275"
+          },
+          {
+            "hi": "1225",
+            "en": "1225"
+          },
+          {
+            "hi": "1325",
+            "en": "1325"
+          },
+          {
+            "hi": "1250",
+            "en": "1250"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "n(n+1)/2 = 50×51/2 = 1275",
+          "en": "n(n+1)/2 = 50×51/2 = 1275"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "AP 5,8,11... ke pehle 12 terms ka sum kya hoga?",
+          "en": "What is the sum of the first 12 terms of the AP 5,8,11...?"
+        },
+        "options": [
+          {
+            "hi": "258",
+            "en": "258"
+          },
+          {
+            "hi": "248",
+            "en": "248"
+          },
+          {
+            "hi": "268",
+            "en": "268"
+          },
+          {
+            "hi": "238",
+            "en": "238"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=5,d=3,n=12: S=6[10+33]=6×43=258",
+          "en": "a=5,d=3,n=12: S=6[10+33]=6×43=258"
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Sₙ = n/2(a+l) formula tabhi use kar sakte ho jab last term (l) pata ho.",
+          "en": "You can use Sₙ = n/2(a+l) only when the last term (l) is known."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — is formula ko last term chahiye hi hoti hai; agar sirf d pata hai toh Sₙ=n/2[2a+(n-1)d] use karo.",
+          "en": "True — this formula needs the last term; if only d is known, use Sₙ=n/2[2a+(n-1)d] instead."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Pehle 30 odd numbers ka sum kya hoga?",
+          "en": "What is the sum of the first 30 odd numbers?"
+        },
+        "options": [
+          {
+            "hi": "900",
+            "en": "900"
+          },
+          {
+            "hi": "870",
+            "en": "870"
+          },
+          {
+            "hi": "930",
+            "en": "930"
+          },
+          {
+            "hi": "850",
+            "en": "850"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Pehle n odd numbers ka sum = n². Yahan 30²=900",
+          "en": "Sum of the first n odd numbers = n². Here 30²=900"
+        }
+      },
+      {
+        "type": "match",
+        "question": {
+          "hi": "Sum-related formulas ko match karo",
+          "en": "Match the sum-related formulas"
+        },
+        "pairs": [
+          {
+            "left": "Sum formula (a, d given)",
+            "right": "Sₙ = n/2[2a+(n-1)d]"
+          },
+          {
+            "left": "Sum formula (a, l given)",
+            "right": "Sₙ = n/2(a+l)"
+          },
+          {
+            "left": "Sum of first n odd numbers",
+            "right": "n²"
+          },
+          {
+            "left": "nth term from sum",
+            "right": "aₙ = Sₙ - Sₙ₋₁"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Sₙ = n/2[2a+(n-1)d] — jab a, d pata ho",
+      "en": "Sₙ = n/2[2a+(n-1)d] — when a, d are known"
+    },
+    {
+      "hi": "Sₙ = n/2(a+l) — jab first aur last term dono pata ho",
+      "en": "Sₙ = n/2(a+l) — when both first and last term are known"
+    },
+    {
+      "hi": "aₙ = Sₙ - Sₙ₋₁ — Sum se koi bhi term nikaalne ka formula",
+      "en": "aₙ = Sₙ - Sₙ₋₁ — formula to find any term from the sum"
+    },
+    {
+      "hi": "Special results: 1 se n tak natural numbers ka sum = n(n+1)/2; pehle n odd numbers ka sum = n²; pehle n even numbers ka sum = n(n+1)",
+      "en": "Special results: sum of first n natural numbers = n(n+1)/2; sum of first n odd numbers = n²; sum of first n even numbers = n(n+1)"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum AP ka sum dono formulas se nikaal sakte ho, aur special sums (odd, even, natural numbers) bhi jaante ho. Agle lesson mein hum ye sab real-life problems mein apply karenge — salary, savings, aur bahut kuch!",
+    "en": "You can now find the sum of an AP using either formula, and you know the special sums (odd, even, natural numbers) too. Next, we'll apply all of this to real-life problems — salary, savings, and more!"
+  },
+  "reward": {
+    "badge": null
+  }
+}
