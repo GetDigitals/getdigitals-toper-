@@ -12,8 +12,8 @@
   "hero": {
     "emoji": "📊",
     "headline": {
-      "hi": "Bade Data Ka Average — 3 Smart Tarike Se!",
-      "en": "Averaging Big Data — 3 Smart Ways!"
+      "hi": "Bade Data Ka Average — 2 Smart Tarike Se!",
+      "en": "Averaging Big Data — 2 Smart Ways!"
     },
     "subtext": {
       "hi": "Jab data 100s survey responses ya census ka ho, toh average nikaalne ka smart tarika seekho.",
@@ -48,8 +48,8 @@
     {
       "type": "text",
       "content": {
-        "hi": "Grouped data ka mean nikaalne ke 3 methods hote hain — sabka answer same aata hai, bas calculation ka style alag hota hai.",
-        "en": "There are 3 methods to find the mean of grouped data — all give the same answer, only the calculation style differs."
+        "hi": "Grouped data ka mean nikaalne ke 2 methods hote hain — sabka answer same aata hai, bas calculation ka style alag hota hai.",
+        "en": "There are 2 methods to find the mean of grouped data — all give the same answer, only the calculation style differs."
       }
     },
     {
@@ -72,17 +72,6 @@
       "content": {
         "hi": "Assumed Mean Method mein ek 'assumed mean' (a) choose karte ho — usually middle class mark. Isse numbers chhote ho jaate hain (dᵢ = xᵢ − a) aur calculation aasan ho jaata hai.",
         "en": "In the Assumed Mean Method, you pick an 'assumed mean' (a) — usually the middle class mark. This makes numbers smaller (dᵢ = xᵢ − a) and calculation easier."
-      }
-    },
-    {
-      "type": "formula",
-      "content": "Step Deviation Method:  x̄ = a + [Σ(fᵢuᵢ) / Σfᵢ] × h,  jahan uᵢ = (xᵢ − a) / h"
-    },
-    {
-      "type": "text",
-      "content": {
-        "hi": "Step Deviation Method jab sabhi class intervals same size (h) ke hon tab sabse fast hai — isliye board exams mein ye sabse zyada poocha jaata hai.",
-        "en": "The Step Deviation Method is fastest when all class intervals are the same size (h) — that's why it's asked most often in board exams."
       }
     }
   ],
@@ -149,34 +138,6 @@
           "en": "Mean = a + Σ(fᵢdᵢ)/Σfᵢ = 25 + (−10/40) = 25 − 0.25 = 24.75"
         }
       ]
-    },
-    {
-      "problem": {
-        "hi": "Step Deviation Method se mean nikaalo:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 5, 10, 15, 8, 2",
-        "en": "Find the mean using the Step Deviation Method:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nfᵢ: 5, 10, 15, 8, 2"
-      },
-      "steps": [
-        {
-          "hi": "Class marks (xᵢ): 5, 15, 25, 35, 45. Class size h = 10. Assumed mean a = 25",
-          "en": "Class marks (xᵢ): 5, 15, 25, 35, 45. Class size h = 10. Assumed mean a = 25"
-        },
-        {
-          "hi": "uᵢ = (xᵢ−a)/h: −2, −1, 0, 1, 2",
-          "en": "uᵢ = (xᵢ−a)/h: −2, −1, 0, 1, 2"
-        },
-        {
-          "hi": "fᵢ×uᵢ: 5×(−2)=−10, 10×(−1)=−10, 15×0=0, 8×1=8, 2×2=4",
-          "en": "fᵢ×uᵢ: 5×(−2)=−10, 10×(−1)=−10, 15×0=0, 8×1=8, 2×2=4"
-        },
-        {
-          "hi": "Σfᵢ = 40, Σ(fᵢuᵢ) = −10−10+0+8+4 = −8",
-          "en": "Σfᵢ = 40, Σ(fᵢuᵢ) = −10−10+0+8+4 = −8"
-        },
-        {
-          "hi": "Mean = a + [Σ(fᵢuᵢ)/Σfᵢ]×h = 25 + (−8/40)×10 = 25 − 2 = 23",
-          "en": "Mean = a + [Σ(fᵢuᵢ)/Σfᵢ]×h = 25 + (−8/40)×10 = 25 − 2 = 23"
-        }
-      ]
     }
   ],
   "quiz": {
@@ -214,49 +175,6 @@
       },
       {
         "type": "mcq",
-        "difficulty": "easy",
-        "question": {
-          "hi": "Step Deviation Method mein assumed mean 'a' generally kya choose karte hain?",
-          "en": "In the Step Deviation Method, what is generally chosen as the assumed mean 'a'?"
-        },
-        "options": [
-          {
-            "hi": "Sabse chhota class mark",
-            "en": "Smallest class mark"
-          },
-          {
-            "hi": "Sabse bada class mark",
-            "en": "Largest class mark"
-          },
-          {
-            "hi": "Middle class mark",
-            "en": "Middle class mark"
-          },
-          {
-            "hi": "Koi bhi random value",
-            "en": "Any random value"
-          }
-        ],
-        "correct": 2,
-        "explanation": {
-          "hi": "Generally middle class mark ko 'a' choose karte hain — isse dᵢ/uᵢ chhote rehte hain.",
-          "en": "The middle class mark is generally chosen as 'a' — this keeps dᵢ/uᵢ small."
-        }
-      },
-      {
-        "type": "truefalse",
-        "question": {
-          "hi": "Step Deviation Method sirf tab kaam karta hai jab sabhi class intervals same size ke hon.",
-          "en": "The Step Deviation Method only works when all class intervals are the same size."
-        },
-        "correct": true,
-        "explanation": {
-          "hi": "Sahi — h (class size) fixed hona zaroori hai kyunki uᵢ=(xᵢ−a)/h ek hi h use karta hai poore table mein.",
-          "en": "True — h (class size) must be fixed since uᵢ=(xᵢ−a)/h uses one single h across the whole table."
-        }
-      },
-      {
-        "type": "mcq",
         "difficulty": "medium",
         "question": {
           "hi": "Data: Class 5-15,15-25,25-35,35-45; fᵢ: 4,8,12,6. Direct method se mean kya hoga?",
@@ -287,25 +205,46 @@
         }
       },
       {
-        "type": "dragdrop",
+        "type": "mcq",
+        "difficulty": "medium",
         "question": {
-          "hi": "Step deviation formula complete karo:",
-          "en": "Complete the step deviation formula:"
+          "hi": "Assumed Mean Method mein dᵢ ka formula kya hai?",
+          "en": "In the Assumed Mean Method, what is the formula for dᵢ?"
         },
-        "sentenceParts": [
-          "uᵢ = (xᵢ − a)"
+        "options": [
+          {
+            "hi": "xᵢ + a",
+            "en": "xᵢ + a"
+          },
+          {
+            "hi": "xᵢ − a",
+            "en": "xᵢ − a"
+          },
+          {
+            "hi": "xᵢ × a",
+            "en": "xᵢ × a"
+          },
+          {
+            "hi": "xᵢ / a",
+            "en": "xᵢ / a"
+          }
         ],
-        "blanks": [
-          "/ h"
-        ],
-        "tokens": [
-          "/ h",
-          "× h",
-          "+ h"
-        ],
+        "correct": 1,
         "explanation": {
-          "hi": "Sahi formula: uᵢ = (xᵢ − a) / h",
-          "en": "The correct formula: uᵢ = (xᵢ − a) / h"
+          "hi": "dᵢ = xᵢ − a, jahan a assumed mean hai.",
+          "en": "dᵢ = xᵢ − a, where a is the assumed mean."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Assumed Mean Method mein hamesha middle class mark hi 'a' ke roop mein choose karna zaroori hai.",
+          "en": "In the Assumed Mean Method, the middle class mark must always be chosen as 'a'."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — middle class mark choose karna sirf calculation aasan banane ke liye convenient hai, koi bhi class mark 'a' ban sakta hai.",
+          "en": "False — choosing the middle class mark is just convenient for easier calculation; any class mark can serve as 'a'."
         }
       }
     ]
@@ -320,17 +259,13 @@
       "en": "Assumed Mean Method: x̄ = a + Σ(fᵢdᵢ)/Σfᵢ, dᵢ=xᵢ−a — to shrink large numbers"
     },
     {
-      "hi": "Step Deviation Method: x̄ = a + [Σ(fᵢuᵢ)/Σfᵢ]×h, uᵢ=(xᵢ−a)/h — sabse fast, uniform class size mein",
-      "en": "Step Deviation Method: x̄ = a + [Σ(fᵢuᵢ)/Σfᵢ]×h, uᵢ=(xᵢ−a)/h — fastest, for uniform class size"
-    },
-    {
       "hi": "Hamesha table bana ke solve karo — isse calculation mistakes kam hoti hain aur step marks bhi milte hain",
       "en": "Always solve using a table — it reduces calculation mistakes and earns step marks"
     }
   ],
   "summary": {
-    "hi": "Ab tum grouped data ka mean 3 alag methods se nikaal sakte ho, aur jaante ho ki kaunsa method kab use karna hai. Agle lesson mein hum seekhenge median nikaalna — cumulative frequency table ke through.",
-    "en": "You can now find the mean of grouped data using 3 different methods, and know which method to use when. Next, we'll learn to find the median — using the cumulative frequency table."
+    "hi": "Ab tum grouped data ka mean 2 alag methods se nikaal sakte ho, aur jaante ho ki kaunsa method kab use karna hai. Agle lesson mein hum seekhenge median nikaalna — cumulative frequency table ke through.",
+    "en": "You can now find the mean of grouped data using 2 different methods, and know which method to use when. Next, we'll learn to find the median — using the cumulative frequency table."
   },
   "reward": {
     "badge": null

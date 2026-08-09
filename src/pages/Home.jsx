@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
+import { getSubjectBySlug, DEFAULT_SUBJECT_SLUG } from '../config/subjects';
 import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
 import { isChapterLocked } from '../App';
@@ -15,11 +16,12 @@ export default function Home() {
   const { progress, recordStreak, settings } = useProgress();
   const { profile, isApproved } = useAuth();
   const lang = langCode(settings.language);
-  // Scoped to Maths explicitly — this page's header is hardcoded to "Class
-  // 10 Maths" below, and now that English has real content too,
-  // getAllChapters() with no argument would return chapters from BOTH
-  // subjects mixed into one list under that Maths-only heading.
-  const chapters = useMemo(() => getAllChapters('Maths'), []);
+  // Shows whichever subject the student last picked on /select-class
+  // (settings.activeSubject, persisted to IndexedDB) — RequireHomeReady
+  // in App.jsx guarantees this is always set by the time Home renders,
+  // but DEFAULT_SUBJECT_SLUG is kept as a defensive fallback.
+  const subjectConfig = getSubjectBySlug(settings.activeSubject) || getSubjectBySlug(DEFAULT_SUBJECT_SLUG);
+  const chapters = useMemo(() => getAllChapters(subjectConfig.metaSubject), [subjectConfig.metaSubject]);
 
   const continueChapter = chapters.find((ch) => {
     const lessons = getLessonsForChapter(ch.id);
@@ -44,6 +46,14 @@ export default function Home() {
             Namaste, <span className="text-[var(--color-saffron)]">{profile?.name?.trim().split(' ')[0] || 'Topper'} 👋</span>
           </h1>
           <p className="text-[13px] text-[var(--color-muted)] mt-1">Aaj ka target complete karo, streak zinda rakho.</p>
+          <button
+            onClick={() => navigate('/select-class')}
+            className="mt-3 inline-flex items-center gap-1.5 rounded-full pl-2 pr-3 py-1.5 bg-[var(--color-surface)] border border-[var(--color-border)] text-[12px] font-medium"
+          >
+            <span className="text-base">{subjectConfig.icon}</span>
+            <span>{subjectConfig.classLabel} {subjectConfig.subjectLabel}</span>
+            <span className="text-[var(--color-muted)]">▾</span>
+          </button>
         </motion.div>
 
         {/* Continue learning */}
@@ -89,8 +99,8 @@ export default function Home() {
 
         {/* Chapters preview */}
         <div className="mt-6 flex items-center justify-between">
-          <h2 className="font-display font-semibold text-lg">Class 10 Maths</h2>
-          <button onClick={() => navigate('/chapters')} className="text-[13px] text-[var(--color-saffron)] font-medium">
+          <h2 className="font-display font-semibold text-lg">{subjectConfig.classLabel} {subjectConfig.subjectLabel}</h2>
+          <button onClick={() => navigate(`/chapters/${subjectConfig.slug}`)} className="text-[13px] text-[var(--color-saffron)] font-medium">
             See all
           </button>
         </div>
@@ -111,7 +121,7 @@ export default function Home() {
           ))}
         </div>
         <button
-          onClick={() => navigate('/previous-papers')}
+          onClick={() => navigate(`/previous-papers/${subjectConfig.slug}`)}
           className="w-full mt-4 flex items-center gap-3 rounded-2xl px-4 py-3.5 bg-[var(--color-surface)] border border-[var(--color-gold)]/25"
         >
           <div className="w-10 h-10 rounded-xl bg-[var(--color-gold)]/15 flex items-center justify-center text-lg shrink-0">📚</div>

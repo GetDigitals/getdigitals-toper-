@@ -7,10 +7,22 @@
         "en": "What is the formula for Mean using the direct method?"
       },
       "options": [
-        { "hi": "x̄ = Σfᵢxᵢ / Σfᵢ", "en": "x̄ = Σfᵢxᵢ / Σfᵢ" },
-        { "hi": "x̄ = Σfᵢ / Σxᵢ", "en": "x̄ = Σfᵢ / Σxᵢ" },
-        { "hi": "x̄ = Σxᵢ / n", "en": "x̄ = Σxᵢ / n" },
-        { "hi": "x̄ = a + Σfᵢuᵢ", "en": "x̄ = a + Σfᵢuᵢ" }
+        {
+          "hi": "x̄ = Σfᵢxᵢ / Σfᵢ",
+          "en": "x̄ = Σfᵢxᵢ / Σfᵢ"
+        },
+        {
+          "hi": "x̄ = Σfᵢ / Σxᵢ",
+          "en": "x̄ = Σfᵢ / Σxᵢ"
+        },
+        {
+          "hi": "x̄ = Σxᵢ / n",
+          "en": "x̄ = Σxᵢ / n"
+        },
+        {
+          "hi": "x̄ = a + Σfᵢuᵢ",
+          "en": "x̄ = a + Σfᵢuᵢ"
+        }
       ],
       "correct": 0,
       "explanation": {
@@ -24,10 +36,22 @@
         "en": "How is the median class identified?"
       },
       "options": [
-        { "hi": "Jisme sabse zyada frequency ho", "en": "The class with the highest frequency" },
-        { "hi": "Jiska cf pehli baar N/2 ke barabar ya usse zyada ho", "en": "The class where cf first becomes ≥ N/2" },
-        { "hi": "Sabse pehli class", "en": "The very first class" },
-        { "hi": "Sabse aakhri class", "en": "The very last class" }
+        {
+          "hi": "Jisme sabse zyada frequency ho",
+          "en": "The class with the highest frequency"
+        },
+        {
+          "hi": "Jiska cf pehli baar N/2 ke barabar ya usse zyada ho",
+          "en": "The class where cf first becomes ≥ N/2"
+        },
+        {
+          "hi": "Sabse pehli class",
+          "en": "The very first class"
+        },
+        {
+          "hi": "Sabse aakhri class",
+          "en": "The very last class"
+        }
       ],
       "correct": 1,
       "explanation": {
@@ -41,10 +65,22 @@
         "en": "In the mode formula, what do f₁, f₀, f₂ represent?"
       },
       "options": [
-        { "hi": "f₁=modal class frequency, f₀=preceding class frequency, f₂=succeeding class frequency", "en": "f₁=modal class frequency, f₀=preceding class frequency, f₂=succeeding class frequency" },
-        { "hi": "Teeno hi modal class ki frequency hain", "en": "All three are the modal class's frequency" },
-        { "hi": "f₁=total frequency", "en": "f₁=total frequency" },
-        { "hi": "In sabka koi matlab nahi hota", "en": "These have no specific meaning" }
+        {
+          "hi": "f₁=modal class frequency, f₀=preceding class frequency, f₂=succeeding class frequency",
+          "en": "f₁=modal class frequency, f₀=preceding class frequency, f₂=succeeding class frequency"
+        },
+        {
+          "hi": "Teeno hi modal class ki frequency hain",
+          "en": "All three are the modal class's frequency"
+        },
+        {
+          "hi": "f₁=total frequency",
+          "en": "f₁=total frequency"
+        },
+        {
+          "hi": "In sabka koi matlab nahi hota",
+          "en": "These have no specific meaning"
+        }
       ],
       "correct": 0,
       "explanation": {
@@ -58,10 +94,22 @@
         "en": "When is the empirical relationship (3 Median = Mode + 2 Mean) used?"
       },
       "options": [
-        { "hi": "Jab sirf mean pata ho aur mode/median nikaalne ho", "en": "When only mean is known and mode/median need to be found" },
-        { "hi": "Sirf grouped data ke liye kabhi use nahi hoti", "en": "It's never used for grouped data" },
-        { "hi": "Sirf circles ke chapter mein", "en": "Only in the circles chapter" },
-        { "hi": "Sirf probability mein", "en": "Only in probability" }
+        {
+          "hi": "Jab sirf mean pata ho aur mode/median nikaalne ho",
+          "en": "When only mean is known and mode/median need to be found"
+        },
+        {
+          "hi": "Sirf grouped data ke liye kabhi use nahi hoti",
+          "en": "It's never used for grouped data"
+        },
+        {
+          "hi": "Sirf circles ke chapter mein",
+          "en": "Only in the circles chapter"
+        },
+        {
+          "hi": "Sirf probability mein",
+          "en": "Only in probability"
+        }
       ],
       "correct": 0,
       "explanation": {
@@ -75,10 +123,22 @@
         "en": "The 'less than' ogive is plotted against which limit?"
       },
       "options": [
-        { "hi": "Lower limit", "en": "Lower limit" },
-        { "hi": "Upper limit", "en": "Upper limit" },
-        { "hi": "Class mark", "en": "Class mark" },
-        { "hi": "Class size", "en": "Class size" }
+        {
+          "hi": "Lower limit",
+          "en": "Lower limit"
+        },
+        {
+          "hi": "Upper limit",
+          "en": "Upper limit"
+        },
+        {
+          "hi": "Class mark",
+          "en": "Class mark"
+        },
+        {
+          "hi": "Class size",
+          "en": "Class size"
+        }
       ],
       "correct": 1,
       "explanation": {
@@ -92,10 +152,22 @@
         "en": "What does the intersection point of the two ogives (less than and more than) represent?"
       },
       "options": [
-        { "hi": "Mean", "en": "Mean" },
-        { "hi": "Mode", "en": "Mode" },
-        { "hi": "Median", "en": "Median" },
-        { "hi": "Range", "en": "Range" }
+        {
+          "hi": "Mean",
+          "en": "Mean"
+        },
+        {
+          "hi": "Mode",
+          "en": "Mode"
+        },
+        {
+          "hi": "Median",
+          "en": "Median"
+        },
+        {
+          "hi": "Range",
+          "en": "Range"
+        }
       ],
       "correct": 2,
       "explanation": {
@@ -107,13 +179,13 @@
   "subjective": [
     {
       "question": {
-        "hi": "Step-deviation method se mean nikaalne ka formula likho aur samjhao ki ye kab use karna chahiye.",
-        "en": "Write the formula for mean using the step-deviation method and explain when it should be used."
+        "hi": "Assumed Mean Method se mean nikaalne ka formula likho aur samjhao ki 'a' kaise choose karte hain.",
+        "en": "Write the formula for mean using the Assumed Mean Method and explain how 'a' is chosen."
       },
       "marks": 3,
       "answer": {
-        "hi": "Step-deviation method: x̄ = a + h × (Σfᵢuᵢ/Σfᵢ), jaha uᵢ = (xᵢ−a)/h, a = assumed mean, h = class size.\nYe method tab use karo jab class sizes equal hon aur xᵢ values bade ho — kyunki h se divide karne se numbers chote ho jaate hain aur calculation easy ho jaati hai.",
-        "en": "Step-deviation method: x̄ = a + h × (Σfᵢuᵢ/Σfᵢ), where uᵢ = (xᵢ−a)/h, a = assumed mean, h = class size.\nUse this method when class sizes are equal and xᵢ values are large — dividing by h makes the numbers smaller and simplifies calculation."
+        "hi": "Assumed Mean Method: x̄ = a + Σ(fᵢdᵢ)/Σfᵢ, jahan dᵢ = xᵢ − a.\n'a' generally koi bhi class mark chuna ja sakta hai, lekin usually middle class mark choose karte hain taaki dᵢ ki values chhoti rahen aur calculation aasan ho.",
+        "en": "Assumed Mean Method: x̄ = a + Σ(fᵢdᵢ)/Σfᵢ, where dᵢ = xᵢ − a.\n'a' can generally be any class mark, but the middle class mark is usually chosen so that the dᵢ values stay small and calculation stays easy."
       }
     },
     {

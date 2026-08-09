@@ -10,22 +10,10 @@
         "en": "After balancing 2Mg + O₂ → 2MgO, how many O atoms are on the left side?"
       },
       "options": [
-        {
-          "hi": "1",
-          "en": "1"
-        },
-        {
-          "hi": "2",
-          "en": "2"
-        },
-        {
-          "hi": "3",
-          "en": "3"
-        },
-        {
-          "hi": "4",
-          "en": "4"
-        }
+        { "hi": "1", "en": "1" },
+        { "hi": "2", "en": "2" },
+        { "hi": "3", "en": "3" },
+        { "hi": "4", "en": "4" }
       ],
       "correct": 1,
       "explanation": {
@@ -40,22 +28,10 @@
         "en": "CaO(s) + H₂O(l) → Ca(OH)2(aq) is which type of reaction?"
       },
       "options": [
-        {
-          "hi": "Combination",
-          "en": "Combination"
-        },
-        {
-          "hi": "Decomposition",
-          "en": "Decomposition"
-        },
-        {
-          "hi": "Displacement",
-          "en": "Displacement"
-        },
-        {
-          "hi": "Double Displacement",
-          "en": "Double Displacement"
-        }
+        { "hi": "Combination", "en": "Combination" },
+        { "hi": "Decomposition", "en": "Decomposition" },
+        { "hi": "Displacement", "en": "Displacement" },
+        { "hi": "Double Displacement", "en": "Double Displacement" }
       ],
       "correct": 0,
       "explanation": {
@@ -82,22 +58,10 @@
         "en": "In Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s), why does iron displace copper?"
       },
       "options": [
-        {
-          "hi": "Iron heavier hai",
-          "en": "Iron is heavier"
-        },
-        {
-          "hi": "Iron copper se zyada reactive hai",
-          "en": "Iron is more reactive than copper"
-        },
-        {
-          "hi": "Iron sasta hai",
-          "en": "Iron is cheaper"
-        },
-        {
-          "hi": "Copper solid hai",
-          "en": "Copper is a solid"
-        }
+        { "hi": "Iron heavier hai", "en": "Iron is heavier" },
+        { "hi": "Iron copper se zyada reactive hai", "en": "Iron is more reactive than copper" },
+        { "hi": "Iron sasta hai", "en": "Iron is cheaper" },
+        { "hi": "Copper solid hai", "en": "Copper is a solid" }
       ],
       "correct": 1,
       "explanation": {
@@ -112,22 +76,10 @@
         "en": "In Na₂SO₄ + BaCl₂ → BaSO₄↓ + 2NaCl, what is BaSO₄?"
       },
       "options": [
-        {
-          "hi": "Gas",
-          "en": "A gas"
-        },
-        {
-          "hi": "Precipitate",
-          "en": "A precipitate"
-        },
-        {
-          "hi": "Catalyst",
-          "en": "A catalyst"
-        },
-        {
-          "hi": "Solvent",
-          "en": "A solvent"
-        }
+        { "hi": "Gas", "en": "A gas" },
+        { "hi": "Precipitate", "en": "A precipitate" },
+        { "hi": "Catalyst", "en": "A catalyst" },
+        { "hi": "Solvent", "en": "A solvent" }
       ],
       "correct": 1,
       "explanation": {
@@ -154,22 +106,10 @@
         "en": "In CuO + H₂ → Cu + H₂O, what is the oxidizing agent?"
       },
       "options": [
-        {
-          "hi": "CuO",
-          "en": "CuO"
-        },
-        {
-          "hi": "H₂",
-          "en": "H₂"
-        },
-        {
-          "hi": "Cu",
-          "en": "Cu"
-        },
-        {
-          "hi": "H₂O",
-          "en": "H₂O"
-        }
+        { "hi": "CuO", "en": "CuO" },
+        { "hi": "H₂", "en": "H₂" },
+        { "hi": "Cu", "en": "Cu" },
+        { "hi": "H₂O", "en": "H₂O" }
       ],
       "correct": 0,
       "explanation": {
@@ -184,22 +124,10 @@
         "en": "Which two factors are necessary for iron to rust?"
       },
       "options": [
-        {
-          "hi": "Heat aur pressure",
-          "en": "Heat and pressure"
-        },
-        {
-          "hi": "Moisture aur oxygen",
-          "en": "Moisture and oxygen"
-        },
-        {
-          "hi": "Light aur sound",
-          "en": "Light and sound"
-        },
-        {
-          "hi": "Acid aur base",
-          "en": "Acid and base"
-        }
+        { "hi": "Heat aur pressure", "en": "Heat and pressure" },
+        { "hi": "Moisture aur oxygen", "en": "Moisture and oxygen" },
+        { "hi": "Light aur sound", "en": "Light and sound" },
+        { "hi": "Acid aur base", "en": "Acid and base" }
       ],
       "correct": 1,
       "explanation": {
@@ -214,22 +142,10 @@
         "en": "Why is nitrogen gas filled in packaged fatty foods?"
       },
       "options": [
-        {
-          "hi": "Taste badhane ke liye",
-          "en": "To improve taste"
-        },
-        {
-          "hi": "Rancidity (oxidation) rokne ke liye",
-          "en": "To prevent rancidity (oxidation)"
-        },
-        {
-          "hi": "Weight badhane ke liye",
-          "en": "To increase weight"
-        },
-        {
-          "hi": "Color change karne ke liye",
-          "en": "To change colour"
-        }
+        { "hi": "Taste badhane ke liye", "en": "To improve taste" },
+        { "hi": "Rancidity (oxidation) rokne ke liye", "en": "To prevent rancidity (oxidation)" },
+        { "hi": "Weight badhane ke liye", "en": "To increase weight" },
+        { "hi": "Color change karne ke liye", "en": "To change colour" }
       ],
       "correct": 1,
       "explanation": {

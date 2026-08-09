@@ -23,16 +23,6 @@
     },
     {
       "front": {
-        "hi": "Mean (Step Deviation Method)?",
-        "en": "Mean (Step Deviation Method)?"
-      },
-      "back": {
-        "hi": "x̄ = a + [Σfᵢuᵢ/Σfᵢ]×h, uᵢ=(xᵢ−a)/h",
-        "en": "x̄ = a + [Σfᵢuᵢ/Σfᵢ]×h, uᵢ=(xᵢ−a)/h"
-      }
-    },
-    {
-      "front": {
         "hi": "Median formula?",
         "en": "Median formula?"
       },
@@ -103,13 +93,6 @@
     },
     {
       "label": {
-        "hi": "Mean — Step Deviation Method",
-        "en": "Mean — Step Deviation Method"
-      },
-      "formula": "x̄ = a + [Σ(fᵢuᵢ) / Σfᵢ] × h"
-    },
-    {
-      "label": {
         "hi": "Median",
         "en": "Median"
       },
@@ -162,10 +145,6 @@
           {
             "hi": "Assumed Mean Method",
             "en": "Assumed Mean Method"
-          },
-          {
-            "hi": "Step Deviation Method",
-            "en": "Step Deviation Method"
           }
         ]
       },

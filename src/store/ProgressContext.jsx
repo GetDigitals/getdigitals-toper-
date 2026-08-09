@@ -159,7 +159,7 @@ export function ProgressProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, { _hydrated: false });
   const [settings, setSettingsState] = useReducer(
     (s, a) => ({ ...s, ...a }),
-    { theme: 'dark', language: 'hinglish', sound: true, voice: false, _hydrated: false }
+    { theme: 'dark', language: 'hinglish', sound: true, voice: false, activeSubject: null, _hydrated: false }
   );
 
   useEffect(() => {
@@ -236,3 +236,4 @@ export function useProgress() {
   if (!ctx) throw new Error('useProgress must be used inside <ProgressProvider>');
   return ctx;
 }
+

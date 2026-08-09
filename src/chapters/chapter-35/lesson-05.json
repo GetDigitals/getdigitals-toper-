@@ -119,22 +119,10 @@
           "en": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe (thermite reaction) — which two correct classifications apply to this reaction?"
         },
         "options": [
-          {
-            "hi": "Combination aur Decomposition",
-            "en": "Combination and Decomposition"
-          },
-          {
-            "hi": "Displacement aur Redox",
-            "en": "Displacement and Redox"
-          },
-          {
-            "hi": "Double Displacement aur Combination",
-            "en": "Double Displacement and Combination"
-          },
-          {
-            "hi": "Sirf Decomposition",
-            "en": "Only Decomposition"
-          }
+          { "hi": "Combination aur Decomposition", "en": "Combination and Decomposition" },
+          { "hi": "Displacement aur Redox", "en": "Displacement and Redox" },
+          { "hi": "Double Displacement aur Combination", "en": "Double Displacement and Combination" },
+          { "hi": "Sirf Decomposition", "en": "Only Decomposition" }
         ],
         "correct": 1,
         "explanation": {
@@ -150,22 +138,10 @@
           "en": "What is the key difference between Displacement and Double Displacement?"
         },
         "options": [
-          {
-            "hi": "Displacement mein heat chahiye, double displacement mein nahi",
-            "en": "Displacement needs heat, double displacement doesn't"
-          },
-          {
-            "hi": "Displacement mein ek element doosre element ko replace karta hai; double displacement mein do compounds ions exchange karte hain",
-            "en": "In displacement, one element replaces another; in double displacement, two compounds exchange ions"
-          },
-          {
-            "hi": "Displacement sirf gases ke beech hoti hai",
-            "en": "Displacement only happens between gases"
-          },
-          {
-            "hi": "Dono same hain",
-            "en": "Both are the same"
-          }
+          { "hi": "Displacement mein heat chahiye, double displacement mein nahi", "en": "Displacement needs heat, double displacement doesn't" },
+          { "hi": "Displacement mein ek element doosre element ko replace karta hai; double displacement mein do compounds ions exchange karte hain", "en": "In displacement, one element replaces another; in double displacement, two compounds exchange ions" },
+          { "hi": "Displacement sirf gases ke beech hoti hai", "en": "Displacement only happens between gases" },
+          { "hi": "Dono same hain", "en": "Both are the same" }
         ],
         "correct": 1,
         "explanation": {
@@ -181,29 +157,12 @@
           "en": "Fill the blanks: In CuO + H₂ → Cu + H₂O, CuO is being ___ and H₂ is being ___."
         },
         "sentenceParts": [
-          {
-            "hi": "CuO ",
-            "en": "CuO is being "
-          },
-          {
-            "hi": " ho raha hai aur H₂ ",
-            "en": " and H₂ is being "
-          },
-          {
-            "hi": " ho raha hai.",
-            "en": "."
-          }
+          { "hi": "CuO ", "en": "CuO is being " },
+          { "hi": " ho raha hai aur H₂ ", "en": " and H₂ is being " },
+          { "hi": " ho raha hai.", "en": "." }
         ],
-        "blanks": [
-          "reduce",
-          "oxidize"
-        ],
-        "tokens": [
-          "reduce",
-          "oxidize",
-          "decompose",
-          "precipitate"
-        ],
+        "blanks": ["reduce", "oxidize"],
+        "tokens": ["reduce", "oxidize", "decompose", "precipitate"],
         "explanation": {
           "hi": "CuO apna oxygen khota hai (reduce), H₂ wo oxygen paata hai (oxidize) — ye classic redox aur displacement dono hai.",
           "en": "CuO loses its oxygen (reduced), H₂ gains that oxygen (oxidized) — this is a classic example of both redox and displacement."
@@ -212,18 +171,9 @@
     ]
   },
   "notes": [
-    {
-      "hi": "Ek reaction ek se zyada category mein aa sakti hai (jaise Displacement + Redox)",
-      "en": "A reaction can fall into more than one category (like Displacement + Redox)"
-    },
-    {
-      "hi": "Displacement = 1 element replace karta hai; Double Displacement = 2 compounds ions swap karte hain",
-      "en": "Displacement = 1 element replaces; Double Displacement = 2 compounds swap ions"
-    },
-    {
-      "hi": "Board answer likhte waqt: balance → state symbols → type → reason, sab include karo",
-      "en": "For board answers: include balance → state symbols → type → reason, all together"
-    }
+    { "hi": "Ek reaction ek se zyada category mein aa sakti hai (jaise Displacement + Redox)", "en": "A reaction can fall into more than one category (like Displacement + Redox)" },
+    { "hi": "Displacement = 1 element replace karta hai; Double Displacement = 2 compounds ions swap karte hain", "en": "Displacement = 1 element replaces; Double Displacement = 2 compounds swap ions" },
+    { "hi": "Board answer likhte waqt: balance → state symbols → type → reason, sab include karo", "en": "For board answers: include balance → state symbols → type → reason, all together" }
   ],
   "summary": {
     "hi": "Board exam mein questions concepts ko mix karke puchhte hain — balancing, reaction type identification, aur redox ko ek saath apply karna aana chahiye, taaki koi bhi mixed question confidently solve ho sake.",

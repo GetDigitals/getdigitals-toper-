@@ -7,22 +7,10 @@
         "en": "What type of reaction is AgNO₃ + NaCl → AgCl + NaNO₃?"
       },
       "options": [
-        {
-          "hi": "Combination",
-          "en": "Combination"
-        },
-        {
-          "hi": "Decomposition",
-          "en": "Decomposition"
-        },
-        {
-          "hi": "Double Displacement",
-          "en": "Double Displacement"
-        },
-        {
-          "hi": "Displacement",
-          "en": "Displacement"
-        }
+        { "hi": "Combination", "en": "Combination" },
+        { "hi": "Decomposition", "en": "Decomposition" },
+        { "hi": "Double Displacement", "en": "Double Displacement" },
+        { "hi": "Displacement", "en": "Displacement" }
       ],
       "correct": 2,
       "explanation": {
@@ -36,22 +24,10 @@
         "en": "In 2H₂O →(electricity) 2H₂ + O₂, what is the volume ratio of H₂ to O₂?"
       },
       "options": [
-        {
-          "hi": "1:1",
-          "en": "1:1"
-        },
-        {
-          "hi": "2:1",
-          "en": "2:1"
-        },
-        {
-          "hi": "1:2",
-          "en": "1:2"
-        },
-        {
-          "hi": "3:1",
-          "en": "3:1"
-        }
+        { "hi": "1:1", "en": "1:1" },
+        { "hi": "2:1", "en": "2:1" },
+        { "hi": "1:2", "en": "1:2" },
+        { "hi": "3:1", "en": "3:1" }
       ],
       "correct": 1,
       "explanation": {
@@ -65,22 +41,10 @@
         "en": "Which of these is NOT an example of a decomposition that is exothermic (it is instead endothermic)?"
       },
       "options": [
-        {
-          "hi": "CaCO₃ → CaO + CO₂ (heat se)",
-          "en": "CaCO₃ → CaO + CO₂ (by heat)"
-        },
-        {
-          "hi": "2AgBr → 2Ag + Br₂ (light se)",
-          "en": "2AgBr → 2Ag + Br₂ (by light)"
-        },
-        {
-          "hi": "2H₂O → 2H₂ + O₂ (electricity se)",
-          "en": "2H₂O → 2H₂ + O₂ (by electricity)"
-        },
-        {
-          "hi": "In sabhi mein energy input chahiye",
-          "en": "All of these require energy input"
-        }
+        { "hi": "CaCO₃ → CaO + CO₂ (heat se)", "en": "CaCO₃ → CaO + CO₂ (by heat)" },
+        { "hi": "2AgBr → 2Ag + Br₂ (light se)", "en": "2AgBr → 2Ag + Br₂ (by light)" },
+        { "hi": "2H₂O → 2H₂ + O₂ (electricity se)", "en": "2H₂O → 2H₂ + O₂ (by electricity)" },
+        { "hi": "In sabhi mein energy input chahiye", "en": "All of these require energy input" }
       ],
       "correct": 3,
       "explanation": {
@@ -94,22 +58,10 @@
         "en": "A metal M does not produce any gas when reacted with dilute HCl. What is M most likely to be?"
       },
       "options": [
-        {
-          "hi": "Zinc",
-          "en": "Zinc"
-        },
-        {
-          "hi": "Magnesium",
-          "en": "Magnesium"
-        },
-        {
-          "hi": "Copper",
-          "en": "Copper"
-        },
-        {
-          "hi": "Iron",
-          "en": "Iron"
-        }
+        { "hi": "Zinc", "en": "Zinc" },
+        { "hi": "Magnesium", "en": "Magnesium" },
+        { "hi": "Copper", "en": "Copper" },
+        { "hi": "Iron", "en": "Iron" }
       ],
       "correct": 2,
       "explanation": {
@@ -123,22 +75,10 @@
         "en": "Which statement correctly defines a 'reducing agent'?"
       },
       "options": [
-        {
-          "hi": "Jo khud reduce hota hai",
-          "en": "One that itself gets reduced"
-        },
-        {
-          "hi": "Jo doosre ko reduce karta hai aur khud oxidize hota hai",
-          "en": "One that reduces another substance and itself gets oxidized"
-        },
-        {
-          "hi": "Jo reaction ko slow karta hai",
-          "en": "One that slows down the reaction"
-        },
-        {
-          "hi": "Jo sirf gases ke saath react karta hai",
-          "en": "One that only reacts with gases"
-        }
+        { "hi": "Jo khud reduce hota hai", "en": "One that itself gets reduced" },
+        { "hi": "Jo doosre ko reduce karta hai aur khud oxidize hota hai", "en": "One that reduces another substance and itself gets oxidized" },
+        { "hi": "Jo reaction ko slow karta hai", "en": "One that slows down the reaction" },
+        { "hi": "Jo sirf gases ke saath react karta hai", "en": "One that only reacts with gases" }
       ],
       "correct": 1,
       "explanation": {
@@ -152,22 +92,10 @@
         "en": "Storing butter in a refrigerator slows down which process?"
       },
       "options": [
-        {
-          "hi": "Combination",
-          "en": "Combination"
-        },
-        {
-          "hi": "Rancidity (oxidation)",
-          "en": "Rancidity (oxidation)"
-        },
-        {
-          "hi": "Decomposition of water",
-          "en": "Decomposition of water"
-        },
-        {
-          "hi": "Precipitation",
-          "en": "Precipitation"
-        }
+        { "hi": "Combination", "en": "Combination" },
+        { "hi": "Rancidity (oxidation)", "en": "Rancidity (oxidation)" },
+        { "hi": "Decomposition of water", "en": "Decomposition of water" },
+        { "hi": "Precipitation", "en": "Precipitation" }
       ],
       "correct": 1,
       "explanation": {

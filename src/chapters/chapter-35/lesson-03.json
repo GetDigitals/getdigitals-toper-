@@ -126,22 +126,10 @@
           "en": "What is the simple definition of oxidation?"
         },
         "options": [
-          {
-            "hi": "Oxygen ka remove hona ya hydrogen ka add hona",
-            "en": "Removal of oxygen or addition of hydrogen"
-          },
-          {
-            "hi": "Oxygen ka add hona ya hydrogen ka remove hona",
-            "en": "Addition of oxygen or removal of hydrogen"
-          },
-          {
-            "hi": "Sirf color change hona",
-            "en": "Only a color change"
-          },
-          {
-            "hi": "Mass ka kam hona",
-            "en": "Decrease in mass"
-          }
+          { "hi": "Oxygen ka remove hona ya hydrogen ka add hona", "en": "Removal of oxygen or addition of hydrogen" },
+          { "hi": "Oxygen ka add hona ya hydrogen ka remove hona", "en": "Addition of oxygen or removal of hydrogen" },
+          { "hi": "Sirf color change hona", "en": "Only a color change" },
+          { "hi": "Mass ka kam hona", "en": "Decrease in mass" }
         ],
         "correct": 1,
         "explanation": {
@@ -157,22 +145,10 @@
           "en": "In the reaction CuO + H₂ → Cu + H₂O, what is the reducing agent?"
         },
         "options": [
-          {
-            "hi": "CuO",
-            "en": "CuO"
-          },
-          {
-            "hi": "Cu",
-            "en": "Cu"
-          },
-          {
-            "hi": "H₂",
-            "en": "H₂"
-          },
-          {
-            "hi": "H₂O",
-            "en": "H₂O"
-          }
+          { "hi": "CuO", "en": "CuO" },
+          { "hi": "Cu", "en": "Cu" },
+          { "hi": "H₂", "en": "H₂" },
+          { "hi": "H₂O", "en": "H₂O" }
         ],
         "correct": 2,
         "explanation": {
@@ -196,22 +172,10 @@
     ]
   },
   "notes": [
-    {
-      "hi": "Oxidation = oxygen add / hydrogen remove",
-      "en": "Oxidation = oxygen added / hydrogen removed"
-    },
-    {
-      "hi": "Reduction = oxygen remove / hydrogen add",
-      "en": "Reduction = oxygen removed / hydrogen added"
-    },
-    {
-      "hi": "Redox = oxidation + reduction saath-saath",
-      "en": "Redox = oxidation + reduction happening together"
-    },
-    {
-      "hi": "Oxidizing agent khud reduce hota hai; Reducing agent khud oxidize hota hai",
-      "en": "Oxidizing agent itself gets reduced; reducing agent itself gets oxidized"
-    }
+    { "hi": "Oxidation = oxygen add / hydrogen remove", "en": "Oxidation = oxygen added / hydrogen removed" },
+    { "hi": "Reduction = oxygen remove / hydrogen add", "en": "Reduction = oxygen removed / hydrogen added" },
+    { "hi": "Redox = oxidation + reduction saath-saath", "en": "Redox = oxidation + reduction happening together" },
+    { "hi": "Oxidizing agent khud reduce hota hai; Reducing agent khud oxidize hota hai", "en": "Oxidizing agent itself gets reduced; reducing agent itself gets oxidized" }
   ],
   "summary": {
     "hi": "Redox reactions mein ek substance oxidize hota hai (oxygen gain/hydrogen lose) aur doosra reduce hota hai (oxygen lose/hydrogen gain) — dono ek saath, ek hi reaction mein hote hain.",

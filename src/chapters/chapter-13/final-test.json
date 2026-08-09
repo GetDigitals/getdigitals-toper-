@@ -186,31 +186,31 @@
       "type": "mcq",
       "difficulty": "hard",
       "question": {
-        "hi": "Step Deviation Method mein Σfᵢ=60, Σfᵢuᵢ=−15, a=25, h=10 hai. Mean kya hoga?",
-        "en": "In the Step Deviation Method, Σfᵢ=60, Σfᵢuᵢ=−15, a=25, h=10. What is the mean?"
+        "hi": "Ek grouped data ka Σfᵢxᵢ=1150 aur Σfᵢ=25 hai (Direct Method). Mean kya hoga?",
+        "en": "A grouped dataset has Σfᵢxᵢ=1150 and Σfᵢ=25 (Direct Method). What is the mean?"
       },
       "options": [
         {
-          "hi": "22.5",
-          "en": "22.5"
+          "hi": "46",
+          "en": "46"
         },
         {
-          "hi": "20",
-          "en": "20"
+          "hi": "44",
+          "en": "44"
         },
         {
-          "hi": "25",
-          "en": "25"
+          "hi": "48",
+          "en": "48"
         },
         {
-          "hi": "27.5",
-          "en": "27.5"
+          "hi": "50",
+          "en": "50"
         }
       ],
       "correct": 0,
       "explanation": {
-        "hi": "Mean = 25 + (−15/60)×10 = 25 − 2.5 = 22.5",
-        "en": "Mean = 25 + (−15/60)×10 = 25 − 2.5 = 22.5"
+        "hi": "Mean = Σfᵢxᵢ/Σfᵢ = 1150/25 = 46",
+        "en": "Mean = Σfᵢxᵢ/Σfᵢ = 1150/25 = 46"
       }
     },
     {
