@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-04",
+  "objective": [
+    {
+      "question": {
+        "hi": "Quadratic equation 2x² - 5x + 3 = 0 mein 'a' ki value kya hai?",
+        "en": "In the quadratic equation 2x² - 5x + 3 = 0, what is the value of 'a'?"
+      },
+      "options": [
+        { "hi": "-5", "en": "-5" },
+        { "hi": "2", "en": "2" },
+        { "hi": "3", "en": "3" },
+        { "hi": "0", "en": "0" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Standard form ax²+bx+c=0 mein compare karne pe a=2, b=-5, c=3.",
+        "en": "Comparing with standard form ax²+bx+c=0: a=2, b=-5, c=3."
+      }
+    },
+    {
+      "question": {
+        "hi": "x² - 7x + 12 = 0 ke roots kya hain?",
+        "en": "What are the roots of x² - 7x + 12 = 0?"
+      },
+      "options": [
+        { "hi": "3, 4", "en": "3, 4" },
+        { "hi": "2, 6", "en": "2, 6" },
+        { "hi": "1, 12", "en": "1, 12" },
+        { "hi": "-3, -4", "en": "-3, -4" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "x²-7x+12=(x-3)(x-4)=0, isliye x=3 ya x=4.",
+        "en": "x²-7x+12=(x-3)(x-4)=0, so x=3 or x=4."
+      }
+    },
+    {
+      "question": {
+        "hi": "Kisi quadratic equation ka discriminant 0 hai. Roots kaisi honge?",
+        "en": "The discriminant of a quadratic equation is 0. What kind of roots will it have?"
+      },
+      "options": [
+        { "hi": "Do distinct real roots", "en": "Two distinct real roots" },
+        { "hi": "Do equal real roots", "en": "Two equal real roots" },
+        { "hi": "No real roots", "en": "No real roots" },
+        { "hi": "Teen roots", "en": "Three roots" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "D=0 hone pe quadratic equation ke do roots equal hote hain (repeated root).",
+        "en": "When D=0, the quadratic equation has two equal (repeated) real roots."
+      }
+    },
+    {
+      "question": {
+        "hi": "Quadratic formula ke according x ki value kya hai?",
+        "en": "According to the quadratic formula, what is the value of x?"
+      },
+      "options": [
+        { "hi": "x = (-b ± √(b²-4ac)) / 2a", "en": "x = (-b ± √(b²-4ac)) / 2a" },
+        { "hi": "x = (-b ± √(b²+4ac)) / 2a", "en": "x = (-b ± √(b²+4ac)) / 2a" },
+        { "hi": "x = (b ± √(b²-4ac)) / a", "en": "x = (b ± √(b²-4ac)) / a" },
+        { "hi": "x = (-b ± √(4ac-b²)) / 2a", "en": "x = (-b ± √(4ac-b²)) / 2a" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Quadratic formula: x = (-b ± √(b²-4ac)) / 2a, jahan D=b²-4ac discriminant hai.",
+        "en": "Quadratic formula: x = (-b ± √(b²-4ac)) / 2a, where D=b²-4ac is the discriminant."
+      }
+    },
+    {
+      "question": {
+        "hi": "kx² + 4x + 1 = 0 ke equal roots ke liye k ki value kya honi chahiye?",
+        "en": "For kx² + 4x + 1 = 0 to have equal roots, what should be the value of k?"
+      },
+      "options": [
+        { "hi": "k = 4", "en": "k = 4" },
+        { "hi": "k = 2", "en": "k = 2" },
+        { "hi": "k = 1", "en": "k = 1" },
+        { "hi": "k = 0", "en": "k = 0" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Equal roots ke liye D=0: 16-4k=0 → k=4. (Recheck: b²-4ac=16-4(k)(1)=0 → k=4)",
+        "en": "For equal roots, D=0: 16-4k=0 → k=4. (b²-4ac=16-4(k)(1)=0 → k=4)"
+      }
+    },
+    {
+      "question": {
+        "hi": "x² + 5x + 6 = 0 ko factorize karo.",
+        "en": "Factorize x² + 5x + 6 = 0."
+      },
+      "options": [
+        { "hi": "(x+2)(x+3)=0", "en": "(x+2)(x+3)=0" },
+        { "hi": "(x+1)(x+6)=0", "en": "(x+1)(x+6)=0" },
+        { "hi": "(x-2)(x-3)=0", "en": "(x-2)(x-3)=0" },
+        { "hi": "(x+6)(x-1)=0", "en": "(x+6)(x-1)=0" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "2 aur 3 ka product=6 aur sum=5, isliye x²+5x+6=(x+2)(x+3).",
+        "en": "2 and 3 have product=6 and sum=5, so x²+5x+6=(x+2)(x+3)."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Quadratic formula use karke 2x² - 7x + 3 = 0 ke roots nikaalo.",
+        "en": "Using the quadratic formula, find the roots of 2x² - 7x + 3 = 0."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "a=2, b=-7, c=3. D=49-24=25. x=(7±5)/4 → x=3 ya x=1/2",
+        "en": "a=2, b=-7, c=3. D=49-24=25. x=(7±5)/4 → x=3 or x=1/2"
+      }
+    },
+    {
+      "question": {
+        "hi": "Completing the square method se x² - 6x + 5 = 0 solve karo.",
+        "en": "Solve x² - 6x + 5 = 0 using the completing-the-square method."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "x²-6x+5=0 → x²-6x=-5 → x²-6x+9=-5+9 → (x-3)²=4 → x-3=±2 → x=5 ya x=1",
+        "en": "x²-6x+5=0 → x²-6x=-5 → x²-6x+9=-5+9 → (x-3)²=4 → x-3=±2 → x=5 or x=1"
+      }
+    },
+    {
+      "question": {
+        "hi": "Do consecutive positive integers ka product 306 hai. Unhe nikaalo.",
+        "en": "The product of two consecutive positive integers is 306. Find them."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Let integers = x, x+1. x(x+1)=306 → x²+x-306=0 → D=1+1224=1225, √1225=35.\nx=(-1+35)/2=17. Integers: 17, 18",
+        "en": "Let integers = x, x+1. x(x+1)=306 → x²+x-306=0 → D=1+1224=1225, √1225=35.\nx=(-1+35)/2=17. Integers: 17, 18"
+      }
+    },
+    {
+      "question": {
+        "hi": "Check karo ki 3x² - 4x + 4/3 = 0 ke roots real hain ya nahi. Nature of roots bataao.",
+        "en": "Check if the roots of 3x² - 4x + 4/3 = 0 are real. State the nature of the roots."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "a=3, b=-4, c=4/3. D=b²-4ac=16-4(3)(4/3)=16-16=0.\nD=0, isliye roots real aur equal hain.",
+        "en": "a=3, b=-4, c=4/3. D=b²-4ac=16-4(3)(4/3)=16-16=0.\nD=0, so the roots are real and equal."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek train 360 km ki journey uniform speed pe complete karti hai. Agar speed 5 km/h zyada hoti, toh train 1 hour kam leti. Original speed nikaalne ke liye quadratic equation banao aur solve karo.",
+        "en": "A train covers a 360 km journey at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Form a quadratic equation to find the original speed and solve it."
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "Let speed = x km/h. 360/x - 360/(x+5) = 1\n360(x+5) - 360x = x(x+5)\n1800 = x²+5x\nx²+5x-1800=0\nD=25+7200=7225, √7225=85\nx=(-5+85)/2=40\nOriginal speed = 40 km/h",
+        "en": "Let speed = x km/h. 360/x - 360/(x+5) = 1\n360(x+5) - 360x = x(x+5)\n1800 = x²+5x\nx²+5x-1800=0\nD=25+7200=7225, √7225=85\nx=(-5+85)/2=40\nOriginal speed = 40 km/h"
+      }
+    }
+  ]
+}
