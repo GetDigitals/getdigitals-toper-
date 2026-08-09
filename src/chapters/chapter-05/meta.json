@@ -4,16 +4,10 @@
   "class": 10,
   "subject": "Maths",
   "board": "CBSE",
-  "title": {
-    "hi": "Arithmetic Progressions",
-    "en": "Arithmetic Progressions"
-  },
+  "title": "Arithmetic Progressions",
   "icon": "🔢",
   "color": "#FFC93C",
-  "description": {
-    "hi": "Numbers ki sequences jisme har term ke beech ek fixed gap hota hai — nth term, sum of n terms, aur real-life word problems, sab yahan.",
-    "en": "Sequences of numbers with a fixed gap between consecutive terms — nth term, sum of n terms, and real-life word problems, all here."
-  },
+  "description": "Numbers ki sequences jisme har term ke beech ek fixed gap hota hai — nth term, sum of n terms, aur real-life word problems, sab yahan.",
   "xpReward": 300,
   "coinReward": 60,
   "badge": {
