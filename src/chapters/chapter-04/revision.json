@@ -1,0 +1,44 @@
+{
+  "chapterId": "chapter-04",
+  "flashcards": [
+    { "front": { "hi": "Standard form", "en": "Standard form" }, "back": { "hi": "ax² + bx + c = 0, a ≠ 0", "en": "ax² + bx + c = 0, a ≠ 0" } },
+    { "front": { "hi": "Discriminant formula", "en": "Discriminant formula" }, "back": { "hi": "D = b² - 4ac", "en": "D = b² - 4ac" } },
+    { "front": { "hi": "D > 0 ka matlab", "en": "D > 0 means" }, "back": { "hi": "Do distinct real roots", "en": "Two distinct real roots" } },
+    { "front": { "hi": "D = 0 ka matlab", "en": "D = 0 means" }, "back": { "hi": "Do equal real roots", "en": "Two equal real roots" } },
+    { "front": { "hi": "D < 0 ka matlab", "en": "D < 0 means" }, "back": { "hi": "No real roots", "en": "No real roots" } },
+    { "front": { "hi": "3 solving methods", "en": "3 solving methods" }, "back": { "hi": "Factorization, Completing the Square, Quadratic Formula", "en": "Factorization, Completing the Square, Quadratic Formula" } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Standard Form", "en": "Standard Form" }, "formula": "ax² + bx + c = 0 (a ≠ 0)" },
+    { "label": { "hi": "Quadratic Formula", "en": "Quadratic Formula" }, "formula": "x = (-b ± √(b²-4ac)) / 2a" },
+    { "label": { "hi": "Discriminant", "en": "Discriminant" }, "formula": "D = b² - 4ac" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Quadratic Equations", "en": "Quadratic Equations" },
+    "branches": [
+      {
+        "label": { "hi": "Solving Methods", "en": "Solving Methods" },
+        "children": [
+          { "hi": "Factorization — bracket splitting", "en": "Factorization — bracket splitting" },
+          { "hi": "Completing the Square", "en": "Completing the Square" },
+          { "hi": "Quadratic Formula", "en": "Quadratic Formula" }
+        ]
+      },
+      {
+        "label": { "hi": "Nature of Roots (Discriminant)", "en": "Nature of Roots (Discriminant)" },
+        "children": [
+          { "hi": "D>0 → Two distinct real roots", "en": "D>0 → Two distinct real roots" },
+          { "hi": "D=0 → Two equal real roots", "en": "D=0 → Two equal real roots" },
+          { "hi": "D<0 → No real roots", "en": "D<0 → No real roots" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "Standard form kya hai?", "en": "What is the standard form?" }, "explanation": { "hi": "ax²+bx+c=0, a≠0", "en": "ax²+bx+c=0, a≠0" } },
+    { "question": { "hi": "Discriminant formula?", "en": "Discriminant formula?" }, "explanation": { "hi": "D=b²-4ac", "en": "D=b²-4ac" } },
+    { "question": { "hi": "D=0 pe roots kaisi hoti hain?", "en": "What kind of roots when D=0?" }, "explanation": { "hi": "Equal real roots", "en": "Equal real roots" } },
+    { "question": { "hi": "D<0 pe kya hota hai?", "en": "What happens when D<0?" }, "explanation": { "hi": "No real roots", "en": "No real roots" } },
+    { "question": { "hi": "3 solving methods bताao", "en": "Name the 3 solving methods" }, "explanation": { "hi": "Factorization, Completing Square, Quadratic Formula", "en": "Factorization, Completing Square, Quadratic Formula" } }
+  ]
+}
