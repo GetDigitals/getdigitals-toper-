@@ -58,33 +58,33 @@
     {
       "type": "text",
       "content": {
-        "hi": "Ek reaction ek se zyada category mein bhi aa sakti hai — jaise CuO + H2 → Cu + H2O ek Displacement bhi hai (H2 ne O ko displace kiya CuO se) aur Redox bhi hai (CuO reduce, H2 oxidize). Exam mein dono angles se answer likhna full marks deta hai.",
-        "en": "A single reaction can also fall into more than one category — like CuO + H2 → Cu + H2O is both a Displacement (H2 displaces O from CuO) and a Redox reaction (CuO is reduced, H2 is oxidized). Answering from both angles in the exam earns full marks."
+        "hi": "Ek reaction ek se zyada category mein bhi aa sakti hai — jaise CuO + H₂ → Cu + H₂O ek Displacement bhi hai (H₂ ne O ko displace kiya CuO se) aur Redox bhi hai (CuO reduce, H₂ oxidize). Exam mein dono angles se answer likhna full marks deta hai.",
+        "en": "A single reaction can also fall into more than one category — like CuO + H₂ → Cu + H₂O is both a Displacement (H₂ displaces O from CuO) and a Redox reaction (CuO is reduced, H₂ is oxidized). Answering from both angles in the exam earns full marks."
       }
     }
   ],
   "examples": [
     {
       "problem": {
-        "hi": "(Board pattern, 3 marks) Ye equation balance karo, state symbols lagao (Pb solid, N2O4 aur PbO dono solid, O2 gas), aur reaction type identify karo: Pb(NO3)2 → PbO + NO2 + O2",
-        "en": "(Board pattern, 3 marks) Balance this equation, add state symbols (Pb(NO3)2 and PbO are solids, NO2 and O2 are gases), and identify the reaction type: Pb(NO3)2 → PbO + NO2 + O2"
+        "hi": "(Board pattern, 3 marks) Ye equation balance karo, state symbols lagao (Pb solid, N₂O₄ aur PbO dono solid, O₂ gas), aur reaction type identify karo: Pb(NO₃)2 → PbO + NO₂ + O₂",
+        "en": "(Board pattern, 3 marks) Balance this equation, add state symbols (Pb(NO₃)2 and PbO are solids, NO₂ and O₂ are gases), and identify the reaction type: Pb(NO₃)2 → PbO + NO₂ + O₂"
       },
       "steps": [
         {
-          "hi": "N count karo: left 2, right 1 → right me 2NO2 likho: Pb(NO3)2 → PbO + 2NO2 + O2",
-          "en": "Count N: 2 on left, 1 on right → write 2NO2 on right: Pb(NO3)2 → PbO + 2NO2 + O2"
+          "hi": "N count karo: left 2, right 1 → right me 2NO₂ likho: Pb(NO₃)2 → PbO + 2NO₂ + O₂",
+          "en": "Count N: 2 on left, 1 on right → write 2NO₂ on right: Pb(NO₃)2 → PbO + 2NO₂ + O₂"
         },
         {
-          "hi": "O count karo: left 6, right = 1(PbO)+4(2NO2)+2(O2) = 7 — Pb ko 2 se multiply karo: 2Pb(NO3)2 → 2PbO + 4NO2 + O2",
-          "en": "Count O: left 6, right = 1(PbO)+4(2NO2)+2(O2) = 7 — multiply Pb side by 2: 2Pb(NO3)2 → 2PbO + 4NO2 + O2"
+          "hi": "O count karo: left 6, right = 1(PbO)+4(2NO₂)+2(O₂) = 7 — Pb ko 2 se multiply karo: 2Pb(NO₃)2 → 2PbO + 4NO₂ + O₂",
+          "en": "Count O: left 6, right = 1(PbO)+4(2NO₂)+2(O₂) = 7 — multiply Pb side by 2: 2Pb(NO₃)2 → 2PbO + 4NO₂ + O₂"
         },
         {
-          "hi": "Recheck: left O = 2×6=12, right O = 2(PbO)+8(4NO2)+2(O2) = 12 ✓ Pb: 2=2 ✓ N: 4=4 ✓ — Balanced!",
-          "en": "Recheck: left O = 2×6=12, right O = 2(PbO)+8(4NO2)+2(O2) = 12 ✓ Pb: 2=2 ✓ N: 4=4 ✓ — Balanced!"
+          "hi": "Recheck: left O = 2×6=12, right O = 2(PbO)+8(4NO₂)+2(O₂) = 12 ✓ Pb: 2=2 ✓ N: 4=4 ✓ — Balanced!",
+          "en": "Recheck: left O = 2×6=12, right O = 2(PbO)+8(4NO₂)+2(O₂) = 12 ✓ Pb: 2=2 ✓ N: 4=4 ✓ — Balanced!"
         },
         {
-          "hi": "State symbols ke saath: 2Pb(NO3)2(s) → 2PbO(s) + 4NO2(g) + O2(g). Ek hi reactant do+ products mein toot raha hai aur heat se ho raha hai — ye Thermal Decomposition Reaction hai.",
-          "en": "With state symbols: 2Pb(NO3)2(s) → 2PbO(s) + 4NO2(g) + O2(g). A single reactant is breaking into multiple products due to heat — this is a Thermal Decomposition Reaction."
+          "hi": "State symbols ke saath: 2Pb(NO₃)2(s) → 2PbO(s) + 4NO₂(g) + O₂(g). Ek hi reactant do+ products mein toot raha hai aur heat se ho raha hai — ye Thermal Decomposition Reaction hai.",
+          "en": "With state symbols: 2Pb(NO₃)2(s) → 2PbO(s) + 4NO₂(g) + O₂(g). A single reactant is breaking into multiple products due to heat — this is a Thermal Decomposition Reaction."
         }
       ]
     },
@@ -99,8 +99,8 @@
           "en": "(a) This is Corrosion — the slow oxidation of silver."
         },
         {
-          "hi": "(b) Hawa mein present sulphur compounds ke saath react karke silver, silver sulphide (Ag2S) banata hai, jo kaale color ka hota hai: 2Ag(s) + S(traces in air) → Ag2S(s) [black]",
-          "en": "(b) Silver reacts with sulphur compounds present in the air to form silver sulphide (Ag2S), which is black in colour: 2Ag(s) + S(traces in air) → Ag2S(s) [black]"
+          "hi": "(b) Hawa mein present sulphur compounds ke saath react karke silver, silver sulphide (Ag₂S) banata hai, jo kaale color ka hota hai: 2Ag(s) + S(traces in air) → Ag₂S(s) [black]",
+          "en": "(b) Silver reacts with sulphur compounds present in the air to form silver sulphide (Ag₂S), which is black in colour: 2Ag(s) + S(traces in air) → Ag₂S(s) [black]"
         },
         {
           "hi": "Ye corrosion ka hi ek type hai, jaise iron ki rusting, bas yaha silver aur sulphur involve hote hain.",
@@ -115,8 +115,8 @@
         "type": "mcq",
         "difficulty": "medium",
         "question": {
-          "hi": "Fe2O3 + 2Al → Al2O3 + 2Fe (thermite reaction) — is reaction ke do sahi types kaunse hain?",
-          "en": "Fe2O3 + 2Al → Al2O3 + 2Fe (thermite reaction) — which two correct classifications apply to this reaction?"
+          "hi": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe (thermite reaction) — is reaction ke do sahi types kaunse hain?",
+          "en": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe (thermite reaction) — which two correct classifications apply to this reaction?"
         },
         "options": [
           { "hi": "Combination aur Decomposition", "en": "Combination and Decomposition" },
@@ -126,8 +126,8 @@
         ],
         "correct": 1,
         "explanation": {
-          "hi": "Aluminium, iron ko uske oxide se displace karta hai (Displacement), aur saath hi Fe2O3 reduce ho raha hai jabki Al oxidize ho raha hai (Redox).",
-          "en": "Aluminium displaces iron from its oxide (Displacement), and simultaneously Fe2O3 is reduced while Al is oxidized (Redox)."
+          "hi": "Aluminium, iron ko uske oxide se displace karta hai (Displacement), aur saath hi Fe₂O₃ reduce ho raha hai jabki Al oxidize ho raha hai (Redox).",
+          "en": "Aluminium displaces iron from its oxide (Displacement), and simultaneously Fe₂O₃ is reduced while Al is oxidized (Redox)."
         }
       },
       {
@@ -153,19 +153,19 @@
         "type": "dragdrop",
         "difficulty": "hard",
         "question": {
-          "hi": "Blanks fill karo: CuO + H2 → Cu + H2O mein CuO ___ ho raha hai aur H2 ___ ho raha hai.",
-          "en": "Fill the blanks: In CuO + H2 → Cu + H2O, CuO is being ___ and H2 is being ___."
+          "hi": "Blanks fill karo: CuO + H₂ → Cu + H₂O mein CuO ___ ho raha hai aur H₂ ___ ho raha hai.",
+          "en": "Fill the blanks: In CuO + H₂ → Cu + H₂O, CuO is being ___ and H₂ is being ___."
         },
         "sentenceParts": [
           { "hi": "CuO ", "en": "CuO is being " },
-          { "hi": " ho raha hai aur H2 ", "en": " and H2 is being " },
+          { "hi": " ho raha hai aur H₂ ", "en": " and H₂ is being " },
           { "hi": " ho raha hai.", "en": "." }
         ],
         "blanks": ["reduce", "oxidize"],
         "tokens": ["reduce", "oxidize", "decompose", "precipitate"],
         "explanation": {
-          "hi": "CuO apna oxygen khota hai (reduce), H2 wo oxygen paata hai (oxidize) — ye classic redox aur displacement dono hai.",
-          "en": "CuO loses its oxygen (reduced), H2 gains that oxygen (oxidized) — this is a classic example of both redox and displacement."
+          "hi": "CuO apna oxygen khota hai (reduce), H₂ wo oxygen paata hai (oxidize) — ye classic redox aur displacement dono hai.",
+          "en": "CuO loses its oxygen (reduced), H₂ gains that oxygen (oxidized) — this is a classic example of both redox and displacement."
         }
       }
     ]
