@@ -3,8 +3,8 @@
   "objective": [
     {
       "question": {
-        "hi": "AgNO3 + NaCl → AgCl + NaNO3 kis type ki reaction hai?",
-        "en": "What type of reaction is AgNO3 + NaCl → AgCl + NaNO3?"
+        "hi": "AgNO₃ + NaCl → AgCl + NaNO₃ kis type ki reaction hai?",
+        "en": "What type of reaction is AgNO₃ + NaCl → AgCl + NaNO₃?"
       },
       "options": [
         { "hi": "Combination", "en": "Combination" },
@@ -14,14 +14,14 @@
       ],
       "correct": 2,
       "explanation": {
-        "hi": "Do compounds apas mein ions swap kar rahe hain (Ag-Cl aur Na-NO3 exchange) — Double Displacement.",
-        "en": "Two compounds are exchanging ions (Ag-Cl and Na-NO3 swap) — Double Displacement."
+        "hi": "Do compounds apas mein ions swap kar rahe hain (Ag-Cl aur Na-NO₃ exchange) — Double Displacement.",
+        "en": "Two compounds are exchanging ions (Ag-Cl and Na-NO₃ swap) — Double Displacement."
       }
     },
     {
       "question": {
-        "hi": "2H2O →(electricity) 2H2 + O2 mein H2 aur O2 ka volume ratio kya hota hai?",
-        "en": "In 2H2O →(electricity) 2H2 + O2, what is the volume ratio of H2 to O2?"
+        "hi": "2H₂O →(electricity) 2H₂ + O₂ mein H₂ aur O₂ ka volume ratio kya hota hai?",
+        "en": "In 2H₂O →(electricity) 2H₂ + O₂, what is the volume ratio of H₂ to O₂?"
       },
       "options": [
         { "hi": "1:1", "en": "1:1" },
@@ -31,8 +31,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "hi": "Balanced equation ke coefficients se: 2 mol H2 : 1 mol O2 = 2:1.",
-        "en": "From the balanced equation's coefficients: 2 mol H2 : 1 mol O2 = 2:1."
+        "hi": "Balanced equation ke coefficients se: 2 mol H₂ : 1 mol O₂ = 2:1.",
+        "en": "From the balanced equation's coefficients: 2 mol H₂ : 1 mol O₂ = 2:1."
       }
     },
     {
@@ -41,9 +41,9 @@
         "en": "Which of these is NOT an example of a decomposition that is exothermic (it is instead endothermic)?"
       },
       "options": [
-        { "hi": "CaCO3 → CaO + CO2 (heat se)", "en": "CaCO3 → CaO + CO2 (by heat)" },
-        { "hi": "2AgBr → 2Ag + Br2 (light se)", "en": "2AgBr → 2Ag + Br2 (by light)" },
-        { "hi": "2H2O → 2H2 + O2 (electricity se)", "en": "2H2O → 2H2 + O2 (by electricity)" },
+        { "hi": "CaCO₃ → CaO + CO₂ (heat se)", "en": "CaCO₃ → CaO + CO₂ (by heat)" },
+        { "hi": "2AgBr → 2Ag + Br₂ (light se)", "en": "2AgBr → 2Ag + Br₂ (by light)" },
+        { "hi": "2H₂O → 2H₂ + O₂ (electricity se)", "en": "2H₂O → 2H₂ + O₂ (by electricity)" },
         { "hi": "In sabhi mein energy input chahiye", "en": "All of these require energy input" }
       ],
       "correct": 3,
@@ -65,8 +65,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "hi": "Copper hydrogen se kam reactive hai, isliye ye dilute acids se H2 gas produce nahi karta.",
-        "en": "Copper is less reactive than hydrogen, so it does not displace H2 gas from dilute acids."
+        "hi": "Copper hydrogen se kam reactive hai, isliye ye dilute acids se H₂ gas produce nahi karta.",
+        "en": "Copper is less reactive than hydrogen, so it does not displace H₂ gas from dilute acids."
       }
     },
     {
@@ -107,13 +107,13 @@
   "subjective": [
     {
       "question": {
-        "hi": "Balance karo aur state symbols ke saath likho: Al + O2 → Al2O3. Ye kis type ki reaction hai?",
-        "en": "Balance and write with state symbols: Al + O2 → Al2O3. What type of reaction is this?"
+        "hi": "Balance karo aur state symbols ke saath likho: Al + O₂ → Al₂O₃. Ye kis type ki reaction hai?",
+        "en": "Balance and write with state symbols: Al + O₂ → Al₂O₃. What type of reaction is this?"
       },
       "marks": 3,
       "answer": {
-        "hi": "Al count: 1 vs 2 → 2Al likho. O count: 2 vs 3 → LCM 6 use karo: 4Al + 3O2 → 2Al2O3\nCheck: Al=4=4, O=6=6 ✓\nState symbols ke saath: 4Al(s) + 3O2(g) → 2Al2O3(s)\nYe Combination Reaction hai (do reactants jud kar ek product ban rahe hain).",
-        "en": "Al count: 1 vs 2 → write 2Al. O count: 2 vs 3 → use LCM 6: 4Al + 3O2 → 2Al2O3\nCheck: Al=4=4, O=6=6 ✓\nWith state symbols: 4Al(s) + 3O2(g) → 2Al2O3(s)\nThis is a Combination Reaction (two reactants combine into one product)."
+        "hi": "Al count: 1 vs 2 → 2Al likho. O count: 2 vs 3 → LCM 6 use karo: 4Al + 3O₂ → 2Al₂O₃\nCheck: Al=4=4, O=6=6 ✓\nState symbols ke saath: 4Al(s) + 3O₂(g) → 2Al₂O₃(s)\nYe Combination Reaction hai (do reactants jud kar ek product ban rahe hain).",
+        "en": "Al count: 1 vs 2 → write 2Al. O count: 2 vs 3 → use LCM 6: 4Al + 3O₂ → 2Al₂O₃\nCheck: Al=4=4, O=6=6 ✓\nWith state symbols: 4Al(s) + 3O₂(g) → 2Al₂O₃(s)\nThis is a Combination Reaction (two reactants combine into one product)."
       }
     },
     {
@@ -129,13 +129,13 @@
     },
     {
       "question": {
-        "hi": "MnO2 + 4HCl → MnCl2 + 2H2O + Cl2 reaction mein kaunsa substance oxidize ho raha hai aur kaunsa reduce? Reason ke saath explain karo.",
-        "en": "In MnO2 + 4HCl → MnCl2 + 2H2O + Cl2, which substance is oxidized and which is reduced? Explain with reason."
+        "hi": "MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂ reaction mein kaunsa substance oxidize ho raha hai aur kaunsa reduce? Reason ke saath explain karo.",
+        "en": "In MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂, which substance is oxidized and which is reduced? Explain with reason."
       },
       "marks": 3,
       "answer": {
-        "hi": "MnO2 apna oxygen khota hai aur MnCl2 banta hai — MnO2 reduce ho raha hai.\nHCl (chlorine part) oxidize hokar Cl2 gas banata hai — HCl oxidize ho raha hai.\nDono ek saath ho rahe hain isliye ye Redox Reaction hai; MnO2 oxidizing agent hai aur HCl reducing agent hai.",
-        "en": "MnO2 loses its oxygen and becomes MnCl2 — MnO2 is reduced.\nHCl (the chlorine part) gets oxidized to form Cl2 gas — HCl is oxidized.\nBoth happen together, so this is a Redox Reaction; MnO2 is the oxidizing agent and HCl is the reducing agent."
+        "hi": "MnO₂ apna oxygen khota hai aur MnCl₂ banta hai — MnO₂ reduce ho raha hai.\nHCl (chlorine part) oxidize hokar Cl₂ gas banata hai — HCl oxidize ho raha hai.\nDono ek saath ho rahe hain isliye ye Redox Reaction hai; MnO₂ oxidizing agent hai aur HCl reducing agent hai.",
+        "en": "MnO₂ loses its oxygen and becomes MnCl₂ — MnO₂ is reduced.\nHCl (the chlorine part) gets oxidized to form Cl₂ gas — HCl is oxidized.\nBoth happen together, so this is a Redox Reaction; MnO₂ is the oxidizing agent and HCl is the reducing agent."
       }
     },
     {
@@ -156,8 +156,8 @@
       },
       "marks": 4,
       "answer": {
-        "hi": "(a) Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g) — ye already balanced hai.\n(b) Ye Displacement Reaction hai — zinc, hydrogen ko uske compound se displace kar raha hai (zinc hydrogen se zyada reactive hai).\n(c) Zinc granules dheere-dheere ghulenge, colourless gas (H2) bubbles ke roop mein evolve hoga jo 'pop' sound ke saath burn karta hai (test for H2 gas).",
-        "en": "(a) Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g) — this is already balanced.\n(b) This is a Displacement Reaction — zinc displaces hydrogen from its compound (zinc is more reactive than hydrogen).\n(c) The zinc granules will gradually dissolve, and a colourless gas (H2) will be evolved as bubbles, which burns with a 'pop' sound (test for H2 gas)."
+        "hi": "(a) Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g) — ye already balanced hai.\n(b) Ye Displacement Reaction hai — zinc, hydrogen ko uske compound se displace kar raha hai (zinc hydrogen se zyada reactive hai).\n(c) Zinc granules dheere-dheere ghulenge, colourless gas (H₂) bubbles ke roop mein evolve hoga jo 'pop' sound ke saath burn karta hai (test for H₂ gas).",
+        "en": "(a) Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g) — this is already balanced.\n(b) This is a Displacement Reaction — zinc displaces hydrogen from its compound (zinc is more reactive than hydrogen).\n(c) The zinc granules will gradually dissolve, and a colourless gas (H₂) will be evolved as bubbles, which burns with a 'pop' sound (test for H₂ gas)."
       }
     }
   ]
