@@ -1,0 +1,24 @@
+{
+  "id": "chapter-65",
+  "order": 18,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Development",
+  "icon": "📈",
+  "color": "#C084FC",
+  "description": "What development means, different ways to measure it, and comparing states/countries using income and other criteria. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-65-master",
+    "name": {
+      "hi": "Development Master",
+      "en": "Development Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
