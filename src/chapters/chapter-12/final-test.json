@@ -1,0 +1,169 @@
+{
+  "chapterId": "chapter-12",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Us ghan (cube) ka volume gyat kijiye jiski bhuja 4 cm hai.",
+        "en": "Find the volume of a cube whose side is 4 cm."
+      },
+      "options": [
+        { "hi": "16 cm³", "en": "16 cm³" },
+        { "hi": "48 cm³", "en": "48 cm³" },
+        { "hi": "64 cm³", "en": "64 cm³" },
+        { "hi": "96 cm³", "en": "96 cm³" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Volume = a³ = 4³ = 64 cm³",
+        "en": "Volume = a³ = 4³ = 64 cm³"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Cuboid ke Total Surface Area mein top aur bottom faces exclude ho jaati hain.",
+        "en": "The Total Surface Area of a cuboid excludes the top and bottom faces."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — TSA mein saari 6 faces include hoti hain; sirf Lateral Surface Area mein top/bottom exclude hote hain.",
+        "en": "False — TSA includes all 6 faces; only the Lateral Surface Area excludes the top/bottom."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "7 cm trijya aur 10 cm ऊँchai wale cylinder ka volume gyat kijiye. (π = 22/7 lijiye)",
+        "en": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)"
+      },
+      "options": [
+        { "hi": "1100 cm³", "en": "1100 cm³" },
+        { "hi": "1540 cm³", "en": "1540 cm³" },
+        { "hi": "1980 cm³", "en": "1980 cm³" },
+        { "hi": "2200 cm³", "en": "2200 cm³" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "V = πr²h = (22/7) × 7 × 7 × 10 = 1540 cm³",
+        "en": "V = πr²h = (22/7) × 7 × 7 × 10 = 1540 cm³"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek shanku ki aadhar trijya 6 cm aur ऊँchai 8 cm hai. Iski tirchi ऊँchai kya hogi?",
+        "en": "A cone has base radius 6 cm and height 8 cm. What is its slant height?"
+      },
+      "options": [
+        { "hi": "8 cm", "en": "8 cm" },
+        { "hi": "10 cm", "en": "10 cm" },
+        { "hi": "12 cm", "en": "12 cm" },
+        { "hi": "14 cm", "en": "14 cm" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "l = √(r²+h²) = √(36+64) = √100 = 10 cm",
+        "en": "l = √(r²+h²) = √(36+64) = √100 = 10 cm"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Ek sphere ka kewal ek hi surface area hota hai — koi flat base nahi.",
+        "en": "A sphere has only one surface area — no flat base."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — sphere mein koi flat face nahi hoti, isliye TSA = CSA = 4πr².",
+        "en": "True — a sphere has no flat face, so its TSA = CSA = 4πr²."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Trijya r wale hemisphere ka kul pristhiya kshetrafal kya hai?",
+        "en": "What is the total surface area of a hemisphere of radius r?"
+      },
+      "options": [
+        { "hi": "2πr²", "en": "2πr²" },
+        { "hi": "3πr²", "en": "3πr²" },
+        { "hi": "4πr²", "en": "4πr²" },
+        { "hi": "πr²", "en": "πr²" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "TSA = curved (2πr²) + flat base (πr²) = 3πr²",
+        "en": "TSA = curved (2πr²) + flat base (πr²) = 3πr²"
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Jab do solids combine hote hain, unka total volume individual volumes ke sum se kam ho sakta hai.",
+        "en": "When two solids combine, their total volume can be less than the sum of individual volumes."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — combination ka volume hamesha exactly individual volumes ka sum hota hai, kam ya zyada nahi.",
+        "en": "False — the volume of a combination is always exactly the sum of the individual volumes, never less or more."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek solid cylinder ke upar hemisphere lagi hai, dono ki trijya 3.5 cm hai aur kul ऊँchai 9.5 cm hai. Cylinder ki ऊँchai kya hai?",
+        "en": "A cylinder has a hemisphere on top, both with radius 3.5 cm and total height 9.5 cm. What is the cylinder's height?"
+      },
+      "options": [
+        { "hi": "3.5 cm", "en": "3.5 cm" },
+        { "hi": "6 cm", "en": "6 cm" },
+        { "hi": "9.5 cm", "en": "9.5 cm" },
+        { "hi": "13 cm", "en": "13 cm" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Cylinder ki ऊँchai = kul ऊँchai − hemisphere ki trijya = 9.5 − 3.5 = 6 cm",
+        "en": "Cylinder's height = total height − hemisphere's radius = 9.5 − 3.5 = 6 cm"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek cylinder ka CSA 88 cm² hai aur ऊँchai 7 cm hai. Iski trijya gyat kijiye. (π = 22/7 lijiye)",
+        "en": "The curved surface area of a cylinder is 88 cm² and its height is 7 cm. Find its radius. (Use π = 22/7)"
+      },
+      "options": [
+        { "hi": "1 cm", "en": "1 cm" },
+        { "hi": "2 cm", "en": "2 cm" },
+        { "hi": "4 cm", "en": "4 cm" },
+        { "hi": "7 cm", "en": "7 cm" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "CSA = 2πrh → 88 = 2 × (22/7) × r × 7 = 44r → r = 2 cm",
+        "en": "CSA = 2πrh → 88 = 2 × (22/7) × r × 7 = 44r → r = 2 cm"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Do shankuon ki ऊँchaiyon ka anupat 1:3 hai aur trijyaon ka anupat 3:1 hai. Unke volumes ka anupat kya hai?",
+        "en": "Two cones have heights in ratio 1:3 and radii in ratio 3:1. Find the ratio of their volumes."
+      },
+      "options": [
+        { "hi": "1:1", "en": "1:1" },
+        { "hi": "1:3", "en": "1:3" },
+        { "hi": "3:1", "en": "3:1" },
+        { "hi": "9:1", "en": "9:1" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "V₁/V₂ = (r₁²h₁)/(r₂²h₂) = (9×1)/(1×3) = 3:1",
+        "en": "V₁/V₂ = (r₁²h₁)/(r₂²h₂) = (9×1)/(1×3) = 3:1"
+      }
+    }
+  ]
+}

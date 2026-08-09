@@ -1,0 +1,114 @@
+{
+  "chapterId": "chapter-12",
+  "flashcards": [
+    {
+      "front": { "hi": "Cube ke formulas", "en": "Cube formulas" },
+      "back": { "hi": "TSA = 6a², Volume = a³", "en": "TSA = 6a², Volume = a³" }
+    },
+    {
+      "front": { "hi": "Cuboid ke formulas", "en": "Cuboid formulas" },
+      "back": { "hi": "TSA = 2(lb+bh+hl), Volume = lbh", "en": "TSA = 2(lb+bh+hl), Volume = lbh" }
+    },
+    {
+      "front": { "hi": "Cone ki slant height", "en": "Cone's slant height" },
+      "back": { "hi": "l = √(r² + h²) — hamesha pehle nikalo", "en": "l = √(r² + h²) — always find this first" }
+    },
+    {
+      "front": { "hi": "Hemisphere ka TSA", "en": "Hemisphere's TSA" },
+      "back": { "hi": "3πr² (curved 2πr² + flat base πr²)", "en": "3πr² (curved 2πr² + flat base πr²)" }
+    },
+    {
+      "front": { "hi": "Combination ka Volume", "en": "Combination's Volume" },
+      "back": { "hi": "Individual volumes ka simple SUM", "en": "Simple SUM of individual volumes" }
+    },
+    {
+      "front": { "hi": "Combination ka Surface Area", "en": "Combination's Surface Area" },
+      "back": { "hi": "Exposed surfaces ka SUM − hidden/common area", "en": "SUM of exposed surfaces − hidden/common area" }
+    },
+    {
+      "front": { "hi": "π ki value kab kya use karo", "en": "When to use which value of π" },
+      "back": { "hi": "Trijya 7 ka gunaj ho toh 22/7, warna 3.14", "en": "22/7 when radius is a multiple of 7, otherwise 3.14" }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": { "hi": "Cube", "en": "Cube" },
+      "formula": "TSA = 6a², LSA = 4a², Volume = a³"
+    },
+    {
+      "label": { "hi": "Cuboid", "en": "Cuboid" },
+      "formula": "TSA = 2(lb+bh+hl), LSA = 2h(l+b), Volume = lbh"
+    },
+    {
+      "label": { "hi": "Cylinder", "en": "Cylinder" },
+      "formula": "TSA = 2πr(r+h), CSA = 2πrh, Volume = πr²h"
+    },
+    {
+      "label": { "hi": "Cone", "en": "Cone" },
+      "formula": "TSA = πr(r+l), CSA = πrl, Volume = (1/3)πr²h, l = √(r²+h²)"
+    },
+    {
+      "label": { "hi": "Sphere", "en": "Sphere" },
+      "formula": "TSA = 4πr², Volume = (4/3)πr³"
+    },
+    {
+      "label": { "hi": "Hemisphere", "en": "Hemisphere" },
+      "formula": "TSA = 3πr², CSA = 2πr², Volume = (2/3)πr³"
+    },
+    {
+      "label": { "hi": "Cylinder + Hemisphere (upar)", "en": "Cylinder + Hemisphere (on top)" },
+      "formula": "TSA = 2πrh + 3πr²"
+    },
+    {
+      "label": { "hi": "Cylinder + 2 Hemispheres (donon siro par)", "en": "Cylinder + 2 Hemispheres (both ends)" },
+      "formula": "TSA = 2πrh + 4πr²"
+    }
+  ],
+  "mindMap": {
+    "root": { "hi": "Surface Areas and Volumes", "en": "Surface Areas and Volumes" },
+    "branches": [
+      {
+        "label": { "hi": "Basic Solids", "en": "Basic Solids" },
+        "children": [
+          { "hi": "Cube aur Cuboid", "en": "Cube and Cuboid" },
+          { "hi": "Cylinder aur Cone", "en": "Cylinder and Cone" },
+          { "hi": "Sphere aur Hemisphere", "en": "Sphere and Hemisphere" }
+        ]
+      },
+      {
+        "label": { "hi": "Combinations", "en": "Combinations" },
+        "children": [
+          { "hi": "Cylinder + Hemisphere", "en": "Cylinder + Hemisphere" },
+          { "hi": "Capsule (cylinder + 2 hemispheres)", "en": "Capsule (cylinder + 2 hemispheres)" },
+          { "hi": "Scooped-out solids", "en": "Scooped-out solids" }
+        ]
+      },
+      {
+        "label": { "hi": "Key Skills", "en": "Key Skills" },
+        "children": [
+          { "hi": "Slant height nikaalna (cone)", "en": "Finding slant height (cone)" },
+          { "hi": "Hidden area identify karna (combinations)", "en": "Identifying hidden area (combinations)" },
+          { "hi": "π = 22/7 ya 3.14 chunna", "en": "Choosing π = 22/7 or 3.14" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": { "hi": "Cube ka volume formula?", "en": "Cube's volume formula?" },
+      "explanation": { "hi": "a³", "en": "a³" }
+    },
+    {
+      "question": { "hi": "Hemisphere ka TSA?", "en": "Hemisphere's TSA?" },
+      "explanation": { "hi": "3πr²", "en": "3πr²" }
+    },
+    {
+      "question": { "hi": "Cone ki slant height ka formula?", "en": "Cone's slant height formula?" },
+      "explanation": { "hi": "l = √(r²+h²)", "en": "l = √(r²+h²)" }
+    },
+    {
+      "question": { "hi": "Cylinder + hemisphere upar wale solid ka TSA?", "en": "TSA of cylinder + hemisphere on top?" },
+      "explanation": { "hi": "2πrh + 3πr²", "en": "2πrh + 3πr²" }
+    }
+  ]
+}

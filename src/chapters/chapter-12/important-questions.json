@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-12",
+  "objective": [
+    {
+      "question": {
+        "hi": "Trijya r wale hemisphere ka kul pristhiya kshetrafal hai:",
+        "en": "The total surface area of a hemisphere of radius r is:"
+      },
+      "options": [
+        { "hi": "2πr²", "en": "2πr²" },
+        { "hi": "3πr²", "en": "3πr²" },
+        { "hi": "4πr²", "en": "4πr²" },
+        { "hi": "πr²", "en": "πr²" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Hemisphere ka TSA = vakra pristh (2πr²) + aadhar (πr²) = 3πr²",
+        "en": "TSA of hemisphere = Curved surface (2πr²) + Base (πr²) = 3πr²"
+      }
+    },
+    {
+      "question": {
+        "hi": "Usi trijya aur ऊँchai wale shanku ka volume, cylinder ke volume ka kitna hota hai?",
+        "en": "The volume of a cone with same radius and height as a cylinder is:"
+      },
+      "options": [
+        { "hi": "Barabar", "en": "Same" },
+        { "hi": "Dogunа", "en": "Double" },
+        { "hi": "Ek-tihai", "en": "One-third" },
+        { "hi": "Aadha", "en": "Half" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Shanku ka volume = (1/3)πr²h, cylinder ka volume = πr²h — isliye shanku, cylinder ka ek-tihai hota hai.",
+        "en": "Volume of cone = (1/3)πr²h, volume of cylinder = πr²h — so the cone's volume is one-third of the cylinder's."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek cuboid ki dimensions 2a × a × a hain. Iska TSA, samaan bhuja a wale cube ke TSA se kis anupat mein hai?",
+        "en": "A cuboid has dimensions 2a × a × a. What is the ratio of its TSA to a cube of side a?"
+      },
+      "options": [
+        { "hi": "1:1", "en": "1:1" },
+        { "hi": "5:3", "en": "5:3" },
+        { "hi": "2:1", "en": "2:1" },
+        { "hi": "3:2", "en": "3:2" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Cuboid TSA = 2(2a×a + a×a + a×2a) = 2×5a² = 10a². Cube TSA = 6a². Anupat = 10a²:6a² = 5:3.",
+        "en": "Cuboid TSA = 2(2a×a + a×a + a×2a) = 2×5a² = 10a². Cube TSA = 6a². Ratio = 10a²:6a² = 5:3."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek khilona trijya r wale hemisphere ke upar samaan trijya r wale shanku ke sanyojan ka hai. Agar shanku ki ऊँchai bhi r ke barabar hai, toh khilone ka kul volume kya hoga?",
+        "en": "A toy is in the shape of a cone mounted on a hemisphere of the same radius r. If the cone's height also equals r, what is the total volume of the toy?"
+      },
+      "options": [
+        { "hi": "πr³", "en": "πr³" },
+        { "hi": "(2/3)πr³", "en": "(2/3)πr³" },
+        { "hi": "(4/3)πr³", "en": "(4/3)πr³" },
+        { "hi": "2πr³", "en": "2πr³" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Volume = (2/3)πr³ + (1/3)πr²(r) = (2/3)πr³ + (1/3)πr³ = πr³",
+        "en": "Volume = (2/3)πr³ + (1/3)πr²(r) = (2/3)πr³ + (1/3)πr³ = πr³"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek siro par hemisphere lage cylinder ki kul ऊँchai H hai. Agar trijya r hai, toh cylinder ki ऊँchai kya hai?",
+        "en": "A cylinder with hemisphere on one end has total height H. If radius is r, the height of cylinder is:"
+      },
+      "options": [
+        { "hi": "H - r", "en": "H - r" },
+        { "hi": "H - 2r", "en": "H - 2r" },
+        { "hi": "H + r", "en": "H + r" },
+        { "hi": "H/2", "en": "H/2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Kul ऊँchai = cylinder ki ऊँchai + hemisphere ki trijya. Ataha cylinder ki ऊँchai = H - r.",
+        "en": "Total height = height of cylinder + radius of hemisphere. So height of cylinder = H - r."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek cylinder aur shanku ki samaan trijya r aur samaan ऊँchai h hai. Unke vakra pristhiya kshetrafalon ka anupat kya hai?",
+        "en": "A cylinder and cone have same radius r and same height h. The ratio of their curved surface areas is:"
+      },
+      "options": [
+        { "hi": "1:1", "en": "1:1" },
+        { "hi": "2:1", "en": "2:1" },
+        { "hi": "2h : l", "en": "2h : l" },
+        { "hi": "Nirdharit nahi kiya ja sakta", "en": "Cannot be determined" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Cylinder ka CSA = 2πrh, shanku ka CSA = πrl jahan l = √(r²+h²). Anupat = 2πrh : πrl = 2h : l.",
+        "en": "CSA of cylinder = 2πrh, CSA of cone = πrl where l = √(r²+h²). Ratio = 2πrh : πrl = 2h : l."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Ek shanku aakar tambu ki ऊँchai 10 m aur aadhar ki trijya 24 m hai. Tambu ki tirchi ऊँchai aur ₹70 prati m² ki dar se canvas ki lagat gyat kijiye. (π = 22/7 lijiye)",
+        "en": "A conical tent is 10 m high and the radius of its base is 24 m. Find the slant height of the tent and the cost of the canvas required at ₹70 per m². (Use π = 22/7)"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "l = √(r²+h²) = √(24²+10²) = √(576+100) = √676 = 26 m\nCanvas area = CSA = πrl = (22/7) × 24 × 26 = 1961.14 m²\nCost = Area × 70 = 1961.14 × 70 = ₹137,280",
+        "en": "l = √(r²+h²) = √(24²+10²) = √(576+100) = √676 = 26 m\nCanvas area = CSA = πrl = (22/7) × 24 × 26 = 1961.14 m²\nCost = Area × 70 = 1961.14 × 70 = ₹137,280"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek solid cylinder ka kul pristhiya kshetrafal 462 cm² hai. Iska vakra pristhiya kshetrafal, kul pristhiya kshetrafal ka ek-tihai hai. Cylinder ka volume gyat kijiye.",
+        "en": "A solid cylinder has total surface area 462 cm². Its curved surface area is one-third of its total surface area. Find the volume of the cylinder."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "CSA = 462/3 = 154 cm². TSA = 2πrh + 2πr² = 462. CSA = 2πrh = 154.\nIsliye 2πr² = 462 − 154 = 308 → r² = 49 → r = 7 cm\n2πrh = 154 → h = 154/(2π×7) = 3.5 cm\nVolume = πr²h = (22/7) × 49 × 3.5 = 539 cm³",
+        "en": "CSA = 462/3 = 154 cm². TSA = 2πrh + 2πr² = 462. CSA = 2πrh = 154.\nSo 2πr² = 462 − 154 = 308 → r² = 49 → r = 7 cm\n2πrh = 154 → h = 154/(2π×7) = 3.5 cm\nVolume = πr²h = (22/7) × 49 × 3.5 = 539 cm³"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek thos khilona ek hemisphere ke upar ek lamb vrittiya shanku ke aakar ka hai. Shanku ki ऊँchai 4 cm aur aadhar ka vyas 6 cm hai. Gyat kijiye: (i) khilone ka volume, (ii) khilone ka kul pristhiya kshetrafal. (π = 3.14 lijiye)",
+        "en": "A solid toy is in the form of a hemisphere surmounted by a right circular cone. The height of the cone is 4 cm and the diameter of the base is 6 cm. Find: (i) the volume of the toy, (ii) the total surface area of the toy. (Use π = 3.14)"
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "r = 3 cm, h = 4 cm, l = √(9+16) = 5 cm\n(i) Volume = (2/3)πr³ + (1/3)πr²h = (1/3)πr²(2r+h) = (1/3)(3.14)(9)(10) = 94.2 cm³\n(ii) TSA = 2πr² + πrl = πr(2r+l) = 3.14 × 3 × 11 = 103.62 cm²",
+        "en": "r = 3 cm, h = 4 cm, l = √(9+16) = 5 cm\n(i) Volume = (2/3)πr³ + (1/3)πr²h = (1/3)πr²(2r+h) = (1/3)(3.14)(9)(10) = 94.2 cm³\n(ii) TSA = 2πr² + πrl = πr(2r+l) = 3.14 × 3 × 11 = 103.62 cm²"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek lakdi ki vastu ko ek thos cylinder ke donon siro se hemisphere khodkar banaya gaya. Yadi cylinder ki ऊँchai 10 cm aur aadhar ki trijya 3.5 cm hai, toh vastu ka kul pristhiya kshetrafal gyat kijiye. (π = 22/7 lijiye)",
+        "en": "A wooden article was made by scooping out a hemisphere from each end of a solid cylinder. If the height of the cylinder is 10 cm and its base radius is 3.5 cm, find the total surface area of the article. (Use π = 22/7)"
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "TSA = Cylinder ka CSA + Do hemispheres ka CSA = 2πrh + 2×(2πr²) = 2πr(h+2r)\n= 2 × (22/7) × 3.5 × (10+7) = 22 × 17 = 374 cm²",
+        "en": "TSA = CSA of cylinder + CSA of two hemispheres = 2πrh + 2×(2πr²) = 2πr(h+2r)\n= 2 × (22/7) × 3.5 × (10+7) = 22 × 17 = 374 cm²"
+      }
+    },
+    {
+      "question": {
+        "hi": "18 cm vyas wala ek sphere, 36 cm vyas wale ek cylindrical vessel mein daala jaata hai jo aadhi paani se bhara hai. Agar sphere pura dooba hua hai, toh paani ke level mein vridhi gyat kijiye.",
+        "en": "A sphere of diameter 18 cm is dropped into a cylindrical vessel of diameter 36 cm, partly filled with water. If the sphere is completely submerged, find the rise in water level."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Sphere ki trijya = 9 cm, Cylinder ki trijya = 18 cm\nSphere ka volume = paani ke rise ka volume\n(4/3)π(9)³ = π(18)² × h\n972 = 324h → h = 3 cm",
+        "en": "Radius of sphere = 9 cm, Radius of cylinder = 18 cm\nVolume of sphere = Volume of water risen\n(4/3)π(9)³ = π(18)² × h\n972 = 324h → h = 3 cm"
+      }
+    }
+  ]
+}

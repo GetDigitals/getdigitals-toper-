@@ -1,0 +1,84 @@
+{
+  "id": "chapter-12-lesson-01",
+  "chapterId": "chapter-12",
+  "order": 1,
+  "title": { "hi": "Introduction, Cube aur Cuboid", "en": "Introduction, Cube and Cuboid" },
+  "estimatedMinutes": 12,
+  "xpReward": 45,
+  "coinReward": 12,
+  "hero": {
+    "emoji": "📦",
+    "headline": { "hi": "3D Shapes Ki Duniya", "en": "The World of 3D Shapes" },
+    "subtext": { "hi": "Har 3D object jagah occupy karta hai (Volume) aur uska ek outer covering hota hai (Surface Area).", "en": "Every 3D object occupies space (Volume) and has an outer covering (Surface Area)." }
+  },
+  "story": {
+    "text": {
+      "hi": "Har 3D object jagah occupy karta hai (Volume) aur uska ek outer covering hota hai (Surface Area). Is chapter mein hum basic solids aur unke combinations ke liye ye calculate karna seekhenge. Yaad rakhna: Jab do solids join hote hain, VOLUME hamesha ADD hota hai, lekin SURFACE AREA kam ho sakta hai jahan woh touch karte hain.",
+      "en": "Every 3D object occupies space (Volume) and has an outer covering (Surface Area). In this chapter, we learn to calculate these for basic solids and their combinations. Remember: When two solids are joined, VOLUME always ADDS up, but SURFACE AREA may DECREASE where they touch."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Cube mein sabhi sides equal hoti hain (length = a). Cuboid mein length (l), breadth (b), aur height (h) alag-alag hoti hain. Total Surface Area mein saari faces included hoti hain. Lateral/Curved Surface Area mein top aur bottom faces excluded hoti hain.",
+        "en": "A cube has all sides equal (length = a). A cuboid has length (l), breadth (b), and height (h). Total Surface Area includes all faces. Lateral/Curved Surface Area excludes top and bottom faces."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Cube: TSA = 6a², LSA = 4a², Volume = a³"
+    },
+    {
+      "type": "formula",
+      "content": "Cuboid: TSA = 2(lb + bh + hl), LSA = 2h(l + b), Volume = lbh"
+    }
+  ],
+  "examples": [
+    {
+      "problem": { "hi": "Us ghan (cube) ka kul pristhiya kshetrafal gyat kijiye jiski bhuja 5 cm hai.", "en": "Find the total surface area of a cube whose side is 5 cm." },
+      "steps": [
+        { "hi": "Diya gaya: ghan ki bhuja, a = 5 cm", "en": "Given: Side of cube, a = 5 cm" },
+        { "hi": "Ghan ke TSA ka sutra = 6a²", "en": "Formula for TSA of cube = 6a²" },
+        { "hi": "TSA = 6 × (5)² = 6 × 25 = 150 cm²", "en": "TSA = 6 × (5)² = 6 × 25 = 150 cm²" },
+        { "hi": "Hamesha pehle formula likho — calculation galat hone par bhi kuch marks milte hain!", "en": "Always write the formula first — you get some marks even if the calculation goes wrong!" }
+      ]
+    },
+    {
+      "problem": { "hi": "Ek cuboid ki dimensions 10 cm × 8 cm × 6 cm hain. Iska volume aur total surface area gyat kijiye.", "en": "A cuboid has dimensions 10 cm × 8 cm × 6 cm. Find its volume and total surface area." },
+      "steps": [
+        { "hi": "Diya gaya: l = 10 cm, b = 8 cm, h = 6 cm", "en": "Given: l = 10 cm, b = 8 cm, h = 6 cm" },
+        { "hi": "Volume = lbh = 10 × 8 × 6 = 480 cm³", "en": "Volume = lbh = 10 × 8 × 6 = 480 cm³" },
+        { "hi": "TSA = 2(lb + bh + hl) = 2(80 + 48 + 60) = 2 × 188 = 376 cm²", "en": "TSA = 2(lb + bh + hl) = 2(80 + 48 + 60) = 2 × 188 = 376 cm²" },
+        { "hi": "✅ Volume = 480 cm³, TSA = 376 cm²", "en": "✅ Volume = 480 cm³, TSA = 376 cm²" }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": { "hi": "Agar cube ki bhuja double kar di jaaye, toh iska volume kitna badh jaayega?", "en": "If the side of a cube is doubled, by what factor does its volume increase?" },
+        "options": [
+          { "hi": "2 guna", "en": "2 times" },
+          { "hi": "4 guna", "en": "4 times" },
+          { "hi": "8 guna", "en": "8 times" },
+          { "hi": "6 guna", "en": "6 times" }
+        ],
+        "correct": 2,
+        "explanation": { "hi": "Volume = a³, isliye a ko double karne par volume (2a)³ = 8a³ ho jaata hai — 8 guna.", "en": "Volume = a³, so doubling a gives (2a)³ = 8a³ — 8 times the volume." }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Cube: TSA = 6a², Volume = a³", "en": "Cube: TSA = 6a², Volume = a³" },
+    { "hi": "Cuboid: TSA = 2(lb+bh+hl), Volume = lbh", "en": "Cuboid: TSA = 2(lb+bh+hl), Volume = lbh" },
+    { "hi": "TSA mein saari faces, LSA mein top/bottom exclude", "en": "TSA includes all faces, LSA excludes top/bottom" }
+  ],
+  "summary": {
+    "hi": "Ab tum cube aur cuboid ke TSA, LSA aur volume formulas confidently use kar sakte ho.",
+    "en": "You can now confidently use the TSA, LSA, and volume formulas for cubes and cuboids."
+  },
+  "reward": { "badge": null }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "chapter-12-lesson-03",
+  "chapterId": "chapter-12",
+  "order": 3,
+  "title": { "hi": "Sphere aur Hemisphere", "en": "Sphere and Hemisphere" },
+  "estimatedMinutes": 13,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🌐",
+    "headline": { "hi": "Perfectly Round Shapes", "en": "Perfectly Round Shapes" },
+    "subtext": { "hi": "Sphere ek perfectly round 3D shape hai — hemisphere uska aadha hissa.", "en": "A sphere is a perfectly round 3D shape — a hemisphere is half of it." }
+  },
+  "story": {
+    "text": {
+      "hi": "Sphere ek perfectly round 3D shape hai. Hemisphere sphere ka aadha hissa hota hai. Hemisphere mein ek curved surface aur ek circular base hota hai (sirf total surface area ke liye).",
+      "en": "A sphere is a perfectly round 3D shape. A hemisphere is half of a sphere. A hemisphere has a curved surface plus a circular base (only for total surface area)."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "Sphere: TSA = 4πr², Volume = (4/3)πr³"
+    },
+    {
+      "type": "formula",
+      "content": "Hemisphere: TSA = 3πr² (curved 2πr² + base πr²), CSA = 2πr², Volume = (2/3)πr³"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Sphere ke liye sirf ek surface area hota hai (koi flat base nahi), lekin hemisphere ka TSA nikaalte waqt curved part ke saath base circle bhi jodna hota hai — ye students aksar bhool jaate hain.",
+        "en": "A sphere has only one surface area (no flat base), but when finding a hemisphere's TSA you must add the flat circular base to the curved part — this is something students often forget."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": { "hi": "3.5 cm trijya wale sphere ka volume aur total pristhiya kshetrafal gyat kijiye. (π = 22/7 lijiye)", "en": "Find the volume and total surface area of a sphere of radius 3.5 cm. (Use π = 22/7)" },
+      "steps": [
+        { "hi": "Diya gaya: r = 3.5 cm", "en": "Given: r = 3.5 cm" },
+        { "hi": "Volume = (4/3)πr³ = (4/3) × (22/7) × (3.5)³ = (4/3) × (22/7) × 42.875", "en": "Volume = (4/3)πr³ = (4/3) × (22/7) × (3.5)³ = (4/3) × (22/7) × 42.875" },
+        { "hi": "Volume ≈ 179.67 cm³", "en": "Volume ≈ 179.67 cm³" },
+        { "hi": "TSA = 4πr² = 4 × (22/7) × (3.5)² = 4 × (22/7) × 12.25 = 154 cm²", "en": "TSA = 4πr² = 4 × (22/7) × (3.5)² = 4 × (22/7) × 12.25 = 154 cm²" },
+        { "hi": "✅ Volume ≈ 179.67 cm³, TSA = 154 cm²", "en": "✅ Volume ≈ 179.67 cm³, TSA = 154 cm²" }
+      ]
+    },
+    {
+      "problem": { "hi": "Ek hemispherical bowl ki trijya 3.5 cm hai. Iski capacity (volume) aur vakra pristhiya kshetrafal gyat kijiye. (π = 22/7 lijiye)", "en": "A hemispherical bowl has radius 3.5 cm. Find its capacity (volume) and curved surface area. (Use π = 22/7)" },
+      "steps": [
+        { "hi": "Diya gaya: r = 3.5 cm", "en": "Given: r = 3.5 cm" },
+        { "hi": "Volume = (2/3)πr³ = (2/3) × (22/7) × 42.875 ≈ 89.83 cm³", "en": "Volume = (2/3)πr³ = (2/3) × (22/7) × 42.875 ≈ 89.83 cm³" },
+        { "hi": "CSA = 2πr² = 2 × (22/7) × 12.25 = 77 cm²", "en": "CSA = 2πr² = 2 × (22/7) × 12.25 = 77 cm²" },
+        { "hi": "✅ Capacity ≈ 89.83 cm³, CSA = 77 cm²", "en": "✅ Capacity ≈ 89.83 cm³, CSA = 77 cm²" }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": { "hi": "Trijya r wale hemisphere ka kul pristhiya kshetrafal hai:", "en": "The total surface area of a hemisphere of radius r is:" },
+        "options": [
+          { "hi": "2πr²", "en": "2πr²" },
+          { "hi": "3πr²", "en": "3πr²" },
+          { "hi": "4πr²", "en": "4πr²" },
+          { "hi": "πr²", "en": "πr²" }
+        ],
+        "correct": 1,
+        "explanation": { "hi": "Hemisphere ka TSA = vakra pristh (2πr²) + aadhar (πr²) = 3πr²", "en": "TSA of hemisphere = Curved surface (2πr²) + Base (πr²) = 3πr²" }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Sphere: TSA = 4πr², Volume = (4/3)πr³", "en": "Sphere: TSA = 4πr², Volume = (4/3)πr³" },
+    { "hi": "Hemisphere: TSA = 3πr², CSA = 2πr², Volume = (2/3)πr³", "en": "Hemisphere: TSA = 3πr², CSA = 2πr², Volume = (2/3)πr³" },
+    { "hi": "Hemisphere ke TSA mein flat base zaroor jodo", "en": "Always add the flat base when finding a hemisphere's TSA" }
+  ],
+  "summary": {
+    "hi": "Ab tum sphere aur hemisphere ke TSA, CSA aur volume formulas sahi tarike se apply kar sakte ho.",
+    "en": "You can now correctly apply the TSA, CSA, and volume formulas for spheres and hemispheres."
+  },
+  "reward": { "badge": null }
+}

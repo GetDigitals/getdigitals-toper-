@@ -1,0 +1,97 @@
+{
+  "id": "chapter-12-lesson-02",
+  "chapterId": "chapter-12",
+  "order": 2,
+  "title": { "hi": "Cylinder aur Cone", "en": "Cylinder and Cone" },
+  "estimatedMinutes": 14,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "🥫",
+    "headline": { "hi": "Bel Ke Aakar Ki Duniya", "en": "The World of Cylindrical Shapes" },
+    "subtext": { "hi": "Cylinder ki curved surface ko unroll karo toh rectangle banta hai, cone ki toh sector.", "en": "Unroll a cylinder's curved surface and you get a rectangle; a cone's curved surface unrolls into a sector." }
+  },
+  "story": {
+    "text": {
+      "hi": "Right circular cylinder mein do circular bases aur ek curved side hoti hai. Curved surface ko 'unroll' karke ek rectangle bana sakte hain jiski height = h aur width = 2πr (base ki circumference) hoti hai. Right circular cone mein ek circular base aur ek vertex hota hai. Slant height (l) vertex ko base circumference ke kisi bhi point se jodta hai — l² = r² + h².",
+      "en": "A right circular cylinder has two circular bases and a curved side. The curved surface can be 'unrolled' into a rectangle with height = h and width = 2πr (circumference of base). A right circular cone has a circular base and a vertex. The slant height (l) connects the vertex to any point on the base circumference — l² = r² + h²."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "Cylinder: TSA = 2πr(r+h), CSA = 2πrh, Volume = πr²h"
+    },
+    {
+      "type": "formula",
+      "content": "Cone: TSA = πr(r+l), CSA = πrl, Volume = (1/3)πr²h, Slant height l = √(r²+h²)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Cone ke sawaal mein pehle slant height (l) nikaalo, phir CSA/TSA use karo — ye sabse common step hai jo students bhool jaate hain.",
+        "en": "In cone problems, always find the slant height (l) first, then use it for CSA/TSA — this is the step students most commonly forget."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": { "hi": "7 cm trijya aur 10 cm ऊँchai wale cylinder ka volume gyat kijiye. (π = 22/7 lijiye)", "en": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)" },
+      "steps": [
+        { "hi": "Diya gaya: r = 7 cm, h = 10 cm", "en": "Given: r = 7 cm, h = 10 cm" },
+        { "hi": "Cylinder ka volume = πr²h", "en": "Volume of cylinder = πr²h" },
+        { "hi": "V = (22/7) × 7 × 7 × 10 = 22 × 7 × 10 = 1540 cm³", "en": "V = (22/7) × 7 × 7 × 10 = 22 × 7 × 10 = 1540 cm³" },
+        { "hi": "Jab r = 7 ya 14 ho, π = 22/7 use karo — easy cancellation hota hai.", "en": "When r = 7 or 14, use π = 22/7 — it cancels out easily." }
+      ]
+    },
+    {
+      "problem": { "hi": "Ek shanku ki aadhar trijya 6 cm aur ऊँchai 8 cm hai. Iska vakra pristhiya kshetrafal gyat kijiye. (π = 3.14 lijiye)", "en": "A cone has base radius 6 cm and height 8 cm. Find its curved surface area. (Use π = 3.14)" },
+      "steps": [
+        { "hi": "Diya gaya: r = 6 cm, h = 8 cm", "en": "Given: r = 6 cm, h = 8 cm" },
+        { "hi": "Pehle tirchi ऊँchai nikalo: l = √(r² + h²) = √(36 + 64) = √100 = 10 cm", "en": "First find slant height: l = √(r² + h²) = √(36 + 64) = √100 = 10 cm" },
+        { "hi": "Shanku ka CSA = πrl = 3.14 × 6 × 10 = 188.4 cm²", "en": "CSA of cone = πrl = 3.14 × 6 × 10 = 188.4 cm²" },
+        { "hi": "Pythagorean triple (6, 8, 10) spot ho gaya! Calculator ki zaroorat nahi.", "en": "Pythagorean triple (6, 8, 10) spotted! No calculator needed." }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": { "hi": "Usi trijya aur ऊँchai wale shanku ka volume, cylinder ke volume ka kitna hota hai?", "en": "The volume of a cone with same radius and height as a cylinder is:" },
+        "options": [
+          { "hi": "Barabar", "en": "Same" },
+          { "hi": "Dogunа", "en": "Double" },
+          { "hi": "Ek-tihai", "en": "One-third" },
+          { "hi": "Aadha", "en": "Half" }
+        ],
+        "correct": 2,
+        "explanation": { "hi": "Shanku ka volume = (1/3)πr²h, cylinder ka volume = πr²h. Isliye shanku ka volume cylinder ka ek-tihai hota hai.", "en": "Volume of cone = (1/3)πr²h, volume of cylinder = πr²h. So the cone's volume is one-third of the cylinder's." }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": { "hi": "Ek cylinder aur shanku ki samaan trijya r aur samaan ऊँchai h hai. Unke vakra pristhiya kshetrafalon ka anupat kya hai?", "en": "A cylinder and cone have same radius r and same height h. The ratio of their curved surface areas is:" },
+        "options": [
+          { "hi": "1:1", "en": "1:1" },
+          { "hi": "2:1", "en": "2:1" },
+          { "hi": "2h : l", "en": "2h : l" },
+          { "hi": "Nirdharit nahi kiya ja sakta", "en": "Cannot be determined" }
+        ],
+        "correct": 2,
+        "explanation": { "hi": "Cylinder ka CSA = 2πrh, shanku ka CSA = πrl jahan l = √(r²+h²). Anupat = 2πrh : πrl = 2h : l.", "en": "CSA of cylinder = 2πrh, CSA of cone = πrl where l = √(r²+h²). Ratio = 2πrh : πrl = 2h : l." }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Cylinder: TSA = 2πr(r+h), Volume = πr²h", "en": "Cylinder: TSA = 2πr(r+h), Volume = πr²h" },
+    { "hi": "Cone: pehle l = √(r²+h²) nikalo, phir TSA/CSA/Volume", "en": "Cone: find l = √(r²+h²) first, then TSA/CSA/Volume" },
+    { "hi": "Shanku ka volume hamesha cylinder ka ek-tihai hota hai (same r, h)", "en": "A cone's volume is always one-third that of a cylinder (same r, h)" }
+  ],
+  "summary": {
+    "hi": "Ab tum cylinder aur cone ke TSA, CSA, volume formulas confidently apply kar sakte ho, aur slant height nikaalna bhool nahi sakte.",
+    "en": "You can now confidently apply TSA, CSA, and volume formulas for cylinders and cones, and you won't forget to find the slant height."
+  },
+  "reward": { "badge": null }
+}

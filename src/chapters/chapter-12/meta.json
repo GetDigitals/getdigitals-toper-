@@ -7,12 +7,12 @@
   "title": "Surface Areas and Volumes",
   "icon": "📦",
   "color": "#35C97F",
-  "description": "Surface Areas and Volumes — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 300,
-  "coinReward": 60,
+  "description": "Cube, Cuboid, Cylinder, Cone, Sphere aur Hemisphere ke surface area aur volume formulas, plus unke combinations (cylinder+hemisphere, capsule, scooped-out solids). 2026-27 CBSE rationalised syllabus compliant — Conversion of solids aur Frustum of a cone is chapter mein nahi hain.",
+  "xpReward": 210,
+  "coinReward": 55,
   "badge": {
     "id": "chapter-12-master",
-    "name": "Surface Areas and Volumes Master",
+    "name": { "hi": "Surface Areas & Volumes Master", "en": "Surface Areas & Volumes Master" },
     "icon": "🏅"
   },
   "unlockRule": {

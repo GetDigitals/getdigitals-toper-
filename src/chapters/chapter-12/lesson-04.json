@@ -1,0 +1,121 @@
+{
+  "id": "chapter-12-lesson-04",
+  "chapterId": "chapter-12",
+  "order": 4,
+  "title": { "hi": "Solids Ke Combinations aur Chapter Wrap-up", "en": "Combinations of Solids and Chapter Wrap-up" },
+  "estimatedMinutes": 15,
+  "xpReward": 60,
+  "coinReward": 16,
+  "hero": {
+    "emoji": "🏗️",
+    "headline": { "hi": "Do Solids, Ek Naya Shape", "en": "Two Solids, One New Shape" },
+    "subtext": { "hi": "Volume hamesha add hota hai, lekin surface area mein hidden/common area minus karna padta hai.", "en": "Volume always adds up, but you must subtract the hidden/common area for surface area." }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab do solids combine hote hain (jaise cylinder ke upar hemisphere), total surface area individual surface areas ka SUM hota hai MINUS woh area jahan woh join hote hain (hidden area). Volume simple SUM hota hai individual volumes ka.",
+      "en": "When two solids are combined (e.g., a hemisphere on top of a cylinder), the total surface area is the sum of individual surface areas MINUS the area where they join (hidden area). Volume is simply the SUM of individual volumes."
+    }
+  },
+  "explanation": [
+    {
+      "type": "formula",
+      "content": "Combination: Volume = Solid 1's volume + Solid 2's volume; TSA = exposed surface areas ka sum (hidden/joining area exclude karo)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Cylinder + upar hemisphere: TSA = 2πrh + 3πr² (base + curved hemisphere + cylinder ka curved part; jahan hemisphere baithta hai wahan cylinder ka top circle exposed nahi hota).",
+        "en": "Cylinder + hemisphere on top: TSA = 2πrh + 3πr² (base + curved hemisphere + cylinder's curved part; the cylinder's top circle isn't exposed where the hemisphere sits)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Cylinder ke dono siron pe hemisphere: TSA = 2πrh + 4πr² (dono flat circular ends hemispheres ke neeche chhup jaate hain, sirf 2 curved hemisphere surfaces + cylinder ka curved part bachta hai).",
+        "en": "Cylinder with hemispheres at both ends: TSA = 2πrh + 4πr² (both flat circular ends are hidden under the hemispheres, leaving just the 2 curved hemisphere surfaces + the cylinder's curved part)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Ek solid cylinder ke ek ya dono siron se hemisphere \"scoop out\" (khoka) bhi kiya ja sakta hai — is case mein TSA = cylinder ka CSA + hemisphere(s) ka CSA (kyunki scoop karne se andar ki curved surface expose hoti hai, flat circle nahi), aur Volume = cylinder ka volume − hemisphere(s) ka volume.",
+        "en": "A hemisphere can also be \"scooped out\" from one or both ends of a solid cylinder — here TSA = CSA of cylinder + CSA of the hemisphere(s) (since scooping exposes the inner curved surface, not a flat circle), and Volume = cylinder's volume − hemisphere(s)' volume."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": { "hi": "Ek thos aakar cylinder ke upar hemisphere ke sanyojan ka hai. Dono ki trijya 3.5 cm hai aur kul ऊँchai 9.5 cm hai. Thos ka kul pristhiya kshetrafal gyat kijiye. (π = 22/7 lijiye)", "en": "A solid is in the shape of a cylinder surmounted by a hemisphere. The radius of both is 3.5 cm and the total height is 9.5 cm. Find the total surface area of the solid. (Use π = 22/7)" },
+      "steps": [
+        { "hi": "Diya gaya: r = 3.5 cm, kul ऊँchai = 9.5 cm", "en": "Given: r = 3.5 cm, Total height = 9.5 cm" },
+        { "hi": "Hemisphere ki ऊँchai = r = 3.5 cm", "en": "Height of hemisphere = r = 3.5 cm" },
+        { "hi": "Cylinder ki ऊँchai = 9.5 - 3.5 = 6 cm", "en": "Height of cylinder = 9.5 - 3.5 = 6 cm" },
+        { "hi": "TSA = Hemisphere ka CSA + Cylinder ka CSA + Cylinder ka Base area", "en": "TSA = CSA of hemisphere + CSA of cylinder + Base area of cylinder" },
+        { "hi": "TSA = 2πr² + 2πrh + πr² = 3πr² + 2πrh", "en": "TSA = 2πr² + 2πrh + πr² = 3πr² + 2πrh" },
+        { "hi": "TSA = πr(3r + 2h) = (22/7) × 3.5 × (10.5 + 12) = 11 × 22.5 = 247.5 cm²", "en": "TSA = πr(3r + 2h) = (22/7) × 3.5 × (10.5 + 12) = 11 × 22.5 = 247.5 cm²" },
+        { "hi": "Cylinder aur hemisphere ke beech wala common circular area exposed NAHI hai — ise do baar mat gino!", "en": "The common circular area between the cylinder and hemisphere is NOT exposed — don't count it twice!" }
+      ]
+    },
+    {
+      "problem": { "hi": "Ek dawai capsule ek cylinder ke aakar ka hai jiske dono siron par hemisphere lage hain. Capsule ki kul lambai 14 mm aur vyas 5 mm hai. Iska pristhiya kshetrafal gyat kijiye. (π = 22/7 lijiye)", "en": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter is 5 mm. Find its surface area. (Use π = 22/7)" },
+      "steps": [
+        { "hi": "Diya gaya: kul lambai = 14 mm, vyas = 5 mm, ataha r = 2.5 mm", "en": "Given: Total length = 14 mm, Diameter = 5 mm, so r = 2.5 mm" },
+        { "hi": "Cylinder ki lambai = kul lambai − 2 × hemisphere ki trijya = 14 − 5 = 9 mm", "en": "Length of cylinder = Total length − 2 × radius of hemisphere = 14 − 5 = 9 mm" },
+        { "hi": "Pristhiya kshetrafal = do hemispheres ka CSA + cylinder ka CSA = 2 × (2πr²) + 2πrh = 2πr(2r + h)", "en": "Surface area = CSA of two hemispheres + CSA of cylinder = 2 × (2πr²) + 2πrh = 2πr(2r + h)" },
+        { "hi": "= 2 × (22/7) × 2.5 × (5 + 9) = (110/7) × 14 = 220 mm²", "en": "= 2 × (22/7) × 2.5 × (5 + 9) = (110/7) × 14 = 220 mm²" },
+        { "hi": "Ye bahut common board exam question hai! Yaad rakhna: do hemisphere = ek poora sphere ka CSA (4πr²).", "en": "This is a very common board exam question! Remember: two hemispheres = one full sphere's CSA (4πr²)." }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": { "hi": "Ek khilona trijya r wale hemisphere ke upar samaan trijya r wale shanku ke sanyojan ka hai. Agar shanku ki ऊँchai bhi r ke barabar hai, toh khilone ka kul volume kya hoga?", "en": "A toy is in the shape of a cone mounted on a hemisphere of the same radius r. If the cone's height also equals r, what is the total volume of the toy?" },
+        "options": [
+          { "hi": "πr³", "en": "πr³" },
+          { "hi": "(2/3)πr³", "en": "(2/3)πr³" },
+          { "hi": "(4/3)πr³", "en": "(4/3)πr³" },
+          { "hi": "2πr³", "en": "2πr³" }
+        ],
+        "correct": 0,
+        "explanation": { "hi": "Volume = Hemisphere ka volume + Cone ka volume = (2/3)πr³ + (1/3)πr²(r) = (2/3)πr³ + (1/3)πr³ = πr³", "en": "Volume = Hemisphere's volume + Cone's volume = (2/3)πr³ + (1/3)πr²(r) = (2/3)πr³ + (1/3)πr³ = πr³" }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": { "hi": "Ek siro par hemisphere lage cylinder ki kul ऊँchai H hai. Agar trijya r hai, toh cylinder ki ऊँchai kya hai?", "en": "A cylinder with hemisphere on one end has total height H. If radius is r, the height of cylinder is:" },
+        "options": [
+          { "hi": "H - r", "en": "H - r" },
+          { "hi": "H - 2r", "en": "H - 2r" },
+          { "hi": "H + r", "en": "H + r" },
+          { "hi": "H/2", "en": "H/2" }
+        ],
+        "correct": 0,
+        "explanation": { "hi": "Kul ऊँchai = cylinder ki ऊँchai + hemisphere ki trijya. Ataha cylinder ki ऊँchai = H - r.", "en": "Total height = height of cylinder + radius of hemisphere. So height of cylinder = H - r." }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Kisi bhi combination ka volume = individual volumes ka yog", "en": "Volume of any combination = Sum of individual volumes" },
+    { "hi": "Combination ka pristhiya kshetrafal = exposed surface areas ka yog − hidden/common areas", "en": "Surface area of combination = Sum of exposed surface areas − Hidden/common areas" },
+    { "hi": "Cylinder + upar hemisphere ke liye: TSA = 2πrh + 2πr² + πr² = 2πrh + 3πr²", "en": "For cylinder + hemisphere on top: TSA = 2πrh + 2πr² + πr² = 2πrh + 3πr²" },
+    { "hi": "Dono siro par hemisphere wale cylinder ke liye: TSA = 2πrh + 4πr²", "en": "For cylinder with hemispheres at BOTH ends: TSA = 2πrh + 4πr²" },
+    { "hi": "Shanku ke sawaalon mein pehle tirchi ऊँchai nikalo: l = √(r² + h²)", "en": "Always find slant height first for cone problems: l = √(r² + h²)" },
+    { "hi": "Jab trijya 7 ka gunaj ho toh π = 22/7 lo; anyatha π = 3.14", "en": "Use π = 22/7 when radius is a multiple of 7; use π = 3.14 otherwise" },
+    { "hi": "Cylinder se hemisphere scoop out karne par: Volume = bade solid ka volume − chhote solid ka volume", "en": "When a hemisphere is scooped out of a cylinder: Volume = larger solid's volume − smaller solid's volume" }
+  ],
+  "summary": {
+    "hi": "Chapter 12 complete! Ab tum cube, cuboid, cylinder, cone, sphere, hemisphere aur unke combinations ke har type ke board exam question confidently solve kar sakte ho.",
+    "en": "Chapter 12 complete! You can now confidently solve every type of board exam question on cubes, cuboids, cylinders, cones, spheres, hemispheres, and their combinations."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-12-master",
+      "name": { "hi": "Surface Areas & Volumes Master", "en": "Surface Areas & Volumes Master" },
+      "icon": "🏅"
+    }
+  }
+}
