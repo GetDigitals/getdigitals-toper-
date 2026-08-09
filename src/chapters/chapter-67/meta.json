@@ -1,0 +1,24 @@
+{
+  "id": "chapter-67",
+  "order": 20,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Money and Credit",
+  "icon": "💰",
+  "color": "#C084FC",
+  "description": "The role of money and banks, formal and informal credit, and self-help groups in rural credit. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-67-master",
+    "name": {
+      "hi": "Money and Credit Master",
+      "en": "Money and Credit Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
