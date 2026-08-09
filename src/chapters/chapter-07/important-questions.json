@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-07",
+  "objective": [
+    {
+      "question": {
+        "hi": "Points A(x₁,y₁) aur B(x₂,y₂) ke beech distance formula kya hai?",
+        "en": "What is the distance formula between points A(x₁,y₁) and B(x₂,y₂)?"
+      },
+      "options": [
+        { "hi": "AB = (x₂−x₁) + (y₂−y₁)", "en": "AB = (x₂−x₁) + (y₂−y₁)" },
+        { "hi": "AB = √[(x₂−x₁)² + (y₂−y₁)²]", "en": "AB = √[(x₂−x₁)² + (y₂−y₁)²]" },
+        { "hi": "AB = (x₂−x₁)² + (y₂−y₁)²", "en": "AB = (x₂−x₁)² + (y₂−y₁)²" },
+        { "hi": "AB = x₂×x₁ + y₂×y₁", "en": "AB = x₂×x₁ + y₂×y₁" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Distance formula Pythagoras theorem se derive hoti hai: AB = √[(x₂−x₁)² + (y₂−y₁)²].",
+        "en": "The distance formula is derived from the Pythagoras theorem: AB = √[(x₂−x₁)² + (y₂−y₁)²]."
+      }
+    },
+    {
+      "question": {
+        "hi": "Origin (0,0) se point (3,4) ki distance kya hai?",
+        "en": "What is the distance from the origin (0,0) to the point (3,4)?"
+      },
+      "options": [
+        { "hi": "3", "en": "3" },
+        { "hi": "4", "en": "4" },
+        { "hi": "5", "en": "5" },
+        { "hi": "7", "en": "7" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Distance = √(3²+4²) = √(9+16) = √25 = 5.",
+        "en": "Distance = √(3²+4²) = √(9+16) = √25 = 5."
+      }
+    },
+    {
+      "question": {
+        "hi": "Midpoint formula kya hai?",
+        "en": "What is the midpoint formula?"
+      },
+      "options": [
+        { "hi": "((x₁+x₂)/2, (y₁+y₂)/2)", "en": "((x₁+x₂)/2, (y₁+y₂)/2)" },
+        { "hi": "(x₁+x₂, y₁+y₂)", "en": "(x₁+x₂, y₁+y₂)" },
+        { "hi": "((x₁−x₂)/2, (y₁−y₂)/2)", "en": "((x₁−x₂)/2, (y₁−y₂)/2)" },
+        { "hi": "(x₁×x₂, y₁×y₂)", "en": "(x₁×x₂, y₁×y₂)" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Midpoint 1:1 ratio ka special case hai section formula ka: ((x₁+x₂)/2, (y₁+y₂)/2).",
+        "en": "Midpoint is the 1:1 ratio special case of the section formula: ((x₁+x₂)/2, (y₁+y₂)/2)."
+      }
+    },
+    {
+      "question": {
+        "hi": "Section formula mein m:n ratio se point P(x,y) kaise nikalte hain?",
+        "en": "How do you find point P(x,y) using m:n ratio in the section formula?"
+      },
+      "options": [
+        { "hi": "P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))", "en": "P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))" },
+        { "hi": "P = ((mx₁+nx₂)/2, (my₁+ny₂)/2)", "en": "P = ((mx₁+nx₂)/2, (my₁+ny₂)/2)" },
+        { "hi": "P = (m+n, m×n)", "en": "P = (m+n, m×n)" },
+        { "hi": "P = ((x₁+x₂)/(m+n), (y₁+y₂)/(m+n))", "en": "P = ((x₁+x₂)/(m+n), (y₁+y₂)/(m+n))" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Section formula: P divides AB in ratio m:n → P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)).",
+        "en": "Section formula: P divides AB in ratio m:n → P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))."
+      }
+    },
+    {
+      "question": {
+        "hi": "Teen points collinear (ek line par) hain, ye kaise check karte hain?",
+        "en": "How do you check if three points are collinear?"
+      },
+      "options": [
+        { "hi": "Unka distance equal ho", "en": "Their distances are equal" },
+        { "hi": "Unse bane triangle ka area 0 ho", "en": "The area of the triangle they form is 0" },
+        { "hi": "Unke coordinates positive hon", "en": "Their coordinates are positive" },
+        { "hi": "Unka midpoint origin par ho", "en": "Their midpoint is at the origin" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Agar teen points ek seedhi line par hain, to unse koi triangle ban hi nahi sakta — isliye area formula se area = 0 aana chahiye.",
+        "en": "If three points lie on a straight line, they can't form a triangle — so the area formula should give area = 0."
+      }
+    },
+    {
+      "question": {
+        "hi": "Triangle ke area ka formula (coordinates se) kya hai?",
+        "en": "What is the formula for the area of a triangle (from coordinates)?"
+      },
+      "options": [
+        { "hi": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|", "en": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|" },
+        { "hi": "Area = x₁+x₂+x₃", "en": "Area = x₁+x₂+x₃" },
+        { "hi": "Area = (x₁×y₁)+(x₂×y₂)", "en": "Area = (x₁×y₁)+(x₂×y₂)" },
+        { "hi": "Area = √(x₁²+y₁²)", "en": "Area = √(x₁²+y₁²)" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)| — negative aane par bhi modulus (absolute value) le lete hain kyunki area kabhi negative nahi hoti.",
+        "en": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)| — take the absolute value even if it comes out negative, since area is never negative."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Points A(4,−3) aur B(−2,5) ke beech ki distance nikaalo.",
+        "en": "Find the distance between points A(4,−3) and B(−2,5)."
+      },
+      "marks": 2,
+      "answer": {
+        "hi": "AB = √[(−2−4)² + (5−(−3))²] = √[(−6)² + (8)²] = √(36+64) = √100 = 10\n<strong>AB = 10 units</strong>",
+        "en": "AB = √[(−2−4)² + (5−(−3))²] = √[(−6)² + (8)²] = √(36+64) = √100 = 10\n<strong>AB = 10 units</strong>"
+      }
+    },
+    {
+      "question": {
+        "hi": "Point P(x,y) line segment joining A(1,2) aur B(6,7) ko 2:3 ke ratio mein internally divide karta hai. P ke coordinates nikaalo.",
+        "en": "Point P(x,y) divides the line segment joining A(1,2) and B(6,7) internally in the ratio 2:3. Find the coordinates of P."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Section formula: P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)), m=2, n=3\nx = (2×6+3×1)/(2+3) = (12+3)/5 = 15/5 = 3\ny = (2×7+3×2)/(2+3) = (14+6)/5 = 20/5 = 4\n<strong>P = (3, 4)</strong>",
+        "en": "Section formula: P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)), m=2, n=3\nx = (2×6+3×1)/(2+3) = (12+3)/5 = 15/5 = 3\ny = (2×7+3×2)/(2+3) = (14+6)/5 = 20/5 = 4\n<strong>P = (3, 4)</strong>"
+      }
+    },
+    {
+      "question": {
+        "hi": "Prove karo ki points A(1,1), B(2,3), aur C(4,7) collinear hain.",
+        "en": "Prove that points A(1,1), B(2,3), and C(4,7) are collinear."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|\n= ½|1(3−7)+2(7−1)+4(1−3)|\n= ½|1(−4)+2(6)+4(−2)|\n= ½|−4+12−8|\n= ½|0| = 0\nChunki area = 0, isliye A, B, C teeno collinear hain (proved).",
+        "en": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|\n= ½|1(3−7)+2(7−1)+4(1−3)|\n= ½|1(−4)+2(6)+4(−2)|\n= ½|−4+12−8|\n= ½|0| = 0\nSince area = 0, A, B, C are collinear (proved)."
+      }
+    },
+    {
+      "question": {
+        "hi": "Triangle ABC ke vertices A(0,0), B(4,0), aur C(4,3) hain. Iska area nikaalo.",
+        "en": "The vertices of triangle ABC are A(0,0), B(4,0), and C(4,3). Find its area."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|\n= ½|0(0−3)+4(3−0)+4(0−0)|\n= ½|0+12+0|\n= ½(12) = 6\n<strong>Area = 6 square units</strong>",
+        "en": "Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|\n= ½|0(0−3)+4(3−0)+4(0−0)|\n= ½|0+12+0|\n= ½(12) = 6\n<strong>Area = 6 square units</strong>"
+      }
+    },
+    {
+      "question": {
+        "hi": "Point (x, y) x-axis se equidistant hai points A(2,−5) aur B(−2,9) se. Isse x aur y ka relation nikaalo (agar point x-axis par hi hai to y=0 lekar x nikaalo).",
+        "en": "A point (x, 0) on the x-axis is equidistant from A(2,−5) and B(−2,9). Find x."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Point P(x,0) hai. PA = PB\nPA² = (x−2)²+(0−(−5))² = (x−2)²+25\nPB² = (x−(−2))²+(0−9)² = (x+2)²+81\nPA²=PB²:\n(x−2)²+25 = (x+2)²+81\nx²−4x+4+25 = x²+4x+4+81\n−4x+29 = 4x+85\n−8x = 56\nx = −7\n<strong>x = −7, so the point is (−7, 0)</strong>",
+        "en": "Point P(x,0) is on the x-axis. PA = PB\nPA² = (x−2)²+(0−(−5))² = (x−2)²+25\nPB² = (x−(−2))²+(0−9)² = (x+2)²+81\nPA²=PB²:\n(x−2)²+25 = (x+2)²+81\nx²−4x+4+25 = x²+4x+4+81\n−4x+29 = 4x+85\n−8x = 56\nx = −7\n<strong>x = −7, so the point is (−7, 0)</strong>"
+      }
+    }
+  ]
+}
