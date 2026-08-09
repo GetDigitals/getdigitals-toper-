@@ -41,6 +41,13 @@
     {
       "type": "text",
       "content": {
+        "hi": "Yahan har symbol ka matlab: N = wo composite number jiska prime factorization kar rahe hain. p1, p2, p3... = N ke different prime factors. a1, a2, a3... = us prime factor ki power (yani wo prime kitni baar multiply hua hai).\n\nExample se clear ho jayega — N = 60 lo:\n60 = 2² × 3¹ × 5¹\n\nYahan N = 60, p1 = 2 (a1 = 2), p2 = 3 (a2 = 1), p3 = 5 (a3 = 1).",
+        "en": "Here's what each symbol means: N = the composite number whose prime factorization we're finding. p1, p2, p3... = N's different prime factors. a1, a2, a3... = the power of that prime factor (i.e. how many times that prime is multiplied).\n\nAn example makes this clear — take N = 60:\n60 = 2² × 3¹ × 5¹\n\nHere N = 60, p1 = 2 (a1 = 2), p2 = 3 (a2 = 1), p3 = 5 (a3 = 1)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
         "hi": "Iska sabse bada use hai HCF aur LCM nikaalna jab prime factorization pata ho.",
         "en": "Its biggest application is finding HCF and LCM once you know the prime factorization."
       }
