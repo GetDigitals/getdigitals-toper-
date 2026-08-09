@@ -1,0 +1,169 @@
+{
+  "chapterId": "chapter-10",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Tangent circle ko kitne points pe touch karti hai?",
+        "en": "At how many points does a tangent touch a circle?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "2", "en": "2" },
+        { "hi": "Infinite", "en": "Infinite" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Tangent circle ko exactly ek point pe touch karti hai.",
+        "en": "A tangent touches a circle at exactly one point."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Tangent, radius ke parallel hoti hai.",
+        "en": "A tangent is parallel to the radius."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — tangent radius ke perpendicular hoti hai, parallel nahi.",
+        "en": "False — a tangent is perpendicular to the radius, not parallel."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Circle ka radius 8cm hai. Centre se 17cm door ek point se tangent ki length kya hogi?",
+        "en": "A circle has radius 8cm. Find the tangent length from a point 17cm away from the centre."
+      },
+      "options": [
+        { "hi": "15cm", "en": "15cm" },
+        { "hi": "16cm", "en": "16cm" },
+        { "hi": "17cm", "en": "17cm" },
+        { "hi": "9cm", "en": "9cm" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "PT² = 17² − 8² = 289 − 64 = 225 → PT = 15cm.",
+        "en": "PT² = 17² − 8² = 289 − 64 = 225 → PT = 15cm."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "PA aur PB do tangents hain external point P se. Agar PA = 10cm, toh PB kya hoga?",
+        "en": "PA and PB are two tangents from an external point P. If PA = 10cm, what is PB?"
+      },
+      "options": [
+        { "hi": "5cm", "en": "5cm" },
+        { "hi": "10cm", "en": "10cm" },
+        { "hi": "20cm", "en": "20cm" },
+        { "hi": "Kuch nahi keh sakte", "en": "Cannot be determined" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "External point se dono tangents ki length equal hoti hai (Theorem 10.2), isliye PB = 10cm.",
+        "en": "Both tangents from an external point are equal in length (Theorem 10.2), so PB = 10cm."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Quadrilateral OAPB mein (O centre, PA/PB tangents), ∠AOB aur ∠APB ka sum hamesha 180° hota hai.",
+        "en": "In quadrilateral OAPB (O = centre, PA/PB tangents), ∠AOB and ∠APB always sum to 180°."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — ∠OAP aur ∠OBP dono 90° hote hain, isliye baaki dono angles ka sum bhi 180° hi hoga.",
+        "en": "True — since ∠OAP and ∠OBP are both 90°, the remaining two angles must sum to 180°."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Do tangents PA aur PB ek circle pe point P se milti hain. Agar ∠APB = 80°, toh ∠AOB kya hoga? (O = centre)",
+        "en": "Two tangents PA and PB meet a circle at point P. If ∠APB = 80°, find ∠AOB (O = centre)."
+      },
+      "options": [
+        { "hi": "80°", "en": "80°" },
+        { "hi": "100°", "en": "100°" },
+        { "hi": "120°", "en": "120°" },
+        { "hi": "160°", "en": "160°" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "∠AOB + ∠APB = 180° → ∠AOB = 180° − 80° = 100°.",
+        "en": "∠AOB + ∠APB = 180° → ∠AOB = 180° − 80° = 100°."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Do concentric circles ke radii 13cm aur 5cm hain. Bade circle ki ek chord chhote circle ko touch karti hai. Chord ki length kya hogi?",
+        "en": "Two concentric circles have radii 13cm and 5cm. A chord of the larger circle touches the smaller circle. Find the chord's length."
+      },
+      "options": [
+        { "hi": "8cm", "en": "8cm" },
+        { "hi": "12cm", "en": "12cm" },
+        { "hi": "24cm", "en": "24cm" },
+        { "hi": "18cm", "en": "18cm" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "AP² = 13² − 5² = 169 − 25 = 144 → AP = 12cm. Chord = 2 × 12 = 24cm.",
+        "en": "AP² = 13² − 5² = 169 − 25 = 144 → AP = 12cm. Chord = 2 × 12 = 24cm."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Secant circle ko do points pe intersect karti hai.",
+        "en": "A secant intersects a circle at two points."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi hai — secant circle ko cut karti hai, tangent sirf touch karti hai.",
+        "en": "True — a secant cuts through the circle, unlike a tangent, which only touches it."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Tangent PQ chord PR ko point P pe milti hai. ∠QPR = 50° hai. Alternate segment ke angle ki value kya hogi?",
+        "en": "A tangent PQ meets chord PR at point P. ∠QPR = 50°. What is the angle in the alternate segment?"
+      },
+      "options": [
+        { "hi": "25°", "en": "25°" },
+        { "hi": "50°", "en": "50°" },
+        { "hi": "100°", "en": "100°" },
+        { "hi": "130°", "en": "130°" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Alternate Segment Theorem se: tangent-chord angle = alternate segment ka angle = 50°.",
+        "en": "By the Alternate Segment Theorem: the tangent-chord angle equals the angle in the alternate segment = 50°."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Ek point circle ke exactly upar hai. Us point se kitni tangents nikalti hain?",
+        "en": "A point lies exactly on a circle. How many tangents can be drawn from it?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "2", "en": "2" },
+        { "hi": "Infinite", "en": "Infinite" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Circle pe hi position wale point se sirf ek hi tangent nikalti hai.",
+        "en": "A point that lies exactly on the circle has exactly one tangent."
+      }
+    }
+  ]
+}

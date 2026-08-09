@@ -1,0 +1,92 @@
+{
+  "chapterId": "chapter-10",
+  "flashcards": [
+    {
+      "front": { "hi": "Tangent kya hoti hai?", "en": "What is a tangent?" },
+      "back": { "hi": "Line jo circle ko exactly ek point pe touch kare", "en": "A line that touches a circle at exactly one point" }
+    },
+    {
+      "front": { "hi": "Theorem 10.1", "en": "Theorem 10.1" },
+      "back": { "hi": "Tangent, point of contact pe radius ke perpendicular hoti hai", "en": "The tangent is perpendicular to the radius at the point of contact" }
+    },
+    {
+      "front": { "hi": "Theorem 10.2", "en": "Theorem 10.2" },
+      "back": { "hi": "External point se do tangents ki lengths equal hoti hain (PA = PB)", "en": "The two tangents from an external point are equal in length (PA = PB)" }
+    },
+    {
+      "front": { "hi": "Point circle ke andar/upar/bahar ho toh kitni tangents?", "en": "Tangents for a point inside/on/outside the circle?" },
+      "back": { "hi": "Andar → 0, Upar → 1, Bahar → 2", "en": "Inside → 0, On → 1, Outside → 2" }
+    },
+    {
+      "front": { "hi": "Quadrilateral OAPB mein angle sum", "en": "Angle sum in quadrilateral OAPB" },
+      "back": { "hi": "∠AOB + ∠APB = 180°", "en": "∠AOB + ∠APB = 180°" }
+    },
+    {
+      "front": { "hi": "Alternate Segment Theorem", "en": "Alternate Segment Theorem" },
+      "back": { "hi": "Tangent-chord angle = angle in alternate segment", "en": "Tangent-chord angle = angle in alternate segment" }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": { "hi": "Tangent Length", "en": "Tangent Length" },
+      "formula": "PT² = OP² − r²"
+    },
+    {
+      "label": { "hi": "Equal Tangents", "en": "Equal Tangents" },
+      "formula": "PA = PB"
+    },
+    {
+      "label": { "hi": "Quadrilateral OAPB Angle Sum", "en": "Quadrilateral OAPB Angle Sum" },
+      "formula": "∠AOB + ∠APB = 180°"
+    },
+    {
+      "label": { "hi": "Concentric Circles Chord", "en": "Concentric Circles Chord" },
+      "formula": "Chord = 2 × √(R² − r²)"
+    }
+  ],
+  "mindMap": {
+    "root": { "hi": "Circles", "en": "Circles" },
+    "branches": [
+      {
+        "label": { "hi": "Tangent Basics", "en": "Tangent Basics" },
+        "children": [
+          { "hi": "Touches circle at 1 point", "en": "Touches circle at 1 point" },
+          { "hi": "0/1/2 tangents depending on point's position", "en": "0/1/2 tangents depending on point's position" }
+        ]
+      },
+      {
+        "label": { "hi": "Theorems", "en": "Theorems" },
+        "children": [
+          { "hi": "10.1: Tangent ⊥ Radius", "en": "10.1: Tangent ⊥ Radius" },
+          { "hi": "10.2: Equal tangents from external point", "en": "10.2: Equal tangents from external point" }
+        ]
+      },
+      {
+        "label": { "hi": "Applications", "en": "Applications" },
+        "children": [
+          { "hi": "Tangent length via Pythagoras", "en": "Tangent length via Pythagoras" },
+          { "hi": "Quadrilateral OAPB angle problems", "en": "Quadrilateral OAPB angle problems" },
+          { "hi": "Alternate Segment Theorem", "en": "Alternate Segment Theorem" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": { "hi": "Point circle ke andar ho toh kitni tangents?", "en": "Tangents from a point inside the circle?" },
+      "explanation": { "hi": "0", "en": "0" }
+    },
+    {
+      "question": { "hi": "Tangent, radius se kya angle banati hai?", "en": "What angle does a tangent make with the radius?" },
+      "explanation": { "hi": "90°", "en": "90°" }
+    },
+    {
+      "question": { "hi": "PA = 6cm ho toh PB = ?", "en": "If PA = 6cm, then PB = ?" },
+      "explanation": { "hi": "6cm (equal tangents)", "en": "6cm (equal tangents)" }
+    },
+    {
+      "question": { "hi": "Radius 6cm, OP 10cm — tangent length?", "en": "Radius 6cm, OP 10cm — tangent length?" },
+      "explanation": { "hi": "8cm", "en": "8cm" }
+    }
+  ]
+}

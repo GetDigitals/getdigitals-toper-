@@ -1,0 +1,653 @@
+{
+  "id": "chapter-10-lesson-03",
+  "chapterId": "chapter-10",
+  "order": 3,
+  "title": {
+    "hi": "Important Questions & Mixed Practice",
+    "en": "Important Questions & Mixed Practice"
+  },
+  "estimatedMinutes": 16,
+  "xpReward": 60,
+  "coinReward": 16,
+  "hero": {
+    "emoji": "🎯",
+    "headline": {
+      "hi": "Board Exam ke liye Must-Do Questions!",
+      "en": "Must-Do Questions for Board Exams!"
+    },
+    "subtext": {
+      "hi": "Yeh lesson mein wo questions hain jo har saal CBSE board exams mein repeat hote hain.",
+      "en": "This lesson contains questions that are repeated every year in CBSE board exams."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Yeh lesson mein wo questions hain jo har saal CBSE board exams mein repeat hote hain. Objective (MCQ/1-mark) aur Subjective (2-4 marks) dono types cover kiye hain!",
+      "en": "This lesson contains questions that are repeated every year in CBSE board exams. Both Objective (MCQ/1-mark) and Subjective (2-4 marks) types are covered!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "CBSE Class 10 Board Exam mein Circles se kitne marks aate hain?\n📊 Total Weightage: ~4-6 marks\n📝 1-mark questions: Definition ya basic property\n📝 2-mark questions: Tangent length nikaalna\n📝 3-mark questions: Angle nikaalna using theorems\n📝 4-mark questions: Proof ya complex problem\n🎯 Important: Theorem 10.1 aur 10.2 ke proofs aate hain!",
+        "en": "How many marks does Circles carry in CBSE Class 10 Board Exam?\n📊 Total Weightage: ~4-6 marks\n📝 1-mark questions: Definition or basic property\n📝 2-mark questions: Finding tangent length\n📝 3-mark questions: Finding angles using theorems\n📝 4-mark questions: Proof or complex problem\n🎯 Important: Proofs of Theorem 10.1 and 10.2 are asked!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Circles = Scoring Chapter! Theorems ke proofs yaad rakho!",
+        "en": "Circles = Scoring Chapter! Remember the theorem proofs!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Yeh questions har saal exam mein aate hain:\nQ1. Ek point circle ke andar hai toh kitni tangents?  [Ans: 0]\nQ2. Tangent radius ke ______ hoti hai.  [Ans: Perpendicular]\nQ3. External point se kitni tangents nikalti hain?  [Ans: 2]\nQ4. PA aur PB do tangents hain, PA = 10cm, toh PB = ?  [Ans: 10cm]\nQ5. ∠AOB + ∠APB = ? (Quadrilateral OAPB mein)  [Ans: 180°]\nQ6. Tangent-Chord angle = ?  [Ans: Angle in alternate segment]\nQ7. Radius 6cm, distance 10cm, tangent length = ?  [Ans: 8cm]\nQ8. Secant circle ko kitne points pe kaat-ti hai?  [Ans: 2]",
+        "en": "These questions appear in the exam every year:\nQ1. How many tangents from a point inside the circle?  [Ans: 0]\nQ2. Tangent is ______ to the radius.  [Ans: Perpendicular]\nQ3. How many tangents from an external point?  [Ans: 2]\nQ4. PA and PB are tangents, PA = 10cm, then PB = ?  [Ans: 10cm]\nQ5. ∠AOB + ∠APB = ? (in quadrilateral OAPB)  [Ans: 180°]\nQ6. Tangent-Chord angle = ?  [Ans: Angle in alternate segment]\nQ7. Radius 6cm, distance 10cm, tangent length = ?  [Ans: 8cm]\nQ8. How many points does a secant cut the circle?  [Ans: 2]"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Tip: Objective questions mein direct theorem ya formula use karo!",
+        "en": "💡 Tip: In objective questions, use direct theorem or formula!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Board exam ke liye ye questions practice karo:\n📌 Prove karo ki tangent at any point is perpendicular to radius. [4M]\n📌 Prove karo ki tangents from external point are equal. [4M]\n📌 PA aur PB tangents hain, ∠APB = 80°, toh ∠OAB nikaalo. [3M]\n📌 Radius 5cm, tangent length 12cm, toh point ki centre se doori nikaalo. [2M]\n📌 Do concentric circles 13cm aur 5cm radius ki ek chord chhoti circle ko touch karti hai. Chord ki length. [3M]\n📌 Tangent PQ chord PR ko point P pe milti hai. ∠QPR = 50°, toh arc PR ka centre angle. [3M]\n📌 PA = PB = 10cm, OA = 6cm, toh OP aur ∠APB nikaalo. [3M]",
+        "en": "Practice these questions for the board exam:\n📌 Prove that tangent at any point is perpendicular to radius. [4M]\n📌 Prove that tangents from external point are equal. [4M]\n📌 PA and PB are tangents, ∠APB = 80°, find ∠OAB. [3M]\n📌 Radius 5cm, tangent length 12cm, find distance from centre. [2M]\n📌 Two concentric circles 13cm and 5cm radius. A chord of larger circle touches smaller. Find chord length. [3M]\n📌 Tangent PQ meets chord PR at P. ∠QPR = 50°, find arc PR centre angle. [3M]\n📌 PA = PB = 10cm, OA = 6cm, find OP and ∠APB. [3M]"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "In questions ko 2-3 baar practice karo — pattern same rehta hai!",
+        "en": "Practice these questions 2-3 times — pattern remains the same!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek circle ka radius 7cm hai. Ek external point P se do tangents PA aur PB draw ki gayi hain. Agar ∠APB = 60°, toh (i) tangent ki length nikaalo, (ii) OP ki length nikaalo.",
+        "en": "The radius of a circle is 7cm. Two tangents PA and PB are drawn from an external point P. If ∠APB = 60°, find (i) the length of each tangent, (ii) the length of OP."
+      },
+      "steps": [
+        {
+          "hi": "Given: OA = 7cm, ∠APB = 60°",
+          "en": "Given: OA = 7cm, ∠APB = 60°"
+        },
+        {
+          "hi": "(i) Tangent length PA:",
+          "en": "(i) Length of tangent PA:"
+        },
+        {
+          "hi": "Theorem 10.2 se PA = PB",
+          "en": "From Theorem 10.2: PA = PB"
+        },
+        {
+          "hi": "So ΔPAB is isosceles",
+          "en": "So ΔPAB is isosceles"
+        },
+        {
+          "hi": "∠PAB = ∠PBA = (180°-60°)/2 = 60°",
+          "en": "∠PAB = ∠PBA = (180°-60°)/2 = 60°"
+        },
+        {
+          "hi": "Quadrilateral OAPB mein:",
+          "en": "In quadrilateral OAPB:"
+        },
+        {
+          "hi": "∠OAP = 90°, ∠OBP = 90°",
+          "en": "∠OAP = 90°, ∠OBP = 90°"
+        },
+        {
+          "hi": "∠AOB + ∠APB = 180°",
+          "en": "∠AOB + ∠APB = 180°"
+        },
+        {
+          "hi": "∠AOB = 180° - 60° = 120°",
+          "en": "∠AOB = 180° - 60° = 120°"
+        },
+        {
+          "hi": "ΔOAP mein:",
+          "en": "In ΔOAP:"
+        },
+        {
+          "hi": "∠OAP = 90°, ∠AOP = 60° (OP bisects ∠AOB)",
+          "en": "∠OAP = 90°, ∠AOP = 60° (OP bisects ∠AOB)"
+        },
+        {
+          "hi": "∠APO = 30°",
+          "en": "∠APO = 30°"
+        },
+        {
+          "hi": "tan 30° = OA/PA",
+          "en": "tan 30° = OA/PA"
+        },
+        {
+          "hi": "1/√3 = 7/PA",
+          "en": "1/√3 = 7/PA"
+        },
+        {
+          "hi": "PA = 7√3 cm",
+          "en": "PA = 7√3 cm"
+        },
+        {
+          "hi": "(ii) OP ki length:",
+          "en": "(ii) Length of OP:"
+        },
+        {
+          "hi": "sin 30° = OA/OP",
+          "en": "sin 30° = OA/OP"
+        },
+        {
+          "hi": "1/2 = 7/OP",
+          "en": "1/2 = 7/OP"
+        },
+        {
+          "hi": "OP = 14cm",
+          "en": "OP = 14cm"
+        },
+        {
+          "hi": "✅ Tangent length = 7√3 cm ≈ 12.12 cm",
+          "en": "✅ Tangent length = 7√3 cm ≈ 12.12 cm"
+        },
+        {
+          "hi": "✅ OP = 14 cm",
+          "en": "✅ OP = 14 cm"
+        },
+        {
+          "hi": "Do tangents symmetric hoti hain — OP angles ko bisect karti hai!",
+          "en": "Two tangents are symmetric — OP bisects the angles!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Prove karo ki do tangents PA aur PB ke beech ka angle ∠APB = 2∠OAB, jahan O circle ka centre hai.",
+        "en": "Prove that the angle between two tangents PA and PB is ∠APB = 2∠OAB, where O is the centre."
+      },
+      "steps": [
+        {
+          "hi": "Given: PA aur PB tangents hain, O centre hai",
+          "en": "Given: PA and PB are tangents, O is centre"
+        },
+        {
+          "hi": "Proof:",
+          "en": "Proof:"
+        },
+        {
+          "hi": "Theorem 10.2 se: PA = PB",
+          "en": "From Theorem 10.2: PA = PB"
+        },
+        {
+          "hi": "So ΔPAB is isosceles",
+          "en": "So ΔPAB is isosceles"
+        },
+        {
+          "hi": "∠PAB = ∠PBA",
+          "en": "∠PAB = ∠PBA"
+        },
+        {
+          "hi": "Theorem 10.1 se: ∠OAP = 90°",
+          "en": "From Theorem 10.1: ∠OAP = 90°"
+        },
+        {
+          "hi": "∠OAB = ∠OAP - ∠PAB = 90° - ∠PAB",
+          "en": "∠OAB = ∠OAP - ∠PAB = 90° - ∠PAB"
+        },
+        {
+          "hi": "Quadrilateral OAPB mein:",
+          "en": "In quadrilateral OAPB:"
+        },
+        {
+          "hi": "∠AOB + ∠APB = 180°",
+          "en": "∠AOB + ∠APB = 180°"
+        },
+        {
+          "hi": "ΔOAP ≅ ΔOBP (RHS)",
+          "en": "ΔOAP ≅ ΔOBP (RHS)"
+        },
+        {
+          "hi": "So ∠AOP = ∠BOP = ∠AOB/2",
+          "en": "So ∠AOP = ∠BOP = ∠AOB/2"
+        },
+        {
+          "hi": "ΔOAP mein:",
+          "en": "In ΔOAP:"
+        },
+        {
+          "hi": "∠AOP + ∠OAP + ∠APO = 180°",
+          "en": "∠AOP + ∠OAP + ∠APO = 180°"
+        },
+        {
+          "hi": "∠AOP + 90° + ∠APB/2 = 180°",
+          "en": "∠AOP + 90° + ∠APB/2 = 180°"
+        },
+        {
+          "hi": "∠AOP = 90° - ∠APB/2",
+          "en": "∠AOP = 90° - ∠APB/2"
+        },
+        {
+          "hi": "Also, ∠AOB = 2∠AOP = 180° - ∠APB",
+          "en": "Also, ∠AOB = 2∠AOP = 180° - ∠APB"
+        },
+        {
+          "hi": "ΔOAB mein:",
+          "en": "In ΔOAB:"
+        },
+        {
+          "hi": "OA = OB (radii)",
+          "en": "OA = OB (radii)"
+        },
+        {
+          "hi": "So ∠OAB = ∠OBA",
+          "en": "So ∠OAB = ∠OBA"
+        },
+        {
+          "hi": "∠OAB = (180° - ∠AOB)/2 = (180° - (180°-∠APB))/2 = ∠APB/2",
+          "en": "∠OAB = (180° - ∠AOB)/2 = (180° - (180°-∠APB))/2 = ∠APB/2"
+        },
+        {
+          "hi": "Therefore, ∠APB = 2∠OAB ✅",
+          "en": "Therefore, ∠APB = 2∠OAB ✅"
+        },
+        {
+          "hi": "🎯 Is type ke proof questions mein step-by-step theorems aur triangle properties use karo!",
+          "en": "🎯 In proof questions, use step-by-step theorems and triangle properties!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek circle mein tangent XY point P pe chord PQ ko milti hai. Agar ∠XPQ = 70°, toh arc PQ ke beech ka angle (major arc) nikaalo.",
+        "en": "In a circle, tangent XY at point P meets chord PQ. If ∠XPQ = 70°, find the angle subtended by arc PQ at the centre (major arc)."
+      },
+      "steps": [
+        {
+          "hi": "Alternate Segment Theorem se:",
+          "en": "By Alternate Segment Theorem:"
+        },
+        {
+          "hi": "∠XPQ = Angle in alternate segment = 70°",
+          "en": "∠XPQ = Angle in alternate segment = 70°"
+        },
+        {
+          "hi": "Minor arc PQ pe centre angle = 2 × 70° = 140°",
+          "en": "Centre angle for minor arc PQ = 2 × 70° = 140°"
+        },
+        {
+          "hi": "Major arc PQ pe angle = 360° - 140° = 220°",
+          "en": "Centre angle for major arc PQ = 360° - 140° = 220°"
+        },
+        {
+          "hi": "✅ Major arc angle = 220°",
+          "en": "✅ Major arc angle = 220°"
+        },
+        {
+          "hi": "Minor arc angle = 2 × Tangent-chord angle. Major arc = 360° - Minor arc.",
+          "en": "Minor arc angle = 2 × Tangent-chord angle. Major arc = 360° - Minor arc."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Do concentric circles hain jinke radii 5cm aur 3cm hain. Bade circle ki ek chord chhote circle ko touch karti hai. Chord ki length nikaalo.",
+        "en": "Two concentric circles have radii 5cm and 3cm. A chord of the larger circle touches the smaller circle. Find the length of the chord."
+      },
+      "steps": [
+        {
+          "hi": "Let common centre = O",
+          "en": "Let common centre = O"
+        },
+        {
+          "hi": "Radii: R = 5cm (bada), r = 3cm (chhota)",
+          "en": "Radii: R = 5cm (larger), r = 3cm (smaller)"
+        },
+        {
+          "hi": "Chord AB bade circle ki hai aur chhote circle ko point P pe touch karti hai",
+          "en": "Chord AB of larger circle touches smaller circle at point P"
+        },
+        {
+          "hi": "Chhote circle ke liye AB tangent hai:",
+          "en": "For smaller circle, AB is a tangent:"
+        },
+        {
+          "hi": "So OP ⊥ AB aur OP = r = 3cm",
+          "en": "So OP ⊥ AB and OP = r = 3cm"
+        },
+        {
+          "hi": "Bade circle mein:",
+          "en": "In larger circle:"
+        },
+        {
+          "hi": "OA = R = 5cm",
+          "en": "OA = R = 5cm"
+        },
+        {
+          "hi": "Right triangle OAP mein:",
+          "en": "In right triangle OAP:"
+        },
+        {
+          "hi": "OA² = OP² + AP²",
+          "en": "OA² = OP² + AP²"
+        },
+        {
+          "hi": "5² = 3² + AP²",
+          "en": "5² = 3² + AP²"
+        },
+        {
+          "hi": "25 = 9 + AP²",
+          "en": "25 = 9 + AP²"
+        },
+        {
+          "hi": "AP² = 16 → AP = 4cm",
+          "en": "AP² = 16 → AP = 4cm"
+        },
+        {
+          "hi": "Chord AB = 2 × AP = 2 × 4 = 8cm",
+          "en": "Chord AB = 2 × AP = 2 × 4 = 8cm"
+        },
+        {
+          "hi": "✅ Chord ki length = 8 cm",
+          "en": "✅ Length of chord = 8 cm"
+        },
+        {
+          "hi": "🎯 Concentric circles mein: Chord = 2 × √(R² - r²) — yeh formula direct use kar sakte ho!",
+          "en": "🎯 For concentric circles: Chord = 2√(R² - r²) — you can use this formula directly!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Tangent radius ke ______ hoti hai.",
+          "en": "Tangent is ______ to the radius."
+        },
+        "options": [
+          {
+            "hi": "Parallel",
+            "en": "Parallel"
+          },
+          {
+            "hi": "Perpendicular",
+            "en": "Perpendicular"
+          },
+          {
+            "hi": "Equal",
+            "en": "Equal"
+          },
+          {
+            "hi": "Bisector",
+            "en": "Bisector"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Theorem 10.1: Tangent point of contact pe radius ke perpendicular hoti hai.",
+          "en": "Theorem 10.1: Tangent is perpendicular to radius at point of contact."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "External point se kitni tangents nikalti hain?",
+          "en": "How many tangents from an external point?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "3",
+            "en": "3"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "External point se hamesha 2 tangents nikalti hain.",
+          "en": "From an external point, always 2 tangents are drawn."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "PA aur PB do tangents hain. Agar ∠AOB = 100°, toh ∠APB = ?",
+          "en": "If ∠AOB = 100°, then ∠APB = ?"
+        },
+        "options": [
+          {
+            "hi": "80°",
+            "en": "80°"
+          },
+          {
+            "hi": "100°",
+            "en": "100°"
+          },
+          {
+            "hi": "90°",
+            "en": "90°"
+          },
+          {
+            "hi": "180°",
+            "en": "180°"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "∠AOB + ∠APB = 180° → ∠APB = 180° - 100° = 80°.",
+          "en": "∠AOB + ∠APB = 180° → ∠APB = 180° - 100° = 80°."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Point circle ke andar ho toh usse 1 tangent nikalti hai.",
+          "en": "If a point is inside the circle, 1 tangent can be drawn from it."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Circle ke andar ke point se koi tangent nahi nikalti.",
+          "en": "From a point inside the circle, no tangent can be drawn."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Radius 8cm, point ki doori 17cm, tangent length = ?",
+          "en": "Radius 8cm, distance from point 17cm, tangent length = ?"
+        },
+        "options": [
+          {
+            "hi": "9cm",
+            "en": "9cm"
+          },
+          {
+            "hi": "15cm",
+            "en": "15cm"
+          },
+          {
+            "hi": "17cm",
+            "en": "17cm"
+          },
+          {
+            "hi": "25cm",
+            "en": "25cm"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "PT² = 17² - 8² = 289 - 64 = 225 → PT = 15cm.",
+          "en": "PT² = 17² - 8² = 289 - 64 = 225 → PT = 15cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Do concentric circles ke radii 5cm aur 3cm hain. Bade circle ki chord chhote circle ko touch karti hai. Chord ki length kya hogi?",
+          "en": "Two concentric circles have radii 5cm and 3cm. A chord of larger circle touches smaller. Chord length?"
+        },
+        "options": [
+          {
+            "hi": "4cm",
+            "en": "4cm"
+          },
+          {
+            "hi": "6cm",
+            "en": "6cm"
+          },
+          {
+            "hi": "8cm",
+            "en": "8cm"
+          },
+          {
+            "hi": "10cm",
+            "en": "10cm"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Chord = 2√(R²-r²) = 2√(25-9) = 2√16 = 2×4 = 8cm.",
+          "en": "Chord = 2√(R²-r²) = 2√(25-9) = 2√16 = 2×4 = 8cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Tangent PQ chord PR ko milti hai. ∠QPR = 55°, toh arc PR ka centre angle = ?",
+          "en": "Tangent PQ meets chord PR. ∠QPR = 55°, then arc PR centre angle = ?"
+        },
+        "options": [
+          {
+            "hi": "55°",
+            "en": "55°"
+          },
+          {
+            "hi": "110°",
+            "en": "110°"
+          },
+          {
+            "hi": "125°",
+            "en": "125°"
+          },
+          {
+            "hi": "220°",
+            "en": "220°"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Centre angle = 2 × Tangent-chord angle = 2 × 55° = 110°.",
+          "en": "Centre angle = 2 × Tangent-chord angle = 2 × 55° = 110°."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "PA = PB = 12cm, OA = 5cm. OP ki length kya hogi?",
+          "en": "PA = PB = 12cm, OA = 5cm. What is OP?"
+        },
+        "options": [
+          {
+            "hi": "12cm",
+            "en": "12cm"
+          },
+          {
+            "hi": "13cm",
+            "en": "13cm"
+          },
+          {
+            "hi": "17cm",
+            "en": "17cm"
+          },
+          {
+            "hi": "7cm",
+            "en": "7cm"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "OP² = OA² + PA² = 5² + 12² = 25 + 144 = 169 → OP = 13cm.",
+          "en": "OP² = OA² + PA² = 5² + 12² = 25 + 144 = 169 → OP = 13cm."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "✅ Tangent circle ko exactly ONE point pe touch karti hai",
+      "en": "✅ A tangent touches a circle at exactly ONE point"
+    },
+    {
+      "hi": "✅ Tangent ⊥ Radius (Theorem 10.1)",
+      "en": "✅ Tangent ⊥ Radius (Theorem 10.1)"
+    },
+    {
+      "hi": "✅ External point se 2 tangents: PA = PB (Theorem 10.2)",
+      "en": "✅ Two tangents from external point: PA = PB (Theorem 10.2)"
+    },
+    {
+      "hi": "✅ OP bisects ∠APB and ∠AOB",
+      "en": "✅ OP bisects ∠APB and ∠AOB"
+    },
+    {
+      "hi": "✅ Quadrilateral OAPB mein ∠AOB + ∠APB = 180°",
+      "en": "✅ In quadrilateral OAPB, ∠AOB + ∠APB = 180°"
+    },
+    {
+      "hi": "✅ ΔOAP ≅ ΔOBP (RHS congruence)",
+      "en": "✅ ΔOAP ≅ ΔOBP (RHS congruence)"
+    },
+    {
+      "hi": "✅ Alternate Segment Theorem: Tangent-chord angle = Angle in alternate segment",
+      "en": "✅ Alternate Segment Theorem: Tangent-chord angle = Angle in alternate segment"
+    },
+    {
+      "hi": "✅ Concentric circles: Chord = 2√(R² - r²)",
+      "en": "✅ Concentric circles: Chord = 2√(R² - r²)"
+    },
+    {
+      "hi": "🎯 Full Chapter XP: 160 | Total Duration: ~44 min",
+      "en": "🎯 Full Chapter XP: 160 | Total Duration: ~44 min"
+    }
+  ],
+  "summary": {
+    "hi": "Chapter 10 complete! Ab tum tangent lengths, angles, aur proofs wale board exam questions confidently solve kar sakte ho.",
+    "en": "Chapter 10 complete! You can now confidently solve board exam questions on tangent lengths, angles, and proofs."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-10-master",
+      "name": {
+        "hi": "Circles Master",
+        "en": "Circles Master"
+      },
+      "icon": "🏅"
+    }
+  }
+}

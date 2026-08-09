@@ -1,0 +1,379 @@
+{
+  "id": "chapter-10-lesson-01",
+  "chapterId": "chapter-10",
+  "order": 1,
+  "title": {
+    "hi": "Tangent to a Circle",
+    "en": "Tangent to a Circle"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "⭕",
+    "headline": {
+      "hi": "Jahan line circle ko sirf ek point pe chhoo jaaye! ⭕",
+      "en": "Where a line touches the circle at exactly one point! ⭕"
+    },
+    "subtext": {
+      "hi": "Tangent ek aisi straight line hai jo circle ko sirf ek hi point pe touch karti hai.",
+      "en": "A tangent is a straight line that touches a circle at exactly one point."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Tangent ek aisi straight line hai jo circle ko sirf ek hi point pe touch karti hai. Is chapter mein hum tangent ki properties aur theorems seekhenge jo board exams mein 4-6 marks ke aate hain!",
+      "en": "A tangent is a straight line that touches a circle at exactly one point. In this chapter, we will learn the properties and theorems of tangents that carry 4-6 marks in board exams!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Pehle kuch important definitions yaad kar lo:\n📍 Centre (O): Circle ka beech wala point\n📍 Radius (r): Centre se circumference tak ki doori\n📍 Diameter (d): 2 × Radius, centre se guzarne wali longest chord\n📍 Chord: Circle ke do points ko milane wali line segment\n📍 Circumference: Circle ki boundary",
+        "en": "First, let's recall some important definitions:\n📍 Centre (O): The middle point of the circle\n📍 Radius (r): Distance from centre to circumference\n📍 Diameter (d): 2 × Radius, the longest chord passing through centre\n📍 Chord: A line segment joining two points on the circle\n📍 Circumference: The boundary of the circle"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Radius = r, Diameter = 2r — Hamesha yaad rakhna!",
+        "en": "Radius = r, Diameter = 2r — Always remember!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Tangent ek aisi line hai jo circle ko exactly ek point pe touch karti hai.\n🔵 Tangent: Line jo circle ko sirf ONE point pe touch kare\n🔵 Us point ko Point of Contact kehte hain\n🔵 Tangent circle ko intersect nahi karti — sirf touch karti hai\n🔵 Real life: Cycle ke tyre ki zameen se touch hone wali line, Wheel ka road se contact\n❌ Secant: Line jo circle ko DO points pe kaat-ti hai (intersect karti hai)",
+        "en": "A tangent is a line that touches a circle at exactly one point.\n🔵 Tangent: A line that touches the circle at exactly ONE point\n🔵 That point is called the Point of Contact\n🔵 A tangent does not intersect the circle — it only touches\n🔵 Real life: The line where a bicycle tyre touches the ground, wheel's contact with road\n❌ Secant: A line that cuts the circle at TWO points (intersects)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Tip: Tangent = Touch (1 point), Secant = Cut (2 points)",
+        "en": "💡 Tip: Tangent = Touch (1 point), Secant = Cut (2 points)"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Important Property: Tangent ⊥ Radius: Yeh sabse important property hai. Agar koi line circle ke kisi point pe tangent hai, toh woh line us point se centre ko milane wale radius ke perpendicular hoti hai.",
+        "en": "Important Property: Tangent ⊥ Radius: This is the most important property. If a line is tangent to a circle at a point, then that line is perpendicular to the radius drawn to that point."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Tangent at any point of a circle is perpendicular to the radius through the point of contact."
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Example: Agar OP radius hai aur line AB point P pe tangent hai, toh OP ⊥ AB, matlab ∠OPA = ∠OPB = 90°",
+        "en": "Example: If OP is a radius and line AB is tangent at point P, then OP ⊥ AB, meaning ∠OPA = ∠OPB = 90°"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Point ki position ke hisaab se tangents ki sankhya alag hoti hai:\n📍 Point Circle ke ANDAR hai → 0 Tangent (koi tangent nahi niklegi)\n📍 Point Circle pe hai → 1 Tangent (sirf wahi point pe ek tangent)\n📍 Point Circle ke BAHAR hai → 2 Tangents (do alag-alag tangents nikalti hain)\n🎯 Board exam mein bahut aata hai: 'Ek external point se kitni tangents?' Answer: 2",
+        "en": "The number of tangents depends on the position of the point:\n📍 Point INSIDE the circle → 0 Tangents (no tangent possible)\n📍 Point ON the circle → 1 Tangent (only one tangent at that point)\n📍 Point OUTSIDE the circle → 2 Tangents (two different tangents)\n🎯 Very common in board exams: 'How many tangents from an external point?' Answer: 2"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "External point se hamesha 2 tangents nikalti hain!",
+        "en": "From an external point, always 2 tangents are drawn!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek circle ka radius 5cm hai. Ek point P circle se 13cm door hai. Point P se tangent ki length nikaalo.",
+        "en": "The radius of a circle is 5cm. A point P is 13cm from the centre. Find the length of the tangent from P to the circle."
+      },
+      "steps": [
+        {
+          "hi": "Radius (r) = 5cm",
+          "en": "Radius (r) = 5cm"
+        },
+        {
+          "hi": "Distance from centre to P (OP) = 13cm",
+          "en": "Distance from centre to P (OP) = 13cm"
+        },
+        {
+          "hi": "Let tangent point be T.",
+          "en": "Let tangent point be T."
+        },
+        {
+          "hi": "Hum jaante hain ki tangent ⊥ radius hoti hai:",
+          "en": "We know tangent ⊥ radius:"
+        },
+        {
+          "hi": "So, ∠OTP = 90°",
+          "en": "So, ∠OTP = 90°"
+        },
+        {
+          "hi": "Right triangle OTP mein:",
+          "en": "In right triangle OTP:"
+        },
+        {
+          "hi": "OP² = OT² + PT² (Pythagoras)",
+          "en": "OP² = OT² + PT² (Pythagoras)"
+        },
+        {
+          "hi": "13² = 5² + PT²",
+          "en": "13² = 5² + PT²"
+        },
+        {
+          "hi": "169 = 25 + PT²",
+          "en": "169 = 25 + PT²"
+        },
+        {
+          "hi": "PT² = 144",
+          "en": "PT² = 144"
+        },
+        {
+          "hi": "PT = 12cm",
+          "en": "PT = 12cm"
+        },
+        {
+          "hi": "✅ Tangent ki length = 12 cm",
+          "en": "✅ Length of tangent = 12 cm"
+        },
+        {
+          "hi": "Tangent ⊥ Radius → Right triangle banta hai → Pythagoras se length nikaalo!",
+          "en": "Tangent ⊥ Radius → Right triangle formed → Use Pythagoras to find length!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek circle ka radius 3cm hai. Ek external point P se do tangents PA aur PB draw ki gayi hain. Agar OP = 6cm hai, toh ∠APB nikaalo.",
+        "en": "The radius of a circle is 3cm. Two tangents PA and PB are drawn from an external point P. If OP = 6cm, find ∠APB."
+      },
+      "steps": [
+        {
+          "hi": "Radius (OA) = 3cm, OP = 6cm",
+          "en": "Radius (OA) = 3cm, OP = 6cm"
+        },
+        {
+          "hi": "Tangent ⊥ Radius → ∠OAP = 90°",
+          "en": "Tangent ⊥ Radius → ∠OAP = 90°"
+        },
+        {
+          "hi": "Right triangle OAP mein:",
+          "en": "In right triangle OAP:"
+        },
+        {
+          "hi": "sin ∠OPA = OA/OP = 3/6 = 1/2",
+          "en": "sin ∠OPA = OA/OP = 3/6 = 1/2"
+        },
+        {
+          "hi": "sin ∠OPA = 1/2 = sin 30°",
+          "en": "sin ∠OPA = 1/2 = sin 30°"
+        },
+        {
+          "hi": "So, ∠OPA = 30°",
+          "en": "So, ∠OPA = 30°"
+        },
+        {
+          "hi": "Similarly, ∠OPB = 30°",
+          "en": "Similarly, ∠OPB = 30°"
+        },
+        {
+          "hi": "∠APB = ∠OPA + ∠OPB = 30° + 30° = 60°",
+          "en": "∠APB = ∠OPA + ∠OPB = 30° + 30° = 60°"
+        },
+        {
+          "hi": "✅ ∠APB = 60°",
+          "en": "✅ ∠APB = 60°"
+        },
+        {
+          "hi": "🎯 Do tangents symmetric hoti hain — isliye ∠OPA = ∠OPB!",
+          "en": "🎯 Two tangents are symmetric — so ∠OPA = ∠OPB!"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Tangent circle ko kitne points pe touch karti hai?",
+          "en": "How many points does a tangent touch on a circle?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "3",
+            "en": "3"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Tangent circle ko exactly ek point pe touch karti hai.",
+          "en": "A tangent touches a circle at exactly one point."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ek external point se circle pe kitni tangents nikalti hain?",
+          "en": "How many tangents can be drawn from an external point to a circle?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "3",
+            "en": "3"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "External point se hamesha 2 tangents nikalti hain.",
+          "en": "From an external point, always 2 tangents can be drawn."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Tangent radius ke parallel hoti hai.",
+          "en": "A tangent is parallel to the radius."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Tangent radius ke perpendicular hoti hai, parallel nahi.",
+          "en": "A tangent is perpendicular to the radius, not parallel."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Circle ka radius 8cm hai. Centre se 17cm door ek point se tangent ki length kya hogi?",
+          "en": "Radius of circle is 8cm. A point is 17cm from centre. Length of tangent?"
+        },
+        "options": [
+          {
+            "hi": "15cm",
+            "en": "15cm"
+          },
+          {
+            "hi": "16cm",
+            "en": "16cm"
+          },
+          {
+            "hi": "17cm",
+            "en": "17cm"
+          },
+          {
+            "hi": "9cm",
+            "en": "9cm"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "PT² = 17² - 8² = 289 - 64 = 225 → PT = 15cm.",
+          "en": "PT² = 17² - 8² = 289 - 64 = 225 → PT = 15cm."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Point circle ke andar ho toh kitni tangents nikalti hain?",
+          "en": "If a point is inside the circle, how many tangents can be drawn?"
+        },
+        "options": [
+          {
+            "hi": "0",
+            "en": "0"
+          },
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "2",
+            "en": "2"
+          },
+          {
+            "hi": "Infinite",
+            "en": "Infinite"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Circle ke andar ke point se koi tangent nahi nikalti.",
+          "en": "From a point inside the circle, no tangent can be drawn."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Tangent circle ko exactly ONE point pe touch karti hai",
+      "en": "A tangent touches a circle at exactly ONE point"
+    },
+    {
+      "hi": "Tangent ⊥ Radius (point of contact pe 90° angle)",
+      "en": "Tangent ⊥ Radius (90° angle at point of contact)"
+    },
+    {
+      "hi": "Point inside circle → 0 tangents",
+      "en": "Point inside circle → 0 tangents"
+    },
+    {
+      "hi": "Point on circle → 1 tangent",
+      "en": "Point on circle → 1 tangent"
+    },
+    {
+      "hi": "Point outside circle → 2 tangents",
+      "en": "Point outside circle → 2 tangents"
+    },
+    {
+      "hi": "External point se 2 tangents ki lengths equal hoti hain (Theorem 10.2)",
+      "en": "Lengths of two tangents from external point are equal (Theorem 10.2)"
+    },
+    {
+      "hi": "Tangent length nikaalne ke liye Pythagoras use karo",
+      "en": "To find tangent length, use Pythagoras theorem"
+    }
+  ],
+  "summary": {
+    "hi": "Ab tum jaante ho ki tangent circle ko exactly ek point pe touch karti hai aur radius ke perpendicular hoti hai — tangent length nikaalne ke liye Pythagoras use karo.",
+    "en": "You now know a tangent touches a circle at exactly one point and is perpendicular to the radius — use Pythagoras to find its length."
+  },
+  "reward": {
+    "badge": null
+  }
+}

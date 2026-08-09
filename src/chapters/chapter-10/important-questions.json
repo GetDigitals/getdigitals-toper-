@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-10",
+  "objective": [
+    {
+      "question": {
+        "hi": "Ek point circle ke andar hai, toh us point se kitni tangents nikalti hain?",
+        "en": "How many tangents can be drawn from a point that lies inside a circle?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "2", "en": "2" },
+        { "hi": "Infinite", "en": "Infinite" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Circle ke andar ke kisi point se koi tangent nahi nikalti — koi tangent possible nahi hai.",
+        "en": "No tangent can be drawn from a point inside the circle."
+      }
+    },
+    {
+      "question": {
+        "hi": "Tangent, point of contact pe radius ke sath kya angle banati hai?",
+        "en": "What angle does a tangent make with the radius at the point of contact?"
+      },
+      "options": [
+        { "hi": "0°", "en": "0°" },
+        { "hi": "45°", "en": "45°" },
+        { "hi": "90°", "en": "90°" },
+        { "hi": "180°", "en": "180°" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Theorem 10.1 ke according, tangent hamesha radius ke perpendicular (90°) hoti hai.",
+        "en": "By Theorem 10.1, a tangent is always perpendicular (90°) to the radius."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek external point se ek circle pe kitni tangents draw ki ja sakti hain?",
+        "en": "How many tangents can be drawn to a circle from an external point?"
+      },
+      "options": [
+        { "hi": "0", "en": "0" },
+        { "hi": "1", "en": "1" },
+        { "hi": "2", "en": "2" },
+        { "hi": "3", "en": "3" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "External point se hamesha exactly 2 tangents nikalti hain.",
+        "en": "Exactly 2 tangents can always be drawn from an external point."
+      }
+    },
+    {
+      "question": {
+        "hi": "PA aur PB ek circle pe external point P se do tangents hain. Agar PA = 9cm, to PB kya hoga?",
+        "en": "PA and PB are two tangents drawn to a circle from an external point P. If PA = 9cm, what is PB?"
+      },
+      "options": [
+        { "hi": "4.5cm", "en": "4.5cm" },
+        { "hi": "9cm", "en": "9cm" },
+        { "hi": "18cm", "en": "18cm" },
+        { "hi": "Kuch bhi ho sakta hai", "en": "Cannot be determined" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Theorem 10.2 ke according, external point se dono tangents ki length equal hoti hai — PB = PA = 9cm.",
+        "en": "By Theorem 10.2, the two tangents from an external point are equal in length — PB = PA = 9cm."
+      }
+    },
+    {
+      "question": {
+        "hi": "Quadrilateral OAPB mein (O centre, PA/PB tangents), ∠AOB + ∠APB ka sum kya hota hai?",
+        "en": "In quadrilateral OAPB (O = centre, PA/PB tangents), what is the sum ∠AOB + ∠APB?"
+      },
+      "options": [
+        { "hi": "90°", "en": "90°" },
+        { "hi": "180°", "en": "180°" },
+        { "hi": "270°", "en": "270°" },
+        { "hi": "360°", "en": "360°" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "∠OAP aur ∠OBP dono 90° hote hain (tangent ⊥ radius), aur quadrilateral ke angles ka sum 360° hota hai, isliye baaki dono angles ka sum bhi 180° hi hoga.",
+        "en": "Since ∠OAP and ∠OBP are both 90° (tangent ⊥ radius) and the quadrilateral's angles sum to 360°, the remaining two angles must also add up to 180°."
+      }
+    },
+    {
+      "question": {
+        "hi": "Circle ka radius 6cm hai aur ek point centre se 10cm door hai. Tangent ki length kya hogi?",
+        "en": "A circle has radius 6cm and a point is 10cm from the centre. What is the length of the tangent?"
+      },
+      "options": [
+        { "hi": "6cm", "en": "6cm" },
+        { "hi": "8cm", "en": "8cm" },
+        { "hi": "10cm", "en": "10cm" },
+        { "hi": "16cm", "en": "16cm" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Pythagoras se: tangent² = 10² − 6² = 100 − 36 = 64, isliye tangent = 8cm.",
+        "en": "By Pythagoras: tangent² = 10² − 6² = 100 − 36 = 64, so tangent = 8cm."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Prove karo ki circle ke kisi bhi point pe tangent, us point of contact se guzarne wale radius ke perpendicular hoti hai.",
+        "en": "Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Given: Circle with centre O, tangent XY at point P.\nTo Prove: OP ⊥ XY\nProof by Contradiction:\nMaan lo OP ⊥ XY nahi hai.\nToh koi aur point Q hoga XY pe jisse OQ ⊥ XY ho.\nRight triangle OQP mein, OQ < OP (hypotenuse sabse badi).\nLekin Q circle ke andar hai (kyunki OQ < radius OP), iska matlab XY circle ko do points pe kaat rahi hai — contradiction!\nIsliye OP ⊥ XY hi hona chahiye.",
+        "en": "Given: Circle with centre O, tangent XY at point P.\nTo Prove: OP ⊥ XY\nProof by Contradiction:\nAssume OP is not perpendicular to XY.\nThen there would be some other point Q on XY such that OQ ⊥ XY.\nIn right triangle OQP, OQ < OP (hypotenuse is the largest side).\nBut then Q lies inside the circle (since OQ < radius OP), which means XY cuts the circle at two points — a contradiction!\nTherefore, OP must be perpendicular to XY."
+      }
+    },
+    {
+      "question": {
+        "hi": "Prove karo ki ek external point se circle pe draw ki gayi do tangents ki lengths equal hoti hain.",
+        "en": "Prove that the lengths of the two tangents drawn from an external point to a circle are equal."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Given: Circle with centre O, external point P, tangents PA and PB.\nTo Prove: PA = PB\nProof: Join OP, OA, OB.\n∠OAP = ∠OBP = 90° (Theorem 10.1)\nOA = OB (radii of same circle)\nOP = OP (common side)\nΔOAP ≅ ΔOBP (RHS congruence rule)\nIsliye, PA = PB (CPCT).",
+        "en": "Given: Circle with centre O, external point P, tangents PA and PB.\nTo Prove: PA = PB\nProof: Join OP, OA, OB.\n∠OAP = ∠OBP = 90° (Theorem 10.1)\nOA = OB (radii of same circle)\nOP = OP (common side)\nΔOAP ≅ ΔOBP (by RHS congruence rule)\nTherefore, PA = PB (by CPCT)."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek circle ka radius 7cm hai. External point P se do tangents PA aur PB draw ki gayi hain. Agar ∠APB = 60°, toh (i) tangent ki length nikaalo, (ii) OP ki length nikaalo.",
+        "en": "The radius of a circle is 7cm. Two tangents PA and PB are drawn from an external point P. If ∠APB = 60°, find (i) the length of the tangent, (ii) the length of OP."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Given: OA = 7cm, ∠APB = 60°\nTheorem 10.2 se PA = PB, isliye ΔPAB isosceles hai.\n∠PAB = ∠PBA = (180°−60°)/2 = 60°\nQuadrilateral OAPB mein ∠AOB + ∠APB = 180°, isliye ∠AOB = 120°\nΔOAP mein: ∠OAP = 90°, ∠AOP = 60° (OP, ∠AOB ko bisect karti hai)\ntan 30° = OA/PA → PA = 7√3 cm\nsin 30° = OA/OP → OP = 14cm",
+        "en": "Given: OA = 7cm, ∠APB = 60°\nBy Theorem 10.2, PA = PB, so ΔPAB is isosceles.\n∠PAB = ∠PBA = (180°−60°)/2 = 60°\nIn quadrilateral OAPB, ∠AOB + ∠APB = 180°, so ∠AOB = 120°\nIn ΔOAP: ∠OAP = 90°, ∠AOP = 60° (OP bisects ∠AOB)\ntan 30° = OA/PA → PA = 7√3 cm\nsin 30° = OA/OP → OP = 14cm"
+      }
+    },
+    {
+      "question": {
+        "hi": "Do concentric circles hain jinke radii 5cm aur 3cm hain. Bade circle ki ek chord chhote circle ko touch karti hai. Chord ki length nikaalo.",
+        "en": "Two concentric circles have radii 5cm and 3cm. A chord of the larger circle touches the smaller circle. Find the length of the chord."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Common centre = O. R = 5cm (bada), r = 3cm (chhota).\nChord AB chhote circle ko point P pe touch karti hai, isliye OP ⊥ AB aur OP = 3cm.\nRight triangle OAP mein: OA² = OP² + AP² → 25 = 9 + AP² → AP = 4cm\nChord AB = 2 × AP = 8cm",
+        "en": "Common centre = O. R = 5cm (larger), r = 3cm (smaller).\nChord AB touches the smaller circle at point P, so OP ⊥ AB and OP = 3cm.\nIn right triangle OAP: OA² = OP² + AP² → 25 = 9 + AP² → AP = 4cm\nChord AB = 2 × AP = 8cm"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek circle mein tangent XY point P pe chord PQ ko milti hai. Agar ∠XPQ = 70°, toh minor arc PQ ke centre pe banne wale angle ka value nikaalo.",
+        "en": "A tangent XY meets chord PQ at point P on a circle. If ∠XPQ = 70°, find the angle subtended by the minor arc PQ at the centre."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Alternate Segment Theorem se: ∠XPQ = Angle in alternate segment = 70°\nMinor arc PQ pe centre angle = 2 × 70° = 140°",
+        "en": "By the Alternate Segment Theorem: ∠XPQ = Angle in alternate segment = 70°\nAngle subtended by minor arc PQ at the centre = 2 × 70° = 140°"
+      }
+    }
+  ]
+}

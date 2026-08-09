@@ -1,0 +1,403 @@
+{
+  "id": "chapter-10-lesson-02",
+  "chapterId": "chapter-10",
+  "order": 2,
+  "title": {
+    "hi": "Theorems on Tangents",
+    "en": "Theorems on Tangents"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "📐",
+    "headline": {
+      "hi": "Do important theorems jo har saal exam mein aate hain!",
+      "en": "Two important theorems that appear every year in exams!"
+    },
+    "subtext": {
+      "hi": "Is lesson mein hum do sabse important theorems seekhenge — Theorem 10.1 (Tangent perpendicular to Radius) aur Theorem 10.2 (Equal Tangents from External Point).",
+      "en": "In this lesson, we learn the two most important theorems — Theorem 10.1 (Tangent perpendicular to Radius) and Theorem 10.2 (Equal Tangents from External Point)."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Is lesson mein hum do sabse important theorems seekhenge — Theorem 10.1 (Tangent perpendicular to Radius) aur Theorem 10.2 (Equal Tangents from External Point). Inke proofs aur applications dono aane chahiye!",
+      "en": "In this lesson, we learn the two most important theorems — Theorem 10.1 (Tangent perpendicular to Radius) and Theorem 10.2 (Equal Tangents from External Point). Both proofs and applications are required!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Statement: The tangent at any point of a circle is perpendicular to the radius through the point of contact.\n📝 Given: Circle with centre O, tangent XY at point P\n📝 To Prove: OP ⊥ XY (matlab OP radius tangent ke perpendicular hai)\nProof by Contradiction:\nStep 1: Maan lo OP ⊥ XY nahi hai\nStep 2: Toh koi aur point Q hoga XY pe jisse OQ ⊥ XY ho\nStep 3: Right triangle OQP mein, OQ < OP (hypotenuse sabse badi)\nStep 4: Lekin Q circle ke andar hai (kyunki OQ < radius OP)\nStep 5: Iska matlab XY circle ko do points pe kaat rahi hai — contradiction!\nStep 6: Isliye OP ⊥ XY hi hona chahiye ✅",
+        "en": "Statement: The tangent at any point of a circle is perpendicular to the radius through the point of contact.\n📝 Given: Circle with centre O, tangent XY at point P\n📝 To Prove: OP ⊥ XY (meaning OP is perpendicular to the tangent)\nProof by Contradiction:\nStep 1: Assume OP is NOT perpendicular to XY\nStep 2: Then some other point Q on XY has OQ ⊥ XY\nStep 3: In right triangle OQP, OQ < OP (hypotenuse is longest)\nStep 4: But Q lies inside the circle (since OQ < radius OP)\nStep 5: This means XY cuts the circle at two points — contradiction!\nStep 6: Therefore OP ⊥ XY ✅"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Proof by Contradiction: Assume opposite → Show contradiction → Original statement true",
+        "en": "Proof by Contradiction: Assume opposite → Show contradiction → Original statement true"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Theorem 10.1 ka Use: Yeh theorem har tangent problem mein kaam aata hai. Jab bhi tangent mile, right triangle banao aur Pythagoras lagao.",
+        "en": "Use of Theorem 10.1: This theorem is used in every tangent problem. Whenever you see a tangent, form a right triangle and apply Pythagoras."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "If XY is tangent at P, then OP ⊥ XY\nSo, ∠OPX = ∠OPY = 90°"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Example: Radius = 5cm, Tangent length = 12cm → Distance from centre = √(5²+12²) = 13cm",
+        "en": "Example: Radius = 5cm, Tangent length = 12cm → Distance from centre = √(5²+12²) = 13cm"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Statement: The lengths of tangents drawn from an external point to a circle are equal.\n📝 Given: Circle with centre O, external point P, tangents PA and PB\n📝 To Prove: PA = PB\nProof:\nStep 1: Join OP, OA, OB\nStep 2: ∠OAP = ∠OBP = 90° (Theorem 10.1)\nStep 3: OA = OB (radii of same circle)\nStep 4: OP = OP (common side)\nStep 5: ΔOAP ≅ ΔOBP (RHS congruence rule)\nStep 6: Therefore, PA = PB (CPCT) ✅\nBonus: ∠AOP = ∠BOP aur ∠APO = ∠BPO bhi equal hote hain!",
+        "en": "Statement: The lengths of tangents drawn from an external point to a circle are equal.\n📝 Given: Circle with centre O, external point P, tangents PA and PB\n📝 To Prove: PA = PB\nProof:\nStep 1: Join OP, OA, OB\nStep 2: ∠OAP = ∠OBP = 90° (Theorem 10.1)\nStep 3: OA = OB (radii of same circle)\nStep 4: OP = OP (common side)\nStep 5: ΔOAP ≅ ΔOBP (RHS congruence rule)\nStep 6: Therefore, PA = PB (CPCT) ✅\nBonus: ∠AOP = ∠BOP and ∠APO = ∠BPO are also equal!"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "RHS Congruence: Right angle, Hypotenuse common, Side (radius) equal → Triangles congruent → PA = PB",
+        "en": "RHS Congruence: Right angle, Hypotenuse common, Side (radius) equal → Triangles congruent → PA = PB"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Theorem 10.2 ke Important Results: Jab do tangents ek external point se nikalti hain, toh bahut saari properties ek saath apply hoti hain. In sab ko yaad rakhna zaroori hai.",
+        "en": "Important Results from Theorem 10.2: When two tangents are drawn from an external point, many properties apply simultaneously. Remember all of them."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "PA = PB (Tangent lengths equal)\n∠AOP = ∠BOP (OP angle bisector)\n∠APO = ∠BPO (OP bisects ∠APB)\nOP is perpendicular bisector of AB"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Example: PA = PB = 12cm, OP = 13cm, OA = 5cm → Sab consistent hai kyunki 5²+12²=13²",
+        "en": "Example: PA = PB = 12cm, OP = 13cm, OA = 5cm → All consistent since 5²+12²=13²"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Do tangents PA aur PB ek circle pe point P se milti hain. Agar ∠APB = 70°, toh ∠OAB nikaalo.",
+        "en": "Two tangents PA and PB meet at point P. If ∠APB = 70°, find ∠OAB."
+      },
+      "steps": [
+        {
+          "hi": "Given: ∠APB = 70°",
+          "en": "Given: ∠APB = 70°"
+        },
+        {
+          "hi": "Theorem 10.2 se: PA = PB",
+          "en": "From Theorem 10.2: PA = PB"
+        },
+        {
+          "hi": "So, ΔPAB is isosceles",
+          "en": "So, ΔPAB is isosceles"
+        },
+        {
+          "hi": "∠PAB = ∠PBA = (180° - 70°)/2 = 110°/2 = 55°",
+          "en": "∠PAB = ∠PBA = (180° - 70°)/2 = 110°/2 = 55°"
+        },
+        {
+          "hi": "Theorem 10.1 se: ∠OAP = 90°",
+          "en": "From Theorem 10.1: ∠OAP = 90°"
+        },
+        {
+          "hi": "∠OAB = ∠OAP - ∠PAB = 90° - 55° = 35°",
+          "en": "∠OAB = ∠OAP - ∠PAB = 90° - 55° = 35°"
+        },
+        {
+          "hi": "✅ ∠OAB = 35°",
+          "en": "✅ ∠OAB = 35°"
+        },
+        {
+          "hi": "Step 1: Isosceles triangle properties. Step 2: Tangent ⊥ Radius. Step 3: Angle subtract karo.",
+          "en": "Step 1: Isosceles triangle properties. Step 2: Tangent ⊥ Radius. Step 3: Subtract angles."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Do tangents PA aur PB circle ke centre O se external point P pe milti hain. Agar ∠AOB = 110°, toh ∠APB nikaalo.",
+        "en": "Two tangents PA and PB from centre O meet at external point P. If ∠AOB = 110°, find ∠APB."
+      },
+      "steps": [
+        {
+          "hi": "Quadrilateral OAPB mein:",
+          "en": "In quadrilateral OAPB:"
+        },
+        {
+          "hi": "∠OAP = 90° (Tangent ⊥ Radius)",
+          "en": "∠OAP = 90° (Tangent ⊥ Radius)"
+        },
+        {
+          "hi": "∠OBP = 90° (Tangent ⊥ Radius)",
+          "en": "∠OBP = 90° (Tangent ⊥ Radius)"
+        },
+        {
+          "hi": "∠AOB = 110° (Given)",
+          "en": "∠AOB = 110° (Given)"
+        },
+        {
+          "hi": "Quadrilateral ke angles ka sum = 360°",
+          "en": "Sum of angles in quadrilateral = 360°"
+        },
+        {
+          "hi": "∠OAP + ∠OBP + ∠AOB + ∠APB = 360°",
+          "en": "∠OAP + ∠OBP + ∠AOB + ∠APB = 360°"
+        },
+        {
+          "hi": "90° + 90° + 110° + ∠APB = 360°",
+          "en": "90° + 90° + 110° + ∠APB = 360°"
+        },
+        {
+          "hi": "290° + ∠APB = 360°",
+          "en": "290° + ∠APB = 360°"
+        },
+        {
+          "hi": "∠APB = 70°",
+          "en": "∠APB = 70°"
+        },
+        {
+          "hi": "✅ ∠APB = 70°",
+          "en": "✅ ∠APB = 70°"
+        },
+        {
+          "hi": "🎯 Quadrilateral OAPB mein hamesha ∠AOB + ∠APB = 180° (kyunki do 90° angles hain)!",
+          "en": "🎯 In quadrilateral OAPB, always ∠AOB + ∠APB = 180° (since two angles are 90°)!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek circle mein tangent PQ point P pe chord PR ko milti hai. Agar ∠QPR = 50°, toh angle jo arc PR centre pe banta hai, nikaalo.",
+        "en": "In a circle, tangent PQ at point P meets chord PR. If ∠QPR = 50°, find the angle subtended by arc PR at the centre."
+      },
+      "steps": [
+        {
+          "hi": "Alternate Segment Theorem (important):",
+          "en": "Alternate Segment Theorem (important):"
+        },
+        {
+          "hi": "Tangent aur chord ke beech ka angle = Us chord ke opposite arc pe banta hua angle",
+          "en": "Angle between tangent and chord = Angle in alternate segment"
+        },
+        {
+          "hi": "So, ∠QPR = ∠PSR (where S is any point on alternate segment)",
+          "en": "So, ∠QPR = ∠PSR = 50° (where S is any point on alternate segment)"
+        },
+        {
+          "hi": "Centre pe angle = 2 × Circumference pe angle",
+          "en": "Angle at centre = 2 × Angle at circumference"
+        },
+        {
+          "hi": "∠POR = 2 × ∠PSR = 2 × 50° = 100°",
+          "en": "∠POR = 2 × ∠PSR = 2 × 50° = 100°"
+        },
+        {
+          "hi": "✅ Centre pe angle = 100°",
+          "en": "✅ Centre angle = 100°"
+        },
+        {
+          "hi": "Alternate Segment Theorem: Tangent-Chord angle = Angle in alternate segment",
+          "en": "Alternate Segment Theorem: Tangent-Chord angle = Angle in alternate segment"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Theorem 10.1 ke according, tangent radius ke ______ hoti hai.",
+          "en": "According to Theorem 10.1, tangent is ______ to the radius."
+        },
+        "options": [
+          {
+            "hi": "Parallel",
+            "en": "Parallel"
+          },
+          {
+            "hi": "Perpendicular",
+            "en": "Perpendicular"
+          },
+          {
+            "hi": "Equal",
+            "en": "Equal"
+          },
+          {
+            "hi": "Bisector",
+            "en": "Bisector"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Tangent point of contact pe radius ke perpendicular hoti hai.",
+          "en": "Tangent is perpendicular to the radius at the point of contact."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "External point P se do tangents PA aur PB hain. Agar PA = 8cm, toh PB = ?",
+          "en": "From external point P, two tangents PA and PB are drawn. If PA = 8cm, then PB = ?"
+        },
+        "options": [
+          {
+            "hi": "4cm",
+            "en": "4cm"
+          },
+          {
+            "hi": "8cm",
+            "en": "8cm"
+          },
+          {
+            "hi": "16cm",
+            "en": "16cm"
+          },
+          {
+            "hi": "64cm",
+            "en": "64cm"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Theorem 10.2: PA = PB. So PB = 8cm.",
+          "en": "Theorem 10.2: PA = PB. So PB = 8cm."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Quadrilateral OAPB mein ∠AOB + ∠APB = 180° hamesha hota hai.",
+          "en": "In quadrilateral OAPB, ∠AOB + ∠APB = 180° always holds true."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "∠OAP = ∠OBP = 90°, so bache hue do angles ka sum 180° hona chahiye.",
+          "en": "∠OAP = ∠OBP = 90°, so the remaining two angles must sum to 180°."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Agar ∠APB = 60°, toh ∠AOB kya hoga?",
+          "en": "If ∠APB = 60°, then ∠AOB = ?"
+        },
+        "options": [
+          {
+            "hi": "60°",
+            "en": "60°"
+          },
+          {
+            "hi": "90°",
+            "en": "90°"
+          },
+          {
+            "hi": "120°",
+            "en": "120°"
+          },
+          {
+            "hi": "180°",
+            "en": "180°"
+          }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "∠AOB + ∠APB = 180° → ∠AOB = 180° - 60° = 120°.",
+          "en": "∠AOB + ∠APB = 180° → ∠AOB = 180° - 60° = 120°."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "ΔOAP aur ΔOBP kaunse congruence rule se congruent hain?",
+          "en": "ΔOAP and ΔOBP are congruent by which rule?"
+        },
+        "options": [
+          {
+            "hi": "SSS",
+            "en": "SSS"
+          },
+          {
+            "hi": "SAS",
+            "en": "SAS"
+          },
+          {
+            "hi": "ASA",
+            "en": "ASA"
+          },
+          {
+            "hi": "RHS",
+            "en": "RHS"
+          }
+        ],
+        "correct": 3,
+        "explanation": {
+          "hi": "Right angle, Hypotenuse common (OP), Side equal (OA=OB=radius) → RHS congruence.",
+          "en": "Right angle, Hypotenuse common (OP), Side equal (OA=OB=radius) → RHS congruence."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Theorem 10.1: Tangent ⊥ Radius (point of contact pe 90°)",
+      "en": "Theorem 10.1: Tangent ⊥ Radius (90° at point of contact)"
+    },
+    {
+      "hi": "Theorem 10.2: External point se 2 tangents ki lengths equal (PA = PB)",
+      "en": "Theorem 10.2: Two tangents from external point have equal lengths (PA = PB)"
+    },
+    {
+      "hi": "OP bisects ∠APB aur ∠AOB dono",
+      "en": "OP bisects both ∠APB and ∠AOB"
+    },
+    {
+      "hi": "Quadrilateral OAPB mein ∠AOB + ∠APB = 180°",
+      "en": "In quadrilateral OAPB, ∠AOB + ∠APB = 180°"
+    },
+    {
+      "hi": "ΔOAP ≅ ΔOBP (RHS congruence)",
+      "en": "ΔOAP ≅ ΔOBP (RHS congruence)"
+    },
+    {
+      "hi": "Alternate Segment Theorem: Tangent-chord angle = Angle in alternate segment",
+      "en": "Alternate Segment Theorem: Tangent-chord angle = Angle in alternate segment"
+    },
+    {
+      "hi": "Centre angle = 2 × Circumference angle (same arc ke liye)",
+      "en": "Centre angle = 2 × Circumference angle (for same arc)"
+    }
+  ],
+  "summary": {
+    "hi": "Theorem 10.1 (Tangent ⊥ Radius) aur Theorem 10.2 (External point se equal tangents) — dono theorems ke proofs aur applications ab clear hain.",
+    "en": "Theorem 10.1 (Tangent ⊥ Radius) and Theorem 10.2 (equal tangents from an external point) — you now understand both proofs and their applications."
+  },
+  "reward": {
+    "badge": null
+  }
+}

@@ -7,12 +7,15 @@
   "title": "Circles",
   "icon": "⭕",
   "color": "#FFC93C",
-  "description": "Circles — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 300,
-  "coinReward": 60,
+  "description": "Tangent to a Circle, Theorem 10.1 (Tangent perpendicular to radius) aur Theorem 10.2 (equal tangents from an external point) — proofs, angle/length problems, aur board exam important questions. 2026-27 CBSE syllabus compliant.",
+  "xpReward": 160,
+  "coinReward": 42,
   "badge": {
     "id": "chapter-10-master",
-    "name": "Circles Master",
+    "name": {
+      "hi": "Circles Master",
+      "en": "Circles Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {
