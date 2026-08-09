@@ -1,0 +1,420 @@
+{
+  "id": "chapter-04-lesson-04",
+  "chapterId": "chapter-04",
+  "order": 4,
+  "title": {
+    "hi": "The Quadratic Formula",
+    "en": "The Quadratic Formula"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 40,
+  "coinReward": 10,
+  "hero": {
+    "emoji": "📏",
+    "headline": {
+      "hi": "The Quadratic Formula",
+      "en": "The Quadratic Formula"
+    },
+    "subtext": {
+      "hi": "One formula to solve them all!",
+      "en": "One formula to solve them all!"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Quadratic formula completing the square method se derive hota hai aur yeh har quadratic equation ko solve karne ka sabse powerful tool hai. Isse direct roots mil jaati hain!",
+      "en": "Quadratic formula completing the square method se derive hota hai aur yeh har quadratic equation ko solve karne ka sabse powerful tool hai. Isse direct roots mil jaati hain!"
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Deriving the Quadratic Formula\nQuadratic formula ax² + bx + c = 0 ko completing the square se derive kiya jaata hai:\n• ax² + bx + c = 0\n• x² + (b/a)x + c/a = 0 (divide by a)\n• x² + (b/a)x = -c/a\n• x² + (b/a)x + (b/2a)² = -c/a + (b/2a)²\n• (x + b/2a)² = (b² - 4ac)/4a²\n• x = [-b ± √(b² - 4ac)] / 2a\n\n💡 Yeh derivation samajhna important hai kyunki isse formula yaad rehta hai!",
+        "en": "Deriving the Quadratic Formula\nQuadratic formula ax² + bx + c = 0 ko completing the square se derive kiya jaata hai:\n• ax² + bx + c = 0\n• x² + (b/a)x + c/a = 0 (divide by a)\n• x² + (b/a)x = -c/a\n• x² + (b/a)x + (b/2a)² = -c/a + (b/2a)²\n• (x + b/2a)² = (b² - 4ac)/4a²\n• x = [-b ± √(b² - 4ac)] / 2a\n\n💡 Yeh derivation samajhna important hai kyunki isse formula yaad rehta hai!"
+      }
+    },
+    {
+      "type": "formula",
+      "content": {
+        "hi": "The Quadratic Formula\nx = [-b ± √(b² - 4ac)] / 2a\nYeh formula har quadratic equation ax² + bx + c = 0 ke roots directly deta hai. Bas a, b, c ki values rakh do aur solve kar lo!\nExample: x² - 5x + 6 = 0 mein a=1, b=-5, c=6. x = [5 ± √(25-24)]/2 = [5 ± 1]/2 = 3, 2",
+        "en": "The Quadratic Formula\nx = [-b ± √(b² - 4ac)] / 2a\nYeh formula har quadratic equation ax² + bx + c = 0 ke roots directly deta hai. Bas a, b, c ki values rakh do aur solve kar lo!\nExample: x² - 5x + 6 = 0 mein a=1, b=-5, c=6. x = [5 ± √(25-24)]/2 = [5 ± 1]/2 = 3, 2"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "How to Use the Formula?\nQuadratic formula use karne ke steps:\n• Step 1: Equation ko standard form (ax² + bx + c = 0) mein likho\n• Step 2: a, b, c ki values identify karo\n• Step 3: b² - 4ac (discriminant) calculate karo\n• Step 4: Formula mein values rakh kar solve karo\n• Step 5: ± sign se do roots milenge\n\n💡 Tip: Signs ka dhyan rakhna! Agar b negative hai toh -(-b) = +b hoga.",
+        "en": "How to Use the Formula?\nQuadratic formula use karne ke steps:\n• Step 1: Equation ko standard form (ax² + bx + c = 0) mein likho\n• Step 2: a, b, c ki values identify karo\n• Step 3: b² - 4ac (discriminant) calculate karo\n• Step 4: Formula mein values rakh kar solve karo\n• Step 5: ± sign se do roots milenge\n\n💡 Tip: Signs ka dhyan rakhna! Agar b negative hai toh -(-b) = +b hoga."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Example 1: Simple Application: Solve: x² - 7x + 10 = 0 using quadratic formula.",
+        "en": "Example 1: Simple Application: Solve: x² - 7x + 10 = 0 using quadratic formula."
+      },
+      "steps": [
+        {
+          "hi": "a = 1, b = -7, c = 10",
+          "en": "a = 1, b = -7, c = 10"
+        },
+        {
+          "hi": "Discriminant = b² - 4ac",
+          "en": "Discriminant = b² - 4ac"
+        },
+        {
+          "hi": "= (-7)² - 4(1)(10)",
+          "en": "= (-7)² - 4(1)(10)"
+        },
+        {
+          "hi": "= 49 - 40",
+          "en": "= 49 - 40"
+        },
+        {
+          "hi": "= 9",
+          "en": "= 9"
+        },
+        {
+          "hi": "x = [-(-7) ± √9] / 2(1)",
+          "en": "x = [-(-7) ± √9] / 2(1)"
+        },
+        {
+          "hi": "x = [7 ± 3] / 2",
+          "en": "x = [7 ± 3] / 2"
+        },
+        {
+          "hi": "x = (7 + 3)/2 = 10/2 = 5",
+          "en": "x = (7 + 3)/2 = 10/2 = 5"
+        },
+        {
+          "hi": "x = (7 - 3)/2 = 4/2 = 2",
+          "en": "x = (7 - 3)/2 = 4/2 = 2"
+        },
+        {
+          "hi": "✅ x = 5, 2",
+          "en": "✅ x = 5, 2"
+        },
+        {
+          "hi": "Verify: 5²-7(5)+10 = 25-35+10 = 0 ✓, 2²-7(2)+10 = 4-14+10 = 0 ✓",
+          "en": "Verify: 5²-7(5)+10 = 25-35+10 = 0 ✓, 2²-7(2)+10 = 4-14+10 = 0 ✓"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 2: When Discriminant is Not Perfect Square: Solve: x² + 4x + 2 = 0 using quadratic formula.",
+        "en": "Example 2: When Discriminant is Not Perfect Square: Solve: x² + 4x + 2 = 0 using quadratic formula."
+      },
+      "steps": [
+        {
+          "hi": "a = 1, b = 4, c = 2",
+          "en": "a = 1, b = 4, c = 2"
+        },
+        {
+          "hi": "Discriminant = 4² - 4(1)(2)",
+          "en": "Discriminant = 4² - 4(1)(2)"
+        },
+        {
+          "hi": "= 16 - 8",
+          "en": "= 16 - 8"
+        },
+        {
+          "hi": "= 8",
+          "en": "= 8"
+        },
+        {
+          "hi": "x = [-4 ± √8] / 2",
+          "en": "x = [-4 ± √8] / 2"
+        },
+        {
+          "hi": "x = [-4 ± 2√2] / 2",
+          "en": "x = [-4 ± 2√2] / 2"
+        },
+        {
+          "hi": "x = -2 ± √2",
+          "en": "x = -2 ± √2"
+        },
+        {
+          "hi": "✅ x = -2 + √2, -2 - √2",
+          "en": "✅ x = -2 + √2, -2 - √2"
+        },
+        {
+          "hi": "Jab discriminant perfect square nahi hota, tab answer surd form mein aata hai!",
+          "en": "Jab discriminant perfect square nahi hota, tab answer surd form mein aata hai!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Example 3: When a ≠ 1: Solve: 3x² - 2x - 1 = 0 using quadratic formula.",
+        "en": "Example 3: When a ≠ 1: Solve: 3x² - 2x - 1 = 0 using quadratic formula."
+      },
+      "steps": [
+        {
+          "hi": "a = 3, b = -2, c = -1",
+          "en": "a = 3, b = -2, c = -1"
+        },
+        {
+          "hi": "Discriminant = (-2)² - 4(3)(-1)",
+          "en": "Discriminant = (-2)² - 4(3)(-1)"
+        },
+        {
+          "hi": "= 4 + 12",
+          "en": "= 4 + 12"
+        },
+        {
+          "hi": "= 16",
+          "en": "= 16"
+        },
+        {
+          "hi": "x = [-(-2) ± √16] / 2(3)",
+          "en": "x = [-(-2) ± √16] / 2(3)"
+        },
+        {
+          "hi": "x = [2 ± 4] / 6",
+          "en": "x = [2 ± 4] / 6"
+        },
+        {
+          "hi": "x = (2 + 4)/6 = 6/6 = 1",
+          "en": "x = (2 + 4)/6 = 6/6 = 1"
+        },
+        {
+          "hi": "x = (2 - 4)/6 = -2/6 = -1/3",
+          "en": "x = (2 - 4)/6 = -2/6 = -1/3"
+        },
+        {
+          "hi": "✅ x = 1, -1/3",
+          "en": "✅ x = 1, -1/3"
+        },
+        {
+          "hi": "🎯 a ≠ 1 hone par denominator 2a hota hai, sirf 2 nahi!",
+          "en": "🎯 a ≠ 1 hone par denominator 2a hota hai, sirf 2 nahi!"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve: x² + 3x - 10 = 0 using quadratic formula.",
+        "en": "Solve: x² + 3x - 10 = 0 using quadratic formula."
+      },
+      "steps": [
+        {
+          "hi": "a=1,b=3,c=-10. D=9+40=49. x=[-3±7]/2 → x=2,-5",
+          "en": "a=1,b=3,c=-10. D=9+40=49. x=[-3±7]/2 → x=2,-5"
+        },
+        {
+          "hi": "Answer: x = 2, -5",
+          "en": "Answer: x = 2, -5"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve: x² - 4x + 1 = 0 using quadratic formula.",
+        "en": "Solve: x² - 4x + 1 = 0 using quadratic formula."
+      },
+      "steps": [
+        {
+          "hi": "a=1,b=-4,c=1. D=16-4=12. x=[4±√12]/2 = [4±2√3]/2 = 2±√3",
+          "en": "a=1,b=-4,c=1. D=16-4=12. x=[4±√12]/2 = [4±2√3]/2 = 2±√3"
+        },
+        {
+          "hi": "Answer: x = 2 ± √3",
+          "en": "Answer: x = 2 ± √3"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Solve: 5x² - 6x + 1 = 0 using quadratic formula.",
+        "en": "Solve: 5x² - 6x + 1 = 0 using quadratic formula."
+      },
+      "steps": [
+        {
+          "hi": "a=5,b=-6,c=1. D=36-20=16. x=[6±4]/10 → x=1, 1/5",
+          "en": "a=5,b=-6,c=1. D=36-20=16. x=[6±4]/10 → x=1, 1/5"
+        },
+        {
+          "hi": "Answer: x = 1, 1/5",
+          "en": "Answer: x = 1, 1/5"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "For x² - 5x + 6 = 0, discriminant is:",
+          "en": "For x² - 5x + 6 = 0, discriminant is:"
+        },
+        "options": [
+          {
+            "hi": "1",
+            "en": "1"
+          },
+          {
+            "hi": "25",
+            "en": "25"
+          },
+          {
+            "hi": "24",
+            "en": "24"
+          },
+          {
+            "hi": "49",
+            "en": "49"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "b²-4ac = (-5)² - 4(1)(6) = 25 - 24 = 1",
+          "en": "b²-4ac = (-5)² - 4(1)(6) = 25 - 24 = 1"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Solve 2x² + 5x + 3 = 0 using formula.",
+          "en": "Solve 2x² + 5x + 3 = 0 using formula."
+        },
+        "options": [
+          {
+            "hi": "x=-1,-3/2",
+            "en": "x=-1,-3/2"
+          },
+          {
+            "hi": "x=1,3/2",
+            "en": "x=1,3/2"
+          },
+          {
+            "hi": "x=-1,3/2",
+            "en": "x=-1,3/2"
+          },
+          {
+            "hi": "x=1,-3/2",
+            "en": "x=1,-3/2"
+          }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "a=2,b=5,c=3. D=25-24=1. x=[-5±1]/4 → x=-1, -3/2",
+          "en": "a=2,b=5,c=3. D=25-24=1. x=[-5±1]/4 → x=-1, -3/2"
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "For x² + 2x + 5 = 0, discriminant is:",
+          "en": "For x² + 2x + 5 = 0, discriminant is:"
+        },
+        "options": [
+          {
+            "hi": "24",
+            "en": "24"
+          },
+          {
+            "hi": "-16",
+            "en": "-16"
+          },
+          {
+            "hi": "16",
+            "en": "16"
+          },
+          {
+            "hi": "-24",
+            "en": "-24"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "b²-4ac = 4 - 20 = -16. Negative discriminant means no real roots.",
+          "en": "b²-4ac = 4 - 20 = -16. Negative discriminant means no real roots."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Quadratic formula can solve all quadratic equations.",
+          "en": "Quadratic formula can solve all quadratic equations."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Ha, quadratic formula universal hai aur har quadratic equation ko solve kar sakta hai.",
+          "en": "Ha, quadratic formula universal hai aur har quadratic equation ko solve kar sakta hai."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "If discriminant = 0, the roots are:",
+          "en": "If discriminant = 0, the roots are:"
+        },
+        "options": [
+          {
+            "hi": "Real and distinct",
+            "en": "Real and distinct"
+          },
+          {
+            "hi": "Real and equal",
+            "en": "Real and equal"
+          },
+          {
+            "hi": "Not real",
+            "en": "Not real"
+          },
+          {
+            "hi": "Imaginary",
+            "en": "Imaginary"
+          }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "D=0 hone par ±√0 = 0, so x=-b/2a (single repeated root). Real and equal roots.",
+          "en": "D=0 hone par ±√0 = 0, so x=-b/2a (single repeated root). Real and equal roots."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Formula: x = [-b ± √(b² - 4ac)] / 2a",
+      "en": "Formula: x = [-b ± √(b² - 4ac)] / 2a"
+    },
+    {
+      "hi": "Pehle a, b, c identify karo (signs ke saath)",
+      "en": "Pehle a, b, c identify karo (signs ke saath)"
+    },
+    {
+      "hi": "Discriminant = b² - 4ac calculate karo",
+      "en": "Discriminant = b² - 4ac calculate karo"
+    },
+    {
+      "hi": "± se do roots milte hain",
+      "en": "± se do roots milte hain"
+    },
+    {
+      "hi": "Yeh method har quadratic equation ke liye kaam karta hai",
+      "en": "Yeh method har quadratic equation ke liye kaam karta hai"
+    },
+    {
+      "hi": "Factorization fail hone par yeh best method hai",
+      "en": "Factorization fail hone par yeh best method hai"
+    }
+  ],
+  "summary": {
+    "hi": "The Quadratic Formula ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!",
+    "en": "The Quadratic Formula ke saare key concepts cover ho gaye — ab quiz aur practice se apni understanding test karo!"
+  },
+  "reward": {
+    "badge": null
+  }
+}
