@@ -1,0 +1,24 @@
+{
+  "id": "chapter-55",
+  "order": 8,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Water Resources",
+  "icon": "💧",
+  "color": "#2E8B57",
+  "description": "Water scarcity, multipurpose river projects, dams, and rainwater harvesting in India. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-55-master",
+    "name": {
+      "hi": "Water Resources Master",
+      "en": "Water Resources Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}
