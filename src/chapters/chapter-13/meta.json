@@ -7,12 +7,15 @@
   "title": "Statistics",
   "icon": "📊",
   "color": "#4FD1C5",
-  "description": "Grouped data se Mean, Median aur Mode nikaalna — 3 methods, cumulative frequency, aur ogive graphs, sab yahan.",
+  "description": "Grouped data se Mean, Median aur Mode nikaalna — 2 methods, cumulative frequency, aur ogive graphs, sab yahan.",
   "xpReward": 260,
   "coinReward": 52,
   "badge": {
     "id": "statistics-master",
-    "name": "Statistics Master",
+    "name": {
+      "hi": "Statistics Master",
+      "en": "Statistics Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {
