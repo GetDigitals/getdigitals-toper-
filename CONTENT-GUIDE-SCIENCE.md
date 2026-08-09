@@ -24,6 +24,19 @@ Science actually fits the existing schema quite naturally — it was originally 
 
 ## Important limitation: no real diagrams yet
 
+## Chemical formula notation — subscripts, not plain digits
+
+Every chemical formula must use proper Unicode subscript characters for
+the atom-count numbers (₀₁₂₃₄₅₆₇₈₉), never plain digits — O₂ not O2,
+H₂O not H2O, Fe₂O₃ not Fe2O3. A leading **coefficient** (how many
+molecules, e.g. the "2" in `2Mg`) stays a normal digit — only the
+digits that are part of the formula itself (subscripts) need
+converting. Example: `2Fe + 3O₂ → 2Fe₂O₃` — the 2 and 3 in front are
+coefficients (normal digits), the ₂ and ₃ inside `Fe₂O₃` are
+subscripts. This applies everywhere a formula appears: explanation
+text, formula blocks, quiz questions/options, examples, revision
+flashcards/formula sheets — every chapter, not just Chemical Reactions.
+
 The current `diagram` block only supports a single emoji + a caption — it cannot render an actual circuit diagram, ray diagram, cell structure, or other real illustrations that Science genuinely needs (e.g. "draw the path of a ray of light through a convex lens"). Two options for now:
 
 1. **Short term (works today):** describe the diagram in words inside `explanation` text blocks — e.g. "Draw two parallel horizontal lines representing the two media, a ray hitting the boundary at angle θ₁, bending toward the normal at angle θ₂ in the denser medium..." This is not ideal but is honest and functional.

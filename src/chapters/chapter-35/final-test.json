@@ -6,32 +6,56 @@
     {
       "type": "mcq",
       "question": {
-        "hi": "2Mg + O2 → 2MgO ko balance karne ke baad, left side par kitne O atoms hain?",
-        "en": "After balancing 2Mg + O2 → 2MgO, how many O atoms are on the left side?"
+        "hi": "2Mg + O₂ → 2MgO ko balance karne ke baad, left side par kitne O atoms hain?",
+        "en": "After balancing 2Mg + O₂ → 2MgO, how many O atoms are on the left side?"
       },
       "options": [
-        { "hi": "1", "en": "1" },
-        { "hi": "2", "en": "2" },
-        { "hi": "3", "en": "3" },
-        { "hi": "4", "en": "4" }
+        {
+          "hi": "1",
+          "en": "1"
+        },
+        {
+          "hi": "2",
+          "en": "2"
+        },
+        {
+          "hi": "3",
+          "en": "3"
+        },
+        {
+          "hi": "4",
+          "en": "4"
+        }
       ],
       "correct": 1,
       "explanation": {
-        "hi": "O2 molecule mein 2 oxygen atoms hote hain.",
-        "en": "The O2 molecule contains 2 oxygen atoms."
+        "hi": "O₂ molecule mein 2 oxygen atoms hote hain.",
+        "en": "The O₂ molecule contains 2 oxygen atoms."
       }
     },
     {
       "type": "mcq",
       "question": {
-        "hi": "CaO(s) + H2O(l) → Ca(OH)2(aq) kis type ki reaction hai?",
-        "en": "CaO(s) + H2O(l) → Ca(OH)2(aq) is which type of reaction?"
+        "hi": "CaO(s) + H₂O(l) → Ca(OH)2(aq) kis type ki reaction hai?",
+        "en": "CaO(s) + H₂O(l) → Ca(OH)2(aq) is which type of reaction?"
       },
       "options": [
-        { "hi": "Combination", "en": "Combination" },
-        { "hi": "Decomposition", "en": "Decomposition" },
-        { "hi": "Displacement", "en": "Displacement" },
-        { "hi": "Double Displacement", "en": "Double Displacement" }
+        {
+          "hi": "Combination",
+          "en": "Combination"
+        },
+        {
+          "hi": "Decomposition",
+          "en": "Decomposition"
+        },
+        {
+          "hi": "Displacement",
+          "en": "Displacement"
+        },
+        {
+          "hi": "Double Displacement",
+          "en": "Double Displacement"
+        }
       ],
       "correct": 0,
       "explanation": {
@@ -47,21 +71,33 @@
       },
       "correct": true,
       "explanation": {
-        "hi": "Sahi — electrolytic decomposition electricity pass karke hoti hai, jaise water ka H2 aur O2 mein decompose hona.",
-        "en": "Correct — electrolytic decomposition happens by passing electricity, like water decomposing into H2 and O2."
+        "hi": "Sahi — electrolytic decomposition electricity pass karke hoti hai, jaise water ka H₂ aur O₂ mein decompose hona.",
+        "en": "Correct — electrolytic decomposition happens by passing electricity, like water decomposing into H₂ and O₂."
       }
     },
     {
       "type": "mcq",
       "question": {
-        "hi": "Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s) mein iron copper ko kyun displace karta hai?",
-        "en": "In Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s), why does iron displace copper?"
+        "hi": "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s) mein iron copper ko kyun displace karta hai?",
+        "en": "In Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s), why does iron displace copper?"
       },
       "options": [
-        { "hi": "Iron heavier hai", "en": "Iron is heavier" },
-        { "hi": "Iron copper se zyada reactive hai", "en": "Iron is more reactive than copper" },
-        { "hi": "Iron sasta hai", "en": "Iron is cheaper" },
-        { "hi": "Copper solid hai", "en": "Copper is a solid" }
+        {
+          "hi": "Iron heavier hai",
+          "en": "Iron is heavier"
+        },
+        {
+          "hi": "Iron copper se zyada reactive hai",
+          "en": "Iron is more reactive than copper"
+        },
+        {
+          "hi": "Iron sasta hai",
+          "en": "Iron is cheaper"
+        },
+        {
+          "hi": "Copper solid hai",
+          "en": "Copper is a solid"
+        }
       ],
       "correct": 1,
       "explanation": {
@@ -72,19 +108,31 @@
     {
       "type": "mcq",
       "question": {
-        "hi": "Na2SO4 + BaCl2 → BaSO4↓ + 2NaCl mein BaSO4 kya hai?",
-        "en": "In Na2SO4 + BaCl2 → BaSO4↓ + 2NaCl, what is BaSO4?"
+        "hi": "Na₂SO₄ + BaCl₂ → BaSO₄↓ + 2NaCl mein BaSO₄ kya hai?",
+        "en": "In Na₂SO₄ + BaCl₂ → BaSO₄↓ + 2NaCl, what is BaSO₄?"
       },
       "options": [
-        { "hi": "Gas", "en": "A gas" },
-        { "hi": "Precipitate", "en": "A precipitate" },
-        { "hi": "Catalyst", "en": "A catalyst" },
-        { "hi": "Solvent", "en": "A solvent" }
+        {
+          "hi": "Gas",
+          "en": "A gas"
+        },
+        {
+          "hi": "Precipitate",
+          "en": "A precipitate"
+        },
+        {
+          "hi": "Catalyst",
+          "en": "A catalyst"
+        },
+        {
+          "hi": "Solvent",
+          "en": "A solvent"
+        }
       ],
       "correct": 1,
       "explanation": {
-        "hi": "↓ arrow insoluble precipitate ko dikhata hai — BaSO4 white precipitate hai.",
-        "en": "The ↓ arrow indicates an insoluble precipitate — BaSO4 is a white precipitate."
+        "hi": "↓ arrow insoluble precipitate ko dikhata hai — BaSO₄ white precipitate hai.",
+        "en": "The ↓ arrow indicates an insoluble precipitate — BaSO₄ is a white precipitate."
       }
     },
     {
@@ -102,19 +150,31 @@
     {
       "type": "mcq",
       "question": {
-        "hi": "CuO + H2 → Cu + H2O mein oxidizing agent kaun hai?",
-        "en": "In CuO + H2 → Cu + H2O, what is the oxidizing agent?"
+        "hi": "CuO + H₂ → Cu + H₂O mein oxidizing agent kaun hai?",
+        "en": "In CuO + H₂ → Cu + H₂O, what is the oxidizing agent?"
       },
       "options": [
-        { "hi": "CuO", "en": "CuO" },
-        { "hi": "H2", "en": "H2" },
-        { "hi": "Cu", "en": "Cu" },
-        { "hi": "H2O", "en": "H2O" }
+        {
+          "hi": "CuO",
+          "en": "CuO"
+        },
+        {
+          "hi": "H₂",
+          "en": "H₂"
+        },
+        {
+          "hi": "Cu",
+          "en": "Cu"
+        },
+        {
+          "hi": "H₂O",
+          "en": "H₂O"
+        }
       ],
       "correct": 0,
       "explanation": {
-        "hi": "CuO khud reduce hota hai aur H2 ko oxidize karta hai — isliye CuO oxidizing agent hai.",
-        "en": "CuO itself gets reduced while oxidizing H2 — so CuO is the oxidizing agent."
+        "hi": "CuO khud reduce hota hai aur H₂ ko oxidize karta hai — isliye CuO oxidizing agent hai.",
+        "en": "CuO itself gets reduced while oxidizing H₂ — so CuO is the oxidizing agent."
       }
     },
     {
@@ -124,10 +184,22 @@
         "en": "Which two factors are necessary for iron to rust?"
       },
       "options": [
-        { "hi": "Heat aur pressure", "en": "Heat and pressure" },
-        { "hi": "Moisture aur oxygen", "en": "Moisture and oxygen" },
-        { "hi": "Light aur sound", "en": "Light and sound" },
-        { "hi": "Acid aur base", "en": "Acid and base" }
+        {
+          "hi": "Heat aur pressure",
+          "en": "Heat and pressure"
+        },
+        {
+          "hi": "Moisture aur oxygen",
+          "en": "Moisture and oxygen"
+        },
+        {
+          "hi": "Light aur sound",
+          "en": "Light and sound"
+        },
+        {
+          "hi": "Acid aur base",
+          "en": "Acid and base"
+        }
       ],
       "correct": 1,
       "explanation": {
@@ -142,10 +214,22 @@
         "en": "Why is nitrogen gas filled in packaged fatty foods?"
       },
       "options": [
-        { "hi": "Taste badhane ke liye", "en": "To improve taste" },
-        { "hi": "Rancidity (oxidation) rokne ke liye", "en": "To prevent rancidity (oxidation)" },
-        { "hi": "Weight badhane ke liye", "en": "To increase weight" },
-        { "hi": "Color change karne ke liye", "en": "To change colour" }
+        {
+          "hi": "Taste badhane ke liye",
+          "en": "To improve taste"
+        },
+        {
+          "hi": "Rancidity (oxidation) rokne ke liye",
+          "en": "To prevent rancidity (oxidation)"
+        },
+        {
+          "hi": "Weight badhane ke liye",
+          "en": "To increase weight"
+        },
+        {
+          "hi": "Color change karne ke liye",
+          "en": "To change colour"
+        }
       ],
       "correct": 1,
       "explanation": {
@@ -161,8 +245,8 @@
       },
       "correct": false,
       "explanation": {
-        "hi": "Galat — silver, copper, aur doosre metals bhi corrosion se guzarte hain (jaise Ag2S ya CuCO3.Cu(OH)2 banna).",
-        "en": "False — silver, copper, and other metals also undergo corrosion (like forming Ag2S or CuCO3.Cu(OH)2)."
+        "hi": "Galat — silver, copper, aur doosre metals bhi corrosion se guzarte hain (jaise Ag₂S ya CuCO₃.Cu(OH)2 banna).",
+        "en": "False — silver, copper, and other metals also undergo corrosion (like forming Ag₂S or CuCO₃.Cu(OH)2)."
       }
     }
   ]

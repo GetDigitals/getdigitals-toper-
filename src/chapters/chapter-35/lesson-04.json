@@ -37,19 +37,19 @@
     {
       "type": "text",
       "content": {
-        "hi": "Sabse common example hai Iron ki rusting: Iron, moisture aur oxygen dono ki presence mein react karke iron oxide (Fe2O3.xH2O — jise hum rust kehte hain) banata hai. Rust lal-bhoora, bharbhura (flaky) hota hai aur dheere-dheere poora metal khaa jaata hai.",
-        "en": "The most common example is the rusting of Iron: iron reacts in the presence of both moisture and oxygen to form iron oxide (Fe2O3.xH2O — what we call rust). Rust is reddish-brown, flaky, and gradually eats away the entire metal."
+        "hi": "Sabse common example hai Iron ki rusting: Iron, moisture aur oxygen dono ki presence mein react karke iron oxide (Fe₂O₃.xH₂O — jise hum rust kehte hain) banata hai. Rust lal-bhoora, bharbhura (flaky) hota hai aur dheere-dheere poora metal khaa jaata hai.",
+        "en": "The most common example is the rusting of Iron: iron reacts in the presence of both moisture and oxygen to form iron oxide (Fe₂O₃.xH₂O — what we call rust). Rust is reddish-brown, flaky, and gradually eats away the entire metal."
       }
     },
     {
       "type": "formula",
-      "content": "4Fe(s) + 3O2(g) + xH2O(l) → 2Fe2O3.xH2O(s)  [rust]"
+      "content": "4Fe(s) + 3O₂(g) + xH₂O(l) → 2Fe₂O₃.xH₂O(s)  [rust]"
     },
     {
       "type": "text",
       "content": {
-        "hi": "Corrosion ke doosre examples: Silver par kaala coating (Ag2S banna, hawa mein sulphur compounds ki wajah se), Copper par green coating (CuCO3.Cu(OH)2 banna, jise 'patina' bhi kehte hain — jaise Statue of Liberty).",
-        "en": "Other examples of corrosion: black coating on silver (formation of Ag2S, due to sulphur compounds in air), green coating on copper (formation of CuCO3.Cu(OH)2, also called 'patina' — like on the Statue of Liberty)."
+        "hi": "Corrosion ke doosre examples: Silver par kaala coating (Ag₂S banna, hawa mein sulphur compounds ki wajah se), Copper par green coating (CuCO₃.Cu(OH)2 banna, jise 'patina' bhi kehte hain — jaise Statue of Liberty).",
+        "en": "Other examples of corrosion: black coating on silver (formation of Ag₂S, due to sulphur compounds in air), green coating on copper (formation of CuCO₃.Cu(OH)2, also called 'patina' — like on the Statue of Liberty)."
       }
     },
     {
@@ -126,10 +126,22 @@
           "en": "Which two things are required for iron to rust?"
         },
         "options": [
-          { "hi": "Heat aur light", "en": "Heat and light" },
-          { "hi": "Moisture aur oxygen", "en": "Moisture and oxygen" },
-          { "hi": "Acid aur base", "en": "Acid and base" },
-          { "hi": "Salt aur sugar", "en": "Salt and sugar" }
+          {
+            "hi": "Heat aur light",
+            "en": "Heat and light"
+          },
+          {
+            "hi": "Moisture aur oxygen",
+            "en": "Moisture and oxygen"
+          },
+          {
+            "hi": "Acid aur base",
+            "en": "Acid and base"
+          },
+          {
+            "hi": "Salt aur sugar",
+            "en": "Salt and sugar"
+          }
         ],
         "correct": 1,
         "explanation": {
@@ -145,10 +157,22 @@
           "en": "Coating iron with zinc to prevent corrosion is called:"
         },
         "options": [
-          { "hi": "Electroplating", "en": "Electroplating" },
-          { "hi": "Galvanizing", "en": "Galvanizing" },
-          { "hi": "Alloying", "en": "Alloying" },
-          { "hi": "Painting", "en": "Painting" }
+          {
+            "hi": "Electroplating",
+            "en": "Electroplating"
+          },
+          {
+            "hi": "Galvanizing",
+            "en": "Galvanizing"
+          },
+          {
+            "hi": "Alloying",
+            "en": "Alloying"
+          },
+          {
+            "hi": "Painting",
+            "en": "Painting"
+          }
         ],
         "correct": 1,
         "explanation": {
@@ -172,11 +196,26 @@
     ]
   },
   "notes": [
-    { "hi": "Corrosion = metal ka slow oxidation (jaise rusting)", "en": "Corrosion = slow oxidation of a metal (like rusting)" },
-    { "hi": "Rusting ke liye moisture + oxygen dono chahiye", "en": "Rusting needs both moisture and oxygen" },
-    { "hi": "Corrosion rokna: painting, oiling, galvanizing, alloying", "en": "Prevent corrosion: painting, oiling, galvanizing, alloying" },
-    { "hi": "Rancidity = fats/oils ka oxidation (taste/smell kharab)", "en": "Rancidity = oxidation of fats/oils (spoils taste/smell)" },
-    { "hi": "Rancidity rokna: antioxidants, airtight container, refrigeration, nitrogen flushing", "en": "Prevent rancidity: antioxidants, airtight container, refrigeration, nitrogen flushing" }
+    {
+      "hi": "Corrosion = metal ka slow oxidation (jaise rusting)",
+      "en": "Corrosion = slow oxidation of a metal (like rusting)"
+    },
+    {
+      "hi": "Rusting ke liye moisture + oxygen dono chahiye",
+      "en": "Rusting needs both moisture and oxygen"
+    },
+    {
+      "hi": "Corrosion rokna: painting, oiling, galvanizing, alloying",
+      "en": "Prevent corrosion: painting, oiling, galvanizing, alloying"
+    },
+    {
+      "hi": "Rancidity = fats/oils ka oxidation (taste/smell kharab)",
+      "en": "Rancidity = oxidation of fats/oils (spoils taste/smell)"
+    },
+    {
+      "hi": "Rancidity rokna: antioxidants, airtight container, refrigeration, nitrogen flushing",
+      "en": "Prevent rancidity: antioxidants, airtight container, refrigeration, nitrogen flushing"
+    }
   ],
   "summary": {
     "hi": "Corrosion (metals ka) aur rancidity (fats/oils ka) dono real-life oxidation reactions hain jo dheere-dheere cheezein kharab karti hain — inhe rokne ke practical tarike bhi exam ke liye important hain.",
