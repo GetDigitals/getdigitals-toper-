@@ -22,8 +22,8 @@
   },
   "story": {
     "text": {
-      "hi": "Jab magnesium ribbon ko jalate hain, wo hawa mein oxygen se react karke safed magnesium oxide banata hai. Isko har baar lambe sentence mein likhne ke bajaye, chemists ek chota symbolic equation use karte hain — Mg + O2 → MgO. Ye chemistry ki universal shorthand hai, jo duniya bhar ke scientists samajh sakte hain.",
-      "en": "When a magnesium ribbon is burnt, it reacts with oxygen in the air to form white magnesium oxide. Instead of writing this out as a long sentence every time, chemists use a short symbolic equation — Mg + O2 → MgO. This is chemistry's universal shorthand, understood by scientists everywhere."
+      "hi": "Jab magnesium ribbon ko jalate hain, wo hawa mein oxygen se react karke safed magnesium oxide banata hai. Isko har baar lambe sentence mein likhne ke bajaye, chemists ek chota symbolic equation use karte hain — Mg + O₂ → MgO. Ye chemistry ki universal shorthand hai, jo duniya bhar ke scientists samajh sakte hain.",
+      "en": "When a magnesium ribbon is burnt, it reacts with oxygen in the air to form white magnesium oxide. Instead of writing this out as a long sentence every time, chemists use a short symbolic equation — Mg + O₂ → MgO. This is chemistry's universal shorthand, understood by scientists everywhere."
     }
   },
   "explanation": [
@@ -44,8 +44,8 @@
     {
       "type": "text",
       "content": {
-        "hi": "Symbolic (chemical) equation mein naam ki jagah chemical formulas use hote hain. Reactants left side pe, products right side pe likhe jaate hain: Mg + O2 → MgO.",
-        "en": "A symbolic (chemical) equation replaces names with chemical formulas. Reactants are written on the left, products on the right: Mg + O2 → MgO."
+        "hi": "Symbolic (chemical) equation mein naam ki jagah chemical formulas use hote hain. Reactants left side pe, products right side pe likhe jaate hain: Mg + O₂ → MgO.",
+        "en": "A symbolic (chemical) equation replaces names with chemical formulas. Reactants are written on the left, products on the right: Mg + O₂ → MgO."
       }
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "type": "formula",
-      "content": "Unbalanced: Mg + O2 → MgO  (left: 1 Mg, 2 O | right: 1 Mg, 1 O — NOT balanced)\nBalanced: 2Mg + O2 → 2MgO  (left: 2 Mg, 2 O | right: 2 Mg, 2 O — balanced ✓)"
+      "content": "Unbalanced: Mg + O₂ → MgO  (left: 1 Mg, 2 O | right: 1 Mg, 1 O — NOT balanced)\nBalanced: 2Mg + O₂ → 2MgO  (left: 2 Mg, 2 O | right: 2 Mg, 2 O — balanced ✓)"
     },
     {
       "type": "text",
@@ -69,8 +69,8 @@
     {
       "type": "text",
       "content": {
-        "hi": "State symbols reaction ke conditions batate hain: (s) solid, (l) liquid, (g) gas, (aq) aqueous (paani mein ghula hua). Ye formula ke turant baad, bracket mein likhe jaate hain — jaise CaCO3(s), H2O(l).",
-        "en": "State symbols show the physical state of a substance: (s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water). They are written in brackets right after the formula — e.g. CaCO3(s), H2O(l)."
+        "hi": "State symbols reaction ke conditions batate hain: (s) solid, (l) liquid, (g) gas, (aq) aqueous (paani mein ghula hua). Ye formula ke turant baad, bracket mein likhe jaate hain — jaise CaCO₃(s), H₂O(l).",
+        "en": "State symbols show the physical state of a substance: (s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water). They are written in brackets right after the formula — e.g. CaCO₃(s), H₂O(l)."
       }
     },
     {
@@ -84,8 +84,8 @@
   "examples": [
     {
       "problem": {
-        "hi": "Balance karo: Fe + H2O → Fe3O4 + H2",
-        "en": "Balance the equation: Fe + H2O → Fe3O4 + H2"
+        "hi": "Balance karo: Fe + H₂O → Fe₃O₄ + H₂",
+        "en": "Balance the equation: Fe + H₂O → Fe₃O₄ + H₂"
       },
       "steps": [
         {
@@ -93,36 +93,36 @@
           "en": "Count Fe: 1 on left, 3 on right → write 3Fe on the left"
         },
         {
-          "hi": "3Fe + H2O → Fe3O4 + H2 — ab O count karo: left 1, right 4 → left me 4H2O likho",
-          "en": "3Fe + H2O → Fe3O4 + H2 — now count O: 1 on left, 4 on right → write 4H2O on the left"
+          "hi": "3Fe + H₂O → Fe₃O₄ + H₂ — ab O count karo: left 1, right 4 → left me 4H₂O likho",
+          "en": "3Fe + H₂O → Fe₃O₄ + H₂ — now count O: 1 on left, 4 on right → write 4H₂O on the left"
         },
         {
-          "hi": "3Fe + 4H2O → Fe3O4 + H2 — ab H count karo: left 8, right 2 → right me 4H2 likho",
-          "en": "3Fe + 4H2O → Fe3O4 + H2 — now count H: 8 on left, 2 on right → write 4H2 on the right"
+          "hi": "3Fe + 4H₂O → Fe₃O₄ + H₂ — ab H count karo: left 8, right 2 → right me 4H₂ likho",
+          "en": "3Fe + 4H₂O → Fe₃O₄ + H₂ — now count H: 8 on left, 2 on right → write 4H₂ on the right"
         },
         {
-          "hi": "Final balanced equation: 3Fe(s) + 4H2O(l) → Fe3O4(s) + 4H2(g) — check: 3Fe=3Fe, 8O... 4H2O=8H nahi 4H2O=4O nahi wait 4H2O has 4O aur 8H; Fe3O4 has 4O; 4H2 has 8H — dono side match ✓",
-          "en": "Final balanced equation: 3Fe(s) + 4H2O(l) → Fe3O4(s) + 4H2(g) — check: 3 Fe = 3 Fe, 4H2O gives 4 O and 8 H, Fe3O4 has 4 O, 4H2 has 8 H — both sides match ✓"
+          "hi": "Final balanced equation: 3Fe(s) + 4H₂O(l) → Fe₃O₄(s) + 4H₂(g) — check: 3Fe=3Fe, 8O... 4H₂O=8H nahi 4H₂O=4O nahi wait 4H₂O has 4O aur 8H; Fe₃O₄ has 4O; 4H₂ has 8H — dono side match ✓",
+          "en": "Final balanced equation: 3Fe(s) + 4H₂O(l) → Fe₃O₄(s) + 4H₂(g) — check: 3 Fe = 3 Fe, 4H₂O gives 4 O and 8 H, Fe₃O₄ has 4 O, 4H₂ has 8 H — both sides match ✓"
         }
       ]
     },
     {
       "problem": {
-        "hi": "Balance karo: Na + H2O → NaOH + H2, aur state symbols bhi lagao.",
-        "en": "Balance the equation: Na + H2O → NaOH + H2, and add state symbols."
+        "hi": "Balance karo: Na + H₂O → NaOH + H₂, aur state symbols bhi lagao.",
+        "en": "Balance the equation: Na + H₂O → NaOH + H₂, and add state symbols."
       },
       "steps": [
         {
-          "hi": "Na aur O pehle se balanced hain (1=1). H count karo: left 2, right 3 (1 in NaOH + 2 in H2)",
-          "en": "Na and O are already balanced (1=1). Count H: 2 on left, 3 on right (1 in NaOH + 2 in H2)"
+          "hi": "Na aur O pehle se balanced hain (1=1). H count karo: left 2, right 3 (1 in NaOH + 2 in H₂)",
+          "en": "Na and O are already balanced (1=1). Count H: 2 on left, 3 on right (1 in NaOH + 2 in H₂)"
         },
         {
-          "hi": "2Na + 2H2O → 2NaOH + H2 likho — ab check karo: Na=2=2, O=2=2, H=4=4+... 2NaOH has 2H, H2 has 2H, total right H=4, left 2H2O has 4H — match ✓",
-          "en": "Write 2Na + 2H2O → 2NaOH + H2 — now check: Na=2=2, O=2=2, right H = 2 (from 2NaOH) + 2 (from H2) = 4, left H = 4 (from 2H2O) — match ✓"
+          "hi": "2Na + 2H₂O → 2NaOH + H₂ likho — ab check karo: Na=2=2, O=2=2, H=4=4+... 2NaOH has 2H, H₂ has 2H, total right H=4, left 2H₂O has 4H — match ✓",
+          "en": "Write 2Na + 2H₂O → 2NaOH + H₂ — now check: Na=2=2, O=2=2, right H = 2 (from 2NaOH) + 2 (from H₂) = 4, left H = 4 (from 2H₂O) — match ✓"
         },
         {
-          "hi": "State symbols ke saath: 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g)",
-          "en": "With state symbols: 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g)"
+          "hi": "State symbols ke saath: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)",
+          "en": "With state symbols: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)"
         }
       ]
     }
@@ -171,8 +171,8 @@
         "type": "truefalse",
         "difficulty": "medium",
         "question": {
-          "hi": "Equation balance karte waqt hum formula ke subscript number (jaise H2O ka '2') change kar sakte hain.",
-          "en": "While balancing an equation, we can change the subscript number inside a formula (like the '2' in H2O)."
+          "hi": "Equation balance karte waqt hum formula ke subscript number (jaise H₂O ka '2') change kar sakte hain.",
+          "en": "While balancing an equation, we can change the subscript number inside a formula (like the '2' in H₂O)."
         },
         "correct": false,
         "explanation": {
