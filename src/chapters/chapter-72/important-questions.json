@@ -1,0 +1,196 @@
+{
+  "chapterId": "chapter-72",
+  "objective": [
+    {
+      "question": {
+        "hi": "यह अंश किस कवि द्वारा रचित है?",
+        "en": "Who wrote this extract?"
+      },
+      "options": [
+        {
+          "hi": "कबीर",
+          "en": "Kabir"
+        },
+        {
+          "hi": "तुलसीदास",
+          "en": "Tulsidas"
+        },
+        {
+          "hi": "सूरदास",
+          "en": "Surdas"
+        },
+        {
+          "hi": "मीराबाई",
+          "en": "Mirabai"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "यह अंश तुलसीदास द्वारा रचित रामचरितमानस से है।",
+        "en": "This extract is by Tulsidas, from Ramcharitmanas."
+      }
+    },
+    {
+      "question": {
+        "hi": "राम किसके साथ जनक की सभा में आए थे?",
+        "en": "Who did Ram come to Janak's court with?"
+      },
+      "options": [
+        {
+          "hi": "मुनि वशिष्ठ",
+          "en": "Sage Vashishtha"
+        },
+        {
+          "hi": "मुनि विश्वामित्र",
+          "en": "Sage Vishwamitra"
+        },
+        {
+          "hi": "मुनि वाल्मीकि",
+          "en": "Sage Valmiki"
+        },
+        {
+          "hi": "मुनि नारद",
+          "en": "Sage Narad"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "राम मुनि विश्वामित्र के साथ जनक की सभा में आए थे।",
+        "en": "Ram came to Janak's court with sage Vishwamitra."
+      }
+    },
+    {
+      "question": {
+        "hi": "परशुराम के अनुसार सेवक किसे कहते हैं?",
+        "en": "According to Parshuram, who is called a servant?"
+      },
+      "options": [
+        {
+          "hi": "जो सेवा का कार्य करे",
+          "en": "One who does service"
+        },
+        {
+          "hi": "जो लड़ाई करे",
+          "en": "One who fights"
+        },
+        {
+          "hi": "जो धन कमाए",
+          "en": "One who earns money"
+        },
+        {
+          "hi": "जो युद्ध जीते",
+          "en": "One who wins wars"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "परशुराम कहते हैं सेवक वही कहलाता है जो सेवा का कार्य करे, शत्रुता का नहीं।",
+        "en": "Parshuram says a servant is one who serves, not one who acts with enmity."
+      }
+    },
+    {
+      "question": {
+        "hi": "लक्ष्मण परशुराम के बार-बार फरसा दिखाने की तुलना किससे करते हैं?",
+        "en": "What does Lakshman compare Parshuram's repeated display of his axe to?"
+      },
+      "options": [
+        {
+          "hi": "बहते पानी से",
+          "en": "Flowing water"
+        },
+        {
+          "hi": "गरजने वाले बादल जो बरसते नहीं",
+          "en": "Thundering clouds that don't rain"
+        },
+        {
+          "hi": "चमकते सूरज से",
+          "en": "The shining sun"
+        },
+        {
+          "hi": "उड़ते पक्षी से",
+          "en": "A flying bird"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "लक्ष्मण परशुराम की खोखली धमकियों को गरजने वाले बादलों से compare करते हैं जो बरसते नहीं।",
+        "en": "Lakshman compares Parshuram's empty threats to thundering clouds that don't rain."
+      }
+    },
+    {
+      "question": {
+        "hi": "परशुराम किस भगवान के अवतार हैं?",
+        "en": "Whose avatar is Parshuram?"
+      },
+      "options": [
+        {
+          "hi": "शिव",
+          "en": "Shiva"
+        },
+        {
+          "hi": "विष्णु",
+          "en": "Vishnu"
+        },
+        {
+          "hi": "ब्रह्मा",
+          "en": "Brahma"
+        },
+        {
+          "hi": "इंद्र",
+          "en": "Indra"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "परशुराम भगवान विष्णु के अवतार हैं।",
+        "en": "Parshuram is an avatar of Lord Vishnu."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "राम के 'सेवक हि सम्भु धनु तोरा' कहने का क्या अभिप्राय है? यह उनके स्वभाव के बारे में क्या दर्शाता है? (3 marks)",
+        "en": "What is the meaning of Ram saying the bow was broken by 'a servant'? What does this reveal about his nature? (3 marks)"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "राम जब कहते हैं कि धनुष तोड़ने वाला 'आपका ही कोई सेवक' होगा, तो इसका अभिप्राय है कि वे खुद को परशुराम का सेवक (विनम्र सेवक) मानते हुए बात करते हैं, बिना सीधे यह स्वीकार किए कि उन्होंने ही धनुष तोड़ा। यह जवाब राम की गहरी विनम्रता, संयम, और कूटनीतिक बुद्धिमत्ता को दर्शाता है — वे टकराव से बचने की कोशिश करते हैं, भले ही यह जानते हों कि परशुराम क्रोधित हैं।",
+        "en": "When Ram says the bow-breaker 'must be your servant', he implies he considers himself Parshuram's humble servant, without directly admitting he broke the bow. This reply reveals Ram's deep humility, restraint, and diplomatic wisdom — he tries to avoid confrontation, even knowing Parshuram is angry."
+      }
+    },
+    {
+      "question": {
+        "hi": "लक्ष्मण के स्वभाव की तुलना राम के स्वभाव से कीजिए। दोनों में से किसका दृष्टिकोण अधिक प्रभावी सिद्ध होता है, और क्यों? (4 marks)",
+        "en": "Compare Lakshman's nature with Ram's. Whose approach proves more effective, and why? (4 marks)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "राम शांत, विनम्र, और कूटनीतिक हैं — वे टकराव से बचना चाहते हैं और सम्मानपूर्ण शब्दों का प्रयोग करते हैं। लक्ष्मण इसके विपरीत नीडर, तीखे, और सीधे टकराव में विश्वास रखते हैं — वे परशुराम की धमकियों से बिल्कुल नहीं डरते और व्यंग्य करते हैं। अंततः राम का दृष्टिकोण अधिक प्रभावी सिद्ध होता है क्योंकि यही परशुराम के क्रोध का स्थायी समाधान लाता है — लक्ष्मण का व्यंग्य तो परशुराम के गुस्से को और भड़काता ही है। इससे यह सीख मिलती है कि विनम्रता और सम्मान, संघर्ष की स्थिति में तीखेपन से अधिक कारगर होते हैं, हालांकि निडरता भी अपनी जगह महत्वपूर्ण है।",
+        "en": "Ram is calm, humble, and diplomatic — he tries to avoid confrontation and uses respectful words. Lakshman, in contrast, is fearless, sharp, and believes in direct confrontation — he isn't afraid of Parshuram's threats at all and uses sarcasm. Ultimately, Ram's approach proves more effective because it's what brings a lasting solution to Parshuram's anger — Lakshman's sarcasm only further provokes Parshuram's anger. This teaches us that humility and respect are more effective than sharpness in conflict situations, though fearlessness has its own place too."
+      }
+    },
+    {
+      "question": {
+        "hi": "परशुराम के चरित्र का विश्लेषण कीजिए। क्या वे केवल क्रोधी हैं, या उनमें कोई और गुण भी हैं? (4 marks)",
+        "en": "Analyse Parshuram's character. Is he only angry, or does he have other qualities too? (4 marks)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "परशुराम पहली नज़र में एक क्रोधी, अहंकारी और शक्ति-प्रदर्शन करने वाले मुनि लगते हैं — वे बार-बार अपनी वीरता और शक्ति का बखान करते हैं, और छोटी सी बात (धनुष टूटना) पर अत्यधिक क्रोधित हो जाते हैं। लेकिन गहराई से देखें तो वे केवल क्रोधी नहीं हैं — वे शिव-भक्त हैं, अपने गुरु और आराध्य के प्रति गहरा सम्मान रखते हैं, इसीलिए धनुष टूटने पर इतना आहत होते हैं। इसके अलावा, अंत में जब वे राम की दिव्यता को पहचान लेते हैं, तो तुरंत अपना क्रोध त्याग देते हैं और आशीर्वाद देकर विदा होते हैं — यह उनकी विवेकशीलता और सत्य को स्वीकार करने की क्षमता दिखाता है। इस प्रकार, परशुराम एक जटिल (complex) चरित्र हैं — क्रोध और विवेक दोनों के मिश्रण।",
+        "en": "At first glance, Parshuram seems like an angry, proud, power-flaunting sage — he repeatedly boasts of his valour and strength, and gets extremely angry over a small matter (a broken bow). But looking deeper, he isn't just angry — he is a devotee of Shiva, holding deep respect for his guru and deity, which is why he's so hurt by the bow breaking. Moreover, at the end, when he recognises Ram's divinity, he immediately drops his anger and departs with blessings — showing his wisdom and capacity to accept the truth. Thus, Parshuram is a complex character — a mix of both anger and wisdom."
+      }
+    },
+    {
+      "question": {
+        "hi": "'क्रोध पर संयम की विजय होती है' — इस कथन को राम-लक्ष्मण-परशुराम संवाद के आधार पर सिद्ध कीजिए। (6 marks)",
+        "en": "'Restraint triumphs over anger' — Prove this statement based on the Ram-Lakshman-Parshuram Samvad. (6 marks)"
+      },
+      "marks": 6,
+      "answer": {
+        "hi": "इस पूरे प्रसंग में क्रोध बनाम संयम का द्वंद्व स्पष्ट रूप से दिखाई देता है, और अंततः संयम की ही विजय होती है:\n\n1. **प्रारंभिक क्रोध**: परशुराम धनुष टूटने पर अत्यधिक क्रोधित होकर सभा में आते हैं, सभी को धमकाते हैं।\n\n2. **लक्ष्मण का व्यंग्य क्रोध को और भड़काता है**: जब लक्ष्मण व्यंग्यपूर्ण जवाब देते हैं (धनुष को 'पुराना' कहना), तो परशुराम का क्रोध कम होने के बजाय और बढ़ जाता है — यह दिखाता है कि क्रोध का जवाब क्रोध/व्यंग्य से देने पर स्थिति और बिगड़ती है।\n\n3. **राम का संयम स्थिति को बदलता है**: जब राम विनम्रता और सम्मान से बात करते हैं, तो परशुराम का रवैया धीरे-धीरे बदलने लगता है।\n\n4. **अंतिम परिणाम**: राम की दिव्यता पहचानने के बाद परशुराम पूरी तरह शांत हो जाते हैं और आशीर्वाद देकर जाते हैं — क्रोध पूरी तरह समाप्त हो जाता है।\n\n**निष्कर्ष**: यह प्रसंग स्पष्ट रूप से सिद्ध करता है कि संयम, विनम्रता, और धैर्य क्रोध और आक्रामकता से कहीं अधिक शक्तिशाली हथियार हैं — ये स्थायी समाधान लाते हैं, जबकि क्रोध का जवाब क्रोध से देने से संघर्ष बढ़ता ही है।",
+        "en": "This entire episode clearly shows the conflict between anger and restraint, with restraint ultimately triumphing:\n\n1. **Initial anger**: Parshuram arrives at court extremely angry over the broken bow, threatening everyone.\n\n2. **Lakshman's sarcasm fuels the anger further**: When Lakshman gives sarcastic replies (calling the bow 'old'), Parshuram's anger increases instead of decreasing — showing that responding to anger with anger/sarcasm worsens the situation.\n\n3. **Ram's restraint changes the situation**: When Ram speaks with humility and respect, Parshuram's attitude gradually begins to shift.\n\n4. **Final outcome**: After recognising Ram's divinity, Parshuram becomes completely calm and departs with blessings — his anger is fully resolved.\n\n**Conclusion**: This episode clearly proves that restraint, humility, and patience are far more powerful weapons than anger and aggression — they bring lasting solutions, while responding to anger with anger only escalates conflict."
+      }
+    }
+  ]
+}

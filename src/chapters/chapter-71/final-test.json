@@ -1,0 +1,229 @@
+{
+  "chapterId": "chapter-71",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "सूरदास के पद किस ग्रंथ से लिए गए हैं?",
+        "en": "Which text are Surdas's pads from?"
+      },
+      "options": [
+        {
+          "hi": "रामचरितमानस",
+          "en": "Ramcharitmanas"
+        },
+        {
+          "hi": "सूरसागर",
+          "en": "Sursagar"
+        },
+        {
+          "hi": "साकेत",
+          "en": "Saket"
+        },
+        {
+          "hi": "कामायनी",
+          "en": "Kamayani"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "ये पद सूरसागर के भ्रमरगीत खंड से लिए गए हैं।",
+        "en": "These pads are from the Bhramar Geet section of Sursagar."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "उद्धव गोपियों को प्रेम मार्ग का संदेश देने आते हैं।",
+        "en": "Uddhav comes to give the gopis the message of the path of love."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "गलत — उद्धव ज्ञान मार्ग (योग, निर्गुण ब्रह्म) का संदेश लेकर आते हैं।",
+        "en": "False — Uddhav brings the message of the path of knowledge (yoga, nirgun brahm)."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "गोपियाँ उद्धव की तुलना किससे करती हैं?",
+        "en": "What do the gopis compare Uddhav to?"
+      },
+      "options": [
+        {
+          "hi": "पत्थर से",
+          "en": "A stone"
+        },
+        {
+          "hi": "कमल के पत्ते और तेल की गागर से",
+          "en": "Lotus leaf and oil-pot"
+        },
+        {
+          "hi": "पेड़ से",
+          "en": "A tree"
+        },
+        {
+          "hi": "नदी से",
+          "en": "A river"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "गोपियाँ उद्धव को कमल के पत्ते और तेल की गागर से compare करती हैं।",
+        "en": "The gopis compare Uddhav to a lotus leaf and an oil-pot."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "गोपियाँ योग-संदेश को क्या कहती हैं?",
+        "en": "What do the gopis call the yoga message?"
+      },
+      "options": [
+        {
+          "hi": "अमृत",
+          "en": "Nectar"
+        },
+        {
+          "hi": "करुई ककरी / बीमारी",
+          "en": "Bitter cucumber / disease"
+        },
+        {
+          "hi": "उपहार",
+          "en": "A gift"
+        },
+        {
+          "hi": "आशीर्वाद",
+          "en": "A blessing"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "गोपियाँ योग-संदेश को करुई ककरी और बीमारी कहती हैं।",
+        "en": "The gopis call the yoga message a bitter cucumber and a disease."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "'हमारे हरि हारिल की लकरी' में हरि की तुलना किससे की गई है?",
+        "en": "In 'Hamare Hari Haaril Ki Lakri', what is Hari (Krishna) compared to?"
+      },
+      "options": [
+        {
+          "hi": "हारिल पक्षी की लकड़ी से",
+          "en": "The Haaril bird's stick"
+        },
+        {
+          "hi": "सोने से",
+          "en": "Gold"
+        },
+        {
+          "hi": "फूल से",
+          "en": "A flower"
+        },
+        {
+          "hi": "चाँद से",
+          "en": "The moon"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "गोपियाँ कहती हैं Krishna unke liए हारिल पक्षी की लकड़ी जैसे हैं — कभी न छूटने वाला।",
+        "en": "The gopis say Krishna is like the Haaril bird's stick for them — never letting go."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "पद 4 में गोपियाँ Krishna पर क्या व्यंग्य करती हैं?",
+        "en": "In pad 4, what satire do the gopis make about Krishna?"
+      },
+      "options": [
+        {
+          "hi": "वे राजनीति पढ़ आए हैं",
+          "en": "He has learned politics"
+        },
+        {
+          "hi": "वे कमजोर हो गए हैं",
+          "en": "He has become weak"
+        },
+        {
+          "hi": "वे गरीब हो गए हैं",
+          "en": "He has become poor"
+        },
+        {
+          "hi": "वे बीमार हैं",
+          "en": "He is ill"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "गोपियाँ व्यंग्य करती हैं कि Krishna अब राजनीति पढ़ कर diplomatic हो गए हैं।",
+        "en": "The gopis satirize that Krishna has become diplomatic after learning politics."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "इन पदों का रस क्या है?",
+        "en": "What is the ras of these pads?"
+      },
+      "options": [
+        {
+          "hi": "वीर रस",
+          "en": "Veer Ras"
+        },
+        {
+          "hi": "वियोग शृंगार रस",
+          "en": "Viyog Shringar Ras"
+        },
+        {
+          "hi": "हास्य रस",
+          "en": "Hasya Ras"
+        },
+        {
+          "hi": "करुण रस",
+          "en": "Karun Ras"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "ये पद वियोग शृंगार रस (separation-based romantic sentiment) दर्शाते हैं।",
+        "en": "These pads depict Viyog Shringar Ras (separation-based romantic sentiment)."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "'ज्यौं जल माहँ तेल की गागरि' में कौनसा अलंकार है?",
+        "en": "What alankar is used in 'Jyon jal maahi tel ki gagari'?"
+      },
+      "options": [
+        {
+          "hi": "उपमा अलंकार",
+          "en": "Upma Alankar (Simile)"
+        },
+        {
+          "hi": "यमक अलंकार",
+          "en": "Yamak Alankar"
+        },
+        {
+          "hi": "श्लेष अलंकार",
+          "en": "Shlesh Alankar"
+        },
+        {
+          "hi": "अनुप्रास अलंकार",
+          "en": "Anupras Alankar"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "यह उपमा अलंकार (simile) है — दो चीज़ों की तुलना की गई है।",
+        "en": "This is Upma Alankar (simile) — two things are compared."
+      }
+    }
+  ]
+}

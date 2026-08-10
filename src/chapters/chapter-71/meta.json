@@ -1,0 +1,28 @@
+{
+  "id": "chapter-71",
+  "order": 1,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "course": "Course A",
+  "board": "CBSE",
+  "title": "सूरदास के पद",
+  "icon": "🪈",
+  "color": "#9B59B6",
+  "description": "क्षितिज भाग 2 का पहला पाठ — सूरसागर के भ्रमरगीत से 4 पद, जिनमें गोपियाँ उद्धव पर व्यंग्य करते हुए कृष्ण के प्रति अपने अटूट प्रेम को व्यक्त करती हैं। 2026-27 CBSE syllabus compliant.",
+  "xpReward": 200,
+  "coinReward": 52,
+  "locked": false,
+  "isDemoContent": true,
+  "freeAccess": true,
+  "badge": {
+    "id": "chapter-71-master",
+    "name": {
+      "hi": "Surdas Pad Master",
+      "en": "Surdas Pad Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "free"
+  }
+}

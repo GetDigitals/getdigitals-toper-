@@ -1,0 +1,183 @@
+{
+  "chapterId": "chapter-72",
+  "flashcards": [
+    {
+      "front": {
+        "hi": "Ye ansh kis granth se hai?",
+        "en": "Which text is this extract from?"
+      },
+      "back": {
+        "hi": "रामचरितमानस, बालकांड (Tulsidas)",
+        "en": "Ramcharitmanas, Balkand (Tulsidas)"
+      }
+    },
+    {
+      "front": {
+        "hi": "Janak ki shart kya thi?",
+        "en": "What was Janak's condition?"
+      },
+      "back": {
+        "hi": "Jo Shiv-dhanush todega, usi se Sita vivah karegi",
+        "en": "Sita would marry whoever broke Shiva's bow"
+      }
+    },
+    {
+      "front": {
+        "hi": "Ram ka jawab jab Parshuram ne pucha kisne toda",
+        "en": "Ram's reply when Parshuram asked who broke it"
+      },
+      "back": {
+        "hi": "'Aapka koi sevak hi hoga' — vinamrata",
+        "en": "'Must be your servant' — humility"
+      }
+    },
+    {
+      "front": {
+        "hi": "Lakshman ne dhanush ko kya bola?",
+        "en": "What did Lakshman call the bow?"
+      },
+      "back": {
+        "hi": "'Purana' (old, worthless) — nidar vyangya",
+        "en": "'Old' (worthless) — fearless sarcasm"
+      }
+    },
+    {
+      "front": {
+        "hi": "Parshuram ne kitni baar Kshatriya vinash kiya tha?",
+        "en": "How many times did Parshuram destroy the Kshatriyas?"
+      },
+      "back": {
+        "hi": "21 baar, pita ki hatya ka badla lene ke liye",
+        "en": "21 times, to avenge his father's murder"
+      }
+    },
+    {
+      "front": {
+        "hi": "Antim mein gussa kaise shant hota hai?",
+        "en": "How does the anger finally calm down?"
+      },
+      "back": {
+        "hi": "Ram ki vinamr diplomacy se, Parshuram unki divinity pehchaan lete hain",
+        "en": "Through Ram's humble diplomacy, Parshuram recognizes his divinity"
+      }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": {
+        "hi": "Bhasha",
+        "en": "Language"
+      },
+      "formula": "अवधी (Awadhi)"
+    },
+    {
+      "label": {
+        "hi": "Chhand",
+        "en": "Meter"
+      },
+      "formula": "चौपाई-दोहा (Chaupai-Doha)"
+    },
+    {
+      "label": {
+        "hi": "Ras",
+        "en": "Ras"
+      },
+      "formula": "रौद्र (Parshuram), वीर (Lakshman), शांत (Ram)"
+    },
+    {
+      "label": {
+        "hi": "Central Contrast",
+        "en": "Central Contrast"
+      },
+      "formula": "Ram ki Vinamrata vs Lakshman ki Nidarta"
+    }
+  ],
+  "mindMap": {
+    "root": {
+      "hi": "राम-लक्ष्मण-परशुराम संवाद",
+      "en": "Ram-Lakshman-Parshuram Samvad"
+    },
+    "branches": [
+      {
+        "label": {
+          "hi": "Parshuram",
+          "en": "Parshuram"
+        },
+        "children": [
+          {
+            "hi": "Dhanush tootne pe krodh",
+            "en": "Anger at bow breaking"
+          },
+          {
+            "hi": "21 baar Kshatriya-vinash ka bakhaan",
+            "en": "Boast of destroying Kshatriyas 21 times"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Ram",
+          "en": "Ram"
+        },
+        "children": [
+          {
+            "hi": "'Sevak hi hoga' — vinamr jawab",
+            "en": "'Must be a servant' — humble reply"
+          },
+          {
+            "hi": "Antim diplomacy se gussa shant",
+            "en": "Final diplomacy calms the anger"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Lakshman",
+          "en": "Lakshman"
+        },
+        "children": [
+          {
+            "hi": "Dhanush ko 'purana' bolna",
+            "en": "Calling the bow 'old'"
+          },
+          {
+            "hi": "Garajne wale baadal ki upma",
+            "en": "Simile of thundering clouds"
+          }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": {
+        "hi": "Kaun sa dhanush toota tha?",
+        "en": "Which bow was broken?"
+      },
+      "explanation": {
+        "hi": "Shiv-dhanush",
+        "en": "Shiva's bow"
+      }
+    },
+    {
+      "question": {
+        "hi": "Ram kiske saath sabha mein aaye the?",
+        "en": "Who did Ram come to the court with?"
+      },
+      "explanation": {
+        "hi": "Muni Vishwamitra",
+        "en": "Sage Vishwamitra"
+      }
+    },
+    {
+      "question": {
+        "hi": "Parshuram kis Bhagwan ke avatar hain?",
+        "en": "Whose avatar is Parshuram?"
+      },
+      "explanation": {
+        "hi": "Vishnu ke",
+        "en": "Vishnu's"
+      }
+    }
+  ]
+}

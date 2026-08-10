@@ -1,0 +1,196 @@
+{
+  "chapterId": "chapter-71",
+  "objective": [
+    {
+      "question": {
+        "hi": "उद्धव किसके मित्र थे?",
+        "en": "Whose friend was Uddhav?"
+      },
+      "options": [
+        {
+          "hi": "बलराम",
+          "en": "Balram"
+        },
+        {
+          "hi": "कृष्ण",
+          "en": "Krishna"
+        },
+        {
+          "hi": "सुदामा",
+          "en": "Sudama"
+        },
+        {
+          "hi": "अर्जुन",
+          "en": "Arjun"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "उद्धव कृष्ण के परम मित्र थे।",
+        "en": "Uddhav was Krishna's close friend."
+      }
+    },
+    {
+      "question": {
+        "hi": "गोपियाँ किसकी दीवानी हैं?",
+        "en": "Who are the gopis devoted to?"
+      },
+      "options": [
+        {
+          "hi": "राम",
+          "en": "Ram"
+        },
+        {
+          "hi": "कृष्ण",
+          "en": "Krishna"
+        },
+        {
+          "hi": "शिव",
+          "en": "Shiva"
+        },
+        {
+          "hi": "विष्णु",
+          "en": "Vishnu"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "गोपियाँ पूरी तरह कृष्ण की भक्त और प्रेमी हैं।",
+        "en": "The gopis are completely devoted to and in love with Krishna."
+      }
+    },
+    {
+      "question": {
+        "hi": "उद्धव किस मार्ग का उपदेश देने आए थे?",
+        "en": "Which path did Uddhav come to preach?"
+      },
+      "options": [
+        {
+          "hi": "भक्ति मार्ग",
+          "en": "Path of devotion"
+        },
+        {
+          "hi": "ज्ञान/योग मार्ग",
+          "en": "Path of knowledge/yoga"
+        },
+        {
+          "hi": "कर्म मार्ग",
+          "en": "Path of action"
+        },
+        {
+          "hi": "युद्ध मार्ग",
+          "en": "Path of war"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "उद्धव योग और निर्गुण ब्रह्म की उपासना का ज्ञान मार्ग लेकर आए थे।",
+        "en": "Uddhav came with the path of knowledge — yoga and worship of the formless God."
+      }
+    },
+    {
+      "question": {
+        "hi": "गोपियाँ कृष्ण को किस पक्षी की लकड़ी से compare करती हैं?",
+        "en": "Which bird's stick do the gopis compare Krishna to?"
+      },
+      "options": [
+        {
+          "hi": "मोर",
+          "en": "Peacock"
+        },
+        {
+          "hi": "हारिल",
+          "en": "Haaril"
+        },
+        {
+          "hi": "कोयल",
+          "en": "Cuckoo"
+        },
+        {
+          "hi": "तोता",
+          "en": "Parrot"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "गोपियाँ कृष्ण को हारिल पक्षी की लकड़ी से compare करती हैं — जो कभी नहीं छोड़ता।",
+        "en": "The gopis compare Krishna to the Haaril bird's stick — which it never lets go of."
+      }
+    },
+    {
+      "question": {
+        "hi": "इन पदों की भाषा कौनसी है?",
+        "en": "What language are these pads written in?"
+      },
+      "options": [
+        {
+          "hi": "अवधी",
+          "en": "Awadhi"
+        },
+        {
+          "hi": "ब्रज भाषा",
+          "en": "Braj Bhasha"
+        },
+        {
+          "hi": "खड़ी बोली",
+          "en": "Khadi Boli"
+        },
+        {
+          "hi": "भोजपुरी",
+          "en": "Bhojpuri"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "सूरदास के पद ब्रज भाषा में लिखे गए हैं।",
+        "en": "Surdas's pads are written in Braj Bhasha."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "गोपियाँ उद्धव को 'बड़भागी' (fortunate) क्यों कहती हैं? क्या यह प्रशंसा है या व्यंग्य? स्पष्ट करें। (3 marks)",
+        "en": "Why do the gopis call Uddhav 'badbhagi' (fortunate)? Is this praise or sarcasm? Explain. (3 marks)"
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "गोपियाँ उद्धव को 'बड़भागी' व्यंग्य में कहती हैं, प्रशंसा में नहीं। उनका कहना है कि उद्धव कृष्ण के इतने पास रहते हुए भी उनके प्रेम में नहीं फँसे — जो असल में उनकी 'कमी' है, न कि सौभाग्य। गोपियों के अनुसार, कृष्ण के प्रेम में न डूबना कोई अच्छी बात नहीं बल्कि भावनाशून्यता (emotional emptiness) है। इसलिए यह शब्द तीखा व्यंग्य है, वास्तविक प्रशंसा नहीं।",
+        "en": "The gopis call Uddhav 'badbhagi' sarcastically, not as genuine praise. They mean that despite being so close to Krishna, Uddhav never fell in love with him — which, in the gopis' view, is actually a deficiency, not good fortune. According to the gopis, not being drowned in Krishna's love isn't a good thing but emotional emptiness. So this word is sharp sarcasm, not real praise."
+      }
+    },
+    {
+      "question": {
+        "hi": "'भ्रमरगीत' शीर्षक का क्या महत्व है? इसका कथानक से क्या संबंध है? (4 marks)",
+        "en": "What is the significance of the title 'Bhramar Geet'? How does it relate to the plot? (4 marks)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "'भ्रमरगीत' का शाब्दिक अर्थ है 'भौंरे का गीत'। कथा के अनुसार, जब उद्धव गोपियों को योग का उपदेश दे रहे थे, तभी वहाँ एक भौंरा (bee) आ पहुँचा। गोपियों ने इसी भौंरे के बहाने उद्धव पर व्यंग्य बाण छोड़े — भौंरा फूल-फूल पर मंडराता है, वैसे ही गोपियाँ उद्धव को भी 'चंचल' और 'बेवफा' जैसा बताती हैं, इशारों में। भौंरा प्रतीकात्मक रूप से उस पूरे व्यंग्यात्मक संवाद की शुरुआत करता है, इसलिए इस पूरे section का नाम 'भ्रमरगीत' पड़ा।",
+        "en": "'Bhramar Geet' literally means 'song of the bee'. According to the story, while Uddhav was preaching yoga to the gopis, a bee appeared. The gopis used this bee as a pretext to launch their sarcastic remarks at Uddhav — just as a bee flits from flower to flower, they subtly suggest Uddhav (or, by extension, men in general) can be fickle and unfaithful. The bee symbolically triggers the whole satirical dialogue, which is why this entire section is named 'Bhramar Geet'."
+      }
+    },
+    {
+      "question": {
+        "hi": "गोपियों के अनुसार 'ज्ञान मार्ग' और 'प्रेम मार्ग' में क्या अंतर है? वे किसे श्रेष्ठ मानती हैं और क्यों? (4 marks)",
+        "en": "According to the gopis, what is the difference between the 'path of knowledge' and the 'path of love'? Which do they consider superior and why? (4 marks)"
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "ज्ञान मार्ग (जो उद्धव लाए हैं) तर्क, ध्यान, और निर्गुण (निराकार) ईश्वर की उपासना पर आधारित है — यह ठंडा, बौद्धिक और भावनाशून्य रास्ता है। प्रेम मार्ग (जो गोपियाँ अपनाती हैं) भावनात्मक भक्ति, साकार (रूप वाले) कृष्ण के प्रति समर्पण पर आधारित है — यह गर्मजोशी और dedication से भरा है। गोपियाँ स्पष्ट रूप से प्रेम मार्ग को श्रेष्ठ मानती हैं, क्योंकि उनके लिए ईश्वर से रिश्ता एक ठंडे तर्क का विषय नहीं बल्कि गहरे भावनात्मक बंधन का विषय है। वे कहती हैं कि योग-ज्ञान उनके किसी काम का नहीं क्योंकि उनका मन पहले ही कृष्ण में पूरी तरह लीन है।",
+        "en": "The path of knowledge (which Uddhav brings) is based on logic, meditation, and worship of a formless (nirgun) God — a cold, intellectual, emotionless path. The path of love (which the gopis follow) is based on emotional devotion, dedication to a form-based (saakar) Krishna — full of warmth and dedication. The gopis clearly consider the path of love superior, because for them, a relationship with God isn't a matter of cold logic but of deep emotional bonding. They say the yoga-knowledge is of no use to them since their minds are already completely absorbed in Krishna."
+      }
+    },
+    {
+      "question": {
+        "hi": "इन चारों पदों के आधार पर सूरदास की काव्य-शैली की विशेषताएँ बताइए। (6 marks)",
+        "en": "Based on these four pads, describe the characteristics of Surdas's poetic style. (6 marks)"
+      },
+      "marks": 6,
+      "answer": {
+        "hi": "सूरदास की काव्य-शैली की मुख्य विशेषताएँ:\n\n1. **भावनात्मक गहराई**: सूरदास गोपियों के विरह और प्रेम को इतनी गहराई से चित्रित करते हैं कि पाठक स्वयं भावुक हो जाता है।\n\n2. **व्यंग्य और वाक्पटुता**: गोपियों के संवाद तीखे व्यंग्य से भरे हैं, फिर भी काव्यात्मक सुंदरता बनी रहती है — यह सूरदास की भाषा पर पकड़ दिखाता है।\n\n3. **सरल तुलनाएँ (उपमाएँ)**: दैनिक जीवन की वस्तुओं (तेल की गागर, ककरी, हारिल पक्षी) से गहरे भावों को समझाना — यह सामान्य पाठक तक भी बात पहुँचाता है।\n\n4. **ब्रज भाषा का सुंदर प्रयोग**: सूरदास की भाषा मधुर और संगीतात्मक है, जो कृष्ण-भक्ति काव्य की परंपरा के अनुकूल है।\n\n5. **नारी-मनोविज्ञान की गहरी समझ**: गोपियों के मिश्रित भाव (गुस्सा, प्रेम, उपालंभ, हास्य) को बहुत सूक्ष्मता से दिखाया गया है।\n\nसमग्र रूप से, सूरदास भक्ति काव्य की सर्वोच्च परंपरा को प्रस्तुत करते हैं जहाँ गहन दार्शनिक विचार (ज्ञान बनाम प्रेम) को सरल, मार्मिक भाषा में व्यक्त किया गया है।",
+        "en": "Key characteristics of Surdas's poetic style:\n\n1. **Emotional depth**: Surdas portrays the gopis' separation and love with such depth that the reader becomes emotionally moved.\n\n2. **Sarcasm and wit**: The gopis' dialogue is full of sharp sarcasm, yet retains poetic beauty — showing Surdas's command over language.\n\n3. **Simple comparisons (similes)**: Using everyday objects (oil-pot, cucumber, Haaril bird) to explain deep emotions — making the message accessible even to ordinary readers.\n\n4. **Beautiful use of Braj Bhasha**: Surdas's language is sweet and musical, fitting the tradition of Krishna-bhakti poetry.\n\n5. **Deep understanding of female psychology**: The gopis' mixed emotions (anger, love, complaint, humour) are shown with great subtlety.\n\nOverall, Surdas represents the highest tradition of bhakti poetry, where a profound philosophical debate (knowledge vs love) is expressed in simple, touching language."
+      }
+    }
+  ]
+}

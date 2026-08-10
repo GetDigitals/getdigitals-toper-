@@ -1,0 +1,28 @@
+{
+  "id": "chapter-72",
+  "order": 2,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "course": "Course A",
+  "board": "CBSE",
+  "title": "राम-लक्ष्मण-परशुराम संवाद",
+  "icon": "🏹",
+  "color": "#C0392B",
+  "description": "क्षितिज भाग 2 का दूसरा पाठ — रामचरितमानस के बालकांड से, जब शिव धनुष टूटने पर क्रोधित परशुराम का सामना राम की विनम्रता और लक्ष्मण की निडरता से होता है। 2026-27 CBSE syllabus compliant.",
+  "xpReward": 200,
+  "coinReward": 52,
+  "locked": true,
+  "isDemoContent": false,
+  "freeAccess": false,
+  "badge": {
+    "id": "chapter-72-master",
+    "name": {
+      "hi": "Samvad Master",
+      "en": "Samvad Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

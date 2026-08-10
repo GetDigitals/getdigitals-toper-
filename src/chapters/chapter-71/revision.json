@@ -1,0 +1,189 @@
+{
+  "chapterId": "chapter-71",
+  "flashcards": [
+    {
+      "front": {
+        "hi": "Surdas ke pad kis granth se hain?",
+        "en": "Which text are Surdas's pads from?"
+      },
+      "back": {
+        "hi": "सूरसागर (Sursagar), भ्रमरगीत section",
+        "en": "Sursagar, Bhramar Geet section"
+      }
+    },
+    {
+      "front": {
+        "hi": "Krishna kise gopiyon ke paas bhejte hain?",
+        "en": "Who does Krishna send to the gopis?"
+      },
+      "back": {
+        "hi": "उद्धव (Uddhav)",
+        "en": "Uddhav"
+      }
+    },
+    {
+      "front": {
+        "hi": "Uddhav kaunsa marg represent karta hai?",
+        "en": "Which path does Uddhav represent?"
+      },
+      "back": {
+        "hi": "ज्ञान मार्ग (yoga, nirgun brahm)",
+        "en": "Path of knowledge (yoga, nirgun brahm)"
+      }
+    },
+    {
+      "front": {
+        "hi": "Gopiyan kaunsa marg represent karti hain?",
+        "en": "Which path do the gopis represent?"
+      },
+      "back": {
+        "hi": "प्रेम मार्ग (saakar bhakti, emotional devotion)",
+        "en": "Path of love (form-based devotion, emotional dedication)"
+      }
+    },
+    {
+      "front": {
+        "hi": "Uddhav ko kis se compare kiya gaya hai?",
+        "en": "What is Uddhav compared to?"
+      },
+      "back": {
+        "hi": "कमल का पत्ता, तेल की गागर",
+        "en": "Lotus leaf, oil-pot"
+      }
+    },
+    {
+      "front": {
+        "hi": "'हरि हारिल की लकरी' ka matlab",
+        "en": "Meaning of 'Hari Haaril ki lakri'"
+      },
+      "back": {
+        "hi": "Krishna unke liye Haaril pakshi ki lakdi jaisa hai — kabhi na chhootne wala",
+        "en": "Krishna is like the Haaril bird's stick — never let go of"
+      }
+    },
+    {
+      "front": {
+        "hi": "Yoga ko gopiyan kya bolti hain?",
+        "en": "What do the gopis call yoga?"
+      },
+      "back": {
+        "hi": "करुई ककरी (bitter cucumber), बीमारी (disease)",
+        "en": "Bitter cucumber, a disease"
+      }
+    }
+  ],
+  "formulaSheet": [
+    {
+      "label": {
+        "hi": "Ras",
+        "en": "Ras"
+      },
+      "formula": "वियोग शृंगार रस (Viyog Shringar Ras)"
+    },
+    {
+      "label": {
+        "hi": "Bhasha",
+        "en": "Language"
+      },
+      "formula": "ब्रज भाषा (Braj Bhasha)"
+    },
+    {
+      "label": {
+        "hi": "Alankar",
+        "en": "Alankar"
+      },
+      "formula": "उपमा, उत्प्रेक्षा, दृष्टांत"
+    },
+    {
+      "label": {
+        "hi": "Central Theme",
+        "en": "Central Theme"
+      },
+      "formula": "ज्ञान मार्ग vs प्रेम मार्ग (Knowledge vs Love)"
+    }
+  ],
+  "mindMap": {
+    "root": {
+      "hi": "सूरदास के पद",
+      "en": "Surdas Ke Pad"
+    },
+    "branches": [
+      {
+        "label": {
+          "hi": "Pad 1",
+          "en": "Pad 1"
+        },
+        "children": [
+          {
+            "hi": "Uddhav 'badbhagi' — vyangya",
+            "en": "Uddhav 'fortunate' — sarcasm"
+          },
+          {
+            "hi": "Kamal patta, tel gagar comparison",
+            "en": "Lotus leaf, oil-pot comparison"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Pad 3",
+          "en": "Pad 3"
+        },
+        "children": [
+          {
+            "hi": "Krishna = Haaril ki lakri",
+            "en": "Krishna = Haaril's stick"
+          },
+          {
+            "hi": "Yoga = bitter cucumber/disease",
+            "en": "Yoga = bitter cucumber/disease"
+          }
+        ]
+      },
+      {
+        "label": {
+          "hi": "Pad 4",
+          "en": "Pad 4"
+        },
+        "children": [
+          {
+            "hi": "Krishna ne rajniti seekhi — vyangya",
+            "en": "Krishna learned politics — satire"
+          }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    {
+      "question": {
+        "hi": "Ye pad kaunsi bhasha mein likhe hain?",
+        "en": "In which language are these pads written?"
+      },
+      "explanation": {
+        "hi": "Braj Bhasha",
+        "en": "Braj Bhasha"
+      }
+    },
+    {
+      "question": {
+        "hi": "Gopiyan Krishna ke prati kya feel karti hain?",
+        "en": "What do the gopis feel for Krishna?"
+      },
+      "explanation": {
+        "hi": "Atoot prem, viraha (deep, unbreakable love, separation pain)",
+        "en": "Unbreakable love, separation pain (viraha)"
+      }
+    },
+    {
+      "question": {
+        "hi": "Yoga sandesh ka matlab kya tha?",
+        "en": "What was the message of yoga?"
+      },
+      "explanation": {
+        "hi": "Nirgun brahm ki poojaa, dhyan se shaanti",
+        "en": "Worship of formless God, peace through meditation"
+      }
+    }
+  ]
+}

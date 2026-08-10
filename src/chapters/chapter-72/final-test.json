@@ -1,0 +1,229 @@
+{
+  "chapterId": "chapter-72",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "यह पाठ रामचरितमानस के किस कांड से लिया गया है?",
+        "en": "Which section of Ramcharitmanas is this from?"
+      },
+      "options": [
+        {
+          "hi": "अयोध्याकांड",
+          "en": "Ayodhya Kand"
+        },
+        {
+          "hi": "बालकांड",
+          "en": "Balkand"
+        },
+        {
+          "hi": "किष्किंधाकांड",
+          "en": "Kishkindha Kand"
+        },
+        {
+          "hi": "उत्तरकांड",
+          "en": "Uttar Kand"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "यह अंश बालकांड से लिया गया है।",
+        "en": "This extract is from Balkand."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "राम ने सीधे स्वीकार किया कि उन्होंने ही धनुष तोड़ा है।",
+        "en": "Ram directly admitted that he broke the bow."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "गलत — राम ने विनम्रता से कहा कि 'यह आपका कोई सेवक ही होगा'।",
+        "en": "False — Ram humbly said 'it must be your servant'."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "परशुराम धनुष टूटने पर क्रोधित होकर किसकी तुलना करते हैं?",
+        "en": "Whom does Parshuram compare the bow-breaker to, in his anger?"
+      },
+      "options": [
+        {
+          "hi": "सहस्रबाहु",
+          "en": "Sahasrabahu"
+        },
+        {
+          "hi": "रावण",
+          "en": "Ravan"
+        },
+        {
+          "hi": "हिरण्यकश्यप",
+          "en": "Hiranyakashyap"
+        },
+        {
+          "hi": "कंस",
+          "en": "Kans"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "परशुराम कहते हैं कि धनुष तोड़ने वाला सहस्रबाहु जैसा शत्रु है।",
+        "en": "Parshuram says the bow-breaker is an enemy like Sahasrabahu."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "लक्ष्मण शिव-धनुष को क्या कहते हैं?",
+        "en": "What does Lakshman call Shiva's bow?"
+      },
+      "options": [
+        {
+          "hi": "पवित्र",
+          "en": "Sacred"
+        },
+        {
+          "hi": "पुराना",
+          "en": "Old"
+        },
+        {
+          "hi": "अनमोल",
+          "en": "Priceless"
+        },
+        {
+          "hi": "सुंदर",
+          "en": "Beautiful"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "लक्ष्मण धनुष को 'पुराना' (worthless) बताते हैं, जो परशुराम को और क्रोधित कर देता है।",
+        "en": "Lakshman calls the bow 'old' (worthless), which further angers Parshuram."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "परशुराम ने कितनी बार क्षत्रियों का विनाश किया था?",
+        "en": "How many times did Parshuram destroy the Kshatriyas?"
+      },
+      "options": [
+        {
+          "hi": "7 बार",
+          "en": "7 times"
+        },
+        {
+          "hi": "14 बार",
+          "en": "14 times"
+        },
+        {
+          "hi": "21 बार",
+          "en": "21 times"
+        },
+        {
+          "hi": "10 बार",
+          "en": "10 times"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "परशुराम ने अपने पिता की हत्या का बदला लेने के लिए 21 बार क्षत्रियों का विनाश किया था।",
+        "en": "Parshuram destroyed the Kshatriyas 21 times to avenge his father's murder."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "अंत में परशुराम का क्रोध कैसे शांत होता है?",
+        "en": "How does Parshuram's anger finally calm down?"
+      },
+      "options": [
+        {
+          "hi": "लक्ष्मण की धमकी से",
+          "en": "By Lakshman's threat"
+        },
+        {
+          "hi": "राम की विनम्रता और कूटनीति से",
+          "en": "By Ram's humility and diplomacy"
+        },
+        {
+          "hi": "जनक के आदेश से",
+          "en": "By Janak's order"
+        },
+        {
+          "hi": "सीता के अनुरोध से",
+          "en": "By Sita's request"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "राम अपनी विनम्रता और कूटनीति से परशुराम का क्रोध शांत करते हैं।",
+        "en": "Ram calms Parshuram's anger through his humility and diplomacy."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "इस पाठ की भाषा कौनसी है?",
+        "en": "What language is this text written in?"
+      },
+      "options": [
+        {
+          "hi": "ब्रज भाषा",
+          "en": "Braj Bhasha"
+        },
+        {
+          "hi": "अवधी",
+          "en": "Awadhi"
+        },
+        {
+          "hi": "भोजपुरी",
+          "en": "Bhojpuri"
+        },
+        {
+          "hi": "मैथिली",
+          "en": "Maithili"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "तुलसीदास ने यह रचना अवधी भाषा में लिखी है।",
+        "en": "Tulsidas wrote this in the Awadhi language."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "लक्ष्मण के स्वभाव को इस पाठ में किस रस से दर्शाया गया है?",
+        "en": "Which ras represents Lakshman's nature in this text?"
+      },
+      "options": [
+        {
+          "hi": "करुण रस",
+          "en": "Karun Ras"
+        },
+        {
+          "hi": "वीर रस",
+          "en": "Veer Ras"
+        },
+        {
+          "hi": "हास्य रस",
+          "en": "Hasya Ras"
+        },
+        {
+          "hi": "भयानक रस",
+          "en": "Bhayanak Ras"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "लक्ष्मण की निडरता और साहस को वीर रस से दर्शाया गया है।",
+        "en": "Lakshman's fearlessness and courage are shown through Veer Ras."
+      }
+    }
+  ]
+}
