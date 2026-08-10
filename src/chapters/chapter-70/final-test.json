@@ -1,0 +1,109 @@
+{
+  "chapterId": "chapter-70",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": { "hi": "WWW ka full form kya hai?", "en": "What is the full form of WWW?" },
+      "options": [
+        { "hi": "World Wide Web", "en": "World Wide Web" },
+        { "hi": "World Wide Wire", "en": "World Wide Wire" },
+        { "hi": "Web Wide World", "en": "Web Wide World" },
+        { "hi": "World Web Works", "en": "World Web Works" }
+      ],
+      "correct": 0,
+      "explanation": { "hi": "WWW = World Wide Web.", "en": "WWW = World Wide Web." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Webpages store karne wala computer kya kehlaata hai?", "en": "What is the computer that stores webpages called?" },
+      "options": [
+        { "hi": "Client", "en": "Client" },
+        { "hi": "Server", "en": "Server" },
+        { "hi": "Router", "en": "Router" },
+        { "hi": "Browser", "en": "Browser" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Web Server webpages store aur deliver karta hai.", "en": "A web server stores and delivers webpages." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "TCP/IP internet ka foundation protocol hai.", "en": "TCP/IP is the internet's foundation protocol." },
+      "correct": true,
+      "explanation": { "hi": "Sahi.", "en": "Correct." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Email send karne ka protocol kya hai?", "en": "What is the protocol to send email?" },
+      "options": [
+        { "hi": "POP3", "en": "POP3" },
+        { "hi": "SMTP", "en": "SMTP" },
+        { "hi": "FTP", "en": "FTP" },
+        { "hi": "TELNET", "en": "TELNET" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "SMTP email send karta hai.", "en": "SMTP sends email." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "HTTPS mein 'S' ka matlab kya hai?", "en": "What does the 'S' in HTTPS mean?" },
+      "options": [
+        { "hi": "Speed", "en": "Speed" },
+        { "hi": "Secure", "en": "Secure" },
+        { "hi": "Server", "en": "Server" },
+        { "hi": "System", "en": "System" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "S = Secure, matlab data encrypted hokar transfer hota hai.", "en": "S = Secure, meaning data is transferred encrypted." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "FTP secure hota hai, SFTP unsecure hota hai.", "en": "FTP is secure, SFTP is unsecure." },
+      "correct": false,
+      "explanation": { "hi": "Galat — ulta hai: SFTP secure hai, FTP unencrypted hai.", "en": "False — it's the opposite: SFTP is secure, FTP is unencrypted." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "IRCTC se ticket book karna kaunsi e-Service hai?", "en": "Booking a ticket on IRCTC is which e-Service?" },
+      "options": [
+        { "hi": "e-Shopping", "en": "e-Shopping" },
+        { "hi": "e-Reservation", "en": "e-Reservation" },
+        { "hi": "e-Banking", "en": "e-Banking" },
+        { "hi": "e-Learning", "en": "e-Learning" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Ticket booking e-Reservation hai.", "en": "Ticket booking is e-Reservation." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "MMS text ke saath aur kya bhej sakta hai?", "en": "Along with text, what else can MMS send?" },
+      "options": [
+        { "hi": "Sirf voice call", "en": "Only voice calls" },
+        { "hi": "Images, audio, video", "en": "Images, audio, video" },
+        { "hi": "Kuch nahi", "en": "Nothing" },
+        { "hi": "Sirf documents", "en": "Only documents" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "MMS multimedia (images/audio/video) support karta hai.", "en": "MMS supports multimedia (images/audio/video)." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Sabse high-speed, low-latency mobile generation kaunsi hai?", "en": "Which is the highest-speed, lowest-latency mobile generation?" },
+      "options": [
+        { "hi": "3G", "en": "3G" },
+        { "hi": "4G", "en": "4G" },
+        { "hi": "5G", "en": "5G" },
+        { "hi": "2G", "en": "2G" }
+      ],
+      "correct": 2,
+      "explanation": { "hi": "5G sabse advanced, fast, aur low-latency hai.", "en": "5G is the most advanced, fastest, and lowest-latency." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Downloading ka matlab hai apne computer se server par file bhejna.", "en": "Downloading means sending a file from your computer to a server." },
+      "correct": false,
+      "explanation": { "hi": "Galat — wo Uploading hai. Downloading server se apne computer par file laana hai.", "en": "False — that's Uploading. Downloading is bringing a file from a server to your computer." }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "chapterId": "chapter-70",
+  "objective": [
+    {
+      "question": { "hi": "Ek website ka collection ek single webpage se kaise alag hai?", "en": "How does a website (collection) differ from a single webpage?" },
+      "options": [
+        { "hi": "Koi fark nahi", "en": "No difference" },
+        { "hi": "Website related webpages ka collection hai, webpage ek single document hai", "en": "Website is a collection of related webpages, webpage is a single document" },
+        { "hi": "Webpage bada hota hai website se", "en": "Webpage is bigger than a website" },
+        { "hi": "Website sirf images ke liye hoti hai", "en": "Website is only for images" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Website ek collection hai; webpage usme se ek single document hota hai.", "en": "A website is a collection; a webpage is one single document within it." }
+    },
+    {
+      "question": { "hi": "SCP ka use kya hota hai?", "en": "What is SCP used for?" },
+      "options": [
+        { "hi": "Search engine optimization", "en": "Search engine optimization" },
+        { "hi": "Files ko securely copy karna do computers ke beech", "en": "Securely copying files between two computers" },
+        { "hi": "Email send karna", "en": "Sending email" },
+        { "hi": "Video call karna", "en": "Making video calls" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "SCP (Secure Copy Protocol) do computers ke beech securely files copy karta hai.", "en": "SCP (Secure Copy Protocol) securely copies files between two computers." }
+    },
+    {
+      "question": { "hi": "e-Groups kya hote hain?", "en": "What are e-Groups?" },
+      "options": [
+        { "hi": "Government offices", "en": "Government offices" },
+        { "hi": "Common-interest online communities", "en": "Common-interest online communities" },
+        { "hi": "Email protocols", "en": "Email protocols" },
+        { "hi": "Mobile networks", "en": "Mobile networks" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "e-Groups common interest wale logon ki online communities hain.", "en": "e-Groups are online communities of people with common interests." }
+    },
+    {
+      "question": { "hi": "Blog kis type ki website hai?", "en": "What type of website is a blog?" },
+      "options": [
+        { "hi": "Ek search engine", "en": "A search engine" },
+        { "hi": "Personal/informal site jaha regularly posts publish hoti hain", "en": "A personal/informal site where posts are regularly published" },
+        { "hi": "Ek email service", "en": "An email service" },
+        { "hi": "Ek mobile app store", "en": "A mobile app store" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Blog par koi regularly articles ('posts') publish karta hai, aksar chronological order mein.", "en": "A blog is where someone regularly publishes articles ('posts'), often in chronological order." }
+    },
+    {
+      "question": { "hi": "TELNET aur SSH mein kya key difference hai?", "en": "What is the key difference between TELNET and SSH?" },
+      "options": [
+        { "hi": "TELNET encrypted hai, SSH nahi", "en": "TELNET is encrypted, SSH is not" },
+        { "hi": "SSH secure/encrypted hai, TELNET nahi", "en": "SSH is secure/encrypted, TELNET is not" },
+        { "hi": "Dono same hain", "en": "Both are the same" },
+        { "hi": "TELNET sirf mobile ke liye hai", "en": "TELNET is only for mobile" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "SSH secure/encrypted remote login provide karta hai, TELNET purana aur unencrypted hai.", "en": "SSH provides secure/encrypted remote login, while TELNET is older and unencrypted." }
+    },
+    {
+      "question": { "hi": "Web browser ka kaam kya hai?", "en": "What is the function of a web browser?" },
+      "options": [
+        { "hi": "Webpages store karna", "en": "Storing webpages" },
+        { "hi": "Webpages access aur display karna", "en": "Accessing and displaying webpages" },
+        { "hi": "Email send karna", "en": "Sending email" },
+        { "hi": "Files transfer karna", "en": "Transferring files" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Web Browser software hai jo webpages access karta hai aur user ko display karta hai.", "en": "A web browser is software that accesses webpages and displays them to the user." }
+    }
+  ],
+  "subjective": [
+    {
+      "question": { "hi": "Internet aur WWW mein fark spasht karo, example ke saath.", "en": "Clarify the difference between the Internet and WWW, with an example." },
+      "marks": 3,
+      "answer": {
+        "hi": "Internet: duniya bhar ke computers ka underlying physical/global network — hardware infrastructure jo data transfer possible banaata hai.\nWWW: is network par chalne wala ek service/system, jisme interlinked documents/webpages hote hain, jinhe hyperlinks se navigate karte hain.\nExample: Internet wo 'roads' hain, WWW un roads par chalne wali ek specific 'service' (jaise webpages dekhna) hai — jaise email bhi internet ki hi ek service hai, WWW nahi.",
+        "en": "Internet: the underlying physical/global network of computers worldwide — the hardware infrastructure that makes data transfer possible.\nWWW: a service/system running on this network, consisting of interlinked documents/webpages navigable via hyperlinks.\nExample: the Internet is like the 'roads', WWW is one specific 'service' (viewing webpages) running on those roads — email is another internet service that isn't part of WWW."
+      }
+    },
+    {
+      "question": { "hi": "SMTP aur POP3 mein fark batao, aur ye kab use hote hain.", "en": "Differentiate between SMTP and POP3, and state when each is used." },
+      "marks": 2,
+      "answer": {
+        "hi": "SMTP (Simple Mail Transfer Protocol): email SEND karne ke liye use hota hai — jab tum 'send' button dabate ho.\nPOP3 (Post Office Protocol v3): email RECEIVE karne/download karne ke liye use hota hai — jab tumhara inbox naye emails fetch karta hai.",
+        "en": "SMTP (Simple Mail Transfer Protocol): used to SEND email — used when you press the 'send' button.\nPOP3 (Post Office Protocol v3): used to RECEIVE/download email — used when your inbox fetches new emails."
+      }
+    },
+    {
+      "question": { "hi": "Kisi bhi 3 e-Services ke naam likho aur unka ek-ek real-life use case batao.", "en": "Name any 3 e-Services and give a real-life use case for each." },
+      "marks": 3,
+      "answer": {
+        "hi": "1. e-Banking — bank account balance check karna ya paisa transfer karna online.\n2. e-Reservation — IRCTC se train ticket book karna.\n3. e-Governance — DigiLocker se government certificates download karna.",
+        "en": "1. e-Banking — checking bank balance or transferring money online.\n2. e-Reservation — booking a train ticket on IRCTC.\n3. e-Governance — downloading government certificates from DigiLocker."
+      }
+    },
+    {
+      "question": { "hi": "Downloading aur Uploading mein fark batao, ek example diagram/scenario ke saath.", "en": "Differentiate between Downloading and Uploading, with an example scenario." },
+      "marks": 2,
+      "answer": {
+        "hi": "Downloading: file ko remote server SE apne computer PAR laana (jaise koi PDF apne phone mein save karna).\nUploading: file ko apne computer SE kisi remote server PAR bhejna (jaise Instagram par photo post karna).",
+        "en": "Downloading: transferring a file FROM a remote server TO your computer (like saving a PDF to your phone).\nUploading: sending a file FROM your computer TO a remote server (like posting a photo on Instagram)."
+      }
+    },
+    {
+      "question": { "hi": "Mobile technologies (SMS, MMS, 3G, 4G, 5G) ko unki key features ke saath describe karo.", "en": "Describe mobile technologies (SMS, MMS, 3G, 4G, 5G) with their key features." },
+      "marks": 4,
+      "answer": {
+        "hi": "SMS: sirf text messages (160 chars tak).\nMMS: text ke saath images/audio/video bhi bhej sakta hai.\n3G: mobile internet ko practical banaya — video calls, mobile web possible hua.\n4G (LTE): high-speed streaming aur gaming enable kiya.\n5G: sabse high speed, sabse kam latency, IoT devices ko support karta hai.",
+        "en": "SMS: text messages only (up to 160 chars).\nMMS: can send images/audio/video along with text.\n3G: made mobile internet practical — enabled video calls, mobile web.\n4G (LTE): enabled high-speed streaming and gaming.\n5G: highest speed, lowest latency, supports IoT devices."
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "chapterId": "chapter-70",
+  "flashcards": [
+    { "front": { "hi": "Internet", "en": "Internet" }, "back": { "hi": "Duniya bhar ke computers ka global network", "en": "Global network of computers worldwide" } },
+    { "front": { "hi": "WWW", "en": "WWW" }, "back": { "hi": "Internet par interlinked documents/pages ka system", "en": "System of interlinked documents/pages on the internet" } },
+    { "front": { "hi": "TCP/IP", "en": "TCP/IP" }, "back": { "hi": "Internet ka foundation protocol — packets + reliable delivery", "en": "The internet's foundation protocol — packets + reliable delivery" } },
+    { "front": { "hi": "SMTP vs POP3", "en": "SMTP vs POP3" }, "back": { "hi": "SMTP=send email, POP3=receive email", "en": "SMTP=send email, POP3=receive email" } },
+    { "front": { "hi": "HTTP vs HTTPS", "en": "HTTP vs HTTPS" }, "back": { "hi": "HTTPS = encrypted/secure version of HTTP", "en": "HTTPS = encrypted/secure version of HTTP" } },
+    { "front": { "hi": "SSH", "en": "SSH" }, "back": { "hi": "Secure remote login protocol", "en": "Secure remote login protocol" } },
+    { "front": { "hi": "e-Governance", "en": "e-Governance" }, "back": { "hi": "Government services online (jaise DigiLocker)", "en": "Government services online (like DigiLocker)" } },
+    { "front": { "hi": "5G", "en": "5G" }, "back": { "hi": "High speed, low latency, IoT support", "en": "High speed, low latency, IoT support" } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Email", "en": "Email" }, "formula": "SMTP = send | POP3 = receive" },
+    { "label": { "hi": "Web", "en": "Web" }, "formula": "HTTP = transfer | HTTPS = secure transfer" },
+    { "label": { "hi": "Remote/File", "en": "Remote/File" }, "formula": "SSH/SFTP/SCP = secure | TELNET/FTP = unencrypted" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Networking", "en": "Networking" },
+    "branches": [
+      {
+        "label": { "hi": "Internet Basics", "en": "Internet Basics" },
+        "children": [
+          { "hi": "Internet, WWW, Server, Client", "en": "Internet, WWW, Server, Client" },
+          { "hi": "Website, Web Page, Browser", "en": "Website, Web Page, Browser" }
+        ]
+      },
+      {
+        "label": { "hi": "Protocols", "en": "Protocols" },
+        "children": [
+          { "hi": "TCP/IP, SMTP, POP3", "en": "TCP/IP, SMTP, POP3" },
+          { "hi": "HTTP, HTTPS", "en": "HTTP, HTTPS" },
+          { "hi": "SSH, SFTP, FTP, SCP, TELNET", "en": "SSH, SFTP, FTP, SCP, TELNET" }
+        ]
+      },
+      {
+        "label": { "hi": "Services", "en": "Services" },
+        "children": [
+          { "hi": "Search engines, chat, video conferencing", "en": "Search engines, chat, video conferencing" },
+          { "hi": "e-Learning, e-Banking, e-Shopping, e-Governance", "en": "e-Learning, e-Banking, e-Shopping, e-Governance" }
+        ]
+      },
+      {
+        "label": { "hi": "Mobile Tech", "en": "Mobile Tech" },
+        "children": [
+          { "hi": "SMS, MMS", "en": "SMS, MMS" },
+          { "hi": "3G, 4G, 5G", "en": "3G, 4G, 5G" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "WWW full form?", "en": "WWW full form?" }, "explanation": { "hi": "World Wide Web", "en": "World Wide Web" } },
+    { "question": { "hi": "Email send protocol?", "en": "Email send protocol?" }, "explanation": { "hi": "SMTP", "en": "SMTP" } },
+    { "question": { "hi": "Secure web protocol?", "en": "Secure web protocol?" }, "explanation": { "hi": "HTTPS", "en": "HTTPS" } },
+    { "question": { "hi": "Bank transaction online?", "en": "Online bank transaction?" }, "explanation": { "hi": "e-Banking", "en": "e-Banking" } },
+    { "question": { "hi": "Fastest mobile generation?", "en": "Fastest mobile generation?" }, "explanation": { "hi": "5G", "en": "5G" } }
+  ]
+}

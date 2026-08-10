@@ -1,0 +1,21 @@
+{
+  "id": "chapter-70",
+  "order": 1,
+  "class": 10,
+  "subject": "Computer Applications",
+  "board": "CBSE",
+  "title": "Networking",
+  "icon": "🌐",
+  "color": "#5DD3F0",
+  "description": "Internet kaise kaam karta hai — web servers, protocols (TCP/IP, HTTP, FTP), online services, aur mobile technologies (3G-5G). CBSE 2026-27 Computer Applications (Code 165), Unit 1.",
+  "xpReward": 220,
+  "coinReward": 55,
+  "badge": {
+    "id": "networking-master",
+    "name": "Networking Master",
+    "icon": "🌐"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

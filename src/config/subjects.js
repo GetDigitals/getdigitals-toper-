@@ -62,6 +62,17 @@ export const SUBJECTS = [
     // soon") until real lesson content is added chapter by chapter.
     available: true,
   },
+  {
+    slug: 'computer',
+    metaSubject: 'Computer Applications',
+    classLabel: 'Class 10',
+    subjectLabel: 'Computer Applications',
+    icon: '💻',
+    color: '#5DD3F0',
+    // chapter-70 (Unit 1: Networking) is live per CBSE 2026-27 syllabus
+    // (Code 165): Networking(15) + HTML(25) + Cyber Ethics(10) + Practicals(50).
+    available: true,
+  },
 ];
 
 export function getSubjectBySlug(slug) {

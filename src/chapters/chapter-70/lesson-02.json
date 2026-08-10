@@ -1,0 +1,176 @@
+{
+  "id": "chapter-70-lesson-02",
+  "chapterId": "chapter-70",
+  "order": 2,
+  "title": {
+    "hi": "Internet Protocols — TCP/IP se HTTPS Tak",
+    "en": "Internet Protocols — TCP/IP to HTTPS"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "📡",
+    "headline": {
+      "hi": "Computers Ki Common Language",
+      "en": "The Common Language of Computers"
+    },
+    "subtext": {
+      "hi": "Protocols wo rules hain jo decide karte hain ki data kaise bheja aur receive kiya jaaye.",
+      "en": "Protocols are the rules that decide how data is sent and received."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Socho do log alag-alag languages bolte hain — communication tabhi possible hai jab dono ek common language use karein. Computers ke liye ye common language 'protocols' hain — fixed rules jo har computer follow karta hai taaki data sahi se transfer ho sake, chahe wo kisi bhi brand ya operating system ka ho.",
+      "en": "Imagine two people speaking different languages — communication is only possible if both use a common language. For computers, this common language is 'protocols' — fixed rules every computer follows so data transfers correctly, regardless of brand or operating system."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Protocol: Rules ka ek set jo decide karta hai ki network par data kaise format, transmit, aur receive hoga.",
+        "en": "Protocol: A set of rules that determines how data is formatted, transmitted, and received over a network."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "TCP/IP (Transmission Control Protocol / Internet Protocol): Internet ka foundation protocol. IP data ko chote 'packets' mein todkar sahi address tak route karta hai; TCP ensure karta hai ki sab packets sahi order mein, bina error ke pahunchein.",
+        "en": "TCP/IP (Transmission Control Protocol / Internet Protocol): The foundational protocol of the internet. IP breaks data into small 'packets' and routes them to the correct address; TCP ensures all packets arrive in the right order, without errors."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Email Protocols — SMTP aur POP3: SMTP (Simple Mail Transfer Protocol) email SEND karne ke liye use hota hai. POP3 (Post Office Protocol v3) email RECEIVE/download karne ke liye use hota hai apne device par.",
+        "en": "Email Protocols — SMTP and POP3: SMTP (Simple Mail Transfer Protocol) is used to SEND email. POP3 (Post Office Protocol v3) is used to RECEIVE/download email onto your device."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "HTTP aur HTTPS: HTTP (HyperText Transfer Protocol) webpages ko browser tak transfer karta hai. HTTPS wahi hai, bas 'S' (Secure) — data encrypted hota hai, isliye banking/login jaisi sensitive sites HTTPS use karti hain.",
+        "en": "HTTP and HTTPS: HTTP (HyperText Transfer Protocol) transfers webpages to your browser. HTTPS is the same, but with 'S' (Secure) — data is encrypted, which is why banking/login sites use HTTPS."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Remote Login aur File Transfer Protocols: SSH (Secure Shell) — kisi doosre computer ko securely remotely control karne ke liye. TELNET — purana, unencrypted remote login protocol. FTP (File Transfer Protocol) — files transfer karne ke liye. SFTP — Secure FTP (encrypted). SCP (Secure Copy Protocol) — files ko securely copy karne ke liye do computers ke beech.",
+        "en": "Remote Login and File Transfer Protocols: SSH (Secure Shell) — for securely controlling another computer remotely. TELNET — an older, unencrypted remote login protocol. FTP (File Transfer Protocol) — for transferring files. SFTP — Secure FTP (encrypted). SCP (Secure Copy Protocol) — for securely copying files between two computers."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Email: SMTP = send | POP3 = receive\nWeb: HTTP = transfer webpages | HTTPS = secure version\nRemote/File: SSH = secure remote login | TELNET = old/unencrypted login\nFTP = file transfer | SFTP = secure FTP | SCP = secure file copy"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek company apne server tak securely remote access chahti hai, aur ek doosri purani school lab mein basic (non-secure) remote login use hoti hai. Konsa protocol kaunsa use karega?",
+        "en": "A company wants secure remote access to its server, while an older school lab uses basic (non-secure) remote login. Which protocol does each use?"
+      },
+      "steps": [
+        {
+          "hi": "Company ko security chahiye → SSH (Secure Shell) use karegi",
+          "en": "The company needs security → will use SSH (Secure Shell)"
+        },
+        {
+          "hi": "Purani school lab (basic, non-secure) → TELNET use karegi",
+          "en": "The old school lab (basic, non-secure) → will use TELNET"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek bank ki website 'https://' se shuru hoti hai, jabki ek simple blog 'http://' se. Iska practical difference kya hai?",
+        "en": "A bank's website starts with 'https://', while a simple blog starts with 'http://'. What's the practical difference?"
+      },
+      "steps": [
+        {
+          "hi": "'https://' matlab data encrypted hai — koi beech mein data intercept nahi kar sakta (jaise password, card details)",
+          "en": "'https://' means data is encrypted — no one can intercept the data in transit (like passwords, card details)"
+        },
+        {
+          "hi": "'http://' matlab data unencrypted hai — sensitive data ke liye risky hai",
+          "en": "'http://' means data is unencrypted — risky for sensitive data"
+        },
+        {
+          "hi": "Isliye banks HTTPS mandatory use karte hain, simple info blogs kabhi-kabhi HTTP bhi use kar lete hain",
+          "en": "That's why banks mandatorily use HTTPS, while simple info blogs sometimes still use HTTP"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Email SEND karne ke liye kaunsa protocol use hota hai?",
+          "en": "Which protocol is used to SEND email?"
+        },
+        "options": [
+          { "hi": "POP3", "en": "POP3" },
+          { "hi": "SMTP", "en": "SMTP" },
+          { "hi": "FTP", "en": "FTP" },
+          { "hi": "HTTP", "en": "HTTP" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "SMTP (Simple Mail Transfer Protocol) email send karne ke liye use hota hai; POP3 receive karne ke liye.",
+          "en": "SMTP (Simple Mail Transfer Protocol) is used to send email; POP3 is used to receive it."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "HTTPS, HTTP se kaise alag hai?",
+          "en": "How is HTTPS different from HTTP?"
+        },
+        "options": [
+          { "hi": "HTTPS faster hai", "en": "HTTPS is faster" },
+          { "hi": "HTTPS encrypted/secure hai", "en": "HTTPS is encrypted/secure" },
+          { "hi": "Dono same hain", "en": "They are the same" },
+          { "hi": "HTTPS sirf images ke liye hai", "en": "HTTPS is only for images" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "HTTPS mein data encrypted hokar transfer hota hai — isliye sensitive info (login, banking) ke liye safe hai.",
+          "en": "In HTTPS, data is transferred encrypted — making it safe for sensitive info (login, banking)."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "TCP/IP mein IP data ko packets mein todta hai, TCP unhe sahi order mein pahunchana ensure karta hai.",
+          "en": "In TCP/IP, IP breaks data into packets, and TCP ensures they arrive in the correct order."
+        },
+        "correct": true,
+        "explanation": {
+          "hi": "Sahi — IP addressing/routing sambhalta hai, TCP reliable, ordered delivery ensure karta hai.",
+          "en": "Correct — IP handles addressing/routing, TCP ensures reliable, ordered delivery."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "TCP/IP = internet ka foundation protocol (packets + reliable delivery)", "en": "TCP/IP = the internet's foundation protocol (packets + reliable delivery)" },
+    { "hi": "SMTP=send email, POP3=receive email", "en": "SMTP=send email, POP3=receive email" },
+    { "hi": "HTTP=webpages, HTTPS=secure webpages", "en": "HTTP=webpages, HTTPS=secure webpages" },
+    { "hi": "SSH/SFTP/SCP=secure; TELNET/FTP=older/unencrypted", "en": "SSH/SFTP/SCP=secure; TELNET/FTP=older/unencrypted" }
+  ],
+  "summary": {
+    "hi": "Protocols wo common rules hain jo data transfer ko standard banate hain — email (SMTP/POP3), web (HTTP/HTTPS), aur remote/file transfer (SSH/TELNET/FTP/SFTP/SCP) ke apne-apne dedicated protocols hain.",
+    "en": "Protocols are the common rules that standardize data transfer — email (SMTP/POP3), web (HTTP/HTTPS), and remote/file transfer (SSH/TELNET/FTP/SFTP/SCP) each have their own dedicated protocols."
+  },
+  "reward": {
+    "badge": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "chapter-70-lesson-03",
+  "chapterId": "chapter-70",
+  "order": 3,
+  "title": {
+    "hi": "Internet Services — Search, Chat aur e-Services",
+    "en": "Internet Services — Search, Chat and e-Services"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🔍",
+    "headline": {
+      "hi": "Internet Sirf Websites Se Zyada Hai",
+      "en": "The Internet Is More Than Just Websites"
+    },
+    "subtext": {
+      "hi": "Search engines se lekar e-Banking tak — internet roz-marra ki zindagi mein kaise use hota hai.",
+      "en": "From search engines to e-Banking — how the internet is used in everyday life."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Information Retrieval aur Search Engines: Search Engines (jaise Google, Bing) websites ko index karke rakhte hain, taaki keywords search karne par relevant results turant mil jaayein. Ye information retrieval ka sabse common tarika hai.",
+        "en": "Information Retrieval and Search Engines: Search Engines (like Google, Bing) index websites so that searching keywords instantly returns relevant results. This is the most common method of information retrieval."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Finding People on the Net: Social networking sites, professional platforms (jaise LinkedIn), aur people-search directories logon ko dhoondhne mein help karte hain.",
+        "en": "Finding People on the Net: Social networking sites, professional platforms (like LinkedIn), and people-search directories help locate people online."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Web Services (communication): Chat (real-time text conversation), Email (asynchronous messages), Video Conferencing (live video calls, jaise Zoom/Google Meet).",
+        "en": "Web Services (communication): Chat (real-time text conversation), Email (asynchronous messages), Video Conferencing (live video calls, like Zoom/Google Meet)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "e-Services (roz-marra life mein): e-Learning (online courses/classes), e-Banking (bank transactions online), e-Shopping (online kharidari, jaise Amazon), e-Reservation (tickets book karna, jaise IRCTC), e-Governance (government services online, jaise DigiLocker), e-Groups (common-interest online communities), Social Networking (Facebook, Instagram — connections aur content sharing).",
+        "en": "e-Services (in everyday life): e-Learning (online courses/classes), e-Banking (bank transactions online), e-Shopping (online shopping, like Amazon), e-Reservation (booking tickets, like IRCTC), e-Governance (government services online, like DigiLocker), e-Groups (common-interest online communities), Social Networking (Facebook, Instagram — connections and content sharing)."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "In activities ko unki sahi e-Service category se match karo: (a) IRCTC se train ticket book karna, (b) DigiLocker se certificate download karna, (c) Amazon se kapde order karna, (d) NPTEL course lena.",
+        "en": "Match these activities to their correct e-Service category: (a) Booking a train ticket on IRCTC, (b) Downloading a certificate from DigiLocker, (c) Ordering clothes on Amazon, (d) Taking an NPTEL course."
+      },
+      "steps": [
+        {
+          "hi": "(a) IRCTC ticket booking = e-Reservation",
+          "en": "(a) IRCTC ticket booking = e-Reservation"
+        },
+        {
+          "hi": "(b) DigiLocker certificate = e-Governance",
+          "en": "(b) DigiLocker certificate = e-Governance"
+        },
+        {
+          "hi": "(c) Amazon se kapde = e-Shopping",
+          "en": "(c) Clothes on Amazon = e-Shopping"
+        },
+        {
+          "hi": "(d) NPTEL course = e-Learning",
+          "en": "(d) NPTEL course = e-Learning"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Websites index karke keyword search se relevant results dena kaunsa service hai?",
+          "en": "Which service indexes websites and returns relevant results for keyword searches?"
+        },
+        "options": [
+          { "hi": "Search Engine", "en": "Search Engine" },
+          { "hi": "e-Banking", "en": "e-Banking" },
+          { "hi": "Chat", "en": "Chat" },
+          { "hi": "SMTP", "en": "SMTP" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Search Engines (Google, Bing) websites ko index karke keyword search par relevant results dete hain.",
+          "en": "Search Engines (Google, Bing) index websites and return relevant results for keyword searches."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Government services online avail karna (jaise DigiLocker) kaunsi e-Service kehlaati hai?",
+          "en": "Availing government services online (like DigiLocker) is which e-Service?"
+        },
+        "options": [
+          { "hi": "e-Shopping", "en": "e-Shopping" },
+          { "hi": "e-Reservation", "en": "e-Reservation" },
+          { "hi": "e-Governance", "en": "e-Governance" },
+          { "hi": "e-Groups", "en": "e-Groups" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Government services online avail karna e-Governance kehlaata hai.",
+          "en": "Availing government services online is called e-Governance."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Search Engine = websites index karke search results dena", "en": "Search Engine = indexing websites to give search results" },
+    { "hi": "Communication services: Chat, Email, Video Conferencing", "en": "Communication services: Chat, Email, Video Conferencing" },
+    { "hi": "e-Services: e-Learning, e-Banking, e-Shopping, e-Reservation, e-Governance, e-Groups, Social Networking", "en": "e-Services: e-Learning, e-Banking, e-Shopping, e-Reservation, e-Governance, e-Groups, Social Networking" }
+  ],
+  "summary": {
+    "hi": "Internet par communication (chat/email/video call) aur roz-marra ki e-Services (learning, banking, shopping, reservation, governance) dono available hain — har ek ka apna specific use-case hai.",
+    "en": "The internet offers both communication (chat/email/video call) and everyday e-Services (learning, banking, shopping, reservation, governance) — each with its own specific use case."
+  },
+  "reward": {
+    "badge": null
+  }
+}

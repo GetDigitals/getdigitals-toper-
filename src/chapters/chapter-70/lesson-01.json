@@ -1,0 +1,190 @@
+{
+  "id": "chapter-70-lesson-01",
+  "chapterId": "chapter-70",
+  "order": 1,
+  "title": {
+    "hi": "Internet Basics — WWW, Servers aur Browsers",
+    "en": "Internet Basics — WWW, Servers and Browsers"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🌐",
+    "headline": {
+      "hi": "Duniya Bhar Ke Computers Ka Jaal",
+      "en": "A Web of Computers Around the World"
+    },
+    "subtext": {
+      "hi": "Jab tum koi website kholte ho, background mein bahut kuch ho raha hota hai — chalo samajhte hain.",
+      "en": "When you open a website, a lot happens in the background — let's understand it."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab tum browser mein 'youtube.com' type karte ho, tumhara computer (client) duniya ke kisi doosre computer (server) ko request bhejta hai, wo server tumhe wapas webpage bhejta hai — ye sab milliseconds mein hota hai. Is poori system ko samajhna hi Networking chapter ka core hai.",
+      "en": "When you type 'youtube.com' into a browser, your computer (client) sends a request to another computer somewhere in the world (server), and that server sends the webpage back — all in milliseconds. Understanding this whole system is the core of the Networking chapter."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Internet: Duniya bhar ke millions computers ka ek global network, jo aapas mein connected hote hain aur data share karte hain.",
+        "en": "Internet: A global network of millions of computers around the world, connected to each other and sharing data."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "World Wide Web (WWW): Internet par present interlinked documents/webpages ka system, jinhe hyperlinks se navigate kiya ja sakta hai. Internet aur WWW alag hain — Internet hardware/network hai, WWW us par chalne wali ek service hai.",
+        "en": "World Wide Web (WWW): A system of interlinked documents/webpages on the internet, navigable via hyperlinks. The Internet and WWW are different — the Internet is the underlying hardware/network, the WWW is a service that runs on it."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Web Server aur Web Client: Web Server wo computer hai jo webpages store karta hai aur requests par unhe deliver karta hai. Web Client (jaise tumhara phone/laptop) wo hai jo webpages request karta hai aur dikhata hai.",
+        "en": "Web Server and Web Client: A Web Server is a computer that stores webpages and delivers them on request. A Web Client (like your phone/laptop) is what requests and displays webpages."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Website aur Web Page: Website related webpages ka ek collection hai (jaise youtube.com), jabki Web Page ek single document hota hai us website ke andar. Web Browser wo software hai jo webpages ko access aur display karta hai (jaise Chrome, Firefox, Edge).",
+        "en": "Website and Web Page: A Website is a collection of related webpages (like youtube.com), while a Web Page is a single document within that website. A Web Browser is the software used to access and display webpages (like Chrome, Firefox, Edge)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Blogs aur News Groups: Blog ek personal/informal website hota hai jaha koi regularly articles ('posts') publish karta hai, aksar chronological order mein. News Group ek online discussion forum hai jaha log ek specific topic par messages post karte hain.",
+        "en": "Blogs and News Groups: A Blog is a personal/informal website where someone regularly publishes articles ('posts'), often in chronological order. A News Group is an online discussion forum where people post messages on a specific topic."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Web Address aur Email Address: Web Address (URL) kisi webpage ka unique location batata hai (jaise https://www.example.com). Email Address kisi person/organisation ka digital 'postal address' hota hai (jaise name@example.com), jisme username aur domain '@' se separate hote hain.",
+        "en": "Web Address and Email Address: A Web Address (URL) gives a webpage's unique location (like https://www.example.com). An Email Address is a person/organisation's digital 'postal address' (like name@example.com), with the username and domain separated by '@'."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Downloading aur Uploading: Downloading ka matlab hai kisi remote server se file apne computer par laana. Uploading ka matlab hai apne computer se file kisi remote server par bhejna.",
+        "en": "Downloading and Uploading: Downloading means transferring a file FROM a remote server TO your computer. Uploading means sending a file FROM your computer TO a remote server."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ye terms match karo: (a) Internet, (b) WWW, (c) Web Browser, (d) Website — inhe unke sahi definitions se match karo.",
+        "en": "Match the terms: (a) Internet, (b) WWW, (c) Web Browser, (d) Website — match them with their correct definitions."
+      },
+      "steps": [
+        {
+          "hi": "(a) Internet = duniya bhar ke computers ka physical/global network",
+          "en": "(a) Internet = the global physical network of computers worldwide"
+        },
+        {
+          "hi": "(b) WWW = us network par interlinked documents/pages ka system",
+          "en": "(b) WWW = the system of interlinked documents/pages that runs on that network"
+        },
+        {
+          "hi": "(c) Web Browser = software jo webpages access/display karta hai (Chrome, Firefox)",
+          "en": "(c) Web Browser = the software that accesses/displays webpages (Chrome, Firefox)"
+        },
+        {
+          "hi": "(d) Website = related webpages ka ek collection (jaise cbse.gov.in)",
+          "en": "(d) Website = a collection of related webpages (like cbse.gov.in)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek student apne school project ki file Google Classroom par submit kar raha hai, aur teacher ki di hui reference PDF apne laptop par save kar raha hai. Konsa action download hai aur konsa upload?",
+        "en": "A student submits their school project file on Google Classroom, and saves a reference PDF given by the teacher onto their laptop. Which action is a download and which is an upload?"
+      },
+      "steps": [
+        {
+          "hi": "Project file ko Google Classroom (remote server) par bhejna = Upload (apne computer se server ki taraf)",
+          "en": "Sending the project file TO Google Classroom (remote server) = Upload (from your computer to the server)"
+        },
+        {
+          "hi": "Teacher ki PDF ko laptop par save karna = Download (server se apne computer ki taraf)",
+          "en": "Saving the teacher's PDF onto the laptop = Download (from the server to your computer)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Internet aur WWW mein kya fark hai?",
+          "en": "What is the difference between the Internet and the WWW?"
+        },
+        "options": [
+          { "hi": "Dono ek hi cheez hain", "en": "They are the same thing" },
+          { "hi": "Internet hardware/network hai, WWW us par chalne wali ek service hai", "en": "Internet is the hardware/network, WWW is a service that runs on it" },
+          { "hi": "WWW Internet se bada hai", "en": "WWW is bigger than the Internet" },
+          { "hi": "Internet sirf email ke liye hai", "en": "Internet is only for email" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Internet underlying global network hai; WWW us par chalne wala ek interlinked-document system hai.",
+          "en": "The Internet is the underlying global network; the WWW is an interlinked-document system that runs on it."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Webpages store aur deliver karne wala computer kya kehlaata hai?",
+          "en": "What is the computer that stores and delivers webpages called?"
+        },
+        "options": [
+          { "hi": "Web Client", "en": "Web Client" },
+          { "hi": "Web Server", "en": "Web Server" },
+          { "hi": "Web Browser", "en": "Web Browser" },
+          { "hi": "Web Address", "en": "Web Address" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Web Server webpages store karta hai aur client requests par unhe deliver karta hai.",
+          "en": "A Web Server stores webpages and delivers them on client requests."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Uploading ka matlab hai server se apne computer par file laana.",
+          "en": "Uploading means transferring a file from a server to your computer."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — uploading apne computer SE server KI TARAF file bhejna hai; server se apne computer par laana Downloading kehlaata hai.",
+          "en": "False — uploading is sending a file FROM your computer TO a server; bringing a file from a server to your computer is Downloading."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Internet = network, WWW = usme chalne wali service", "en": "Internet = network, WWW = a service running on it" },
+    { "hi": "Web Server deliver karta hai, Web Client request karta hai", "en": "Web Server delivers, Web Client requests" },
+    { "hi": "Website = webpages ka collection; Web Page = ek single document", "en": "Website = collection of webpages; Web Page = a single document" },
+    { "hi": "Download = server→computer, Upload = computer→server", "en": "Download = server→computer, Upload = computer→server" }
+  ],
+  "summary": {
+    "hi": "Internet ek global network hai, WWW us par chalne wala interlinked-page system — servers webpages deliver karte hain, clients (browsers) unhe request/display karte hain.",
+    "en": "The Internet is a global network, the WWW is the interlinked-page system running on it — servers deliver webpages, clients (browsers) request/display them."
+  },
+  "reward": {
+    "badge": null
+  }
+}

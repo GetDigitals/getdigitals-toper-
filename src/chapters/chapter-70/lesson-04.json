@@ -1,0 +1,157 @@
+{
+  "id": "chapter-70-lesson-04",
+  "chapterId": "chapter-70",
+  "order": 4,
+  "title": {
+    "hi": "Mobile Technologies aur Exam Mastery",
+    "en": "Mobile Technologies and Exam Mastery"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "📱",
+    "headline": {
+      "hi": "SMS Se 5G Tak Ka Safar",
+      "en": "The Journey from SMS to 5G"
+    },
+    "subtext": {
+      "hi": "Mobile networks ki generations, aur poore Networking chapter ka mixed practice.",
+      "en": "Generations of mobile networks, and mixed practice across the whole Networking chapter."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "SMS aur MMS: SMS (Short Message Service) sirf text messages bhejta hai (160 characters tak). MMS (Multimedia Messaging Service) images, audio, video bhi bhej sakta hai.",
+        "en": "SMS and MMS: SMS (Short Message Service) sends only text messages (up to 160 characters). MMS (Multimedia Messaging Service) can also send images, audio, video."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Mobile Generations (3G, 4G, 5G): Har generation pichli se faster speed aur better features deti hai. 3G ne mobile internet ko practical banaya (video calls, mobile web). 4G ne high-speed streaming/gaming enable kiya (LTE). 5G bahut zyada speed, kam latency, aur IoT (Internet of Things) devices ko support karta hai.",
+        "en": "Mobile Generations (3G, 4G, 5G): Each generation offers faster speed and better features than the last. 3G made mobile internet practical (video calls, mobile web). 4G enabled high-speed streaming/gaming (LTE). 5G offers much higher speed, low latency, and supports IoT (Internet of Things) devices."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "🎯 Chapter Recap: Internet=network, WWW=service; Server delivers, Client requests; TCP/IP=foundation protocol; SMTP/POP3=email; HTTP/HTTPS=web; SSH/FTP=remote/file; e-Services=daily-life uses; SMS/MMS/3G-5G=mobile tech.",
+        "en": "🎯 Chapter Recap: Internet=network, WWW=service; Server delivers, Client requests; TCP/IP=foundation protocol; SMTP/POP3=email; HTTP/HTTPS=web; SSH/FTP=remote/file; e-Services=daily-life uses; SMS/MMS/3G-5G=mobile tech."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "(Board pattern) Do differences batao SMS aur MMS mein.",
+        "en": "(Board pattern) State two differences between SMS and MMS."
+      },
+      "steps": [
+        {
+          "hi": "1. SMS sirf text bhejta hai, MMS text ke saath images/audio/video bhi bhej sakta hai.",
+          "en": "1. SMS sends only text, MMS can also send images/audio/video along with text."
+        },
+        {
+          "hi": "2. SMS ki character limit hoti hai (160 chars), MMS mein bade multimedia files bheji ja sakti hain.",
+          "en": "2. SMS has a character limit (160 chars), MMS can send larger multimedia files."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "(Board pattern) Ek user apni bank details online check karta hai (HTTPS site par), phir ek movie ticket book karta hai, phir video call se dost se baat karta hai. Har activity ko uski category se match karo: web protocol, e-Service, communication service.",
+        "en": "(Board pattern) A user checks their bank details online (on an HTTPS site), then books a movie ticket, then video-calls a friend. Match each activity to its category: web protocol, e-Service, communication service."
+      },
+      "steps": [
+        {
+          "hi": "Bank details check karna (HTTPS) = e-Banking (e-Service), jo HTTPS protocol use karta hai (secure)",
+          "en": "Checking bank details (HTTPS) = e-Banking (e-Service), using the HTTPS protocol (secure)"
+        },
+        {
+          "hi": "Movie ticket book karna = e-Reservation (e-Service)",
+          "en": "Booking a movie ticket = e-Reservation (e-Service)"
+        },
+        {
+          "hi": "Video call = Video Conferencing (communication service)",
+          "en": "Video call = Video Conferencing (communication service)"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "MMS, SMS se kaise alag hai?",
+          "en": "How is MMS different from SMS?"
+        },
+        "options": [
+          { "hi": "MMS sirf voice calls ke liye hai", "en": "MMS is only for voice calls" },
+          { "hi": "MMS multimedia (images/audio/video) bhej sakta hai", "en": "MMS can send multimedia (images/audio/video)" },
+          { "hi": "MMS sasta hota hai", "en": "MMS is cheaper" },
+          { "hi": "Dono same hain", "en": "They are the same" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "MMS SMS ke text ke saath-saath images, audio, video bhi bhej sakta hai.",
+          "en": "MMS can send images, audio, and video along with text, unlike plain SMS."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "IoT devices ko best support karne wali mobile generation kaunsi hai?",
+          "en": "Which mobile generation best supports IoT devices?"
+        },
+        "options": [
+          { "hi": "3G", "en": "3G" },
+          { "hi": "4G", "en": "4G" },
+          { "hi": "5G", "en": "5G" },
+          { "hi": "SMS", "en": "SMS" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "5G apni high speed aur low latency ki wajah se IoT (Internet of Things) devices ko best support karta hai.",
+          "en": "5G, with its high speed and low latency, best supports IoT (Internet of Things) devices."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Blanks fill karo: Email send karne ke liye ___ use hota hai, aur secure webpages ke liye ___ use hota hai.",
+          "en": "Fill in the blanks: ___ is used to send email, and ___ is used for secure webpages."
+        },
+        "sentenceParts": [
+          { "hi": "Email send karne ke liye ", "en": "" },
+          { "hi": " use hota hai, aur secure webpages ke liye ", "en": " is used to send email, and " },
+          { "hi": " use hota hai.", "en": " is used for secure webpages." }
+        ],
+        "blanks": ["SMTP", "HTTPS"],
+        "tokens": ["SMTP", "HTTPS", "POP3", "HTTP"],
+        "explanation": {
+          "hi": "SMTP email send karta hai, HTTPS secure webpage transfer karta hai.",
+          "en": "SMTP sends email, HTTPS transfers webpages securely."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "SMS=text only, MMS=text+multimedia", "en": "SMS=text only, MMS=text+multimedia" },
+    { "hi": "3G→4G→5G: har generation faster + better features", "en": "3G→4G→5G: each generation is faster with better features" },
+    { "hi": "5G = high speed + low latency + IoT support", "en": "5G = high speed + low latency + IoT support" }
+  ],
+  "summary": {
+    "hi": "Mobile technologies (SMS/MMS, 3G-5G) internet ko roz-marra ki zindagi tak pahunchati hain — 5G sabse advanced hai, IoT ko bhi support karta hai.",
+    "en": "Mobile technologies (SMS/MMS, 3G-5G) bring the internet into everyday life — 5G is the most advanced, also supporting IoT."
+  },
+  "reward": {
+    "badge": null
+  }
+}
