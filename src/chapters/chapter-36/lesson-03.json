@@ -1,0 +1,176 @@
+{
+  "id": "chapter-36-lesson-03",
+  "chapterId": "chapter-36",
+  "order": 3,
+  "title": {
+    "hi": "pH Scale — Strength Naapna",
+    "en": "pH Scale — Measuring Strength"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "📏",
+    "headline": {
+      "hi": "0 se 14 Tak Ka Ek Number",
+      "en": "A Number from 0 to 14"
+    },
+    "subtext": {
+      "hi": "pH scale batata hai koi solution kitna acidic ya basic hai — ek hi number mein.",
+      "en": "The pH scale tells you how acidic or basic a solution is — in a single number."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Doctor jab kisi patient ka blood test karta hai, to uska pH bhi check karta hai — kyunki human blood ka pH bahut narrow range (7.35-7.45) mein hi rehna chahiye, warna body ke functions bigad jaate hain. pH scale ek universal tool hai jo har substance ki acidic ya basic strength ko ek simple number se batata hai.",
+      "en": "When a doctor tests a patient's blood, they also check its pH — because human blood pH must stay within a very narrow range (7.35-7.45), otherwise the body's functions get disrupted. The pH scale is a universal tool that tells us the acidic or basic strength of any substance with a simple number."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "pH Scale: Ye 0 se 14 tak ka ek scale hai jo kisi solution mein H+ ions ki concentration ko measure karta hai — matlab wo kitna acidic ya basic hai. 'p' ka matlab hai 'potenz' (German word, power/strength), aur 'H' hydrogen ke liye hai.",
+        "en": "pH Scale: A scale from 0 to 14 that measures the concentration of H+ ions in a solution — i.e., how acidic or basic it is. 'p' stands for 'potenz' (German word for power/strength), and 'H' stands for hydrogen."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "pH < 7 → Acidic (jitna kam pH, utna strong acid)\npH = 7 → Neutral (pure water)\npH > 7 → Basic (jitna zyada pH, utna strong base)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Universal Indicator: Ek mixture of several indicators jo har pH value par ek alag color deta hai. Isse pH paper banaya jaata hai jo ek hi dip mein poori pH value bata deta hai — sirf acidic/basic nahi, balki kitna acidic/basic bhi.",
+        "en": "Universal Indicator: A mixture of several indicators that gives a different colour at each pH value. This is used to make pH paper, which reveals the exact pH value in a single dip — not just acidic/basic, but how acidic/basic."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Strong vs Weak Acids/Bases: Strong acid/base wo hai jo paani mein completely ionize ho jaata hai (jaise HCl, NaOH). Weak acid/base sirf partially ionize hota hai (jaise acetic acid, NH4OH). Strong acids ka pH bahut kam (jaise 1-2) hota hai, weak acids ka pH thoda kam (jaise 5-6) hota hai.",
+        "en": "Strong vs Weak Acids/Bases: A strong acid/base is one that ionizes completely in water (like HCl, NaOH). A weak acid/base only ionizes partially (like acetic acid, NH4OH). Strong acids have a very low pH (like 1-2), weak acids have a slightly low pH (like 5-6)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "pH ki Importance in Daily Life: (1) Human body — stomach mein HCl pH ~1.5-3.5 (digestion ke liye), blood pH ~7.35-7.45 (isse bahar jaana dangerous hai). (2) Plants aur animals sirf ek narrow pH range mein survive karte hain — bahut acidic rain se fish/crops mar sakte hain. (3) Soil pH — plants ko healthy grow karne ke liye specific pH range chahiye hoti hai; agar soil bahut acidic ya basic ho jaaye to farmers ise lime (base) ya organic matter (acid) daal kar correct karte hain.",
+        "en": "Importance of pH in Daily Life: (1) Human body — stomach HCl has pH ~1.5-3.5 (for digestion), blood pH ~7.35-7.45 (going outside this range is dangerous). (2) Plants and animals survive only within a narrow pH range — highly acidic rain can kill fish/crops. (3) Soil pH — plants need a specific pH range to grow healthily; if soil becomes too acidic or basic, farmers correct it by adding lime (base) or organic matter (acid)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Tooth Decay: Mouth ka pH 5.5 se neeche jaane par tooth enamel (calcium phosphate) decay hone lagta hai. Khaana khaane ke baad bacteria sugar ko todkar acid banate hain, jo pH ko neeche le jaata hai. Basic toothpaste use karne se ye acid neutralize hota hai aur tooth decay ruk jaata hai.",
+        "en": "Tooth Decay: When the mouth's pH drops below 5.5, tooth enamel (calcium phosphate) begins to decay. After eating, bacteria break down sugar to form acid, which lowers the pH. Using a basic toothpaste neutralizes this acid and prevents tooth decay."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Do solutions ka pH diya gaya hai: Solution A ka pH = 3, Solution B ka pH = 10. Kaunsa zyada acidic hai aur kaunsa zyada basic?",
+        "en": "The pH of two solutions is given: Solution A has pH = 3, Solution B has pH = 10. Which is more acidic and which is more basic?"
+      },
+      "steps": [
+        {
+          "hi": "Rule yaad karo: pH jitna 7 se kam, utna zyada acidic. pH jitna 7 se zyada, utna zyada basic.",
+          "en": "Recall the rule: the lower the pH below 7, the more acidic. The higher the pH above 7, the more basic."
+        },
+        {
+          "hi": "Solution A (pH=3) 7 se kam hai, aur B (pH=10) se bhi kam hai — isliye A zyada acidic hai.",
+          "en": "Solution A (pH=3) is below 7 and lower than B (pH=10) — so A is more acidic."
+        },
+        {
+          "hi": "Solution B (pH=10) 7 se zyada hai — isliye B zyada basic hai.",
+          "en": "Solution B (pH=10) is above 7 — so B is more basic."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Farmer ko pata chalta hai uski soil ka pH 4.5 hai (bahut acidic), jisse crops kharab ho rahe hain. Wo soil ko treat karne ke liye kya add karega, aur kyun?",
+        "en": "A farmer finds their soil's pH is 4.5 (too acidic), damaging crops. What should they add to treat the soil, and why?"
+      },
+      "steps": [
+        {
+          "hi": "Soil bahut acidic hai (pH 4.5, jo 7 se kaafi kam hai), isliye ise neutralize karne ke liye ek basic substance chahiye.",
+          "en": "The soil is very acidic (pH 4.5, well below 7), so a basic substance is needed to neutralize it."
+        },
+        {
+          "hi": "Farmer quicklime (CaO) ya slaked lime (Ca(OH)2) add karega — ye base hai jo acidic soil ko neutralize karke pH ko normal range (~6-7) mein le aayegi.",
+          "en": "The farmer will add quicklime (CaO) or slaked lime (Ca(OH)2) — a base that neutralizes the acidic soil, bringing the pH back to a normal range (~6-7)."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Pure water ka pH kitna hota hai?",
+          "en": "What is the pH of pure water?"
+        },
+        "options": [
+          { "hi": "0", "en": "0" },
+          { "hi": "7", "en": "7" },
+          { "hi": "14", "en": "14" },
+          { "hi": "1", "en": "1" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Pure water neutral hota hai, iska pH exactly 7 hota hai.",
+          "en": "Pure water is neutral, its pH is exactly 7."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Human blood ka normal pH range approximately kya hai?",
+          "en": "What is the approximate normal pH range of human blood?"
+        },
+        "options": [
+          { "hi": "1-2", "en": "1-2" },
+          { "hi": "5-6", "en": "5-6" },
+          { "hi": "7.35-7.45", "en": "7.35-7.45" },
+          { "hi": "12-14", "en": "12-14" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Human blood ka normal pH 7.35-7.45 ke narrow range mein rehta hai — isse bahar jaana health ke liye dangerous hota hai.",
+          "en": "Human blood's normal pH stays within the narrow range of 7.35-7.45 — going outside this range is dangerous for health."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Strong acids weak acids ke comparison mein higher pH value rakhte hain.",
+          "en": "Strong acids have a higher pH value compared to weak acids."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — strong acids ka pH weak acids se kam hota hai, kyunki strong acids paani mein zyada H+ ions release karte hain.",
+          "en": "False — strong acids have a lower pH than weak acids, because strong acids release more H+ ions in water."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "pH scale: 0-14, pH<7 acidic, pH=7 neutral, pH>7 basic", "en": "pH scale: 0-14, pH<7 acidic, pH=7 neutral, pH>7 basic" },
+    { "hi": "Strong acid/base = complete ionization; Weak = partial ionization", "en": "Strong acid/base = complete ionization; Weak = partial ionization" },
+    { "hi": "Blood pH: 7.35-7.45; Stomach HCl pH: 1.5-3.5", "en": "Blood pH: 7.35-7.45; Stomach HCl pH: 1.5-3.5" },
+    { "hi": "Mouth pH < 5.5 → tooth decay start hota hai", "en": "Mouth pH < 5.5 → tooth decay begins" }
+  ],
+  "summary": {
+    "hi": "pH scale (0-14) kisi solution ki acidic/basic strength ko ek number se batata hai — human body, agriculture, aur daily life mein iski bahut importance hai.",
+    "en": "The pH scale (0-14) expresses a solution's acidic/basic strength as a single number — it has great importance in the human body, agriculture, and daily life."
+  },
+  "reward": {
+    "badge": null
+  }
+}

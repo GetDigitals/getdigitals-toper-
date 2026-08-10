@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter-36",
+  "objective": [
+    {
+      "question": {
+        "hi": "China rose (Gudhal) petal extract acid mein kis color ka hota hai?",
+        "en": "What colour does China rose (Hibiscus) petal extract turn in acid?"
+      },
+      "options": [
+        { "hi": "Green", "en": "Green" },
+        { "hi": "Dark pink/magenta", "en": "Dark pink/magenta" },
+        { "hi": "Yellow", "en": "Yellow" },
+        { "hi": "Colourless", "en": "Colourless" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "China rose extract acid mein dark pink/magenta ho jaata hai, base mein green.",
+        "en": "China rose extract turns dark pink/magenta in acid, and green in base."
+      }
+    },
+    {
+      "question": {
+        "hi": "NaHCO3 ko heat karne par kaunse products bante hain?",
+        "en": "What products form when NaHCO3 is heated?"
+      },
+      "options": [
+        { "hi": "NaOH + H2O", "en": "NaOH + H2O" },
+        { "hi": "Na2CO3 + H2O + CO2", "en": "Na2CO3 + H2O + CO2" },
+        { "hi": "NaCl + CO2", "en": "NaCl + CO2" },
+        { "hi": "Sirf CO2", "en": "Only CO2" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "2NaHCO3 →(heat) Na2CO3 + H2O + CO2 — isi wajah se cake/bread fulti hai.",
+        "en": "2NaHCO3 →(heat) Na2CO3 + H2O + CO2 — this is why cake/bread rises."
+      }
+    },
+    {
+      "question": {
+        "hi": "Weak acid ka example kaunsa hai?",
+        "en": "Which of these is an example of a weak acid?"
+      },
+      "options": [
+        { "hi": "HCl", "en": "HCl" },
+        { "hi": "H2SO4", "en": "H2SO4" },
+        { "hi": "Acetic acid (CH3COOH)", "en": "Acetic acid (CH3COOH)" },
+        { "hi": "HNO3", "en": "HNO3" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "hi": "Acetic acid paani mein partially ionize hota hai, isliye weak acid hai. HCl, H2SO4, HNO3 strong acids hain.",
+        "en": "Acetic acid ionizes only partially in water, making it a weak acid. HCl, H2SO4, HNO3 are strong acids."
+      }
+    },
+    {
+      "question": {
+        "hi": "Water of crystallization ka correct example kaunsa hai?",
+        "en": "Which is a correct example of water of crystallization?"
+      },
+      "options": [
+        { "hi": "NaCl mein 2 water molecules", "en": "NaCl has 2 water molecules" },
+        { "hi": "CuSO4.5H2O mein 5 water molecules", "en": "CuSO4.5H2O has 5 water molecules" },
+        { "hi": "HCl mein water hoti hai", "en": "HCl has water" },
+        { "hi": "O2 mein water hoti hai", "en": "O2 has water" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "CuSO4.5H2O (copper sulphate/blue vitriol) mein 5 fixed water molecules crystal structure ka hissa hote hain.",
+        "en": "CuSO4.5H2O (copper sulphate/blue vitriol) has 5 fixed water molecules as part of its crystal structure."
+      }
+    },
+    {
+      "question": {
+        "hi": "Bleaching powder ka formula kya hai?",
+        "en": "What is the formula of bleaching powder?"
+      },
+      "options": [
+        { "hi": "CaOCl2", "en": "CaOCl2" },
+        { "hi": "CaCO3", "en": "CaCO3" },
+        { "hi": "Ca(OH)2", "en": "Ca(OH)2" },
+        { "hi": "CaSO4", "en": "CaSO4" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Bleaching powder ka chemical formula CaOCl2 hai.",
+        "en": "The chemical formula of bleaching powder is CaOCl2."
+      }
+    },
+    {
+      "question": {
+        "hi": "Mouth ka pH 5.5 se neeche jaane par kya hota hai?",
+        "en": "What happens when the mouth's pH drops below 5.5?"
+      },
+      "options": [
+        { "hi": "Tooth enamel decay hone lagta hai", "en": "Tooth enamel starts to decay" },
+        { "hi": "Blood pH badal jaata hai", "en": "Blood pH changes" },
+        { "hi": "Kuch nahi hota", "en": "Nothing happens" },
+        { "hi": "Digestion improve hota hai", "en": "Digestion improves" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "pH 5.5 se neeche jaane par tooth enamel (calcium phosphate, jo sabse hard substance hai body mein) decay hone lagta hai.",
+        "en": "Below pH 5.5, tooth enamel (calcium phosphate, the hardest substance in the body) starts to decay."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "Natural aur synthetic indicators mein fark batao, har ek ka ek-ek example ke saath.",
+        "en": "Explain the difference between natural and synthetic indicators, with one example each."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Natural indicators wo hain jo plants/natural sources se milte hain — jaise Litmus (lichen se), jo acid mein red aur base mein blue hota hai.\nSynthetic indicators lab mein banaye jaate hain — jaise Phenolphthalein, jo acid mein colourless aur base mein pink hota hai.",
+        "en": "Natural indicators come from plants/natural sources — like Litmus (from lichen), which turns red in acid and blue in base.\nSynthetic indicators are made in labs — like Phenolphthalein, which is colourless in acid and pink in base."
+      }
+    },
+    {
+      "question": {
+        "hi": "Neutralization reaction kya hai? Iski 2 daily-life applications example ke saath likho.",
+        "en": "What is a neutralization reaction? Write 2 daily-life applications with examples."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Neutralization: Acid + Base → Salt + Water, dono ki properties cancel ho jaati hain.\n1. Antacid (jaise Milk of Magnesia) stomach ki excess HCl acidity ko neutralize karta hai.\n2. Ant/bee sting mein formic acid ko baking soda (base) se neutralize kiya jaata hai.",
+        "en": "Neutralization: Acid + Base → Salt + Water, both properties cancel out.\n1. Antacid (like Milk of Magnesia) neutralizes excess stomach HCl acidity.\n2. In ant/bee stings, formic acid is neutralized with baking soda (a base)."
+      }
+    },
+    {
+      "question": {
+        "hi": "Plaster of Paris kaise banti hai aur isko airtight container mein kyun rakha jaata hai? Reaction ke saath explain karo.",
+        "en": "How is Plaster of Paris made, and why is it stored in an airtight container? Explain with the reaction."
+      },
+      "marks": 4,
+      "answer": {
+        "hi": "Gypsum (CaSO4.2H2O) ko 373K tak heat karke Plaster of Paris banti hai:\nCaSO4.2H2O →(373K) CaSO4.½H2O + 1½H2O\nIse airtight rakhna zaroori hai kyunki ye hawa ki moisture absorb karke wapas gypsum ban jaati hai, jisse iski setting property kho jaati hai aur ye useless ho jaati hai.",
+        "en": "Plaster of Paris is made by heating gypsum (CaSO4.2H2O) to 373K:\nCaSO4.2H2O →(373K) CaSO4.½H2O + 1½H2O\nIt must be stored airtight because it absorbs moisture from air and reverts to gypsum, losing its setting property and becoming useless."
+      }
+    },
+    {
+      "question": {
+        "hi": "Ek unknown solution ka pH 12 diya gaya hai. (a) Ye acidic hai ya basic? (b) Kya iske saath koi acid react karega to kya product banega? Equation likho (general form).",
+        "en": "An unknown solution has pH 12. (a) Is it acidic or basic? (b) If an acid reacts with it, what product will form? Write the equation (general form)."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "(a) pH 12, jo 7 se kaafi zyada hai — ye strongly Basic hai.\n(b) Acid ke saath react karke ye Salt aur Water banayega (Neutralization): Acid + Base → Salt + Water",
+        "en": "(a) pH 12, well above 7 — this is strongly Basic.\n(b) When it reacts with an acid, it will form Salt and Water (Neutralization): Acid + Base → Salt + Water"
+      }
+    },
+    {
+      "question": {
+        "hi": "Chlor-alkali process kya hai? Iske teeno products aur unke ek-ek use likho.",
+        "en": "What is the chlor-alkali process? Write its three products and one use of each."
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "Chlor-alkali process: Brine (concentrated NaCl solution) se electricity pass karne par 3 products banate hain:\n2NaCl + 2H2O →(electricity) 2NaOH + Cl2 + H2\n1. NaOH — soap/detergent banane mein use.\n2. Cl2 — bleaching powder banane mein aur water disinfect karne mein use.\n3. H2 — fuel aur margarine (vanaspati ghee) banane mein use.",
+        "en": "Chlor-alkali process: Passing electricity through brine (concentrated NaCl solution) produces 3 products:\n2NaCl + 2H2O →(electricity) 2NaOH + Cl2 + H2\n1. NaOH — used in making soap/detergents.\n2. Cl2 — used in making bleaching powder and disinfecting water.\n3. H2 — used as fuel and in making margarine (vegetable ghee)."
+      }
+    }
+  ]
+}

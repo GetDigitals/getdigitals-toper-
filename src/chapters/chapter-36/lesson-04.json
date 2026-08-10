@@ -1,0 +1,180 @@
+{
+  "id": "chapter-36-lesson-04",
+  "chapterId": "chapter-36",
+  "order": 4,
+  "title": {
+    "hi": "Neutralization Reaction aur Uski Applications",
+    "en": "Neutralization Reaction and Its Applications"
+  },
+  "estimatedMinutes": 11,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "⚖️",
+    "headline": {
+      "hi": "Jab Acid aur Base Ek Doosre Ko Cancel Karte Hain",
+      "en": "When Acid and Base Cancel Each Other Out"
+    },
+    "subtext": {
+      "hi": "Neutralization sirf ek lab reaction nahi — ye antacid tablets se lekar bee-sting tak, har jagah kaam aati hai.",
+      "en": "Neutralization isn't just a lab reaction — it's used everywhere, from antacid tablets to bee stings."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Jab kisi ko acidity (jyada acid banna stomach mein) ho jaati hai, to doctor antacid tablet (jaise Milk of Magnesia) deta hai. Ye tablet ek mild base hoti hai jo extra stomach acid ko neutralize kar deti hai, aur pain kam ho jaata hai. Ye neutralization reaction ka ek roz-marra ka example hai.",
+      "en": "When someone has acidity (excess acid forming in the stomach), a doctor gives an antacid tablet (like Milk of Magnesia). This tablet is a mild base that neutralizes the excess stomach acid, and the pain reduces. This is an everyday example of the neutralization reaction."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Neutralization Reaction: Jab ek acid aur ek base react karte hain, to wo Salt aur Water banate hain, aur dono ki acidic/basic properties khatam ho jaati hain (neutralize ho jaati hain). Ye reaction generally heat bhi release karti hai (exothermic).",
+        "en": "Neutralization Reaction: When an acid and a base react, they form Salt and Water, and both their acidic/basic properties get cancelled out (neutralized). This reaction generally also releases heat (exothermic)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Acid + Base → Salt + Water\nNaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Application 1 — Indigestion/Acidity: Stomach mein digestion ke liye HCl banta hai, lekin excess acid 'acidity' ka cause banta hai. Antacids (jaise Magnesium hydroxide — Milk of Magnesia) mild bases hote hain jo extra acid ko neutralize karke araam dete hain.",
+        "en": "Application 1 — Indigestion/Acidity: The stomach produces HCl for digestion, but excess acid causes 'acidity'. Antacids (like Magnesium hydroxide — Milk of Magnesia) are mild bases that neutralize the excess acid to provide relief."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Application 2 — Ant/Bee Sting: Jab ant (chींटी) ya bee (madhumakkhi) katti hai, to wo formic/methanoic acid inject karti hai jo pain aur jalan deta hai. Isko treat karne ke liye baking soda (mild base) ya calamine solution (jisme zinc carbonate hota hai, ek mild base) lagaya jaata hai, jo acid ko neutralize kar deta hai.",
+        "en": "Application 2 — Ant/Bee Sting: When an ant or bee stings, it injects formic/methanoic acid, causing pain and irritation. To treat this, baking soda (mild base) or calamine solution (containing zinc carbonate, a mild base) is applied, which neutralizes the acid."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Application 3 — Soil Treatment: Agar soil bahut acidic hai, to farmers usme quicklime (CaO) ya slaked lime (Ca(OH)2) ya chalk (CaCO3) daalte hain, jo soil ki acidity ko neutralize karke crops ke liye suitable bana deti hai. Agar soil bahut basic hai, to organic matter (jisme acids hote hain) add kiya jaata hai.",
+        "en": "Application 3 — Soil Treatment: If soil is too acidic, farmers add quicklime (CaO), slaked lime (Ca(OH)2), or chalk (CaCO3), which neutralizes the soil's acidity to make it suitable for crops. If soil is too basic, organic matter (which contains acids) is added."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Application 4 — Factory Waste: Factories jo apna waste (jisme acids hote hain) rivers mein release karti hain, wo pehle basic substances se treat karke waste ko neutralize karti hain, taaki river ka pH balance disturb na ho aur aquatic life safe rahe.",
+        "en": "Application 4 — Factory Waste: Factories that release their waste (containing acids) into rivers first treat it with basic substances to neutralize it, so that the river's pH balance is not disturbed and aquatic life remains safe."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek patient ko severe stomach acidity hai. Explain karo neutralization reaction ke through antacid kaise kaam karta hai, equation ke saath.",
+        "en": "A patient has severe stomach acidity. Explain how an antacid works through the neutralization reaction, with an equation."
+      },
+      "steps": [
+        {
+          "hi": "Stomach mein excess HCl ban gaya hai jo acidity ka cause hai.",
+          "en": "Excess HCl has formed in the stomach, which is causing the acidity."
+        },
+        {
+          "hi": "Antacid (Mg(OH)2 — Milk of Magnesia) ek mild base hai jo is excess acid ke saath react karta hai.",
+          "en": "The antacid (Mg(OH)2 — Milk of Magnesia) is a mild base that reacts with this excess acid."
+        },
+        {
+          "hi": "Mg(OH)2(aq) + 2HCl(aq) → MgCl2(aq) + 2H2O(l) — acid neutralize ho jaata hai, pain kam ho jaata hai.",
+          "en": "Mg(OH)2(aq) + 2HCl(aq) → MgCl2(aq) + 2H2O(l) — the acid gets neutralized, and the pain reduces."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Kisi bacche ko ant ne kaat liya aur jalan ho rahi hai. Chemistry ke basis par explain karo kya lagana chahiye aur kyun.",
+        "en": "A child was bitten by an ant and is experiencing irritation. Explain, based on chemistry, what should be applied and why."
+      },
+      "steps": [
+        {
+          "hi": "Ant bite formic acid (methanoic acid) inject karta hai, jo jalan/pain deta hai.",
+          "en": "Ant bites inject formic acid (methanoic acid), which causes irritation/pain."
+        },
+        {
+          "hi": "Isko neutralize karne ke liye ek mild base chahiye — baking soda (sodium bicarbonate) ka paste lagaya jaa sakta hai.",
+          "en": "To neutralize this, a mild base is needed — a paste of baking soda (sodium bicarbonate) can be applied."
+        },
+        {
+          "hi": "Baking soda ka OH-/basic nature formic acid ko neutralize karke jalan kam kar deta hai — ye ek real-life neutralization reaction hai.",
+          "en": "The basic nature of baking soda neutralizes the formic acid, reducing the irritation — this is a real-life neutralization reaction."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Neutralization reaction ke products kya hote hain?",
+          "en": "What are the products of a neutralization reaction?"
+        },
+        "options": [
+          { "hi": "Sirf Salt", "en": "Only Salt" },
+          { "hi": "Salt aur Water", "en": "Salt and Water" },
+          { "hi": "Sirf Gas", "en": "Only Gas" },
+          { "hi": "Acid aur Base", "en": "Acid and Base" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Acid + Base → Salt + Water, ye neutralization ka general equation hai.",
+          "en": "Acid + Base → Salt + Water, this is the general equation of neutralization."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Ant/bee sting ke pain ko kam karne ke liye kya use hota hai aur kyun?",
+          "en": "What is used to reduce the pain of an ant/bee sting and why?"
+        },
+        "options": [
+          { "hi": "Vinegar, kyunki wo acid hai", "en": "Vinegar, because it is an acid" },
+          { "hi": "Baking soda, kyunki wo formic acid ko neutralize karta hai", "en": "Baking soda, because it neutralizes formic acid" },
+          { "hi": "Salt, kyunki wo taste badalta hai", "en": "Salt, because it changes taste" },
+          { "hi": "Sugar, kyunki wo sweet hota hai", "en": "Sugar, because it is sweet" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Ant/bee formic acid inject karte hain, isliye baking soda (base) use karke usse neutralize kiya jaata hai.",
+          "en": "Ants/bees inject formic acid, so baking soda (a base) is used to neutralize it."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Acidic soil ko treat karne ke liye farmers organic matter add karte hain.",
+          "en": "Farmers add organic matter to treat acidic soil."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — acidic soil ko treat karne ke liye quicklime, slaked lime, ya chalk (bases) add ki jaati hai. Organic matter basic soil ke liye use hota hai.",
+          "en": "False — quicklime, slaked lime, or chalk (bases) are added to treat acidic soil. Organic matter is used for basic soil."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Neutralization: Acid + Base → Salt + Water (exothermic)", "en": "Neutralization: Acid + Base → Salt + Water (exothermic)" },
+    { "hi": "Antacids stomach ki excess acidity neutralize karte hain", "en": "Antacids neutralize excess stomach acidity" },
+    { "hi": "Ant/bee sting = formic acid → baking soda se neutralize", "en": "Ant/bee sting = formic acid → neutralized with baking soda" },
+    { "hi": "Acidic soil → lime/chalk add karo; Basic soil → organic matter add karo", "en": "Acidic soil → add lime/chalk; Basic soil → add organic matter" }
+  ],
+  "summary": {
+    "hi": "Neutralization reaction (Acid + Base → Salt + Water) ki applications daily life mein har jagah dikhti hain — antacids se lekar soil treatment aur insect sting relief tak.",
+    "en": "Applications of the neutralization reaction (Acid + Base → Salt + Water) appear everywhere in daily life — from antacids to soil treatment and insect sting relief."
+  },
+  "reward": {
+    "badge": null
+  }
+}

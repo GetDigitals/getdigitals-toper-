@@ -1,0 +1,169 @@
+{
+  "chapterId": "chapter-36",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Blue litmus paper ko acid mein dip karne par uska color kya ho jaata hai?",
+        "en": "What colour does blue litmus paper turn when dipped in an acid?"
+      },
+      "options": [
+        { "hi": "Green", "en": "Green" },
+        { "hi": "Red", "en": "Red" },
+        { "hi": "Yellow", "en": "Yellow" },
+        { "hi": "Koi change nahi", "en": "No change" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Acid blue litmus ko red kar deta hai.",
+        "en": "Acid turns blue litmus red."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Phenolphthalein base ke saath kis color ka ho jaata hai?",
+        "en": "What colour does phenolphthalein turn in a base?"
+      },
+      "options": [
+        { "hi": "Colourless", "en": "Colourless" },
+        { "hi": "Pink", "en": "Pink" },
+        { "hi": "Yellow", "en": "Yellow" },
+        { "hi": "Red", "en": "Red" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Phenolphthalein base ke saath pink ho jaata hai, acid mein colourless rehta hai.",
+        "en": "Phenolphthalein turns pink in a base, remains colourless in acid."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Metal ke saath acid react karke kaunsi gas banata hai?",
+        "en": "Which gas is formed when acid reacts with a metal?"
+      },
+      "options": [
+        { "hi": "CO2", "en": "CO2" },
+        { "hi": "H2", "en": "H2" },
+        { "hi": "O2", "en": "O2" },
+        { "hi": "N2", "en": "N2" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Acid + Metal → Salt + H2 gas (jo 'pop' sound se test hoti hai).",
+        "en": "Acid + Metal → Salt + H2 gas (tested by the 'pop' sound)."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Lime water CO2 gas ki presence mein milky ho jaata hai.",
+        "en": "Lime water turns milky in the presence of CO2 gas."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi — CO2 + Ca(OH)2 → CaCO3 (milky) + H2O.",
+        "en": "Correct — CO2 + Ca(OH)2 → CaCO3 (milky) + H2O."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "pH scale kitne se kitne tak hoti hai?",
+        "en": "What is the range of the pH scale?"
+      },
+      "options": [
+        { "hi": "0-10", "en": "0-10" },
+        { "hi": "0-14", "en": "0-14" },
+        { "hi": "1-7", "en": "1-7" },
+        { "hi": "0-100", "en": "0-100" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "pH scale 0 se 14 tak hota hai.",
+        "en": "The pH scale ranges from 0 to 14."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Neutralization reaction ke products kya hain?",
+        "en": "What are the products of neutralization?"
+      },
+      "options": [
+        { "hi": "Salt + Water", "en": "Salt + Water" },
+        { "hi": "Gas + Water", "en": "Gas + Water" },
+        { "hi": "Acid + Base", "en": "Acid + Base" },
+        { "hi": "Sirf Salt", "en": "Only Salt" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Acid + Base → Salt + Water.",
+        "en": "Acid + Base → Salt + Water."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Antacid ek acidic substance hai jo stomach mein aur acid banata hai.",
+        "en": "An antacid is an acidic substance that produces more acid in the stomach."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — antacid ek mild base hai jo excess stomach acid ko neutralize karta hai.",
+        "en": "False — an antacid is a mild base that neutralizes excess stomach acid."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Plaster of Paris kis salt se banta hai?",
+        "en": "Plaster of Paris is made from which compound?"
+      },
+      "options": [
+        { "hi": "Gypsum (CaSO4.2H2O)", "en": "Gypsum (CaSO4.2H2O)" },
+        { "hi": "Baking soda", "en": "Baking soda" },
+        { "hi": "Washing soda", "en": "Washing soda" },
+        { "hi": "Bleaching powder", "en": "Bleaching powder" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Gypsum ko 373K tak heat karke Plaster of Paris (CaSO4.½H2O) banta hai.",
+        "en": "Plaster of Paris (CaSO4.½H2O) is made by heating gypsum to 373K."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Chlor-alkali process mein cathode par kya-kya banta hai?",
+        "en": "What is formed at the cathode in the chlor-alkali process?"
+      },
+      "options": [
+        { "hi": "NaOH aur H2", "en": "NaOH and H2" },
+        { "hi": "Cl2 aur H2", "en": "Cl2 and H2" },
+        { "hi": "Sirf Cl2", "en": "Only Cl2" },
+        { "hi": "NaCl aur O2", "en": "NaCl and O2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Cathode par NaOH aur H2 banti hai, anode par Cl2 gas.",
+        "en": "NaOH and H2 form at the cathode, Cl2 gas forms at the anode."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Plaster of Paris ko normal open container mein rakha ja sakta hai, airtight ki zaroorat nahi.",
+        "en": "Plaster of Paris can be stored in a normal open container, no need for airtight storage."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — Plaster of Paris moisture absorb karke wapas gypsum ban jaata hai, isliye airtight container zaroori hai.",
+        "en": "False — Plaster of Paris absorbs moisture and reverts to gypsum, so airtight storage is necessary."
+      }
+    }
+  ]
+}

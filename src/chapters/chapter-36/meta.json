@@ -6,14 +6,17 @@
   "board": "CBSE",
   "title": "Acids, Bases and Salts",
   "icon": "🧫",
-  "color": "#00C2A8",
-  "description": "pH scale, indicators, common acids/bases, salts aur unke uses. Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "color": "#4FD1C5",
+  "description": "Acids-bases ki properties, indicators, pH scale, neutralization, aur important salts (NaOH, bleaching powder, baking soda, washing soda, Plaster of Paris) — 2026-27 CBSE Rationalised syllabus ke hisab se.",
+  "xpReward": 270,
+  "coinReward": 70,
   "badge": {
-    "id": "chapter-36-master",
-    "name": "Acids, Bases and Salts Master",
-    "icon": "🏅"
+    "id": "ph-master",
+    "name": {
+      "hi": "pH Master",
+      "en": "pH Master"
+    },
+    "icon": "🧪"
   },
   "unlockRule": {
     "type": "sequential"

@@ -1,0 +1,62 @@
+{
+  "chapterId": "chapter-36",
+  "flashcards": [
+    { "front": { "hi": "Acid ka litmus test", "en": "Litmus test for acid" }, "back": { "hi": "Blue litmus → Red", "en": "Blue litmus → Red" } },
+    { "front": { "hi": "Base ka litmus test", "en": "Litmus test for base" }, "back": { "hi": "Red litmus → Blue", "en": "Red litmus → Blue" } },
+    { "front": { "hi": "Acid + Metal", "en": "Acid + Metal" }, "back": { "hi": "Salt + H2 (pop sound)", "en": "Salt + H2 (pop sound)" } },
+    { "front": { "hi": "Acid + Carbonate", "en": "Acid + Carbonate" }, "back": { "hi": "Salt + Water + CO2 (lime water milky)", "en": "Salt + Water + CO2 (lime water turns milky)" } },
+    { "front": { "hi": "pH < 7", "en": "pH < 7" }, "back": { "hi": "Acidic", "en": "Acidic" } },
+    { "front": { "hi": "pH > 7", "en": "pH > 7" }, "back": { "hi": "Basic", "en": "Basic" } },
+    { "front": { "hi": "Neutralization", "en": "Neutralization" }, "back": { "hi": "Acid + Base → Salt + Water", "en": "Acid + Base → Salt + Water" } },
+    { "front": { "hi": "Plaster of Paris formula", "en": "Formula of Plaster of Paris" }, "back": { "hi": "CaSO4.½H2O", "en": "CaSO4.½H2O" } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Acid + Metal", "en": "Acid + Metal" }, "formula": "Acid + Metal → Salt + H2" },
+    { "label": { "hi": "Acid + Carbonate", "en": "Acid + Carbonate" }, "formula": "Acid + Carbonate → Salt + H2O + CO2" },
+    { "label": { "hi": "Neutralization", "en": "Neutralization" }, "formula": "Acid + Base → Salt + H2O" },
+    { "label": { "hi": "Bleaching Powder", "en": "Bleaching Powder" }, "formula": "Ca(OH)2 + Cl2 → CaOCl2 + H2O" },
+    { "label": { "hi": "Plaster of Paris", "en": "Plaster of Paris" }, "formula": "CaSO4.2H2O →(373K) CaSO4.½H2O + 1½H2O" }
+  ],
+  "mindMap": {
+    "root": { "hi": "Acids, Bases and Salts", "en": "Acids, Bases and Salts" },
+    "branches": [
+      {
+        "label": { "hi": "Identification", "en": "Identification" },
+        "children": [
+          { "hi": "Natural indicators: litmus, turmeric, china rose", "en": "Natural indicators: litmus, turmeric, china rose" },
+          { "hi": "Synthetic: phenolphthalein, methyl orange", "en": "Synthetic: phenolphthalein, methyl orange" }
+        ]
+      },
+      {
+        "label": { "hi": "Chemical Properties", "en": "Chemical Properties" },
+        "children": [
+          { "hi": "Acid + Metal → Salt + H2", "en": "Acid + Metal → Salt + H2" },
+          { "hi": "Acid + Carbonate → Salt + H2O + CO2", "en": "Acid + Carbonate → Salt + H2O + CO2" },
+          { "hi": "Acid + Base → Salt + H2O", "en": "Acid + Base → Salt + H2O" }
+        ]
+      },
+      {
+        "label": { "hi": "pH Scale", "en": "pH Scale" },
+        "children": [
+          { "hi": "0-14, <7 acidic, 7 neutral, >7 basic", "en": "0-14, <7 acidic, 7 neutral, >7 basic" },
+          { "hi": "Blood, stomach, soil, tooth decay", "en": "Blood, stomach, soil, tooth decay" }
+        ]
+      },
+      {
+        "label": { "hi": "Important Salts", "en": "Important Salts" },
+        "children": [
+          { "hi": "NaOH, Bleaching powder", "en": "NaOH, Bleaching powder" },
+          { "hi": "Baking soda, Washing soda", "en": "Baking soda, Washing soda" },
+          { "hi": "Plaster of Paris", "en": "Plaster of Paris" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "Litmus acid mein kaunsa color?", "en": "Litmus colour in acid?" }, "explanation": { "hi": "Red", "en": "Red" } },
+    { "question": { "hi": "Pure water ka pH?", "en": "pH of pure water?" }, "explanation": { "hi": "7", "en": "7" } },
+    { "question": { "hi": "Antacid kya hota hai?", "en": "What is an antacid?" }, "explanation": { "hi": "Mild base jo acidity neutralize karta hai", "en": "Mild base that neutralizes acidity" } },
+    { "question": { "hi": "Baking soda ka formula?", "en": "Formula of baking soda?" }, "explanation": { "hi": "NaHCO3", "en": "NaHCO3" } },
+    { "question": { "hi": "Gypsum ka formula?", "en": "Formula of gypsum?" }, "explanation": { "hi": "CaSO4.2H2O", "en": "CaSO4.2H2O" } }
+  ]
+}

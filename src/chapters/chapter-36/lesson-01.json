@@ -1,0 +1,179 @@
+{
+  "id": "chapter-36-lesson-01",
+  "chapterId": "chapter-36",
+  "order": 1,
+  "title": {
+    "hi": "Acids aur Bases — Pehchan aur Indicators",
+    "en": "Acids and Bases — Identification and Indicators"
+  },
+  "estimatedMinutes": 12,
+  "xpReward": 50,
+  "coinReward": 13,
+  "hero": {
+    "emoji": "🍋",
+    "headline": {
+      "hi": "Khatta ya Kadwa — Chemistry Ka Signal",
+      "en": "Sour or Bitter — Chemistry's Signal"
+    },
+    "subtext": {
+      "hi": "Nींbू khatta kyun lagta hai aur soap kadwa-sa kyun? Acids aur bases ki duniya mein swagat hai.",
+      "en": "Why does lemon taste sour and soap taste bitter-ish? Welcome to the world of acids and bases."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Kitchen mein nींbू, dahi, aur imli khatte hote hain — ye sab acids hain. Doosri taraf, soap aur baking soda ka solution kadwa aur chikna (slippery) lagta hai — ye bases hain. Lekin taste se test karna kabhi safe nahi (kai acids/bases dangerous hote hain), isliye scientists 'indicators' use karte hain — special chemicals jo color badalkar bata dete hain ki koi substance acidic hai ya basic.",
+      "en": "In the kitchen, lemon, curd, and tamarind taste sour — these are all acids. On the other hand, soap and baking soda solution taste bitter and feel slippery — these are bases. But testing by taste is never safe (many acids/bases are dangerous), so scientists use 'indicators' — special chemicals that change colour to reveal whether a substance is acidic or basic."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Acids: Wo substances jo taste mein khatte hote hain aur blue litmus ko red kar dete hain. Ye paani mein ghulkar H+ (hydrogen) ions release karte hain. Examples: HCl, H2SO4, citric acid (nींbू mein), acetic acid (sirke mein).",
+        "en": "Acids: Substances that taste sour and turn blue litmus red. They release H+ (hydrogen) ions when dissolved in water. Examples: HCl, H2SO4, citric acid (in lemon), acetic acid (in vinegar)."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Bases: Wo substances jo taste mein kadwe aur chhone mein soapy (slippery) hote hain aur red litmus ko blue kar dete hain. Ye paani mein ghulkar OH- (hydroxide) ions release karte hain. Examples: NaOH, KOH, Ca(OH)2. Wo bases jo paani mein ghul jaate hain unhe 'alkali' kehte hain.",
+        "en": "Bases: Substances that taste bitter and feel soapy (slippery) to touch, and turn red litmus blue. They release OH- (hydroxide) ions when dissolved in water. Examples: NaOH, KOH, Ca(OH)2. Bases that dissolve in water are called 'alkalis'."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Indicator: Wo substance jo acid ya base ke saath contact mein aane par apna color badal deta hai, jisse hume pata chal jaata hai ki solution acidic hai ya basic. Indicators do type ke hote hain — Natural aur Synthetic.",
+        "en": "Indicator: A substance that changes colour when it comes into contact with an acid or base, revealing whether a solution is acidic or basic. Indicators are of two types — Natural and Synthetic."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Natural Indicators: Litmus (lichen se banta hai — acid mein red, base mein blue), Turmeric/Haldi (base ke saath contact mein aane par yellow se reddish-brown ho jaata hai, acid mein change nahi hota), China rose (Gudhal) petals extract (acid mein dark pink/magenta, base mein green).",
+        "en": "Natural Indicators: Litmus (made from lichen — turns red in acid, blue in base), Turmeric/Haldi (turns from yellow to reddish-brown on contact with base, no change with acid), China rose (Hibiscus) petal extract (turns dark pink/magenta in acid, green in base)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Litmus: Acid → Red | Base → Blue\nPhenolphthalein: Acid → Colourless | Base → Pink\nMethyl Orange: Acid → Red/Pink | Base → Yellow"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Synthetic Indicators: Phenolphthalein (acid mein colourless rehta hai, base mein pink ho jaata hai) aur Methyl Orange (acid mein red/pink, base mein yellow) — ye lab mein banaye jaate hain aur bahut precise results dete hain.",
+        "en": "Synthetic Indicators: Phenolphthalein (remains colourless in acid, turns pink in base) and Methyl Orange (red/pink in acid, yellow in base) — these are made in labs and give very precise results."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Olfactory Indicators: Kuch substances jinki smell acid ya base ki presence mein badal jaati hai — jaise Onion (base ke saath smell chali jaati hai) aur Vanilla essence (base ke saath smell change ho jaati hai). Ye bhi indicator ka ek type hain.",
+        "en": "Olfactory Indicators: Some substances whose smell changes in the presence of acid or base — like Onion (its smell disappears with base) and Vanilla essence (its smell changes with base). These are also a type of indicator."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek colourless solution X, phenolphthalein add karne par pink ho jaata hai. Ye acidic hai ya basic? Reason do.",
+        "en": "A colourless solution X turns pink when phenolphthalein is added. Is it acidic or basic? Give a reason."
+      },
+      "steps": [
+        {
+          "hi": "Phenolphthalein ka rule yaad karo: acid mein colourless rehta hai, base mein pink ho jaata hai.",
+          "en": "Recall the rule for phenolphthalein: it remains colourless in acid, turns pink in base."
+        },
+        {
+          "hi": "Solution X phenolphthalein ke saath pink ho gaya, matlab solution X Basic hai.",
+          "en": "Solution X turned pink with phenolphthalein, so solution X is Basic."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Ek student ke paas do unlabeled solutions hain. Blue litmus paper dono mein dip karta hai — solution A mein koi change nahi, solution B mein litmus red ho jaata hai. Konsa acidic hai?",
+        "en": "A student has two unlabeled solutions. Blue litmus is dipped in both — no change in solution A, but litmus turns red in solution B. Which one is acidic?"
+      },
+      "steps": [
+        {
+          "hi": "Rule: Acid, blue litmus ko red karta hai. Base, blue litmus ko change nahi karta (kyunki wo already blue hi rehta hai).",
+          "en": "Rule: Acid turns blue litmus red. Base does not change blue litmus (since it stays blue anyway)."
+        },
+        {
+          "hi": "Solution B ne blue litmus ko red kiya — isliye Solution B Acidic hai. Solution A basic ya neutral ho sakta hai.",
+          "en": "Solution B turned blue litmus red — so Solution B is Acidic. Solution A could be basic or neutral."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Acids paani mein ghulkar kaunse ions release karte hain?",
+          "en": "What ions do acids release when dissolved in water?"
+        },
+        "options": [
+          { "hi": "OH- ions", "en": "OH- ions" },
+          { "hi": "H+ ions", "en": "H+ ions" },
+          { "hi": "Na+ ions", "en": "Na+ ions" },
+          { "hi": "Cl- ions", "en": "Cl- ions" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Acids paani mein H+ (hydrogen) ions release karte hain, jo unki acidic property ke liye responsible hai.",
+          "en": "Acids release H+ (hydrogen) ions in water, which is responsible for their acidic property."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Turmeric (haldi) kis indicator ka example hai aur base ke saath kya reaction karta hai?",
+          "en": "Turmeric is an example of which indicator and how does it react with a base?"
+        },
+        "options": [
+          { "hi": "Synthetic indicator, colourless ho jaata hai", "en": "Synthetic indicator, becomes colourless" },
+          { "hi": "Natural indicator, yellow se reddish-brown ho jaata hai", "en": "Natural indicator, turns from yellow to reddish-brown" },
+          { "hi": "Olfactory indicator, smell chali jaati hai", "en": "Olfactory indicator, loses its smell" },
+          { "hi": "Koi reaction nahi hoti", "en": "No reaction occurs" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Turmeric ek natural indicator hai jo base ke contact mein yellow se reddish-brown ho jaata hai.",
+          "en": "Turmeric is a natural indicator that changes from yellow to reddish-brown on contact with a base."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Saare bases paani mein soluble hote hain.",
+          "en": "All bases are soluble in water."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — sirf wo bases jo paani mein ghul jaate hain unhe 'alkali' kehte hain. Kuch bases (jaise Cu(OH)2) paani mein insoluble hote hain.",
+          "en": "False — only bases that dissolve in water are called 'alkalis'. Some bases (like Cu(OH)2) are insoluble in water."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Acid: khatta, blue litmus → red, H+ release karta hai", "en": "Acid: sour, blue litmus → red, releases H+" },
+    { "hi": "Base: kadwa/slippery, red litmus → blue, OH- release karta hai", "en": "Base: bitter/slippery, red litmus → blue, releases OH-" },
+    { "hi": "Water-soluble base = Alkali", "en": "Water-soluble base = Alkali" },
+    { "hi": "Phenolphthalein: acid colourless, base pink. Methyl orange: acid red, base yellow", "en": "Phenolphthalein: acid colourless, base pink. Methyl orange: acid red, base yellow" }
+  ],
+  "summary": {
+    "hi": "Acids khatte hote hain aur H+ ions dete hain, bases kadwe/slippery hote hain aur OH- ions dete hain — inhe pehchanne ke liye natural (litmus, turmeric) aur synthetic (phenolphthalein, methyl orange) indicators use hote hain.",
+    "en": "Acids are sour and release H+ ions, bases are bitter/slippery and release OH- ions — natural (litmus, turmeric) and synthetic (phenolphthalein, methyl orange) indicators are used to identify them."
+  },
+  "reward": {
+    "badge": null
+  }
+}

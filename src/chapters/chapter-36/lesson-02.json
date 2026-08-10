@@ -1,0 +1,196 @@
+{
+  "id": "chapter-36-lesson-02",
+  "chapterId": "chapter-36",
+  "order": 2,
+  "title": {
+    "hi": "Acids aur Bases ki Chemical Properties",
+    "en": "Chemical Properties of Acids and Bases"
+  },
+  "estimatedMinutes": 13,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "💨",
+    "headline": {
+      "hi": "Bubbles, Gas, aur Reactions",
+      "en": "Bubbles, Gas, and Reactions"
+    },
+    "subtext": {
+      "hi": "Jab acids metals ya carbonates se milte hain, to kya-kya hota hai — chalo dekhte hain.",
+      "en": "When acids meet metals or carbonates, what happens — let's find out."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek lab mein zinc granules ko dilute HCl mein daala jaata hai — turant bubbles bante hain aur gas nikalti hai. Wahi gas agar burning matchstick ke paas le jaayi jaaye, to 'pop' sound ke saath jal jaati hai. Ye hydrogen gas hai — acids aur reactive metals ki ek classic reaction.",
+      "en": "In a lab, zinc granules are added to dilute HCl — bubbles form immediately and a gas is released. If that gas is brought near a burning matchstick, it burns with a 'pop' sound. This is hydrogen gas — a classic reaction between acids and reactive metals."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Acid + Metal Reaction: Acids reactive metals (jaise Zn, Mg, Fe) ke saath react karke Salt aur Hydrogen gas banate hain. General equation: Acid + Metal → Salt + H2↑. Hydrogen gas ko burning matchstick se test kiya jaata hai — ye 'pop' sound ke saath burn karti hai.",
+        "en": "Acid + Metal Reaction: Acids react with reactive metals (like Zn, Mg, Fe) to form Salt and Hydrogen gas. General equation: Acid + Metal → Salt + H2↑. Hydrogen gas is tested with a burning matchstick — it burns with a 'pop' sound."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Zn(s) + 2HCl(aq) → ZnCl2(aq) + H2(g)↑\nNote: Metal jo hydrogen se kam reactive hai (jaise Copper), acid ke saath H2 gas nahi banata"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Acid + Metal Carbonate/Bicarbonate Reaction: Ye reaction Salt, Water, aur Carbon Dioxide gas banati hai. CO2 gas ko lime water (Ca(OH)2 solution) mein pass karke test kiya jaata hai — lime water milky ho jaata hai.",
+        "en": "Acid + Metal Carbonate/Bicarbonate Reaction: This reaction produces Salt, Water, and Carbon Dioxide gas. CO2 gas is tested by passing it through lime water (Ca(OH)2 solution) — the lime water turns milky."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Na2CO3(s) + 2HCl(aq) → 2NaCl(aq) + H2O(l) + CO2(g)↑\nNaHCO3(s) + HCl(aq) → NaCl(aq) + H2O(l) + CO2(g)↑\nTest: CO2 + Ca(OH)2 → CaCO3(milky white) + H2O"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Acid + Base Reaction (Neutralization): Jab acid aur base aapas mein react karte hain, to Salt aur Water banate hain, aur dono ki properties neutralize ho jaati hain. Isko detail mein agla topic cover karega.",
+        "en": "Acid + Base Reaction (Neutralization): When acid and base react with each other, they form Salt and Water, and both their properties get neutralized. This will be covered in more detail in the next topic."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "NaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Acid + Metal Oxide Reaction: Metal oxides basic nature ke hote hain (basic oxides), isliye ye acids ke saath react karke Salt aur Water banate hain — jaise base hi karti hai.",
+        "en": "Acid + Metal Oxide Reaction: Metal oxides are basic in nature (basic oxides), so they react with acids to form Salt and Water — just like a base would."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "CuO(s) + 2HCl(aq) → CuCl2(aq) + H2O(l)  [blue-green solution]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Base + Non-metal Oxide Reaction: Non-metal oxides acidic nature ke hote hain, isliye ye bases ke saath react karke Salt aur Water banate hain.",
+        "en": "Base + Non-metal Oxide Reaction: Non-metal oxides are acidic in nature, so they react with bases to form Salt and Water."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Ca(OH)2(aq) + CO2(g) → CaCO3(s) + H2O(l)"
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek gas 'X' ko lime water mein pass kiya jaata hai aur lime water milky ho jaata hai. Gas X kya hai? Uski test reaction likho.",
+        "en": "A gas 'X' is passed through lime water and the lime water turns milky. What is gas X? Write the test reaction."
+      },
+      "steps": [
+        {
+          "hi": "Lime water milky hone ka standard test CO2 gas ke liye hota hai.",
+          "en": "The lime water turning milky is the standard test for CO2 gas."
+        },
+        {
+          "hi": "Gas X = Carbon Dioxide (CO2)",
+          "en": "Gas X = Carbon Dioxide (CO2)"
+        },
+        {
+          "hi": "Test reaction: Ca(OH)2(aq) + CO2(g) → CaCO3(s)[milky] + H2O(l)",
+          "en": "Test reaction: Ca(OH)2(aq) + CO2(g) → CaCO3(s)[milky] + H2O(l)"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Dilute sulphuric acid mein Magnesium ribbon daalne par kya hota hai? Balanced equation aur observation likho.",
+        "en": "What happens when a magnesium ribbon is added to dilute sulphuric acid? Write the balanced equation and observation."
+      },
+      "steps": [
+        {
+          "hi": "Magnesium ek reactive metal hai, ye acid ke saath react karke salt aur hydrogen gas banayega.",
+          "en": "Magnesium is a reactive metal, it will react with the acid to form salt and hydrogen gas."
+        },
+        {
+          "hi": "Mg(s) + H2SO4(aq) → MgSO4(aq) + H2(g)↑",
+          "en": "Mg(s) + H2SO4(aq) → MgSO4(aq) + H2(g)↑"
+        },
+        {
+          "hi": "Observation: Magnesium ribbon dheere-dheere ghulega, bubbles (colourless gas) evolve hongi jo 'pop' sound ke saath burn karti hain.",
+          "en": "Observation: The magnesium ribbon will gradually dissolve, and bubbles (colourless gas) will evolve that burn with a 'pop' sound."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Acid + Metal Carbonate reaction mein kaunsi gas evolve hoti hai?",
+          "en": "Which gas is evolved in an Acid + Metal Carbonate reaction?"
+        },
+        "options": [
+          { "hi": "Hydrogen", "en": "Hydrogen" },
+          { "hi": "Oxygen", "en": "Oxygen" },
+          { "hi": "Carbon Dioxide", "en": "Carbon Dioxide" },
+          { "hi": "Nitrogen", "en": "Nitrogen" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Metal carbonates aur bicarbonates acids ke saath react karke CO2 gas evolve karte hain.",
+          "en": "Metal carbonates and bicarbonates react with acids to evolve CO2 gas."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Copper (Cu) dilute HCl ke saath react karke H2 gas kyun nahi banata?",
+          "en": "Why does copper (Cu) not produce H2 gas when reacted with dilute HCl?"
+        },
+        "options": [
+          { "hi": "Copper hydrogen se kam reactive hai", "en": "Copper is less reactive than hydrogen" },
+          { "hi": "Copper solid nahi hai", "en": "Copper is not a solid" },
+          { "hi": "HCl weak acid hai", "en": "HCl is a weak acid" },
+          { "hi": "Copper mein oxygen hoti hai", "en": "Copper contains oxygen" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Reactivity series mein Copper hydrogen se neeche aata hai, isliye ye dilute acids se H2 displace nahi kar sakta.",
+          "en": "Copper is below hydrogen in the reactivity series, so it cannot displace H2 from dilute acids."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Metal oxides acidic nature ke hote hain.",
+          "en": "Metal oxides are acidic in nature."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — Metal oxides basic nature ke hote hain (isliye ye acids ke saath react karte hain). Non-metal oxides acidic nature ke hote hain.",
+          "en": "False — Metal oxides are basic in nature (that's why they react with acids). Non-metal oxides are acidic in nature."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Acid + Metal → Salt + H2 (pop sound test)", "en": "Acid + Metal → Salt + H2 (pop sound test)" },
+    { "hi": "Acid + Carbonate/Bicarbonate → Salt + Water + CO2 (lime water milky)", "en": "Acid + Carbonate/Bicarbonate → Salt + Water + CO2 (lime water turns milky)" },
+    { "hi": "Acid + Base → Salt + Water (Neutralization)", "en": "Acid + Base → Salt + Water (Neutralization)" },
+    { "hi": "Metal oxide = basic; Non-metal oxide = acidic", "en": "Metal oxide = basic; Non-metal oxide = acidic" }
+  ],
+  "summary": {
+    "hi": "Acids metals se H2 gas, carbonates se CO2 gas, aur bases se salt-water (neutralization) banate hain — ye reactions gas tests ke saath board exam mein bahut common hain.",
+    "en": "Acids form H2 gas with metals, CO2 gas with carbonates, and salt-water with bases (neutralization) — these reactions along with gas tests are very common in board exams."
+  },
+  "reward": {
+    "badge": null
+  }
+}

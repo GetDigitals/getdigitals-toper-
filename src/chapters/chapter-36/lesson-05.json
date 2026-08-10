@@ -1,0 +1,202 @@
+{
+  "id": "chapter-36-lesson-05",
+  "chapterId": "chapter-36",
+  "order": 5,
+  "title": {
+    "hi": "Important Salts — Preparation aur Uses",
+    "en": "Important Salts — Preparation and Uses"
+  },
+  "estimatedMinutes": 14,
+  "xpReward": 55,
+  "coinReward": 15,
+  "hero": {
+    "emoji": "🏆",
+    "headline": {
+      "hi": "5 Salts Jo Har Ghar Mein Hain",
+      "en": "5 Salts Found in Every Home"
+    },
+    "subtext": {
+      "hi": "NaOH se lekar Plaster of Paris tak — inke banane ka tarika aur uses seekho, exam-ready ban jao.",
+      "en": "From NaOH to Plaster of Paris — learn how they're made and used, and get exam-ready."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Tumhare ghar mein baking soda cake fulaane ke kaam aata hai, washing soda kapde dhone mein, aur agar kabhi haath-pair ka fracture ho jaaye to doctor Plaster of Paris se cast banata hai. Ye sab chemistry ke roz-marra ke chamatkaar hain — inhi salts ko is lesson mein detail se seekhenge.",
+      "en": "Baking soda in your home helps cakes rise, washing soda helps wash clothes, and if you ever fracture a bone, the doctor makes a cast using Plaster of Paris. These are everyday miracles of chemistry — we'll learn about these salts in detail in this lesson."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "1) Sodium Hydroxide (NaOH) — Chlor-alkali Process: Jab common salt (NaCl) ke concentrated solution (brine) se electricity pass ki jaati hai, to ye 3 useful products deta hai: NaOH (cathode par), Cl2 gas (anode par), aur H2 gas (cathode par). Uses: Soap aur detergent banane mein, paper-making mein.",
+        "en": "1) Sodium Hydroxide (NaOH) — Chlor-alkali Process: When electricity is passed through a concentrated solution (brine) of common salt (NaCl), it gives 3 useful products: NaOH (at cathode), Cl2 gas (at anode), and H2 gas (at cathode). Uses: In making soap and detergents, in paper-making."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "2NaCl(aq) + 2H2O(l) →(electricity) 2NaOH(aq) + Cl2(g) + H2(g)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "2) Bleaching Powder — CaOCl2: Slaked lime (Ca(OH)2) par chlorine gas pass karke banaya jaata hai. Uses: Cloth industry mein cotton/linen ko bleach karne ke liye, water ko disinfect karne ke liye, aur chemical industry mein oxidizing agent ke roop mein.",
+        "en": "2) Bleaching Powder — CaOCl2: Made by passing chlorine gas over slaked lime (Ca(OH)2). Uses: For bleaching cotton/linen in the textile industry, for disinfecting water, and as an oxidizing agent in the chemical industry."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Ca(OH)2(s) + Cl2(g) → CaOCl2(s) + H2O(l)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "3) Baking Soda — Sodium Bicarbonate (NaHCO3): Sodium chloride, water, ammonia, aur CO2 se banaya jaata hai (Solvay process). Uses: Baking mein (heat karne par CO2 release karta hai jisse cake/bread fulti hai), antacid ke roop mein (stomach acidity), aur fire extinguishers mein (soda-acid type).",
+        "en": "3) Baking Soda — Sodium Bicarbonate (NaHCO3): Made from sodium chloride, water, ammonia, and CO2 (Solvay process). Uses: In baking (releases CO2 on heating, making cake/bread rise), as an antacid (stomach acidity), and in fire extinguishers (soda-acid type)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "NaCl + H2O + CO2 + NH3 → NaHCO3 + NH4Cl\nHeating: 2NaHCO3 →(heat) Na2CO3 + H2O + CO2"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "4) Washing Soda — Sodium Carbonate (Na2CO3.10H2O): Baking soda ko recrystallize karke banaya jaata hai. Uses: Kapde/glass/soap dhone mein cleaning agent ke roop mein, glass, soap, aur paper industry mein raw material ke roop mein, water ki hardness (temporary aur permanent) door karne mein.",
+        "en": "4) Washing Soda — Sodium Carbonate (Na2CO3.10H2O): Made by recrystallizing baking soda. Uses: As a cleaning agent for washing clothes/glass/soap, as a raw material in the glass, soap, and paper industries, for removing water hardness (temporary and permanent)."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "Na2CO3(s) + 10H2O(l) → Na2CO3.10H2O(s)"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "5) Plaster of Paris — CaSO4.½H2O: Gypsum (CaSO4.2H2O) ko 373K (100°C) tak heat karke banaya jaata hai. Isko airtight container mein rakhna padta hai kyunki ye moisture absorb karke wapas gypsum ban jaata hai. Uses: Fractures ke liye cast banane mein, statues aur toys banane mein, surfaces ko smooth karne mein.",
+        "en": "5) Plaster of Paris — CaSO4.½H2O: Made by heating gypsum (CaSO4.2H2O) to 373K (100°C). It must be stored in an airtight container because it absorbs moisture and reverts back to gypsum. Uses: For making casts for fractures, for making statues and toys, for smoothing surfaces."
+      }
+    },
+    {
+      "type": "formula",
+      "content": "CaSO4.2H2O(s) →(373K) CaSO4.½H2O(s) + 1½H2O\n[Gypsum]                    [Plaster of Paris]"
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Water of Crystallization: Ye fixed number of water molecules hain jo kisi salt ke crystal structure ka hissa hote hain — jaise CuSO4.5H2O (blue vitriol/copper sulphate mein 5 water molecules), Na2CO3.10H2O (washing soda mein 10 water molecules), CaSO4.2H2O (gypsum mein 2 water molecules).",
+        "en": "Water of Crystallization: A fixed number of water molecules that form part of a salt's crystal structure — like CuSO4.5H2O (5 water molecules in copper sulphate/blue vitriol), Na2CO3.10H2O (10 water molecules in washing soda), CaSO4.2H2O (2 water molecules in gypsum)."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "Ek doctor ne patient ke fracture wale haath par Plaster of Paris ka cast banaya. (a) Iske banane ka reaction likho. (b) Isko airtight kyun rakhna padta hai?",
+        "en": "A doctor made a Plaster of Paris cast on a patient's fractured arm. (a) Write the reaction for how it's made. (b) Why must it be stored airtight?"
+      },
+      "steps": [
+        {
+          "hi": "(a) CaSO4.2H2O(s) →(373K) CaSO4.½H2O(s) + 1½H2O — gypsum ko heat karke banta hai.",
+          "en": "(a) CaSO4.2H2O(s) →(373K) CaSO4.½H2O(s) + 1½H2O — made by heating gypsum."
+        },
+        {
+          "hi": "(b) Plaster of Paris moisture (hawa ki nami) ko easily absorb kar leta hai aur wapas se gypsum ban jaata hai, jisse ye apni useful (setting) property kho deta hai. Isliye airtight container mein rakha jaata hai.",
+          "en": "(b) Plaster of Paris easily absorbs moisture (from the air) and reverts back to gypsum, losing its useful (setting) property. So it is stored in an airtight container."
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Baking soda ko heat karne par kya hota hai, aur wahi product antacid ke roop mein kaise kaam karta hai?",
+        "en": "What happens when baking soda is heated, and how does the same product act as an antacid?"
+      },
+      "steps": [
+        {
+          "hi": "2NaHCO3 →(heat) Na2CO3 + H2O + CO2 — heat karne par sodium carbonate, water, aur CO2 gas mein decompose ho jaata hai (isliye cake/bread fulta hai).",
+          "en": "2NaHCO3 →(heat) Na2CO3 + H2O + CO2 — on heating, it decomposes into sodium carbonate, water, and CO2 gas (this is why cake/bread rises)."
+        },
+        {
+          "hi": "Antacid ke roop mein NaHCO3 (heat kiye bina) directly stomach ke excess HCl ke saath react karta hai: NaHCO3 + HCl → NaCl + H2O + CO2 — extra acid neutralize ho jaata hai.",
+          "en": "As an antacid, NaHCO3 (without heating) directly reacts with the excess stomach HCl: NaHCO3 + HCl → NaCl + H2O + CO2 — neutralizing the excess acid."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Bleaching powder banane ke liye chlorine gas kis par pass ki jaati hai?",
+          "en": "Chlorine gas is passed over what to make bleaching powder?"
+        },
+        "options": [
+          { "hi": "Quicklime (CaO)", "en": "Quicklime (CaO)" },
+          { "hi": "Slaked lime (Ca(OH)2)", "en": "Slaked lime (Ca(OH)2)" },
+          { "hi": "Gypsum", "en": "Gypsum" },
+          { "hi": "Baking soda", "en": "Baking soda" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Slaked lime (Ca(OH)2) par chlorine gas pass karke bleaching powder (CaOCl2) banta hai.",
+          "en": "Bleaching powder (CaOCl2) is made by passing chlorine gas over slaked lime (Ca(OH)2)."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Washing soda (Na2CO3.10H2O) mein 'water of crystallization' ke kitne molecules hote hain?",
+          "en": "How many molecules of 'water of crystallization' are present in washing soda (Na2CO3.10H2O)?"
+        },
+        "options": [
+          { "hi": "2", "en": "2" },
+          { "hi": "5", "en": "5" },
+          { "hi": "10", "en": "10" },
+          { "hi": "1", "en": "1" }
+        ],
+        "correct": 2,
+        "explanation": {
+          "hi": "Formula Na2CO3.10H2O khud batata hai ki 10 water molecules crystal structure ka hissa hain.",
+          "en": "The formula Na2CO3.10H2O itself indicates 10 water molecules are part of the crystal structure."
+        }
+      },
+      {
+        "type": "dragdrop",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Blanks fill karo: Chlor-alkali process mein brine se electricity pass karne par ___, Cl2, aur ___ bante hain.",
+          "en": "Fill the blanks: In the chlor-alkali process, passing electricity through brine produces ___, Cl2, and ___."
+        },
+        "sentenceParts": [
+          { "hi": "Chlor-alkali process mein ", "en": "The chlor-alkali process produces " },
+          { "hi": ", Cl2, aur ", "en": ", Cl2, and " },
+          { "hi": " bante hain.", "en": "." }
+        ],
+        "blanks": ["NaOH", "H2"],
+        "tokens": ["NaOH", "H2", "CaCO3", "HCl"],
+        "explanation": {
+          "hi": "2NaCl + 2H2O →(electricity) 2NaOH + Cl2 + H2 — teeno useful products bante hain.",
+          "en": "2NaCl + 2H2O →(electricity) 2NaOH + Cl2 + H2 — all three useful products are formed."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "NaOH: Chlor-alkali process se; soap/detergent mein use", "en": "NaOH: from chlor-alkali process; used in soap/detergent" },
+    { "hi": "Bleaching powder (CaOCl2): slaked lime + Cl2; bleaching/disinfecting", "en": "Bleaching powder (CaOCl2): slaked lime + Cl2; bleaching/disinfecting" },
+    { "hi": "Baking soda (NaHCO3): antacid, baking, fire extinguisher", "en": "Baking soda (NaHCO3): antacid, baking, fire extinguisher" },
+    { "hi": "Washing soda (Na2CO3.10H2O): cleaning, glass/soap industry, hardness removal", "en": "Washing soda (Na2CO3.10H2O): cleaning, glass/soap industry, hardness removal" },
+    { "hi": "Plaster of Paris (CaSO4.½H2O): gypsum se banti hai; casts, statues; airtight store karo", "en": "Plaster of Paris (CaSO4.½H2O): made from gypsum; casts, statues; store airtight" }
+  ],
+  "summary": {
+    "hi": "5 important salts — NaOH, bleaching powder, baking soda, washing soda, aur Plaster of Paris — sabki apni preparation method aur daily-life uses hain, aur ye board exam mein regularly puchhe jaate hain.",
+    "en": "5 important salts — NaOH, bleaching powder, baking soda, washing soda, and Plaster of Paris — each has its own preparation method and daily-life uses, and these are regularly asked in board exams."
+  },
+  "reward": {
+    "badge": null
+  }
+}
