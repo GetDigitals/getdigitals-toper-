@@ -1,0 +1,183 @@
+{
+  "id": "chapter-48-lesson-04",
+  "chapterId": "chapter-48",
+  "order": 4,
+  "title": {
+    "hi": "Nation Ko Visualise Karna Aur Nationalism-Imperialism",
+    "en": "Visualising the Nation, and Nationalism & Imperialism"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "🗺️",
+    "headline": {
+      "hi": "Ek 'Nation' Ko Kaise Dikhaya Jaaye?",
+      "en": "How Do You Show a 'Nation'?"
+    },
+    "subtext": {
+      "hi": "Aur kaise nationalism hi aage chal ke WWI ki wajah ban gayi",
+      "en": "And how nationalism itself became a cause of World War I"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Ek 'nation' toh koi insaan nahi hai jise dekha ja sake — toh artists ne isse dikhane ke liye female figures (allegories) banayi. Lekin jaise-jaise 19th century aage badhi, yehi nationalism ek positive unifying force se badalkar ek dangerous, aggressive imperial rivalry mein badal gayi — jisne aakhir mein World War I ko trigger kiya.",
+      "en": "A 'nation' isn't a person you can see — so artists represented it using female figures (allegories). But as the 19th century progressed, this same nationalism transformed from a positive unifying force into a dangerous, aggressive imperial rivalry — which eventually triggered World War I."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Visualising the Nation: Artists ne 18th-19th century mein nations ko female figures ke roop mein personify kiya — France ke liye 'Marianne' aur Germany ke liye 'Germania'. Marianne ko red cap (liberty cap), tricolour, aur cockade ke saath dikhaya jata tha; Germania ko oak leaves ke crown (heroism ke liye) aur sword ke saath. Yeh statues, coins, aur stamps pe use hote the taaki abstract 'nation' ko ek concrete, emotional identity mil sake.",
+        "en": "Visualising the Nation: Artists in the 18th-19th centuries personified nations as female figures — 'Marianne' for France and 'Germania' for Germany. Marianne was shown with a red liberty cap, tricolour, and cockade; Germania with a crown of oak leaves (symbolizing heroism) and a sword. These figures appeared on statues, coins, and stamps, giving the abstract idea of a 'nation' a concrete, emotional identity."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Nationalism Aur Imperialism: 1871 ke baad (jab Germany aur Italy unite ho gaye), nationalism 'liberal, unifying' force se badalkar ek 'narrow, aggressive' ideology bann gaya jo apne nation ko doosron se superior maanne laga. European powers ne Balkans (South-Eastern Europe, jisme Bosnia, Serbia, Bulgaria, Romania, Montenegro the) mein apna influence badhane ki competition shuru ki, kyunki Balkan region strategically important tha (Ottoman Empire ka decline ho raha tha).",
+        "en": "Nationalism and Imperialism: After 1871 (when Germany and Italy were unified), nationalism transformed from a 'liberal, unifying' force into a 'narrow, aggressive' ideology that saw one's own nation as superior to others. European powers competed to expand their influence in the Balkans (South-Eastern Europe, including Bosnia, Serbia, Bulgaria, Romania, Montenegro), a strategically important region as the declining Ottoman Empire lost control there."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Balkan region mein alag-alag Slavic communities ne apni-apni independent nationalist identities claim ki, jisse 'intense rivalry' shuru hui — har group doosron pe dominate karna chahta tha. Isi ke saath, badi European powers (Russia, Germany, England, Austro-Hungary) bhi apne territorial aur imperial interests ke liye Balkans mein involve ho gayi — alliances banayi, military build-up kiya.",
+        "en": "In the Balkan region, various Slavic communities claimed their own independent nationalist identities, sparking intense rivalry — each group wanted to dominate the others. Alongside this, major European powers (Russia, Germany, England, Austro-Hungary) also got involved in the Balkans for their own territorial and imperial interests — forming alliances and building up their militaries."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "In tensions ki wajah se ek series of wars hui Balkan region mein, aur aakhirkar 1914 mein Austrian Archduke Franz Ferdinand ki hatya (Sarajevo mein, ek Serbian nationalist ke haath) World War I ka immediate trigger ban gayi. Isse yeh clear hota hai ki nationalism, jo kabhi liberation aur unity ka symbol thi, aage chalke competitive imperialism aur war ka reason ban gayi.",
+        "en": "These tensions led to a series of wars in the Balkan region, and eventually, the assassination of Austrian Archduke Franz Ferdinand in Sarajevo in 1914 (by a Serbian nationalist) became the immediate trigger for World War I. This shows how nationalism, once a symbol of liberation and unity, eventually became a cause of competitive imperialism and war."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "💣 Case Study: Balkan Crisis Aur World War I",
+        "en": "💣 Case Study: The Balkan Crisis and World War I"
+      },
+      "steps": [
+        {
+          "hi": "Ottoman Empire kamzor ho raha tha, Balkans mein Slavic nationalist movements badh rahe the.",
+          "en": "The Ottoman Empire was weakening; Slavic nationalist movements were growing in the Balkans."
+        },
+        {
+          "hi": "European powers (Russia, Austro-Hungary, Germany, England) ne apne-apne interests ke liye Balkans mein involve hona shuru kiya.",
+          "en": "European powers (Russia, Austro-Hungary, Germany, England) began getting involved in the Balkans for their own interests."
+        },
+        {
+          "hi": "1914: Sarajevo mein Archduke Franz Ferdinand ki hatya ek Serbian nationalist ne ki.",
+          "en": "1914: Archduke Franz Ferdinand was assassinated in Sarajevo by a Serbian nationalist."
+        },
+        {
+          "hi": "Result: Alliances ki wajah se yeh ek local incident poore Europe ki World War I mein badal gaya.",
+          "en": "Result: Due to entangled alliances, this local incident escalated into all of Europe's World War I."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "France ko represent karne wali female figure ka naam kya tha?",
+          "en": "What was the name of the female figure representing France?"
+        },
+        "options": [
+          { "hi": "Marianne", "en": "Marianne" },
+          { "hi": "Germania", "en": "Germania" },
+          { "hi": "Britannia", "en": "Britannia" },
+          { "hi": "Athena", "en": "Athena" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "France ko 'Marianne' ke roop mein personify kiya jata tha — red cap, tricolour aur cockade ke saath.",
+          "en": "France was personified as 'Marianne' — shown with a red cap, tricolour, and cockade."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "World War I ka immediate trigger kya tha?",
+          "en": "What was the immediate trigger for World War I?"
+        },
+        "options": [
+          { "hi": "Archduke Franz Ferdinand ki hatya", "en": "Assassination of Archduke Franz Ferdinand" },
+          { "hi": "Germany ka unification", "en": "Unification of Germany" },
+          { "hi": "French Revolution", "en": "The French Revolution" },
+          { "hi": "Napoleonic Code", "en": "The Napoleonic Code" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "1914 mein Sarajevo mein Archduke Franz Ferdinand ki hatya se World War I trigger hui.",
+          "en": "The assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered World War I."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "1871 ke baad nationalism hamesha ek liberal, unifying force hi rahi.",
+          "en": "After 1871, nationalism always remained a liberal, unifying force."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — 1871 ke baad nationalism 'narrow, aggressive' imperial ideology mein badal gayi, jisse Balkan crisis aur WWI hui.",
+          "en": "False — after 1871, nationalism turned into a 'narrow, aggressive' imperial ideology, leading to the Balkan crisis and WWI."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Balkan region European powers ke liye kyun important tha?",
+          "en": "Why was the Balkan region important to the European powers?"
+        },
+        "options": [
+          { "hi": "Ottoman Empire kamzor ho raha tha, isliye strategically important tha", "en": "The declining Ottoman Empire made it strategically important" },
+          { "hi": "Yaha industries thi", "en": "It had industries" },
+          { "hi": "Yaha art museums the", "en": "It had art museums" },
+          { "hi": "Koi importance nahi thi", "en": "It held no importance" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Ottoman Empire ke decline se Balkans strategically important ho gaya tha, isliye European powers apna influence badhane laga.",
+          "en": "The declining Ottoman Empire made the Balkans strategically important, prompting European powers to expand their influence there."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Marianne = France, Germania = Germany — female allegorical figures",
+      "en": "Marianne = France, Germania = Germany — female allegorical figures"
+    },
+    {
+      "hi": "1871 ke baad nationalism 'aggressive imperialism' mein badal gaya",
+      "en": "After 1871, nationalism turned into 'aggressive imperialism'"
+    },
+    {
+      "hi": "Balkans mein Slavic communities aur European powers dono involve the",
+      "en": "Both Slavic communities and European powers were involved in the Balkans"
+    },
+    {
+      "hi": "1914: Franz Ferdinand ki hatya = WWI ka immediate trigger",
+      "en": "1914: Assassination of Franz Ferdinand = immediate trigger for WWI"
+    }
+  ],
+  "summary": {
+    "hi": "Nationalism ko artists ne female allegorical figures se visualize kiya, lekin waqt ke saath yeh idea ek dangerous, competitive imperialism mein badal gaya — jisne Balkans mein tension badhaya aur aakhirkar World War I ka trigger bana.",
+    "en": "Artists visualised nationalism through female allegorical figures, but over time this idea turned into a dangerous, competitive imperialism — heightening tensions in the Balkans and eventually triggering World War I."
+  },
+  "reward": {
+    "badge": null
+  }
+}
