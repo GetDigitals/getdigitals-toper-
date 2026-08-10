@@ -1,0 +1,56 @@
+{
+  "chapterId": "chapter-48",
+  "flashcards": [
+    { "front": { "hi": "French Revolution", "en": "French Revolution" }, "back": { "hi": "1789 — 'nation' aur 'citizen' ka idea diya", "en": "1789 — gave the idea of 'nation' and 'citizen'" } },
+    { "front": { "hi": "Napoleonic Code", "en": "Napoleonic Code" }, "back": { "hi": "1804 — feudal system khatam, equality before law", "en": "1804 — abolished feudalism, equality before law" } },
+    { "front": { "hi": "Zollverein", "en": "Zollverein" }, "back": { "hi": "1834 — German states ka customs union", "en": "1834 — customs union of German states" } },
+    { "front": { "hi": "Greek Independence", "en": "Greek Independence" }, "back": { "hi": "1832 — Ottoman Empire se azad", "en": "1832 — freed from the Ottoman Empire" } },
+    { "front": { "hi": "Frankfurt Parliament", "en": "Frankfurt Parliament" }, "back": { "hi": "1848 — fail hua, king ne crown accept nahi ki", "en": "1848 — failed, king refused the crown" } },
+    { "front": { "hi": "Bismarck's Policy", "en": "Bismarck's Policy" }, "back": { "hi": "'Blood and Iron' — 3 wars se Germany unite kiya", "en": "'Blood and Iron' — united Germany through 3 wars" } },
+    { "front": { "hi": "German Unification", "en": "German Unification" }, "back": { "hi": "1871 — Kaiser Wilhelm I emperor bane", "en": "1871 — Kaiser Wilhelm I became emperor" } },
+    { "front": { "hi": "Italian Unification", "en": "Italian Unification" }, "back": { "hi": "1861 — Victor Emmanuel II king bane (Cavour + Garibaldi)", "en": "1861 — Victor Emmanuel II became king (Cavour + Garibaldi)" } },
+    { "front": { "hi": "Marianne / Germania", "en": "Marianne / Germania" }, "back": { "hi": "France aur Germany ki allegorical female figures", "en": "Allegorical female figures for France and Germany" } },
+    { "front": { "hi": "WWI Trigger", "en": "WWI Trigger" }, "back": { "hi": "1914 — Franz Ferdinand ki hatya, Sarajevo", "en": "1914 — assassination of Franz Ferdinand, Sarajevo" } }
+  ],
+  "formulaSheet": [],
+  "mindMap": {
+    "root": { "hi": "Rise of Nationalism in Europe", "en": "Rise of Nationalism in Europe" },
+    "branches": [
+      {
+        "label": { "hi": "French Revolution", "en": "French Revolution" },
+        "children": [
+          { "hi": "1789 — nation aur citizen ka idea", "en": "1789 — idea of nation and citizen" },
+          { "hi": "Napoleonic Code (1804)", "en": "Napoleonic Code (1804)" }
+        ]
+      },
+      {
+        "label": { "hi": "Age of Revolutions", "en": "Age of Revolutions" },
+        "children": [
+          { "hi": "1830 — Greece independent", "en": "1830 — Greece independent" },
+          { "hi": "1848 — Frankfurt Parliament fail", "en": "1848 — Frankfurt Parliament failed" }
+        ]
+      },
+      {
+        "label": { "hi": "Unification", "en": "Unification" },
+        "children": [
+          { "hi": "Germany — Bismarck (1871)", "en": "Germany — Bismarck (1871)" },
+          { "hi": "Italy — Cavour + Garibaldi (1861)", "en": "Italy — Cavour + Garibaldi (1861)" }
+        ]
+      },
+      {
+        "label": { "hi": "Nationalism to Imperialism", "en": "Nationalism to Imperialism" },
+        "children": [
+          { "hi": "Marianne, Germania (allegories)", "en": "Marianne, Germania (allegories)" },
+          { "hi": "Balkan crisis → WWI (1914)", "en": "Balkan crisis → WWI (1914)" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "French Revolution kab hui?", "en": "When did the French Revolution happen?" }, "explanation": { "hi": "1789", "en": "1789" } },
+    { "question": { "hi": "Napoleonic Code kis saal aayi?", "en": "In which year was the Napoleonic Code introduced?" }, "explanation": { "hi": "1804", "en": "1804" } },
+    { "question": { "hi": "Germany kab unite hua?", "en": "When was Germany unified?" }, "explanation": { "hi": "1871", "en": "1871" } },
+    { "question": { "hi": "Italy kab unite hua?", "en": "When was Italy unified?" }, "explanation": { "hi": "1861", "en": "1861" } },
+    { "question": { "hi": "WWI ka trigger kya tha?", "en": "What triggered WWI?" }, "explanation": { "hi": "Franz Ferdinand ki hatya, 1914", "en": "Assassination of Franz Ferdinand, 1914" } }
+  ]
+}
