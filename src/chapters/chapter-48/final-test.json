@@ -1,0 +1,169 @@
+{
+  "chapterId": "chapter-48",
+  "totalMarks": 20,
+  "timerSecondsPerQuestion": 45,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "French Revolution kis saal shuru hua?",
+        "en": "In which year did the French Revolution begin?"
+      },
+      "options": [
+        { "hi": "1789", "en": "1789" },
+        { "hi": "1804", "en": "1804" },
+        { "hi": "1848", "en": "1848" },
+        { "hi": "1871", "en": "1871" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "French Revolution 1789 mein shuru hui.",
+        "en": "The French Revolution began in 1789."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Napoleonic Code ne feudal privileges ko bachaya.",
+        "en": "The Napoleonic Code preserved feudal privileges."
+      },
+      "correct": false,
+      "explanation": {
+        "hi": "Galat — Napoleonic Code ne feudal privileges khatam kiye aur equality before law di.",
+        "en": "False — the Napoleonic Code abolished feudal privileges and introduced equality before the law."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Greece ne kis saal independence hasil ki?",
+        "en": "In which year did Greece gain independence?"
+      },
+      "options": [
+        { "hi": "1821", "en": "1821" },
+        { "hi": "1832", "en": "1832" },
+        { "hi": "1848", "en": "1848" },
+        { "hi": "1871", "en": "1871" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Greece ne 1832 mein Ottoman Empire se independence hasil ki.",
+        "en": "Greece gained independence from the Ottoman Empire in 1832."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Romanticism ne kis cheez pe focus kiya?",
+        "en": "What did Romanticism focus on?"
+      },
+      "options": [
+        { "hi": "Reason aur science", "en": "Reason and science" },
+        { "hi": "Feelings, intuition aur culture", "en": "Feelings, intuition, and culture" },
+        { "hi": "Military strategy", "en": "Military strategy" },
+        { "hi": "Economics", "en": "Economics" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Romanticism ne feelings, intuition, aur culture ke through nationhood ki feeling jagayi.",
+        "en": "Romanticism awakened a sense of nationhood through feelings, intuition, and culture."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Bismarck ki policy ka naam kya tha?",
+        "en": "What was the name of Bismarck's policy?"
+      },
+      "options": [
+        { "hi": "Blood and Iron", "en": "Blood and Iron" },
+        { "hi": "Liberty and Equality", "en": "Liberty and Equality" },
+        { "hi": "Peace and Diplomacy", "en": "Peace and Diplomacy" },
+        { "hi": "Unity and Trust", "en": "Unity and Trust" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Bismarck ne 'Blood and Iron' policy se army aur war ke through Germany ko unite kiya.",
+        "en": "Bismarck used the 'Blood and Iron' policy, uniting Germany through the army and war."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "Kaiser Wilhelm I 1871 mein unified German Empire ka emperor bana.",
+        "en": "Kaiser Wilhelm I became emperor of the unified German Empire in 1871."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi — Versailles ke Hall of Mirrors mein Kaiser Wilhelm I ko emperor declare kiya gaya.",
+        "en": "True — Kaiser Wilhelm I was declared emperor at the Hall of Mirrors in Versailles."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Giuseppe Garibaldi ki army ka naam kya tha?",
+        "en": "What was the name of Giuseppe Garibaldi's army?"
+      },
+      "options": [
+        { "hi": "Red Shirts", "en": "Red Shirts" },
+        { "hi": "Blue Coats", "en": "Blue Coats" },
+        { "hi": "Green Guards", "en": "Green Guards" },
+        { "hi": "Young Italy", "en": "Young Italy" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Garibaldi ne apni 'Red Shirts' army se South Italy aur Sicily conquer kiye.",
+        "en": "Garibaldi conquered Southern Italy and Sicily with his 'Red Shirts' army."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "Marianne kis nation ki allegorical figure thi?",
+        "en": "Marianne was the allegorical figure for which nation?"
+      },
+      "options": [
+        { "hi": "France", "en": "France" },
+        { "hi": "Germany", "en": "Germany" },
+        { "hi": "Italy", "en": "Italy" },
+        { "hi": "Greece", "en": "Greece" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Marianne France ki allegorical figure thi — red cap, tricolour aur cockade ke saath.",
+        "en": "Marianne was the allegorical figure for France — shown with a red cap, tricolour, and cockade."
+      }
+    },
+    {
+      "type": "truefalse",
+      "question": {
+        "hi": "World War I ka trigger Archduke Franz Ferdinand ki hatya thi.",
+        "en": "World War I was triggered by the assassination of Archduke Franz Ferdinand."
+      },
+      "correct": true,
+      "explanation": {
+        "hi": "Sahi — 1914 mein Sarajevo mein unki hatya se WWI trigger hui.",
+        "en": "True — his assassination in Sarajevo in 1914 triggered WWI."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": {
+        "hi": "1861 mein unified Italy ka pehla king kaun bana?",
+        "en": "Who became the first king of unified Italy in 1861?"
+      },
+      "options": [
+        { "hi": "Victor Emmanuel II", "en": "Victor Emmanuel II" },
+        { "hi": "Garibaldi", "en": "Garibaldi" },
+        { "hi": "Mazzini", "en": "Mazzini" },
+        { "hi": "Cavour", "en": "Cavour" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Victor Emmanuel II ko 1861 mein unified Italy ka king declare kiya gaya.",
+        "en": "Victor Emmanuel II was declared king of unified Italy in 1861."
+      }
+    }
+  ]
+}
