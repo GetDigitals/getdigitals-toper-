@@ -37,6 +37,7 @@ export default function Practice() {
   }, [lessons, lang]);
 
   function startSession() {
+    if (pool.length === 0) return; // nothing to practice yet — button is hidden below anyway, this is just a safety net
     const filtered = pool.filter((q) => q.difficulty === level);
     const chosen = shuffle(filtered.length ? filtered : pool).slice(0, 8);
     setSession(chosen);
@@ -55,7 +56,9 @@ export default function Practice() {
       <h1 className="font-display font-bold text-2xl mb-1">Practice</h1>
       <p className="text-[13px] text-[var(--color-muted)] mb-5">{chapter.title} · unlimited questions, shuffled every time.</p>
 
-      {!session ? (
+      {pool.length === 0 ? (
+        <p className="text-[13px] text-[var(--color-muted)] text-center py-10">Is chapter ke liye practice questions abhi authored nahi hue.</p>
+      ) : !session ? (
         <>
           <p className="text-[13px] font-medium mb-2">Choose difficulty</p>
           <div className="flex gap-2 mb-6">
