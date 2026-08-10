@@ -1,15 +1,26 @@
 import { NavLink } from 'react-router-dom';
 import { useSound } from '../hooks/useSound';
-
-const items = [
-  { to: '/home', label: 'Home', icon: '🏠' },
-  { to: '/chapters', label: 'Chapters', icon: '📘' },
-  { to: '/dashboard', label: 'Progress', icon: '📊' },
-  { to: '/settings', label: 'Settings', icon: '⚙️' },
-];
+import { useProgress } from '../store/ProgressContext';
+import { DEFAULT_SUBJECT_SLUG } from '../config/subjects';
 
 export default function BottomNav() {
   const { play } = useSound();
+  // The bottom nav's "Chapters" tab must follow whichever subject the
+  // student actually picked (settings.activeSubject) — it was previously
+  // a static '/chapters' link, which always redirects to Maths regardless
+  // of what's showing on Home, so a student on Science would tap
+  // "Chapters" and land on Maths instead. Falls back to the default
+  // subject only before activeSubject has been picked/hydrated.
+  const { settings } = useProgress();
+  const chaptersHref = `/chapters/${settings.activeSubject || DEFAULT_SUBJECT_SLUG}`;
+
+  const items = [
+    { to: '/home', label: 'Home', icon: '🏠' },
+    { to: chaptersHref, label: 'Chapters', icon: '📘' },
+    { to: '/dashboard', label: 'Progress', icon: '📊' },
+    { to: '/settings', label: 'Settings', icon: '⚙️' },
+  ];
+
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-40 bg-[var(--color-surface)]/95 backdrop-blur-md border-t border-[var(--color-border)] pb-[env(safe-area-inset-bottom)]">
       <div className="flex justify-around items-center h-16 max-w-md mx-auto">

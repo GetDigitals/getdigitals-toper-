@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getChapterById } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { slugifySubjectName } from '../config/subjects';
 import { BrandBadge } from '../components/GetDigitalsBrand';
 
 export default function Certificate() {
@@ -56,7 +57,7 @@ export default function Certificate() {
         </div>
       </motion.div>
       <p className="text-[11px] text-[var(--color-muted)] mt-4 text-center">Screenshot lekar apne parents ko dikhao! 📸</p>
-      <button onClick={() => navigate('/chapters')} className="w-full mt-6 py-3.5 rounded-xl bg-[var(--color-saffron)] font-semibold shadow-[var(--shadow-glow-saffron)]">
+      <button onClick={() => navigate(`/chapters/${slugifySubjectName(chapter.subject)}`)} className="w-full mt-6 py-3.5 rounded-xl bg-[var(--color-saffron)] font-semibold shadow-[var(--shadow-glow-saffron)]">
         Continue to Next Chapter
       </button>
     </div>

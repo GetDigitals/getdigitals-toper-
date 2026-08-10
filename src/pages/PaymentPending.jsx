@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../store/AuthContext';
+import { useProgress } from '../store/ProgressContext';
+import { DEFAULT_SUBJECT_SLUG } from '../config/subjects';
 
 /**
  * Shown when a logged-in student taps something that needs payment —
@@ -18,7 +20,10 @@ export default function PaymentPending() {
   const { user, logout, isApproved, profileError, profileLoading } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
-  const returnTo = location.state?.from || '/chapters';
+  const { settings } = useProgress();
+  // Falls back to the student's own active subject (not always Maths) if
+  // we don't know exactly where they came from.
+  const returnTo = location.state?.from || `/chapters/${settings.activeSubject || DEFAULT_SUBJECT_SLUG}`;
 
   useEffect(() => {
     if (isApproved) navigate(returnTo, { replace: true });
@@ -57,7 +62,7 @@ export default function PaymentPending() {
         <button onClick={() => window.location.reload()} className="w-full py-2 text-[13px] text-[var(--color-muted)] underline">
           Status dobara check karo
         </button>
-        <button onClick={() => navigate('/chapters')} className="w-full py-2 text-[13px] text-[var(--color-muted)] underline">
+        <button onClick={() => navigate(`/chapters/${settings.activeSubject || DEFAULT_SUBJECT_SLUG}`)} className="w-full py-2 text-[13px] text-[var(--color-muted)] underline">
           Chapter 1 free hai — wahin se shuru karo
         </button>
         <button onClick={logout} className="w-full py-2 text-[13px] text-[var(--color-muted)]">
