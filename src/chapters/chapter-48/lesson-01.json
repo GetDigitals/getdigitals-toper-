@@ -1,0 +1,183 @@
+{
+  "id": "chapter-48-lesson-01",
+  "chapterId": "chapter-48",
+  "order": 1,
+  "title": {
+    "hi": "French Revolution Aur Nation Ka Idea",
+    "en": "The French Revolution and the Idea of the Nation"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "🇫🇷",
+    "headline": {
+      "hi": "Jab Praja Pehli Baar 'Nation' Bani",
+      "en": "When Subjects First Became a 'Nation'"
+    },
+    "subtext": {
+      "hi": "1789 se pehle koi 'French nation' nahi thi — sirf ek raja aur uski praja thi",
+      "en": "Before 1789, there was no 'French nation' — only a king and his subjects"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "1789 se pehle France mein log khud ko 'nation' nahi, balki raja ki praja samajhte the. Phir French Revolution aaya — aur pehli baar logon ne socha: 'Hum sab milkar ek nation hain, aur power raja ki nahi, hamari hai.' Yeh idea itna powerful tha ki isne poore Europe ko badal diya.",
+      "en": "Before 1789, people in France thought of themselves as a king's subjects, not a 'nation'. Then came the French Revolution — and for the first time, people thought: 'We, together, ARE a nation, and power belongs to us, not the king.' This idea was so powerful it transformed all of Europe."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Nationalism kya hai? Yeh ek feeling hai ki log khud ko ek 'nation' ke roop mein dekhte hain — common history, culture, aur territory ke aadhar par ek collective identity. 19th century se pehle Europe mein 'nation-states' (jahan territory aur political system match karte hain) exist hi nahi karte the — sirf empires the (Austria-Hungary, Ottoman, Russia) jisme kayi alag-alag communities ek hi raja ke under rehti thi.",
+        "en": "What is Nationalism? It is the feeling that people see themselves as one 'nation' — a collective identity based on shared history, culture, and territory. Before the 19th century, 'nation-states' (where territory and political system match) barely existed in Europe — there were only empires (Austria-Hungary, Ottoman, Russia) where many different communities lived under one ruler."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "French Revolution (1789) ne pehli baar 'nation' ka idea diya. Revolutionaries ne 'La Patrie' (fatherland) aur 'Le Citoyen' (citizen) jaise naye words use kiye — jinka matlab tha ki ab power ek raja ki nahi, poori French 'nation' ki collective body ki thi. Ek naya tricolour flag chuna gaya, Estates General ko 'National Assembly' rename kiya gaya, aur naye anthems aur oaths banaye gaye — sab kuch 'collective identity' create karne ke liye.",
+        "en": "The French Revolution (1789) gave Europe its first real idea of a 'nation'. Revolutionaries used new terms like 'La Patrie' (fatherland) and 'Le Citoyen' (citizen), meaning power now belonged to the collective body of French citizens, not a king. A new tricolour flag was chosen, the Estates General was renamed the 'National Assembly', and new anthems and oaths were created — all to build a collective identity."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Napoleon ne shuru mein revolutionary ideas ko destroy kiya, lekin baad mein unhe hi export kar diya. Napoleonic Code (1804) ne feudal system khatam kiya, sab logon ko equality-before-law diya, aur property rights secure kiye. Jahan bhi Napoleon ne jeeta (Holland, Switzerland, Italy, Germany), waha yeh Code laagu hua — isse un logon mein bhi 'unified nation' ka idea aaya.",
+        "en": "Napoleon initially destroyed many revolutionary ideas, but later exported them across Europe. The Napoleonic Code (1804) abolished the feudal system, gave everyone equality before the law, and secured property rights. Wherever Napoleon conquered (Holland, Switzerland, Italy, Germany), this Code was implemented — sparking the idea of a 'unified nation' in those regions too."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Lekin Napoleon ke raj mein administrative efficiency ke saath-saath increased taxes, censorship, aur forced conscription (army mein jabardasti bharti) bhi thi. Isliye jaise-jaise time gaya, log Napoleon ko liberator kam aur conqueror zyada samajhne lage — aur yehi resentment aage chal ke unke against nationalist movements ko bhadkane laga.",
+        "en": "But along with administrative efficiency, Napoleon's rule also brought increased taxes, censorship, and forced conscription into the army. Over time, people began to see Napoleon less as a liberator and more as a conqueror — and this resentment eventually fuelled nationalist movements against him."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "📜 Case Study: Napoleonic Code Ka Impact",
+        "en": "📜 Case Study: The Impact of the Napoleonic Code"
+      },
+      "steps": [
+        {
+          "hi": "Pehle: Feudal privileges the, birth ke aadhar pe rights milte the, aristocracy ko special treatment milta tha.",
+          "en": "Before: Feudal privileges existed, rights were based on birth, and the aristocracy received special treatment."
+        },
+        {
+          "hi": "Napoleonic Code ke baad: Equality before law, property rights secure, feudal dues khatam, guild restrictions hate.",
+          "en": "After the Napoleonic Code: Equality before law, secure property rights, feudal dues abolished, guild restrictions removed."
+        },
+        {
+          "hi": "Result: Jahan bhi yeh Code laagu hua, waha ke middle-class businessmen aur professionals ko sabse zyada fayda hua — unhi logon ne baad mein nationalist movements lead kiye.",
+          "en": "Result: Wherever this Code was implemented, the middle-class businessmen and professionals benefited most — and it was these very people who later led nationalist movements."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "French Revolution kis saal hua tha?",
+          "en": "In which year did the French Revolution take place?"
+        },
+        "options": [
+          { "hi": "1789", "en": "1789" },
+          { "hi": "1804", "en": "1804" },
+          { "hi": "1848", "en": "1848" },
+          { "hi": "1871", "en": "1871" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "French Revolution 1789 mein hua tha, jisne 'nation' aur 'citizen' ka naya idea diya.",
+          "en": "The French Revolution took place in 1789, giving rise to the new idea of 'nation' and 'citizen'."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Napoleonic Code ne kya khatam kiya?",
+          "en": "What did the Napoleonic Code abolish?"
+        },
+        "options": [
+          { "hi": "Feudal system", "en": "The feudal system" },
+          { "hi": "Monarchy", "en": "The monarchy" },
+          { "hi": "Trade", "en": "Trade" },
+          { "hi": "Army", "en": "The army" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Napoleonic Code (1804) ne feudal system khatam kiya aur equality-before-law diya.",
+          "en": "The Napoleonic Code (1804) abolished the feudal system and established equality before the law."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Napoleon ke raj mein forced conscription (jabardasti army bharti) nahi thi.",
+          "en": "There was no forced conscription into the army under Napoleon's rule."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — Napoleon ke raj mein forced conscription thi, jo baad mein logon mein resentment ki wajah bani.",
+          "en": "False — forced conscription existed under Napoleon's rule, and it became a source of resentment over time."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Revolution se pehle French log khud ko kya samajhte the?",
+          "en": "Before the Revolution, what did French people consider themselves?"
+        },
+        "options": [
+          { "hi": "Ek nation ke citizens", "en": "Citizens of a nation" },
+          { "hi": "Raja ki praja", "en": "Subjects of the king" },
+          { "hi": "Independent states", "en": "Independent states" },
+          { "hi": "Roman citizens", "en": "Roman citizens" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Revolution se pehle log khud ko 'raja ki praja' samajhte the, 'nation ke citizens' nahi.",
+          "en": "Before the Revolution, people saw themselves as 'subjects of the king', not 'citizens of a nation'."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Nationalism = collective identity based on common history, culture, territory",
+      "en": "Nationalism = collective identity based on common history, culture, territory"
+    },
+    {
+      "hi": "French Revolution (1789) ne 'nation' aur 'citizen' ka idea diya",
+      "en": "The French Revolution (1789) gave the idea of 'nation' and 'citizen'"
+    },
+    {
+      "hi": "Napoleonic Code (1804) — feudal system khatam, equality before law",
+      "en": "Napoleonic Code (1804) — abolished feudalism, brought equality before law"
+    },
+    {
+      "hi": "Napoleon ke conquered areas mein bhi nationalism ke ideas fail gaye",
+      "en": "Napoleon's conquered territories also absorbed ideas of nationalism"
+    },
+    {
+      "hi": "Napoleon: pehle liberator jaisa laga, baad mein conqueror ki tarah dekha gaya",
+      "en": "Napoleon: initially seen as a liberator, later viewed as a conqueror"
+    }
+  ],
+  "summary": {
+    "hi": "French Revolution ne Europe ko pehli baar 'nation' ka idea diya — ki power raja ki nahi, citizens ki hoti hai. Napoleon ne yeh ideas poore Europe mein fail diye, lekin apni harshness ki wajah se khud hi nationalist resentment ko bhadka diya.",
+    "en": "The French Revolution gave Europe its first real idea of a 'nation' — that power belongs to citizens, not a king. Napoleon spread these ideas across Europe, but his own harsh rule ended up fuelling the very nationalist resentment that would later work against him."
+  },
+  "reward": {
+    "badge": null
+  }
+}
