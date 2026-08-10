@@ -1,0 +1,187 @@
+{
+  "id": "chapter-48-lesson-03",
+  "chapterId": "chapter-48",
+  "order": 3,
+  "title": {
+    "hi": "Germany Aur Italy Ka Unification",
+    "en": "The Unification of Germany and Italy"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "⚙️",
+    "headline": {
+      "hi": "'Blood and Iron' Se Bana Ek Naya Germany",
+      "en": "A New Germany Forged in 'Blood and Iron'"
+    },
+    "subtext": {
+      "hi": "Bismarck ne 3 wars se Germany banaya, Italy ko Cavour aur Garibaldi ne joda",
+      "en": "Bismarck built Germany through 3 wars; Cavour and Garibaldi united Italy"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "1848 ka revolution fail hua tha, lekin nationalism ka idea nahi mara. Iske baad do naye leaders ubhare jinhone 'from-above' approach use kiya — army aur diplomacy se unification karayi, na ki mass movement se: Prussia mein Otto von Bismarck, aur Italy mein Count Cavour.",
+      "en": "The revolution of 1848 had failed, but the idea of nationalism did not die. Two new leaders emerged who used a 'from-above' approach — unification through army and diplomacy rather than mass movement: Otto von Bismarck in Prussia, and Count Cavour in Italy."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Germany Ka Unification: Nationalist feelings pehle se the (Zollverein — ek customs union jisne German states ke beech economic unity banayi thi, 1834 se), lekin actual unification Prussia ne apni military strength se kiya. Prussia ke Chief Minister Otto von Bismarck ne is process ko lead kiya, army aur bureaucracy ki madad se — is policy ko 'Blood and Iron' kaha jata hai.",
+        "en": "Unification of Germany: Nationalist feelings already existed (the Zollverein — a customs union that created economic unity among German states from 1834), but actual unification was achieved through Prussia's military strength. Prussia's Chief Minister Otto von Bismarck led this process with the help of the army and bureaucracy — a policy known as 'Blood and Iron'."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Bismarck ne teen wars ladi: (1) 1864 Prussia-Denmark war, (2) 1866 Prussia-Austria war, aur (3) 1870-71 Prussia-France (Franco-Prussian) war. In teeno mein Prussia jeeti, aur 1871 mein January mein, Versailles ke Hall of Mirrors mein, Prussian King Kaiser Wilhelm I ko unified German Empire ka emperor declare kiya gaya. Iske baad Prussian institutions (currency, banking, legal system) poore Germany mein laagu hui.",
+        "en": "Bismarck fought three wars: (1) the 1864 Prussia-Denmark war, (2) the 1866 Prussia-Austria war, and (3) the 1870-71 Prussia-France (Franco-Prussian) war. Prussia won all three, and in January 1871, in the Hall of Mirrors at Versailles, the Prussian King Kaiser Wilhelm I was declared emperor of a unified German Empire. Prussian institutions (currency, banking, legal system) were then extended across all of Germany."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Italy Ka Unification: Unification se pehle Italy kayi alag states mein bata hua tha — kuch Austrian control mein, ek Pope ke under, aur baaki independent kingdoms. Mazzini ne 1830s mein 'Young Italy' naam ki secret society banayi thi jo republican unification chahti thi, lekin unki attempts fail hui.",
+        "en": "Unification of Italy: Before unification, Italy was divided among several separate states — some under Austrian control, one under the Pope, and the rest independent kingdoms. Mazzini had formed a secret society called 'Young Italy' in the 1830s that wanted a republican unification, but his attempts failed."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Baad mein leadership Sardinia-Piedmont ke king Victor Emmanuel II aur unke Chief Minister Count Cavour ne li — jo diplomatic aur military strategy use karte the, mass revolution nahi. Cavour ne France ke saath alliance banaya taaki Austria ko North Italy se bahar kiya ja sake. Dusri taraf, Giuseppe Garibaldi ne apni 'Red Shirts' army ke saath South Italy aur Sicily conquer kiye. 1861 mein Victor Emmanuel II ko unified Italy ka king declare kiya gaya.",
+        "en": "Later, leadership passed to Sardinia-Piedmont's King Victor Emmanuel II and his Chief Minister Count Cavour — who used diplomacy and military strategy rather than mass revolution. Cavour allied with France to push Austria out of Northern Italy. Meanwhile, Giuseppe Garibaldi led his 'Red Shirts' army to conquer Southern Italy and Sicily. In 1861, Victor Emmanuel II was declared king of a unified Italy."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "🇮🇹 Case Study: Garibaldi's Expedition of the Thousand (1860)",
+        "en": "🇮🇹 Case Study: Garibaldi's Expedition of the Thousand (1860)"
+      },
+      "steps": [
+        {
+          "hi": "Garibaldi ne 1,000 volunteer soldiers ('Red Shirts') lekar Sicily pe attack kiya.",
+          "en": "Garibaldi led 1,000 volunteer soldiers (the 'Red Shirts') to attack Sicily."
+        },
+        {
+          "hi": "Local peasants ka support milne se Garibaldi ne Sicily aur phir Naples (South Italy) conquer kar liya.",
+          "en": "With support from local peasants, Garibaldi conquered Sicily and then Naples (Southern Italy)."
+        },
+        {
+          "hi": "Garibaldi ne conquered territories Victor Emmanuel II ko de diye — apni personal power nahi banayi.",
+          "en": "Garibaldi handed the conquered territories over to Victor Emmanuel II — without building personal power for himself."
+        },
+        {
+          "hi": "1861: In sab territories ko milakar unified Kingdom of Italy ban gaya, Victor Emmanuel II raja bane.",
+          "en": "1861: These territories combined to form the unified Kingdom of Italy, with Victor Emmanuel II as king."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Bismarck ki policy 'Blood and Iron' ka matlab kya tha?",
+          "en": "What did Bismarck's policy of 'Blood and Iron' mean?"
+        },
+        "options": [
+          { "hi": "Army aur war ke through unification", "en": "Unification through army and war" },
+          { "hi": "Peaceful negotiation", "en": "Peaceful negotiation" },
+          { "hi": "Mass revolution", "en": "Mass revolution" },
+          { "hi": "Religious unity", "en": "Religious unity" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Bismarck ne army aur bureaucracy ki taakat se, teen wars ladkar Germany ko unite kiya.",
+          "en": "Bismarck used the strength of the army and bureaucracy, fighting three wars, to unite Germany."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "1871 mein Germany ka pehla emperor kaun bana?",
+          "en": "Who became the first emperor of unified Germany in 1871?"
+        },
+        "options": [
+          { "hi": "Kaiser Wilhelm I", "en": "Kaiser Wilhelm I" },
+          { "hi": "Bismarck", "en": "Bismarck" },
+          { "hi": "Napoleon", "en": "Napoleon" },
+          { "hi": "Victor Emmanuel II", "en": "Victor Emmanuel II" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Prussian King Kaiser Wilhelm I ko Versailles mein unified German Empire ka emperor declare kiya gaya.",
+          "en": "The Prussian King Kaiser Wilhelm I was declared emperor of the unified German Empire at Versailles."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Italy unification mein Giuseppe Garibaldi ka role kya tha?",
+          "en": "What was Giuseppe Garibaldi's role in the unification of Italy?"
+        },
+        "options": [
+          { "hi": "'Red Shirts' army lekar South Italy conquer kiya", "en": "Led the 'Red Shirts' army to conquer Southern Italy" },
+          { "hi": "France ke saath diplomacy ki", "en": "Conducted diplomacy with France" },
+          { "hi": "Young Italy society banayi", "en": "Founded the Young Italy society" },
+          { "hi": "Prussia ko haraya", "en": "Defeated Prussia" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Garibaldi ne apni Red Shirts army se South Italy aur Sicily conquer kiye, aur unhe Victor Emmanuel II ko de diya.",
+          "en": "Garibaldi led his Red Shirts army to conquer Southern Italy and Sicily, then handed them over to Victor Emmanuel II."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Mazzini ki 'Young Italy' society successfully unification kar paayi thi.",
+          "en": "Mazzini's 'Young Italy' society successfully achieved unification."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — Mazzini ki attempts fail hui thin; actual unification baad mein Cavour aur Garibaldi ki leadership mein hua.",
+          "en": "False — Mazzini's attempts failed; actual unification happened later under the leadership of Cavour and Garibaldi."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Zollverein (1834) — German states ke beech customs union, unification ki base",
+      "en": "Zollverein (1834) — customs union among German states, the base for unification"
+    },
+    {
+      "hi": "Bismarck ne 3 wars ladi (Denmark, Austria, France) — 'Blood and Iron'",
+      "en": "Bismarck fought 3 wars (Denmark, Austria, France) — 'Blood and Iron'"
+    },
+    {
+      "hi": "1871: Kaiser Wilhelm I unified German Empire ka emperor bana",
+      "en": "1871: Kaiser Wilhelm I became emperor of the unified German Empire"
+    },
+    {
+      "hi": "Mazzini's Young Italy fail hui; Cavour + Garibaldi ne actual unification kiya",
+      "en": "Mazzini's Young Italy failed; Cavour + Garibaldi achieved actual unification"
+    },
+    {
+      "hi": "1861: Victor Emmanuel II unified Italy ka king bana",
+      "en": "1861: Victor Emmanuel II became king of unified Italy"
+    }
+  ],
+  "summary": {
+    "hi": "Germany aur Italy dono ka unification 'from above' hua — mass revolution se nahi, balki strong leaders (Bismarck, Cavour) ke diplomacy aur military strategy se. Garibaldi jaise figures ne isme popular support bhi joda.",
+    "en": "Both Germany and Italy were unified 'from above' — not through mass revolution, but through the diplomacy and military strategy of strong leaders (Bismarck, Cavour). Figures like Garibaldi also brought popular support into the process."
+  },
+  "reward": {
+    "badge": null
+  }
+}
