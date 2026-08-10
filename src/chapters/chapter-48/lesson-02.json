@@ -1,0 +1,187 @@
+{
+  "id": "chapter-48-lesson-02",
+  "chapterId": "chapter-48",
+  "order": 2,
+  "title": {
+    "hi": "Europe Mein Nationalism Ka Nirman",
+    "en": "The Making of Nationalism in Europe"
+  },
+  "estimatedMinutes": 15,
+  "xpReward": 55,
+  "coinReward": 14,
+  "hero": {
+    "emoji": "⚔️",
+    "headline": {
+      "hi": "1830-1848: Revolutions Ka Yug",
+      "en": "1830-1848: The Age of Revolutions"
+    },
+    "subtext": {
+      "hi": "Middle class, culture, aur hunger — teeno ne milkar nationalism ko fuel diya",
+      "en": "Middle class, culture, and hunger — all three together fuelled nationalism"
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "19th century ke Europe mein do naye groups the jo nationalism ko drive kar rahe the: aristocracy (jo purane privileges bachana chahti thi) aur naya middle class (jo educated tha, business karta tha, aur naye rights maangta tha). Inke saath-saath, kuch writers aur artists ne 'culture' ke through logon mein nation ki feeling jagana shuru kiya — isi ko Romanticism kehte hain.",
+      "en": "19th century Europe had two new groups driving nationalism: the aristocracy (trying to preserve old privileges) and a new middle class (educated, business-minded, demanding new rights). Alongside this, writers and artists began awakening a feeling of 'nationhood' through culture — this movement is called Romanticism."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "Aristocracy vs Middle Class: 19th century Europe mein power aristocracy (landowning nobility) ke paas thi, jo France, England, Prussia mein sabse strong thi. Lekin industrialization ke saath ek naya social group ubhara — middle class, jisme businessmen, professionals, aur civil servants the. Isi middle class ne liberal nationalism ki demand ki — equality before law, elected government, aur freedom of press.",
+        "en": "Aristocracy vs Middle Class: In 19th century Europe, power belonged to the aristocracy (landowning nobility), strongest in France, England, and Prussia. But industrialisation gave rise to a new social group — the middle class of businessmen, professionals, and civil servants. This middle class demanded liberal nationalism — equality before law, an elected government, and freedom of the press."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "Romanticism: Yeh ek cultural movement thi jisne 'reason and science' se zyada 'feelings, intuition, aur mystical experience' pe focus kiya taaki ek shared collective heritage aur culture ka idea ban sake — yehi nationalism ka aadhar tha. German philosopher Johann Gottfried Herder ne kaha ki 'true German culture' folk songs, poetry, aur folklore mein milti hai — isliye unhe collect aur promote karna zaroori hai. Poland mein, jab Russia ne apni language thopi, tab Polish language ko 'nationalism ka weapon' banaya gaya — churches mein Polish mein prayers ki jaati thin, jisse yeh resistance ka symbol ban gayi.",
+        "en": "Romanticism: A cultural movement that focused on 'feelings, intuition, and mystical experience' over 'reason and science', to build a sense of shared collective heritage — the foundation of nationalism. German philosopher Johann Gottfried Herder argued that 'true German culture' was found in folk songs, poetry, and folklore, which needed to be collected and promoted. In Poland, when Russia imposed its language, Polish became a weapon of nationalism — prayers were held in Polish in churches, turning language into a symbol of resistance."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "1830 Ka Revolution: France mein Bourbon kings ko overthrow karke ek constitutional monarchy banayi gayi. Isi saal Greece ne Ottoman Empire se independence ki fight shuru ki — poore Europe ke educated elites ne Greece ki madad ki (kyunki Greece ko 'classical civilization ka ghar' mana jata tha), aur 1832 mein Greece ek independent nation ban gaya — yeh Europe mein nationalist emotions ka pehla bada win tha.",
+        "en": "The Revolution of 1830: In France, the Bourbon kings were overthrown and a constitutional monarchy was established. That same year, Greece began its fight for independence from the Ottoman Empire — educated elites across Europe supported Greece (seen as the 'cradle of classical civilization'), and Greece became an independent nation in 1832 — the first major victory for nationalist sentiment in Europe."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "1848 Ka Revolution: Yeh liberal-middle-class aur working-class (jo economic hardship se pareshan tha — bad harvests, unemployment) dono ka combined revolt tha. Iska sabse important moment tha Frankfurt Parliament — jahan 831 elected representatives ne milkar ek unified German nation ka constitution draft kiya, jisme ek constitutional monarchy under a parliament ki demand thi. Lekin Prussian king ne yeh crown accept karne se mana kar diya, aur revolution fail ho gaya — kyunki working-class aur women ko voting rights nahi diye gaye the, isliye unka support khatam ho gaya.",
+        "en": "The Revolution of 1848: This was a combined revolt of the liberal middle class and the working class (suffering from economic hardship — bad harvests, unemployment). Its most important moment was the Frankfurt Parliament — 831 elected representatives drafted a constitution for a unified German nation under a constitutional monarchy. But the Prussian king refused to accept the crown, and the revolution failed — partly because voting rights were denied to the working class and women, losing their support."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "🏛️ Case Study: Greek War of Independence (1821-1832)",
+        "en": "🏛️ Case Study: The Greek War of Independence (1821-1832)"
+      },
+      "steps": [
+        {
+          "hi": "Cause: Greece Ottoman Empire ke under tha, aur nationalist feelings 18th century se hi badh rahi thin.",
+          "en": "Cause: Greece was under Ottoman rule, with nationalist feelings growing since the 18th century."
+        },
+        {
+          "hi": "Support: European powers aur poets (jaise Lord Byron) ne Greece ki madad ki, kyunki Greece 'classical civilization' se juda tha.",
+          "en": "Support: European powers and poets (like Lord Byron) supported Greece, since it was linked to 'classical civilization'."
+        },
+        {
+          "hi": "Result: 1832 mein Treaty of Constantinople se Greece ek independent nation ban gaya.",
+          "en": "Result: In 1832, the Treaty of Constantinople recognized Greece as an independent nation."
+        },
+        {
+          "hi": "Significance: Yeh pehla example tha jahan nationalist movement ne successfully ek naya nation-state banaya.",
+          "en": "Significance: This was the first example of a nationalist movement successfully creating a new nation-state."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Frankfurt Parliament ka mukhya uddeshya kya tha?",
+          "en": "What was the main objective of the Frankfurt Parliament?"
+        },
+        "options": [
+          { "hi": "Ek unified German nation ka constitution banana", "en": "Drafting a constitution for a unified German nation" },
+          { "hi": "France ko independence dilana", "en": "Granting independence to France" },
+          { "hi": "Greece ko azad karana", "en": "Freeing Greece" },
+          { "hi": "Napoleon ko haraana", "en": "Defeating Napoleon" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Frankfurt Parliament (1848) ne ek unified German nation ke liye constitution draft kiya, lekin Prussian king ne crown accept nahi ki.",
+          "en": "The Frankfurt Parliament (1848) drafted a constitution for a unified German nation, but the Prussian king refused the crown."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Greece ne kis empire se independence hasil ki?",
+          "en": "Which empire did Greece gain independence from?"
+        },
+        "options": [
+          { "hi": "Ottoman Empire", "en": "Ottoman Empire" },
+          { "hi": "Russian Empire", "en": "Russian Empire" },
+          { "hi": "British Empire", "en": "British Empire" },
+          { "hi": "Austrian Empire", "en": "Austrian Empire" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Greece ne Ottoman Empire se 1832 mein independence hasil ki.",
+          "en": "Greece gained independence from the Ottoman Empire in 1832."
+        }
+      },
+      {
+        "type": "truefalse",
+        "question": {
+          "hi": "Romanticism ne 'reason and science' ko sabse zyada importance di.",
+          "en": "Romanticism gave the greatest importance to 'reason and science'."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — Romanticism ne feelings, intuition aur mystical experience ko emphasize kiya, reason/science ko nahi.",
+          "en": "False — Romanticism emphasized feelings, intuition, and mystical experience, not reason and science."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "1848 revolution fail kyun hua?",
+          "en": "Why did the Revolution of 1848 fail?"
+        },
+        "options": [
+          { "hi": "Working class aur women ko voting rights nahi mile, unka support chala gaya", "en": "Working class and women weren't given voting rights, losing their support" },
+          { "hi": "Napoleon ne isse crush kar diya", "en": "Napoleon crushed it" },
+          { "hi": "Greece ne interfere kiya", "en": "Greece interfered" },
+          { "hi": "Koi middle class nahi tha", "en": "There was no middle class" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Working-class aur women ko exclude karne se unka support khatam ho gaya, aur Prussian king ne crown bhi accept nahi ki.",
+          "en": "Excluding the working class and women lost their support, and the Prussian king also refused the crown."
+        }
+      }
+    ]
+  },
+  "notes": [
+    {
+      "hi": "Aristocracy = purane privileges, Middle class = liberal nationalism ke supporters",
+      "en": "Aristocracy = old privileges, Middle class = supporters of liberal nationalism"
+    },
+    {
+      "hi": "Romanticism = culture/folklore se nationhood ki feeling jagana",
+      "en": "Romanticism = awakening nationhood through culture/folklore"
+    },
+    {
+      "hi": "1830: France mein constitutional monarchy, Greece independent (1832)",
+      "en": "1830: Constitutional monarchy in France, Greece became independent (1832)"
+    },
+    {
+      "hi": "1848: Frankfurt Parliament — unified Germany ka pehla attempt, fail hua",
+      "en": "1848: Frankfurt Parliament — first attempt at a unified Germany, which failed"
+    },
+    {
+      "hi": "1848 revolution fail hua kyunki working class aur women exclude the",
+      "en": "The 1848 revolution failed because working class and women were excluded"
+    }
+  ],
+  "summary": {
+    "hi": "Nationalism sirf politics se nahi, culture (Romanticism) aur social classes (aristocracy vs middle class) se bhi bana. 1830 aur 1848 ke revolutions ne dikhaya ki nationalist ideas kitni powerful thi — lekin sabko saath lekar chalna (working class, women) hi long-term success ki key thi.",
+    "en": "Nationalism was shaped not just by politics, but also by culture (Romanticism) and social classes (aristocracy vs middle class). The revolutions of 1830 and 1848 showed how powerful nationalist ideas were — but carrying everyone along (working class, women) was the key to long-term success."
+  },
+  "reward": {
+    "badge": null
+  }
+}
