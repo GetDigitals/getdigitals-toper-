@@ -1,0 +1,153 @@
+{
+  "chapterId": "chapter-48",
+  "objective": [
+    {
+      "question": {
+        "hi": "Napoleonic Code ne kya diya jo feudal system mein nahi tha?",
+        "en": "What did the Napoleonic Code introduce that the feudal system lacked?"
+      },
+      "options": [
+        { "hi": "Birth ke aadhar pe privileges", "en": "Privileges based on birth" },
+        { "hi": "Equality before law", "en": "Equality before the law" },
+        { "hi": "Church ka control", "en": "Church control" },
+        { "hi": "Monarchy ki power", "en": "Monarchy's power" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Napoleonic Code (1804) ne equality before law diya, feudal privileges khatam kiye.",
+        "en": "The Napoleonic Code (1804) introduced equality before the law, ending feudal privileges."
+      }
+    },
+    {
+      "question": {
+        "hi": "Zollverein kya tha?",
+        "en": "What was the Zollverein?"
+      },
+      "options": [
+        { "hi": "German states ke beech ek customs union", "en": "A customs union among German states" },
+        { "hi": "Ek war", "en": "A war" },
+        { "hi": "Italian secret society", "en": "An Italian secret society" },
+        { "hi": "French Revolution ka symbol", "en": "A symbol of the French Revolution" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Zollverein 1834 se German states ke beech ek customs union thi, jisne economic unity banayi.",
+        "en": "The Zollverein was a customs union among German states from 1834, creating economic unity."
+      }
+    },
+    {
+      "question": {
+        "hi": "Frankfurt Parliament (1848) fail kyun hua?",
+        "en": "Why did the Frankfurt Parliament (1848) fail?"
+      },
+      "options": [
+        { "hi": "Prussian king ne crown accept nahi ki, working class/women exclude hue", "en": "The Prussian king refused the crown, working class and women were excluded" },
+        { "hi": "Napoleon ne isse crush kar diya", "en": "Napoleon crushed it" },
+        { "hi": "Austria ne attack kiya", "en": "Austria attacked" },
+        { "hi": "Koi participants nahi the", "en": "There were no participants" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "Prussian king ne crown accept nahi ki, aur working-class/women ko exclude karne se support khatam ho gaya.",
+        "en": "The Prussian king refused the crown, and excluding the working class and women lost the movement its support."
+      }
+    },
+    {
+      "question": {
+        "hi": "Germania kis nation ki allegorical figure thi?",
+        "en": "Germania was the allegorical figure representing which nation?"
+      },
+      "options": [
+        { "hi": "France", "en": "France" },
+        { "hi": "Germany", "en": "Germany" },
+        { "hi": "Italy", "en": "Italy" },
+        { "hi": "Greece", "en": "Greece" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Germania Germany ki allegorical figure thi, oak leaves ke crown aur sword ke saath.",
+        "en": "Germania was the allegorical figure for Germany, shown with a crown of oak leaves and a sword."
+      }
+    },
+    {
+      "question": {
+        "hi": "World War I ka immediate trigger kya tha?",
+        "en": "What was the immediate trigger for World War I?"
+      },
+      "options": [
+        { "hi": "Franz Ferdinand ki hatya (1914, Sarajevo)", "en": "The assassination of Franz Ferdinand (1914, Sarajevo)" },
+        { "hi": "German unification", "en": "German unification" },
+        { "hi": "French Revolution", "en": "The French Revolution" },
+        { "hi": "Greek independence", "en": "Greek independence" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "hi": "1914 mein Sarajevo mein Austrian Archduke Franz Ferdinand ki hatya se WWI trigger hui.",
+        "en": "The assassination of Austrian Archduke Franz Ferdinand in Sarajevo in 1914 triggered WWI."
+      }
+    },
+    {
+      "question": {
+        "hi": "Italy unification mein Cavour ka approach kaisa tha?",
+        "en": "What was Cavour's approach to Italian unification?"
+      },
+      "options": [
+        { "hi": "Mass revolution", "en": "Mass revolution" },
+        { "hi": "Diplomacy aur military strategy (from-above)", "en": "Diplomacy and military strategy (from-above)" },
+        { "hi": "Religious movement", "en": "A religious movement" },
+        { "hi": "Foreign occupation", "en": "Foreign occupation" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "hi": "Cavour ne diplomacy aur military strategy use ki (jaise France ke saath alliance) — 'from-above' unification.",
+        "en": "Cavour used diplomacy and military strategy (like allying with France) — a 'from-above' unification approach."
+      }
+    }
+  ],
+  "subjective": [
+    {
+      "question": {
+        "hi": "French Revolution ne nationalism ke idea ko kaise janma diya? 3 points mein samjhao.",
+        "en": "How did the French Revolution give birth to the idea of nationalism? Explain in 3 points."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "1. Naye terms diye — 'La Patrie' (fatherland) aur 'Le Citoyen' (citizen) — jinka matlab tha power ab collective 'nation' ki thi, raja ki nahi.\n2. Naye symbols banaye — tricolour flag, National Assembly, naye anthems aur oaths — collective identity ke liye.\n3. Napoleonic Code ke through in ideas ko poore Europe mein export kiya, jahan bhi Napoleon ne jeeta.",
+        "en": "1. Introduced new terms — 'La Patrie' (fatherland) and 'Le Citoyen' (citizen) — meaning power now belonged to the collective 'nation', not the king.\n2. Created new symbols — a tricolour flag, the National Assembly, new anthems and oaths — to build collective identity.\n3. Exported these ideas across Europe through the Napoleonic Code, wherever Napoleon conquered."
+      }
+    },
+    {
+      "question": {
+        "hi": "Bismarck ne Germany ka unification kaise karaya? Uski teen wars ka naam batao.",
+        "en": "How did Bismarck bring about German unification? Name his three wars."
+      },
+      "marks": 3,
+      "answer": {
+        "hi": "Bismarck ne 'Blood and Iron' policy use ki — army aur diplomacy se, mass revolution se nahi. Teen wars: (1) 1864 Prussia-Denmark war, (2) 1866 Prussia-Austria war, (3) 1870-71 Prussia-France (Franco-Prussian) war. Teeno mein Prussia jeeti, aur 1871 mein Kaiser Wilhelm I unified German Empire ka emperor bana.",
+        "en": "Bismarck used the 'Blood and Iron' policy — through army and diplomacy, not mass revolution. His three wars: (1) 1864 Prussia-Denmark war, (2) 1866 Prussia-Austria war, (3) 1870-71 Prussia-France (Franco-Prussian) war. Prussia won all three, and in 1871 Kaiser Wilhelm I became emperor of the unified German Empire."
+      }
+    },
+    {
+      "question": {
+        "hi": "1848 revolution mein Frankfurt Parliament ka role kya tha, aur woh kyun fail hui?",
+        "en": "What was the role of the Frankfurt Parliament in the 1848 revolution, and why did it fail?"
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "Role: 831 elected representatives ne milkar ek unified German nation ka constitution draft kiya, jisme constitutional monarchy under a parliament ki demand thi.\n\nFail hone ki wajah: (1) Prussian king Frederick William IV ne yeh crown accept karne se mana kar diya — usne 'popular sovereignty' se milne wali crown ko reject kiya. (2) Working-class aur women ko voting rights nahi diye gaye the, isliye unka support khatam ho gaya. (3) Middle-class liberals mass support build nahi kar paaye. Isse Parliament weak ho gayi aur revolution collapse ho gayi.",
+        "en": "Role: 831 elected representatives drafted a constitution for a unified German nation, demanding a constitutional monarchy under a parliament.\n\nWhy it failed: (1) Prussian King Frederick William IV refused to accept the crown — rejecting a crown that came from 'popular sovereignty'. (2) Voting rights were denied to the working class and women, losing their support. (3) Middle-class liberals failed to build mass support. This weakened the Parliament and the revolution collapsed."
+      }
+    },
+    {
+      "question": {
+        "hi": "Nationalism 1871 ke baad 'aggressive imperialism' mein kaise badla? Balkans ke example se explain karo.",
+        "en": "How did nationalism turn into 'aggressive imperialism' after 1871? Explain using the Balkans as an example."
+      },
+      "marks": 5,
+      "answer": {
+        "hi": "1871 mein Germany aur Italy unite ho gaye, jisse nationalism ek 'liberal, unifying force' se badalkar 'narrow, aggressive' ideology mein badal gaya — jisme apne nation ko superior maana jaata tha.\n\nBalkans example: Ottoman Empire kamzor ho raha tha, isliye Balkan region (Bosnia, Serbia, Bulgaria etc.) strategically important ho gaya. Alag-alag Slavic communities ne apni-apni independent nationalist identities claim ki, jisse intense rivalry hui. European powers (Russia, Austro-Hungary, Germany, England) bhi apne interests ke liye involve ho gayi. Yeh tensions 1914 mein Franz Ferdinand ki hatya tak badhti gayi, jo World War I ka trigger bani.",
+        "en": "In 1871, Germany and Italy were unified, turning nationalism from a 'liberal, unifying force' into a 'narrow, aggressive' ideology that saw one's own nation as superior.\n\nBalkans example: The declining Ottoman Empire made the Balkan region (Bosnia, Serbia, Bulgaria, etc.) strategically important. Various Slavic communities claimed their own independent nationalist identities, sparking intense rivalry. European powers (Russia, Austro-Hungary, Germany, England) also got involved for their own interests. These tensions escalated until the assassination of Franz Ferdinand in 1914 triggered World War I."
+      }
+    }
+  ]
+}
