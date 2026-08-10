@@ -1,0 +1,24 @@
+{
+  "id": "chapter-58",
+  "order": 11,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Manufacturing Industries",
+  "icon": "🏗️",
+  "color": "#2E8B57",
+  "description": "Classification of industries, industrial pollution, and major industries in India — iron & steel, textiles, and more. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-58-master",
+    "name": {
+      "hi": "Manufacturing Industries Master",
+      "en": "Manufacturing Industries Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

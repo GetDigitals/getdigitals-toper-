@@ -1,0 +1,24 @@
+{
+  "id": "chapter-50",
+  "order": 3,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "The Making of a Global World",
+  "icon": "🌐",
+  "color": "#E8650A",
+  "description": "The history of globalisation — trade, migration, and the interconnected economies from the pre-modern world to the 20th century. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-50-master",
+    "name": {
+      "hi": "The Making of a Global World Master",
+      "en": "The Making of a Global World Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

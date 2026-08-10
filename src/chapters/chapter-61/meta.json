@@ -1,0 +1,24 @@
+{
+  "id": "chapter-61",
+  "order": 14,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "Federalism",
+  "icon": "🏢",
+  "color": "#8B5CF6",
+  "description": "How power is divided between central and state governments in India, and the features of a federal system. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-61-master",
+    "name": {
+      "hi": "Federalism Master",
+      "en": "Federalism Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

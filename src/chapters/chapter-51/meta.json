@@ -1,0 +1,24 @@
+{
+  "id": "chapter-51",
+  "order": 4,
+  "class": 10,
+  "subject": "Social Science",
+  "board": "CBSE",
+  "title": "The Age of Industrialisation",
+  "icon": "🏭",
+  "color": "#E8650A",
+  "description": "The growth of industries in India and Europe, factory life, and the impact of industrialisation on society and economy. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 220,
+  "coinReward": 44,
+  "badge": {
+    "id": "chapter-51-master",
+    "name": {
+      "hi": "The Age of Industrialisation Master",
+      "en": "The Age of Industrialisation Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

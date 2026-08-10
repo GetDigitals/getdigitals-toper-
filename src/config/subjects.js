@@ -56,7 +56,11 @@ export const SUBJECTS = [
     subjectLabel: 'Social Science',
     icon: '🌍',
     color: '#C792EA',
-    available: false,
+    // chapter-48 to chapter-69 scaffolded (meta.json only) per the CBSE
+    // 2026-27 syllabus: 5 History + 7 Geography + 5 Political Science +
+    // 5 Economics = 22 chapters. All are placeholders ("content coming
+    // soon") until real lesson content is added chapter by chapter.
+    available: true,
   },
 ];
 
