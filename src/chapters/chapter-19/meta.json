@@ -17,5 +17,9 @@
   },
   "unlockRule": {
     "type": "sequential"
+  },
+  "unit": {
+    "hi": "First Flight",
+    "en": "First Flight"
   }
 }
