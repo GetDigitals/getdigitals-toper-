@@ -1,0 +1,24 @@
+{
+  "id": "chapter-76",
+  "order": 6,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "संगतकार",
+  "icon": "📜",
+  "color": "#4FA8FF",
+  "description": "संगतकार (Mangalesh Dabral) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-76-master",
+    "name": {
+      "hi": "संगतकार Master",
+      "en": "संगतकार Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

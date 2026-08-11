@@ -1,0 +1,24 @@
+{
+  "id": "chapter-86",
+  "order": 1,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "साखी",
+  "icon": "📜",
+  "color": "#9B59B6",
+  "description": "साखी (Kabir) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-86-master",
+    "name": {
+      "hi": "साखी Master",
+      "en": "साखी Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

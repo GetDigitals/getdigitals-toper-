@@ -1,0 +1,24 @@
+{
+  "id": "chapter-84",
+  "order": 14,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "साना-साना हाथ जोड़ि",
+  "icon": "📗",
+  "color": "#F2555B",
+  "description": "साना-साना हाथ जोड़ि (Madhukar Upadhyay) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-84-master",
+    "name": {
+      "hi": "साना-साना हाथ जोड़ि Master",
+      "en": "साना-साना हाथ जोड़ि Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

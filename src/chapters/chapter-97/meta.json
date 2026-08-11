@@ -1,0 +1,24 @@
+{
+  "id": "chapter-97",
+  "order": 12,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "हरिहर काका",
+  "icon": "📗",
+  "color": "#F2555B",
+  "description": "हरिहर काका (Mithileshwar) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-97-master",
+    "name": {
+      "hi": "हरिहर काका Master",
+      "en": "हरिहर काका Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

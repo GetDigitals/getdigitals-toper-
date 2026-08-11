@@ -1,0 +1,24 @@
+{
+  "id": "chapter-87",
+  "order": 2,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "मनुष्यता",
+  "icon": "📜",
+  "color": "#E8650A",
+  "description": "मनुष्यता (Maithili Sharan Gupt) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-87-master",
+    "name": {
+      "hi": "मनुष्यता Master",
+      "en": "मनुष्यता Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

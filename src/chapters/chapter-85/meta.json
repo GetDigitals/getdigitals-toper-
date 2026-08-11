@@ -1,0 +1,24 @@
+{
+  "id": "chapter-85",
+  "order": 15,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "मैं क्यों लिखता हूँ",
+  "icon": "📗",
+  "color": "#9B59B6",
+  "description": "मैं क्यों लिखता हूँ (Sarveshwar Dayal Saxena) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-85-master",
+    "name": {
+      "hi": "मैं क्यों लिखता हूँ Master",
+      "en": "मैं क्यों लिखता हूँ Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

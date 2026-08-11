@@ -1,0 +1,24 @@
+{
+  "id": "chapter-73",
+  "order": 3,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "आत्मकथ्य",
+  "icon": "📜",
+  "color": "#9B59B6",
+  "description": "आत्मकथ्य (Jaishankar Prasad) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-73-master",
+    "name": {
+      "hi": "आत्मकथ्य Master",
+      "en": "आत्मकथ्य Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

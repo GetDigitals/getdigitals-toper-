@@ -1,0 +1,24 @@
+{
+  "id": "chapter-90",
+  "order": 5,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "कर चले हम फ़िदा",
+  "icon": "📜",
+  "color": "#FFC93C",
+  "description": "कर चले हम फ़िदा (Kaifi Azmi) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-90-master",
+    "name": {
+      "hi": "कर चले हम फ़िदा Master",
+      "en": "कर चले हम फ़िदा Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

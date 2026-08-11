@@ -1,0 +1,24 @@
+{
+  "id": "chapter-80",
+  "order": 10,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "एक कहानी यह भी",
+  "icon": "📖",
+  "color": "#E8650A",
+  "description": "एक कहानी यह भी (Mannu Bhandari) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-80-master",
+    "name": {
+      "hi": "एक कहानी यह भी Master",
+      "en": "एक कहानी यह भी Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

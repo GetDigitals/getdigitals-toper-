@@ -1,0 +1,24 @@
+{
+  "id": "chapter-81",
+  "order": 11,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "नौबतखाने में इबादत",
+  "icon": "📖",
+  "color": "#35C97F",
+  "description": "नौबतखाने में इबादत (Yatindra Mishra) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-81-master",
+    "name": {
+      "hi": "नौबतखाने में इबादत Master",
+      "en": "नौबतखाने में इबादत Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

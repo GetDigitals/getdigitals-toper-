@@ -1,0 +1,24 @@
+{
+  "id": "chapter-78",
+  "order": 8,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "बालगोबिन भगत",
+  "icon": "📖",
+  "color": "#F2555B",
+  "description": "बालगोबिन भगत (Ramvriksha Benipuri) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-78-master",
+    "name": {
+      "hi": "बालगोबिन भगत Master",
+      "en": "बालगोबिन भगत Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

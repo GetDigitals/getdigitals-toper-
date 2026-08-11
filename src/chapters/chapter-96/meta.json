@@ -1,0 +1,24 @@
+{
+  "id": "chapter-96",
+  "order": 11,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "कारतूस",
+  "icon": "📖",
+  "color": "#FFC93C",
+  "description": "कारतूस (Hardayal) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
+  "badge": {
+    "id": "chapter-96-master",
+    "name": {
+      "hi": "कारतूस Master",
+      "en": "कारतूस Master"
+    },
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

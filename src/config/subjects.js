@@ -90,6 +90,22 @@ export const SUBJECTS = [
     // one "Hindi" subject would show both courses' chapters in one list.
     available: true,
   },
+  {
+    slug: 'hindi-b',
+    metaSubject: 'Hindi Course B',
+    classLabel: 'Class 10',
+    subjectLabel: 'Hindi (Course B)',
+    icon: '📚',
+    color: '#E8650A',
+    // Course B = Sparsh (poetry+prose) + Sanchayan, for second-language
+    // students. chapter-86 to chapter-99 scaffolded (meta.json only) per
+    // the CBSE 2026-27 roadmap: Sparsh poetry 6 + prose 5, Sanchayan 3.
+    // NOTE on Sparsh Prose (chapter-92 to chapter-96): only "Girgit" being
+    // dropped is confirmed from an authoritative source; the other 2 of
+    // the original 8 prose chapters being cut (to reach 5 retained) is a
+    // best-effort call, not fully verified — flag for confirmation.
+    available: true,
+  },
 ];
 
 export function getSubjectBySlug(slug) {
