@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getChapterById, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import QuizEngine from '../components/QuizEngine';
-import { localizeQuestions, langCode } from '../utils/i18n';
+import { localizeQuestions, langCode, t } from '../utils/i18n';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -54,7 +54,7 @@ export default function Practice() {
     <div className="pb-24 px-4 pt-6">
       <button onClick={() => navigate(-1)} className="text-[13px] text-[var(--color-muted)] mb-3">← Back</button>
       <h1 className="font-display font-bold text-2xl mb-1">Practice</h1>
-      <p className="text-[13px] text-[var(--color-muted)] mb-5">{chapter.title} · unlimited questions, shuffled every time.</p>
+      <p className="text-[13px] text-[var(--color-muted)] mb-5">{t(chapter.title, lang)} · unlimited questions, shuffled every time.</p>
 
       {pool.length === 0 ? (
         <p className="text-[13px] text-[var(--color-muted)] text-center py-10">Is chapter ke liye practice questions abhi authored nahi hue.</p>

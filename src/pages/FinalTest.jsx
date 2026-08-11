@@ -5,7 +5,7 @@ import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
 import { requiresPayment } from '../App';
 import QuizEngine from '../components/QuizEngine';
-import { localizeQuestions, langCode } from '../utils/i18n';
+import { localizeQuestions, langCode, t } from '../utils/i18n';
 
 function gradeFor(percent) {
   if (percent >= 90) return 'A1';
@@ -54,7 +54,7 @@ export default function FinalTest() {
       <div className="px-6 pt-10 pb-24 text-center">
         <div className="text-6xl mb-4">{result.grade === 'Needs Improvement' ? '📘' : '🏆'}</div>
         <h1 className="font-display font-bold text-2xl mb-1">Report Card</h1>
-        <p className="text-[13px] text-[var(--color-muted)] mb-6">{chapter.title} · Board Pattern Test</p>
+        <p className="text-[13px] text-[var(--color-muted)] mb-6">{t(chapter.title, lang)} · Board Pattern Test</p>
         <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-6 mb-6">
           <div className="flex justify-around mb-4">
             <div>
@@ -103,7 +103,7 @@ export default function FinalTest() {
       <div className="px-6 pt-10 pb-24 text-center">
         <div className="text-6xl mb-4">🏆</div>
         <h1 className="font-display font-bold text-2xl mb-1">Final Test</h1>
-        <p className="text-[13px] text-[var(--color-muted)] mb-6">{chapter.title} · Board exam pattern, timed questions</p>
+        <p className="text-[13px] text-[var(--color-muted)] mb-6">{t(chapter.title, lang)} · Board exam pattern, timed questions</p>
         <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-5 mb-6 text-left space-y-2">
           <p className="text-[13px] flex justify-between"><span className="text-[var(--color-muted)]">Questions</span><span className="font-mono">{questions.length}</span></p>
           <p className="text-[13px] flex justify-between"><span className="text-[var(--color-muted)]">Total Marks</span><span className="font-mono">{totalMarks}</span></p>

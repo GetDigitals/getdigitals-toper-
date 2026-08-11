@@ -2,13 +2,15 @@ import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllChapters, getLessonsForChapter } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
+import { t, langCode } from '../utils/i18n';
 import { useAuth } from '../store/AuthContext';
 import TopStatsBar from '../components/TopStatsBar';
 import { ACHIEVEMENTS } from '../services/achievements';
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const { progress } = useProgress();
+  const { progress, settings } = useProgress();
+  const lang = langCode(settings.language);
   const { profile } = useAuth();
   const chapters = useMemo(() => getAllChapters(), []);
 
@@ -54,7 +56,7 @@ export default function Dashboard() {
               return (
                 <div key={ch.id}>
                   <div className="flex justify-between text-[12px] mb-1">
-                    <span className="text-[var(--color-cream)]">{ch.title}</span>
+                    <span className="text-[var(--color-cream)]">{t(ch.title, lang)}</span>
                     <span className="text-[var(--color-muted)] font-mono">{done}/{lessons.length}</span>
                   </div>
                   <div className="h-1.5 rounded-full bg-[var(--color-surface-raised)] overflow-hidden">

@@ -43,7 +43,7 @@ export default function Revision() {
     <div className="pb-24 px-4 pt-6">
       <button onClick={() => navigate(-1)} className="text-[13px] text-[var(--color-muted)] mb-3">← Back</button>
       <h1 className="font-display font-bold text-2xl mb-1">Revision</h1>
-      <p className="text-[13px] text-[var(--color-muted)] mb-4">{chapter.title}</p>
+      <p className="text-[13px] text-[var(--color-muted)] mb-4">{t(chapter.title, lang)}</p>
 
       <div className="flex gap-2 mb-5 overflow-x-auto pb-1">
         {TABS.map((t) => (

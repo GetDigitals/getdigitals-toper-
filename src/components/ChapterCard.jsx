@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import { useProgress } from '../store/ProgressContext';
+import { t, langCode } from '../utils/i18n';
 
 /**
  * `unlocked` = sequential progress unlock (finished the previous chapter).
@@ -10,6 +12,8 @@ import { useNavigate } from 'react-router-dom';
  */
 export default function ChapterCard({ chapter, index, unlocked, paymentLocked = false, progressPercent = 0 }) {
   const navigate = useNavigate();
+  const { settings } = useProgress();
+  const lang = langCode(settings.language);
   const num = String(chapter.order ?? index + 1).padStart(2, '0');
   const accessible = unlocked; // progress-wise reachable (payment is checked separately)
 
@@ -43,7 +47,7 @@ export default function ChapterCard({ chapter, index, unlocked, paymentLocked = 
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
             <span className="font-mono text-[11px] text-[var(--color-muted-2)]">{num}</span>
-            <h3 className="font-display font-semibold text-[15px] truncate">{chapter.title}</h3>
+            <h3 className="font-display font-semibold text-[15px] truncate">{t(chapter.title, lang)}</h3>
           </div>
           <p className="text-[12px] text-[var(--color-muted)] mt-0.5">
             {paymentLocked ? 'Payment se unlock hoga' : `${chapter.lessonCount} lessons · ${chapter.xpReward} XP`}
