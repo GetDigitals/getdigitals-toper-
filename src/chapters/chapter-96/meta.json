@@ -1,0 +1,21 @@
+{
+  "id": "chapter-96",
+  "order": 11,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "अब कहाँ दूसरे के दुख से दुखी होने वाले",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "स्पर्श — निर्मल वर्मा। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-96-master",
+    "name": "अब कहाँ दूसरे के दुख से दुखी होने वाले Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

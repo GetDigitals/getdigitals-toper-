@@ -1,0 +1,21 @@
+{
+  "id": "chapter-92",
+  "order": 7,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "बड़े भाई साहब",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "स्पर्श — प्रेमचंद। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-92-master",
+    "name": "बड़े भाई साहब Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

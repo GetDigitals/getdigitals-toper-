@@ -1,0 +1,21 @@
+{
+  "id": "chapter-87",
+  "order": 2,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "पद",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "स्पर्श — मीराबाई। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-87-master",
+    "name": "पद Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-74",
+  "order": 4,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "उत्साह और अट नहीं रही",
+  "icon": "🪈",
+  "color": "#9B59B6",
+  "description": "क्षितिज — सूर्यकांत त्रिपाठी 'निराला'। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-74-master",
+    "name": "उत्साह और अट नहीं रही Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

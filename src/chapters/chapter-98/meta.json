@@ -1,0 +1,21 @@
+{
+  "id": "chapter-98",
+  "order": 13,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "सपनों के-से दिन (संचयन)",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "संचयन — गुरदयाल सिंह। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-98-master",
+    "name": "सपनों के-से दिन (संचयन) Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-84",
+  "order": 14,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "सना-सना हाथ जोड़ि...",
+  "icon": "🪈",
+  "color": "#9B59B6",
+  "description": "कृतिका — मधुकर उपाध्याय (कृतिका)। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-84-master",
+    "name": "सना-सना हाथ जोड़ि... Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

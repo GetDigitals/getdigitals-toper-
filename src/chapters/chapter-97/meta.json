@@ -1,0 +1,21 @@
+{
+  "id": "chapter-97",
+  "order": 12,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "हरिहर काका (संचयन)",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "संचयन — मिथिलेश्वर। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-97-master",
+    "name": "हरिहर काका (संचयन) Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

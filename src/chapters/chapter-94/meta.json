@@ -1,0 +1,21 @@
+{
+  "id": "chapter-94",
+  "order": 9,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "तताँरा-वामीरो कथा",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "स्पर्श — लीलाधर मंडलोई। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-94-master",
+    "name": "तताँरा-वामीरो कथा Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

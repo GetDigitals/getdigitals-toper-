@@ -1,0 +1,21 @@
+{
+  "id": "chapter-75",
+  "order": 5,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "यह दंतुरहित मुस्कान और फसल",
+  "icon": "🪈",
+  "color": "#9B59B6",
+  "description": "क्षितिज — नागार्जुन। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-75-master",
+    "name": "यह दंतुरहित मुस्कान और फसल Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

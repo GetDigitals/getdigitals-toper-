@@ -1,0 +1,21 @@
+{
+  "id": "chapter-90",
+  "order": 5,
+  "class": 10,
+  "subject": "Hindi Course B",
+  "board": "CBSE",
+  "title": "तोप",
+  "icon": "📜",
+  "color": "#B983D6",
+  "description": "स्पर्श — वीरेन डंगवाल। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-90-master",
+    "name": "तोप Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

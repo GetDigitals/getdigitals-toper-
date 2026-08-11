@@ -1,0 +1,21 @@
+{
+  "id": "chapter-78",
+  "order": 8,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "बालगोबिन भगत",
+  "icon": "🪈",
+  "color": "#9B59B6",
+  "description": "क्षितिज — रामवृक्ष बेनीपुरी। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-78-master",
+    "name": "बालगोबिन भगत Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chapter-83",
+  "order": 13,
+  "class": 10,
+  "subject": "Hindi Course A",
+  "board": "CBSE",
+  "title": "माता का आँचल",
+  "icon": "🪈",
+  "color": "#9B59B6",
+  "description": "कृतिका — शिवपूजन सहाय (कृतिका)। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 200,
+  "coinReward": 48,
+  "badge": {
+    "id": "chapter-83-master",
+    "name": "माता का आँचल Master",
+    "icon": "🏅"
+  },
+  "unlockRule": {
+    "type": "sequential"
+  }
+}

@@ -34,8 +34,11 @@ the same folder:**
 | English | chapter-15 – chapter-34 | chapter-15,16 authored, rest placeholder |
 | Science | chapter-35 – chapter-47 | chapter-35 authored, rest placeholder |
 | Social Science | chapter-48 – chapter-69 | all placeholder (5 History + 7 Geography + 5 Political Science + 5 Economics) |
+| Computer Applications | chapter-70 | chapter-70 authored (Unit 1: Networking) |
+| Hindi Course A | chapter-71 – chapter-85 | chapter-71,72 authored (Kshitij: Surdas, Tulsidas), rest placeholder |
+| Hindi Course B | chapter-86 – chapter-99 | all placeholder (Sparsh 6 poetry + 5 prose + Sanchayan 3) |
 
-Next free number for a new subject: **chapter-70**.
+Next free number for a new subject: **chapter-100**.
 
 The folder name and the `order` field serve two completely different
 purposes — don't confuse them:
