@@ -4,15 +4,18 @@
   "class": 10,
   "subject": "Hindi Course B",
   "board": "CBSE",
-  "title": "पर्वत प्रदेश में पावस",
+  "title": "तोप",
   "icon": "📜",
-  "color": "#B983D6",
-  "description": "स्पर्श — सुमित्रानंदन पंत। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "color": "#4FA8FF",
+  "description": "तोप (Viren Dangwal) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-89-master",
-    "name": "पर्वत प्रदेश में पावस Master",
+    "name": {
+      "hi": "तोप Master",
+      "en": "तोप Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

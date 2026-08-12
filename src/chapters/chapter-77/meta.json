@@ -5,14 +5,17 @@
   "subject": "Hindi Course A",
   "board": "CBSE",
   "title": "नेताजी का चश्मा",
-  "icon": "🪈",
-  "color": "#9B59B6",
-  "description": "क्षितिज — स्वयं प्रकाश। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "icon": "📖",
+  "color": "#FFC93C",
+  "description": "नेताजी का चश्मा (Swayam Prakash) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-77-master",
-    "name": "नेताजी का चश्मा Master",
+    "name": {
+      "hi": "नेताजी का चश्मा Master",
+      "en": "नेताजी का चश्मा Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

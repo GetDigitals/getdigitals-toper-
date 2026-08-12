@@ -5,14 +5,17 @@
   "subject": "Hindi Course A",
   "board": "CBSE",
   "title": "संस्कृति",
-  "icon": "🪈",
-  "color": "#9B59B6",
-  "description": "क्षितिज — भदंत आनंद कौसल्यायन। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "icon": "📖",
+  "color": "#4FA8FF",
+  "description": "संस्कृति (Bhadant Anand Kausalyayan) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-82-master",
-    "name": "संस्कृति Master",
+    "name": {
+      "hi": "संस्कृति Master",
+      "en": "संस्कृति Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

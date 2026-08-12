@@ -4,15 +4,18 @@
   "class": 10,
   "subject": "Hindi Course B",
   "board": "CBSE",
-  "title": "मनुष्यता",
+  "title": "पर्वत प्रदेश में पावस",
   "icon": "📜",
-  "color": "#B983D6",
-  "description": "स्पर्श — मैथिलीशरण गुप्त। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "color": "#35C97F",
+  "description": "पर्वत प्रदेश में पावस (Sumitranandan Pant) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-88-master",
-    "name": "मनुष्यता Master",
+    "name": {
+      "hi": "पर्वत प्रदेश में पावस Master",
+      "en": "पर्वत प्रदेश में पावस Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

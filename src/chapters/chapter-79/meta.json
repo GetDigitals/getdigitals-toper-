@@ -5,14 +5,17 @@
   "subject": "Hindi Course A",
   "board": "CBSE",
   "title": "लखनवी अंदाज़",
-  "icon": "🪈",
+  "icon": "📖",
   "color": "#9B59B6",
-  "description": "क्षितिज — यशपाल। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "description": "लखनवी अंदाज़ (Yashpal) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-79-master",
-    "name": "लखनवी अंदाज़ Master",
+    "name": {
+      "hi": "लखनवी अंदाज़ Master",
+      "en": "लखनवी अंदाज़ Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

@@ -5,14 +5,17 @@
   "subject": "Hindi Course A",
   "board": "CBSE",
   "title": "उत्साह और अट नहीं रही",
-  "icon": "🪈",
-  "color": "#9B59B6",
-  "description": "क्षितिज — सूर्यकांत त्रिपाठी 'निराला'। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "icon": "📜",
+  "color": "#E8650A",
+  "description": "उत्साह और अट नहीं रही (Suryakant Tripathi 'Nirala') — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-74-master",
-    "name": "उत्साह और अट नहीं रही Master",
+    "name": {
+      "hi": "उत्साह और अट नहीं रही Master",
+      "en": "उत्साह और अट नहीं रही Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

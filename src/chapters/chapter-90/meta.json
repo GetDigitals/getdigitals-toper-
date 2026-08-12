@@ -4,15 +4,18 @@
   "class": 10,
   "subject": "Hindi Course B",
   "board": "CBSE",
-  "title": "तोप",
+  "title": "कर चले हम फ़िदा",
   "icon": "📜",
-  "color": "#B983D6",
-  "description": "स्पर्श — वीरेन डंगवाल। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "color": "#FFC93C",
+  "description": "कर चले हम फ़िदा (Kaifi Azmi) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-90-master",
-    "name": "तोप Master",
+    "name": {
+      "hi": "कर चले हम फ़िदा Master",
+      "en": "कर चले हम फ़िदा Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

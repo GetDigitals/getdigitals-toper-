@@ -5,14 +5,17 @@
   "subject": "Hindi Course A",
   "board": "CBSE",
   "title": "यह दंतुरहित मुस्कान और फसल",
-  "icon": "🪈",
-  "color": "#9B59B6",
-  "description": "क्षितिज — नागार्जुन। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "icon": "📜",
+  "color": "#35C97F",
+  "description": "यह दंतुरहित मुस्कान और फसल (Nagarjun) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-75-master",
-    "name": "यह दंतुरहित मुस्कान और फसल Master",
+    "name": {
+      "hi": "यह दंतुरहित मुस्कान और फसल Master",
+      "en": "यह दंतुरहित मुस्कान और फसल Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

@@ -5,14 +5,17 @@
   "subject": "Hindi Course B",
   "board": "CBSE",
   "title": "तताँरा-वामीरो कथा",
-  "icon": "📜",
-  "color": "#B983D6",
-  "description": "स्पर्श — लीलाधर मंडलोई। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "icon": "📖",
+  "color": "#35C97F",
+  "description": "तताँरा-वामीरो कथा (Leeladhar Mandloi) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-94-master",
-    "name": "तताँरा-वामीरो कथा Master",
+    "name": {
+      "hi": "तताँरा-वामीरो कथा Master",
+      "en": "तताँरा-वामीरो कथा Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

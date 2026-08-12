@@ -4,15 +4,18 @@
   "class": 10,
   "subject": "Hindi Course B",
   "board": "CBSE",
-  "title": "कर चले हम फ़िदा",
+  "title": "आत्मत्राण",
   "icon": "📜",
-  "color": "#B983D6",
-  "description": "स्पर्श — कैफ़ी आज़मी। Content coming soon. Is folder mein lesson-01.json daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
-  "xpReward": 200,
-  "coinReward": 48,
+  "color": "#F2555B",
+  "description": "आत्मत्राण (Rabindranath Tagore) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "xpReward": 150,
+  "coinReward": 35,
   "badge": {
     "id": "chapter-91-master",
-    "name": "कर चले हम फ़िदा Master",
+    "name": {
+      "hi": "आत्मत्राण Master",
+      "en": "आत्मत्राण Master"
+    },
     "icon": "🏅"
   },
   "unlockRule": {

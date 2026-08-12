@@ -35,11 +35,11 @@ export default function ChapterDetail() {
             {chapter.icon}
           </div>
           <div>
-            <h1 className="font-display font-bold text-xl">{chapter.title}</h1>
+            <h1 className="font-display font-bold text-xl">{t(chapter.title, lang)}</h1>
             <p className="text-[12px] text-[var(--color-muted)]">{lessons.length} lessons · {chapter.xpReward} XP total</p>
           </div>
         </div>
-        <p className="text-[13px] text-[var(--color-muted)] mt-3">{chapter.description}</p>
+        <p className="text-[13px] text-[var(--color-muted)] mt-3">{t(chapter.description, lang)}</p>
         <div className="mt-4 h-2 rounded-full bg-[var(--color-surface-raised)] overflow-hidden">
           <div className="h-full rounded-full bg-[var(--color-saffron)] transition-all" style={{ width: `${lessons.length ? (doneCount / lessons.length) * 100 : 0}%` }} />
         </div>

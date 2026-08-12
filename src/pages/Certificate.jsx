@@ -4,12 +4,14 @@ import { getChapterById } from '../services/contentLoader';
 import { useProgress } from '../store/ProgressContext';
 import { slugifySubjectName } from '../config/subjects';
 import { BrandBadge } from '../components/GetDigitalsBrand';
+import { t, langCode } from '../utils/i18n';
 
 export default function Certificate() {
   const { chapterId } = useParams();
   const navigate = useNavigate();
   const chapter = getChapterById(chapterId);
-  const { progress } = useProgress();
+  const { progress, settings } = useProgress();
+  const lang = langCode(settings.language);
   const result = progress.finalTestResults?.[chapterId];
 
   if (!chapter || !result) {
@@ -37,7 +39,7 @@ export default function Certificate() {
           <p className="text-[13px] text-[var(--color-muted)] mb-1">This certifies that</p>
           <h1 className="font-display font-bold text-2xl mb-2">A GetDigitals Topper</h1>
           <p className="text-[13px] text-[var(--color-muted)] mb-4">has successfully completed</p>
-          <h2 className="font-display font-semibold text-lg text-[var(--color-saffron-soft)] mb-4">{chapter.title}</h2>
+          <h2 className="font-display font-semibold text-lg text-[var(--color-saffron-soft)] mb-4">{t(chapter.title, lang)}</h2>
           <div className="flex justify-center gap-6 mb-4">
             <div>
               <p className="font-mono text-xl font-bold text-[var(--color-gold)]">{result.grade}</p>

@@ -104,6 +104,18 @@ export const SUBJECTS = [
     // 3 Sanchayan). Same reasoning as Course A for keeping this a
     // separate metaSubject rather than a sub-selector inside one "Hindi"
     // entry — reuses the existing subject picker/payment gate as-is.
+    // NOTE on Sparsh Prose (chapter-92 to chapter-96): "Girgit" (Chekhov)
+    // being dropped is confirmed from multiple sources. The 5 retained
+    // here are Bade Bhai Sahab, Diary Ka Ek Panna, Tatara-Vamiro Katha,
+    // Teesri Kasam Ke Shilpkar Shailendra, and Kartoos — but "Patjhar
+    // Mein Tooti Pattiyan" and "Ab Kahan Doosre Ke Dukh Se Dukhi Hone
+    // Wale" also show up as current/active in some recent solution
+    // sites, so exactly which 2 of the original 7 remaining prose
+    // chapters were actually cut to reach 5 is NOT independently
+    // confirmed by either session that researched this. Since these are
+    // placeholder-only chapters (no real lesson content yet), this isn't
+    // urgent, but verify against an official CBSE circular before
+    // authoring chapter-92 through 96.
     available: true,
   },
 ];

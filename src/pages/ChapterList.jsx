@@ -5,6 +5,7 @@ import { useProgress } from '../store/ProgressContext';
 import { useAuth } from '../store/AuthContext';
 import { isChapterLocked } from '../App';
 import { getSubjectBySlug, DEFAULT_SUBJECT_SLUG } from '../config/subjects';
+import { t, langCode } from '../utils/i18n';
 import ChapterCard from '../components/ChapterCard';
 
 export default function ChapterList() {
@@ -21,16 +22,17 @@ export default function ChapterList() {
     () => (subjectConfig ? getAllChapters(subjectConfig.metaSubject) : []),
     [subjectConfig]
   );
-  const { progress } = useProgress();
+  const { progress, settings } = useProgress();
   const { isApproved, profile } = useAuth();
   const [query, setQuery] = useState('');
+  const lang = langCode(settings.language);
 
   // Unknown slug in the URL (typo, old bookmark) -> fall back to Maths instead of a blank/broken screen
   if (!subjectConfig) {
     return <Navigate to={`/chapters/${DEFAULT_SUBJECT_SLUG}`} replace />;
   }
 
-  const filtered = chapters.filter((c) => c.title.toLowerCase().includes(query.toLowerCase()));
+  const filtered = chapters.filter((c) => t(c.title, lang).toLowerCase().includes(query.toLowerCase()));
 
   return (
     <div className="pb-24 px-4 pt-6">
@@ -45,21 +47,33 @@ export default function ChapterList() {
         className="w-full bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl px-4 py-2.5 mb-4 text-[14px] placeholder:text-[var(--color-muted-2)]"
       />
       <div className="space-y-2.5">
-        {filtered.map((ch, i) => {
-          const lessons = getLessonsForChapter(ch.id);
-          const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;
-          const pct = lessons.length ? Math.round((done / lessons.length) * 100) : 0;
-          return (
-            <ChapterCard
-              key={ch.id}
-              chapter={ch}
-              index={i}
-              unlocked={true}
-              paymentLocked={isChapterLocked(ch, { isApproved, profile })}
-              progressPercent={pct}
-            />
-          );
-        })}
+        {(() => {
+          let lastUnit = undefined; // undefined = "no unit yet seen" — distinct from a chapter with no unit field
+          return filtered.map((ch, i) => {
+            const unitLabel = ch.unit ? t(ch.unit, lang) : null;
+            const showHeader = unitLabel && unitLabel !== lastUnit;
+            lastUnit = unitLabel;
+            const lessons = getLessonsForChapter(ch.id);
+            const done = lessons.filter((l) => progress.completedLessons?.[l.id]).length;
+            const pct = lessons.length ? Math.round((done / lessons.length) * 100) : 0;
+            return (
+              <div key={ch.id}>
+                {showHeader && (
+                  <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--color-saffron-soft)] mt-5 mb-2 first:mt-0">
+                    📖 {unitLabel}
+                  </p>
+                )}
+                <ChapterCard
+                  chapter={ch}
+                  index={i}
+                  unlocked={true}
+                  paymentLocked={isChapterLocked(ch, { isApproved, profile })}
+                  progressPercent={pct}
+                />
+              </div>
+            );
+          });
+        })()}
         {filtered.length === 0 && chapters.length > 0 && (
           <p className="text-center text-[13px] text-[var(--color-muted)] py-10">Koi chapter nahi mila.</p>
         )}
