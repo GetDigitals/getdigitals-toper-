@@ -1,0 +1,91 @@
+{
+  "chapterId": "chapter-86",
+  "totalMarks": 16,
+  "timerSecondsPerQuestion": 40,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": { "hi": "Kabir kis kaavya-roop mein likhte hain jo is chapter mein hai?", "en": "In which poetic form did Kabir write these verses?" },
+      "options": [
+        { "hi": "चौपाई", "en": "Chaupai" },
+        { "hi": "दोहा", "en": "Doha" },
+        { "hi": "सॉनेट", "en": "Sonnet" },
+        { "hi": "गजल", "en": "Ghazal" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Ye dohe hain — 2 panktiyon ka chhand.", "en": "These are dohas — a 2-line verse form." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Kabir kis dhaara (bhakti tradition) ke kavi mane jaate hain?", "en": "Kabir is considered a poet of which devotional tradition?" },
+      "options": [
+        { "hi": "सगुण भक्ति", "en": "Sagun Bhakti" },
+        { "hi": "निर्गुण भक्ति", "en": "Nirgun Bhakti" },
+        { "hi": "रीति काव्य", "en": "Riti Kavya" },
+        { "hi": "छायावाद", "en": "Chhayavad" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Kabir nirgun bhakti (formless God) ke sabse pramukh kavi hain.", "en": "Kabir is the foremost poet of nirgun bhakti (formless God)." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Doha 4 mein viraha (separation) ko ek saanp se compare kiya gaya hai.", "en": "In doha 4, separation (viraha) is compared to a snake." },
+      "correct": true,
+      "explanation": { "hi": "Sahi — 'बिरह भुवंगम तन बसै' mein viraha ko saanp bataya gaya hai.", "en": "Correct — 'birah bhuvangam tan basai' describes separation as a snake." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Doha 1 mein 'मुकताफल' (moti) kis cheez ka pratik hai?", "en": "In doha 1, 'muktaphal' (pearls) symbolizes what?" },
+      "options": [
+        { "hi": "Dhan-daulat", "en": "Wealth" },
+        { "hi": "Ishwar-gyan/sacchai", "en": "Knowledge of God/truth" },
+        { "hi": "Khaana", "en": "Food" },
+        { "hi": "Ghar", "en": "A house" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Moti sacche Ishwar-gyan ka pratik hain jo hans (aatma) chugte hain.", "en": "Pearls symbolize true knowledge of God, which the swan (soul) pecks at." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Doha 5 mein nindak ko kis cheez se compare kiya gaya hai uski helpful nature ke liye?", "en": "In doha 5, the critic is compared to what for their helpful nature?" },
+      "options": [
+        { "hi": "Ek dushman", "en": "An enemy" },
+        { "hi": "Bina paani-saabun ke shuddhikaran (purification)", "en": "Purification without water or soap" },
+        { "hi": "Ek chor", "en": "A thief" },
+        { "hi": "Ek raja", "en": "A king" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Nindak bina paani-saabun ke bhi hume shuddh (purify) kar deta hai, apni criticism se.", "en": "The critic purifies us without water or soap, through their criticism." }
+    },
+    {
+      "type": "truefalse",
+      "question": { "hi": "Kabir ki bhasha ek hi region ki shuddh bhasha hai, koi mix nahi.", "en": "Kabir's language is a pure single-region language, with no mixing." },
+      "correct": false,
+      "explanation": { "hi": "Galat — Kabir ki bhasha 'sadhukkadi' hai, jo kayi dialects ka mix hai.", "en": "False — Kabir's language is 'sadhukkadi', a mix of several dialects." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Doha 2 mein 'दीपक' (lamp) kis cheez ka pratik hai?", "en": "In doha 2, 'deepak' (lamp) symbolizes what?" },
+      "options": [
+        { "hi": "Ek ghar ki roshni", "en": "A house's light" },
+        { "hi": "Aatma-gyan", "en": "Self-knowledge" },
+        { "hi": "Paisa", "en": "Money" },
+        { "hi": "Ek tyohar", "en": "A festival" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Deepak aatma-gyan ka pratik hai jo andar ke andhkaar (agyanta) ko mitata hai.", "en": "The lamp symbolizes self-knowledge that dispels the darkness of ignorance within." }
+    },
+    {
+      "type": "mcq",
+      "question": { "hi": "Kabir peshe (profession) se kya the?", "en": "What was Kabir's profession?" },
+      "options": [
+        { "hi": "Raja", "en": "A king" },
+        { "hi": "Julaha (weaver)", "en": "A weaver (julaha)" },
+        { "hi": "Sipahi", "en": "A soldier" },
+        { "hi": "Vyapari", "en": "A merchant" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Kabir ek julaha (weaver) the.", "en": "Kabir was a weaver (julaha)." }
+    }
+  ]
+}

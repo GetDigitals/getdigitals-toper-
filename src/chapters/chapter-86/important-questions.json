@@ -1,0 +1,72 @@
+{
+  "chapterId": "chapter-86",
+  "objective": [
+    {
+      "question": { "hi": "Kabir ki rachnaon mein pramukh ras/bhaav kya hai?", "en": "What is the predominant sentiment in Kabir's works?" },
+      "options": [
+        { "hi": "श्रृंगार रस", "en": "Shringar Ras (romantic)" },
+        { "hi": "भक्ति भाव", "en": "Bhakti bhaav (devotional)" },
+        { "hi": "वीर रस", "en": "Veer Ras (heroic)" },
+        { "hi": "हास्य रस", "en": "Hasya Ras (comic)" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Kabir ki rachnaon mein bhakti bhaav pramukh hai — nirgun bhakti ke roop mein.", "en": "Devotional sentiment (bhakti bhaav) dominates Kabir's works, in the nirgun form." }
+    },
+    {
+      "question": { "hi": "Doha 4 mein 'बउरा' shabd ka kya arth hai?", "en": "What does the word 'baura' mean in doha 4?" },
+      "options": [
+        { "hi": "Buddhimaan", "en": "Wise" },
+        { "hi": "Pagal", "en": "Mad/insane" },
+        { "hi": "Dhani", "en": "Wealthy" },
+        { "hi": "Shaant", "en": "Calm" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "'बउरा' ka arth hai pagal — Ram se bichhda hua vyakti jeeta hai to pagal ho jaata hai.", "en": "'Baura' means mad/insane — one separated from Ram, if they live, goes mad." }
+    },
+    {
+      "question": { "hi": "Kabir ke dohon ki bhasha shaili ki khaas baat kya hai?", "en": "What is special about the language style of Kabir's dohas?" },
+      "options": [
+        { "hi": "Bahut jatil (complex) Sanskrit shabd", "en": "Very complex Sanskrit words" },
+        { "hi": "Seedhi, saral, sabtak pahunchne wali bhasha", "en": "Direct, simple language that reaches everyone" },
+        { "hi": "Sirf angrezi shabd", "en": "Only English words" },
+        { "hi": "Kavita mein koi bhasha nahi, sirf sangeet", "en": "No language, just music" }
+      ],
+      "correct": 1,
+      "explanation": { "hi": "Kabir ki bhasha seedhi aur saral hai, jisse unka sandesh aam janta tak aasani se pahunchta hai.", "en": "Kabir's language is direct and simple, letting his message easily reach common people." }
+    }
+  ],
+  "subjective": [
+    {
+      "question": { "hi": "Pehle dohe 'मानसरोवर सुभर जल...' ka bhavarth apne shabdon mein likho.", "en": "Write the meaning of the first doha 'Mansarovar Subhar Jal...' in your own words." },
+      "marks": 3,
+      "answer": {
+        "hi": "Is dohe mein Kabir aatma ki tulna hans se karte hain jo mansarovar (sacche gyan/bhakti ka pratik) mein khelta hai aur moti (Ishwar-gyan) chugta hai. Jab aatma ko ye sacchi santushti mil jaati hai, to woh kahin aur bhatakne se badge hi nahi (ab udi anat na jaahin). Ye dohe batata hai ki sacche gyan/bhakti se mili santushti sthayi (permanent) hoti hai.",
+        "en": "In this doha, Kabir compares the soul to a swan playing in Mansarovar (symbol of true knowledge/devotion), pecking at pearls (knowledge of God). When the soul finds this true contentment, it no longer wishes to wander elsewhere. The doha shows that satisfaction from true knowledge/devotion is permanent."
+      }
+    },
+    {
+      "question": { "hi": "'सुखिया सब संसार है, खाए अरु सोवै। दुखिया दास कबीर है, जागे अरु रोवै॥' — is dohe mein Kabir apni peeda kyun vyakt karte hain?", "en": "In 'Sukhiya sab sansar hai...' why does Kabir express his own sorrow?" },
+      "marks": 3,
+      "answer": {
+        "hi": "Kabir kehte hain ki poori duniya apne sansarik sukhon (khaana-sona) mein magan hai, kisi gehri chinta ke bina. Lekin Kabir khud dukhi hain kyunki woh 'jagrit' (spiritually aware) hain — unhe sansar ki asaliyat, log ki ajnaanta, aur dukh dikhta hai jo baaki logon ko nazar nahi aata. 'Jaagna' yahan literal neend nahi, balki gehri aadhyatmik samajh hai.",
+        "en": "Kabir says the whole world is absorbed in worldly pleasures (eating-sleeping) without deep concern. But Kabir himself is sorrowful because he is 'awake' (spiritually aware) — he sees the world's reality, people's ignorance, and suffering that others cannot see. 'Waking' here is not literal sleep but deep spiritual understanding."
+      }
+    },
+    {
+      "question": { "hi": "Kabir 'nindak' (aalochak) ke prati apna drishtikon kaise vyakt karte hain? Iska practical significance kya hai?", "en": "How does Kabir express his attitude towards the 'nindak' (critic)? What is its practical significance?" },
+      "marks": 4,
+      "answer": {
+        "hi": "Kabir kehte hain nindak ko apne aangan mein hi jagah do — bina paani, bina saabun ke bhi woh humein apni criticism se shuddh (purify) kar deta hai. Ye ek anokha (unusual) drishtikon hai jo criticism ko negative nahi, balki ek gift ki tarah dekhta hai. Practical significance: agar hum apni galtiyan sunne ke liye khule (open) rahein, to hum bina kisi formal effort ke apne aap ko sudhaar sakte hain — self-improvement ka ek natural tarika.",
+        "en": "Kabir says to give the critic a place in your own courtyard — even without water or soap, they purify us through their criticism. This is a unique perspective that sees criticism not as negative but as a gift. Practical significance: if we stay open to hearing our flaws, we can improve ourselves without any formal effort — a natural path to self-improvement."
+      }
+    },
+    {
+      "question": { "hi": "Kabir ke dohon ka kendriya sandesh (central message) kya hai? Kam se kam do dohon ka reference dete hue explain karo.", "en": "What is the central message of Kabir's dohas? Explain with reference to at least two dohas." },
+      "marks": 4,
+      "answer": {
+        "hi": "Kabir ke dohon ka kendriya sandesh hai: sacchi bhakti aur gyan andar (inner) hote hain, bahari dikhawe mein nahi. Doha 2 ('jab main tha tab hari nahi') dikhata hai ki ahankar (ego) tyagna zaroori hai Ishwar-anubhav ke liye. Doha 5 ('nindak niyare rakhiye') sikhaata hai ki aalochna ko positively lekar hum bina kisi bahari ritual ke shuddh ho sakte hain. Dono dohe milkar batate hain ki asli aadhyatmik unnati (spiritual growth) andar se hoti hai, kisi bahari dikhaawe ya ritual se nahi.",
+        "en": "The central message of Kabir's dohas is: true devotion and knowledge come from within, not from outer show. Doha 2 ('when I was there, God wasn't') shows that ego must be abandoned to experience God. Doha 5 ('keep the critic close') teaches that by taking criticism positively, we can purify ourselves without any outer ritual. Together, both dohas show that true spiritual growth happens from within, not through outer show or ritual."
+      }
+    }
+  ]
+}

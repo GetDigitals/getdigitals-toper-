@@ -1,0 +1,256 @@
+{
+  "id": "chapter-86-lesson-01",
+  "chapterId": "chapter-86",
+  "order": 1,
+  "title": {
+    "hi": "साखी — कबीर के 5 दोहे",
+    "en": "Sakhi — 5 Dohas by Kabir"
+  },
+  "estimatedMinutes": 20,
+  "xpReward": 60,
+  "coinReward": 16,
+  "locked": false,
+  "isDemoContent": true,
+  "hero": {
+    "emoji": "🪔",
+    "headline": {
+      "hi": "Ek Julaha Jisne Samaj Ko Aaina Dikhaya 🪔",
+      "en": "A Weaver Who Held Up a Mirror to Society 🪔"
+    },
+    "subtext": {
+      "hi": "Kabir ke 5 dohe — nirgun bhakti, andar ka gyan, aur samaj ki dikhawe wali bhakti par seedha, teekha vaar.",
+      "en": "5 dohas by Kabir — nirgun bhakti, inner knowledge, and a sharp, direct hit on society's superficial devotion."
+    }
+  },
+  "story": {
+    "text": {
+      "hi": "Kabir ek julaha (weaver) the jo na sirf kapda bunte the, balki apne dohon se samaj ki soch ko bhi bunte the. Woh 'nirgun bhakti' ke sabse bade kavi mane jaate hain — matlab unka Ishwar koi ek murti ya form nahi, balki ek nirakar (formless) satya hai jo har jagah, har insaan ke andar hai. Unki bhasha 'sadhukkadi' kehlaati hai — Hindi ke kai dialects (Awadhi, Bhojpuri, Punjabi, Rajasthani) ka mix, kyunki woh ek ghumantu sant the jinhone poore Bharat mein safar kiya. 'साखी' ka matlab hai 'gawah' (witness) — ye dohe khud anubhav (personal experience) ke gawah hain, kisi ne sunaayi hui baat nahi.",
+      "en": "Kabir was a weaver (julaha) who wove not just cloth, but also society's thinking through his dohas. He is considered the greatest poet of 'nirgun bhakti' — meaning his God isn't an idol or form, but a formless (nirakar) truth present everywhere, inside every person. His language is called 'sadhukkadi' — a mix of several Hindi dialects (Awadhi, Bhojpuri, Punjabi, Rajasthani), since he was a wandering saint who traveled across India. 'Sakhi' means 'witness' — these dohas are witnesses to his own personal experience, not something he heard from someone else."
+    }
+  },
+  "explanation": [
+    {
+      "type": "text",
+      "content": {
+        "hi": "पृष्ठभूमि — साखी क्या है:\n📖 'साखी' शब्द संस्कृत के 'साक्षी' (witness/gawah) से बना है — यानी ये दोहे कवि के अपने अनुभव के प्रमाण हैं\n🎭 काव्य रूप: दोहा छंद (2 पंक्तियों का छंद, हर पंक्ति में 13+11 मात्राएँ)\n🗣️ भाषा: सधुक्कड़ी (कई भाषाओं का मिश्रण — अवधी, भोजपुरी, पंजाबी, राजस्थानी)\n💭 विषय: निर्गुण भक्ति, गुरु का महत्व, बाहरी दिखावे की भक्ति की आलोचना, आत्म-ज्ञान",
+        "en": "Background — What is Sakhi:\n📖 'Sakhi' comes from Sanskrit 'sakshi' (witness) — these dohas are proof/evidence of the poet's own experience\n🎭 Poetic form: Doha meter (2-line verse, 13+11 matras per line)\n🗣️ Language: Sadhukkadi (a mix of several languages — Awadhi, Bhojpuri, Punjabi, Rajasthani)\n💭 Themes: Nirgun bhakti, importance of the guru, criticism of superficial/showy devotion, self-knowledge"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "📜 दोहा 1: \"मानसरोवर सुभर जल, हंसा केलि कराहिं।\nमुकताफल मुकता चुगैं, अब उड़ि अनत न जाहिं॥\"\n\nअर्थ: मानसरोवर (एक पवित्र, स्वच्छ झील) पानी से भरा है, उसमें हंस (आत्मा का प्रतीक) क्रीड़ा (khelna) कर रहे हैं। वो मोती (सत्य/ईश्वर का ज्ञान) चुग रहे हैं, अब कहीं और उड़कर नहीं जाना चाहते।\n💡 भावार्थ: मानसरोवर = भक्ति/सच्चा ज्ञान का प्रतीक; हंस = आत्मा; मोती = ईश्वर-ज्ञान। जब आत्मा को सच्चा ज्ञान (मानसरोवर जैसा पवित्र स्थान) मिल जाता है, तो वो कहीं और भटकना बंद कर देती है — पूर्ण संतोष मिल जाता है।",
+        "en": "Dohа 1: \"Mansarovar Subhar Jal, Hansa Keli Karahin...\"\n\nMeaning: Mansarovar (a sacred, pure lake) is full of water, and swans (symbol of the soul) are playing in it. They peck at pearls (truth/knowledge of God), and no longer wish to fly elsewhere.\n💡 Interpretation: Mansarovar = symbol of devotion/true knowledge; Swan = the soul; Pearls = knowledge of God. When the soul finds true knowledge (a sacred place like Mansarovar), it stops wandering elsewhere — it finds complete contentment."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "📜 दोहा 2: \"जब मैं था तब हरि नहीं, अब हरि हैं मैं नाहिं।\nसब अँधियारा मिटि गया, जब दीपक देख्या माहिं॥\"\n\nअर्थ: जब तक मुझमें 'मैं' (अहंकार/ego) था, तब तक ईश्वर (हरि) मुझे महसूस नहीं हुए। अब जब ईश्वर हैं, तो 'मैं' (अहंकार) नहीं रहा। जैसे ही मैंने अपने अंदर दीपक (ज्ञान का प्रकाश) देखा, सारा अँधेरा (अज्ञान) मिट गया।\n💡 भावार्थ: ये दोहा अहंकार (ego) और ईश्वर-प्राप्ति के बीच के विरोध (contradiction) को दिखाता है — जब तक अहंकार है, ईश्वर का अनुभव नहीं हो सकता। आत्म-ज्ञान ही असली दीपक है जो अज्ञान का अँधेरा मिटाता है।",
+        "en": "Doha 2: \"Jab Main Tha Tab Hari Nahin, Ab Hari Hain Main Naahin...\"\n\nMeaning: As long as 'I' (ego) existed within me, I couldn't feel God (Hari). Now that God is present, 'I' (ego) no longer exists. As soon as I saw the lamp (light of knowledge) within me, all darkness (ignorance) vanished.\n💡 Interpretation: This doha shows the contradiction between ego and attaining God — as long as ego exists, God cannot be experienced. Self-knowledge is the true lamp that dispels the darkness of ignorance."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "📜 दोहा 3: \"सुखिया सब संसार है, खाए अरु सोवै।\nदुखिया दास कबीर है, जागे अरु रोवै॥\"\n\nअर्थ: पूरी दुनिया सुखी है — बस खाती है और सोती है (यानी सांसारिक सुखों में मस्त, बिना किसी गहरी चिंता के)। लेकिन कबीर दुखी हैं — वो जागते हैं और रोते हैं।\n💡 भावार्थ: 'जागना' यहाँ शाब्दिक नींद नहीं, बल्कि आध्यात्मिक जागरूकता (spiritual awareness) है। कबीर संसार के दुख-दर्द, अज्ञानता, और लोगों की सतही (superficial) खुशी को देखकर दुखी होते हैं — क्योंकि वो असली सच्चाई देख पाते हैं, जो बाकी लोग नहीं देखते।",
+        "en": "Doha 3: \"Sukhiya Sab Sansar Hai, Khaye Aru Sowai...\"\n\nMeaning: The whole world is happy — it just eats and sleeps (i.e., absorbed in worldly pleasures, without deeper concern). But Kabir, the servant (of God), is sorrowful — he stays awake and weeps.\n💡 Interpretation: 'Waking' here isn't literal sleep, but spiritual awareness. Kabir is sorrowful seeing the world's suffering, ignorance, and people's superficial happiness — because he can see the real truth that others cannot."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "📜 दोहा 4: \"बिरह भुवंगम तन बसै, मंत्र न लागै कोइ।\nराम बियोगी ना जिवै, जिवै तो बउरा होइ॥\"\n\nअर्थ: वियोग (separation) रूपी साँप शरीर में बस गया है, कोई मंत्र इस पर असर नहीं करता। राम (ईश्वर) से बिछड़ा हुआ व्यक्ति जीवित नहीं रह सकता — अगर जीता भी है, तो पागल (बउरा) हो जाता है।\n💡 भावार्थ: ईश्वर से दूरी को एक ज़हरीले साँप के काटने जैसा बताया गया है, जिसका कोई इलाज (मंत्र) नहीं है। ये ईश्वर-प्रेम की तीव्रता (intensity) दिखाता है — भक्त के लिए ईश्वर से बिछड़ना असहनीय पीड़ा है।",
+        "en": "Doha 4: \"Birah Bhuvangam Tan Basai, Mantra Na Laage Koi...\"\n\nMeaning: The snake of separation (viraha) resides in the body, and no mantra works against it. One separated from Ram (God) cannot live — and if they do live, they go mad.\n💡 Interpretation: Distance from God is compared to a poisonous snake bite that has no cure (mantra). This shows the intensity of devotional love — for the devotee, separation from God is unbearable pain."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "📜 दोहा 5: \"निंदक नियरे राखिए, आँगन कुटी छवाय।\nबिन पानी साबुन बिना, निर्मल करे सुभाय॥\"\n\nअर्थ: निंदा करने वाले (आलोचक) को अपने पास ही रखो, उसकी झोपड़ी अपने आँगन में बनवाओ। वो बिना पानी और बिना साबुन के ही, स्वभाव से (सिर्फ अपनी आलोचना से) तुम्हें निर्मल (शुद्ध) बना देता है।\n💡 भावार्थ: ये दोहा एक अनोखी सलाह देता है — आलोचक को दुश्मन नहीं, बल्कि मददगार मानो! जो लोग हमारी बुराइयाँ बताते हैं, वो असल में हमें सुधरने में मदद करते हैं — बिना किसी ritual (पानी/साबुन) के, सिर्फ अपनी बातों से।",
+        "en": "Doha 5: \"Nindak Niyare Rakhiye, Aangan Kuti Chhavaye...\"\n\nMeaning: Keep the critic/slanderer near you, build their hut in your own courtyard. Without water and without soap, they purify your nature just by their nature (i.e., their criticism).\n💡 Interpretation: This doha gives unique advice — don't treat critics as enemies, treat them as helpers! People who point out our flaws actually help us improve — without any ritual (water/soap), just through their words."
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "🎨 काव्य सौंदर्य (Literary Devices) — Exam ke liye Important:\n🔹 रूपक अलंकार: 'बिरह भुवंगम' (viraha ko saanp ka roop diya gaya)\n🔹 प्रतीकात्मकता (Symbolism): हंस=आत्मा, मानसरोवर=सच्चा ज्ञान, दीपक=आत्म-ज्ञान\n🔹 विरोधाभास (Paradox): दोहा 2 mein 'jab main tha tab hari nahi' — ye ek philosophical paradox hai\n🔹 सरल, प्रभावी भाषा: Kabir ki bhasha bilkul seedhi hai, koi jatilta (complexity) nahi — isse unka sandesh sabtak pahunchta hai",
+        "en": "Literary Devices — Important for exams:\n🔹 Rupak Alankar (Metaphor): 'viraha bhuvangam' (separation given the form of a snake)\n🔹 Symbolism: Swan=soul, Mansarovar=true knowledge, Lamp=self-knowledge\n🔹 Paradox: In Doha 2, 'when I was there, God wasn't' — a philosophical paradox\n🔹 Simple, effective language: Kabir's language is completely direct, no complexity — this is why his message reaches everyone"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "hi": "💡 Exam Tip: 'Kabir ke dohon ka mukhya sandesh kya hai?' jaise questions ke liye — hamesha mention karo: (1) Nirgun bhakti aur andar ke gyan ka mahatva (2) Ahankar (ego) ko tyagne ki zaroorat (3) Bahari dikhawe se zyada andar ki sacchai important hai (4) Aalochna ko positively lena chahiye. Har dohe ka symbol/upma zaroor naam se likho — isse extra marks milte hain.",
+        "en": "Exam Tip: For questions like 'What is the central message of Kabir's dohas?' — always mention: (1) The importance of nirgun bhakti and inner knowledge (2) The need to abandon ego (3) Inner truth matters more than outer show (4) Criticism should be taken positively. Always name each doha's symbol/simile — this earns extra marks."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "problem": {
+        "hi": "\"जब मैं था तब हरि नहीं, अब हरि हैं मैं नाहिं\" — is panktee ka bhavarth aur significance samjhao.",
+        "en": "Explain the meaning and significance of the line \"Jab main tha tab hari nahi, ab hari hain main naahin\"."
+      },
+      "steps": [
+        {
+          "hi": "Literal arth: Jab tak 'main' (ego) tha, tab tak Ishwar mehsoos nahi hue. Ab Ishwar hain, to 'main' nahi raha.",
+          "en": "Literal meaning: As long as 'I' (ego) existed, God wasn't felt. Now that God is present, 'I' no longer exists."
+        },
+        {
+          "hi": "Ye ek paradox (virodhabhas) hai jo dikhata hai ki ego aur Ishwar-anubhav ek saath nahi reh sakte",
+          "en": "This is a paradox showing that ego and the experience of God cannot coexist"
+        },
+        {
+          "hi": "Isse Kabir samjha rahe hain ki self-realization ke liye pehle apna 'main' (ahankar) mitana zaroori hai",
+          "en": "Kabir is explaining that to attain self-realization, one must first dissolve their 'I' (ego)"
+        },
+        {
+          "hi": "✅ Exam mein: Ise 'virodhabhas alankar' ke naam se identify karo, aur ahankar-tyaag ke concept se connect karo",
+          "en": "✅ In exams: Identify this as a 'paradox' (virodhabhas alankar) and connect it to the concept of abandoning ego"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "hi": "Kabir 'nindak' (aalochak) ko apne aangan mein rakhne ki salah kyun dete hain?",
+        "en": "Why does Kabir advise keeping the 'critic' (nindak) in one's own courtyard?"
+      },
+      "steps": [
+        {
+          "hi": "Aam taur par log aalochna karne walon ko dushman maante hain aur unse door rehna chahte hain",
+          "en": "Usually people consider critics as enemies and want to stay away from them"
+        },
+        {
+          "hi": "Lekin Kabir ek unique perspective dete hain — aalochak hamari galtiyan batakar hume sudharne mein madad karta hai",
+          "en": "But Kabir offers a unique perspective — the critic helps us improve by pointing out our flaws"
+        },
+        {
+          "hi": "Ye 'bina paani, bina saabun ke shuddhikaran' (purification without water or soap) ki upma is idea ko powerful banati hai",
+          "en": "The comparison to 'purification without water or soap' makes this idea powerful"
+        },
+        {
+          "hi": "✅ Exam mein: Ye ek anokhi (unusual) shiksha hai — self-improvement ke liye criticism ko positively lene ki",
+          "en": "✅ In exams: This is a unique teaching — about taking criticism positively for self-improvement"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "'साखी' shabd kis Sanskrit shabd se bana hai?",
+          "en": "The word 'Sakhi' is derived from which Sanskrit word?"
+        },
+        "options": [
+          { "hi": "सखा (friend)", "en": "Sakha (friend)" },
+          { "hi": "साक्षी (witness)", "en": "Sakshi (witness)" },
+          { "hi": "शक्ति (power)", "en": "Shakti (power)" },
+          { "hi": "साधना (practice)", "en": "Sadhana (practice)" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "'साखी' शब्द 'साक्षी' (witness/gawah) से बना है — ये दोहे कवि के अपने अनुभव के गवाह हैं।",
+          "en": "'Sakhi' comes from 'sakshi' (witness) — these dohas witness the poet's own experience."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "easy",
+        "question": {
+          "hi": "Kabir ki bhasha ko kya kaha jaata hai?",
+          "en": "What is Kabir's language called?"
+        },
+        "options": [
+          { "hi": "ब्रज भाषा", "en": "Braj Bhasha" },
+          { "hi": "सधुक्कड़ी", "en": "Sadhukkadi" },
+          { "hi": "अवधी", "en": "Awadhi" },
+          { "hi": "संस्कृत", "en": "Sanskrit" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Kabir ki bhasha 'sadhukkadi' kehlaati hai — Awadhi, Bhojpuri, Punjabi, Rajasthani jaisi kayi bhashaon ka mix.",
+          "en": "Kabir's language is called 'sadhukkadi' — a mix of languages like Awadhi, Bhojpuri, Punjabi, Rajasthani."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "medium",
+        "question": {
+          "hi": "'मानसरोवर' aur 'हंस' pehle dohe mein kis cheez ka pratik hain?",
+          "en": "What do 'Mansarovar' and 'Hans' (swan) symbolize in the first doha?"
+        },
+        "options": [
+          { "hi": "Mansarovar=sach\u200da gyan, Hans=aatma", "en": "Mansarovar=true knowledge, Hans=the soul" },
+          { "hi": "Mansarovar=paisa, Hans=raja", "en": "Mansarovar=money, Hans=a king" },
+          { "hi": "Dono ka koi symbolic meaning nahi hai", "en": "Neither has symbolic meaning" },
+          { "hi": "Mansarovar=ghar, Hans=parivar", "en": "Mansarovar=home, Hans=family" }
+        ],
+        "correct": 0,
+        "explanation": {
+          "hi": "Mansarovar sacche gyan/bhakti ka pratik hai, aur hans (swan) aatma ka pratik hai jo wahan santosh paati hai.",
+          "en": "Mansarovar symbolizes true knowledge/devotion, and the swan symbolizes the soul that finds contentment there."
+        }
+      },
+      {
+        "type": "truefalse",
+        "difficulty": "medium",
+        "question": {
+          "hi": "Teesre dohe mein Kabir kehte hain ki poori duniya dukhi hai aur woh khud sukhi hain.",
+          "en": "In the third doha, Kabir says the whole world is sorrowful while he himself is happy."
+        },
+        "correct": false,
+        "explanation": {
+          "hi": "Galat — ulta hai: Kabir kehte hain poori duniya sukhi hai (khaana-sona), lekin woh khud dukhi hain (jaagna aur rona), kyunki woh sacchai dekh paate hain.",
+          "en": "False — it's the opposite: Kabir says the whole world is happy (eating-sleeping), but he himself is sorrowful (waking and weeping), because he can see the truth."
+        }
+      },
+      {
+        "type": "mcq",
+        "difficulty": "hard",
+        "question": {
+          "hi": "Panchvein dohe mein Kabir 'nindak' (aalochak) ke baare mein kya salah dete hain?",
+          "en": "In the fifth doha, what advice does Kabir give about the 'nindak' (critic)?"
+        },
+        "options": [
+          { "hi": "Unse door rehna chahiye", "en": "One should stay away from them" },
+          { "hi": "Unhe apne paas rakhna chahiye, kyunki woh humein sudharte hain", "en": "One should keep them close, since they help us improve" },
+          { "hi": "Unse jhagda karna chahiye", "en": "One should fight with them" },
+          { "hi": "Unhe ignore karna chahiye", "en": "One should ignore them" }
+        ],
+        "correct": 1,
+        "explanation": {
+          "hi": "Kabir kehte hain nindak ko apne aangan mein hi rakho — bina paani-saabun ke bhi woh humein shuddh (purify) kar deta hai, apni criticism se.",
+          "en": "Kabir says to keep the critic in your own courtyard — without water or soap, they purify us through their criticism."
+        }
+      }
+    ]
+  },
+  "notes": [
+    { "hi": "Source: कबीर के 5 दोहे, दोहा छंद में", "en": "Source: 5 dohas by Kabir, in doha meter" },
+    { "hi": "Bhasha: सधुक्कड़ी (multiple dialects ka mix)", "en": "Language: Sadhukkadi (mix of multiple dialects)" },
+    { "hi": "Dohe 1: Hans/Mansarovar — sacche gyan mein santosh", "en": "Doha 1: Swan/Mansarovar — contentment in true knowledge" },
+    { "hi": "Dohe 2: Ahankar-tyaag se hi Ishwar-anubhav", "en": "Doha 2: Ego-abandonment leads to God-experience" },
+    { "hi": "Dohe 3: Sansar sukhi (khaata-sota), Kabir dukhi (jaagta-rota)", "en": "Doha 3: World is happy (eats-sleeps), Kabir is sorrowful (wakes-weeps)" },
+    { "hi": "Dohe 4: Viraha = saanp jaisa asahaniya", "en": "Doha 4: Separation = unbearable like a snake" },
+    { "hi": "Dohe 5: Nindak ko paas rakho, woh sudharta hai", "en": "Doha 5: Keep the critic close, they help you improve" },
+    { "hi": "Key Alankar: रूपक, प्रतीकात्मकता, विरोधाभास", "en": "Key Alankar: Metaphor, Symbolism, Paradox" }
+  ],
+  "summary": {
+    "hi": "Kabir ke ye 5 dohe nirgun bhakti, aatma-gyan, aur ahankar-tyaag ka sandesh dete hain — sacchi bhakti bahari dikhave mein nahi, andar ke gyan aur vinamrata (humility, jaise aalochna ko svikaarna) mein hai.",
+    "en": "These 5 dohas by Kabir convey a message of nirgun bhakti, self-knowledge, and abandoning ego — true devotion lies not in outer show, but in inner knowledge and humility (like accepting criticism)."
+  },
+  "reward": {
+    "badge": {
+      "id": "chapter-86-master",
+      "name": {
+        "hi": "Sakhi Master",
+        "en": "Sakhi Master"
+      },
+      "icon": "🏅"
+    }
+  }
+}

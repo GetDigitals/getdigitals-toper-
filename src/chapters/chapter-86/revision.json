@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter-86",
+  "flashcards": [
+    { "front": { "hi": "साखी शब्द का अर्थ", "en": "Meaning of 'Sakhi'" }, "back": { "hi": "साक्षी (witness) — कवि के अपने अनुभव का गवाह", "en": "Witness — testifies to the poet's own experience" } },
+    { "front": { "hi": "Kabir ki bhasha", "en": "Kabir's language" }, "back": { "hi": "सधुक्कड़ी (kayi dialects ka mix)", "en": "Sadhukkadi (a mix of several dialects)" } },
+    { "front": { "hi": "Doha 1 pratik", "en": "Doha 1 symbols" }, "back": { "hi": "Mansarovar=gyan, Hans=aatma, Moti=Ishwar-gyan", "en": "Mansarovar=knowledge, Swan=soul, Pearl=knowledge of God" } },
+    { "front": { "hi": "Doha 2 message", "en": "Doha 2 message" }, "back": { "hi": "Ahankar-tyaag se hi Ishwar-anubhav", "en": "Ego-abandonment leads to God-experience" } },
+    { "front": { "hi": "Doha 3 message", "en": "Doha 3 message" }, "back": { "hi": "Sansar sukhi (khaata-sota), Kabir dukhi (jaagta-rota, sacchai dekh kar)", "en": "World is happy (eats-sleeps), Kabir sorrowful (awake, seeing truth)" } },
+    { "front": { "hi": "Doha 4 pratik", "en": "Doha 4 symbol" }, "back": { "hi": "Viraha = saanp (asahaniya dard)", "en": "Separation = a snake (unbearable pain)" } },
+    { "front": { "hi": "Doha 5 shiksha", "en": "Doha 5 teaching" }, "back": { "hi": "Nindak ko paas rakho, woh sudharta hai", "en": "Keep the critic close, they help you improve" } },
+    { "front": { "hi": "Kabir ka pesha", "en": "Kabir's profession" }, "back": { "hi": "Julaha (weaver)", "en": "Weaver (julaha)" } }
+  ],
+  "formulaSheet": [
+    { "label": { "hi": "Bhakti dhaara", "en": "Devotional tradition" }, "formula": "निर्गुण भक्ति (Nirgun Bhakti)" },
+    { "label": { "hi": "Bhasha", "en": "Language" }, "formula": "सधुक्कड़ी (Sadhukkadi)" },
+    { "label": { "hi": "Chhand", "en": "Meter" }, "formula": "दोहा (Doha — 13+11 matras)" },
+    { "label": { "hi": "Alankar", "en": "Alankar" }, "formula": "रूपक, प्रतीकात्मकता, विरोधाभास" },
+    { "label": { "hi": "Central Theme", "en": "Central Theme" }, "formula": "आत्म-ज्ञान, अहंकार-त्याग, सच्ची भक्ति" }
+  ],
+  "mindMap": {
+    "root": { "hi": "साखी — कबीर", "en": "Sakhi — Kabir" },
+    "branches": [
+      {
+        "label": { "hi": "Doha 1-2: Gyan aur Ahankar", "en": "Doha 1-2: Knowledge and Ego" },
+        "children": [
+          { "hi": "Mansarovar/Hans — sacche gyan mein santosh", "en": "Mansarovar/Swan — contentment in true knowledge" },
+          { "hi": "Ahankar mite to Ishwar-anubhav", "en": "Ego dissolves → God is experienced" }
+        ]
+      },
+      {
+        "label": { "hi": "Doha 3-4: Viraha aur Jagriti", "en": "Doha 3-4: Separation and Awareness" },
+        "children": [
+          { "hi": "Sansar sukhi (achet), Kabir dukhi (jagrit)", "en": "World happy (unaware), Kabir sorrowful (aware)" },
+          { "hi": "Viraha = asahaniya saanp jaisa dard", "en": "Separation = unbearable, snake-like pain" }
+        ]
+      },
+      {
+        "label": { "hi": "Doha 5: Samajik Shiksha", "en": "Doha 5: Social Teaching" },
+        "children": [
+          { "hi": "Nindak ko paas rakho", "en": "Keep the critic close" },
+          { "hi": "Criticism = free self-improvement", "en": "Criticism = free self-improvement" }
+        ]
+      }
+    ]
+  },
+  "rapidFire": [
+    { "question": { "hi": "Saakhi ka arth?", "en": "Meaning of Sakhi?" }, "explanation": { "hi": "Saakshi (witness)", "en": "Witness" } },
+    { "question": { "hi": "Kabir ki bhasha?", "en": "Kabir's language?" }, "explanation": { "hi": "Sadhukkadi", "en": "Sadhukkadi" } },
+    { "question": { "hi": "Doha 3 mein Kabir kaise hain?", "en": "How is Kabir in Doha 3?" }, "explanation": { "hi": "Dukhi, jaagte-rote", "en": "Sorrowful, awake-weeping" } },
+    { "question": { "hi": "Nindak ke saath kya karna chahiye?", "en": "What should be done with the critic?" }, "explanation": { "hi": "Paas rakho", "en": "Keep them close" } },
+    { "question": { "hi": "Kabir ka pesha?", "en": "Kabir's profession?" }, "explanation": { "hi": "Julaha", "en": "Weaver" } }
+  ]
+}

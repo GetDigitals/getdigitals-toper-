@@ -7,14 +7,14 @@
   "title": "साखी",
   "icon": "📜",
   "color": "#9B59B6",
-  "description": "साखी (Kabir) — content coming soon. Is folder mein lesson-01.json, lesson-02.json... daal kar chapter turant live ho jayega, koi code change nahi chahiye.",
+  "description": "Kabir ke 5 dohe — nirgun bhakti, gyan, aur samaj par teekhi tippani. Sparsh Bhag-2 ka pehla kaavya-khand chapter, 2026-27 CBSE syllabus ke hisab se.",
   "xpReward": 150,
   "coinReward": 35,
   "badge": {
     "id": "chapter-86-master",
     "name": {
-      "hi": "साखी Master",
-      "en": "साखी Master"
+      "hi": "Sakhi Master",
+      "en": "Sakhi Master"
     },
     "icon": "🏅"
   },
